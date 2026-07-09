@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets
+wiki-secret.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Obsidian internals (keep app.json etc. but ignore temp)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

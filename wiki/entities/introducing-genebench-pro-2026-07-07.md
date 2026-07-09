@@ -1,0 +1,44 @@
+---
+type: entity
+title: Introducing GeneBench Pro
+description: Introduction to GeneBench Pro — a comprehensive benchmark suite for evaluating AI models on genomic data analysis, protein structure prediction, and drug discovery tasks.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [genebench-pro, genomics, ai-benchmark, bioinformatics, openai, benchmark]
+sources: [raw/articles/introducing-genebench-pro-2026-07-07.md]
+confidence: medium
+links:
+  - [[ai-benchmarks]] — AI model evaluation benchmarks
+  - [[genebench-pro]] — GeneBench Pro benchmark suite
+  - [[bioinformatics]] — Bioinformatics and computational biology
+---
+
+# Introducing GeneBench Pro
+
+## Overview
+
+GeneBench Pro is a comprehensive benchmark suite designed to evaluate AI models on genomic data analysis tasks. It provides standardized evaluations for models working with genomic sequences, protein structures, and drug discovery applications.
+
+## Key Points
+
+- **Benchmark suite**: Comprehensive set of tasks for evaluating AI models in genomics
+- **Genomic tasks**: Variant calling, sequence alignment, feature prediction, and regulatory element identification
+- **Protein tasks**: Structure prediction, function annotation, and interaction mapping
+- **Drug discovery tasks**: Target identification, molecule design, and property prediction
+- **Open access**: Publicly available datasets and evaluation framework
+
+## Significance
+
+GeneBench Pro provides a much-needed standardized framework for evaluating AI models in genomics and biomedicine, enabling better comparison of model capabilities and driving progress in AI-driven biomedical research.
+
+## Related Concepts
+
+- [[ai-benchmarks]] — AI model evaluation benchmarks and frameworks
+- [[genebench-pro]] — GeneBench Pro benchmark suite details
+- [[bioinformatics]] — Bioinformatics and computational biology
+
+## Source
+
+- URL: https://openai.com/index/genebench-pro
+- Blog: OpenAI Blog
+- Ingested: 2026-07-07

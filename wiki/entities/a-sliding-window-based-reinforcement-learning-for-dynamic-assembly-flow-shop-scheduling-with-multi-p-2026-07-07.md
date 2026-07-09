@@ -1,0 +1,57 @@
+---
+type: entity
+title: SWRL — Sliding-Window Reinforcement Learning for Assembly Scheduling
+description: arXiv:2607.02941 — A sliding-window-based reinforcement learning (SWRL) framework for end-to-end online scheduling in flexible assembly flow shop scheduling with complex kitting constraints.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [reinforcement-learning, scheduling, assembly, manufacturing, arxiv, swrl, graph-neural-networks]
+sources: [raw/articles/a-sliding-window-based-reinforcement-learning-for-dynamic-assembly-flow-shop-scheduling-with-multi-p-2026-07-07.md]
+confidence: high
+links:
+  - [[reinforcement-learning]] — Reinforcement learning fundamentals and applications
+  - [[graph-neural-networks]] — Graph neural networks and their applications
+  - [[scheduling-algorithms]] — Scheduling algorithms and optimization
+---
+
+# SWRL — Sliding-Window Reinforcement Learning for Assembly Scheduling
+
+## Overview
+
+**arXiv:2607.02941** — A sliding-window-based reinforcement learning (SWRL) framework for end-to-end online scheduling in the flexible assembly flow shop scheduling problem with complex kitting constraints.
+
+## Authors
+
+Junhao Qiu, Jianjun Liu, Ting Liu, Rongjie Liao, Zhantao Li, Qingfu Zhang
+
+## Key Contributions
+
+### Problem Formulation
+- **Heterogeneous graph-based MDP**: Models the dual-layer kitting structure and tail-product bottleneck dynamics
+- **Sparse reward landscape**: Captures the challenges of dynamic order arrivals and supply dependencies
+
+### SWRL Framework
+1. **Sliding-window filtering**: Filters inactive nodes and prioritizes kitting-critical operations
+2. **Spatiotemporal graph encoding**: Tracks bottleneck shifts across consecutive decision states
+3. **Dynamic action mapping**: Adapts to changing action space under variable topologies with constrained waiting strategy
+
+### Experimental Results
+- Tested on real-world instances from a home appliance manufacturer
+- Consistent tardiness reductions over classical dispatching rules
+- Superior performance compared to existing deep reinforcement learning methods
+- Robust performance across varying resource configurations, order loads, and arrival concentrations
+
+## Significance
+
+This work demonstrates the application of reinforcement learning to real-world manufacturing scheduling problems, showing that graph-based RL approaches can outperform traditional scheduling methods in complex, dynamic environments.
+
+## Related Concepts
+
+- [[reinforcement-learning]] — Reinforcement learning fundamentals and applications
+- [[graph-neural-networks]] — Graph neural networks for structured data
+- [[scheduling-algorithms]] — Scheduling optimization and dispatching rules
+
+## Source
+
+- URL: https://arxiv.org/abs/2607.02941
+- arXiv: 2607.02941 [cs.AI]
+- Ingested: 2026-07-07

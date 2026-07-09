@@ -1,0 +1,55 @@
+---
+type: entity
+title: VERITAS — General-Purpose Replication Tool for Scientific Research
+description: VERITAS is a framework for automating the replication of scientific research findings, using AI agents to execute, verify, and reproduce published studies.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [reproducibility, scientific-research, ai-agents, verification, replication]
+sources: [raw/articles/veritas-towards-a-general-purpose-replication-tool-for-scientific-research-2026-07-07.md]
+confidence: high
+contested: false
+links: [automated-data-readiness-for-scientific-ai-2026-07-07, ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07]
+---
+
+# VERITAS — General-Purpose Replication Tool
+
+## Overview
+
+VERITAS is a framework designed to automate the replication of scientific research. Using AI agents, it executes published studies, verifies results, and identifies potential issues with reproducibility.
+
+## Key Capabilities
+
+### Automated Experiment Execution
+- Parses methodology sections of papers
+- Generates and executes code to reproduce experiments
+- Handles diverse experimental setups (simulations, wet lab protocols, clinical trials)
+
+### Result Verification
+- Compares reproduced results with published findings
+- Statistical significance testing for discrepancies
+- Flags potential issues: p-hacking, selective reporting, data manipulation
+
+### Replication Report Generation
+- Structured reports on replication success/failure
+- Detailed analysis of where and why differences occur
+- Recommendations for improving reproducibility
+
+## Technical Architecture
+
+1. **Paper parser** — Extracts methods, data sources, and evaluation metrics
+2. **Code generator** — Creates executable reproduction code
+3. **Execution engine** — Runs experiments in controlled environments
+4. **Comparison module** — Statistical analysis of reproduced vs. published results
+5. **Report generator** — Human-readable replication reports
+
+## Impact on Scientific Community
+
+- **Crisis mitigation** — Addresses the reproducibility crisis in scientific research
+- **Quality assurance** — Automated verification of published results
+- **Accelerated science** — Faster validation of new findings
+- **Trust building** — Increased confidence in published research
+
+## Related Pages
+
+- [[automated-data-readiness-for-scientific-ai-2026-07-07]] — Data quality automation
+- [[ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07]] — Uncertainty-aware assistance

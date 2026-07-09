@@ -1,0 +1,70 @@
+---
+type: concept
+title: Open-Domain Question Answering
+description: QA systems that answer questions using external knowledge sources (documents, Wikipedia) rather than relying solely on parametric memory.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [nlp, qa, retrieval, open-domain, rag]
+sources: [raw/articles/open-domain-question-answering-2026-07-07.md]
+confidence: high
+contested: false
+links: [controllable-neural-text-generation, model-context-protocol]
+---
+
+# Open-Domain Question Answering
+
+## Overview
+
+Open-domain QA systems answer questions by searching and reasoning over large external knowledge bases (e.g., Wikipedia) rather than relying solely on the model's parametric knowledge. This is the conceptual predecessor to modern RAG systems.
+
+## Two-Stage Architecture
+
+### Retrieval Stage
+1. Encode the question into a dense vector
+2. Search a document index for top-k relevant passages
+3. Return candidate documents
+
+### Reading Stage
+1. Combine question with retrieved passages
+2. Use a reader model to extract or generate the answer
+3. Score and rank candidate answers
+
+## Retrieval Methods
+
+### Dense Retrieval
+- Learn joint embedding space for questions and documents
+- Bi-encoder architecture (DPR — Dense Passage Retriever)
+- Trained with contrastive loss on question-document pairs
+- Fast approximate nearest neighbor search (ANN)
+
+### Sparse Retrieval
+- Traditional BM25 keyword matching
+- No training required
+- Often combined with dense retrieval (hybrid search)
+
+### Cross-Encoder Re-Ranking
+- Cross-encoder evaluates question-document pairs jointly
+- Higher accuracy than bi-encoder but slower
+- Used as a re-ranking step after initial retrieval
+
+## Key Datasets
+
+| Dataset | Domain | Scale |
+|---|---|---|
+| SQuAD | Wikipedia | 100K questions |
+| TriviaQA | General knowledge | 500K questions |
+| Natural Questions | Google search queries | 300K questions |
+| HotpotQA | Multi-hop reasoning | 100K questions |
+| MuSiQue | Complex multi-hop | 20K questions |
+
+## Evolution to RAG
+
+Open-domain QA evolved into modern RAG (Retrieval-Augmented Generation):
+- **Classic ODQA:** Extract answer from retrieved text
+- **Modern RAG:** Generate answers using LLM + retrieved context
+- **Advanced RAG:** HyDE, self-RAG, adaptive retrieval
+
+## Related Pages
+
+- [[controllable-neural-text-generation]] — Controlled generation for QA outputs
+- [[model-context-protocol]] — Protocol for connecting AI to external tools and data

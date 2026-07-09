@@ -1,0 +1,46 @@
+---
+type: entity
+title: Automated Data Readiness for Scientific AI
+description: Research on automated assessment and preparation of datasets for scientific AI applications, ensuring data quality, reproducibility, and compliance.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [data-engineering, scientific-ai, data-quality, reproducibility, automation]
+sources: [raw/articles/automated-data-readiness-for-scientific-ai-2026-07-07.md]
+confidence: high
+contested: false
+links: [veritas-towards-a-general-purpose-replication-tool-for-scientific-research-2026-07-07]
+---
+
+# Automated Data Readiness for Scientific AI
+
+## Overview
+
+This research presents an automated framework for assessing and preparing datasets for scientific AI applications. It addresses the critical bottleneck of data quality and readiness in scientific machine learning.
+
+## Key Components
+
+### Data Readiness Assessment
+- Automated quality checks (completeness, consistency, accuracy)
+- Bias detection across demographic and experimental dimensions
+- Reproducibility verification — can the data produce the same results?
+
+### Data Preparation Pipeline
+- Automated cleaning and normalization
+- Metadata generation and documentation
+- Format standardization for downstream AI training
+
+### Compliance and Ethics
+- Privacy-preserving data handling
+- Usage rights verification
+- Institutional review board (IRB) compliance checking
+
+## Significance for Scientific AI
+
+- **Reproducibility crisis** — Automated checks reduce irreproducible results
+- **AI training quality** — Better data → better models
+- **Regulatory compliance** — Automated compliance reduces legal risk
+- **Acceleration** — Reduces time from data collection to model training
+
+## Related Pages
+
+- [[veritas-towards-a-general-purpose-replication-tool-for-scientific-research-2026-07-07]] — Scientific research replication tool

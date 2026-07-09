@@ -1,0 +1,42 @@
+---
+type: entity
+title: GPT-5.6 Sol — Next Generation Model
+description: Preview of OpenAI's GPT-5.6 Sol model, a next-generation language model with improved reasoning, coding, and agentic capabilities.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [gpt, openai, language-model, sol, next-gen]
+sources: [raw/articles/previewing-gpt-56-sol-a-next-generation-model-2026-07-07.md]
+confidence: high
+contested: false
+links: [openai-and-broadcom-unveil-llm-optimized-inference-chip, how-agents-are-transforming-work]
+---
+
+# GPT-5.6 Sol
+
+## Overview
+
+GPT-5.6 Sol is OpenAI's next-generation language model, building on the GPT-5 family with significant improvements in reasoning, coding, and agentic task execution.
+
+## Key Capabilities
+
+- **Enhanced reasoning** — Improved chain-of-thought and multi-step reasoning
+- **Coding proficiency** — Better code generation, debugging, and architecture design
+- **Agentic capabilities** — Native support for tool use, multi-step workflows
+- **Context window** — Extended context for long-document analysis
+
+## Architecture Notes
+
+- Likely uses mixture-of-experts (MoE) for efficient scaling
+- Optimized inference through collaboration with Broadcom on custom AI chips
+- Trained on expanded, higher-quality datasets
+
+## Implications
+
+- Sets new baseline for general-purpose AI assistants
+- Accelerates adoption of AI agents in enterprise workflows
+- Drives infrastructure investment (see Broadcom chip collaboration)
+
+## Related Pages
+
+- [[openai-and-broadcom-unveil-llm-optimized-inference-chip-2026-07-07]] — Custom inference hardware
+- [[how-agents-are-transforming-work-2026-07-07]] — Enterprise agent adoption

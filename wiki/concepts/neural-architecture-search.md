@@ -1,0 +1,68 @@
+---
+type: concept
+title: Neural Architecture Search
+description: Automated design of neural network architectures using search algorithms, reducing manual engineering and discovering optimal structures.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [ml, nas, auto-ml, architecture-design, efficiency]
+sources: [raw/articles/neural-architecture-search-2026-07-07.md]
+confidence: high
+contested: false
+links: [train-large-neural-networks]
+---
+
+# Neural Architecture Search
+
+## Overview
+
+Neural Architecture Search (NAS) automates the design of neural network architectures using search algorithms, replacing manual architecture engineering with automated optimization.
+
+## Search Space
+
+The space of possible architectures defines:
+- **Operations:** Conv, Pool, Identity, Depthwise-Conv, etc.
+- **Connections:** Sequential, parallel, skip connections
+- **Grid size:** Number of layers, width multiplier
+
+## Search Strategies
+
+### Reinforcement Learning
+- Controller RNN generates architecture descriptions
+- Reward = validation accuracy of trained architecture
+- PPO or policy gradient for optimization
+- Early NAS approach (Zoph & Le, 2017)
+
+### Evolutionary Algorithms
+- Population of architectures evolves over generations
+- Crossover and mutation operators
+- NSGA-II for multi-objective (accuracy + efficiency)
+
+### Gradient-Based Search
+- **DARTS:** Relax discrete choices to continuous weights
+- Jointly optimize architecture parameters and network weights
+- Fast but suffers from stability issues and unfair advantage
+
+### One-Shot NAS
+- Train a supernet containing all possible operations
+- Sample sub-networks during training
+- Architecture weights learned via bi-level optimization
+
+## Key Results
+
+| Architecture | Method | Accuracy (ImageNet) |
+|---|---|---|
+| NASNet | RL | 82.7% |
+| MnasNet | Latency-aware NAS | 74% @ 60ms |
+| EfficientNet | Compound scaling NAS | SOTA across all scales |
+| ProxylessNAS | Hardware-aware NAS | Custom hardware targets |
+
+## NAS for LLMs
+
+NAS has been applied to:
+- **Transformer variants** — attention head count, FFN dimensions
+- **MoE routing** — optimal expert count and routing strategy
+- **Layer selection** — which layers to skip for efficiency
+
+## Related Pages
+
+- [[train-large-neural-networks]] — Training considerations for large architectures

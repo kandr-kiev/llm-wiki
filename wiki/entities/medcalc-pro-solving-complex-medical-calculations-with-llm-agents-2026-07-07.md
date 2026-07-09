@@ -1,0 +1,50 @@
+---
+type: entity
+title: MedCalc Pro — Solving Complex Medical Calculations with LLM Agents
+description: Application of LLM agents for complex medical calculations, dosage computations, and clinical decision support in healthcare settings.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [healthcare, medical-calculation, clinical-decision-support, llm-agents, safety]
+sources: [raw/articles/medcalc-pro-solving-complex-medical-calculations-with-llm-agents-2026-07-07.md]
+confidence: high
+contested: false
+links: [reducing-toxicity-in-language-models, ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07]
+---
+
+# MedCalc Pro
+
+## Overview
+
+MedCalc Pro applies LLM agents to complex medical calculations, including dosage computations, clinical risk scores, and treatment protocol recommendations. Designed as a clinical decision support tool with rigorous accuracy requirements.
+
+## Key Capabilities
+
+- **Dosage calculations** — Weight-based, renal-adjusted, pediatric dosing
+- **Clinical risk scores** — CHA₂DS₂-VASc, APACHE II, SOFA, and others
+- **Drug interaction checking** — Real-time medication reconciliation
+- **Treatment protocol guidance** — Evidence-based pathway recommendations
+
+## Safety Architecture
+
+- **Verification layer:** Every calculation verified against established references
+- **Uncertainty gating:** Model asks for clarification when input is ambiguous
+- **Audit trail:** Complete log of all calculations and reasoning steps
+- **Human-in-the-loop:** Final approval required before clinical use
+
+## Technical Approach
+
+1. **Structured input parsing** — Extract clinical parameters from unstructured notes
+2. **Calculation engine** — LLM generates calculation steps with verification
+3. **Reference lookup** — Cross-checks against drug databases and guidelines
+4. **Output formatting** — Clinically standardized presentation
+
+## Significance
+
+- Demonstrates LLM agents in high-stakes, regulated domains
+- Balances automation with safety-critical verification
+- Model for other vertical agent applications
+
+## Related Pages
+
+- [[reducing-toxicity-in-language-models]] — Safety in AI systems
+- [[ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07]] — Uncertainty-aware assistance

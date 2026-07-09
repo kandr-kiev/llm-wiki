@@ -1,0 +1,44 @@
+---
+type: entity
+title: GeneBench Pro — AI Benchmark for Genomic AI
+description: OpenAI's GeneBench Pro benchmark for evaluating AI models on genomic data analysis tasks, including variant calling, protein structure prediction, and drug discovery applications.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [genebench-pro, genomics, ai-benchmark, bioinformatics, drug-discovery, openai]
+sources: [raw/articles/inside-genebench-pro-2026-07-07.md]
+confidence: medium
+links:
+  - [[ai-benchmarks]] — AI model evaluation benchmarks
+  - [[bioinformatics]] — Bioinformatics and computational biology
+  - [[drug-discovery]] — AI in drug discovery and development
+---
+
+# GeneBench Pro — AI Benchmark for Genomic AI
+
+## Overview
+
+GeneBench Pro is OpenAI's benchmark suite for evaluating AI models on genomic data analysis tasks. It provides standardized evaluations for models working with genomic sequences, protein structures, and drug discovery pipelines.
+
+## Key Points
+
+- **Genomic analysis**: Benchmark tasks for variant calling, sequence alignment, and genomic feature prediction
+- **Protein structure**: Evaluation of AI models on protein folding and structure prediction
+- **Drug discovery**: Benchmark for AI-driven drug target identification and molecule design
+- **Standardized evaluation**: Consistent metrics for comparing AI model performance across genomic tasks
+- **Open dataset**: Publicly available genomic datasets for reproducibility
+
+## Significance
+
+GeneBench Pro represents a significant step toward standardized evaluation of AI models in genomics and biomedicine. It provides a common framework for comparing model performance and advancing the field of AI-driven biomedical research.
+
+## Related Concepts
+
+- [[ai-benchmarks]] — AI model evaluation benchmarks and evaluation frameworks
+- [[bioinformatics]] — Bioinformatics and computational biology
+- [[drug-discovery]] — AI applications in drug discovery
+
+## Source
+
+- URL: https://openai.com/index/genebench-pro/case-studies
+- Blog: OpenAI Blog
+- Ingested: 2026-07-07

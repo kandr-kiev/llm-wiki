@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local LLM Wiki — Architecture Diagram</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'JetBrains Mono', monospace;
+      background: #020617;
+      min-height: 100vh;
+      padding: 2rem;
+      color: white;
+    }
+    .container { max-width: 1400px; margin: 0 auto; }
+    .header { margin-bottom: 2rem; }
+    .header-row { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }
+    .pulse-dot {
+      width: 12px; height: 12px; background: #22d3ee; border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+    h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; }
+    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-left: 1.75rem; }
+    .diagram-container {
+      background: rgba(15, 23, 42, 0.5); border-radius: 1rem;
+      border: 1px solid #1e293b; padding: 1.5rem; overflow-x: auto;
+    }
+    svg { width: 100%; min-width: 1200px; display: block; }
+    .cards {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem; margin-top: 2rem;
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.5); border-radius: 0.75rem;
+      border: 1px solid #1e293b; padding: 1.25rem;
+    }
+    .card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .card-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .card-dot.cyan { background: #22d3ee; }
+    .card-dot.emerald { background: #34d399; }
+    .card-dot.violet { background: #a78bfa; }
+    .card-dot.amber { background: #fbbf24; }
+    .card-dot.rose { background: #fb7185; }
+    .card h3 { font-size: 0.875rem; font-weight: 600; }
+    .card ul { list-style: none; color: #94a3b8; font-size: 0.75rem; }
+    .card li { margin-bottom: 0.375rem; }
+    .footer { text-align: center; margin-top: 1.5rem; color: #475569; font-size: 0.75rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-row">
+        <div class="pulse-dot"></div>
+        <h1>Local LLM Wiki — Architecture</h1>
+      </div>
+      <p class="subtitle">Three-layer knowledge base: Raw Sources → Synthesized Wiki → Schema &amp; Operations</p>
+    </div>
+
+    <!-- Main Diagram -->
+    <div class="diagram-container">
+      <svg viewBox="0 0 1260 920">
+        <!-- Definitions -->
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
+          </marker>
+          <marker id="arrowhead-cyan" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#22d3ee" />
+          </marker>
+          <marker id="arrowhead-emerald" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#34d399" />
+          </marker>
+          <marker id="arrowhead-violet" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#a78bfa" />
+          </marker>
+          <marker id="arrowhead-amber" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#fbbf24" />
+          </marker>
+          <marker id="arrowhead-rose" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#fb7185" />
+          </marker>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+          </pattern>
+          <!-- Layer 1 Gradient -->
+          <linearGradient id="layer1-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(120,53,15,0.08)"/>
+            <stop offset="100%" stop-color="rgba(120,53,15,0.02)"/>
+          </linearGradient>
+          <!-- Layer 2 Gradient -->
+          <linearGradient id="layer2-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(6,78,59,0.08)"/>
+            <stop offset="100%" stop-color="rgba(6,78,59,0.02)"/>
+          </linearGradient>
+          <!-- Layer 3 Gradient -->
+          <linearGradient id="layer3-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(76,29,149,0.08)"/>
+            <stop offset="100%" stop-color="rgba(76,29,149,0.02)"/>
+          </linearGradient>
+        </defs>
+
+        <!-- Background Grid -->
+        <rect width="100%" height="100%" fill="url(#grid)" />
+
+        <!-- =================================================================
+             LAYER 1 — RAW SOURCES (Top, amber)
+             ================================================================= -->
+        <rect x="30" y="30" width="1200" height="180" rx="12" fill="url(#layer1-grad)" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="8,4"/>
+        <text x="48" y="52" fill="#fbbf24" font-size="11" font-weight="700">LAYER 1 — RAW SOURCES (Immutable)</text>
+        <text x="48" y="66" fill="#94a3b8" font-size="8">Path: raw/ — Preserved external sources as immutable evidence. SHA256 stored on ingest.</text>
+
+        <!-- External Sources -->
+        <rect x="50" y="82" width="120" height="55" rx="6" fill="rgba(30,41,59,0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="110" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">External</text>
+        <text x="110" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">Sources</text>
+        <text x="110" y="128" fill="#94a3b8" font-size="7" text-anchor="middle">URL / PDF / Paste</text>
+
+        <!-- Ingest Agent -->
+        <rect x="210" y="82" width="120" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="270" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Ingest</text>
+        <text x="270" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">curl / scrape</text>
+        <text x="270" y="128" fill="#fbbf24" font-size="7" text-anchor="middle">sha256 + date</text>
+
+        <!-- Raw Articles -->
+        <rect x="400" y="82" width="110" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="455" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw</text>
+        <text x="455" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">Articles</text>
+        <text x="455" y="128" fill="#fbbf24" font-size="7" text-anchor="middle">raw/articles/</text>
+
+        <!-- Raw Papers -->
+        <rect x="530" y="82" width="110" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="585" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw</text>
+        <text x="585" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">Papers</text>
+        <text x="585" y="128" fill="#fbbf24" font-size="7" text-anchor="middle">raw/papers/</text>
+
+        <!-- Raw Transcripts -->
+        <rect x="660" y="82" width="120" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="720" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw</text>
+        <text x="720" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">Transcripts</text>
+        <text x="720" y="128" fill="#fbbf24" font-size="7" text-anchor="middle">raw/transcripts/</text>
+
+        <!-- Raw Assets -->
+        <rect x="800" y="82" width="110" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="855" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw</text>
+        <text x="855" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">Assets</text>
+        <text x="855" y="128" fill="#fbbf24" font-size="7" text-anchor="middle">raw/assets/</text>
+
+        <!-- Cron Trigger -->
+        <rect x="940" y="82" width="110" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="995" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Cron</text>
+        <text x="995" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">every 30m</text>
+        <text x="995" y="128" fill="#fbbf24" font-size="7" text-anchor="middle">detect new</text>
+
+        <!-- Assets -->
+        <rect x="1070" y="82" width="110" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="1125" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw</text>
+        <text x="1125" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">Assets</text>
+        <text x="1125" y="128" fill="#fbbf24" font-size="7" text-anchor="middle">raw/assets/</text>
+
+        <!-- Arrows Layer 1 -->
+        <line x1="170" y1="110" x2="208" y2="110" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrowhead-amber)"/>
+        <text x="189" y="104" fill="#fbbf24" font-size="7" text-anchor="middle">fetch</text>
+        <line x1="330" y1="110" x2="398" y2="110" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrowhead-amber)"/>
+        <text x="364" y="104" fill="#fbbf24" font-size="7" text-anchor="middle">store</text>
+        <line x1="510" y1="110" x2="528" y2="110" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="640" y1="110" x2="658" y2="110" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="780" y1="110" x2="798" y2="110" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="910" y1="110" x2="938" y2="110" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="1050" y1="110" x2="1068" y2="110" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <!-- Cron arrow down -->
+        <line x1="995" y1="137" x2="995" y2="210" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#arrowhead-amber)"/>
+        <text x="1008" y="178" fill="#fbbf24" font-size="7">30m</text>
+
+        <!-- =================================================================
+             LAYER 2 — WIKI PAGES (Middle, emerald)
+             ================================================================= -->
+        <rect x="30" y="220" width="1200" height="380" rx="12" fill="url(#layer2-grad)" stroke="#34d399" stroke-width="1.5" stroke-dasharray="8,4"/>
+        <text x="48" y="242" fill="#34d399" font-size="11" font-weight="700">LAYER 2 — WIKI PAGES (Synthesized Knowledge)</text>
+        <text x="48" y="256" fill="#94a3b8" font-size="8">Path: wiki/ — Mutable, cross-linked, agent-maintained knowledge base.</text>
+
+        <!-- Raw → Synthesize arrow -->
+        <line x1="455" y1="210" x2="455" y2="218" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrowhead-amber)"/>
+        <text x="470" y="216" fill="#fbbf24" font-size="7">raw</text>
+
+        <!-- Agent Orchestrator (center) -->
+        <rect x="380" y="270" width="180" height="100" rx="8" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="2"/>
+        <text x="470" y="292" fill="white" font-size="12" font-weight="700" text-anchor="middle">Hermes Agent</text>
+        <text x="470" y="308" fill="#94a3b8" font-size="8" text-anchor="middle">Orchestrator</text>
+        <text x="470" y="322" fill="#34d399" font-size="7" text-anchor="middle">ingest → synthesize</text>
+        <text x="470" y="334" fill="#34d399" font-size="7" text-anchor="middle">→ validate → report</text>
+        <text x="470" y="350" fill="#94a3b8" font-size="7" text-anchor="middle">python3 tools/wiki_lint.py</text>
+
+        <!-- Cron → Agent arrow -->
+        <line x1="995" y1="210" x2="995" y2="270" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#arrowhead-amber)"/>
+        <text x="1008" y="245" fill="#fbbf24" font-size="7">trigger</text>
+
+        <!-- Concept Pages -->
+        <rect x="60" y="270" width="130" height="65" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="125" y="290" fill="white" font-size="10" font-weight="600" text-anchor="middle">Concept</text>
+        <text x="125" y="305" fill="#94a3b8" font-size="8" text-anchor="middle">Pages</text>
+        <text x="125" y="318" fill="#94a3b8" font-size="7" text-anchor="middle">wiki/concepts/</text>
+        <text x="125" y="330" fill="#34d399" font-size="7" text-anchor="middle">reusable knowledge</text>
+
+        <!-- Entity Pages -->
+        <rect x="60" y="350" width="130" height="65" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="125" y="370" fill="white" font-size="10" font-weight="600" text-anchor="middle">Entity</text>
+        <text x="125" y="385" fill="#94a3b8" font-size="8" text-anchor="middle">Pages</text>
+        <text x="125" y="398" fill="#94a3b8" font-size="7" text-anchor="middle">wiki/entities/</text>
+        <text x="125" y="410" fill="#34d399" font-size="7" text-anchor="middle">hardware, tools, projects</text>
+
+        <!-- Comparison Pages -->
+        <rect x="60" y="430" width="130" height="65" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="125" y="450" fill="white" font-size="10" font-weight="600" text-anchor="middle">Comparison</text>
+        <text x="125" y="465" fill="#94a3b8" font-size="8" text-anchor="middle">Pages</text>
+        <text x="125" y="478" fill="#94a3b8" font-size="7" text-anchor="middle">wiki/comparisons/</text>
+        <text x="125" y="490" fill="#34d399" font-size="7" text-anchor="middle">side-by-side analysis</text>
+
+        <!-- Playbook Pages -->
+        <rect x="220" y="270" width="130" height="65" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="285" y="290" fill="white" font-size="10" font-weight="600" text-anchor="middle">Playbook</text>
+        <text x="285" y="305" fill="#94a3b8" font-size="8" text-anchor="middle">Pages</text>
+        <text x="285" y="318" fill="#94a3b8" font-size="7" text-anchor="middle">wiki/playbooks/</text>
+        <text x="285" y="330" fill="#34d399" font-size="7" text-anchor="middle">step-by-step runbooks</text>
+
+        <!-- Synthesis Pages -->
+        <rect x="220" y="350" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="285" y="370" fill="white" font-size="10" font-weight="600" text-anchor="middle">Synthesis</text>
+        <text x="285" y="385" fill="#94a3b8" font-size="8" text-anchor="middle">Pages</text>
+        <text x="285" y="398" fill="#94a3b8" font-size="7" text-anchor="middle">wiki/synthesis/</text>
+        <text x="285" y="410" fill="#a78bfa" font-size="7" text-anchor="middle">multi-source analysis</text>
+
+        <!-- Query Pages -->
+        <rect x="220" y="430" width="130" height="65" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="285" y="450" fill="white" font-size="10" font-weight="600" text-anchor="middle">Query</text>
+        <text x="285" y="465" fill="#94a3b8" font-size="8" text-anchor="middle">Pages</text>
+        <text x="285" y="478" fill="#94a3b8" font-size="7" text-anchor="middle">wiki/queries/</text>
+        <text x="285" y="490" fill="#34d399" font-size="7" text-anchor="middle">filed Q&amp;A</text>
+
+        <!-- Reference Pages -->
+        <rect x="720" y="270" width="130" height="65" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="785" y="290" fill="white" font-size="10" font-weight="600" text-anchor="middle">Reference</text>
+        <text x="785" y="305" fill="#94a3b8" font-size="8" text-anchor="middle">Pages</text>
+        <text x="785" y="318" fill="#94a3b8" font-size="7" text-anchor="middle">wiki/references/</text>
+        <text x="785" y="330" fill="#34d399" font-size="7" text-anchor="middle">configs, schemas</text>
+
+        <!-- Template Pages -->
+        <rect x="720" y="350" width="130" height="65" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
+        <text x="785" y="370" fill="white" font-size="10" font-weight="600" text-anchor="middle">Template</text>
+        <text x="785" y="385" fill="#94a3b8" font-size="8" text-anchor="middle">Pages</text>
+        <text x="785" y="398" fill="#94a3b8" font-size="7" text-anchor="middle">wiki/templates/</text>
+        <text x="785" y="410" fill="#34d399" font-size="7" text-anchor="middle">md templates</text>
+
+        <!-- Lint Tool -->
+        <rect x="890" y="270" width="130" height="65" rx="6" fill="rgba(136,19,55,0.4)" stroke="#fb7185" stroke-width="1.5"/>
+        <text x="955" y="290" fill="white" font-size="10" font-weight="600" text-anchor="middle">Lint</text>
+        <text x="955" y="305" fill="#94a3b8" font-size="8" text-anchor="middle">checker</text>
+        <text x="955" y="318" fill="#94a3b8" font-size="7" text-anchor="middle">wiki_lint.py</text>
+        <text x="955" y="330" fill="#fb7185" font-size="7" text-anchor="middle">structural health</text>
+
+        <!-- Agent → Wiki Pages arrows -->
+        <line x1="380" y1="320" x2="350" y2="320" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+        <line x1="380" y1="380" x2="350" y2="380" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+        <line x1="380" y1="440" x2="350" y2="440" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+        <line x1="380" y1="320" x2="350" y2="320" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+        <line x1="720" y1="320" x2="690" y2="320" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+        <line x1="720" y1="380" x2="690" y2="380" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+        <line x1="890" y1="320" x2="860" y2="320" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+
+        <!-- Page interconnections -->
+        <line x1="190" y1="300" x2="218" y2="300" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="190" y1="380" x2="218" y2="380" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="190" y1="460" x2="218" y2="460" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="350" y1="380" x2="380" y2="380" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="350" y1="460" x2="380" y2="460" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="690" y1="320" x2="720" y2="320" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <line x1="690" y1="380" x2="720" y2="380" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+
+        <!-- =================================================================
+             LAYER 3 — SCHEMA & OPERATIONS (Bottom, violet)
+             ================================================================= -->
+        <rect x="30" y="610" width="1200" height="170" rx="12" fill="url(#layer3-grad)" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="8,4"/>
+        <text x="48" y="632" fill="#a78bfa" font-size="11" font-weight="700">LAYER 3 — SCHEMA &amp; OPERATIONS</text>
+        <text x="48" y="646" fill="#94a3b8" font-size="8">Structural contracts, navigation, and logging.</text>
+
+        <!-- SCHEMA.md -->
+        <rect x="50" y="662" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="115" y="682" fill="white" font-size="10" font-weight="600" text-anchor="middle">SCHEMA.md</text>
+        <text x="115" y="697" fill="#94a3b8" font-size="8" text-anchor="middle">Types, tags,</text>
+        <text x="115" y="710" fill="#94a3b8" font-size="8" text-anchor="middle">field contracts</text>
+        <text x="115" y="722" fill="#a78bfa" font-size="7" text-anchor="middle">structural guard</text>
+
+        <!-- CLAUDE.md -->
+        <rect x="200" y="662" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="265" y="682" fill="white" font-size="10" font-weight="600" text-anchor="middle">CLAUDE.md</text>
+        <text x="265" y="697" fill="#94a3b8" font-size="8" text-anchor="middle">Agent operational</text>
+        <text x="265" y="710" fill="#94a3b8" font-size="8" text-anchor="middle">contract</text>
+        <text x="265" y="722" fill="#a78bfa" font-size="7" text-anchor="middle">behavior rules</text>
+
+        <!-- ALGORITHM.md -->
+        <rect x="350" y="662" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="415" y="682" fill="white" font-size="10" font-weight="600" text-anchor="middle">ALGORITHM.md</text>
+        <text x="415" y="697" fill="#94a3b8" font-size="8" text-anchor="middle">Step-by-step</text>
+        <text x="415" y="710" fill="#94a3b8" font-size="8" text-anchor="middle">workflows</text>
+        <text x="415" y="722" fill="#a78bfa" font-size="7" text-anchor="middle">ingest/query/lint</text>
+
+        <!-- Index.md -->
+        <rect x="500" y="662" width="130" height="65" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+        <text x="565" y="682" fill="white" font-size="10" font-weight="600" text-anchor="middle">index.md</text>
+        <text x="565" y="697" fill="#94a3b8" font-size="8" text-anchor="middle">Navigation</text>
+        <text x="565" y="710" fill="#94a3b8" font-size="8" text-anchor="middle">catalog</text>
+        <text x="565" y="722" fill="#22d3ee" font-size="7" text-anchor="middle">wikilinks + nav</text>
+
+        <!-- Log.md -->
+        <rect x="650" y="662" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="715" y="682" fill="white" font-size="10" font-weight="600" text-anchor="middle">log.md</text>
+        <text x="715" y="697" fill="#94a3b8" font-size="8" text-anchor="middle">Append-only</text>
+        <text x="715" y="710" fill="#94a3b8" font-size="8" text-anchor="middle">action history</text>
+        <text x="715" y="722" fill="#a78bfa" font-size="7" text-anchor="middle">audit trail</text>
+
+        <!-- wiki_lint.py -->
+        <rect x="800" y="662" width="130" height="65" rx="6" fill="rgba(136,19,55,0.4)" stroke="#fb7185" stroke-width="1.5"/>
+        <text x="865" y="682" fill="white" font-size="10" font-weight="600" text-anchor="middle">wiki_lint.py</text>
+        <text x="865" y="697" fill="#94a3b8" font-size="8" text-anchor="middle">Structural</text>
+        <text x="865" y="710" fill="#94a3b8" font-size="8" text-anchor="middle">health checker</text>
+        <text x="865" y="722" fill="#fb7185" font-size="7" text-anchor="middle">errors + warnings</text>
+
+        <!-- ARCHITECTURE.md -->
+        <rect x="950" y="662" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
+        <text x="1015" y="682" fill="white" font-size="10" font-weight="600" text-anchor="middle">ARCHITECTURE.md</text>
+        <text x="1015" y="697" fill="#94a3b8" font-size="8" text-anchor="middle">Technical</text>
+        <text x="1015" y="710" fill="#94a3b8" font-size="8" text-anchor="middle">architecture</text>
+        <text x="1015" y="722" fill="#a78bfa" font-size="7" text-anchor="middle">design docs</text>
+
+        <!-- MCP (future) -->
+        <rect x="1100" y="662" width="110" height="65" rx="6" fill="rgba(30,41,59,0.5)" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+        <text x="1155" y="682" fill="#94a3b8" font-size="10" font-weight="600" text-anchor="middle">MCP Server</text>
+        <text x="1155" y="697" fill="#94a3b8" font-size="8" text-anchor="middle">Final phase</text>
+        <text x="1155" y="710" fill="#94a3b8" font-size="7" text-anchor="middle">resources/tools</text>
+        <text x="1155" y="722" fill="#94a3b8" font-size="7" text-anchor="middle">prompts</text>
+
+        <!-- Arrows L2 → L3 -->
+        <line x1="470" y1="600" x2="470" y2="610" stroke="#34d399" stroke-width="1.5" marker-end="url(#arrowhead-emerald)"/>
+        <text x="485" y="608" fill="#34d399" font-size="7">maintain</text>
+        <line x1="955" y1="500" x2="955" y2="610" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#arrowhead-rose)"/>
+        <text x="968" y="560" fill="#fb7185" font-size="7">report</text>
+
+        <!-- Arrows L3 → L2 (feedback) -->
+        <line x1="565" y1="660" x2="565" y2="600" stroke="#22d3ee" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead-cyan)"/>
+        <text x="578" y="635" fill="#22d3ee" font-size="7">navigate</text>
+
+        <!-- =================================================================
+             QUERY / OUTPUT (Right side)
+             ================================================================= -->
+        <!-- Query -->
+        <rect x="1040" y="270" width="150" height="65" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+        <text x="1115" y="290" fill="white" font-size="10" font-weight="600" text-anchor="middle">Query</text>
+        <text x="1115" y="305" fill="#94a3b8" font-size="8" text-anchor="middle">(index.md,</text>
+        <text x="1115" y="318" fill="#94a3b8" font-size="8" text-anchor="middle">wikilinks)</text>
+        <text x="1115" y="330" fill="#22d3ee" font-size="7" text-anchor="middle">human + agent</text>
+
+        <!-- Query → L2 arrow -->
+        <line x1="1040" y1="302" x2="970" y2="302" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrowhead-cyan)"/>
+        <text x="1005" y="296" fill="#22d3ee" font-size="7">read</text>
+
+        <!-- Output/Report (bottom right) -->
+        <rect x="1040" y="430" width="150" height="65" rx="6" fill="rgba(136,19,55,0.4)" stroke="#fb7185" stroke-width="1.5"/>
+        <text x="1115" y="450" fill="white" font-size="10" font-weight="600" text-anchor="middle">Report</text>
+        <text x="1115" y="465" fill="#94a3b8" font-size="8" text-anchor="middle">Issues to</text>
+        <text x="1115" y="478" fill="#94a3b8" font-size="8" text-anchor="middle">user</text>
+        <text x="1115" y="490" fill="#fb7185" font-size="7" text-anchor="middle">errors + warnings</text>
+
+        <!-- Report arrow -->
+        <line x1="1020" y1="335" x2="1020" y2="430" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#arrowhead-rose)"/>
+        <text x="1008" y="388" fill="#fb7185" font-size="7">alert</text>
+
+        <!-- =================================================================
+             LEGEND
+             ================================================================= -->
+        <text x="1040" y="570" fill="white" font-size="10" font-weight="600">Legend</text>
+
+        <rect x="1040" y="582" width="16" height="10" rx="2" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1"/>
+        <text x="1062" y="590" fill="#94a3b8" font-size="8">Layer 1 — Raw Sources</text>
+
+        <rect x="1040" y="598" width="16" height="10" rx="2" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
+        <text x="1062" y="606" fill="#94a3b8" font-size="8">Layer 2 — Wiki Pages</text>
+
+        <rect x="1040" y="614" width="16" height="10" rx="2" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1"/>
+        <text x="1062" y="622" fill="#94a3b8" font-size="8">Layer 3 — Schema &amp; Ops</text>
+
+        <rect x="1040" y="630" width="16" height="10" rx="2" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1"/>
+        <text x="1062" y="638" fill="#94a3b8" font-size="8">Frontend / Query</text>
+
+        <rect x="1040" y="646" width="16" height="10" rx="2" fill="rgba(136,19,55,0.4)" stroke="#fb7185" stroke-width="1"/>
+        <text x="1062" y="654" fill="#94a3b8" font-size="8">Security / Report</text>
+
+        <line x1="1040" y1="670" x2="1056" y2="670" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,5"/>
+        <text x="1062" y="673" fill="#94a3b8" font-size="8">Cron / Async</text>
+
+        <line x1="1040" y1="686" x2="1056" y2="686" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <text x="1062" y="689" fill="#94a3b8" font-size="8">Inter-page link</text>
+
+        <line x1="1040" y1="702" x2="1056" y2="702" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="4,4"/>
+        <text x="1062" y="705" fill="#94a3b8" font-size="8">Security Group</text>
+
+        <line x1="1040" y1="718" x2="1056" y2="718" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+        <text x="1062" y="721" fill="#94a3b8" font-size="8">Future (MCP)</text>
+      </svg>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="cards">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot amber"></div>
+          <h3>Layer 1 — Raw Sources</h3>
+        </div>
+        <ul>
+          <li>• Immutable external sources (URL, PDF, paste)</li>
+          <li>• SHA256 hash stored on ingest</li>
+          <li>• Subfolders: articles, papers, transcripts, assets</li>
+          <li>• Source of truth — never modified after ingest</li>
+          <li>• Cron detects new sources every 30 minutes</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot emerald"></div>
+          <h3>Layer 2 — Wiki Pages</h3>
+        </div>
+        <ul>
+          <li>• Mutable, cross-linked knowledge base</li>
+          <li>• 8 subfolders: concepts, entities, comparisons,</li>
+          <li>  playbooks, synthesis, queries, references, templates</li>
+          <li>• Hermes Agent orchestrates synthesis</li>
+          <li>• Inter-page wikilinks enable navigation</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-dot violet"></div>
+          <h3>Layer 3 — Schema &amp; Operations</h3>
+        </div>
+        <ul>
+          <li>• SCHEMA.md — structural contract (types, tags)</li>
+          <li>• CLAUDE.md — agent operational contract</li>
+          <li>• ALGORITHM.md — step-by-step workflows</li>
+          <li>• index.md — navigation catalog</li>
+          <li>• log.md — append-only audit trail</li>
+          <li>• MCP Server — future integration layer</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <p class="footer">
+      Local LLM Wiki • Three-Layer Architecture • Karpathy Pattern • Open Knowledge Format v0.1
+    </p>
+  </div>
+</body>
+</html>

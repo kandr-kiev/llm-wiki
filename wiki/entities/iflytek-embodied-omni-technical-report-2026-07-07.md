@@ -1,0 +1,48 @@
+---
+type: entity
+title: iFLYTEK-Embodied-Omni — Embodied AI Technical Report
+description: Technical report on iFLYTEK's Embodied-Omni system for embodied AI — multimodal language-action models for robotics and physical world interaction.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [embodied-ai, robotics, multimodal, language-action, iFLYTEK]
+sources: [raw/articles/iflytek-embodied-omni-technical-report-2026-07-07.md]
+confidence: high
+contested: false
+links: [object-centric-environment-modeling-for-agentic-tasks, how-agents-are-transforming-work]
+---
+
+# iFLYTEK-Embodied-Omni
+
+## Overview
+
+iFLYTEK-Embodied-Omni is a technical report presenting a multimodal language-action model designed for embodied AI — enabling robots and physical agents to understand and interact with the world through natural language instructions combined with visual and sensory input.
+
+## Key Contributions
+
+### Multimodal Language-Action Model
+- Unified model processing text, visual, and sensorimotor inputs
+- Generates language descriptions and action commands
+- Trained on embodied AI datasets with human demonstrations
+
+### Omni-capability Architecture
+- Handles multiple embodied tasks: navigation, manipulation, dialogue
+- Single model replaces task-specific pipelines
+- Scalable to new tasks through instruction tuning
+
+## Technical Architecture
+
+1. **Vision encoder** — Processes camera inputs and environmental perception
+2. **Language model** — Core reasoning and instruction understanding
+3. **Action decoder** — Maps internal representations to physical actions
+4. **Memory module** — Maintains context across observation-action cycles
+
+## Significance
+
+- Bridges the gap between LLM reasoning and physical action
+- Represents the frontier of embodied AI research
+- Demonstrates practical deployment in service robotics
+
+## Related Pages
+
+- [[object-centric-environment-modeling-for-agentic-tasks-2026-07-07]] — Object-centric modeling for agentic tasks
+- [[how-agents-are-transforming-work-2026-07-07]] — Enterprise agent adoption

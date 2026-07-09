@@ -1,0 +1,52 @@
+---
+type: entity
+title: RTX 5070 Ti
+description: NVIDIA GeForce RTX 5070 Ti — GPU на архітектурі Blackwell з 16 GB GDDR7, орієнтований на AI-інференс та геймінг 1440p/4K.
+created: 2026-07-05
+updated: 2026-07-06
+tags: [mcp, automation, architecture]
+sources: [raw/articles/rtx-5070-ti-build-reference.md]
+confidence: high
+contested: false
+links: [local-llm-hardware, llm-wiki]
+---
+
+# RTX 5070 Ti
+
+NVIDIA GeForce RTX 5070 Ti — відеокарта на архітектурі **NVIDIA Blackwell** з **16 GB GDDR7** пам'яті. Позиціонується як оптимальний вибір для AI-інференсу локальних LLM та геймінгу в 1440p.
+
+## Основні характеристики
+
+| Параметр | Значення |
+|---|---|
+| Архітектура | NVIDIA Blackwell (5-е покоління Tensor Core) |
+| VRAM | 16 GB GDDR7 |
+| Дата релізу | 20 лютого 2025 |
+| Позиціонування | AI-інференс, геймінг 1440p 144Гц |
+| Споживання (геймінг) | ~350-400W |
+| Споживання (LLM інференс) | ~280-320W |
+| AI TOPS | 1,406 AI TOPS |
+
+## AI/LLM здатності
+
+Згідно з [[rtx-5070-ti]], GPU демонструє наступні результати:
+
+- **Llama 3 8B**: ~105 ток/с (Ollama/llama.cpp)
+- **Qwen2.5 14B**: ~50 ток/с
+- **7B–14B моделі**: 90–120+ ток/с (90% від RTX 5090 практичної продуктивності за половину ціни)
+- **AI-генерація**: Stable Diffusion / Flux — 16 GB VRAM + Tensor ядра 5-го покоління
+- **70B+ LLM**: ❌ 16 GB VRAM не вміщує великі моделі
+
+## Ціна та доступність
+
+Модель RTX 5070 Ti оцінюється у ~$880 USD, що становить оптимальний баланс ціна/продуктивність для локальних LLM у 2026 році.
+
+## Контекст у Local LLM Wiki
+
+RTX 5070 Ti є прикладом балансу між ціною та продуктивністю для локальних LLM. 16 GB VRAM достатньо для моделей до ~14B параметрів (з квантизацією), але недостатньо для 70B+ без значних компромісів.
+
+Детальна збірка: [[rtx-5070-ti]].
+
+# Citations
+[1] [RTX 5070 Ti Build Reference raw source](../../raw/articles/rtx-5070-ti-build-reference.md)
+[2] Compute Market — RTX 5070 Ti for Local AI (2026)

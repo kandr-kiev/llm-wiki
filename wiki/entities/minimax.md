@@ -1,0 +1,93 @@
+---
+title: "MiniMax"
+type: entity
+description: Chinese AI company behind M2.7 and M3 models, rapidly growing with $300M ARR, known for strong multilingual and reasoning capabilities
+created: 2026-07-06
+updated: 2026-07-06
+tags: [llm-wiki, company, model, open-source-llm]
+sources: []
+confidence: high
+links: [llm-wiki, qwen, deepmind, anthropic]
+---
+
+# MiniMax
+
+## Overview
+
+MiniMax Group Inc is a Chinese artificial intelligence company founded in early 2022, based in Shanghai. The company develops multimodal AI models and consumer applications, with a focus on large language models, text-to-video, and voice generation. MiniMax has emerged as one of China's leading AI startups, with annualized revenue doubling to at least $300 million by May 2026. The company is known for its M-series models, particularly M2.7 (March 2026), which competes with GLM-5 and Claude Opus 4.6 in benchmarks.
+
+## Key Facts
+
+| Field | Details |
+|---|---|
+| **Founded** | Early 2022 |
+| **Headquarters** | Shanghai, China |
+| **Type** | Private company |
+| **Focus** | Multimodal AI, LLMs, text-to-video, voice generation |
+| **Revenue (2026)** | ~$300M+ annualized (doubled in 2 months) |
+| **Key Products** | M2.7, M3 (upcoming), Hailuo AI (consumer app) |
+
+## Models & Products
+
+### M-Series (2026)
+
+- **M2.7** (March 18, 2026) — Proprietary LLM, competes with GLM-5 and Claude Opus 4.6, strong multilingual and reasoning capabilities
+- **M3** (upcoming, teased May 2026) — New sparse attention mechanism, 15.6x response speed boost
+
+### Consumer Products
+
+- **Hailuo AI** — Consumer AI application for text-to-video and voice generation
+- **MiniMax API** — Enterprise API access for M-series models
+
+## Infrastructure
+
+- **Training hardware**: Custom AI clusters (specifics not publicly disclosed)
+- **Compute partnerships**: Alibaba Cloud, Tencent Cloud
+- **Context window**: Not publicly disclosed (estimated 128K+)
+- **Safety**: Chinese regulatory compliance built-in
+
+## Business Model
+
+MiniMax operates a dual-track model:
+- **API access**: Enterprise API for M-series models
+- **Consumer apps**: Hailuo AI and other consumer-facing applications
+- **Revenue growth**: Rapid expansion, $300M+ ARR by May 2026
+- **Competitive strategy**: Strong multimodal capabilities, competitive pricing
+
+## Open Source Policy
+
+MiniMax is **selectively open**:
+- **Open weights**: Some M-series variants released as open-weight
+- **API-only**: Flagship models available via API
+- **Research**: Papers published openly
+- **Competes with**: Qwen (Alibaba), GLM (Zhipu), GPT (OpenAI), Claude (Anthropic)
+
+## Relationships
+
+- **Alibaba Cloud**: Cloud infrastructure partner
+- **Tencent Cloud**: Cloud infrastructure partner
+- **OpenAI**: Competitor (competing with GPT)
+- **Anthropic**: Competitor (competing with Claude)
+- **Google**: Competitor (competing with Gemini)
+
+## Recent Developments (2026)
+
+1. **M2.7 launch** (March 18, 2026) — Strong benchmark performance vs GLM-5 and Claude Opus 4.6
+2. **Revenue doubling** (May 2026) — $300M+ annualized run rate
+3. **M3 teaser** (May 27, 2026) — New sparse attention mechanism, 15.6x speed boost
+4. **Consumer app growth** — Hailuo AI gaining traction for text-to-video
+
+## Controversies
+
+- **Chinese regulatory compliance** — Content moderation requirements
+- **Data scraping** — Training on copyrighted content
+- **Geopolitical tensions** — US-China AI competition
+- **Open-weight safety** — Debate on open-weight model safety implications
+
+## See Also
+
+- [[openai]]
+- [[anthropic]]
+- [[qwen]]
+- [[deepmind]]
+- [[enterprise-ai]]

@@ -1,0 +1,122 @@
+---
+
+title: "Cohere"
+type: entity
+description: Canadian AI company specializing in enterprise NLP, command models, and developer-focused AI APIs
+created: 2026-07-06
+updated: 2026-07-06
+tags: [llm-wiki, company, model]
+sources: [raw/articles/open-source-llm-landscape-2026.md]
+confidence: high
+links: [llm-wiki, enterprise-ai, openai, anthropic, deepmind]
+
+---
+
+
+# Cohere
+
+## Overview
+
+Cohere is a Canadian artificial intelligence company founded in 2019 by Aidan Gomez (former Google Brain researcher), Nick Frosst, and other researchers. The company focuses on enterprise NLP, providing command models and developer-focused APIs for text generation, classification, embedding, and retrieval. Cohere is known for its strong enterprise adoption, multilingual capabilities, and commitment to responsible AI development.
+
+## Key Facts
+
+| Field | Details |
+|
+|---|
+| **Founded** | 2019 |
+| **Headquarters** | Toronto, Canada + New York City, USA |
+| **Co-founders** | Aidan Gomez (CEO), Nick Frosst, Ivan Zhang |
+| **Type** | Private company |
+| **Key Investors** | SoftBank, IVP, Coatue, CapitalG, NVIDIA |
+| **Valuation (2024)** | ~$2.4B |
+| **Employees** | ~500+ |
+
+## Models & Products
+
+### Command Series (2026)
+- **Command R3** (2026) — Флагман, agentic RAG, 128K context, enterprise reasoning
+- **Command R2** (2025) — Попередній флагман, RAG-optimized
+- **Command R+** (2024) — Multilingual reasoning, 128K context
+- **Command R** (2023) — RAG-optimized, 128K context
+- **Command R1** (2024) — Open-weight, 104B MoE parameters
+- **Command R7B** (2024) — Open-weight variant, 7B parameters
+
+### Embed Models
+- **embed-english-v3** — English text embeddings
+- **embed-multilingual-v3** — 100+ language embeddings
+- **embed-english-light-v3** — Fast, lightweight embeddings
+
+### Other Products
+- **Cohere API** — REST API for NLP tasks
+- **Cohere for Platforms** — AI integration for SaaS companies
+- **Cohere for Teams** — Enterprise AI for internal knowledge
+- **Cohere Playground** — Interactive model testing
+- **Cohere Enterprise** — Custom AI solutions for large organizations
+- **Cohere RAG** — Retrieval-augmented generation tools
+- **Cohere Embeddings** — Text embedding API
+
+## Infrastructure
+
+- **Training hardware**: NVIDIA GPU clusters
+- **Compute partnerships**: AWS, Google Cloud, Azure
+- **Context window**: Up to 128K tokens (Command R/R+)
+- **Fine-tuning**: Supports custom fine-tuning via API
+- **Safety**: Built-in content moderation, enterprise compliance
+
+## Business Model
+
+Cohere operates an enterprise-focused model:
+- **API access**: Pay-per-token pricing
+- **Enterprise**: Custom deployments, dedicated infrastructure
+- **Platform integration**: Cohere for Platforms (SaaS AI integration)
+- **Teams**: Internal knowledge AI for enterprises
+- **Competitive strategy**: Enterprise NLP vs OpenAI/Anthropic general models
+
+## Open Source Policy
+
+Cohere is **selectively open**:
+- **Open weights**: Command R7B (7B), Command R1 (104B MoE) — open-weight
+- **API-only**: Command R+, Command R2 — API only
+- **Embeddings**: embed-english-v3, embed-multilingual-v3 — open-weight
+- **Research**: Papers published openly
+- **Competes with**: Llama (Meta), Mistral, Qwen (open-weight)
+- **Philosophy**: "Open-weight for accessibility, API for enterprise reliability"
+
+## Relationships
+
+- **SoftBank**: Major investor
+- **NVIDIA**: GPU supplier, co-developer
+- **AWS**: Cloud partnership
+- **Google**: Cloud partnership
+- **Microsoft**: Azure integration
+- **Meta**: Competitor and collaborator (both have open-weight)
+
+## Recent Developments (2024-2026)
+
+1. **Command R+ launch** (2024) — Enhanced reasoning, multilingual
+2. **Command R7B** (2024) — Open-weight 7B model
+3. **Command R1** (2024) — Open-weight 104B MoE model
+4. **embed-english-v3** (2024) — New embedding models
+5. **Cohere for Platforms** (2024) — SaaS AI integration
+6. **Command R2** (2025-2026) — Next-gen reasoning models
+7. **Enterprise growth** — Growing enterprise customer base
+8. **Multilingual expansion** — 100+ language support
+
+## Controversies
+
+- **Open-weight safety** — Debate on open-weight model safety implications
+- **Competition with open-source** — Hybrid open-weight vs fully open debate
+- **Data scraping** — Training on copyrighted content
+- **Enterprise focus** — Critics argue enterprise focus limits accessibility
+
+## See Also
+- [[openai]]
+- [[anthropic]]
+- [[deepmind]]
+- [[meta-ai]]
+- [[qwen]]
+- [[hugging-face]]
+- [[llm-quantization]]
+- [[llm-fine-tuning]]
+- [[enterprise-ai]]

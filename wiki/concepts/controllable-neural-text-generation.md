@@ -1,0 +1,70 @@
+---
+type: concept
+title: Controllable Neural Text Generation
+description: Techniques for steering language model outputs toward desired properties: style, topic, sentiment, length, and other controlled attributes.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [nlp, text-generation, controllability, conditional-generation, style-transfer]
+sources: [raw/articles/controllable-neural-text-generation-2026-07-07.md]
+confidence: high
+contested: false
+links: [open-domain-question-answering, prompt-engineering-techniques]
+---
+
+# Controllable Neural Text Generation
+
+## Overview
+
+Controllable text generation aims to produce text that satisfies specific constraints beyond fluency and coherence — such as topic, sentiment, style, length, or factual content.
+
+## Control Dimensions
+
+### Topic Control
+- Prefix/suffix conditioning
+- Topic embeddings injected into decoder
+- Keyword constraints during decoding
+
+### Style Transfer
+- Content-style decomposition
+- Cross-lingual style transfer
+- Author-style mimicry
+
+### Sentiment Control
+- Sentiment labels as conditioning signals
+- Gradient-based guidance toward sentiment targets
+- Prompt engineering for sentiment steering
+
+### Length Control
+- Fixed-length generation with padding
+- Early stopping based on length criteria
+- Length-conditioned decoding
+
+## Methods
+
+### Conditional Generation
+Standard approach: condition the model on control tokens or vectors. The model learns to generate text given additional control signals.
+
+### Inversion-Augmented Decoding
+Modify token probabilities during generation to enforce constraints. Can be done via:
+- **Logit bias** — directly adjust token logits
+- **Guidance scale** — blend between conditional and unconditional model (classifier-free guidance)
+
+### Retrieval-Augmented Control
+Retrieve relevant examples and use them to guide generation, ensuring topical relevance and factual grounding.
+
+### Prompt-Based Control (LLM Era)
+- System prompts specifying tone, style, format
+- Few-shot examples demonstrating desired output
+- Structured output formats (JSON, templates)
+
+## Applications
+
+- **Content moderation** — generating safe alternatives
+- **Creative writing** — style-guided story generation
+- **Business communications** — tone-controlled email generation
+- **Data augmentation** — controlled paraphrase generation
+
+## Related Pages
+
+- [[open-domain-question-answering]] — QA systems requiring controlled factual responses
+- [[prompt-engineering-techniques]] — Prompt-based control methods

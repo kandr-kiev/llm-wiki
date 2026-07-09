@@ -1,0 +1,43 @@
+---
+type: entity
+title: Core Dump Epidemiology — Fixing an 18-Year-Old Bug
+description: OpenAI blog post examining data infrastructure bugs and their systemic impact on AI training pipelines, proposing new approaches to data quality assurance and bug detection in ML infrastructure.
+created: 2026-07-07
+updated: 2026-07-07
+tags: [data-engineering, ml-infrastructure, data-quality, openai, reliability]
+sources: [raw/articles/core-dump-epidemiology-fixing-an-18-year-old-bug-2026-07-07.md]
+confidence: medium
+links:
+  - [[data-engineering]] — Data engineering fundamentals
+  - [[data-quality]] — Data quality assurance practices
+  - [[ml-infrastructure]] — ML infrastructure patterns
+---
+
+# Core Dump Epidemiology — Fixing an 18-Year-Old Bug
+
+## Overview
+
+OpenAI blog post examining systemic data infrastructure bugs and their impact on AI training pipelines. The article proposes a new epidemiological approach to tracking and fixing data quality issues that propagate through ML systems.
+
+## Key Points
+
+- **18-year-old bug**: The post discusses a longstanding bug in data infrastructure that has been affecting AI training systems
+- **Epidemiological approach**: Treating data bugs as infectious agents that propagate through ML pipelines
+- **Systemic impact**: How data infrastructure bugs can corrupt training data at scale, affecting model behavior
+- **Detection and prevention**: New methodologies for identifying and fixing data quality issues before they propagate
+
+## Significance
+
+This post is significant for understanding the intersection of data infrastructure reliability and AI model quality. It highlights how foundational bugs in data systems can have cascading effects on AI training outcomes.
+
+## Related Concepts
+
+- [[data-engineering]] — Data engineering fundamentals and best practices
+- [[ml-infrastructure]] — ML infrastructure patterns and reliability
+- [[data-quality]] — Data quality assurance and validation
+
+## Source
+
+- URL: https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug
+- Blog: OpenAI Blog
+- Ingested: 2026-07-07

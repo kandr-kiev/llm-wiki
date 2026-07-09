@@ -1,0 +1,496 @@
+---
+type: playbook
+title: "How to Deploy with vLLM — Production LLM Serving"
+description: Actionable runbook for deploying vLLM: single-GPU, multi-GPU, Docker Compose, Kubernetes, monitoring, and production hardening
+created: 2026-07-08
+updated: 2026-07-08
+tags: [playbook, deployment, vllm, reference, configuration]
+sources: [raw/articles/train-large-neural-networks-2026-07-07.md]
+confidence: high
+links: [how-to-fine-tune-llm-lora-qlora-dpo, how-to-use-rag, llm-serving-comparison]
+---
+
+# How to Deploy with vLLM — Production LLM Serving
+
+Actionable runbook for deploying vLLM as a production inference engine. Covers single-GPU, multi-GPU, Docker, Kubernetes, and monitoring.
+
+## Prerequisites
+
+- NVIDIA GPU (A100, H100, L4, or RTX 4090 recommended)
+- NVIDIA Driver ≥ 525, CUDA ≥ 12.1
+- NVIDIA Container Toolkit ≥ 1.14
+- Docker Engine ≥ 23.0 (or Kubernetes ≥ 1.27 for production)
+- Hugging Face account with accepted model licenses
+
+## Phase 1: Understand vLLM Architecture
+
+### Step 1.1 — Why vLLM?
+
+vLLM achieves **14–24× higher throughput** than naive Transformers serving through three key innovations:
+
+| Innovation | What it does | Impact |
+|---|---|---|
+| **PagedAttention** | Memory paging for KV caches | 4× less memory waste |
+| **Continuous Batching** | Add new requests as old ones finish | Max GPU utilization |
+| **Optimized CUDA Kernels** | Custom GPU operations | 2–4× faster than Ollama |
+
+### Step 1.2 — When to Use vLLM
+
+```
+Need production API serving?
+  ├── YES → vLLM
+  └── NO
+      Single user / development? → Ollama or llama.cpp
+      Enterprise compliance? → vLLM (self-hosted)
+      Kubernetes scale? → vLLM + KEDA
+```
+
+### Step 1.3 — Key Parameters
+
+| Parameter | Purpose | Typical Value |
+|---|---|---|
+| `--model` | HuggingFace model ID | `meta-llama/Llama-3.1-8B-Instruct` |
+| `--gpu-memory-utilization` | % of GPU VRAM for KV cache | `0.90` |
+| `--max-model-len` | Max sequence length | `8192` (match your use case) |
+| `--tensor-parallel-size` | GPUs for model sharding | `2`, `4`, `8` |
+| `--quantization` | Quantization method | `awq`, `gptq` |
+| `--enable-prefix-caching` | Cache shared prompt prefixes | On for chatbots |
+| `--dtype` | Precision | `float16`, `auto` |
+
+## Phase 2: Quick Start (Single GPU)
+
+### Step 2.1 — Install vLLM
+
+```bash
+# Virtual environment (recommended)
+python3 -m venv vllm-env
+source vllm-env/bin/activate
+
+# Install vLLM
+pip install vllm
+
+# Verify
+python -c "import vllm; print(vllm.__version__)"
+```
+
+### Step 2.2 — Run Your First Model
+
+```bash
+python -m vllm.entrypoints.openai.api_server \
+  --model meta-llama/Llama-3.1-8B-Instruct \
+  --port 8000
+```
+
+Expected output:
+```
+INFO: Started server process [12345]
+INFO: Waiting for application startup.
+INFO: Application startup complete.
+INFO: Uvicorn running on http://0.0.0.0:8000
+```
+
+### Step 2.3 — Test with curl
+
+```bash
+curl http://localhost:8000/v1/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "prompt": "Explain vLLM in one sentence",
+    "max_tokens": 100,
+    "temperature": 0.7
+  }'
+```
+
+### Step 2.4 — Test with OpenAI Python Client
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="http://localhost:8000/v1",
+    api_key="not-needed"
+)
+
+response = client.chat.completions.create(
+    model="meta-llama/Llama-3.1-8B-Instruct",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "What is PagedAttention?"}
+    ],
+    max_tokens=200
+)
+
+print(response.choices[0].message.content)
+```
+
+## Phase 3: Docker Deployment
+
+### Step 3.1 — Single-GPU Docker
+
+```bash
+docker run -d \
+  --name vllm-server \
+  --gpus '"device=0"' \
+  --shm-size=4g \
+  -p 8000:8000 \
+  -v ~/.cache/huggingface:/root/.cache/huggingface \
+  --env-file .env \
+  vllm/vllm-openai:v0.8.3 \
+  --model hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4 \
+  --served-model-name llama-3.1-8b \
+  --max-model-len 8192 \
+  --quantization awq \
+  --dtype auto \
+  --gpu-memory-utilization 0.90 \
+  --enable-prefix-caching \
+  --port 8000
+```
+
+### Step 3.2 — .env file
+
+```bash
+HUGGING_FACE_HUB_TOKEN=hf_your_token_here
+VLLM_API_KEY=your_secure_api_key
+```
+
+```bash
+chmod 600 .env
+```
+
+### Step 3.3 — Multi-GPU with Tensor Parallelism
+
+```bash
+docker run -d \
+  --name vllm-server-tp4 \
+  --gpus '"device=0,1,2,3"' \
+  --shm-size=16g \
+  --ipc=host \
+  -p 8000:8000 \
+  -v ~/.cache/huggingface:/root/.cache/huggingface \
+  --env-file .env \
+  -e NCCL_DEBUG=WARN \
+  vllm/vllm-openai:v0.8.3 \
+  --model meta-llama/Llama-3.1-70B-Instruct \
+  --served-model-name llama-3.1-70b \
+  --tensor-parallel-size 4 \
+  --max-model-len 16384 \
+  --dtype auto \
+  --gpu-memory-utilization 0.90 \
+  --enable-prefix-caching \
+  --port 8000
+```
+
+## Phase 4: Production Docker Compose
+
+### Step 4.1 — docker-compose.yml
+
+```yaml
+version: '3.8'
+
+services:
+  vllm:
+    image: vllm/vllm-openai:v0.8.3
+    container_name: vllm-server
+    restart: unless-stopped
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    shm_size: "16g"
+    ipc: host
+    volumes:
+      - model-cache:/root/.cache/huggingface
+    env_file:
+      - .env
+    command: >
+      --model hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4
+      --served-model-name llama-3.1-8b
+      --max-model-len 8192
+      --quantization awq
+      --dtype auto
+      --gpu-memory-utilization 0.90
+      --enable-prefix-caching
+      --enable-metrics
+      --port 8000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+    ports:
+      - "8000:8000"
+
+volumes:
+  model-cache:
+    driver: local
+```
+
+### Step 4.2 — Start the stack
+
+```bash
+docker compose up -d
+docker compose ps  # Verify running
+curl http://localhost:8000/health  # Health check
+```
+
+## Phase 5: Kubernetes Deployment
+
+### Step 5.1 — Prerequisites
+
+```bash
+# Install NVIDIA GPU Operator
+kubectl apply -f https://raw.githubusercontent.com/NVIDIA/gpu-operator/v1.11.0/manifests/ops/crds/crd-node-feature-discovery.yaml
+helm install gpu-operator nvidia/gpu-operator --namespace gpu-operator
+
+# Create namespace
+kubectl create namespace llm-serving
+```
+
+### Step 5.2 — Create Secrets
+
+```bash
+kubectl create secret generic hf-secret \
+  --from-literal=token=$HF_TOKEN \
+  -n llm-serving
+
+kubectl create secret generic vllm-secret \
+  --from-literal=api-key=$VLLM_API_KEY \
+  -n llm-serving
+```
+
+### Step 5.3 — Deployment Manifest
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vllm-inference
+  namespace: llm-serving
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vllm
+  template:
+    metadata:
+      labels:
+        app: vllm
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8000"
+        prometheus.io/path: "/metrics"
+    spec:
+      runtimeClassName: nvidia
+      containers:
+        - name: vllm
+          image: vllm/vllm-openai:v0.8.3
+          args:
+            - "--model"
+            - "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4"
+            - "--served-model-name"
+            - "llama-3.1-8b"
+            - "--max-model-len"
+            - "8192"
+            - "--quantization"
+            - "awq"
+            - "--gpu-memory-utilization"
+            - "0.90"
+            - "--enable-prefix-caching"
+            - "--enable-metrics"
+            - "--port"
+            - "8000"
+          env:
+            - name: HUGGING_FACE_HUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: hf-secret
+                  key: token
+            - name: VLLM_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: vllm-secret
+                  key: api-key
+          ports:
+            - containerPort: 8000
+          resources:
+            limits:
+              nvidia.com/gpu: "1"
+              memory: "32Gi"
+            requests:
+              nvidia.com/gpu: "1"
+              memory: "16Gi"
+          startupProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            failureThreshold: 40
+            periodSeconds: 10
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            periodSeconds: 15
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            periodSeconds: 30
+```
+
+### Step 5.4 — Apply and Verify
+
+```bash
+kubectl apply -f vllm-deployment.yaml
+kubectl get pods -n llm-serving
+kubectl logs -f deployment/vllm-inference -n llm-serving
+```
+
+## Phase 6: Monitoring & Observability
+
+### Step 6.1 — Prometheus Metrics
+
+vLLM exposes `/metrics` by default. Key metrics:
+
+| Metric | Purpose | Alert Threshold |
+|---|---|---|
+| `vllm:num_requests_running` | Active requests | > 100 |
+| `vllm:num_requests_waiting` | Queue depth | > 0 for > 2 min |
+| `vllm:gpu_cache_usage_perc` | KV cache saturation | > 0.95 |
+| `vllm:time_to_first_token_seconds` | TTFT latency | p99 > 5s |
+| `vllm:e2e_request_latency_seconds` | End-to-end latency | p99 > 30s |
+
+```bash
+# Check metrics
+curl http://localhost:8000/metrics | grep vllm:
+```
+
+### Step 6.2 — Grafana Dashboard JSON
+
+```json
+{
+  "dashboard": {
+    "title": "vLLM Production Monitoring",
+    "panels": [
+      {
+        "title": "Request Throughput (req/s)",
+        "targets": [{"expr": "rate(vllm:e2e_request_latency_seconds_count[1m])"}]
+      },
+      {
+        "title": "TTFT Latency (p50/p95/p99)",
+        "targets": [
+          {"expr": "histogram_quantile(0.50, rate(vllm:time_to_first_token_seconds_bucket[5m]))"},
+          {"expr": "histogram_quantile(0.95, rate(vllm:time_to_first_token_seconds_bucket[5m]))"},
+          {"expr": "histogram_quantile(0.99, rate(vllm:time_to_first_token_seconds_bucket[5m]))"}
+        ]
+      },
+      {
+        "title": "GPU KV Cache Utilization (%)",
+        "targets": [{"expr": "vllm:gpu_cache_usage_perc"}]
+      },
+      {
+        "title": "Request Queue Depth",
+        "targets": [{"expr": "vllm:num_requests_waiting"}]
+      }
+    ]
+  }
+}
+```
+
+### Step 6.3 — Health Checks
+
+```bash
+# Quick health check
+curl http://localhost:8000/health
+
+# Expected: {"status": "ok"}
+```
+
+## Phase 7: Performance Tuning
+
+### Step 7.1 — GPU Memory Optimization
+
+```bash
+# Start conservative, increase gradually
+--gpu-memory-utilization 0.85   # Safe starting point
+--gpu-memory-utilization 0.90   # Standard production
+--gpu-memory-utilization 0.95   # Maximum (risk OOM on spikes)
+```
+
+### Step 7.2 — Sequence Length Tuning
+
+```bash
+# Don't use full model context if your use case doesn't need it
+--max-model-len 4096    # For short responses
+--max-model-len 8192    # Standard
+--max-model-len 32768   # Long-context only
+```
+
+### Step 7.3 — Quantization Options
+
+| Method | Bit Width | Quality Impact | Speedup |
+|---|---|---|---|
+| FP16 (baseline) | 16 | None | 1× |
+| AWQ | 4 | 5–15% drop | 2–3× |
+| GPTQ | 4 | 3–10% drop | 2–3× |
+| FP8 (H100 only) | 8 | < 1% | 2× |
+
+```bash
+# AWQ quantization (requires AWQ checkpoint)
+--model hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4 \
+--quantization awq
+
+# GPTQ quantization (requires GPTQ checkpoint)
+--model my-model-gptq \
+--quantization gptq
+```
+
+### Step 7.4 — Prefix Caching
+
+```bash
+# Enable for chatbots with shared system prompts
+--enable-prefix-caching
+
+# Reduces TTFT by skipping redundant prefill computation
+```
+
+## Phase 8: Troubleshooting
+
+| Problem | Cause | Fix |
+|---|---|---|
+| CUDA out of memory | `--gpu-memory-utilization` too high | Reduce to 0.85, lower `--max-model-len` |
+| Low throughput | `--max-num-seqs` too low | Increase to 256–512 |
+| Slow first token | No prefix caching | Add `--enable-prefix-caching` |
+| NCCL errors | `--shm-size` too small | Increase to 16g+ |
+| Model download fails | Missing HF token | Add `HUGGING_FACE_HUB_TOKEN` |
+| API key rejected | Key not set | Use `VLLM_API_KEY` env var, not `--api-key` arg |
+| Container restart loop | Health check too aggressive | Increase `start_period` to 120s |
+
+## Production Readiness Checklist
+
+- [ ] Model weights cached locally (persistent volume)
+- [ ] `--gpu-memory-utilization` tuned for workload
+- [ ] `--max-model-len` set to actual use case
+- [ ] API key configured via environment variable
+- [ ] Health checks configured (start_period ≥ 120s)
+- [ ] Metrics enabled (`--enable-metrics`)
+- [ ] Prometheus scraping configured
+- [ ] Grafana dashboard deployed
+- [ ] Multiple replicas for HA (Kubernetes)
+- [ ] Rate limiting via reverse proxy
+- [ ] Network policies restrict direct access
+- [ ] Logs flowing to Loki/ELK
+- [ ] Auto-scaling configured (KEDA)
+
+## Key References
+
+- `` — Fine-tune models before deploying
+- `[[how-to-implement-advanced-rag]]` — Deploy RAG pipelines with vLLM
+- vLLM Docs: https://docs.vllm.ai/
+- vLLM GitHub: https://github.com/vllm-project/vllm
+- PagedAttention Paper: https://arxiv.org/abs/2309.06180
+- vLLM Blog: https://blog.vllm.ai/
+- HuggingFace Model Hub: https://huggingface.co/models
