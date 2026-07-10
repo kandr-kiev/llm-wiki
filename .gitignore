@@ -13,3 +13,9 @@ Thumbs.db
 # Obsidian internals (keep app.json etc. but ignore temp)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# Generated/cache directories (not source of truth)
+.processed/
+
+# Generated wiki comparison pages (derived from raw/)
+wiki/comparisons/
