@@ -1,0 +1,14 @@
+# Local LLM Wiki — Agent Contract (Legacy)
+
+> **NOTE:** This file has been superseded by [`AGENT.md`](../AGENT.md) in the repository root.
+> All agent operational instructions now live in `AGENT.md`. This file is preserved
+> for backward compatibility with external tooling that may reference `CLAUDE.md`.
+
+## Mission
+Maintain `/workspace/llm-wiki` as a persistent, markdown-first, agent-readable knowledge base for LLM systems, automation patterns, and local business-process intelligence.
+
+## See Also
+- [AGENT.md](../AGENT.md) — current agent contract (authoritative)
+- [docs/ALGORITHM.md](ALGORITHM.md) — step-by-step workflows
+- [docs/ARCHITECTURE.md](ARCHITECTURE.md) — full architecture documentation
+- [SCHEMA.md](../SCHEMA.md) — tag taxonomy and type schema

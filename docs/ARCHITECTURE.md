@@ -57,7 +57,7 @@
                               ↓ лінтинг
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    ШАР 3: ОПЕРАЦІЇ (Tooling)                         │
-│  SCHEMA.md  ARCHITECTURE.md  ALGORITHM.md  CLAUDE.md                │
+│  SCHEMA.md  ARCHITECTURE.md  ALGORITHM.md  AGENT.md                  │
 │  tools/  index.md  log.md                                            │
 │  → Керують процесом, визначають правила                              │
 └─────────────────────────────────────────────────────────────────────┘
@@ -82,7 +82,370 @@
 
 ## 3. Скрипти інфраструктури
 
-### 3.1 `tools/integrator.py` — Автоматичний інтегратор
+### 3.6 `tools/github_monitor.py` — Моніторинг GitHub репозиторіїв
+
+**Роль:** Відслідковування нових релізів та тегів у ключових AI/LLM репозиторіях через GitHub REST API.
+
+**Алгоритм виконання:**
+
+```
+1. ІНІЦІАЛІЗАЦІЯ
+   ├─ Завантажити REPOS (7 репозиторіїв: HuggingFace, PyTorch, LangChain, vLLM, Ollama, llama.cpp, Cloudflare, OpenAI, Anthropic)
+   ├─ Завантажити RAW_DIR (raw/articles/), LOG_FILE (log.md), DB_FILE (.processed/github_tags.txt)
+
+2. SCAN_REPO(repo_name, api_url)
+   │
+   ├─ 2.1. GET api_url/releases (або /tags)
+   ├─ 2.2. Для кожного release/tag:
+   │   ├─ tag = release.tag_name
+   │   ├─ is_new_release(tag)? → Перевірка DB_FILE
+   │   ├─ Ні → skip
+   │   └─ Так:
+   │       ├─ Download release notes
+   │       ├─ convert_html_to_markdown()
+   │       ├─ compute_sha256(content)
+   │       ├─ Write raw file → raw/articles/
+   │       ├─ Append to log.md
+   │       └─ Save tag to DB_FILE
+   └─ Повернути {new_releases, skipped}
+```
+
+**Ключові особливості:**
+- Моніторить 7+ ключових AI/LLM репозиторіїв
+- Використовує GitHub REST API без токену (60 req/h limit)
+- SQLite-free: простий текстовий DB для теґів
+- Автоматична конвертація HTML → Markdown
+
+### 3.7 `tools/local_monitor.py` — Моніторинг локальних директорій
+
+**Роль:** Відслідковування нових та змінених файлів у локальних директоріях користувача.
+
+**Алгоритм виконання:**
+
+```
+1. ІНІЦІАЛІЗАЦІЯ
+   ├─ Завантажити MONITORED_DIRS (workspace, /workspace/projects)
+   ├─ Завантажити DB_FILE (.processed/local_hashes.txt)
+
+2. SCAN_DIR(directory)
+   │
+   ├─ 2.1. Пройтись по всіх *.md файлах
+   ├─ 2.2. Compute SHA256(file_content)
+   ├─ 2.3. Перевірити DB_FILE:
+   │   ├─ Немає → new_file
+   │   ├─ Є, hash збігається → skip
+   │   └─ Є, hash не збігається → modified
+   ├─ 2.4. Оновити DB_FILE
+   └─ Повернути {new_files, modified, skipped}
+```
+
+**Ключові особливості:**
+- Хешує вміст файлу (не metadata)
+- Крос-платформений polling-підхід
+- Налаштовувані MONITORED_DIRS
+
+### 3.8 `tools/check_new_raw.py` — Перевірка нових raw-файлів
+
+**Роль:** Порівняння raw/ директорії з wiki/sources/ для виявлення необроблених джерел.
+
+**Алгоритм виконання:**
+
+```
+1. SCAN raw/**/*.md → raw_files set
+2. SCAN wiki/sources/**/*.md → wiki_files set
+3. new_raw = raw_files - wiki_files
+4. Для кожного raw_file:
+   ├─ compute_correct_sha256(raw_file)
+   ├─ Порівняти зі stored sha256 у frontmatter
+   └─ Flag MISMATCH якщо розбіжність
+5. Повернути report: {new_raw, hash_mismatches}
+```
+
+### 3.9 `tools/cleanup_duplicates.py` — Видалення дублікатів
+
+**Роль:** Знаходження та видалення дублікатів wiki-сторінок з суфіксами `_1`, `_2`, `_3`, `_4`.
+
+**Алгоритм виконання:**
+
+```
+1. SCAN wiki/**/*.md → згрупувати по base name
+2. Для кожної групи:
+   ├─ Якщо base version існує → delete all _N versions
+   ├─ Якщо base version НЕ існує → rename highest _N to base, delete rest
+3. Dry-run за замовчуванням
+4. --apply для фактичного видалення/перейменування
+```
+
+### 3.10 `tools/promote_fallback_to_base.py` — Промоція fallback у base
+
+**Роль:** Промоція `_1`, `_2`, `_3`, `_4` файлів у базові версії коли base не існує.
+
+**Алгоритм виконання:**
+
+```
+1. SCAN wiki/**/*.md → згрупувати по base name
+2. Для кожної групи без base:
+   ├─ Find highest _N (напр., _4)
+   ├─ Rename _N → base
+   └─ Delete rest _1, _2, _3
+3. --apply для фактичної дії
+```
+
+### 3.11 `tools/verify_hashes.py` — Верифікація хешів
+
+**Роль:** Перевірка коректності всіх SHA256 хешів у raw файлах.
+
+**Алгоритм виконання:**
+
+```
+1. SCAN raw/**/*.md
+2. Для кожного файлу:
+   ├─ compute_correct_sha256(body)
+   ├─ Extract stored sha256 з frontmatter
+   ├─ Порівняти → OK або MISMATCH
+   └─ Flag all mismatches
+3. Повернути: {all_ok: bool, mismatches: list}
+```
+
+### 3.12 `tools/verify_full_mapping.py` — Верифікація повного мапінгу
+
+**Роль:** Перевірка повного мапінгу raw → wiki sources.
+
+**Алгоритм виконання:**
+
+```
+1. SCAN raw/**/*.md → raw_files set
+2. SCAN wiki/sources/**/*.md → wiki_files set
+3. missing_in_wiki = raw_files - wiki_files
+4. extra_in_wiki = wiki_files - raw_files
+5. Повернути: {missing, extra, raw_count, wiki_count}
+```
+
+### 3.13 `tools/rss_monitor.py` — RSS-сканер
+
+**Роль:** Моніторинг RSS/Atom-каналів для виявлення нових статей.
+
+**Алгоритм виконання:**
+
+```
+1. ІНІЦІАЛІЗАЦІЯ
+   ├─ Завантажити RSS_URLS (список URL-адрес RSS-каналів)
+   ├─ Завантажити DB_PATH (/tmp/llm-wiki-rss.db)
+   ├─ Ініціалізувати базу даних:
+   │   ├─ Таблиця processed_urls (url TEXT PRIMARY KEY, fetched_at TIMESTAMP)
+   │   └─ Таблиця processed_feeds (feed_url TEXT PRIMARY KEY, last_etag TEXT, last_modified TEXT)
+
+2. SCAN_FEED(feed_url)
+   │
+   ├─ 2.1. GET feed_url з HTTP-заголовками:
+   │   ├─ If-None-Match: last_etag (з DB)
+   │   └─ If-Modified-Since: last_modified (з DB)
+   │
+   ├─ 2.2. Якщо 304 Not Modified → return [] (nothing new)
+   │
+   ├─ 2.3. Parse XML feed:
+   │   ├─ Extract items (entries)
+   │   ├─ Для кожного item:
+   │   │   ├─ url = item.link
+   │   │   ├─ title = item.title
+   │   │   ├─ published = item.published / item.updated
+   │   │   └─ content = item.content / item.summary
+   │   │
+   │   ├─ 2.4. Для кожного item:
+   │   │   ├─ is_already_fetched(url)? → Так: skip
+   │   │   └─ Ні: додати до new_items
+   │   │
+   │   ├─ 2.5. Зберегти етикетку:
+   │   │   ├─ last_etag → DB
+   │   │   └─ last_modified → DB
+   │   │
+   │   └─ Повернути new_items (необроблені)
+
+3. FETCH_ARTICLE(url)
+   │
+   ├─ 3.1. GET url → HTML
+   ├─ 3.2. convert_html_to_markdown(html)
+   ├─ 3.3. Визначити тип:
+   │   ├─ arXiv → raw/papers/
+   │   ├─ YouTube transcript → raw/transcripts/
+   │   └─ інше → raw/articles/
+   │
+   ├─ 3.4. Generate filename:
+   │   ├─ arXiv: arxiv{paper_id}.md
+   │   ├─ YouTube: youtube_{video_id}_{date}.md
+   │   └─ інше: {title_slug}_{date}.md
+   │
+   ├─ 3.5. Write raw file з frontmatter:
+   │   ├─ source_url: {url}
+   │   ├─ ingested: {date}
+   │   └─ sha256: {hash of body}
+   │
+   ├─ 3.6. Mark url as fetched в DB
+   └─ Повернути raw_path
+
+4. MAIN()
+   ├─ Для кожного feed_url:
+   │   ├─ scan_feed(feed_url)
+   │   ├─ Для кожного new_item:
+   │   │   ├─ fetch_article(item.url)
+   │   │   └─ print(f"Saved: {raw_path}")
+   │   └─ print(f"Feed: {feed_url} — {len(new_items)} new")
+   └─ Exit 0 (нові знайдено) або Exit 1 (нічого нового)
+```
+
+**Ключові особливості:**
+- Використовує HTTP caching (ETag, Last-Modified) для мінімізації трафіку
+- Підтримує стандарт RSS 2.0 та Atom 1.0
+- Автоматична класифікація за URL (arXiv, YouTube, інше)
+- SQLite-база для трекингу оброблених URL
+
+### 3.14 `tools/local_file_monitor.py` — Моніторинг локальних директорій
+
+**Роль:** Відслідковування змін у локальних директоріях, що містять сирі дані.
+
+**Алгоритм виконання:**
+
+```
+1. ІНІЦІАЛІЗАЦІЯ
+   ├─ Завантажити WATCH_DIRS (список директорій для моніторингу)
+   ├─ Завантажити DB_PATH (/tmp/llm-wiki-local.db)
+   ├─ Ініціалізувати базу:
+   │   └─ Таблиця file_hashes (file_path TEXT PRIMARY KEY, file_hash TEXT, watched_at TIMESTAMP)
+   │
+   ├─ 2. Для кожної директорії в WATCH_DIRS:
+   │   ├─ Пройтись по всіх *.md файлах
+   │   ├─ Compute SHA256(file_content)
+   │   ├─ Порівняти з DB:
+   │   │   ├─ Немає в DB → new_file (додати до new_files)
+   │   │   ├─ Є в DB, hash збігається → skip
+   │   │   └─ Є в DB, hash не збігається → modified_file (додати до modified_files)
+   │   └─ Оновити DB: file_path → file_hash, watched_at
+   │
+   └─ Повернути {new_files, modified_files, skipped}
+```
+
+**Ключові особливості:**
+- Хешує вміст файлу, а не metadata (модифікація, розмір)
+- Користувач може вказати custom директорії через аргументи CLI
+- Використовує polling-підхід (не inotify) для крос-платформеності
+
+### 3.15 `tools/github_release_monitor.py` — Моніторинг GitHub релізів
+
+**Роль:** Відслідковування нових релізів та ассетів на GitHub.
+
+**Алгоритм виконання:**
+
+```
+1. ІНІЦІАЛІЗАЦІЯ
+   ├─ Завантажити REPOS (список owner/repo пар)
+   ├─ Завантажити GITHUB_TOKEN (з env або config)
+   ├─ Завантажити DB_PATH (/tmp/llm-wiki-github.db)
+   ├─ Ініціалізувати базу:
+   │   └─ Таблиця releases (repo TEXT, tag TEXT PRIMARY KEY, released_at TIMESTAMP)
+
+2. CHECK_REPO(repo)
+   │
+   ├─ 2.1. GET /repos/{owner}/{repo}/releases
+   │   └─ Headers: Authorization: Bearer ***
+   │
+   ├─ 2.2. Для кожного release:
+   │   ├─ tag = release.tag_name
+   │   ├─ released_at = release.published_at
+   │   ├─ is_already_seen(repo, tag)? → Так: skip
+   │   └─ Ні:
+   │       ├─ Download assets (if configured)
+   │       ├─ Save asset to raw/assets/
+   │       ├─ Create source note to raw/articles/
+   │       └─ Mark as seen in DB
+   │
+   └─ Повернути {new_releases, assets_downloaded}
+```
+
+**Ключові особливості:**
+- Підтримує GitHub REST API v3
+- Автоматичне завантаження ассетів (binaries, docs)
+- Трекинг через tag name + repo
+
+### 3.16 `tools/wiki_lint.py` — Перевірка структурної цілісності
+
+**Роль:** Сканування всієї вікі та виявлення проблем: брукен-лінки, відсутній frontmatter, SHA256-дрейф, невалідні теги.
+
+**Алгоритм виконання:**
+
+```
+1. SCAN_ALL_WIKI_PAGES()
+   ├─ Пройтись по wiki/**/*.md (крім README)
+   ├─ Для кожного файлу:
+   │   ├─ Прочитати вміст
+   │   ├─ validate_frontmatter(content)
+   │   ├─ validate_required_fields(frontmatter)
+   │   ├─ validate_tags(frontmatter.tags)
+   │   ├─ extract_wikilinks(content)
+   │   ├─ check_in_index(file_path)
+   │   ├─ compute_sha256(body)
+   │   ├─ check_sha256_drift(stored_sha, computed_sha)
+   │   ├─ check_line_count(content)
+   │   └─ check_confidence(content)
+   │
+   └─ Повернути list of issues
+
+2. validate_frontmatter(content)
+   ├─ Чи починається з "---"?
+   ├─ Чи є закриваючий "---"?
+   ├─ Чи парситься як YAML?
+   └─ Повернути {valid: bool, error: str|None}
+
+3. validate_required_fields(frontmatter)
+   ├─ Перевірка наявності: type, title, description, created, updated, tags, sources, confidence, links
+   ├─ Перевірка type: має бути в VALID_TYPES
+   ├─ Перевірка dates: формат YYYY-MM-DD
+   └─ Повернути список відсутніх полів
+
+4. validate_tags(tags)
+   ├─ Для кожного tag:
+   │   └─ Чи є в APPROVED_TAGS (з SCHEMA.md)?
+   └─ Повернути список невалідних тегів
+
+5. extract_wikilinks(content)
+   ├─ Regex: \[\([^\]]+\)\]
+   ├─ Для кожного wikilink:
+   │   └─ Чи існує файл wiki/{type}/{slug}.md?
+   └─ Повернути список брукен-посилань
+
+6. compute_sha256(body)
+   ├─ Body = content після frontmatter (після другого "---")
+   └─ hashlib.sha256(body.encode()).hexdigest()
+
+7. check_sha256_drift(stored_sha, computed_sha)
+   ├─ Чи збігаються?
+   └─ Ні → drift detected
+
+8. check_line_count(content)
+   ├─ lines = content.count('\n') + 1
+   ├─ lines > 200 → flag
+   └─ Повернути {lines, over_threshold}
+
+9. check_confidence(content)
+   ├─ confidence = frontmatter.get("confidence")
+   ├─ confidence == "low" → review needed
+   ├─ contested == true → review needed
+   └─ Повернути list
+
+10. MAIN()
+    ├─ SCAN_ALL_WIKI_PAGES()
+    ├─ Generate report (console + outputs/lint-report.md)
+    ├─ Повернути summary: {total_issues, critical, warnings, info}
+    └─ Exit 0 (завжди, навіть при проблемах — не блокує пайплайн)
+```
+
+**Категорії проблем:**
+|| Критичність | Типи проблем |
+||-------------|-------------|
+|| **Critical** | Відсутній frontmatter, відсутні required fields, брукен-лінки |
+|| **Warning** | SHA256-дрейф, теги не з таксономії, >200 рядків |
+|| **Info** | confidence: low, contested: true |
+
+### 3.17 `tools/integrator.py` — Автоматичний інтегратор (legacy reference)
 
 **Роль:** Головний скрипт перетворення сирого джерела на сторінку вікі. Запускається після сканування для обробки нових raw-файлів.
 
@@ -202,244 +565,12 @@
 ```
 
 **Ключові параметри:**
-| Параметр | Значення | Опис |
-|----------|----------|------|
-| `MIN_CONTENT_LENGTH` | 500 символів | Мінімальна довжина контенту для створення сторінки |
-| `score_threshold` | 3 | Мінімальний score для обробки |
-| `max_wikilinks` | 5 | Максимум внутрішніх посилань |
-| `title_content_window` | 10,000 символів | Обсяг контенту для аналізу тегів |
-
----
-
-### 3.2 `tools/rss_monitor.py` — RSS-сканер
-
-**Роль:** Моніторинг RSS/Atom-каналів для виявлення нових статей.
-
-**Алгоритм виконання:**
-
-```
-1. ІНІЦІАЛІЗАЦІЯ
-   ├─ Завантажити RSS_URLS (список URL-адрес RSS-каналів)
-   ├─ Завантажити DB_PATH (/tmp/llm-wiki-rss.db)
-   ├─ Ініціалізувати базу даних:
-   │   ├─ Таблиця processed_urls (url TEXT PRIMARY KEY, fetched_at TIMESTAMP)
-   │   └─ Таблиця processed_feeds (feed_url TEXT PRIMARY KEY, last_etag TEXT, last_modified TEXT)
-
-2. SCAN_FEED(feed_url)
-   │
-   ├─ 2.1. GET feed_url з HTTP-заголовками:
-   │   ├─ If-None-Match: last_etag (з DB)
-   │   └─ If-Modified-Since: last_modified (з DB)
-   │
-   ├─ 2.2. Якщо 304 Not Modified → return [] (nothing new)
-   │
-   ├─ 2.3. Parse XML feed:
-   │   ├─ Extract items (entries)
-   │   ├─ Для кожного item:
-   │   │   ├─ url = item.link
-   │   │   ├─ title = item.title
-   │   │   ├─ published = item.published / item.updated
-   │   │   └─ content = item.content / item.summary
-   │   │
-   │   ├─ 2.4. Для кожного item:
-   │   │   ├─ is_already_fetched(url)? → Так: skip
-   │   │   └─ Ні: додати до new_items
-   │   │
-   │   ├─ 2.5. Збережити етикетку:
-   │   │   ├─ last_etag → DB
-   │   │   └─ last_modified → DB
-   │   │
-   │   └─ Повернути new_items (необроблені)
-
-3. FETCH_ARTICLE(url)
-   │
-   ├─ 3.1. GET url → HTML
-   ├─ 3.2. convert_html_to_markdown(html)
-   ├─ 3.3. Визначити тип:
-   │   ├─ arXiv → raw/papers/
-   │   ├─ YouTube transcript → raw/transcripts/
-   │   └─ інше → raw/articles/
-   │
-   ├─ 3.4. Generate filename:
-   │   ├─ arXiv: arxiv{paper_id}.md
-   │   ├─ YouTube: youtube_{video_id}_{date}.md
-   │   └─ інше: {title_slug}_{date}.md
-   │
-   ├─ 3.5. Write raw file з frontmatter:
-   │   ├─ source_url: {url}
-   │   ├─ ingested: {date}
-   │   └─ sha256: {hash of body}
-   │
-   ├─ 3.6. Mark url as fetched в DB
-   └─ Повернути raw_path
-
-4. MAIN()
-   ├─ Для кожного feed_url:
-   │   ├─ scan_feed(feed_url)
-   │   ├─ Для кожного new_item:
-   │   │   ├─ fetch_article(item.url)
-   │   │   └─ print(f"Saved: {raw_path}")
-   │   └─ print(f"Feed: {feed_url} — {len(new_items)} new")
-   └─ Exit 0 (нові знайдено) або Exit 1 (нічого нового)
-```
-
-**Ключові особливості:**
-- Використовує HTTP caching (ETag, Last-Modified) для мінімізації трафіку
-- Підтримує стандарт RSS 2.0 та Atom 1.0
-- Автоматична класифікація за URL (arXiv, YouTube, інше)
-- SQLite-база для трекингу оброблених URL
-
----
-
-### 3.3 `tools/local_file_monitor.py` — Моніторинг локальних директорій
-
-**Роль:** Відслідковування змін у локальних директоріях, що містять сирі дані.
-
-**Алгоритм виконання:**
-
-```
-1. ІНІЦІАЛІЗАЦІЯ
-   ├─ Завантажити WATCH_DIRS (список директорій для моніторингу)
-   ├─ Завантажити DB_PATH (/tmp/llm-wiki-local.db)
-   ├─ Ініціалізувати базу:
-   │   └─ Таблиця file_hashes (file_path TEXT PRIMARY KEY, file_hash TEXT, watched_at TIMESTAMP)
-   │
-   ├─ 2. Для кожної директорії в WATCH_DIRS:
-   │   ├─ Пройтись по всіх *.md файлах
-   │   ├─ Compute SHA256(file_content)
-   │   ├─ Порівняти з DB:
-   │   │   ├─ Немає в DB → new_file (додати до new_files)
-   │   │   ├─ Є в DB, hash збігається → skip
-   │   │   └─ Є в DB, hash не збігається → modified_file (додати до modified_files)
-   │   └─ Оновити DB: file_path → file_hash, watched_at
-   │
-   └─ Повернути {new_files, modified_files, skipped}
-```
-
-**Ключові особливості:**
-- Хешує вміст файлу, а не metadata (модифікація, розмір)
-- Користувач може вказати custom директорії через аргументи CLI
-- Використовує polling-підхід (не inotify) для крос-платформеності
-
----
-
-### 3.4 `tools/github_release_monitor.py` — Моніторинг GitHub релізів
-
-**Роль:** Відслідковування нових релізів та ассетів на GitHub.
-
-**Алгоритм виконання:**
-
-```
-1. ІНІЦІАЛІЗАЦІЯ
-   ├─ Завантажити REPOS (список owner/repo пар)
-   ├─ Завантажити GITHUB_TOKEN (з env або config)
-   ├─ Завантажити DB_PATH (/tmp/llm-wiki-github.db)
-   ├─ Ініціалізувати базу:
-   │   └─ Таблиця releases (repo TEXT, tag TEXT PRIMARY KEY, released_at TIMESTAMP)
-
-2. CHECK_REPO(repo)
-   │
-   ├─ 2.1. GET /repos/{owner}/{repo}/releases
-   │   └─ Headers: Authorization: Bearer {GITHUB_TOKEN}
-   │
-   ├─ 2.2. Для кожного release:
-   │   ├─ tag = release.tag_name
-   │   ├─ released_at = release.published_at
-   │   ├─ is_already_seen(repo, tag)? → Так: skip
-   │   └─ Ні:
-   │       ├─ Download assets (if configured)
-   │       ├─ Save asset to raw/assets/
-   │       ├─ Create source note to raw/articles/
-   │       └─ Mark as seen in DB
-   │
-   └─ Повернути {new_releases, assets_downloaded}
-```
-
-**Ключові особливості:**
-- Підтримує GitHub REST API v3
-- Автоматичне завантаження ассетів (binaries, docs)
-- Трекинг через tag name + repo
-
----
-
-### 3.5 `tools/wiki_lint.py` — Перевірка структурної цілісності
-
-**Роль:** Сканування всієї вікі та виявлення проблем: брукен-лінки, відсутній frontmatter, SHA256-дрейф, невалідні теги.
-
-**Алгоритм виконання:**
-
-```
-1. SCAN_ALL_WIKI_PAGES()
-   ├─ Пройтись по wiki/**/*.md (крім README)
-   ├─ Для кожного файлу:
-   │   ├─ Прочитати вміст
-   │   ├─ validate_frontmatter(content)
-   │   ├─ validate_required_fields(frontmatter)
-   │   ├─ validate_tags(frontmatter.tags)
-   │   ├─ extract_wikilinks(content)
-   │   ├─ check_in_index(file_path)
-   │   ├─ compute_sha256(body)
-   │   ├─ check_sha256_drift(stored_sha, computed_sha)
-   │   ├─ check_line_count(content)
-   │   └─ check_confidence(content)
-   │
-   └─ Повернути list of issues
-
-2. validate_frontmatter(content)
-   ├─ Чи починається з "---"?
-   ├─ Чи є закриваючий "---"?
-   ├─ Чи парситься як YAML?
-   └─ Повернути {valid: bool, error: str|None}
-
-3. validate_required_fields(frontmatter)
-   ├─ Перевірка наявності: type, title, description, created, updated, tags, sources, confidence, links
-   ├─ Перевірка type: має бути в VALID_TYPES
-   ├─ Перевірка dates: формат YYYY-MM-DD
-   └─ Повернути список відсутніх полів
-
-4. validate_tags(tags)
-   ├─ Для кожного tag:
-   │   └─ Чи є в APPROVED_TAGS (з SCHEMA.md)?
-   └─ Повернути список невалідних тегів
-
-5. extract_wikilinks(content)
-   ├─ Regex: \[\[([^\]]+)\]\]
-   ├─ Для кожного wikilink:
-   │   └─ Чи існує файл wiki/{type}/{slug}.md?
-   └─ Повернути список брукен-посилань
-
-6. compute_sha256(body)
-   ├─ Body = content після frontmatter (після другого "---")
-   └─ hashlib.sha256(body.encode()).hexdigest()
-
-7. check_sha256_drift(stored_sha, computed_sha)
-   ├─ Чи збігаються?
-   └─ Ні → drift detected
-
-8. check_line_count(content)
-   ├─ lines = content.count('\n') + 1
-   ├─ lines > 200 → flag
-   └─ Повернути {lines, over_threshold}
-
-9. check_confidence(content)
-   ├─ confidence = frontmatter.get("confidence")
-   ├─ confidence == "low" → review needed
-   ├─ contested == true → review needed
-   └─ Повернути list
-
-10. MAIN()
-    ├─ SCAN_ALL_WIKI_PAGES()
-    ├─ Generate report (console + outputs/lint-report.md)
-    ├─ Повернути summary: {total_issues, critical, warnings, info}
-    └─ Exit 0 (завжди, навіть при проблемах — не блокує пайплайн)
-```
-
-**Категорії проблем:**
-| Критичність | Типи проблем |
-|-------------|-------------|
-| **Critical** | Відсутній frontmatter, відсутні required fields, брукен-лінки |
-| **Warning** | SHA256-дрейф, теги не з таксономії, >200 рядків |
-| **Info** | confidence: low, contested: true |
+|| Параметр | Значення | Опис |
+||----------|----------|------|
+|| `MIN_CONTENT_LENGTH` | 500 символів | Мінімальна довжина контенту для створення сторінки |
+|| `score_threshold` | 3 | Мінімальний score для обробки |
+|| `max_wikilinks` | 5 | Максимум внутрішніх посилань |
+|| `title_content_window` | 10,000 символів | Обсяг контенту для аналізу тегів |
 
 ---
 
@@ -453,7 +584,8 @@
 ├── SCHEMA.md                        ← Структурний контракт (вхід для всіх скриптів)
 ├── ARCHITECTURE.md                  ← Технічна архітектура
 ├── ALGORITHM.md                     ← Опис алгоритмів
-├── CLAUDE.md                        ← Операцийний контракт агентів
+├── AGENT.md                         ← Операцийний контракт агентів (корінь)
+├── CLAUDE.md                        ← Операцийний контракт агентів (legacy shim)
 ├── index.md                         ← Навігаційний каталог (оновлюється інтегратором)
 ├── log.md                           ← Журнал дій append-only
 │
@@ -477,9 +609,15 @@
 │   ├── integrator.py                ← Інтеграція raw → wiki
 │   ├── rss_monitor.py               ← RSS-сканер
 │   ├── local_file_monitor.py        ← Моніторинг локальних файлів
+│   ├── local_monitor.py             ← Альтернативний локальний монітор
+│   ├── github_monitor.py            ← Моніторинг GitHub репозиторіїв
 │   ├── github_release_monitor.py    ← Моніторинг GitHub релізів
-│   ├── wiki_lint.py                 ← Перевірка цілісності
-│   └── ... (виправляючі скрипти)
+│   ├── check_new_raw.py             ← Перевірка нових raw-файлів
+│   ├── cleanup_duplicates.py        ← Видалення дублікатів
+│   ├── promote_fallback_to_base.py  ← Промоція fallback у base
+│   ├── verify_full_mapping.py       ← Верифікація повного мапінгу
+│   ├── verify_hashes.py             ← Верифікація хешів
+│   └── wiki_lint.py                 ← Перевірка цілісності
 │
 └── outputs/                         ← Вихідні дані
     └── lint-report.md               ← Результати лінтингу
@@ -622,8 +760,8 @@
 
 | Елемент | Статус |
 |---------|--------|
-| `wiki/index.md` | 224 сторінки, 8 категорій, 304 рядки |
-| `log.md` | 61 запис, append-only |
+| `wiki/index.md` | 224 сторінки, 8 категорій, 925 рядків |
+| `log.md` | 71 запис, append-only |
 
 ### 6.3 Бази даних трекингу
 
@@ -669,7 +807,7 @@
 | 2026-07-07 | Phase 3 | Batch ingest: 52 статті, 19 нових сторінок вікі |
 | 2026-07-09 | Phase 4 | Full architecture documentation (this document) |
 | 2026-07-09 | Phase 5 | SCHEMA.md docs/ directory added, CLAUDE.md updated, ALGORITHM.md streamlined |
-| 2026-07-10 | Phase 6 | Tag sync: SCHEMA.md created, 7 new tags added to wiki_lint.py, auto-tag 101 pages, audit-report fixed |
+| 2026-07-10 | Phase 6 | Tag sync: SCHEMA.md created, 7 new tags added to wiki_lint.py, auto-tag 101 pages, audit-report fixed; documentation reorganized (AGENT.md, README.md, docs/); 7 new tooling scripts documented (github_monitor, local_monitor, check_new_raw, cleanup_duplicates, promote_fallback_to_base, verify_full_mapping, verify_hashes) |
 
 ### 6.7 Правила якості (з SCHEMA.md)
 
@@ -696,7 +834,7 @@
 
 ### 6.10 Порядок роботи нового агента
 
-1. Прочитати `CLAUDE.md`
+1. Прочитати `AGENT.md`
 2. Прочитати `SCHEMA.md`
 3. Прочитати `index.md`
 4. Прочитати останні записи `log.md`
