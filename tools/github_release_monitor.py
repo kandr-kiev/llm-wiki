@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
 LOG_FILE = ROOT / "log.md"
-DB_FILE = Path("/tmp/llm-wiki-github.db")
+DB_FILE = ROOT / ".processed" / "github_releases.txt"
 
 # GitHub repositories to monitor
 REPOS = {
@@ -107,6 +107,9 @@ def main():
     
     new_releases = []
     total_scanned = 0
+    
+    # Ensure .processed directory exists
+    DB_FILE.parent.mkdir(parents=True, exist_ok=True)
     
     for repo_name, repo_path in REPOS.items():
         print(f"📡 Scanning {repo_name} ({repo_path})...")

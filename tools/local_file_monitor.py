@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
 LOG_FILE = ROOT / "log.md"
-DB_FILE = Path("/tmp/llm-wiki-local.db")
+DB_FILE = ROOT / ".processed" / "local_files.txt"
 
 # Directories to monitor
 WATCH_DIRS = {
@@ -92,6 +92,9 @@ def main():
     
     new_articles = []
     total_scanned = 0
+    
+    # Ensure .processed directory exists
+    DB_FILE.parent.mkdir(parents=True, exist_ok=True)
     
     for dir_name, dir_path in WATCH_DIRS.items():
         if not dir_path.exists():

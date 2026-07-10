@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
 LOG_FILE = ROOT / "log.md"
-DB_FILE = Path("/tmp/llm-wiki-github.db")
+DB_FILE = ROOT / ".processed" / "github_tags.txt"
 
 # Repositories to monitor - AI/LLM focused
 REPOS = {

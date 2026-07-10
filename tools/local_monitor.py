@@ -9,7 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
 LOG_FILE = ROOT / "log.md"
-DB_FILE = Path("/tmp/llm-wiki-local.db")
+DB_FILE = ROOT / ".processed" / "local_hashes.txt"
 
 # Directories to monitor
 MONITORED_DIRS = [

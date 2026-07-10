@@ -31,7 +31,7 @@ ROOT = Path(
 RAW_DIR = ROOT / "raw" / "articles"
 WIKI_DIR = ROOT / "wiki"
 INDEX_FILE = ROOT / "wiki" / "index.md"
-PROCESSED_DB = Path("/tmp/llm-wiki-processed.db")
+PROCESSED_DB = ROOT / ".processed" / "processed_hashes.db"
 RAW_PROCESSED_DIR = ROOT / ".processed"  # Track processed raw files
 
 MIN_CONTENT_LENGTH = 500  # minimum clean content length

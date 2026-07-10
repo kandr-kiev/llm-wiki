@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
 LOG_FILE = ROOT / "log.md"
-DB_FILE = Path("/tmp/llm-wiki-rss.db")
+DB_FILE = ROOT / ".processed" / "rss_urls.txt"
 
 # RSS Feeds to monitor - AI/LLM focused
 FEEDS = {
@@ -109,6 +109,9 @@ def main():
     
     new_articles = []
     total_scanned = 0
+    
+    # Ensure .processed directory exists
+    DB_FILE.parent.mkdir(parents=True, exist_ok=True)
     
     for blog_name, feed_url in FEEDS.items():
         print(f"📡 Scanning {blog_name}...")

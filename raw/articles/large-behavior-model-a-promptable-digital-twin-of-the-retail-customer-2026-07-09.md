@@ -2,7 +2,7 @@
 
 source_url: https://arxiv.org/abs/2607.06993
 ingested: 2026-07-09
-sha256: PLACEHOLDER
+sha256: 2ce53b4c399a2e1cb104a9eec2503ec61a7ae9ea5bcb2ccc43e8ad1eac369e26
 blog_source: ArXiv AI
 ---
 

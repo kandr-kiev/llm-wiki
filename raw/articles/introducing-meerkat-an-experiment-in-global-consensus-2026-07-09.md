@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/meerkat-introduction/
 ingested: 2026-07-09
-sha256: PLACEHOLDER
+sha256: 1ba654e4b6952151dde464874a02947659dc772335f1a223dc48aed0fe3a07eb
 blog_source: Cloudflare Blog
 ---
 

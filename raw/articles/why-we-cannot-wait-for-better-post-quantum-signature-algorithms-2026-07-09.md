@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/ml-dsa-will-have-to-do/
 ingested: 2026-07-09
-sha256: PLACEHOLDER
+sha256: c37a7fa39a16ad213d244ad9fe773c8a2d364e1e33aef34f4d8865b9b7708d6d
 blog_source: Cloudflare Blog
 ---
 

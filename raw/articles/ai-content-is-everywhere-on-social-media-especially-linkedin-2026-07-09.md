@@ -2,7 +2,7 @@
 
 source_url: https://www.pangram.com/blog/ai-in-your-feed
 ingested: 2026-07-09
-sha256: PLACEHOLDER
+sha256: 0d57449e25c8e8f89cf8097a493043c317141fa2ce5cb833b6d5bc57aef149f5
 blog_source: Hacker News AI
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/australian-payments-plus
 ingested: 2026-07-09
-sha256: PLACEHOLDER
+sha256: 23a792b7fea058ce6e35747773a778a20175dddd54ecd7ec4ae55714728f62a3
 blog_source: OpenAI Blog
 ---
 
