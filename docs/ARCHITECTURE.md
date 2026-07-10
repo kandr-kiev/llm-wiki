@@ -613,16 +613,16 @@
 | `wiki/playbooks/` | 14 | Інструкції |
 | `wiki/synthesis/` | 7 | Синтез |
 | `wiki/queries/` | 2 | Q&A |
-| `wiki/references/` | 1 | Довідкові |
+| `wiki/references/` | 2 | Довідкові |
 | `wiki/templates/` | 8 | Шаблони |
-| **Wiki total** | **222** | |
-| **Grand total** | **313** | |
+| **Wiki total** | **223** | |
+| **Grand total** | **314** | |
 
 ### 6.2 Індекси та журнали
 
 | Елемент | Статус |
 |---------|--------|
-| `wiki/index.md` | 224 сторінки, 8 категорій, 284 рядки |
+| `wiki/index.md` | 224 сторінки, 8 категорій, 304 рядки |
 | `log.md` | 61 запис, append-only |
 
 ### 6.3 Бази даних трекингу
@@ -638,8 +638,15 @@
 | `integrator.py` | ✅ Production | Інтеграція raw → wiki |
 | `rss_monitor.py` | ✅ Production | RSS-сканер |
 | `local_file_monitor.py` | ✅ Production | Моніторинг локальних файлів |
+| `local_monitor.py` | ✅ Production | Альтернативний локальний монітор |
+| `github_monitor.py` | ✅ Production | Моніторинг GitHub репозиторіїв |
 | `github_release_monitor.py` | ✅ Production | Моніторинг GitHub релізів |
 | `wiki_lint.py` | ✅ Production | Перевірка цілісності |
+| `check_new_raw.py` | ✅ Production | Перевірка нових raw-файлів |
+| `cleanup_duplicates.py` | ✅ Production | Видалення дублікатів |
+| `promote_fallback_to_base.py` | ✅ Production | Промоція fallback у base |
+| `verify_full_mapping.py` | ✅ Production | Верифікація повного мапінгу |
+| `verify_hashes.py` | ✅ Production | Верифікація хешів |
 
 ### 6.5 Крон-задачі (Hermes Agent)
 
@@ -661,6 +668,8 @@
 | 2026-07-06 | Phase 2 | Consolidation: видалено `wiki/sources/`, `wiki/events/`, `wiki/digests/`; шаблони переміщено |
 | 2026-07-07 | Phase 3 | Batch ingest: 52 статті, 19 нових сторінок вікі |
 | 2026-07-09 | Phase 4 | Full architecture documentation (this document) |
+| 2026-07-09 | Phase 5 | SCHEMA.md docs/ directory added, CLAUDE.md updated, ALGORITHM.md streamlined |
+| 2026-07-10 | Phase 6 | Tag sync: SCHEMA.md created, 7 new tags added to wiki_lint.py, auto-tag 101 pages, audit-report fixed |
 
 ### 6.7 Правила якості (з SCHEMA.md)
 
