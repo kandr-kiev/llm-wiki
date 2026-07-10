@@ -1,7 +1,7 @@
 # Local LLM Wiki Lint Report
 
-Pages checked: 212
-Issues: 39
+Pages checked: 213
+Issues: 38
 
 - **WARN** `wiki/index.md` — page over 200 lines
 - **WARN** `wiki/comparisons/course-ai-agents-software-engineer-future-skills-2026.md` — page over 200 lines
@@ -25,7 +25,6 @@ Issues: 39
 - **WARN** `wiki/concepts/remaking-old-computer-graphics-with-ai-image-generation-2026-07-07.md` — page over 200 lines
 - **WARN** `wiki/concepts/the-illustrated-retrieval-transformer-2026-07-07.md` — page over 200 lines
 - **WARN** `wiki/concepts/the-illustrated-stable-diffusion-2026-07-07.md` — page over 200 lines
-- **WARN** `wiki/entities/medcalc-pro-solving-complex-medical-calculations-with-llm-agents-2026-07-07.md` — unapproved tag: clinical-decision-support
 - **WARN** `wiki/playbooks/how-to-build-ai-agents.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-choose-ai-coding-assistants.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-deploy-local-llm.md` — page over 200 lines

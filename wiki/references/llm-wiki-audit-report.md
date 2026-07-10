@@ -2,16 +2,16 @@
 title: "Аудит LLM Wiki Системи"
 type: reference
 category: "system-audit"
-tags: [llm-wiki, reference]
-  - audit
-  - system-integrity
-  - wiki-maintenance
-  - cron
-  - scripts
-  - integrator
-  - monitors
+tags: [llm-wiki, audit, reference, system-audit, system-integrity, wiki-maintenance, cron, scripts, integrator, monitors]
 created: 2026-07-10
-status: completed
+updated: 2026-07-10
+confidence: high
+description: Повний аудит активних скриптів, цілісності wiki та cron-завдань
+links:
+  - wiki/references/llm-wiki-audit-report.md
+sources:
+  - tools/wiki_lint.py
+  - wiki/references/llm-wiki-audit-report.md
 
 ---
 # Аудит LLM Wiki Системи

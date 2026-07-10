@@ -34,7 +34,7 @@ APPROVED_TAGS = {
     "security", "self-consistency", "self-supervised", "self-training", "semi-supervised", "serverless", "serving", "sft", "skills-gap", "software-engineering",
     "sol", "source", "source-management", "stable-diffusion", "storage", "style-transfer", "supervised", "swarm-intelligence", "swrl",
     "synthesis", "system-design", "text-generation", "tools", "tot", "toxicity", "toxicity-reduction", "training", "transfer-learning", "trust", "truthfulqa", "uncertainty", "use-case", "user-metrics",
-    "vector-database", "verification", "visualization", "web", "wikilinks", "wiki", "wiki-maintenance", "workflow", "xai", "zero-shot"
+    "vector-database", "verification", "visualization", "web", "wikilinks", "wiki", "wiki-maintenance", "workflow", "xai", "zero-shot", "audit", "system-audit", "system-integrity", "cron", "scripts", "integrator", "monitors"
 }
 RESERVED_NAMES = {"README.md"}
 
