@@ -11,6 +11,81 @@ contested: false
 links: [llm-wiki, architecture]
 ---
 
+### [How to Engineer Prompts — Step-by-Step](wiki/comparisons/how-to-engineer-prompts-step-by-step.md)
+
+
+### [How to Deploy with vLLM — Production LLM Serving](wiki/comparisons/how-to-deploy-with-vllm-production-llm-serving.md)
+
+
+### [How to Deploy a Local LLM — Step-by-Step](wiki/comparisons/how-to-deploy-a-local-llm-step-by-step.md)
+
+
+### [How to Choose & Deploy AI Coding Assistants](wiki/comparisons/how-to-choose-deploy-ai-coding-assistants.md)
+
+
+### [How to Build AI Agents — Framework Comparison & Setup](wiki/comparisons/how-to-build-ai-agents-framework-comparison-setup.md)
+
+
+### [k 12 educators practical skills](wiki/comparisons/k-12-educators-practical-skills.md)
+
+
+### [deutsche telekom](wiki/comparisons/deutsche-telekom.md)
+
+
+### [Release Notes: vLLM vv0.24.0](wiki/comparisons/release-notes-vllm-vv0240.md)
+
+
+### [Release Notes: PyTorch vv2.13.0](wiki/comparisons/release-notes-pytorch-vv2130.md)
+
+
+### [Release Notes: OpenAI Python vv2.45.0](wiki/comparisons/release-notes-openai-python-vv2450.md)
+
+
+### [Release Notes: Ollama vv0.31.2](wiki/comparisons/release-notes-ollama-vv0312.md)
+
+
+### [Release Notes: Llama.cpp vb9956](wiki/comparisons/release-notes-llamacpp-vb9956.md)
+
+
+### [Release Notes: Hugging Face Transformers vv5.13.0](wiki/comparisons/release-notes-hugging-face-transformers-vv5130.md)
+
+
+### [Explainable AI (XAI) Cheat Sheet](wiki/comparisons/explainable-ai-xai-cheat-sheet.md)
+
+
+### [Google DeepMind](wiki/comparisons/google-deepmind.md)
+
+
+### [arXiv:2607.07721](wiki/comparisons/arxiv260707721.md)
+
+
+### [arXiv:2607.07766](wiki/comparisons/arxiv260707766.md)
+
+
+### [arXiv:2607.07761](wiki/comparisons/arxiv260707761.md)
+
+
+### [AI Safety & Alignment — Multi-Source Synthesis](wiki/comparisons/ai-safety-alignment-multi-source-synthesis.md)
+
+
+### [arXiv:2607.07759](wiki/comparisons/arxiv260707759.md)
+
+
+### [AI Coding Assistants Landscape](wiki/comparisons/ai-coding-assistants-landscape.md)
+
+
+### [AI Agents Multi-Source Synthesis](wiki/comparisons/ai-agents-multi-source-synthesis.md)
+
+
+### [arXiv:2607.07858](wiki/comparisons/arxiv260707858.md)
+
+
+### [arXiv:2607.07760](wiki/comparisons/arxiv260707760.md)
+
+
+### [arXiv:2607.07850](wiki/comparisons/arxiv260707850.md)
+
+
 # LLM Wiki — Index
 
 > Generated: 2026-07-10 16:53

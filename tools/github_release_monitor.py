@@ -144,17 +144,23 @@ def main():
             new_releases.append(filepath)
             mark_release_processed(repo_name, tag)
     
+    # Status line
+    if new_releases:
+        print(f"Статус: [ACTIVE] — моніторинг {len(REPOS)} репозиторіїв, знайдено {len(new_releases)} нових релізів")
+    else:
+        print(f"Статус: [SILENT] — немає нових даних для інгесту")
+
     # Summary
     print()
     print(f"📊 Scan complete:")
     print(f"  📈 Total releases scanned: {total_scanned}")
     print(f"  🆕 New releases ingested: {len(new_releases)}")
-    
+
     if new_releases:
         append_to_log(f"Scanned {total_scanned} releases, ingested {len(new_releases)} new sources: {', '.join(new_releases)}")
         print(f"  📝 Logged to {LOG_FILE}")
     else:
-        append_to_log(f"Scanned {total_scanned} releases, no new sources found")
+        append_to_log(f"Scanned {total_scanned} releases, no new releases found")
         print(f"  ✅ No new releases to ingest")
     
     return 0 if new_releases else 1

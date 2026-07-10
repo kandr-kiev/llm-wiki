@@ -16,16 +16,16 @@ DB_FILE = ROOT / ".processed" / "rss_urls.txt"
 
 # RSS Feeds to monitor - AI/LLM focused
 FEEDS = {
-    "Andrej Karpathy": "https://karpathy.github.io/atom.xml",
-    "Chip Huyen": "https://chip-huyen.squarespace.com/rss.xml",
+    "Andrej Karpathy": "https://karpathy.bearblog.dev/feed/",
+    "Chip Huyen": "https://huyenchip.com/feed",
     "Lilian Weng": "https://lilianweng.github.io/lil-log/feed.xml",
-    "Sebastian Raschka": "https://sebastianraschka.com/blog/feed.xml",
     "Jay Alammar": "https://jalammar.github.io/feed.xml",
     "Hacker News AI": "https://hnrss.org/frontpage?q=AI",
     "ArXiv AI": "https://export.arxiv.org/rss/cs.AI",
     "Cloudflare Blog": "https://blog.cloudflare.com/rss/",
     "OpenAI Blog": "https://openai.com/blog/rss.xml",
-    "Anthropic Blog": "https://www.anthropic.com/rss.xml",
+    "Google DeepMind": "https://blog.google/technology/ai/rss/",
+    "Distill AI": "https://distill.pub/rss.xml",
 }
 
 def compute_sha256(content: str) -> str:
@@ -149,12 +149,18 @@ def main():
         except Exception as e:
             print(f"  ❌ Error scanning {blog_name}: {e}")
     
+    # Status line
+    if new_articles:
+        print(f"Статус: [ACTIVE] — сканування {len(FEEDS)} feedів, знайдено {len(new_articles)} нових статей")
+    else:
+        print(f"Статус: [SILENT] — немає нових даних для інгесту")
+
     # Summary
     print()
     print(f"📊 Scan complete:")
     print(f"  📈 Total articles scanned: {total_scanned}")
     print(f"  🆕 New articles ingested: {len(new_articles)}")
-    
+
     if new_articles:
         append_to_log(f"Scanned {total_scanned} articles, ingested {len(new_articles)} new sources: {', '.join(new_articles)}")
         print(f"  📝 Logged to {LOG_FILE}")

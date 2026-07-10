@@ -41,14 +41,31 @@ def mark_release(tag: str):
 def save_release_info(repo_name: str, tag: str, url: str, body: str) -> str:
     slug = repo_name.lower().replace(' ', '-').replace('.', '').replace('/', '-')
     slug = ''.join(c for c in slug if c.isalnum() or c in '-_')
-    
-    filename = f"gh-{slug}-release-{tag}-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.md"
+
+    now = datetime.now(timezone.utc)
+    # Strip leading 'v'/'V' from tag to avoid double prefix (vv5.13.0)
+    clean_tag = tag.lstrip('vV')
+    filename = f"gh-{slug}-release-{clean_tag}-{now.strftime('%Y-%m-%d')}.md"
     filepath = RAW_DIR / filename
-    
-    content = f"""# Release Notes: {repo_name} v{tag}
+
+    body_sha = compute_sha256(body)
+
+    content = f"""---
+title: "{repo_name} {tag} Release"
+type: entity
+description: "Release notes and changelog for {repo_name} {tag}"
+created: "{now.strftime('%Y-%m-%d')}"
+updated: "{now.strftime('%Y-%m-%d %H:%M UTC')}"
+tags: [ai, open-source, release-notes]
+sources: ["raw/articles/{filename}"]
+confidence: high
+sha256: "{body_sha}"
+---
+
+# Release Notes: {repo_name} {tag}
 
 **Source:** {url}
-**Published:** {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}
+**Published:** {now.strftime('%Y-%m-%d %H:%M UTC')}
 **Type:** Release notes / changelog
 
 ---
@@ -61,10 +78,10 @@ def save_release_info(repo_name: str, tag: str, url: str, body: str) -> str:
 
 *Auto-collected by LLM Wiki GitHub Monitor*
 """
-    
+
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)
-    
+
     return str(filepath.relative_to(ROOT))
 
 def append_to_log(entry: str):
@@ -89,8 +106,10 @@ def main():
             response.raise_for_status()
             data = response.json()
             
-            # Get latest release
-            releases_url = data.get('releases_url', '').replace('{/tag_name}', '')
+            # Get latest release — strip any GitHub API template params like {/id}, {/tag_name}
+            releases_url = data.get('releases_url', '')
+            import re
+            releases_url = re.sub(r'\{[^}]+\}', '', releases_url)
             releases_response = requests.get(releases_url, timeout=10, headers={
                 'Accept': 'application/vnd.github.v3+json',
                 'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0'

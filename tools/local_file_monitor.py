@@ -13,8 +13,7 @@ DB_FILE = ROOT / ".processed" / "local_files.txt"
 
 # Directories to monitor
 WATCH_DIRS = {
-    "Downloads": Path.home() / "Downloads",
-    "Documents": Path.home() / "Documents",
+    "Projects": Path("/workspace/Projects"),
 }
 
 def compute_sha256(content: str) -> str:
@@ -54,18 +53,19 @@ blog_source: local
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(frontmatter + content)
     
-    # Update SHA256
+    # Update SHA256 — use split_frontmatter logic (same as wiki_lint.py)
     with open(filepath, 'r') as f:
         file_content = f.read()
     
-    parts = file_content.split('---', 2)
-    if len(parts) >= 3:
-        body = parts[2]
-        sha = compute_sha256(body)
-        file_content = parts[0] + '---\n' + parts[1] + '---\n' + parts[2].replace('PLACEHOLDER', sha)
-        
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(file_content)
+    # Find frontmatter boundaries: starts with '---\n', ends with '\n---\n'
+    start = file_content.index('---\n') + 4
+    end = file_content.index('\n---\n', start)
+    body = file_content[end+5:]
+    sha = compute_sha256(body)
+    file_content = file_content[:end] + '\n' + body.replace('PLACEHOLDER', sha) + '\n'
+    
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(file_content)
     
     return str(filepath.relative_to(ROOT))
 
@@ -125,12 +125,18 @@ def main():
             new_articles.append(filepath)
             mark_file_processed(md_file)
     
+    # Status line
+    if new_articles:
+        print(f"Статус: [ACTIVE] — сканування {len(WATCH_DIRS)} каталогів, знайдено {len(new_articles)} нових файлів")
+    else:
+        print(f"Статус: [SILENT] — немає нових даних для інгесту")
+
     # Summary
     print()
     print(f"📊 Scan complete:")
     print(f"  📈 Total files scanned: {total_scanned}")
     print(f"  🆕 New files ingested: {len(new_articles)}")
-    
+
     if new_articles:
         append_to_log(f"Scanned {total_scanned} files, ingested {len(new_articles)} new sources: {', '.join(new_articles)}")
         print(f"  📝 Logged to {LOG_FILE}")

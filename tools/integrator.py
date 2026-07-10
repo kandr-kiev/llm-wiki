@@ -2167,6 +2167,12 @@ def main():
     print(f"  Truncation warnings: {stats['truncations']}")
     print(f"  Skipped (already processed): {stats['skipped']}")
 
+    # Status line
+    if stats['new_pages'] > 0:
+        print(f"Статус: [ACTIVE] — інтеграція завершена, створено {stats['new_pages']} wiki-сторінок")
+    else:
+        print(f"Статус: [SILENT] — немає нових даних для інгесту")
+
 
 if __name__ == "__main__":
     main()
