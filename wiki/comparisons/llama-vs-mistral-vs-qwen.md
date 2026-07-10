@@ -1,6 +1,6 @@
 ---
 title: Llama Vs Mistral Vs Qwen
-tags: []
+tags: [comparison, concept, language-model, llama, local-llm-hardware, mistral, qwen]
 confidence: verified
 links: []
 created: 2026-07-08
@@ -8,8 +8,10 @@ description: ""
 sources: []
 type: concept
 updated: 2026-07-08
+contested: false
+
 ---
----
+--
 title: "Llama vs Mistral vs Qwen — Open Source LLM Comparison"
 type: comparison
 description: Side-by-side comparison of three dominant open-source LLM families: ecosystem, cost, performance, and deployment

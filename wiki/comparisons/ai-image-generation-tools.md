@@ -1,7 +1,7 @@
 ---
 title: "ai image generation tools"
 type: comparison
-tags:
+tags: [comparison, tools]
 description: Comparison page for ai image generation tools
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # ai image generation tools
 
 > **Source:** remaking-old-computer-graphics-with-ai-image-generation-2026-07-07.md

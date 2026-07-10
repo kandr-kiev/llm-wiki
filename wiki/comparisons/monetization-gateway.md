@@ -1,7 +1,7 @@
 ---
 title: "monetization gateway"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for monetization gateway
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # monetization gateway
 
 > **Source:** announcing-the-monetization-gateway-charge-for-any-resource-behind-cloudflare-via-x402-2026-07-07.md

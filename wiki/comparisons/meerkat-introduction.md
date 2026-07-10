@@ -1,20 +1,17 @@
 ---
 title: "meerkat introduction"
 type: comparison
-tags:
-  - llm-wiki
-  - knowledge-base
-    - async
-  - data
-  - distributed
-  - edge
-  - image-generation
-  - nlp
-  - research
-  - use-case
-  - vector-database
----
+tags: [comparison]
+sources: []
+description: Comparison analysis
+created: 2026-07-09
+updated: 2026-07-09
+confidence: medium
+contested: false
+links:
+  - https://blog.cloudflare.com/meerkat-introduction/
 
+---
 # meerkat introduction
 
 > **Source:** introducing-meerkat-an-experiment-in-global-consensus-2026-07-09.md

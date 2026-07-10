@@ -1,7 +1,7 @@
 ---
 title: "LLM Fine-Tuning Techniques in LoRA, QLoRA, SFT, DPO"
 type: comparison
-tags:
+tags: [comparison, dpo, fine-tuning, lora, qlora, sft]
 description: Comparison page for LLM Fine-Tuning Techniques in LoRA, QLoRA, SFT, DPO
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # LLM Fine-Tuning Techniques in LoRA, QLoRA, SFT, DPO
 
 > **Source:** llm-fine-tuning-lora-qlora-dpo-2026.md

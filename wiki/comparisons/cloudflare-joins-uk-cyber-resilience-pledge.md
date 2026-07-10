@@ -1,7 +1,7 @@
 ---
 title: "cloudflare joins uk cyber resilience pledge"
 type: comparison
-tags:
+tags: [cloudflare, comparison]
 description: Comparison page for cloudflare joins uk cyber resilience pledge
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # cloudflare joins uk cyber resilience pledge
 
 > **Source:** cloudflare-proudly-joins-the-uk-governments-cyber-resilience-pledge-2026-07-07.md

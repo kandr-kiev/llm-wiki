@@ -1,15 +1,15 @@
 ---
 title: "ChatGPT"
 type: concept
-tags: []
+tags: [chatgpt, concept, gpt, language-model]
 description: "Overview of ChatGPT"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # ChatGPT
 
 > Placeholder page — link exists but content not yet ingested.

@@ -1,7 +1,7 @@
 ---
 title: "content independence day ai options"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for content independence day ai options
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # content independence day ai options
 
 > **Source:** your-site-your-rules-new-ai-traffic-options-for-all-customers-2026-07-07.md

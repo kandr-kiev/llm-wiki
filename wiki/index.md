@@ -1,9 +1,22 @@
+---
+type: reference
+title: LLM Wiki Index
+description: Navigation catalog listing all wiki pages organized by category
+created: 2026-07-09
+updated: 2026-07-09
+tags: [llm-wiki, knowledge-base, indexer]
+sources: []
+confidence: high
+contested: false
+links: [llm-wiki, architecture]
+---
+
 # LLM Wiki — Index
 
-> Generated: 2026-07-09 16:53
-
-> Total pages: 222
-
+> Generated: 2026-07-10 16:53
+>
+> Total pages: 223
+>
 > Categories: 8
 
 
@@ -16,10 +29,10 @@
 | wiki/entities/ | 44 |
 | wiki/playbooks/ | 14 |
 | wiki/queries/ | 2 |
-| wiki/references/ | 1 |
+| wiki/references/ | 2 |
 | wiki/synthesis/ | 7 |
 | wiki/templates/ | 8 |
-| **Total** | **222** |
+| **Total** | **223** |
 
 ## wiki/comparisons/
 
@@ -257,6 +270,7 @@
 | # | Title | File |
 |---|-------|------|
 | 1 | Llm Deployment Configs | `wiki/references/llm-deployment-configs.md` |
+| 2 | Аудит LLM Wiki Системи | `wiki/references/llm-wiki-audit-report.md` |
 
 ## wiki/synthesis/
 
@@ -281,4 +295,10 @@
 | 5 | Event | `wiki/templates/event.md` |
 | 6 | Playbook | `wiki/templates/playbook.md` |
 | 7 | Reference | `wiki/templates/reference.md` |
-| 8 | Source_Note | `wiki/templates/source_note.md` |
+|| 8 | Source_Note | `wiki/templates/source_note.md` |
+
+## wiki/log.md
+
+| # | Title | File |
+|---|-------|------|
+| 1 | Wiki Log | `wiki/log.md` |

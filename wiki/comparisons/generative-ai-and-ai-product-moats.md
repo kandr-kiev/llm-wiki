@@ -1,7 +1,7 @@
 ---
 title: "generative ai and ai product moats"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for generative ai and ai product moats
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # generative ai and ai product moats
 
 > **Source:** generative-ai-and-ai-product-moats-2026-07-07.md

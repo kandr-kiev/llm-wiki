@@ -1,7 +1,7 @@
 ---
 title: "Advanced Prompt Engineering Techniques in"
 type: comparison
-tags:
+tags: [comparison, prompt-engineering]
 description: Comparison page for Advanced Prompt Engineering Techniques in
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # Advanced Prompt Engineering Techniques in
 
 > **Source:** advanced-prompt-engineering-2026.md

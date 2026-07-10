@@ -1,15 +1,15 @@
 ---
 title: "AI Hardware"
 type: concept
-tags: []
+tags: [concept, hardware]
 description: "Overview of AI Hardware"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # AI Hardware
 
 > Placeholder page — link exists but content not yet ingested.

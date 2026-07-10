@@ -1,7 +1,7 @@
 ---
 title: "helping build shared standards for advanced ai"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for helping build shared standards for advanced ai
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # helping build shared standards for advanced ai
 
 > **Source:** helping-build-shared-standards-for-advanced-ai-2026-07-07.md

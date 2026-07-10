@@ -1,15 +1,15 @@
 ---
 title: "AI Policy"
 type: concept
-tags: []
+tags: [concept, policy]
 description: "Overview of AI Policy"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # AI Policy
 
 > Placeholder page — link exists but content not yet ingested.

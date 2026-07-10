@@ -1,7 +1,7 @@
 ---
 title: "Open Source LLM Landscape Llama vs Mistral vs Qwen"
 type: comparison
-tags:
+tags: [comparison, language-model, llama, mistral, open-source-llm, qwen]
 description: Comparison page for Open Source LLM Landscape Llama vs Mistral vs Qwen
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # Open Source LLM Landscape Llama vs Mistral vs Qwen
 
 > **Source:** open-source-llm-landscape-2026.md

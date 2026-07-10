@@ -1,7 +1,7 @@
 ---
 title: "away"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for away
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # away
 
 > **Source:** automating-ai-away-2026-07-07.md

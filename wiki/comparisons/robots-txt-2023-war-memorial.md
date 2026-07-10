@@ -1,7 +1,7 @@
 ---
 title: "robots txt 2023 war memorial"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for robots txt 2023 war memorial
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # robots txt 2023 war memorial
 
 > **Source:** sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md

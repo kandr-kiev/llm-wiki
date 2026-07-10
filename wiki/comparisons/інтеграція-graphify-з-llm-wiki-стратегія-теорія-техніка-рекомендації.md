@@ -1,22 +1,17 @@
 ---
 title: "Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації"
 type: comparison
-tags:
-  - llm-wiki
-  - knowledge-base
-    - agent
-  - ai
-  - architecture
-  - ci-cd
-  - embedding
-  - llama
-  - llm
-  - open-source
-  - system-design
-  - tool
-  - workflow
----
+tags: [comparison, graph-neural-networks, llm-wiki]
+sources: []
+description: Comparison analysis
+created: 2026-07-09
+updated: 2026-07-09
+confidence: medium
+contested: false
+links:
+  - https://github.com/Graphify-Labs/graphify
 
+---
 # Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації
 
 > **Source:** graphify-llm-wiki-integration-plan.md
@@ -110,8 +105,8 @@ graphify .
 
 ## Related Articles
 
-- [[RTX 5070 Ti]]
+- [[збірка-rtx-5070-ti-фінальна-оцінка]]
 - 
-- [[Software Engineer в AI Agents, ринок праці та навчальна програма майбутньої професії]]
+- [[software-engineer-в-ai-agents-ринок-праці-та-навчальна-програма-майбутньої-професії]]
 - 
 - 

@@ -1,7 +1,7 @@
 ---
 title: "Software Engineer в AI Agents, ринок праці та навчальна програма майбутньої професії"
 type: comparison
-tags:
+tags: [agent-workflow, ai-agents, comparison, software-engineering]
 description: Comparison page for Software Engineer в AI Agents, ринок праці та навчальна програма майбутньої професії
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # Software Engineer в AI Agents, ринок праці та навчальна програма майбутньої професії
 
 > **Source:** course-ai-agents-software-engineer-future-skills-2026.md

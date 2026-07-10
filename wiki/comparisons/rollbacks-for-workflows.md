@@ -1,7 +1,7 @@
 ---
 title: "rollbacks for workflows"
 type: comparison
-tags:
+tags: [comparison, workflow]
 description: Comparison page for rollbacks for workflows
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # rollbacks for workflows
 
 > **Source:** how-we-built-saga-rollbacks-for-cloudflare-workflows-2026-07-07.md

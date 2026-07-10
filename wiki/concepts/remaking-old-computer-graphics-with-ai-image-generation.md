@@ -1,15 +1,15 @@
 ---
 title: "Remaking Old Computer Graphics with AI Image Generation"
 type: concept
-tags: []
+tags: [concept, graph-neural-networks]
 description: "Overview of Remaking Old Computer Graphics with AI Image Generation"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Remaking Old Computer Graphics with AI Image Generation
 
 > Placeholder page — link exists but content not yet ingested.

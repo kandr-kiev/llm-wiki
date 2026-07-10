@@ -1,7 +1,7 @@
 ---
 title: "illustrated retrieval transformer"
 type: comparison
-tags:
+tags: [comparison, retrieval]
 description: Comparison page for illustrated retrieval transformer
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # illustrated retrieval transformer
 
 > **Source:** the-illustrated-retrieval-transformer-2026-07-07.md

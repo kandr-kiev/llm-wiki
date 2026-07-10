@@ -8,6 +8,7 @@ tags: [llm-wiki, fine-tuning, lora, comparison]
 confidence: verified
 links: []
 sources: []
+contested: false
 ---
 
 # LLM Fine-Tuning Techniques in 2026: LoRA, QLoRA, SFT, DPO

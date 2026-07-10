@@ -1,7 +1,7 @@
 ---
 title: "how gpt3 works visualizations animations"
 type: comparison
-tags:
+tags: [comparison, gpt, language-model, visualization]
 description: Comparison page for how gpt3 works visualizations animations
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # how gpt3 works visualizations animations
 
 > **Source:** how-gpt3-works---visualizations-and-animations-2026-07-07.md

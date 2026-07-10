@@ -1,7 +1,7 @@
 ---
 title: "agentic internet bot report"
 type: comparison
-tags:
+tags: [agent-workflow, ai-agents, comparison]
 description: Comparison page for agentic internet bot report
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # agentic internet bot report
 
 > **Source:** content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07.md

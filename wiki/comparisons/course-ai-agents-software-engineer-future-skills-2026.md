@@ -8,6 +8,7 @@ tags: [llm-wiki, comparison, fine-tuning]
 confidence: verified
 links: []
 sources: []
+contested: false
 ---
 
 # Software Engineer в 2026–2027: AI Agents, ринок праці та навчальна програма майбутньої професії

@@ -1,15 +1,15 @@
 ---
 title: "Labor Market"
 type: concept
-tags: []
+tags: [concept]
 description: "Overview of Labor Market"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Labor Market
 
 > Placeholder page — link exists but content not yet ingested.

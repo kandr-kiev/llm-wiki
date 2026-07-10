@@ -1,15 +1,15 @@
 ---
 title: "ML Infrastructure"
 type: concept
-tags: []
+tags: [ai-infrastructure, concept]
 description: "Overview of ML Infrastructure"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # ML Infrastructure
 
 > Placeholder page — link exists but content not yet ingested.

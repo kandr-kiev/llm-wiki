@@ -1,7 +1,7 @@
 ---
 title: "workers cache"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for workers cache
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # workers cache
 
 > **Source:** your-worker-can-now-have-its-own-cache-in-front-of-it-2026-07-07.md

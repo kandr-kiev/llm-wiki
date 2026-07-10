@@ -1,15 +1,15 @@
 ---
 title: "Edge AI"
 type: concept
-tags: []
+tags: [concept]
 description: "Overview of Edge AI"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Edge AI
 
 > Placeholder page — link exists but content not yet ingested.

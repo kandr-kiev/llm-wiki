@@ -1,7 +1,7 @@
 ---
 title: "oauth for all"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for oauth for all
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # oauth for all
 
 > **Source:** unlocking-the-cloudflare-app-ecosystem-with-oauth-for-all-2026-07-07.md

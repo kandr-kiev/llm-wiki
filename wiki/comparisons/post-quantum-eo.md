@@ -1,7 +1,7 @@
 ---
 title: "post quantum eo"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for post quantum eo
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # post quantum eo
 
 > **Source:** the-white-houses-post-quantum-executive-order-is-an-important-milestone-its-time-to-get-to-work-2026-07-07.md

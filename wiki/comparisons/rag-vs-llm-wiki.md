@@ -1,6 +1,6 @@
 ---
 title: Rag Vs Llm Wiki
-tags: []
+tags: [comparison, concept, llm-wiki, rag]
 confidence: verified
 links: []
 created: 2026-07-08
@@ -8,8 +8,10 @@ description: ""
 sources: []
 type: concept
 updated: 2026-07-08
+contested: false
+
 ---
----
+--
 type: comparison
 title: RAG vs LLM Wiki
 description: Comparison between query-time retrieval and persistent compiled knowledge.

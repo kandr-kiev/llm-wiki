@@ -1,7 +1,7 @@
 ---
 title: "LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant"
 type: comparison
-tags:
+tags: [awq, comparison, gguf, gpt, gptq, language-model, quantization]
 description: Comparison page for LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant
 
 > **Source:** llm-quantization-gguf-gptq-awq.md

@@ -1,15 +1,15 @@
 ---
 title: "Model Interpretability"
 type: concept
-tags: []
+tags: [concept, interpretability]
 description: "Overview of Model Interpretability"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Model Interpretability
 
 > Placeholder page — link exists but content not yet ingested.

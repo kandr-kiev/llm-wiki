@@ -1,22 +1,17 @@
 ---
 title: "ai in your feed"
 type: comparison
-tags:
-  - llm-wiki
-  - knowledge-base
-    - ai
-  - analysis
-  - application
-  - async
-  - computer-vision
-  - data
-  - foundation-model
-  - image-generation
-  - news
-  - research
-  - web
----
+tags: [comparison]
+sources: []
+description: Comparison analysis
+created: 2026-07-09
+updated: 2026-07-09
+confidence: medium
+contested: false
+links:
+  - https://www.pangram.com/blog/ai-in-your-feed
 
+---
 # ai in your feed
 
 > **Source:** ai-content-is-everywhere-on-social-media-especially-linkedin-2026-07-09.md
@@ -77,8 +72,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[robots txt 2023 war memorial]]
-- [[applying large language models cohere]]
-- [[generative ai and ai product moats]]
+- [[robots-txt-2023-war-memorial]]
+- [[applying-large-language-models-cohere]]
+- [[generative-ai-and-ai-product-moats]]
 - [[away]]
-- [[hidden states]]
+- [[hidden-states]]

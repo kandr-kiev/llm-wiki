@@ -1,17 +1,17 @@
 ---
 title: "FableCut"
 type: comparison
-tags:
-  - llm-wiki
-  - knowledge-base
-    - ai
-  - application
-  - cloud
-  - data
-  - news
-  - system-design
----
+tags: [comparison]
+sources: []
+description: Comparison analysis
+created: 2026-07-09
+updated: 2026-07-09
+confidence: medium
+contested: false
+links:
+  - https://github.com/ronak-create/FableCut
 
+---
 # FableCut
 
 > **Source:** show-hn-fablecut--a-browser-video-editor-ai-agents-can-drive-zero-deps-2026-07-09.md
@@ -84,8 +84,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai in your feed]]
-- [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[arXiv:2607.06820]]
-- [[Best AI Coding Assistants as of March]]
-- [[Best AI Coding Assistants]]
+- [[ai-in-your-feed]]
+- [karpathy](https://gist.github.com/karpathy)
+- [arXiv:2607.06820](https://arxiv.org/abs/2607.06820)
+- [[best-ai-coding-assistants-as-of-march]]
+- [[best-ai-coding-assistants-as-of-march]]

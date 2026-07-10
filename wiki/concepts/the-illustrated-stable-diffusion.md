@@ -1,15 +1,15 @@
 ---
 title: "The Illustrated Stable Diffusion"
 type: concept
-tags: []
+tags: [concept, diffusion]
 description: "Overview of The Illustrated Stable Diffusion"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # The Illustrated Stable Diffusion
 
 > Placeholder page — link exists but content not yet ingested.

@@ -1,7 +1,7 @@
 ---
 title: "explainable ai"
 type: comparison
-tags:
+tags: [comparison, explainable-ai]
 description: Comparison page for explainable ai
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # explainable ai
 
 > **Source:** explainable-ai-cheat-sheet-2026-07-07.md

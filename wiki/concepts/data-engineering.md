@@ -1,15 +1,15 @@
 ---
 title: "Data Engineering"
 type: concept
-tags: []
+tags: [concept, data-engineering]
 description: "Overview of Data Engineering"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Data Engineering
 
 > Placeholder page — link exists but content not yet ingested.

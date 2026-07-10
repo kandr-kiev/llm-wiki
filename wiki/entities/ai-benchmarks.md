@@ -1,15 +1,15 @@
 ---
 title: "AI Benchmarks"
 type: concept
-tags: []
+tags: [ai-benchmark, benchmark, concept]
 description: "Overview of AI Benchmarks"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # AI Benchmarks
 
 > Placeholder page — link exists but content not yet ingested.

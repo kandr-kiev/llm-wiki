@@ -1,7 +1,7 @@
 ---
 title: "12 Advanced RAG Techniques Beyond Naive Retrieval"
 type: comparison
-tags:
+tags: [advanced-rag, comparison, rag, retrieval]
 description: Comparison page for 12 Advanced RAG Techniques Beyond Naive Retrieval
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # 12 Advanced RAG Techniques Beyond Naive Retrieval
 
 > **Source:** advanced-rag-techniques-2026.md

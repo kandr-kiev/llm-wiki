@@ -1,7 +1,7 @@
 ---
 title: "moving to substack"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for moving to substack
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # moving to substack
 
 > **Source:** moving-to-substack-2026-07-07.md

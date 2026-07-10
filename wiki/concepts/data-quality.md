@@ -1,15 +1,15 @@
 ---
 title: "Data Quality"
 type: concept
-tags: []
+tags: [concept, data-engineering]
 description: "Overview of Data Quality"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Data Quality
 
 > Placeholder page — link exists but content not yet ingested.

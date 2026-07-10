@@ -1,215 +1,185 @@
-# Local LLM Wiki Schema
+---
+type: reference
+title: LLM Wiki Schema
+description: OKF v0.1 compliant schema defining conventions, structure rules, and tag taxonomy for the LLM Wiki knowledge base
+created: 2026-07-10
+updated: 2026-07-10
+tags: [schema, okf, llm-wiki, knowledge-base]
+sources: []
+confidence: high
+---
 
-## Domain
-Local LLM Wiki is a persistent, markdown-first knowledge base for AI/LLM systems, agent automation, RAG alternatives, MCP integration, OKF-compatible knowledge bundles, and business-process automation patterns.
+# Wiki Schema — OKF v0.1
 
-## Operating Principles
-- `raw/` is immutable ground truth. Agents read raw files but do not edit them after ingest.
-- `wiki/` is agent-maintained synthesis: concept, entity, source-note, comparison, query, and synthesis pages.
-- `SCHEMA.md` is the structural contract for all agents.
-- `CLAUDE.md` is the operational contract for Claude Code and compatible coding agents.
-- `index.md` is the navigation map. Every wiki page must be listed there.
-- `log.md` is append-only. Every ingest/query/lint/design action must be recorded.
-- If `raw/` and `wiki/` conflict, `raw/` wins and the wiki page is marked `contested: true` or `confidence: low`.
+## OKF v0.1 Compliance
 
-## Directory Contract
+This wiki conforms to the [Open Knowledge Format v0.1](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing):
 
-```text
-/workspace/llm-wiki/
-├── CLAUDE.md
-├── SCHEMA.md
-├── ARCHITECTURE.md
-├── ALGORITHM.md
-├── index.md
-├── log.md
-├── raw/
-│   ├── articles/
-│   ├── papers/
-│   ├── transcripts/
-│   └── assets/
-├── wiki/
-│   ├── concepts/
-│   ├── entities/
-│   ├── comparisons/
-│   ├── queries/
-│   ├── references/
-│   ├── playbooks/
-│   ├── synthesis/
-│   └── templates/
-├── outputs/
-├── docs/
-└── tools/
-```
+| OKF Field | Required? | Coverage |
+|-----------|:---------:|----------|
+| `type` | ✅ required | 219/219 (100%) |
+| `title` | optional | 219/219 (100%) |
+| `description` | optional | 209/219 (95%) |
+| `tags` | optional | 117/219 (53%) |
+| `resource` | optional | 0/219 (0%) |
+| `timestamp` | optional | 0/219 (0%) |
 
-## Type Taxonomy
+### OKF Field Mapping
 
-|| Type | Folder | Purpose |
-|---|---|---|
-| `concept` | `wiki/concepts/` | Themes, ideas, theories, definitions |
-| `entity` | `wiki/entities/` | People, organizations, products, systems |
-| `comparison` | `wiki/comparisons/` | Comparisons, benchmarks, analytics |
-| `query` | `wiki/queries/` | Valuable answers filed back into the wiki |
-| `synthesis` | `wiki/synthesis/` | Multi-source conclusion |
-| `reference` | `wiki/references/` | Static data: serials, passwords, configs, specs |
-| `playbook` | `wiki/playbooks/` | Instructions, runbooks, procedures |
+| OKF Spec | Our Field | Notes |
+|----------|-----------|-------|
+| `type` | `type` | Direct mapping |
+| `title` | `title` | Direct mapping |
+| `description` | `description` | Direct mapping |
+| `tags` | `tags` | Direct mapping |
+| `timestamp` | `created` + `updated` | Split into creation/update dates |
+| `resource` | (not used) | Reserved for external resources |
 
-> **Note:** Source notes (`wiki/sources/`), events (`wiki/events/`), and digests (`wiki/digests/`) have been removed. Raw sources live in `raw/articles/` (or `raw/papers/`, `raw/transcripts/`). Wiki pages reference raw sources directly via `sources: [raw/articles/filename.md]` frontmatter.
+### OKF Extensions (Non-Standard Fields)
 
-New types must be added to this taxonomy before use. Unknown types → `wiki/misc/` or manual review.
+OKF is minimally opinionated — additional fields are allowed:
+
+| Field | Purpose |
+|-------|---------|
+| `category` | Wiki section (entities, concepts, comparisons, etc.) |
+| `confidence` | Quality signal: high/medium/low |
+| `contested` | Boolean — unresolved contradictions |
+| `links` | Markdown links to related pages |
+| `sources` | Raw source file references |
+| `status` | Workflow status (draft, completed, archived) |
+
+## Conventions
+
+- **File names:** lowercase, hyphens, no spaces (e.g., `transformer-architecture.md`)
+- **Frontmatter:** Every wiki page starts with YAML frontmatter (see below)
+- **Wikilinks:** Use `[[wikilinks]]` to link between pages (minimum 2 outbound links per page)
+- **Updates:** When updating a page, always bump the `updated` date
+- **Index:** Every new page must be added to `index.md` under the correct section
+- **Log:** Every action must be appended to `log.md`
+- **Provenance:** On pages synthesizing 3+ sources, append `^[raw/articles/source-file.md]` at end of paragraphs with source-specific claims
 
 ## Frontmatter
-Every wiki page must start with YAML frontmatter:
 
 ```yaml
 ---
-type: concept | entity | source-note | comparison | query | synthesis
-title: Human readable title
-description: One sentence summary
+title: Page Title
+type: entity | concept | comparison | query | reference | playbook | synthesis
+category: entities | concepts | comparisons | queries | references | playbooks | synthesis
+tags: [from taxonomy below]
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
-tags: [llm-wiki, okf, mcp]
-sources: [raw/articles/example.md]
+sources: [raw/articles/source-name.md]
+# Optional quality signals:
 confidence: high | medium | low
-contested: false
-links: [other-page-slug]
+contested: true
+links: [related-page]
+status: draft | completed | archived
 ---
 ```
 
-## Raw Source Frontmatter
-Raw source files must include:
+## Tag Taxonomy — 184 Tags
 
-```yaml
----
-source_url: https://example.com/source
-ingested: YYYY-MM-DD
-sha256: <sha256 of body below frontmatter>
----
-```
+### AI/ML Core (48 tags)
 
-## Tag Taxonomy
-Approved tags:
-- `llm-wiki`
-- `knowledge-base`
-- `rag`
-- `okf`
-- `mcp`
-- `obsidian`
-- `automation`
-- `agent-workflow`
-- `schema`
-- `ingest`
-- `query`
-- `lint`
-- `source-management`
-- `business-process`
-- `architecture`
-- `comparison`
-- `local-llm-hardware`
-- `rtx-5070-ti`
-- `playbook`
-- `reference`
-- `event`
-- `digest`
-- `hermes`
-- `storage`
-- `fine-tuning`
-- `prompt-engineering`
-- `open-source-llm`
-- `llm-benchmarks`
-- `evaluation`
-- `helk`
-- `mmlu`
-- `mt-bench`
-- `truthfulqa`
-- `safety`
-- `robustness`
-- `fine-tuning`
-- `lora`
-- `qlora`
-- `dpo`
-- `peft`
-- `sft`
-- `rlhf`
-- `prompt-engineering`
-- `cot`
-- `tot`
-- `self-consistency`
-- `in-context-learning`
-- `zero-shot`
-- `few-shot`
-- `open-source-llm`
-- `llama`
-- `mistral`
-- `qwen`
-- `gemma`
-- `glm`
-- `deepseek`
-- `synthesis`
-- `benchmark`
-- `cost-economics`
-- `qa`
-- `faq`
-- `local`
-- `deployment`
-- `configuration`
-- `health-check`
-- `digest`
-- `event`
-- `meeting`
-- `decision`
-- `milestone`
-- `company`
-- `model`
-- `data-engineering`
-- `enterprise-ai`
-- `ai-safety`
-- `cloudflare`
-- `serverless`
-- `wiki`
-- `indexer`
-- `orchestration`
-- `inference`
-- `quantization`
-- `serving`
-- `toxicity-reduction`
-- `constitutional-ai`
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `ai-agents` | `ai-benchmark` | `ai-education` | `ai-infrastructure` |
+| `ai-integration` | `ai-safety` | `ai-workforce` | `alignment` |
+| `architecture` | `architecture-design` | `auto-ml` | `automation` |
+| `benchmark` | `bias-mitigation` | `clarification` | `comparison` |
+| `concept` | `conditional-generation` | `consistency-regularization` | `constitutional-ai` |
+| `contrastive-loss` | `controllability` | `cost-economics` | `cot` |
+| `data-efficiency` | `data-quality` | `deepseek` | `deployment` |
+| `diffusion` | `distributed-training` | `dpo` | `dqn` |
+| `efficiency` | `embeddings` | `embodied-ai` | `evaluation` |
+| `explainable-ai` | `exploration` | `few-shot` | `fine-tuning` |
+| `generative-models` | `glm` | `gpt` | `graph-neural-networks` |
+| `in-context-learning` | `inference` | `language-model` | `llama` |
+| `lora` | `model` | `multimodal` | `nlp` |
+| `open-source-llm` | `peft` | `planning` | `policy` |
+| `policy-gradient` | `prompt-engineering` | `qa` | `qlora` |
+| `quantization` | `rag` | `reinforcement-learning` | `representation-learning` |
+| `reproducibility` | `retrieval` | `rlhf` | `serving` |
+| `self-consistency` | `self-supervised` | `self-training` | `semi-supervised` |
+| `sft` | `text-generation` | `zero-shot` | |
 
-New tags must be added here before use.
+### Infrastructure & Systems (19 tags)
 
-## Page Thresholds
-- Create a page when a concept is central to one source or appears in 2+ sources.
-- Update an existing page instead of creating duplicates.
-- Do not create pages for passing mentions.
-- Split pages over ~200 lines.
-- Every concept/comparison/query page should link to at least 2 other pages when possible.
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `assembly` | `cloudflare` | `configuration` | `data-engineering` |
+| `data-parallelism` | `hardware` | `helk` | `inference-chip` |
+| `knowledge-base` | `local-llm-hardware` | `mcp` | `model-parallelism` |
+| `object-centric` | `orchestration` | `rtx-5070-ti` | `serverless` |
+| `vllm` | | | |
 
-## Link Policy
-- Use Obsidian-style `[[wikilinks]]` in prose for conceptual links.
-- Use markdown links for raw source paths and external URLs.
-- Every new page must be listed in `index.md`.
+### Methods & Techniques (20 tags)
 
-## Quality Signals
-- `confidence: high` — supported by multiple reliable sources or direct spec.
-- `confidence: medium` — plausible synthesis from one strong source.
-- `confidence: low` — weak, disputed, inferred, or needs review.
-- `contested: true` — unresolved contradiction exists.
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `active-learning` | `advanced-rag` | `agent-workflow` | `agentic-tasks` |
+| `auto-ml` | `configuration` | `duplicates` | `feature-attribution` |
+| `language-action` | `mixed-precision` | `nas` | `next-gen` |
+| `partial-observability` | `style-transfer` | `swrl` | `tot` |
+| `xai` | | | |
 
-## Lint Requirements
-A lint pass must check:
-1. Missing frontmatter.
-2. Missing required frontmatter fields.
-3. Tags not in taxonomy.
-4. Broken `[[wikilinks]]`.
-5. Wiki pages absent from `index.md`.
-6. Raw hash drift.
-7. Pages over 200 lines.
-8. Low-confidence or contested pages.
+### Evaluation & Benchmarks (12 tags)
 
-## Agent Handoff Rule
-Any external agent, including Claude Code, starts by reading:
-1. `CLAUDE.md`
-2. `SCHEMA.md`
-3. `index.md`
-4. last entries of `log.md`
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `entity` | `mmlu` | `mt-bench` | `open-domain` |
+| `pairwise-comparison` | `reliability` | `replication` | `robustness` |
+| `safety` | `truthfulqa` | `uncertainty` | `verification` |
 
-Then it performs only the requested operation and logs the result.
+### Applications & Domains (18 tags)
+
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `analytics` | `bioinformatics` | `clinical-decision-support` | `coding-agents` |
+| `drug-discovery` | `enterprise` | `enterprise-ai` | `environment-modeling` |
+| `faq` | `genebench-pro` | `genomics` | `healthcare` |
+| `image-generation` | `labor-market` | `manufacturing` | `medical-calculation` |
+| `multi-agent` | `scientific-ai` | `scientific-research` | `swarm-intelligence` |
+| `toxicity` | `toxicity-reduction` | `visualization` | |
+
+### Companies & Products (10 tags)
+
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `broadcom` | `chatgpt` | `gemma` | `hp` |
+| `iFLYTEK` | `mistral` | `openai` | `qwen` |
+| `sol` | `stable-diffusion` | | |
+
+### Research & Meta (15 tags)
+
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `arxiv` | `hermes` | `ingest` | `integrity` |
+| `llm-assistance` | `llm-benchmarks` | `llm-wiki` | `ml` |
+| `okf` | `reference` | `schema` | `source` |
+| `synthesis` | `tools` | `wiki-maintenance` | |
+
+### Wiki Operations (14 tags)
+
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `adoption` | `europe` | `local` | `partnership` |
+| `playbook` | `pluralism` | `productivity` | `query-strategy` |
+| `skills-gap` | `swrl` | `trust` | `user-metrics` |
+| `wikilinks` | `workflow` | | |
+
+### Page Thresholds
+
+- **Create a page** when an entity/concept appears in 2+ sources OR is central to one source
+- **Add to existing page** when a source mentions something already covered
+- **DON'T create a page** for passing mentions, minor details, or things outside the domain
+- **Split a page** when it exceeds ~200 lines — break into sub-topics with cross-links
+- **Archive a page** when its content is fully superseded — move to `_archive/`, remove from index
+
+### Update Policy
+
+When new information conflicts with existing content:
+1. Check the dates — newer sources generally supersede older ones
+2. If genuinely contradictory, note both positions with dates and sources
+3. Mark the contradiction in frontmatter: `contested: true`
+4. Flag for user review

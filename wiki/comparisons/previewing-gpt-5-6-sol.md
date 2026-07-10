@@ -1,7 +1,7 @@
 ---
 title: "previewing gpt 5 6 sol"
 type: comparison
-tags:
+tags: [comparison, gpt, language-model, sol]
 description: Comparison page for previewing gpt 5 6 sol
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # previewing gpt 5 6 sol
 
 > **Source:** previewing-gpt-56-sol-a-next-generation-model-2026-07-07.md

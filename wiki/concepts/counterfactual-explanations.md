@@ -1,15 +1,15 @@
 ---
 title: "Counterfactual Explanations"
 type: concept
-tags: []
+tags: [concept]
 description: "Overview of Counterfactual Explanations"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Counterfactual Explanations
 
 > Placeholder page — link exists but content not yet ingested.

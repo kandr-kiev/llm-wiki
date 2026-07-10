@@ -1,7 +1,7 @@
 ---
 title: "illustrated stable diffusion"
 type: comparison
-tags:
+tags: [comparison, diffusion]
 description: Comparison page for illustrated stable diffusion
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # illustrated stable diffusion
 
 > **Source:** the-illustrated-stable-diffusion-2026-07-07.md

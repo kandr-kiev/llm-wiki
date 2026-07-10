@@ -1,30 +1,17 @@
 ---
 title: "LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant"
 type: comparison
-tags:
-  - llm-wiki
-  - knowledge-base
-    - ai
-  - analysis
-  - awq
-  - best-practice
-  - cost
-  - data
-  - foundation-model
-  - gguf
-  - gptq
-  - gpu
-  - instruction-tuning
-  - library
-  - llama
-  - llm
-  - optimization
-  - performance
-  - quantization
-  - training
-  - zero-shot
----
+tags: [awq, comparison, gguf, gpt, gptq, language-model, quantization]
+sources: []
+description: Comparison analysis
+created: 2026-07-09
+updated: 2026-07-09
+confidence: medium
+contested: false
+links:
+  - https://cast.ai/blog/demystifying-quantizations-llms
 
+---
 # LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant
 
 > **Source:** llm-quantization-gguf-gptq-awq.md
@@ -86,8 +73,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- [[llm-quantization]]
 - 
 - 
-- [[LLM Fine-Tuning]]
+- [[llm-fine-tuning-lora-qlora-dpo-2026]]
 - 

@@ -8,6 +8,7 @@ tags: [llm-wiki, comparison]
 confidence: verified
 links: []
 sources: []
+contested: false
 ---
 
 # Helping Build Shared Standards For Advanced Ai

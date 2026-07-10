@@ -1,7 +1,7 @@
 ---
 title: "applying large language models cohere"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for applying large language models cohere
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # applying large language models cohere
 
 > **Source:** applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07.md

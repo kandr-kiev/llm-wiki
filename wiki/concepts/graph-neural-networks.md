@@ -1,15 +1,15 @@
 ---
 title: "Graph Neural Networks"
 type: concept
-tags: []
+tags: [concept, graph-neural-networks]
 description: "Overview of Graph Neural Networks"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Graph Neural Networks
 
 > Placeholder page — link exists but content not yet ingested.

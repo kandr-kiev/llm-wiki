@@ -1,6 +1,6 @@
 ---
 title: Source Note
-tags: []
+tags: [concept]
 confidence: verified
 links: []
 created: 2026-07-08
@@ -8,8 +8,9 @@ description: ""
 sources: []
 type: concept
 updated: 2026-07-08
+
 ---
----
+--
 type: Source
 title: "{{title}}"
 description: "{{description}}"

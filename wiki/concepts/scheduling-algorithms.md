@@ -1,15 +1,15 @@
 ---
 title: "Scheduling Algorithms"
 type: concept
-tags: []
+tags: [concept, scheduling]
 description: "Overview of Scheduling Algorithms"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Scheduling Algorithms
 
 > Placeholder page — link exists but content not yet ingested.

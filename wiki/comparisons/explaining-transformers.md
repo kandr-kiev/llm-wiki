@@ -1,7 +1,7 @@
 ---
 title: "explaining transformers"
 type: comparison
-tags:
+tags: [comparison, explainable-ai]
 description: Comparison page for explaining transformers
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # explaining transformers
 
 > **Source:** interfaces-for-explaining-transformer-language-models-2026-07-07.md

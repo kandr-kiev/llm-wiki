@@ -1,20 +1,17 @@
 ---
 title: "ml dsa will have to do"
 type: comparison
-tags:
-  - llm-wiki
-  - knowledge-base
-    - async
-  - best-practice
-  - data
-  - edge
-  - image-generation
-  - nlp
-  - research
-  - security
-  - use-case
----
+tags: [comparison]
+sources: []
+description: Comparison analysis
+created: 2026-07-09
+updated: 2026-07-09
+confidence: medium
+contested: false
+links:
+  - https://blog.cloudflare.com/ml-dsa-will-have-to-do/
 
+---
 # ml dsa will have to do
 
 > **Source:** why-we-cannot-wait-for-better-post-quantum-signature-algorithms-2026-07-09.md

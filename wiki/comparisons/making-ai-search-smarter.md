@@ -1,7 +1,7 @@
 ---
 title: "making ai search smarter"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for making ai search smarter
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # making ai search smarter
 
 > **Source:** making-ai-search-smarter-2026-07-07.md

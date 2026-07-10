@@ -1,7 +1,7 @@
 ---
 title: "AI Agent Frameworks LangGraph vs CrewAI vs AutoGen Compared"
 type: comparison
-tags:
+tags: [agent-workflow, ai-agents, comparison, graph-neural-networks]
 description: Comparison page for AI Agent Frameworks LangGraph vs CrewAI vs AutoGen Compared
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # AI Agent Frameworks LangGraph vs CrewAI vs AutoGen Compared
 
 > **Source:** ai-agent-frameworks-2026.md

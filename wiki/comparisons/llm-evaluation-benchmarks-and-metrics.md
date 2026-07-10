@@ -1,7 +1,7 @@
 ---
 title: "LLM Evaluation Benchmarks and Metrics"
 type: comparison
-tags:
+tags: [benchmark, comparison, evaluation]
 description: Comparison page for LLM Evaluation Benchmarks and Metrics
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # LLM Evaluation Benchmarks and Metrics
 
 > **Source:** llm-evaluation-benchmarks-2026.md

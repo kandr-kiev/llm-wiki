@@ -1,15 +1,15 @@
 ---
 title: "Feature Attribution Methods"
 type: concept
-tags: []
+tags: [concept, feature-attribution]
 description: "Overview of Feature Attribution Methods"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Feature Attribution Methods
 
 > Placeholder page — link exists but content not yet ingested.

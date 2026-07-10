@@ -8,6 +8,7 @@ tags: [llm-wiki, open-source-llm, comparison]
 confidence: verified
 links: []
 sources: []
+contested: false
 ---
 
 # Open Source LLM Landscape 2026: Llama vs Mistral vs Qwen

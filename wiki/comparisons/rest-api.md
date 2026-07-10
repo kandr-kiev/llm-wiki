@@ -1,7 +1,7 @@
 ---
 title: "REST API"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for REST API
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # REST API
 
 > **Source:** cloudflare-workers-ai-rest-api-2026.md

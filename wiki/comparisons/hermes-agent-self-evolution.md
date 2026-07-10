@@ -1,17 +1,17 @@
 ---
 title: "hermes agent self evolution"
 type: comparison
-tags:
-  - llm-wiki
-  - knowledge-base
-    - agent
-  - gpu
-  - llm
-  - prompt-tuning
-  - reinforcement-learning
-  - self-supervised
----
+tags: [agent-workflow, ai-agents, comparison, hermes, llm-wiki, rtx-5070-ti]
+sources: []
+description: Comparison analysis
+created: 2026-07-09
+updated: 2026-07-09
+confidence: medium
+contested: false
+links:
+  - https://github.com/NousResearch/hermes-agent-self-evolution
 
+---
 # hermes agent self evolution
 
 > **Source:** hermes-agent-self-evolution-dspy-gepa-principles.md
@@ -45,8 +45,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
-- [[RTX 5070 Ti]]
+- [[llm-wiki]]
+- [[збірка-rtx-5070-ti-фінальна-оцінка]]
 - 
-- [[Software Engineer в AI Agents, ринок праці та навчальна програма майбутньої професії]]
-- [[🖥️ Збірка RTX 5070 Ti — Фінальна оцінка]]
+- [[software-engineer-в-ai-agents-ринок-праці-та-навчальна-програма-майбутньої-професії]]
+- [[rtx-5070-ti]]

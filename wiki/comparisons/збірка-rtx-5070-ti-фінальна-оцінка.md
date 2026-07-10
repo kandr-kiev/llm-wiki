@@ -1,7 +1,7 @@
 ---
 title: "🖥️ Збірка RTX 5070 Ti — Фінальна оцінка"
 type: comparison
-tags:
+tags: [comparison, local-llm-hardware, rtx-5070-ti]
 description: Comparison page for 🖥️ Збірка RTX 5070 Ti — Фінальна оцінка
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # 🖥️ Збірка RTX 5070 Ti — Фінальна оцінка
 
 > **Source:** rtx-5070-ti-build-reference.md

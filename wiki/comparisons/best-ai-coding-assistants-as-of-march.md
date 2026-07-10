@@ -1,7 +1,7 @@
 ---
 title: "Best AI Coding Assistants as of March"
 type: comparison
-tags:
+tags: [comparison, llm-assistance]
 description: Comparison page for Best AI Coding Assistants as of March
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # Best AI Coding Assistants as of March
 
 > **Source:** ai-coding-assistants-2026.md

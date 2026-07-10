@@ -1,15 +1,15 @@
 ---
 title: "Drug Discovery"
 type: concept
-tags: []
+tags: [concept, drug-discovery]
 description: "Overview of Drug Discovery"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Drug Discovery
 
 > Placeholder page — link exists but content not yet ingested.

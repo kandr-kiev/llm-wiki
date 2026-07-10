@@ -1,15 +1,15 @@
 ---
 title: "AI Analytics"
 type: concept
-tags: []
+tags: [concept]
 description: "Overview of AI Analytics"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # AI Analytics
 
 > Placeholder page — link exists but content not yet ingested.

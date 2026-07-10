@@ -1,7 +1,7 @@
 ---
 title: "hidden states"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for hidden states
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # hidden states
 
 > **Source:** finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07.md

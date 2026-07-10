@@ -1,14 +1,17 @@
 ---
 title: "mufg"
 type: comparison
-tags:
-  - llm-wiki
-  - knowledge-base
-    - async
-  - data
-  - gpu
----
+tags: [comparison, enterprise-ai]
+sources: []
+description: Comparison analysis
+created: 2026-07-09
+updated: 2026-07-09
+confidence: medium
+contested: false
+links:
+  - https://openai.com/index/mufg
 
+---
 # mufg
 
 > **Source:** mufg-aims-to-become-ai-native-with-openai-2026-07-09.md
@@ -51,8 +54,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[helping build shared standards for advanced ai]]
-- [[previewing gpt 5 6 sol]]
-- [[ai in your feed]]
-- [[agentic internet bot report]]
-- [[Enterprise AI]]
+- [[helping-build-shared-standards-for-advanced-ai-2026-07-07]]
+- [[previewing-gpt-5-6-sol]]
+- [[ai-in-your-feed]]
+- [[agentic-internet-bot-report]]
+- [[enterprise-ai]]

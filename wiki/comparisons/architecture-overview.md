@@ -1,7 +1,7 @@
 ---
 title: "Architecture overview"
 type: comparison
-tags:
+tags: [architecture, comparison]
 description: Comparison page for Architecture overview
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # Architecture overview
 
 > **Source:** model-context-protocol-intro-architecture.md

@@ -1,15 +1,15 @@
 ---
 title: "Bioinformatics"
 type: concept
-tags: []
+tags: [bioinformatics, concept]
 description: "Overview of Bioinformatics"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # Bioinformatics
 
 > Placeholder page — link exists but content not yet ingested.

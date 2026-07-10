@@ -1,7 +1,7 @@
 ---
 title: "attribution business insights"
 type: comparison
-tags:
+tags: [comparison]
 description: Comparison page for attribution business insights
 
 sources: []
@@ -12,8 +12,9 @@ links: []
 confidence: medium
 created: 2026-07-08
 updated: 2026-07-08
----
+contested: false
 
+---
 # attribution business insights
 
 > **Source:** unmasking-the-crawls-with-attribution-business-insights-2026-07-07.md

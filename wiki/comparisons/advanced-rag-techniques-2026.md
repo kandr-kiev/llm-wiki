@@ -8,6 +8,7 @@ tags: [llm-wiki, rag, comparison]
 confidence: verified
 links: []
 sources: []
+contested: false
 ---
 
 # 12 Advanced RAG Techniques Beyond Naive Retrieval [2026]

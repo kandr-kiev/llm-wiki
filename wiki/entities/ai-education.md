@@ -1,15 +1,15 @@
 ---
 title: "AI Education"
 type: concept
-tags: []
+tags: [ai-education, concept]
 description: "Overview of AI Education"
 confidence: medium
 links: []
 sources: []
 updated: 2026-07-07
 created: 2026-07-07
----
 
+---
 # AI Education
 
 > Placeholder page — link exists but content not yet ingested.

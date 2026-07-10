@@ -1,3 +1,16 @@
+---
+type: reference
+title: Wiki Log
+description: Append-only chronological record of all wiki actions
+created: 2026-07-09
+updated: 2026-07-09
+tags: [llm-wiki, knowledge-base, ingest]
+sources: []
+confidence: high
+contested: false
+links: [llm-wiki, schema]
+---
+
 # Wiki Log
 
 > Chronological record of all wiki actions. Append-only.
@@ -10,7 +23,7 @@
 
 - `tools/cleanup_duplicates.py` — duplicate page removal (136 lines)
 - `tools/promote_fallback_to_base.py` — orphaned `_N` → base version promotion (53 lines)
-- `tools/fix_promoted_wikilinks.py` — broken `[[base_N]]` → `[[base]]` wikilink repair (70 lines)
+- `tools/fix_promoted_wikilinks.py` — broken `base_N` → `base` wikilink repair (70 lines)
 
 ### Actions
 
