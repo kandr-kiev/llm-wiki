@@ -6,15 +6,30 @@ import sys
 from pathlib import Path
 from datetime import datetime, timezone
 
-from utils import (
+import os
+
+from tools.utils import (
     compute_sha256,
     append_to_log,
     slugify,
     build_frontmatter,
     print_status,
     check_dir_exists,
-    split_frontmatter,
+    retry_for_status,
 )
+
+# GitHub token for authenticated API access
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
+
+def _auth_headers():
+    """Return headers with optional auth token."""
+    headers = {
+        'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0',
+        'Accept': 'application/vnd.github.v3+json',
+    }
+    if GITHUB_TOKEN:
+        headers['Authorization'] = f'token {GITHUB_TOKEN}'
+    return headers
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
@@ -25,7 +40,7 @@ DB_FILE = ROOT / ".processed" / "github_issues.txt"
 REPOS = [
     "openai/whisper",
     "openai/gpt-2",
-    "openai/gpt-4",
+    "openai/openai-cookbook",
     "huggingface/transformers",
     "huggingface/diffusers",
     "huggingface/peft",
@@ -34,14 +49,11 @@ REPOS = [
     "mistralai/mistral-src",
     "google-deepmind/gemma",
     "facebookresearch/llama-recipes",
-    "microsoft/LoRA",
     "microsoft/DeepSpeed",
     "pytorch/pytorch",
     "tensorflow/tensorflow",
     "langchain-ai/langchain",
     "microsoft/autogen",
-    "openai/openai-cookbook",
-    "openai/spin",
     "google-research/google-research",
 ]
 
@@ -138,10 +150,7 @@ def main():
         try:
             # Check issues
             issues_url = f"https://api.github.com/repos/{repo}/issues?state=open&per_page=5"
-            issues_response = requests.get(issues_url, timeout=10, headers={
-                'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0',
-                'Accept': 'application/vnd.github.v3+json'
-            })
+            issues_response = retry_for_status(issues_url, _auth_headers(), status=200)
             
             if issues_response.status_code != 200:
                 print(f"  ⚠️  No access")

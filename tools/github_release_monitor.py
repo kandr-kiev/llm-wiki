@@ -6,7 +6,9 @@ import sys
 from pathlib import Path
 from datetime import datetime, timezone
 
-from utils import (
+import os
+
+from tools.utils import (
     compute_sha256,
     append_to_log,
     slugify,
@@ -14,7 +16,21 @@ from utils import (
     print_status,
     check_dir_exists,
     split_frontmatter,
+    retry_for_status,
 )
+
+# GitHub token for authenticated API access
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
+
+def _auth_headers():
+    """Return headers with optional auth token."""
+    headers = {
+        'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0',
+        'Accept': 'application/vnd.github.v3+json',
+    }
+    if GITHUB_TOKEN:
+        headers['Authorization'] = f'token {GITHUB_TOKEN}'
+    return headers
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
@@ -23,25 +39,15 @@ DB_FILE = ROOT / ".processed" / "github_releases.txt"
 
 # GitHub repos to monitor - AI/ML focused
 REPOS = [
-    "openai/gpt-2",
-    "openai/gpt-3",
     "openai/whisper",
-    "openai/dall-e",
-    "openai/gpt-4",
     "openai/clip",
-    "openai/spin",
     "google-deepmind/gemma",
     "google-deepmind/alphafold",
-    "google-deepmind/alphageometry",
-    "google-deepmind/alphazero",
     "meta-llama/llama",
     "meta-llama/llama3",
     "meta-llama/llama-models",
     "mistralai/mistral-src",
     "mistralai/mistral.rs",
-    "mistralai/axolotl",
-    "microsoft/phi-2",
-    "microsoft/Awesome-LLM",
     "microsoft/DeepSpeed",
     "microsoft/DeepSpeedExamples",
     "huggingface/transformers",
@@ -54,41 +60,11 @@ REPOS = [
     "huggingface/trl",
     "huggingface/alignment-handbook",
     "huggingface/axolotl",
-    "microsoft/LoRA",
-    "microsoft/LoRAX",
     "facebookresearch/llama-recipes",
     "facebookresearch/parlai",
     "facebookresearch/faiss",
     "facebookresearch/detectron2",
     "google-research/google-research",
-    "google-research/big_vocabulary",
-    "google-research/longformer",
-    "google-research/big_transfer",
-    "google-research/longform",
-    "google-research/text-to-text-transfer-transformer",
-    "google-research/longformer",
-    "google-research/longform",
-    "google-research/big_vocabulary",
-    "google-research/big_transfer",
-    "google-research/text-to-text-transfer-transformer",
-    "google-research/re2",
-    "google-research/longformer",
-    "google-research/longform",
-    "google-research/big_vocabulary",
-    "google-research/big_transfer",
-    "google-research/text-to-text-transfer-transformer",
-    "google-research/re2",
-    "google-research/longformer",
-    "google-research/longform",
-    "google-research/big_vocabulary",
-    "google-research/big_transfer",
-    "google-research/text-to-text-transfer-transformer",
-    "google-research/re2",
-    "google-research/longformer",
-    "google-research/longform",
-    "google-research/big_vocabulary",
-    "google-research/big_transfer",
-    "google-research/text-to-text-transfer-transformer",
     "google-research/re2",
 ]
 
@@ -176,10 +152,7 @@ def main():
         try:
             # Get latest release
             url = f"https://api.github.com/repos/{repo}/releases/latest"
-            response = requests.get(url, timeout=10, headers={
-                'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0',
-                'Accept': 'application/vnd.github.v3+json'
-            })
+            response = retry_for_status(url, _auth_headers(), status=200)
             
             if response.status_code != 200:
                 print(f"  ⚠️  No access or not found")

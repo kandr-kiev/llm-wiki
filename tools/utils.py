@@ -15,6 +15,7 @@ Centralizes:
 import hashlib
 import os
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -303,3 +304,37 @@ def fix_file_hash(filepath: Path) -> bool:
     new_content = new_fm + '\n' + body
     filepath.write_text(new_content, encoding='utf-8')
     return True
+
+
+def retry_for_status(url: str, headers: dict, max_retries: int = 3,
+                     backoff: float = 2.0, status: int = 200):
+    """Retry GET request on non-target status codes.
+    
+    Args:
+        url: URL to fetch
+        headers: Request headers
+        max_retries: Max number of retries
+        backoff: Initial backoff in seconds (exponential)
+        status: Target status code to return
+    
+    Returns:
+        requests.Response (200 on success, or last error response)
+    """
+    import requests
+    
+    last_resp = None
+    for attempt in range(max_retries):
+        try:
+            resp = requests.get(url, timeout=10, headers=headers)
+            if resp.status_code == status:
+                return resp
+            last_resp = resp
+            if attempt < max_retries - 1:
+                wait = backoff * (2 ** attempt)
+                time.sleep(wait)
+        except requests.exceptions.RequestException:
+            last_resp = None
+            if attempt < max_retries - 1:
+                time.sleep(backoff * (2 ** attempt))
+    
+    return last_resp or requests.Response()
