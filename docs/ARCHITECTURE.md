@@ -1,7 +1,7 @@
 # Local LLM Wiki — Повна архітектурна документація
 
-> **Дата останнього оновлення:** 2026-07-09
-> **Версія системи:** 4.0.0
+> **Дата останнього оновлення:** 2026-07-11
+> **Версія системи:** 5.0.0
 > **Статус:** Production
 
 ---
@@ -31,6 +31,7 @@
 | **SHA256-дрейф** | Розбіжність між обчисленим хешем тіла файлу та збереженим хешем | `sha256: abc123...` ≠ обчислений |
 | **Tag map** | Мапінг тегів → назви сторінок, використовується для пошуку зв'язків | `{"llm-wiki": ["llm-wiki.md", "rag.md"]}` |
 | **Processed tracker** | База даних, що відслідковує, які raw-файли вже інтегровані | `/tmp/llm-wiki-rss.db` |
+| **Central utilities** | Модуль `utils.py` — єдине джерело правди для хешування, frontmatter, тегів та статусів | `tools/utils.py` |
 | **Index** | Каталог-навігація, що містить усі сторінки вікі з категорізацією | `wiki/index.md` |
 | **Log** | Журнал дій append-only, фіксує всі операції | `log.md` |
 
@@ -81,6 +82,32 @@
 ---
 
 ## 3. Скрипти інфраструктури
+
+### 3.5 `tools/utils.py` — Центральна бібліотека утиліт
+
+**Роль:** Єдине джерело правди для хешування, frontmatter, тегів та статусів. Усі інструменти залежать від цього модулю.
+
+**Ключові функції:**
+
+| Функція | Призначення | Повертає |
+|---------|-------------|----------|
+| `split_frontmatter(content)` | Парсинг frontmatter (find-based) | `{fm, body, raw}` |
+| `compute_sha256(content)` | Хешування тіла файлу (NO .strip()) | hex digest |
+| `parse_simple_yaml(fm_text)` | Парсинг YAML frontmatter | dict |
+| `verify_file_hash(filepath)` | Перевірка хешу одного файлу | `{status, stored, computed}` |
+| `check_raw_integrity(raw_dir)` | Сканування raw/ → звіт | `{total, ok, mismatch, no_hash, no_fm}` |
+| `fix_file_hash(filepath)` | Оновлення хешу у frontmatter | bool |
+| `build_frontmatter(data)` | Генератор frontmatter для нових файлів | YAML string |
+| `slugify(text)` | Уніфікована генерація slug | string |
+| `APPROVED_TAGS` | Словник валідних тегів (262 шт.) | dict |
+| `print_status(status, msg)` | Канонічний формат статусу для cron | — |
+
+**Ключові особливості:**
+- `compute_sha256()` НЕ виконує `.strip()` — байтова точність
+- `rglob('**/*.md')` — рекурсивне сканування піддиректорій
+- `os.path.isdir()` перед скануванням — resilient до відсутніх директорій
+- `APPROVED_TAGS` — єдине джерело тегів (замість дублювання в `wiki_lint.py` та `integrator.py`)
+- `build_frontmatter()` — fallback-логіка для GitHub-релізів
 
 ### 3.6 `tools/github_monitor.py` — Моніторинг GitHub репозиторіїв
 
@@ -605,19 +632,21 @@
 │   ├── references/                  ← 1 файл — довідкові дані
 │   └── templates/                   ← 8 файлів — шаблони сторінок
 │
-├── tools/                           ← ШАР 3: Інструменти
+├── tools/                           ← ШАР 3: Інструменти (central utilities)
+│   ├── utils.py                     ← Єдине джерело правди: хеші, frontmatter, теги, статуси
 │   ├── integrator.py                ← Інтеграція raw → wiki
 │   ├── rss_monitor.py               ← RSS-сканер
 │   ├── local_file_monitor.py        ← Моніторинг локальних файлів
 │   ├── local_monitor.py             ← Альтернативний локальний монітор
 │   ├── github_monitor.py            ← Моніторинг GitHub репозиторіїв
 │   ├── github_release_monitor.py    ← Моніторинг GitHub релізів
-│   ├── check_new_raw.py             ← Перевірка нових raw-файлів
+│   ├── check_new_raw.py             ← Перевірка нових raw-файлів (utils.check_raw_integrity)
 │   ├── cleanup_duplicates.py        ← Видалення дублікатів
 │   ├── promote_fallback_to_base.py  ← Промоція fallback у base
 │   ├── verify_full_mapping.py       ← Верифікація повного мапінгу
-│   ├── verify_hashes.py             ← Верифікація хешів
-│   └── wiki_lint.py                 ← Перевірка цілісності
+│   ├── verify_hashes.py             ← Верифікація хешів (utils.check_raw_integrity)
+│   ├── fix_sha256.py                ← Оновлення хешів (вручну)
+│   └── wiki_lint.py                 ← Перевірка цілісності (utils.* + APPROVED_TAGS)
 │
 └── outputs/                         ← Вихідні дані
     └── lint-report.md               ← Результати лінтингу
@@ -660,6 +689,16 @@
                            ▼
                    outputs/
                    lint-report.md
+
+┌──────────────────────────────────────────────────────────────────────┐
+│                        utils.py (CENTRAL HUB)                        │
+│                                                                      │
+│  check_new_raw.py ──→ check_raw_integrity()                          │
+│  verify_hashes.py ──→ check_raw_integrity()                          │
+│  wiki_lint.py ──────→ split_frontmatter, compute_sha256, APPROVED_TAGS│
+│  rss_monitor.py ────→ build_frontmatter, compute_sha256              │
+│  github_release_monitor.py → build_frontmatter, parse_simple_yaml    │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ### 4.3 Граф зв'язків між директоріями вікі
@@ -740,11 +779,11 @@
 
 | Директорія | Кількість файлів | Тип |
 |------------|-----------------|-----|
-| `raw/articles/` | 88 | Сирі статті |
+| `raw/articles/` | 89 | Сирі статті |
 | `raw/papers/` | 1 | Академічні папери |
 | `raw/transcripts/` | 1 | Транскрипти |
 | `raw/assets/` | 1 | Ассети |
-| **Raw total** | **91** | |
+| **Raw total** | **92** | |
 | `wiki/concepts/` | 68 | Концепції |
 | `wiki/entities/` | 44 | Сутності |
 | `wiki/comparisons/` | 78 | Порівняння |
@@ -754,7 +793,7 @@
 | `wiki/references/` | 2 | Довідкові |
 | `wiki/templates/` | 8 | Шаблони |
 | **Wiki total** | **223** | |
-| **Grand total** | **314** | |
+| **Grand total** | **317** | |
 
 ### 6.2 Індекси та журнали
 
@@ -773,18 +812,20 @@
 
 | Скрипт | Статус | Роль |
 |--------|--------|------|
+| `utils.py` | ✅ Production | Центральна бібліотека: хеші, frontmatter, теги, статуси (єдине джерело правди) |
 | `integrator.py` | ✅ Production | Інтеграція raw → wiki |
 | `rss_monitor.py` | ✅ Production | RSS-сканер |
 | `local_file_monitor.py` | ✅ Production | Моніторинг локальних файлів |
 | `local_monitor.py` | ✅ Production | Альтернативний локальний монітор |
 | `github_monitor.py` | ✅ Production | Моніторинг GitHub репозиторіїв |
 | `github_release_monitor.py` | ✅ Production | Моніторинг GitHub релізів |
-| `wiki_lint.py` | ✅ Production | Перевірка цілісності |
-| `check_new_raw.py` | ✅ Production | Перевірка нових raw-файлів |
+| `wiki_lint.py` | ✅ Production | Перевірка цілісності (залежить від utils.*) |
+| `check_new_raw.py` | ✅ Production | Перевірка нових raw-файлів (utils.check_raw_integrity) |
 | `cleanup_duplicates.py` | ✅ Production | Видалення дублікатів |
 | `promote_fallback_to_base.py` | ✅ Production | Промоція fallback у base |
 | `verify_full_mapping.py` | ✅ Production | Верифікація повного мапінгу |
-| `verify_hashes.py` | ✅ Production | Верифікація хешів |
+| `verify_hashes.py` | ✅ Production | Верифікація хешів (utils.check_raw_integrity) |
+| `fix_sha256.py` | ✅ Production | Оновлення хешів (вручну) |
 
 ### 6.5 Крон-задачі (Hermes Agent)
 
@@ -807,7 +848,7 @@
 | 2026-07-07 | Phase 3 | Batch ingest: 52 статті, 19 нових сторінок вікі |
 | 2026-07-09 | Phase 4 | Full architecture documentation (this document) |
 | 2026-07-09 | Phase 5 | SCHEMA.md docs/ directory added, CLAUDE.md updated, ALGORITHM.md streamlined |
-| 2026-07-10 | Phase 6 | Tag sync: SCHEMA.md created, 7 new tags added to wiki_lint.py, auto-tag 101 pages, audit-report fixed; documentation reorganized (AGENT.md, README.md, docs/); 7 new tooling scripts documented (github_monitor, local_monitor, check_new_raw, cleanup_duplicates, promote_fallback_to_base, verify_full_mapping, verify_hashes) |
+| 2026-07-11 | Phase 7 | Central utilities: `tools/utils.py` created — єдине джерело правди для хешів, frontmatter, тегів та статусів. `check_new_raw.py` та `verify_hashes.py` переведено на `utils.check_raw_integrity()`. 158 false-positive MISMATCH усунуто. `fix_sha256.py` оновлено 158 файлів. `rglob('**/*.md')` замінено `glob('*.md')` для рекурсивного сканування. `APPROVED_TAGS` (262 теги) уніфіковано в `utils.py`. `wiki_lint.py` залежить від `utils.*`. |
 
 ### 6.7 Правила якості (з SCHEMA.md)
 
