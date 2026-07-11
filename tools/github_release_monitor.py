@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 import os
 
-from tools.utils import (
+from utils import (
     compute_sha256,
     append_to_log,
     slugify,
