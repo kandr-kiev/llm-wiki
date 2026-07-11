@@ -1,0 +1,68 @@
+# llama-swap.exe configuration
+# Launch: llama-swap.exe -config config.yaml -listen :8888
+#
+# Models managed by llama-swap with automatic hot-swap support.
+# Each model runs its own llama-server.exe instance on a dynamic port.
+#
+# Generated: 2026-07-11
+# Source: Master's local environment (Windows + CUDA)
+
+healthCheckTimeout: 180
+
+models:
+  qwen3.6-35b-a3b:
+    cmd:  >
+      C:\AI\llama\llama-b9821-bin-win-cuda-12.4-x64\llama-server.exe
+      --port ${PORT}
+      -m C:\AI\LLM\unsloth\Qwen3.6-35B-A3B-MTP-GGUF\Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf
+      -mm C:\AI\LLM\unsloth\Qwen3.6-35B-A3B-MTP-GGUF\mmproj-F32.gguf
+      --alias qwen3.6-35b-a3b
+      -ngl 999
+      --n-cpu-moe 25
+      --no-mmap
+      --flash-attn on
+      -c 131072
+      -np 1
+      --temp 0.6
+      --top-p 0.95
+      --top-k 20
+      --min-p 0.0
+      -b 2048
+      -ub 1024
+      --cache-type-k q8_0
+      --cache-type-v q8_0
+      -t 8
+      --jinja
+      --spec-type draft-mtp
+      --spec-draft-n-max 2
+    ttl: 1200
+  gemma-4-26b-a4b:
+    cmd:  >
+      C:\AI\llama\llama-b9821-bin-win-cuda-12.4-x64\llama-server.exe
+      --port ${PORT}
+      -m C:\AI\LLM\unsloth\gemma-4-26B-A4B-it-qat-GGUF\gemma-4-26B-A4B-it-qat-UD-Q4_K_XL.gguf
+      -mm C:\AI\LLM\unsloth\gemma-4-26B-A4B-it-qat-GGUF\mmproj-F32.gguf
+      --alias gemma-4-26b-a4b
+      -ngl 999
+      --n-cpu-moe 10
+      --no-mmap
+      --flash-attn on
+      -c 131072
+      -np 1
+      --temp 0.6
+      --top-p 0.95
+      --top-k 64
+      --min-p 0.0
+      -b 2048
+      -ub 1024
+      --cache-type-k q8_0
+      --cache-type-v q8_0
+      -t 8
+      --jinja
+    ttl: 1200
+# groups:
+  # parallel:
+    # swap: false
+    # members:
+      # - qwen3.6-35b-a3b
+      # - gemma-4-26b-a4b

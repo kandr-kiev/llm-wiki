@@ -65,6 +65,7 @@ REPOS = [
     "facebookresearch/faiss",
     "facebookresearch/detectron2",
     "google-research/google-research",
+    "unslothai/unsloth",
     "google-research/re2",
 ]
 

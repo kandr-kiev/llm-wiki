@@ -55,6 +55,7 @@ REPOS = [
     "tensorflow/tensorflow",
     "langchain-ai/langchain",
     "microsoft/autogen",
+    "unslothai/unsloth",
     "google-research/google-research",
 ]
 
