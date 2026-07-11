@@ -1,33 +1,28 @@
 #!/usr/bin/env python3
-"""Verify all hashes are now correct and check raw-to-wiki mapping."""
-import hashlib, os, re
+"""Verify all hashes are correct and check raw-to-wiki mapping.
 
-def compute_correct_sha256(filepath):
-    with open(filepath, 'r') as f:
-        content = f.read()
-    first_dash = content.index('---')
-    rest = content[first_dash+3:]
-    second_dash = rest.index('---')
-    body = rest[second_dash+3:].strip()
-    return hashlib.sha256(body.encode()).hexdigest()
+Uses check_raw_integrity() from utils.py — single source of truth.
+"""
+import os, sys
+from pathlib import Path
+
+_tools_dir = Path(__file__).resolve().parent
+if str(_tools_dir) not in sys.path:
+    sys.path.insert(0, str(_tools_dir))
+
+from utils import check_raw_integrity, check_dir_exists
 
 print("=== SHA256 Verification ===")
-all_ok = True
-for root, dirs, files in os.walk('raw'):
-    for fn in sorted(files):
-        if fn == 'README.md': continue
-        fp = os.path.join(root, fn)
-        if not fp.endswith('.md'): continue
-        computed = compute_correct_sha256(fp)
-        with open(fp, 'r') as f:
-            first_lines = f.read(300)
-        m = re.search(r'sha256:\s*([a-f0-9]{64})', first_lines)
-        stored = m.group(1) if m else 'NONE'
-        match = 'OK' if computed == stored else 'MISMATCH'
-        if match != 'OK': all_ok = False
-        print(f'  {match} | {fp}')
+integrity = check_raw_integrity(Path('raw'))
 
-print(f'\nAll hashes correct: {all_ok}')
+print(f"\nAll hashes correct: {integrity['mismatch'] == 0}")
+print(f"Total checked: {integrity['ok']}")
+print(f"MISMATCH: {integrity['mismatch']}")
+print(f"No SHA256 in frontmatter: {integrity['no_hash']}")
+
+if integrity['mismatch_files']:
+    for f in sorted(integrity['mismatch_files']):
+        print(f"  MISMATCH: {f[0]} (stored={f[1]}... computed={f[2]}...)")
 
 # Check raw-to-wiki mapping
 print("\n=== Raw-to-Wiki Mapping ===")
@@ -35,15 +30,17 @@ wiki_sources_dir = 'wiki/sources'
 raw_files = set()
 wiki_files = set()
 
-for fn in os.listdir('raw'):
-    fp = os.path.join('raw', fn)
-    if os.path.isfile(fp) and fn.endswith('.md') and fn != 'README.md':
-        raw_files.add(fn)
+if check_dir_exists(Path('raw')):
+    for fn in os.listdir('raw'):
+        fp = os.path.join('raw', fn)
+        if os.path.isfile(fp) and fn.endswith('.md') and fn != 'README.md':
+            raw_files.add(fn)
 
-for fn in os.listdir(wiki_sources_dir):
-    fp = os.path.join(wiki_sources_dir, fn)
-    if os.path.isfile(fp) and fn.endswith('.md') and fn != 'README.md':
-        wiki_files.add(fn)
+if check_dir_exists(Path(wiki_sources_dir)):
+    for fn in os.listdir(wiki_sources_dir):
+        fp = os.path.join(wiki_sources_dir, fn)
+        if os.path.isfile(fp) and fn.endswith('.md') and fn != 'README.md':
+            wiki_files.add(fn)
 
 print(f'Raw source files: {len(raw_files)}')
 print(f'Wiki source-note files: {len(wiki_files)}')
@@ -52,12 +49,8 @@ missing_in_wiki = raw_files - wiki_files
 extra_in_wiki = wiki_files - raw_files
 
 if missing_in_wiki:
-    print(f'\nRaw files WITHOUT wiki source-note:')
-    for f in sorted(missing_in_wiki):
-        print(f'  MISSING: {f}')
+    print(f'\nRaw files WITHOUT wiki source-note: {len(missing_in_wiki)}')
 if extra_in_wiki:
-    print(f'\nWiki source-notes WITHOUT raw file:')
-    for f in sorted(extra_in_wiki):
-        print(f'  EXTRA: {f}')
+    print(f'\nWiki source-notes WITHOUT raw file: {len(extra_in_wiki)}')
 if not missing_in_wiki and not extra_in_wiki:
     print('\nAll raw files have corresponding wiki source-notes. OK')
