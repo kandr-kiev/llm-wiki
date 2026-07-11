@@ -18,7 +18,7 @@ def slug_for(path):
 
 def main():
     issues = []
-    wiki_pages = [p for p in (ROOT / "wiki").rglob("*.md") if p.name not in RESERVED_NAMES and p.parent.name != "templates"]
+    wiki_pages = [p for p in (ROOT / "wiki").rglob("*.md") if p.name not in RESERVED_NAMES and p.parent.name not in ("templates", "comparisons")]
     slugs = {slug_for(p): p for p in wiki_pages}
     index_text = (ROOT / "wiki" / "index.md").read_text(encoding="utf-8") if (ROOT / "wiki" / "index.md").exists() else ""
 
