@@ -8,7 +8,7 @@ tags: [rag, architecture, comparison]
 sources: [raw/articles/advanced-rag-techniques-2026.md]
 confidence: high
 contested: false
-links: [rag-vs-llm-wiki, model-context-protocol, advanced-rag-techniques]
+links: [model-context-protocol, advanced-rag-techniques]
 ---
 # Advanced RAG Techniques
 
@@ -61,6 +61,5 @@ For most production systems, the highest-ROI starting point is **hybrid retrieva
 
 ## Related Pages
 
-- [[rag-vs-llm-wiki]] — Comparison of RAG vs persistent LLM Wiki compilation
 - [[model-context-protocol]] — MCP as potential integration layer for RAG systems
 - [[llm-wiki]] — LLM Wiki pattern as RAG alternative

@@ -8,7 +8,7 @@ tags: [llm-wiki, knowledge-base, agent-workflow]
 sources: [raw/articles/karpathy-llm-wiki-2026.md, raw/articles/google-open-knowledge-format-spec-0-1.md]
 confidence: high
 contested: false
-links: [open-knowledge-format, rag-vs-llm-wiki, model-context-protocol, local-llm-hardware]
+links: [open-knowledge-format, model-context-protocol, local-llm-hardware]
 ---
 
 # LLM Wiki
@@ -34,7 +34,7 @@ This repository implements the pattern with:
 - schema/algorithm contracts for agents;
 - future MCP exposure as optional integration.
 
-Related: [[open-knowledge-format]], [[rag-vs-llm-wiki]], [[model-context-protocol]], [[local-llm-hardware]].
+Related: [[open-knowledge-format]], [[model-context-protocol]], [[local-llm-hardware]].
 
 # Citations
 [1] [Karpathy LLM Wiki raw source](../../raw/karpathy-llm-wiki-2026.md)

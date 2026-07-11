@@ -7,7 +7,7 @@ updated: 2026-07-06
 tags: [playbook, fine-tuning, lora, qlora, dpo, peft, sft, rlhf]
 sources: [raw/articles/llm-fine-tuning-lora-qlora-dpo-2026.md]
 confidence: high
-links: [llm-fine-tuning, open-source-llm-models, llama-vs-mistral-vs-qwen, local-llm-hardware]
+links: [llm-fine-tuning, open-source-llm-models, local-llm-hardware]
 ---
 
 # How to Fine-Tune an LLM — Step-by-Step
@@ -254,6 +254,5 @@ print(outputs[0].outputs[0].text)
 ## Key References
 
 - `[[llm-fine-tuning]]` — Theory: LoRA, QLoRA, SFT, DPO, RLHF
-- `[[llama-vs-mistral-vs-qwen]]` — Model selection
 - `[[local-llm-hardware]]` — Hardware requirements
 - `[[llm-quantization]]` — Quantization methods

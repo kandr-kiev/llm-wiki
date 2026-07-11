@@ -7,7 +7,7 @@ updated: 2026-07-08
 tags: [playbook, evaluation, benchmark, reference, configuration]
 sources: [raw/articles/llm-evaluation-benchmarks-2026.md]
 confidence: high
-links: [llm-evaluation-benchmarks, llm-fine-tuning-lora-qlora-dpo, open-source-llm-landscape]
+links: [llm-evaluation-benchmarks, llm-fine-tuning, llm-landscape-2026-synthesis]
 ---
 
 # How to Evaluate LLM Models — Benchmarks & Metrics
@@ -330,8 +330,8 @@ def shadow_trace_eval(model_url, staging_requests):
 ## Key References
 
 - `[[ai-benchmarks]]` — Benchmark catalog
-- `[[llm-fine-tuning-lora-qlora-dpo-2026]]` — Evaluate fine-tuned models
-- `[[open-source-llm-landscape-2026]]` — Model benchmark comparisons
+- `[[llm-fine-tuning]]` — Evaluate fine-tuned models
+- `[[llm-landscape-2026-synthesis]]` — Model landscape overview
 - HELM: https://crfm.stanford.edu/helm/
 - lm-eval framework: https://github.com/EleutherAI/lm-evaluation-harness
 - MT-Bench: https://lmsys.org/blog/2023-05-03-sqling/

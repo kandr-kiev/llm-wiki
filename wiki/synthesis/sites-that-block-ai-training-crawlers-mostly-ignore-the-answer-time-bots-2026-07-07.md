@@ -8,7 +8,7 @@ tags: [llm-wiki, synthesis]
 sources: [raw/articles/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md]
 confidence: high
 contested: false
-links: [[advanced-rag-techniques-2026], [advanced-rag-techniques-2026_1], [advanced-rag-techniques-2026_2], [advanced-rag-techniques-2026_3], [course-ai-agents-software-engineer-future-skills-2026]]
+links: [advanced-rag-techniques]
 ---
 
 # Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots
@@ -321,11 +321,7 @@ full numbers memo — and check any row yourself. CC BY 4.0.
 
 ## Related Articles
 
-- [[advanced-rag-techniques-2026]]
-- [[advanced-rag-techniques-2026]]
-- [[advanced-rag-techniques-2026]]
-- [[advanced-rag-techniques-2026]]
-- [[course-ai-agents-software-engineer-future-skills-2026]]
+- [[advanced-rag-techniques]]
 
 ---
 

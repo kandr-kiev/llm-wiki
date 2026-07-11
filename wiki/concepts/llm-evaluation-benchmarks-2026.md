@@ -8,7 +8,7 @@ tags: [llm-wiki, knowledge-base]
 sources: [raw/articles/llm-evaluation-benchmarks-2026.md]
 confidence: high
 contested: false
-links: [[advanced-rag-techniques-2026], [course-ai-agents-software-engineer-future-skills-2026], [helping-build-shared-standards-for-advanced-ai-2026-07-07], [llm-fine-tuning-lora-qlora-dpo-2026], [open-source-llm-landscape-2026]]
+links: [advanced-rag-techniques, llm-fine-tuning]
 ---
 
 # LLM Evaluation Benchmarks and Metrics 2026
@@ -127,9 +127,8 @@ As of April 2026, GLM-5.1 leads SWE-Bench Pro at 58.4%.
 
 ## Related Wiki Pages
 
-- [[llm-fine-tuning-lora-qlora-dpo-2026]] — Evaluate fine-tuned models
-- [[open-source-llm-landscape-2026]] — Model benchmark comparisons
-- [[rag-vs-llm-wiki]] — Retrieval evaluation
+- [[llm-fine-tuning]] — Evaluate fine-tuned models
+- [[llm-landscape-2026-synthesis]] — Model landscape overview
 
 ---
 

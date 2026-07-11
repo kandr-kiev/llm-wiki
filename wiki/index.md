@@ -11,6 +11,165 @@ contested: false
 links: [llm-wiki, architecture]
 ---
 
+### [langchain-openai==1.3.5](wiki/comparisons/langchain-openai135.md)
+
+
+### [Release v5.13.1](wiki/comparisons/release-v5131.md)
+
+
+### [Release v3.3.7](wiki/comparisons/release-v337.md)
+
+
+### [Release v2.3.2](wiki/comparisons/release-v232.md)
+
+
+### [Release v2.2.0](wiki/comparisons/release-v220.md)
+
+
+### [Release v1.8.0](wiki/comparisons/release-v180.md)
+
+
+### [Release v1.6.0](wiki/comparisons/release-v160.md)
+
+
+### [Release v1.14.3](wiki/comparisons/release-v1143.md)
+
+
+### [Release v1.14.0](wiki/comparisons/release-v1140.md)
+
+
+### [Release v0.39.0](wiki/comparisons/release-v0390.md)
+
+
+### [Release v0.19.2](wiki/comparisons/release-v0192.md)
+
+
+### [Release v0.0.5](wiki/comparisons/release-v005.md)
+
+
+### [Issue #2808: docs: add community health files (CONTRIBUTING.md, CODE_OF_CONDUCT.md)](wiki/comparisons/issue-2808-docs-add-community-health-files-contributingmd-code_of_conductmd.md)
+
+
+### [Issue #2805: Normalize the ordinal "ninth" to "9th"](wiki/comparisons/issue-2805-normalize-the-ordinal-ninth-to-9th.md)
+
+
+### [Issue #2803: Accept common CLI boolean values](wiki/comparisons/issue-2803-accept-common-cli-boolean-values.md)
+
+
+### [Issue #2797: feat: add progress_callback parameter to transcribe()](wiki/comparisons/issue-2797-feat-add-progress_callback-parameter-to-transcribe.md)
+
+
+### [Issue #2849: Track Dockerfile updates in staging environment](wiki/comparisons/issue-2849-track-dockerfile-updates-in-staging-environment.md)
+
+
+### [Issue #2848: Implement multi-domain intake architecture and related specs](wiki/comparisons/issue-2848-implement-multi-domain-intake-architecture-and-related-specs.md)
+
+
+### [Issue #2847: Update staging Dockerfile for laravel/passport compatibility](wiki/comparisons/issue-2847-update-staging-dockerfile-for-laravelpassport-compatibility.md)
+
+
+### [Issue #2846: Add recipe: parse any document with the Unstructured Transform MCP server](wiki/comparisons/issue-2846-add-recipe-parse-any-document-with-the-unstructured-transform-mcp-server.md)
+
+
+### [Issue #2844: Add avian magnetoreception quantum co-scientist example](wiki/comparisons/issue-2844-add-avian-magnetoreception-quantum-co-scientist-example.md)
+
+
+### [Issue #395: .git/hooks/fsmonitor-watchman.sample: Contains several "Uncomment for debugging" comments on lines 21, 56, 101, 110, and 136. While not explicitly "TODO" or "FIXME", these indicate areas where code can be enabled for debugging purposes](wiki/comparisons/issue-395-githooksfsmonitor-watchmansample-contains-several-uncomment-for-debugging-comments-on-lines-21-56-101-110-and-136-while-not-explicitly-todo-or-fixme-these-indicate-areas-where-code-can-be-enabled-for-debugging-purposes.md)
+
+
+### [Issue #394: .git/hooks/sendemail-validate.sample: Contains several "TODO" comments on lines 22, 27, 35, and 41, instructing the user to replace placeholders with appropriate checks](wiki/comparisons/issue-394-githookssendemail-validatesample-contains-several-todo-comments-on-lines-22-27-35-and-41-instructing-the-user-to-replace-placeholders-with-appropriate-checks.md)
+
+
+### [Issue #393: model_card.md: Discusses "issues relating to potential misuse of the model" and "detection issues" on line 67. This is part of the model's documentation regarding its limitations and potential societal impact](wiki/comparisons/issue-393-model_cardmd-discusses-issues-relating-to-potential-misuse-of-the-model-and-detection-issues-on-line-67-this-is-part-of-the-models-documentation-regarding-its-limitations-and-potential-societal-impact.md)
+
+
+### [Issue #1452: Strengthen prompt injection protection in chat_completion](wiki/comparisons/issue-1452-strengthen-prompt-injection-protection-in-chat_completion.md)
+
+
+### [Issue #1451: Analysis of Runtime Execution Constraints in Llama-Based VLA Architectures](wiki/comparisons/issue-1451-analysis-of-runtime-execution-constraints-in-llama-based-vla-architectures.md)
+
+
+### [Issue #1450: feat: integrate Aegis Prime external marketplace agent framework with nested schema support](wiki/comparisons/issue-1450-feat-integrate-aegis-prime-external-marketplace-agent-framework-with-nested-schema-support.md)
+
+
+### [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](wiki/comparisons/issue-1449-bug-500-internal-server-error-db_error-on-post-apiexecuteactionclaim.md)
+
+
+### [Release Notes: LangChain vlangchain-openai==1.3.5](wiki/comparisons/release-notes-langchain-vlangchain-openai135.md)
+
+
+### [Issue #6362: Add security policy to the repo](wiki/comparisons/issue-6362-add-security-policy-to-the-repo.md)
+
+
+### [Issue #6361: Critical training chat-template issue with Qwen3.5 models (in `chat_template_utils`)](wiki/comparisons/issue-6361-critical-training-chat-template-issue-with-qwen35-models-in-chat_template_utils.md)
+
+
+### [Issue #6360: Bump the actions group with 9 updates](wiki/comparisons/issue-6360-bump-the-actions-group-with-9-updates.md)
+
+
+### [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end](wiki/comparisons/issue-6359-truncate-gold-on-policy-prompts-before-generation-keeping-the-prompt-end.md)
+
+
+### [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](wiki/comparisons/issue-6358-add-trlenvironments-submodule-with-sandboxenvironment.md)
+
+
+### [Issue #47258: [AudioFlamingo3] Fix bfloat16 dtype mismatch in audio encoder positional embedding](wiki/comparisons/issue-47258-audioflamingo3-fix-bfloat16-dtype-mismatch-in-audio-encoder-positional-embedding.md)
+
+
+### [Issue #47257: Avoid ~2x transient host memory when loading to a unified-memory device](wiki/comparisons/issue-47257-avoid-2x-transient-host-memory-when-loading-to-a-unified-memory-device.md)
+
+
+### [Issue #47256: [serge] integration failure triage -](wiki/comparisons/issue-47256-serge-integration-failure-triage.md)
+
+
+### [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example](wiki/comparisons/issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example.md)
+
+
+### [Issue #47254: `CheckpointError` with PEFT + DeepSpeed ZeRO-3 + gradient checkpointing](wiki/comparisons/issue-47254-checkpointerror-with-peft-deepspeed-zero-3-gradient-checkpointing.md)
+
+
+### [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter](wiki/comparisons/issue-3423-fix-ln-tuning-re-initializing-new-adapters-from-a-previously-merged-adapter.md)
+
+
+### [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters](wiki/comparisons/issue-3422-fix-tinylora-weight_tying-corruption-when-adding-overlapping-adapters.md)
+
+
+### [Issue #3421: Fix X-LoRA adapter name mismatch and delete_adapter desync](wiki/comparisons/issue-3421-fix-x-lora-adapter-name-mismatch-and-delete_adapter-desync.md)
+
+
+### [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d](wiki/comparisons/issue-3420-fix-hotswapping-for-lora-adapters-targeting-grouped-conv2d.md)
+
+
+### [Issue #3419: FIX Bug in forgetting metric in MetaMathQA](wiki/comparisons/issue-3419-fix-bug-in-forgetting-metric-in-metamathqa.md)
+
+
+### [Issue #14170: fix wan i2v num_videos batching, vace latent trim, config scale factors, processor config, modular dtype](wiki/comparisons/issue-14170-fix-wan-i2v-num_videos-batching-vace-latent-trim-config-scale-factors-processor-config-modular-dtype.md)
+
+
+### [Issue #14169: Remove JAX/Flax](wiki/comparisons/issue-14169-remove-jaxflax.md)
+
+
+### [Issue #14168: Fix batching and precomputed embeddings in Kandinsky 5 pipelines](wiki/comparisons/issue-14168-fix-batching-and-precomputed-embeddings-in-kandinsky-5-pipelines.md)
+
+
+### [Issue #14167: FlashPack support for transformers pipeline components](wiki/comparisons/issue-14167-flashpack-support-for-transformers-pipeline-components.md)
+
+
+### [Issue #14166: Fix Hub download filtering for FlashPack pipelines](wiki/comparisons/issue-14166-fix-hub-download-filtering-for-flashpack-pipelines.md)
+
+
+### [Issue #724: docs: add community health files and README updates](wiki/comparisons/issue-724-docs-add-community-health-files-and-readme-updates.md)
+
+
+### [Issue #723: SRT-Sunstone: Cross-modal discourse readout demo on Gemma-4-31B-it](wiki/comparisons/issue-723-srt-sunstone-cross-modal-discourse-readout-demo-on-gemma-4-31b-it.md)
+
+
+### [Release 1.7.2](wiki/comparisons/release-172.md)
+
+
+### [https://ai 2040.com/](wiki/comparisons/httpsai-2040com.md)
+
+
 ### [workspace.json](wiki/comparisons/workspacejson.md)
 
 
