@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/how-agents-are-transforming-work
 ingested: 2026-07-07
-sha256: 4d90e0db0454ee21a49864f0a22d2ea91028f3b903943fdcd3af3de0447d7239
+sha256: b7f43ad7319c8d796e7065cb596057b15d0c19cae3561f70afc63aa11ed7e20d
 blog_source: OpenAI Blog
 ---
 

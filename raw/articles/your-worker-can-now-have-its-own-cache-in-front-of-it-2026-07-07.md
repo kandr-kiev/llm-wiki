@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/workers-cache/
 ingested: 2026-07-07
-sha256: 0e1a4ca5496719936540a527b170b95df7d5d91d90eaa713ba05ab52d008e3fd
+sha256: 2b549366d5d608856bbd3e168e9c468f4e345315bcfdbb5f4426faaf6649123b
 blog_source: Cloudflare Blog
 ---
 

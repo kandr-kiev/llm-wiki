@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2021/07/11/diffusion-models.html
 ingested: 2026-07-07
-sha256: bf2a3675e850d28d4ecd8c7546f33b95f4b6877c7e4e9e20cc0325f5cc727673
+sha256: cc7881b6c40a62aa93f5fc6dced03cfe948f500ab42739eeaa2a03ebaaf81ca7
 blog_source: Lilian Weng
 ---
 

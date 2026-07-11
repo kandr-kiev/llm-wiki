@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2022/02/20/active-learning.html
 ingested: 2026-07-07
-sha256: c55602b29680cef068a3c7f636d30a6c0af42cedfa223b407ea034cd13f8f6ed
+sha256: 7f3c43baae050e7b40ce988284d31a80a3ea07ec9a86e7af08ece858872633bc
 blog_source: Lilian Weng
 ---
 

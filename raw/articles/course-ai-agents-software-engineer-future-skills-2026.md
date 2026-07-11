@@ -1,7 +1,7 @@
 ---
 source_url: internal research assembled by Monty from Gartner/PwC/Lightcast/Pragmatic Engineer/Digital Applied/CIO/LangChain/Alice Labs/BCG/IEEE sources
 ingested: 2026-07-06
-sha256: a6baec78d36713a470a634f37146f326084848ef6e9462f6fdf264cbff58923c
+sha256: b50ef980d9232ec6440fb65bea12cc670b10033475a238937505caef575e8612
 ---
 # Software Engineer в 2026–2027: AI Agents, ринок праці та навчальна програма майбутньої професії
 

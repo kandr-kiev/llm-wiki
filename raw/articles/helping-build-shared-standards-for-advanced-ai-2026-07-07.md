@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/helping-build-shared-standards-for-advanced-ai
 ingested: 2026-07-07
-sha256: 9b62f4825716ea3d418466b79d12c0f77f440e150ad4ae31818f7f881f01db3f
+sha256: d2a1fb46fa2c0f2722fd59ab75260f82dc776dd2fe95b6e3946acc1b60be4b01
 blog_source: OpenAI Blog
 ---
 

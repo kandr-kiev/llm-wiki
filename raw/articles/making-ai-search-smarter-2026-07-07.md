@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/making-ai-search-smarter/
 ingested: 2026-07-07
-sha256: a360650d2aa20040aca656b61df6f4c924187f955a622dbebe0de12f7d3ff000
+sha256: 6507f2c07894b012a1a4dbc69d55a2983b6238fd606c76b5c791242b32f5e16f
 blog_source: Cloudflare Blog
 ---
 

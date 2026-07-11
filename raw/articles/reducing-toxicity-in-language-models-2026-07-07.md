@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2021/03/21/reducing-toxicity-in-language-models.html
 ingested: 2026-07-07
-sha256: 8ca03bca3dbf72c24d959a3fafee74b1753cc7fd54695819d3011319db9746ef
+sha256: c059c491a78094f20a9e63b1d449fa6a59ad39c28fe1565803f087209d0f01f8
 blog_source: Lilian Weng
 ---
 

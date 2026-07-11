@@ -1,7 +1,7 @@
 ---
 source_url: https://futureagi.com/blog/llm-fine-tuning-techniques-i-ii
 ingested: 2026-07-06
-sha256: a6666d6e7e48fa4be0a97c7af36140e187fc7da5c17a6c11e36bbf70efa1b318
+sha256: 807241e7128e0008c23c1aac86c6fcfa5f7ed5bfb2ddce737f722d3154e7ed42
 ---
 # LLM Fine-Tuning Techniques in 2026: LoRA, QLoRA, SFT, DPO
 

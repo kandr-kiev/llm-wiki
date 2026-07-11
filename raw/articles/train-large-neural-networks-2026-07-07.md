@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2021/09/25/train-large-neural-networks.html
 ingested: 2026-07-07
-sha256: 7002922ed4d0d3799a1f4910a1fe7fa6879c6008d145e436d468bec83f8de2f7
+sha256: 97399bed9a7f6a56d5e7d58a61f93c58c0e0907113d4f714ccb576719d9059ee
 blog_source: Lilian Weng
 ---
 

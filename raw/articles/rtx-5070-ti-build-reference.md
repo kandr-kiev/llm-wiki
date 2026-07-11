@@ -1,7 +1,7 @@
 ---
 source_url: raw/rtx-5070-ti-build-reference.md
 ingested: 2026-07-05
-sha256: e1c015e3e7acb33cbb771ec1f25699bff67ac495bda84337fb79e0831bdcfabb
+sha256: 6896ccadbb6a741378161b1ff0f42411dc90cff234f3c349e5d8151a0eb46eff
 ---
 
 ---

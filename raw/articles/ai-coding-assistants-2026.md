@@ -1,7 +1,7 @@
 ---
 source_url: https://www.shakudo.io/blog/best-ai-coding-assistants
 ingested: 2026-07-06
-sha256: 26b52398226d985ea8ccfa7db7d4597c17f71904b6478fb2d8d353decac65b32
+sha256: abf5895d0ac5100c5b60539c352ff3476b48b376d5e45d68c0064dd48f6196b1
 ---
 # Best AI Coding Assistants as of March 2026
 Shakudo Blog.

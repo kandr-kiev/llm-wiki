@@ -1,7 +1,7 @@
 ---
 source_url: https://pecollective.com/blog/ai-agent-frameworks-compared
 ingested: 2026-07-06
-sha256: c21b3ee81956c5c187d862c4f34ee6b7377c26c458c533079ba36b84e3357a7f
+sha256: 3e2267ac3732071d94749106da0b3d71c39258c29638df74b7cd4670e2fe6fe7
 ---
 # AI Agent Frameworks 2026 - LangGraph vs CrewAI vs AutoGen Compared
 By Rome Thorndike, PE Collective. April 6, 2026.

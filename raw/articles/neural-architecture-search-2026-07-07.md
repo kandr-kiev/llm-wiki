@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2020/08/06/neural-architecture-search.html
 ingested: 2026-07-07
-sha256: 12ab8928776180ab70e9b4c7923d2a49ec7823539664065afd1f5382748c48ec
+sha256: ea8183cf6480b62cc6b0f6459da26af169d2899881d998f726860324ea68b00e
 blog_source: Lilian Weng
 ---
 

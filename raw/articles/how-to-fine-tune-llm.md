@@ -1,0 +1,259 @@
+---
+title: "How to Fine-Tune an LLM — Step-by-Step"
+type: playbook
+description: Actionable runbook for parameter-efficient fine-tuning (LoRA/QLoRA) and alignment (DPO) of open-source LLMs
+created: 2026-07-06
+updated: 2026-07-06
+tags: [playbook, fine-tuning, lora, qlora, dpo, peft, sft, rlhf]
+sources: [raw/articles/llm-fine-tuning-lora-qlora-dpo-2026.md]
+confidence: high
+links: [llm-fine-tuning, open-source-llm-models, llama-vs-mistral-vs-qwen, local-llm-hardware]
+---
+
+# How to Fine-Tune an LLM — Step-by-Step
+
+Actionable runbook for parameter-efficient fine-tuning and alignment of open-source LLMs.
+
+## Prerequisites
+
+- GPU with ≥24 GB VRAM (RTX 4090, A10) or ≥80 GB (A100/H100 for 70B)
+- Python 3.10+, `transformers`, `peft`, `accelerate`, `bitsandbytes`
+- Dataset in Alpaca/ShareGPT format (JSONL)
+
+## Phase 1: Data Preparation
+
+### Step 1.1 — Format your dataset
+
+Convert to Alpaca-style JSONL:
+
+```json
+{"instruction": "Explain quantum computing.", "input": "", "output": "Quantum computing uses qubits..."}
+```
+
+### Step 1.2 — Split and validate
+
+```bash
+# 80/20 train/val split
+python -c "
+import json, random
+data = [json.loads(l) for l in open('dataset.jsonl')]
+random.shuffle(data)
+train, val = data[:int(len(data)*0.8)], data[int(len(data)*0.8):]
+json.dump(train, open('train.json','w'), indent=2)
+json.dump(val, open('val.json','w'), indent=2)
+"
+```
+
+### Step 1.3 — Quality checks
+
+- Verify instruction/output pairs are non-empty
+- Check for data leakage (test examples in train)
+- Ensure consistent formatting across all entries
+- Target: 500–5000 examples for LoRA, 10K+ for SFT
+
+## Phase 2: Base Model Selection
+
+### Step 2.1 — Choose your base
+
+| Use Case | Recommended Model | Size |
+|---|---|---|
+| Quick prototyping | Mistral 7B | 7B |
+| Best quality/size | Llama 3.1 8B | 8B |
+| Complex reasoning | Llama 3.1 70B | 70B |
+| Multilingual | Qwen 2.5 14B | 14B |
+
+### Step 2.2 — Load with quantization (QLoRA)
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+
+bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype="float16",
+    bnb_4bit_use_double_quant=True,
+)
+
+model = AutoModelForCausalLM.from_pretrained(
+    "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    quantization_config=bnb_config,
+    device_map="auto",
+)
+tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3.1-8B-Instruct")
+```
+
+## Phase 3: LoRA Configuration
+
+### Step 3.1 — Configure LoRA
+
+```python
+from peft import LoraConfig, get_peft_model
+
+lora_config = LoraConfig(
+    r=16,                    # Rank — higher = more capacity, more VRAM
+    lora_alpha=32,           # Scaling factor (2× rank)
+    lora_dropout=0.1,        # Regularization
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
+    task_type="CAUSAL_LM",
+)
+
+model = get_peft_model(model, lora_config)
+model.print_trainable_parameters()  # Should show ~0.1–1% trainable params
+```
+
+### Step 3.2 — Training arguments
+
+```python
+from transformers import TrainingArguments
+
+training_args = TrainingArguments(
+    output_dir="./lora-output",
+    num_train_epochs=3,
+    per_device_train_batch_size=4,
+    gradient_accumulation_steps=4,
+    learning_rate=2e-4,
+    fp16=True,
+    logging_steps=10,
+    save_strategy="epoch",
+    evaluation_strategy="epoch",
+    load_best_model_at_end=True,
+    metric_for_best_model="eval_loss",
+)
+```
+
+## Phase 4: Training
+
+### Step 4.1 — Tokenize and train
+
+```python
+from trl import SFTTrainer
+
+def format_dataset(examples):
+    texts = []
+    for inst, inp, out in zip(examples["instruction"], examples["input"], examples["output"]):
+        text = f"### Instruction:\n{inst}\n\n### Input:\n{inp}\n\n### Response:\n{out}\n"
+        texts.append(text)
+    return {"text": texts}
+
+trainer = SFTTrainer(
+    model=model,
+    tokenizer=tokenizer,
+    train_dataset=Dataset.from_json("train.json"),
+    eval_dataset=Dataset.from_json("val.json"),
+    dataset_text_field="text",
+    max_seq_length=2048,
+    args=training_args,
+)
+
+trainer.train()
+trainer.save_model("./lora-final")
+```
+
+### Step 4.2 — Monitor training
+
+Watch for:
+- Loss decreasing steadily (target: <0.5 for instruction tuning)
+- No train/val divergence (overfitting)
+- GPU memory stable (no OOM)
+- Gradient norm reasonable (no exploding gradients)
+
+## Phase 5: Alignment (DPO)
+
+### Step 5.1 — Prepare preference data
+
+Format as chosen/rejected pairs:
+
+```json
+{
+  "chosen": "Good explanation of quantum computing...",
+  "rejected": "Quantum computing is like regular computing but with qubits.",
+  "prompt": "Explain quantum computing."
+}
+```
+
+### Step 5.2 — Run DPO
+
+```python
+from trl import DPOTrainer
+
+dpo_trainer = DPOTrainer(
+    model=model,
+    ref_model=None,  # Uses model itself as reference
+    train_dataset=preference_data,
+    args=TrainingArguments(
+        output_dir="./dpo-output",
+        num_train_epochs=1,
+        learning_rate=1e-5,
+    ),
+    beta=0.1,  # DPO temperature — higher = softer preference
+)
+
+dpo_trainer.train()
+```
+
+## Phase 6: Evaluation
+
+### Step 6.1 — Quantitative metrics
+
+```python
+# Generate and evaluate
+from datasets import load_metric
+
+accuracy_metric = load_metric("accuracy")
+bleu_metric = load_metric("bleu")
+
+# Compare against validation set
+# Target: BLEU > 0.3 for instruction following
+```
+
+### Step 6.2 — Human evaluation
+
+- Create 50–100 test prompts not seen during training
+- Blind comparison: original vs fine-tuned (randomized order)
+- Rate on: helpfulness, accuracy, tone, safety
+- Target: >60% preference for fine-tuned model
+
+## Phase 7: Deployment
+
+### Step 7.1 — Merge LoRA weights
+
+```python
+model = model.merge_and_unload()
+model.save_pretrained("./merged-model")
+tokenizer.save_pretrained("./merged-model")
+```
+
+### Step 7.2 — Serve with vLLM
+
+```bash
+pip install vllm
+vllm serve ./merged-model --port 8000
+```
+
+### Step 7.3 — Test inference
+
+```python
+from vllm import LLM, SamplingParams
+
+llm = LLM(model="./merged-model")
+prompt = "Explain quantum computing."
+outputs = llm.generate([prompt], SamplingParams(temperature=0.7, max_tokens=512))
+print(outputs[0].outputs[0].text)
+```
+
+## Troubleshooting
+
+| Problem | Cause | Fix |
+|---|---|---|
+| OOM during training | Batch too large, seq too long | Reduce batch_size, use gradient_accumulation |
+| Loss not decreasing | LR too high/low, data quality | Try LR 1e-5 to 5e-4, clean dataset |
+| Overfitting | Too few examples, too high rank | Reduce rank, add more data, increase dropout |
+| Poor generation quality | Bad format, insufficient epochs | Fix prompt format, increase epochs to 5–10 |
+| DPO instability | Beta too low, noisy preferences | Increase beta to 0.1–0.2, curate preference pairs |
+
+## Key References
+
+- `[[llm-fine-tuning]]` — Theory: LoRA, QLoRA, SFT, DPO, RLHF
+- `[[llama-vs-mistral-vs-qwen]]` — Model selection
+- `[[local-llm-hardware]]` — Hardware requirements
+- `[[llm-quantization]]` — Quantization methods

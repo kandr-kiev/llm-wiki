@@ -1,156 +1,191 @@
 #!/usr/bin/env python3
-"""GitHub Repository Monitor for LLM Wiki - Phase 1"""
+"""GitHub Repository Monitor for LLM Wiki - Monitors issues, PRs, and changes"""
 import requests
-import hashlib
+import os
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
+from datetime import datetime, timezone
+
+from utils import (
+    compute_sha256,
+    append_to_log,
+    slugify,
+    build_frontmatter,
+    print_status,
+    check_dir_exists,
+    split_frontmatter,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
 LOG_FILE = ROOT / "log.md"
-DB_FILE = ROOT / ".processed" / "github_tags.txt"
+DB_FILE = ROOT / ".processed" / "github_issues.txt"
 
-# Repositories to monitor - AI/LLM focused
-REPOS = {
-    "Hugging Face Transformers": "https://api.github.com/repos/huggingface/transformers",
-    "PyTorch": "https://api.github.com/repos/pytorch/pytorch",
-    "LangChain": "https://api.github.com/repos/langchain-ai/langchain",
-    "vLLM": "https://api.github.com/repos/vllm-project/vllm",
-    "Ollama": "https://api.github.com/repos/ollama/ollama",
-    "Llama.cpp": "https://api.github.com/repos/ggerganov/llama.cpp",
-    "Cloudflare Workers AI": "https://api.github.com/repos/cloudflare/workers-ai",
-    "OpenAI Python": "https://api.github.com/repos/openai/openai-python",
-    "Anthropic SDK": "https://api.github.com/repos/anthropics/anthropic-sdk-python",
-}
+# GitHub repos to monitor for issues/PRs
+REPOS = [
+    "openai/whisper",
+    "openai/gpt-2",
+    "openai/gpt-4",
+    "huggingface/transformers",
+    "huggingface/diffusers",
+    "huggingface/peft",
+    "huggingface/trl",
+    "meta-llama/llama",
+    "mistralai/mistral-src",
+    "google-deepmind/gemma",
+    "facebookresearch/llama-recipes",
+    "microsoft/LoRA",
+    "microsoft/DeepSpeed",
+    "pytorch/pytorch",
+    "tensorflow/tensorflow",
+    "langchain-ai/langchain",
+    "microsoft/autogen",
+    "openai/openai-cookbook",
+    "openai/spin",
+    "google-research/google-research",
+]
 
-def compute_sha256(content: str) -> str:
-    return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
-def is_new_release(tag: str) -> bool:
+def is_new_issue(repo: str, issue_number: str) -> bool:
+    """Check if issue/PR is not in database."""
     if not DB_FILE.exists():
         return True
+    key = f"{repo}#{issue_number}"
     with open(DB_FILE, 'r') as f:
-        tags = [line.strip() for line in f.readlines() if line.strip()]
-    return tag not in tags
+        keys = [line.strip() for line in f.readlines() if line.strip()]
+    return key not in keys
 
-def mark_release(tag: str):
+
+def mark_issue_read(repo: str, issue_number: str):
+    """Mark issue/PR as processed."""
     with open(DB_FILE, 'a') as f:
-        f.write(tag + '\n')
+        f.write(f"{repo}#{issue_number}\n")
 
-def save_release_info(repo_name: str, tag: str, url: str, body: str) -> str:
-    slug = repo_name.lower().replace(' ', '-').replace('.', '').replace('/', '-')
-    slug = ''.join(c for c in slug if c.isalnum() or c in '-_')
 
-    now = datetime.now(timezone.utc)
-    # Strip leading 'v'/'V' from tag to avoid double prefix (vv5.13.0)
-    clean_tag = tag.lstrip('vV')
-    filename = f"gh-{slug}-release-{clean_tag}-{now.strftime('%Y-%m-%d')}.md"
+def fetch_issue_content(repo: str, issue_number: str, issue_type: str = "issue") -> str:
+    """Fetch issue/PR content from GitHub API."""
+    try:
+        url = f"https://api.github.com/repos/{repo}/{issue_type}s/{issue_number}"
+        response = requests.get(url, timeout=10, headers={
+            'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0',
+            'Accept': 'application/vnd.github.v3+json'
+        })
+        response.raise_for_status()
+        data = response.json()
+        
+        title = data.get('title', 'No title')
+        body = data.get('body', 'No body')
+        state = data.get('state', 'unknown')
+        author = data.get('user', {}).get('login', 'unknown')
+        created = data.get('created_at', 'unknown')
+        
+        return f"# {issue_type.title()} #{issue_number}: {title}\n\n" \
+               f"**State:** {state} | **Author:** {author} | **Created:** {created}\n\n" \
+               f"{body}"
+    except Exception as e:
+        return f"Error fetching {issue_type}: {e}"
+
+
+def save_raw_issue(repo: str, issue_number: str, content: str, issue_type: str = "issue") -> str:
+    """Save issue/PR as raw source file using canonical utils."""
+    slug = f"gh-{slugify(repo)}-{issue_type}-{issue_number}"
+    date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    filename = f"{slug}-{date_str}.md"
+    
     filepath = RAW_DIR / filename
-
-    body_sha = compute_sha256(body)
-
-    content = f"""---
-title: "{repo_name} {tag} Release"
-type: entity
-description: "Release notes and changelog for {repo_name} {tag}"
-created: "{now.strftime('%Y-%m-%d')}"
-updated: "{now.strftime('%Y-%m-%d %H:%M UTC')}"
-tags: [ai, open-source, release-notes]
-sources: ["raw/articles/{filename}"]
-confidence: high
-sha256: "{body_sha}"
----
-
-# Release Notes: {repo_name} {tag}
-
-**Source:** {url}
-**Published:** {now.strftime('%Y-%m-%d %H:%M UTC')}
-**Type:** Release notes / changelog
-
----
-
-## What's New
-
-{body}
-
----
-
-*Auto-collected by LLM Wiki GitHub Monitor*
-"""
-
+    
+    # Build frontmatter
+    frontmatter = build_frontmatter(
+        source_url=f"https://github.com/{repo}/{issue_type}s/{issue_number}",
+        blog_source=f"github:{repo}"
+    )
+    
+    # Write file
     with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(content)
-
+        f.write(frontmatter + content)
+    
+    # Update SHA256 — canonical: no .strip()
+    with open(filepath, 'r') as f:
+        file_content = f.read()
+    
+    fm, body = split_frontmatter(file_content)
+    if fm is not None:
+        sha = compute_sha256(body)
+        new_fm = fm.replace('sha256: PLACEHOLDER', f'sha256: {sha}')
+        new_content = '---\n' + new_fm + '\n---\n' + body
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write(new_content)
+    
     return str(filepath.relative_to(ROOT))
 
-def append_to_log(entry: str):
-    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
-    with open(LOG_FILE, 'a', encoding='utf-8') as f:
-        f.write(f"\n## [{timestamp}] github_monitor | {entry}\n")
 
 def main():
+    """Main GitHub issue/PR monitoring function."""
     print("🔄 LLM Wiki GitHub Monitor - Starting...")
     print(f"📊 Monitoring {len(REPOS)} repositories")
+    print(f"📁 Raw directory: {RAW_DIR}")
+    print(f"🗄️  Database: {DB_FILE}")
     print()
     
-    new_releases = []
+    new_items = []
+    total_scanned = 0
     
-    for repo_name, api_url in REPOS.items():
-        print(f"📦 Checking {repo_name}...")
+    # Ensure .processed directory exists
+    DB_FILE.parent.mkdir(parents=True, exist_ok=True)
+    
+    for repo in REPOS:
+        print(f"📡 Checking {repo}...")
         try:
-            response = requests.get(api_url, timeout=10, headers={
-                'Accept': 'application/vnd.github.v3+json',
-                'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0'
+            # Check issues
+            issues_url = f"https://api.github.com/repos/{repo}/issues?state=open&per_page=5"
+            issues_response = requests.get(issues_url, timeout=10, headers={
+                'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0',
+                'Accept': 'application/vnd.github.v3+json'
             })
-            response.raise_for_status()
-            data = response.json()
             
-            # Get latest release — strip any GitHub API template params like {/id}, {/tag_name}
-            releases_url = data.get('releases_url', '')
-            import re
-            releases_url = re.sub(r'\{[^}]+\}', '', releases_url)
-            releases_response = requests.get(releases_url, timeout=10, headers={
-                'Accept': 'application/vnd.github.v3+json',
-                'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0'
-            })
-            releases_response.raise_for_status()
-            releases = releases_response.json()
-            
-            if not releases:
-                print(f"  ⚠️  No releases found")
+            if issues_response.status_code != 200:
+                print(f"  ⚠️  No access")
                 continue
             
-            latest = releases[0]
-            tag = latest.get('tag_name', '')
-            url = latest.get('html_url', '')
-            body = latest.get('body', 'No release notes')
+            total_scanned += 1
+            issues = issues_response.json()
             
-            print(f"  🆕 Latest: {tag}")
-            
-            if is_new_release(tag):
-                print(f"  ✅ New release!")
-                filepath = save_release_info(repo_name, tag, url, body)
-                new_releases.append(filepath)
-                mark_release(tag)
-            else:
-                print(f"  ⏭️  Already processed")
+            for issue in issues:
+                issue_number = str(issue.get('number', ''))
+                title = issue.get('title', 'No title')
                 
+                if not issue_number or not is_new_issue(repo, issue_number):
+                    continue
+                
+                print(f"  📄 New issue: {title} (#{issue_number})")
+                
+                content = fetch_issue_content(repo, issue_number, "issue")
+                filepath = save_raw_issue(repo, issue_number, content, "issue")
+                
+                new_items.append(filepath)
+                mark_issue_read(repo, issue_number)
+            
         except Exception as e:
-            print(f"  ❌ Error: {e}")
+            print(f"  ❌ Error checking {repo}: {e}")
     
+    # Status line — canonical format
+    print_status(has_new=len(new_items) > 0, label="репозиторіїв", count=len(new_items), source_count=len(REPOS))
+
+    # Summary
     print()
-    print(f"📊 Monitor complete:")
-    print(f"  🆕 New releases: {len(new_releases)}")
-    
-    if new_releases:
-        append_to_log(f"Found {len(new_releases)} new releases: {', '.join(new_releases)}")
-        print(f"  📝 Logged")
+    print(f"📊 Scan complete:")
+    print(f"  📈 Total repositories scanned: {total_scanned}")
+    print(f"  🆕 New issues/PRs ingested: {len(new_items)}")
+
+    if new_items:
+        append_to_log(LOG_FILE, "github_monitor", f"Scanned {total_scanned} repos, ingested {len(new_items)} new issues: {', '.join(new_items)}")
+        print(f"  📝 Logged to {LOG_FILE}")
     else:
-        append_to_log("Checked all repos, no new releases")
-        print(f"  ✅ No new releases")
+        append_to_log(LOG_FILE, "github_monitor", f"Scanned {total_scanned} repos, no new issues found")
+        print(f"  ✅ No new issues to ingest")
     
-    return 0 if new_releases else 1
+    return 0  # Always return 0 for cron
+
 
 if __name__ == '__main__':
     sys.exit(main())

@@ -2,7 +2,7 @@
 
 source_url: http://jalammar.github.io/generative-ai-and-ai-product-moats/
 ingested: 2026-07-07
-sha256: 9955f3e56d390daa11a65c922a90eea7b3819768436fb2de820b18ccfbdb482c
+sha256: 53fbb21f3e5f3e6e892765109999e9b9dbf9d9adb3d818b6e62934eec2540b10
 blog_source: Jay Alammar
 ---
 

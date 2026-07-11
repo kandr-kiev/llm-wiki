@@ -2,12 +2,18 @@
 """RSS Feed Monitor for LLM Wiki - Phase 1: Autonomous Source Collection"""
 import feedparser
 import requests
-import hashlib
 import os
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+
+from utils import (
+    compute_sha256,
+    append_to_log,
+    slugify,
+    build_frontmatter,
+    print_status,
+    check_dir_exists,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
@@ -28,9 +34,6 @@ FEEDS = {
     "Distill AI": "https://distill.pub/rss.xml",
 }
 
-def compute_sha256(content: str) -> str:
-    """Compute SHA256 of content body."""
-    return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
 def is_new_article(url: str) -> bool:
     """Check if article URL is not in database."""
@@ -40,49 +43,49 @@ def is_new_article(url: str) -> bool:
         urls = [line.strip() for line in f.readlines() if line.strip()]
     return url not in urls
 
+
 def mark_article_read(url: str):
     """Mark article as processed."""
     with open(DB_FILE, 'a') as f:
         f.write(url + '\n')
 
+
 def save_raw_article(title: str, url: str, content: str, source_blog: str) -> str:
-    """Save article as raw source file."""
-    # Generate filename
-    slug = title.lower().replace(' ', '-').replace('.', '').replace(',', '').replace(':', '').replace('—', '-')
-    # Remove special characters
-    slug = ''.join(c for c in slug if c.isalnum() or c in '-_')
-    slug = slug[:100]  # Limit length
+    """Save article as raw source file using canonical utils."""
+    slug = slugify(title)
+    filename = f"{slug}-{os.path.basename(DB_FILE.parent).replace('_urls.txt', '')}.md"
+    # Use canonical filename format
+    from datetime import datetime, timezone
+    date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    filename = f"{slug}-{date_str}.md"
     
-    filename = f"{slug}-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.md"
     filepath = RAW_DIR / filename
     
-    # Create frontmatter
-    frontmatter = f"""---
-source_url: {url}
-ingested: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
-sha256: PLACEHOLDER
-blog_source: {source_blog}
----
-"""
+    # Build frontmatter with PLACEHOLDER
+    frontmatter = build_frontmatter(source_url=url, blog_source=source_blog)
     
     # Write file
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(frontmatter + content)
     
-    # Update SHA256
+    # Update SHA256 — canonical: no .strip()
     with open(filepath, 'r') as f:
         file_content = f.read()
     
-    parts = file_content.split('---', 2)
-    if len(parts) >= 3:
-        body = parts[2]
+    fm, body = utils.split_frontmatter(file_content) if 'utils' in dir() else (None, file_content.split('---', 2)[2] if '---' in file_content else '')
+    
+    # Simpler: use split_frontmatter from utils
+    from utils import split_frontmatter
+    fm, body = split_frontmatter(file_content)
+    if fm is not None:
         sha = compute_sha256(body)
-        file_content = parts[0] + '---\n' + parts[1] + '---\n' + parts[2].replace('PLACEHOLDER', sha)
-        
+        new_fm = fm.replace('sha256: PLACEHOLDER', f'sha256: {sha}')
+        new_content = '---\n' + new_fm + '\n---\n' + body
         with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(file_content)
+            f.write(new_content)
     
     return str(filepath.relative_to(ROOT))
+
 
 def fetch_article_content(url: str) -> str:
     """Fetch article content from URL."""
@@ -93,11 +96,6 @@ def fetch_article_content(url: str) -> str:
     except Exception as e:
         return f"Error fetching content: {e}"
 
-def append_to_log(entry: str):
-    """Append entry to log.md."""
-    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
-    with open(LOG_FILE, 'a', encoding='utf-8') as f:
-        f.write(f"\n## [{timestamp}] rss_monitor | {entry}\n")
 
 def main():
     """Main RSS monitoring function."""
@@ -149,11 +147,8 @@ def main():
         except Exception as e:
             print(f"  ❌ Error scanning {blog_name}: {e}")
     
-    # Status line
-    if new_articles:
-        print(f"Статус: [ACTIVE] — сканування {len(FEEDS)} feedів, знайдено {len(new_articles)} нових статей")
-    else:
-        print(f"Статус: [SILENT] — немає нових даних для інгесту")
+    # Status line — canonical format
+    print_status(has_new=len(new_articles) > 0, label="feedів", count=len(new_articles), source_count=len(FEEDS))
 
     # Summary
     print()
@@ -162,13 +157,14 @@ def main():
     print(f"  🆕 New articles ingested: {len(new_articles)}")
 
     if new_articles:
-        append_to_log(f"Scanned {total_scanned} articles, ingested {len(new_articles)} new sources: {', '.join(new_articles)}")
+        append_to_log(LOG_FILE, "rss_monitor", f"Scanned {total_scanned} articles, ingested {len(new_articles)} new sources: {', '.join(new_articles)}")
         print(f"  📝 Logged to {LOG_FILE}")
     else:
-        append_to_log(f"Scanned {total_scanned} articles, no new sources found")
+        append_to_log(LOG_FILE, "rss_monitor", f"Scanned {total_scanned} articles, no new sources found")
         print(f"  ✅ No new articles to ingest")
     
     return 0  # Always return 0 for cron — no new articles is not an error
+
 
 if __name__ == '__main__':
     sys.exit(main())

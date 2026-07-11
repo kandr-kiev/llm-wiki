@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2021/01/02/controllable-neural-text-generation.html
 ingested: 2026-07-07
-sha256: 7f793ac128ae3d1978a4d09bdf833b7ab4c22f620fcb4aefb2d1606c15b72900
+sha256: b17be9d21226afe3ff8acf53cf04a74b3e36355169f1adee92ffd657a7954c9b
 blog_source: Lilian Weng
 ---
 

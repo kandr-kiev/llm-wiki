@@ -1,7 +1,7 @@
 ---
 source_url: https://modelcontextprotocol.io/docs/getting-started/intro
 ingested: 2026-07-04
-sha256: 55dbd0cbbe61a5d02aa850ca11d907ae68c99b52c0e39752aabb51d7d058e798
+sha256: fbbf29868f8c38d0c6c08f807ad82e34047287ed6b66998255a2928e4576214a
 ---
 
 > ## Documentation Index

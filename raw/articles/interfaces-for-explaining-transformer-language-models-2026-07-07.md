@@ -2,7 +2,7 @@
 
 source_url: http://jalammar.github.io/explaining-transformers/
 ingested: 2026-07-07
-sha256: 916c5976b2c1ba5de394e9df39a9a649d5318a9f605b7ade71f947bb4e85d95b
+sha256: 0349a601f1a391164930376ec07c354787bf3d5c02609483f4de49d8c1814dc5
 blog_source: Jay Alammar
 ---
 

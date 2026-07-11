@@ -2,7 +2,7 @@
 
 source_url: http://jalammar.github.io/illustrated-retrieval-transformer/
 ingested: 2026-07-07
-sha256: 795ddf42fa1ef3bb311288199b4bafeefab7a8fefd340689d81d0af88203a73f
+sha256: 5c0ae2d60b8707763b7f46e3785880e7d041ac4abe50da494a3a51b4e1508ebf
 blog_source: Jay Alammar
 ---
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://atlan.com/know/advanced-rag-techniques
 ingested: 2026-07-06
-sha256: c541ea3b9381c63c0955724de048338ef80e9abc45661e925e97f176c8f3fb1e
+sha256: 4351826ccd7a74195480d979fcfb221f8dea9553a408dbea30fbc1b76dd68419
 ---
 # 12 Advanced RAG Techniques Beyond Naive Retrieval [2026]
 Author: Emily Winks, Data Governance Expert, Atlan. Updated 2026-05-18.

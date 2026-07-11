@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/australian-payments-plus
 ingested: 2026-07-09
-sha256: 23a792b7fea058ce6e35747773a778a20175dddd54ecd7ec4ae55714728f62a3
+sha256: 1a0ff1071d6dfc0171cba8316fc6052ea340c9d76384ecd651df0a7263b265c7
 blog_source: OpenAI Blog
 ---
 

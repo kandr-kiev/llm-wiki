@@ -1,0 +1,66 @@
+---
+type: concept
+title: Advanced RAG Techniques
+description: Techniques beyond naive RAG that improve retrieval accuracy: hybrid search, reranking, GraphRAG, RAPTOR, self-reflection, and more.
+created: 2026-07-06
+updated: 2026-07-06
+tags: [rag, architecture, comparison]
+sources: [raw/articles/advanced-rag-techniques-2026.md]
+confidence: high
+contested: false
+links: [rag-vs-llm-wiki, model-context-protocol, advanced-rag-techniques]
+---
+# Advanced RAG Techniques
+
+Retrieval-Augmented Generation (RAG) is the dominant architecture for grounding LLMs with external knowledge. However, naive RAG hits a hard accuracy ceiling (~44% factual accuracy). Advanced RAG techniques close this gap through smarter retrieval, better chunking, and self-correcting generation.
+
+## The Accuracy Gap
+
+| Approach | Factual Accuracy |
+|---|---|
+| LLM with no retrieval | ~34% |
+| Naive RAG | 44% |
+| SOTA RAG (with advanced techniques) | 63% |
+
+Source: CRAG Benchmark, 2024
+
+## Technique Categories
+
+### Pre-Retrieval
+- **HyDE:** Generate hypothetical answer document, embed it for search
+- **Query transformation:** Rewrite queries for better matching
+
+### Retrieval-Time
+- **Hybrid Retrieval:** Dense (vector) + sparse (BM25) + RRF merge — de facto production standard
+- **Contextual Retrieval:** LLM-prepended chunk context before embedding — 67% fewer retrieval failures (Anthropic, 2024)
+- **Sentence Window / Parent-Child:** Index small chunks, retrieve surrounding window — #1 retrieval precision in ARAGOG
+
+### Post-Retrieval
+- **Cross-Encoder Reranking:** Second-pass scoring of (query, doc) pairs — consistent NDCG/MRR lift
+- **RAG Fusion:** Multi-query generation + RRF merge for broader coverage
+
+### Architecture-Level
+- **Self-RAG:** LLM decides when to retrieve; reflection tokens grade output — ICLR 2024 Oral
+- **CRAG:** Evaluator grades retrieved docs; fallback to web search — for high-stakes domains
+- **Adaptive RAG:** Classifier routes query to no/single/multi-step retrieval
+- **GraphRAG:** Knowledge graph + community summaries + graph traversal — Microsoft Research
+- **RAPTOR:** Recursive clustering + abstractive tree indexing — +20% absolute on QuALITY benchmark
+- **Modular RAG:** Swappable pipeline modules for evolving systems
+
+## Key Research Papers
+
+- RAPTOR (arXiv:2401.18059)
+- Self-RAG (arXiv:2310.11511)
+- Contextual Retrieval (Anthropic, 2024)
+- CRAG Benchmark (arXiv:2406.04744)
+- ARAGOG benchmark
+
+## ROI Recommendation
+
+For most production systems, the highest-ROI starting point is **hybrid retrieval + sentence window chunking**. Additional techniques should be added based on specific failure modes identified in evaluation.
+
+## Related Pages
+
+- [[rag-vs-llm-wiki]] — Comparison of RAG vs persistent LLM Wiki compilation
+- [[model-context-protocol]] — MCP as potential integration layer for RAG systems
+- [[llm-wiki]] — LLM Wiki pattern as RAG alternative

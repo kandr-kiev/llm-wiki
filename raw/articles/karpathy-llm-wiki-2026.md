@@ -1,7 +1,7 @@
 ---
 source_url: https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md
 ingested: 2026-07-04
-sha256: c6327850ebcdcb8a6004e397b28e8b3c938586c2c137c5850eec004e367e149e
+sha256: 62e40a2e6ba3668dafaae724811b136f325e98c876222d8099cae697c277d5b5
 ---
 
 [Skip to content](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#start-of-content)

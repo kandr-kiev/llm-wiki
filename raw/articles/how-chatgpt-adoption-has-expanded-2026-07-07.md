@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/how-chatgpt-adoption-has-expanded
 ingested: 2026-07-07
-sha256: 7800002a80bd11399125c5f0cdd583d84b3c09ca78b50540dda9e96eb939ec98
+sha256: 12daa64288c5d268e3b3b1d1488a1928fd4bce1623d3a9926370e156c1f620ae
 blog_source: OpenAI Blog
 ---
 

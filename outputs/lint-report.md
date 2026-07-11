@@ -1,9 +1,30 @@
 # Local LLM Wiki Lint Report
 
-Pages checked: 238
-Issues: 721
+Pages checked: 346
+Issues: 1864
 
 - **WARN** `wiki/index.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/adversarial.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/adversarial.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/adversarial.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/adversarial.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/adversarial.md` — broken wikilink: [[applying large language models cohere]]
+- **ERROR** `wiki/comparisons/adversarial.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/adversarial.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/adversarial.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/adversarial.md` — broken wikilink: [[applying large language models cohere]]
+- **ERROR** `wiki/comparisons/adversarial.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/adversarial.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/agents.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/agents.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/agents.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/agents.md` — broken wikilink: [[How to Engineer Prompts — Step-by-Step]]
+- **ERROR** `wiki/comparisons/agents.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/agents.md` — broken wikilink: [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- **ERROR** `wiki/comparisons/agents.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/agents.md` — broken wikilink: [[How to Engineer Prompts — Step-by-Step]]
+- **ERROR** `wiki/comparisons/agents.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/agents.md` — broken wikilink: [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
 - **ERROR** `wiki/comparisons/ai-agents-multi-source-synthesis.md` — missing fields: confidence, created, description, links, sources, updated
 - **WARN** `wiki/comparisons/ai-agents-multi-source-synthesis.md` — unapproved tag: api
 - **WARN** `wiki/comparisons/ai-agents-multi-source-synthesis.md` — unapproved tag: interoperability
@@ -34,6 +55,28 @@ Issues: 721
 - **ERROR** `wiki/comparisons/ai-coding-assistants-landscape.md` — broken wikilink: [[Best AI Coding Assistants as of March]]
 - **ERROR** `wiki/comparisons/ai-coding-assistants-landscape.md` — broken wikilink: [[Best AI Coding Assistants as of March 2026]]
 - **ERROR** `wiki/comparisons/ai-coding-assistants-landscape.md` — broken wikilink: [[How to Choose & Deploy AI Coding Assistants]]
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/ai-engineering-pitfalls.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/ai-engineering-pitfalls.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/ai-oss.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[personal growth]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[generative ai strategy]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[llm research open challenges]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[personal growth]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[generative ai strategy]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[llm research open challenges]]
+- **ERROR** `wiki/comparisons/ai-oss.md` — broken wikilink: [[animals vs ghosts]]
 - **ERROR** `wiki/comparisons/ai-safety-alignment-multi-source-synthesis.md` — missing fields: confidence, created, description, links, sources, updated
 - **WARN** `wiki/comparisons/ai-safety-alignment-multi-source-synthesis.md` — unapproved tag: compliance
 - **WARN** `wiki/comparisons/ai-safety-alignment-multi-source-synthesis.md` — unapproved tag: deep-learning
@@ -49,6 +92,40 @@ Issues: 721
 - **ERROR** `wiki/comparisons/ai-safety-alignment-multi-source-synthesis.md` — broken wikilink: [[Oyster II - RL for Constructive Safety Alignment]]
 - **ERROR** `wiki/comparisons/ai-safety-alignment-multi-source-synthesis.md` — broken wikilink: [[Reducing Toxicity in Language Models]]
 - **ERROR** `wiki/comparisons/ai-safety-alignment-multi-source-synthesis.md` — broken wikilink: [[LLM Inference & Deployment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/alabama-investment-june.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/alabama-investment-june.md` — unapproved tag: energy
+- **WARN** `wiki/comparisons/alabama-investment-june.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[google ai updates may]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[google ai updates june]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[google ai updates may]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/alabama-investment-june.md` — broken wikilink: [[google ai updates june]]
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/amie-for-disease-management-in-nature.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/amie-for-disease-management-in-nature.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — broken wikilink: [[introducing gpt live]]
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — broken wikilink: [[hidden states]]
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — broken wikilink: [[introducing gpt live]]
+- **ERROR** `wiki/comparisons/amie-for-disease-management-in-nature.md` — broken wikilink: [[hidden states]]
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — broken wikilink: [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — broken wikilink: [[year in review]]
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — broken wikilink: [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- **ERROR** `wiki/comparisons/animals-vs-ghosts.md` — broken wikilink: [[year in review]]
 - **ERROR** `wiki/comparisons/arxiv260707721.md` — missing fields: confidence, created, description, links, sources, updated
 - **WARN** `wiki/comparisons/arxiv260707721.md` — unapproved tag: api
 - **ERROR** `wiki/comparisons/arxiv260707721.md` — broken wikilink: [[arXiv:2607.06820]]
@@ -114,6 +191,43 @@ Issues: 721
 - **ERROR** `wiki/comparisons/arxiv260707766.md` — broken wikilink: [[arXiv:2607.02672]]
 - **ERROR** `wiki/comparisons/arxiv260707766.md` — broken wikilink: [[arXiv:2607.02879]]
 - **ERROR** `wiki/comparisons/arxiv260707766.md` — broken wikilink: [[arXiv:2607.06820]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/arxiv260707775.md` — unapproved tag: privacy
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.02672]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.02931]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.02807]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.06993]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.06764]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[view email]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.02672]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.02931]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.02807]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.06993]]
+- **ERROR** `wiki/comparisons/arxiv260707775.md` — broken wikilink: [[arXiv:2607.06764]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.06764]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.06720]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.06993]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.02672]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.02807]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[view email]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.06764]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.06720]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.06993]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.02672]]
+- **ERROR** `wiki/comparisons/arxiv260707836.md` — broken wikilink: [[arXiv:2607.02807]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.07721]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.06764]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.02879]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.06820]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.06993]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[view email]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.07721]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.06764]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.02879]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.06820]]
+- **ERROR** `wiki/comparisons/arxiv260707846.md` — broken wikilink: [[arXiv:2607.06993]]
 - **ERROR** `wiki/comparisons/arxiv260707850.md` — missing fields: confidence, created, description, links, sources, updated
 - **WARN** `wiki/comparisons/arxiv260707850.md` — unapproved tag: deep-learning
 - **ERROR** `wiki/comparisons/arxiv260707850.md` — broken wikilink: [[arXiv:2607.06764]]
@@ -140,7 +254,52 @@ Issues: 721
 - **ERROR** `wiki/comparisons/arxiv260707858.md` — broken wikilink: [[arXiv:2607.06820]]
 - **ERROR** `wiki/comparisons/arxiv260707858.md` — broken wikilink: [[arXiv:2607.02846]]
 - **ERROR** `wiki/comparisons/arxiv260707858.md` — broken wikilink: [[arXiv:2607.06720]]
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — broken wikilink: [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/auto-grade-hn.md` — broken wikilink: [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- **ERROR** `wiki/comparisons/branch-specialization.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/branch-specialization.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/branch-specialization.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/branch-specialization.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/branch-specialization.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/branch-specialization.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/branch-specialization.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/branch-specialization.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/branch-specialization.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/branch-specialization.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/branch-specialization.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/chemical-hygiene.md` — unapproved tag: industry
+- **WARN** `wiki/comparisons/chemical-hygiene.md` — unapproved tag: standards
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/chemical-hygiene.md` — broken wikilink: [[Automating Ai Away]]
 - **WARN** `wiki/comparisons/course-ai-agents-software-engineer-future-skills-2026.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/curve-circuits.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/curve-circuits.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/curve-circuits.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[generative ai and ai product moats]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[explainable ai]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [["olah2017feature",{"author":"Olah, Chris and Mordvintsev, Alexander and Schubert, Ludwig","title":"Feature Visualization","journal":"Distill","year":"2017","url":"https://distill.pub/2017/feature-visualization","doi":"10.23915/distill.00007","type":"article"}]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[generative ai and ai product moats]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[explainable ai]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/curve-circuits.md` — broken wikilink: [[gnn intro]]
 - **ERROR** `wiki/comparisons/deutsche-telekom.md` — missing fields: confidence, created, description, links, sources, updated
 - **ERROR** `wiki/comparisons/deutsche-telekom.md` — broken wikilink: [[helping build shared standards for advanced ai]]
 - **ERROR** `wiki/comparisons/deutsche-telekom.md` — broken wikilink: [[previewing gpt 5 6 sol]]
@@ -150,6 +309,31 @@ Issues: 721
 - **ERROR** `wiki/comparisons/deutsche-telekom.md` — broken wikilink: [[previewing gpt 5 6 sol]]
 - **ERROR** `wiki/comparisons/deutsche-telekom.md` — broken wikilink: [[agentic internet bot report]]
 - **ERROR** `wiki/comparisons/deutsche-telekom.md` — broken wikilink: [[arXiv:2607.06820]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/distill-hiatus.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/distill-hiatus.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/distill-hiatus.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — broken wikilink: [[previewing gpt 5 6 sol]]
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — broken wikilink: [[previewing gpt 5 6 sol]]
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/expanding-managed-agents-gemini-api.md` — broken wikilink: [[deutsche telekom]]
 - **ERROR** `wiki/comparisons/explainable-ai-xai-cheat-sheet.md` — missing fields: confidence, created, description, links, sources, updated
 - **WARN** `wiki/comparisons/explainable-ai-xai-cheat-sheet.md` — unapproved tag: compliance
 - **WARN** `wiki/comparisons/explainable-ai-xai-cheat-sheet.md` — unapproved tag: deep-learning
@@ -163,6 +347,85 @@ Issues: 721
 - **ERROR** `wiki/comparisons/explainable-ai-xai-cheat-sheet.md` — broken wikilink: [[AI Safety & Alignment — Multi-Source Synthesis]]
 - **ERROR** `wiki/comparisons/explainable-ai-xai-cheat-sheet.md` — broken wikilink: [[explainable ai]]
 - **ERROR** `wiki/comparisons/explainable-ai-xai-cheat-sheet.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/finding-the-best-sleep-tracker.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/full-stack-ai-explainer.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/full-stack-ai-explainer.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — broken wikilink: [[previewing gpt 5 6 sol]]
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — broken wikilink: [[The Illustrated Retrieval Transformer 2026 07 07]]
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — broken wikilink: [[Moving To Substack 2026 07 07]]
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — broken wikilink: [[previewing gpt 5 6 sol]]
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — broken wikilink: [[The Illustrated Retrieval Transformer 2026 07 07]]
+- **ERROR** `wiki/comparisons/full-stack-ai-explainer.md` — broken wikilink: [[Moving To Substack 2026 07 07]]
+- **ERROR** `wiki/comparisons/genai-platform.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/genai-platform.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/genai-platform.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/genai-platform.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/genai-platform.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/genai-platform.md` — broken wikilink: [[The Illustrated Retrieval Transformer 2026 07 07]]
+- **ERROR** `wiki/comparisons/genai-platform.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/genai-platform.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/genai-platform.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/genai-platform.md` — broken wikilink: [[The Illustrated Retrieval Transformer 2026 07 07]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/generative-ai-strategy.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[ai engineering pitfalls]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[generative ai and ai product moats]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[moving to substack]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[ai engineering pitfalls]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[generative ai and ai product moats]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[moving to substack]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/generative-ai-strategy.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/gnn-intro.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/gnn-intro.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/gnn-intro.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/gnn-intro.md` — broken wikilink: [[meerkat introduction]]
+- **ERROR** `wiki/comparisons/gnn-intro.md` — broken wikilink: [[How Gpt3 Works Visualizations And Animations]]
+- **ERROR** `wiki/comparisons/gnn-intro.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/gnn-intro.md` — broken wikilink: [[Semi-Supervised Learning]]
+- **ERROR** `wiki/comparisons/gnn-intro.md` — broken wikilink: [[meerkat introduction]]
+- **ERROR** `wiki/comparisons/gnn-intro.md` — broken wikilink: [[How Gpt3 Works Visualizations And Animations]]
+- **ERROR** `wiki/comparisons/gnn-intro.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/gnn-intro.md` — broken wikilink: [[Semi-Supervised Learning]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/google-ai-updates-june.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/google-ai-updates-june.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[nyc ai summit]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/google-ai-updates-june.md` — broken wikilink: [[nyc ai summit]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/google-ai-updates-may.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/google-ai-updates-may.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[google ai updates june]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[google ai updates june]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/google-ai-updates-may.md` — broken wikilink: [[amie for disease management in nature]]
 - **ERROR** `wiki/comparisons/google-deepmind.md` — missing fields: confidence, created, description, links, sources, updated
 - **WARN** `wiki/comparisons/google-deepmind.md` — unapproved tag: api
 - **WARN** `wiki/comparisons/google-deepmind.md` — unapproved tag: commercial
@@ -182,6 +445,19 @@ Issues: 721
 - **ERROR** `wiki/comparisons/google-deepmind.md` — broken wikilink: [[Qwen (Alibaba)]]
 - **ERROR** `wiki/comparisons/google-deepmind.md` — broken wikilink: [[Mistral AI]]
 - **ERROR** `wiki/comparisons/google-deepmind.md` — broken wikilink: [[Anthropic]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/google-finance-updates-june.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/google-finance-updates-june.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[nyc ai summit]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[introducing gpt live]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[nyc ai summit]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/google-finance-updates-june.md` — broken wikilink: [[introducing gpt live]]
 - **ERROR** `wiki/comparisons/how-to-build-ai-agents-framework-comparison-setup.md` — missing fields: confidence, created, description, links, sources, updated
 - **WARN** `wiki/comparisons/how-to-build-ai-agents-framework-comparison-setup.md` — unapproved tag: api
 - **WARN** `wiki/comparisons/how-to-build-ai-agents-framework-comparison-setup.md` — unapproved tag: docker
@@ -266,6 +542,72 @@ Issues: 721
 - **ERROR** `wiki/comparisons/how-to-engineer-prompts-step-by-step.md` — broken wikilink: [[How to Use Cloudflare Workers AI]]
 - **ERROR** `wiki/comparisons/how-to-engineer-prompts-step-by-step.md` — broken wikilink: [[Prompt Engineering Techniques]]
 - **ERROR** `wiki/comparisons/how-to-engineer-prompts-step-by-step.md` — broken wikilink: [[How to Fine-Tune an LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — unapproved tag: academic
+- **WARN** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — unapproved tag: standards
+- **WARN** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[How to Evaluate LLM Models — Benchmarks & Metrics]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[LLM Evaluation]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[LLM Evaluation Benchmarks and Metrics]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[LLM Evaluation Benchmarks and Metrics 2026]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[How to Fine-Tune an LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[How to Evaluate LLM Models — Benchmarks & Metrics]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[LLM Evaluation]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[LLM Evaluation Benchmarks and Metrics]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[LLM Evaluation Benchmarks and Metrics 2026]]
+- **ERROR** `wiki/comparisons/how-to-evaluate-llm-models-benchmarks-metrics.md` — broken wikilink: [[How to Fine-Tune an LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — unapproved tag: dataset
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[How to Fine-Tune an LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[How to Deploy a Local LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[How to Evaluate LLM Models — Benchmarks & Metrics]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[How to Fine-Tune an LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[How to Deploy a Local LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[How to Evaluate LLM Models — Benchmarks & Metrics]]
+- **ERROR** `wiki/comparisons/how-to-fine-tune-an-llm-step-by-step.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — unapproved tag: standards
+- **WARN** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[How to Implement Advanced RAG — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[12 Advanced RAG Techniques Beyond Naive Retrieval [2026]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[Advanced RAG Techniques]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[12 Advanced RAG Techniques Beyond Naive Retrieval]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[Open-Domain Question Answering]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[How to Implement Advanced RAG — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[12 Advanced RAG Techniques Beyond Naive Retrieval [2026]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[Advanced RAG Techniques]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[12 Advanced RAG Techniques Beyond Naive Retrieval]]
+- **ERROR** `wiki/comparisons/how-to-implement-advanced-rag-step-by-step.md` — broken wikilink: [[Open-Domain Question Answering]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — unapproved tag: review
+- **WARN** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — unapproved tag: tool
+- **WARN** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Integrate MCP — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Use Cloudflare Workers AI]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Engineer Prompts — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Build AI Agents — Framework Comparison & Setup]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Evaluate LLM Models — Benchmarks & Metrics]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Integrate MCP — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Use Cloudflare Workers AI]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Engineer Prompts — Step-by-Step]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Build AI Agents — Framework Comparison & Setup]]
+- **ERROR** `wiki/comparisons/how-to-integrate-mcp-step-by-step.md` — broken wikilink: [[How to Evaluate LLM Models — Benchmarks & Metrics]]
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — broken wikilink: [[previewing gpt 5 6 sol]]
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — broken wikilink: [[k 12 educators practical skills]]
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — broken wikilink: [[helping build shared standards for advanced ai]]
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — broken wikilink: [[previewing gpt 5 6 sol]]
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — broken wikilink: [[k 12 educators practical skills]]
+- **ERROR** `wiki/comparisons/introducing-gpt-live.md` — broken wikilink: [[helping build shared standards for advanced ai]]
 - **ERROR** `wiki/comparisons/k-12-educators-practical-skills.md` — missing fields: confidence, created, description, links, sources, updated
 - **ERROR** `wiki/comparisons/k-12-educators-practical-skills.md` — broken wikilink: [[deutsche telekom]]
 - **ERROR** `wiki/comparisons/k-12-educators-practical-skills.md` — broken wikilink: [[helping build shared standards for advanced ai]]
@@ -275,6 +617,467 @@ Issues: 721
 - **ERROR** `wiki/comparisons/k-12-educators-practical-skills.md` — broken wikilink: [[helping build shared standards for advanced ai]]
 - **ERROR** `wiki/comparisons/k-12-educators-practical-skills.md` — broken wikilink: [[previewing gpt 5 6 sol]]
 - **ERROR** `wiki/comparisons/k-12-educators-practical-skills.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[k 12 educators practical skills]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[k 12 educators practical skills]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/langchain-core149.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/langchain-fireworks144.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/langchain-openai134.md` — unapproved tag: api
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/langchain-openai134.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/langchain1312.md` — unapproved tag: standards
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[Release Notes: Llama.cpp vb9956]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/langchain1312.md` — broken wikilink: [[Release Notes: Llama.cpp vb9956]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/llm-deployment-configurations-reference.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/llm-deployment-configurations-reference.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/llm-deployment-configurations-reference.md` — unapproved tag: docker
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[LLM Deployment Configurations — Reference]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[How to Deploy a Local LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[How to Fine-Tune an LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[LLM Deployment Configurations — Reference]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[How to Deploy a Local LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/llm-deployment-configurations-reference.md` — broken wikilink: [[How to Fine-Tune an LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/llm-deployment-qa-common-questions.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/llm-deployment-qa-common-questions.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/llm-deployment-qa-common-questions.md` — unapproved tag: offline
+- **WARN** `wiki/comparisons/llm-deployment-qa-common-questions.md` — unapproved tag: privacy
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[How to Deploy a Local LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[LLM Deployment Configurations — Reference]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[How to Deploy a Local LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[LLM Deployment Configurations — Reference]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-deployment-qa-common-questions.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — unapproved tag: dataset
+- **WARN** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — unapproved tag: pytorch
+- **WARN** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — unapproved tag: standards
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[LLM Inference & Deployment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[LLM Inference & Deployment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/llm-inference-deployment-multi-source-synthesis.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — unapproved tag: privacy
+- **WARN** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — unapproved tag: software
+- **WARN** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[How to Deploy a Local LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[Llama vs Mistral vs Qwen — Open Source LLM Comparison]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[Open Source LLM Models]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[How to Deploy a Local LLM — Step-by-Step]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[Llama vs Mistral vs Qwen — Open Source LLM Comparison]]
+- **ERROR** `wiki/comparisons/llm-landscape-multi-source-synthesis.md` — broken wikilink: [[Open Source LLM Models]]
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/llm-research-open-challenges.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — broken wikilink: [[applying large language models cohere]]
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — broken wikilink: [[applying large language models cohere]]
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/llm-research-open-challenges.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/llm-wiki-index.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/llm-wiki-index.md` — unapproved tag: software
+- **WARN** `wiki/comparisons/llm-wiki-index.md` — unapproved tag: transformers
+- **WARN** `wiki/comparisons/llm-wiki-index.md` — unapproved tag: unsupervised
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[AI Agents 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[AI Coding Assistants Landscape]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[reference]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[playbook]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[event]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[entity]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[concept]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[comparison]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[karpathy-llm-wiki-2026_1]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[AI Agents 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[AI Coding Assistants Landscape]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/llm-wiki-index.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[LLM Wiki]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[LLM Wiki]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract-legacy.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/local-llm-wiki-agent-contract.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/local-llm-wiki-agent-contract.md` — unapproved tag: software
+- **WARN** `wiki/comparisons/local-llm-wiki-agent-contract.md` — unapproved tag: tool
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[LLM Wiki]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[Wiki Integrity Maintenance — Tools & Workflow]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[REST API]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[slug]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[LLM Wiki]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[Wiki Integrity Maintenance — Tools & Workflow]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[REST API]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-agent-contract.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/local-llm-wiki-algorithm.md` — unapproved tag: review
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[LLM Wiki]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[REST API]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[Wiki Integrity Maintenance — Tools & Workflow]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[Semi-Supervised Learning]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[wikilinks]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[LLM Wiki]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[REST API]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[Wiki Integrity Maintenance — Tools & Workflow]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-algorithm.md` — broken wikilink: [[Semi-Supervised Learning]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/local-llm-wiki-lint-report.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/local-llm-wiki-lint-report.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/local-llm-wiki-lint-report.md` — unapproved tag: dataset
+- **WARN** `wiki/comparisons/local-llm-wiki-lint-report.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/local-llm-wiki-lint-report.md` — unapproved tag: interoperability
+- **WARN** `wiki/comparisons/local-llm-wiki-lint-report.md` — unapproved tag: review
+- **WARN** `wiki/comparisons/local-llm-wiki-lint-report.md` — unapproved tag: software
+- **WARN** `wiki/comparisons/local-llm-wiki-lint-report.md` — unapproved tag: tool
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[How Gpt3 Works Visualizations And Animations]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[AI Agents 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[AI Agent Frameworks]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[How to Build AI Agents — Framework Comparison & Setup]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[How Agents Are Transforming Work]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[LLM Inference & Deployment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[AI Agents 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[AI Agent Frameworks]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[How to Build AI Agents — Framework Comparison & Setup]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[How Agents Are Transforming Work]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[LLM Inference & Deployment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[AI Coding Assistants Landscape]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Best AI Coding Assistants]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Best AI Coding Assistants as of March]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Best AI Coding Assistants as of March 2026]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[How to Choose & Deploy AI Coding Assistants]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[AI Coding Assistants Landscape]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Best AI Coding Assistants]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Best AI Coding Assistants as of March]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Best AI Coding Assistants as of March 2026]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[How to Choose & Deploy AI Coding Assistants]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[AI Safety & Alignment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Explainable AI (XAI) Cheat Sheet]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Oyster II - RL for Constructive Safety Alignment]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Reducing Toxicity in Language Models]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[LLM Inference & Deployment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[AI Safety & Alignment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Explainable AI (XAI) Cheat Sheet]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Oyster II - RL for Constructive Safety Alignment]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Reducing Toxicity in Language Models]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[LLM Inference & Deployment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-lint-report.md` — broken wikilink: [[How Gpt3 Works Visualizations And Animations]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — unapproved tag: pytorch
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[Аудит LLM Wiki Системи]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[hermes agent self evolution]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[slug]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[Аудит LLM Wiki Системи]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
+- **ERROR** `wiki/comparisons/local-llm-wiki-повна-архітектурна-документація.md` — broken wikilink: [[hermes agent self evolution]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/meta-ai-facebook.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/meta-ai-facebook.md` — unapproved tag: commercial
+- **WARN** `wiki/comparisons/meta-ai-facebook.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/meta-ai-facebook.md` — unapproved tag: ethics
+- **WARN** `wiki/comparisons/meta-ai-facebook.md` — unapproved tag: proprietary
+- **WARN** `wiki/comparisons/meta-ai-facebook.md` — unapproved tag: pytorch
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[Meta AI (Facebook)]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[Mistral AI]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[OpenAI]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[Qwen (Alibaba)]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[MiniMax]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[Meta AI (Facebook)]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[Mistral AI]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[OpenAI]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[Qwen (Alibaba)]]
+- **ERROR** `wiki/comparisons/meta-ai-facebook.md` — broken wikilink: [[MiniMax]]
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/multimodal-neurons.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/multimodal-neurons.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — broken wikilink: [[distill hiatus]]
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/multimodal-neurons.md` — broken wikilink: [[distill hiatus]]
+- **ERROR** `wiki/comparisons/multimodal.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/multimodal.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/multimodal.md` — unapproved tag: mlops
+- **WARN** `wiki/comparisons/multimodal.md` — unapproved tag: speech-to-text
+- **ERROR** `wiki/comparisons/multimodal.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/multimodal.md` — broken wikilink: [[generative ai strategy]]
+- **ERROR** `wiki/comparisons/multimodal.md` — broken wikilink: [[personal growth]]
+- **ERROR** `wiki/comparisons/multimodal.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/multimodal.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/multimodal.md` — broken wikilink: [[generative ai strategy]]
+- **ERROR** `wiki/comparisons/multimodal.md` — broken wikilink: [[personal growth]]
+- **ERROR** `wiki/comparisons/multimodal.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/nyc-ai-summit.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/nyc-ai-summit.md` — unapproved tag: industry
+- **WARN** `wiki/comparisons/nyc-ai-summit.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[introducing gpt live]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[hidden states]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[introducing gpt live]]
+- **ERROR** `wiki/comparisons/nyc-ai-summit.md` — broken wikilink: [[hidden states]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — unapproved tag: dataset
+- **WARN** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — unapproved tag: deep-learning
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[Oyster II - RL for Constructive Safety Alignment]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[Ask in the Dark — Uncertainty-Gated LLM Assistance]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[Internal Pluralism and the Limits of Pairwise Comparisons]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[AI Safety & Alignment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[Reducing Toxicity in Language Models]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[Oyster II - RL for Constructive Safety Alignment]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[Ask in the Dark — Uncertainty-Gated LLM Assistance]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[Internal Pluralism and the Limits of Pairwise Comparisons]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[AI Safety & Alignment — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/oyster-ii---reinforcement-learning-for-constructive-safety-alignment-in-llms.md` — broken wikilink: [[Reducing Toxicity in Language Models]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/patch-release-v5104.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/patch-release-v5104.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/patch-release-v5104.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/patch-release-v5104.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/patch-release-v5121.md` — unapproved tag: backend
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/patch-release-v5121.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/personal-growth.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[generative ai strategy]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[generative ai strategy]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/personal-growth.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/power-to-the-people.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/power-to-the-people.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/power-to-the-people.md` — unapproved tag: privacy
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/power-to-the-people.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/predictive-human-preference.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — broken wikilink: [[generative ai strategy]]
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/predictive-human-preference.md` — broken wikilink: [[generative ai strategy]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/pytorch-2100-release.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/pytorch-2100-release.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/pytorch-2100-release.md` — unapproved tag: frontend
+- **WARN** `wiki/comparisons/pytorch-2100-release.md` — unapproved tag: onnx
+- **WARN** `wiki/comparisons/pytorch-2100-release.md` — unapproved tag: pytorch
+- **WARN** `wiki/comparisons/pytorch-2100-release.md` — unapproved tag: tool
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[The Illustrated Retrieval Transformer 2026 07 07]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[The Illustrated Retrieval Transformer 2026 07 07]]
+- **ERROR** `wiki/comparisons/pytorch-2100-release.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/pytorch-2110-release.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/pytorch-2110-release.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/pytorch-2110-release.md` — unapproved tag: frontend
+- **WARN** `wiki/comparisons/pytorch-2110-release.md` — unapproved tag: pytorch
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/pytorch-2110-release.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/pytorch-2120-release.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/pytorch-2120-release.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/pytorch-2120-release.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/pytorch-2120-release.md` — unapproved tag: frontend
+- **WARN** `wiki/comparisons/pytorch-2120-release.md` — unapproved tag: pytorch
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/pytorch-2120-release.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — unapproved tag: pytorch
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[Patch release v5.12.1]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[Patch release v5.12.1]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/pytorch-2121-release-bug-fix-release.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/pytorch-2130-release.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/pytorch-2130-release.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/pytorch-2130-release.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/pytorch-2130-release.md` — unapproved tag: pytorch
+- **WARN** `wiki/comparisons/pytorch-2130-release.md` — unapproved tag: standards
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/pytorch-2130-release.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/qwen-alibaba.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/qwen-alibaba.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/qwen-alibaba.md` — unapproved tag: commercial
+- **WARN** `wiki/comparisons/qwen-alibaba.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/qwen-alibaba.md` — unapproved tag: proprietary
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[Qwen (Alibaba)]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[MiniMax]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[Mistral AI]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[OpenAI]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[Anthropic]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[Qwen (Alibaba)]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[MiniMax]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[Mistral AI]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[OpenAI]]
+- **ERROR** `wiki/comparisons/qwen-alibaba.md` — broken wikilink: [[Anthropic]]
 - **ERROR** `wiki/comparisons/release-notes-hugging-face-transformers-vv5130.md` — missing fields: confidence, created, description, links, sources, updated
 - **WARN** `wiki/comparisons/release-notes-hugging-face-transformers-vv5130.md` — unapproved tag: audio-generation
 - **WARN** `wiki/comparisons/release-notes-hugging-face-transformers-vv5130.md` — unapproved tag: batch
@@ -365,6 +1168,669 @@ Issues: 721
 - **ERROR** `wiki/comparisons/release-notes-vllm-vv0240.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
 - **ERROR** `wiki/comparisons/release-notes-vllm-vv0240.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
 - **ERROR** `wiki/comparisons/release-notes-vllm-vv0240.md` — broken wikilink: [[How to Deploy with vLLM — Production LLM Serving]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/release-v5110.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/release-v5110.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/release-v5110.md` — unapproved tag: docker
+- **WARN** `wiki/comparisons/release-v5110.md` — unapproved tag: standards
+- **WARN** `wiki/comparisons/release-v5110.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[PyTorch 2.13.0 Release]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[PyTorch 2.13.0 Release]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/release-v5110.md` — broken wikilink: [[Release Notes: PyTorch vv2.13.0]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/release-v5120.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/release-v5120.md` — unapproved tag: docker
+- **WARN** `wiki/comparisons/release-v5120.md` — unapproved tag: standards
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[Release v5.11.0]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[PyTorch 2.13.0 Release]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[Release v5.11.0]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/release-v5120.md` — broken wikilink: [[PyTorch 2.13.0 Release]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: devops
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: onnx
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: speech-to-text
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: standards
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: streaming
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: video-generation
+- **WARN** `wiki/comparisons/release-v5130.md` — unapproved tag: whisper
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Release v5.12.0]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Release v5.11.0]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Release v5.12.0]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Release v5.11.0]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/release-v5130.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/sampling.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/sampling.md` — unapproved tag: mlops
+- **ERROR** `wiki/comparisons/sampling.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/sampling.md` — broken wikilink: [[How to Engineer Prompts — Step-by-Step]]
+- **ERROR** `wiki/comparisons/sampling.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/sampling.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/sampling.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/sampling.md` — broken wikilink: [[How to Engineer Prompts — Step-by-Step]]
+- **ERROR** `wiki/comparisons/sampling.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/sampling.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — broken wikilink: [[k 12 educators practical skills]]
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — broken wikilink: [[introducing gpt live]]
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — broken wikilink: [[helping build shared standards for advanced ai]]
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — broken wikilink: [[k 12 educators practical skills]]
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — broken wikilink: [[deutsche telekom]]
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — broken wikilink: [[introducing gpt live]]
+- **ERROR** `wiki/comparisons/separating-signal-from-noise-coding-evaluations.md` — broken wikilink: [[helping build shared standards for advanced ai]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/sequoia-ascent.md` — broken wikilink: [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- **ERROR** `wiki/comparisons/smart-tiered-cache-for-public-clouds.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/smart-tiered-cache-for-public-clouds.md` — broken wikilink: [[attribution business insights]]
+- **ERROR** `wiki/comparisons/smart-tiered-cache-for-public-clouds.md` — broken wikilink: [[making ai search smarter]]
+- **ERROR** `wiki/comparisons/smart-tiered-cache-for-public-clouds.md` — broken wikilink: [[monetization gateway]]
+- **ERROR** `wiki/comparisons/smart-tiered-cache-for-public-clouds.md` — broken wikilink: [[cloudflare joins uk cyber resilience pledge]]
+- **ERROR** `wiki/comparisons/smart-tiered-cache-for-public-clouds.md` — broken wikilink: [[oauth for all]]
+- **ERROR** `wiki/comparisons/source-note.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[{{title}}]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[RAG vs LLM Wiki]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[🖥️ Збірка RTX 5070 Ti — Фінальна оцінка]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[{{title}}]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[RAG vs LLM Wiki]]
+- **ERROR** `wiki/comparisons/source-note.md` — broken wikilink: [[🖥️ Збірка RTX 5070 Ti — Фінальна оцінка]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/tensorflow-2200.md` — unapproved tag: tensorflow
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[PyTorch 2.13.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[sequoia ascent]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[PyTorch 2.13.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2200.md` — broken wikilink: [[sequoia ascent]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/tensorflow-2210-rc0.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/tensorflow-2210-rc0.md` — unapproved tag: tensorflow
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[TensorFlow 2.21.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[TensorFlow 2.20.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[TensorFlow 2.21.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[TensorFlow 2.20.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc0.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/tensorflow-2210-rc1.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/tensorflow-2210-rc1.md` — unapproved tag: tensorflow
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[TensorFlow 2.21.0-rc0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[TensorFlow 2.21.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[TensorFlow 2.20.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[TensorFlow 2.21.0-rc0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[TensorFlow 2.21.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[TensorFlow 2.20.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210-rc1.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/tensorflow-2210.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/tensorflow-2210.md` — unapproved tag: tensorflow
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[TensorFlow 2.20.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[PyTorch 2.12.1 Release, bug fix release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[TensorFlow 2.20.0]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[PyTorch 2.11.0 Release]]
+- **ERROR** `wiki/comparisons/tensorflow-2210.md` — broken wikilink: [[PyTorch 2.12.1 Release, bug fix release]]
+- **ERROR** `wiki/comparisons/textures.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/textures.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/textures.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/textures.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/textures.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/textures.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/textures.md` — broken wikilink: [[nyc ai summit]]
+- **ERROR** `wiki/comparisons/textures.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/textures.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/textures.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/textures.md` — broken wikilink: [[nyc ai summit]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/the-space-of-minds.md` — unapproved tag: commercial
+- **WARN** `wiki/comparisons/the-space-of-minds.md` — unapproved tag: deep-learning
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/the-space-of-minds.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/training-large-neural-networks.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/training-large-neural-networks.md` — unapproved tag: deep-learning
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[Semi-Supervised Learning]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[Diffusion Models]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[Training Large Neural Networks]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[Semi-Supervised Learning]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[Diffusion Models]]
+- **ERROR** `wiki/comparisons/training-large-neural-networks.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/understanding-gnns.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/understanding-gnns.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[distill hiatus]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[distill hiatus]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[explaining transformers]]
+- **ERROR** `wiki/comparisons/understanding-gnns.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[google ai updates june]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[google ai updates may]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[google ai updates june]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[google ai updates may]]
+- **ERROR** `wiki/comparisons/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/v01419.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v01419.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v01419.md` — unapproved tag: dataset
+- **WARN** `wiki/comparisons/v01419.md` — unapproved tag: tool
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[langchain==1.3.12]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[langchain==1.3.12]]
+- **ERROR** `wiki/comparisons/v01419.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v01420.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/v01420.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/v01421.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[v0.14.20]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[v0.14.20]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01421.md` — broken wikilink: [[langchain-fireworks==1.4.4]]
+- **ERROR** `wiki/comparisons/v01422.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[v0.14.21]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[v0.14.20]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[v0.14.21]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[v0.14.20]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01422.md` — broken wikilink: [[langchain-openai==1.3.4]]
+- **ERROR** `wiki/comparisons/v01423.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v01423.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/v01423.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/v01423.md` — unapproved tag: tool
+- **WARN** `wiki/comparisons/v01423.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[v0.14.21]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[v0.14.22]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[v0.14.20]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[v0.14.21]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[v0.14.22]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v01423.md` — broken wikilink: [[v0.14.20]]
+- **ERROR** `wiki/comparisons/v0210.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: container
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: docker
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: frontend
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: pytorch
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: streaming
+- **WARN** `wiki/comparisons/v0210.md` — unapproved tag: tool
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[Release v5.11.0]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/v0210.md` — broken wikilink: [[Release v5.11.0]]
+- **ERROR** `wiki/comparisons/v0220.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: docker
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: frontend
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: offline
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: postprocessing
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: pytorch
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: speech-to-text
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: tool
+- **WARN** `wiki/comparisons/v0220.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[v0.21.0]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[Release v5.11.0]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[v0.21.0]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[PyTorch 2.10.0 Release]]
+- **ERROR** `wiki/comparisons/v0220.md` — broken wikilink: [[Release v5.11.0]]
+- **ERROR** `wiki/comparisons/v0221.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v0221.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/v0221.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/v0221.md` — unapproved tag: docker
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[v0.21.0]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[Release v5.12.0]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[v0.21.0]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/v0221.md` — broken wikilink: [[Release v5.12.0]]
+- **ERROR** `wiki/comparisons/v0230.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: frontend
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: preprocessing
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: speech-to-text
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: streaming
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: tool
+- **WARN** `wiki/comparisons/v0230.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[v0.21.0]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[v0.21.0]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0230.md` — broken wikilink: [[PyTorch 2.12.0 Release]]
+- **ERROR** `wiki/comparisons/v0240.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: frontend
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: offline
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: preprocessing
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: streaming
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: tool
+- **WARN** `wiki/comparisons/v0240.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[v0.23.0]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[v0.21.0]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[Release Notes: vLLM vv0.24.0]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[v0.23.0]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[v0.21.0]]
+- **ERROR** `wiki/comparisons/v0240.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0261.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v0261.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v0261.md` — unapproved tag: offline
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[v0.24.0]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[v0.23.0]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[Release Notes: Ollama vv0.31.2]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[v0.24.0]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[v0.23.0]]
+- **ERROR** `wiki/comparisons/v0261.md` — broken wikilink: [[langchain-core==1.4.9]]
+- **ERROR** `wiki/comparisons/v0270.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[v0.26.1]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[v0.23.0]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[TensorFlow 2.20.0]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[v0.26.1]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[v0.23.0]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[TensorFlow 2.20.0]]
+- **ERROR** `wiki/comparisons/v0270.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v0271.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v0271.md` — unapproved tag: api
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.26.1]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.27.0]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.24.0]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.14.21]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.26.1]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.27.0]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.24.0]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.14.19]]
+- **ERROR** `wiki/comparisons/v0271.md` — broken wikilink: [[v0.14.21]]
+- **ERROR** `wiki/comparisons/v0280.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v0280.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v0280.md` — unapproved tag: frontend
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[v0.26.1]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[v0.27.0]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[v0.27.1]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[v0.26.1]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[v0.27.0]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[v0.27.1]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v0280.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/v3130.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v3130.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v3130.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/v3130.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/v3130.md` — unapproved tag: kubernetes
+- **WARN** `wiki/comparisons/v3130.md` — unapproved tag: streaming
+- **WARN** `wiki/comparisons/v3130.md` — unapproved tag: tool
+- **WARN** `wiki/comparisons/v3130.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[v0.27.0]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[How to Integrate MCP — Step-by-Step]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[v0.23.0]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[v0.27.0]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[How to Integrate MCP — Step-by-Step]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v3130.md` — broken wikilink: [[v0.23.0]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v3130rc0.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v3130rc0.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/v3130rc0.md` — unapproved tag: kubernetes
+- **WARN** `wiki/comparisons/v3130rc0.md` — unapproved tag: review
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[v3.13.0]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[v0.26.1]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[v3.13.0]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[v0.22.0]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[v0.26.1]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v3130rc0.md` — broken wikilink: [[Patch release v5.10.4]]
+- **ERROR** `wiki/comparisons/v3140.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/v3140.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/v3140.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/v3140.md` — unapproved tag: dataset
+- **WARN** `wiki/comparisons/v3140.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/v3140.md` — unapproved tag: docker
+- **WARN** `wiki/comparisons/v3140.md` — unapproved tag: pytorch
+- **WARN** `wiki/comparisons/v3140.md` — unapproved tag: review
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[v3.13.0]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[v3.13.0rc0]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[REST API]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[v3.13.0]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[v3.13.0rc0]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[REST API]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[v0.22.1]]
+- **ERROR** `wiki/comparisons/v3140.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/verifiability.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/verifiability.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/verifiability.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/verifiability.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/verifiability.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/verifiability.md` — broken wikilink: [[year in review]]
+- **ERROR** `wiki/comparisons/verifiability.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/verifiability.md` — broken wikilink: [[animals vs ghosts]]
+- **ERROR** `wiki/comparisons/verifiability.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/verifiability.md` — broken wikilink: [[year in review]]
+- **ERROR** `wiki/comparisons/verifiability.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/vibe-coding-menugen.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/vibe-coding-menugen.md` — unapproved tag: backend
+- **WARN** `wiki/comparisons/vibe-coding-menugen.md` — unapproved tag: frontend
+- **WARN** `wiki/comparisons/vibe-coding-menugen.md` — unapproved tag: streaming
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — broken wikilink: [[finding the best sleep tracker]]
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — broken wikilink: [[chemical hygiene]]
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — broken wikilink: [[auto grade hn]]
+- **ERROR** `wiki/comparisons/vibe-coding-menugen.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/virginia-community-investments.md` — unapproved tag: audio-generation
+- **WARN** `wiki/comparisons/virginia-community-investments.md` — unapproved tag: energy
+- **WARN** `wiki/comparisons/virginia-community-investments.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[nyc ai summit]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[expanding managed agents gemini api]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[full stack ai explainer]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[google finance updates june]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[amie for disease management in nature]]
+- **ERROR** `wiki/comparisons/virginia-community-investments.md` — broken wikilink: [[nyc ai summit]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/visualizing-weights.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/visualizing-weights.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[distill hiatus]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[vibe coding menugen]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[distill hiatus]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/visualizing-weights.md` — broken wikilink: [[vibe coding menugen]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/weight-banding.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/weight-banding.md` — unapproved tag: software
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[visualizing weights]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[multimodal neurons]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[branch specialization]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[visualizing weights]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[curve circuits]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[gnn intro]]
+- **ERROR** `wiki/comparisons/weight-banding.md` — broken wikilink: [[multimodal neurons]]
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — unapproved tag: review
+- **WARN** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — unapproved tag: tool
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — broken wikilink: [[Wiki Integrity Maintenance — Tools & Workflow]]
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — broken wikilink: [[Wiki Integrity Maintenance — Tools & Workflow]]
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/wiki-integrity-maintenance-tools-workflow.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/wiki-log.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/wiki-log.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/wiki-log.md` — unapproved tag: software
+- **WARN** `wiki/comparisons/wiki-log.md` — unapproved tag: transformers
+- **WARN** `wiki/comparisons/wiki-log.md` — unapproved tag: video-generation
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[How Gpt3 Works Visualizations And Animations]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[base_N]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[base]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[Release Notes: Hugging Face Transformers vv5.13.0]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[LLM Landscape 2026 — Multi-Source Synthesis]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[LLM Deployment Q&A — Common Questions]]
+- **ERROR** `wiki/comparisons/wiki-log.md` — broken wikilink: [[How Gpt3 Works Visualizations And Animations]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/wiki-schema-okf-v01.md` — unapproved tag: compliance
+- **WARN** `wiki/comparisons/wiki-schema-okf-v01.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/wiki-schema-okf-v01.md` — unapproved tag: review
+- **WARN** `wiki/comparisons/wiki-schema-okf-v01.md` — unapproved tag: standards
+- **WARN** `wiki/comparisons/wiki-schema-okf-v01.md` — unapproved tag: transformers
+- **WARN** `wiki/comparisons/wiki-schema-okf-v01.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[Wiki Log]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[LLM Wiki]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[wikilinks]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[Wiki Log]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[LLM Wiki]]
+- **ERROR** `wiki/comparisons/wiki-schema-okf-v01.md` — broken wikilink: [[LLM Fine-Tuning]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/workspacejson.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[Local LLM Wiki Lint Report]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[Wiki Log]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[v3.13.0]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[Local LLM Wiki Lint Report]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[Wiki Log]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/workspacejson.md` — broken wikilink: [[v3.13.0]]
+- **ERROR** `wiki/comparisons/year-in-review.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/year-in-review.md` — unapproved tag: deep-learning
+- **WARN** `wiki/comparisons/year-in-review.md` — unapproved tag: industry
+- **WARN** `wiki/comparisons/year-in-review.md` — unapproved tag: review
+- **ERROR** `wiki/comparisons/year-in-review.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/year-in-review.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/year-in-review.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/year-in-review.md` — broken wikilink: [[How Gpt3 Works Visualizations And Animations]]
+- **ERROR** `wiki/comparisons/year-in-review.md` — broken wikilink: [[Automating Ai Away]]
+- **ERROR** `wiki/comparisons/year-in-review.md` — broken wikilink: [[robots txt 2023 war memorial]]
+- **ERROR** `wiki/comparisons/year-in-review.md` — broken wikilink: [[Applying Massive Language Models In The Real World With Cohere]]
+- **ERROR** `wiki/comparisons/year-in-review.md` — broken wikilink: [[How Gpt3 Works Visualizations And Animations]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[Local LLM Wiki — Agent Contract (Legacy)]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[Local LLM Wiki — Повна архітектурна документація]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[Local LLM Wiki — Agent Contract (Legacy)]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[Local LLM Wiki — Повна архітектурна документація]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/інструкція-для-master-legacy.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — missing fields: confidence, created, description, links, sources, updated
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — unapproved tag: api
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — unapproved tag: batch
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — unapproved tag: cuda
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — unapproved tag: mlops
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — unapproved tag: pytorch
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — unapproved tag: tensorflow
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — unapproved tag: transformers
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — unapproved tag: tutorial
+- **WARN** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — page over 200 lines
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[hermes agent self evolution]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[Open Source LLM Landscape 2026: Llama vs Mistral vs Qwen]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[Local LLM Wiki — Повна архітектурна документація]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[hermes agent self evolution]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[Open Source LLM Landscape 2026: Llama vs Mistral vs Qwen]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[Local LLM Wiki — Повна архітектурна документація]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[LLM Wiki Index]]
+- **ERROR** `wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Аудит LLM Wiki Системи]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Аудит крон-завдань LLM Wiki — Детальний звіт]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Local LLM Wiki — Повна архітектурна документація]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Аудит LLM Wiki Системи]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Аудит крон-завдань LLM Wiki — Детальний звіт]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Local LLM Wiki — Agent Contract]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Local LLM Wiki Algorithm]]
+- **ERROR** `wiki/comparisons/аудит-llm-wiki-системи.md` — broken wikilink: [[Local LLM Wiki — Повна архітектурна документація]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — missing fields: confidence, created, description, links, sources, updated
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[Local LLM Wiki — Повна архітектурна документація]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[hermes agent self evolution]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[RTX 5070 Ti]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[Аудит LLM Wiki Системи]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[Local LLM Wiki — Повна архітектурна документація]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[hermes agent self evolution]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[RTX 5070 Ti]]
+- **ERROR** `wiki/comparisons/аудит-крон-завдань-llm-wiki-детальний-звіт.md` — broken wikilink: [[Аудит LLM Wiki Системи]]
 - **INFO** `wiki/concepts/core-dump-epidemiology-fixing-an-18-year-old-bug-2026-07-07.md` — low confidence page
 - **INFO** `wiki/concepts/explainable-ai-cheat-sheet-2026-07-07.md` — low confidence page
 - **WARN** `wiki/concepts/finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07.md` — page over 200 lines
@@ -401,326 +1867,3 @@ Issues: 721
 - **WARN** `wiki/synthesis/llm-inference-deployment-2026-synthesis.md` — page over 200 lines
 - **WARN** `wiki/synthesis/llm-landscape-2026-synthesis.md` — page over 200 lines
 - **WARN** `wiki/synthesis/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md` — page over 200 lines
-- **ERROR** `raw/articles/12-advanced-rag-techniques-beyond-naive-retrieval.md` — sha256 drift
-- **ERROR** `raw/articles/a-graph-neural-network-model-for-real-time-gesture-recognition-based-on-semg-signals-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/a-sliding-window-based-reinforcement-learning-for-dynamic-assembly-flow-shop-scheduling-with-multi-p-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/active-learning-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/active-learning-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/active-learning.md` — sha256 drift
-- **ERROR** `raw/articles/advanced-prompt-engineering-2026.md` — sha256 drift
-- **ERROR** `raw/articles/advanced-prompt-engineering-techniques-in.md` — sha256 drift
-- **ERROR** `raw/articles/advanced-prompt-engineering-techniques.md` — sha256 drift
-- **ERROR** `raw/articles/advanced-rag-techniques-2026.md` — sha256 drift
-- **ERROR** `raw/articles/advanced-rag-techniques.md` — sha256 drift
-- **ERROR** `raw/articles/adversarial-social-epistemology-for-assemblies-of-humans-and-large-language-models-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/agent-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/agentic-ai-and-retrieval-augmented-models-in-straight-through-underwriting-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/agentic-internet-bot-report.md` — sha256 drift
-- **ERROR** `raw/articles/agentlens-production-assessed-trajectory-reviews-for-coding-agent-evaluation-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/ai-agent-frameworks-2026.md` — sha256 drift
-- **ERROR** `raw/articles/ai-agent-frameworks-langgraph-vs-crewai-vs-autogen-compared.md` — sha256 drift
-- **ERROR** `raw/articles/ai-agent-frameworks.md` — sha256 drift
-- **ERROR** `raw/articles/ai-agents-2026-synthesis.md` — sha256 drift
-- **ERROR** `raw/articles/ai-analytics.md` — sha256 drift
-- **ERROR** `raw/articles/ai-benchmarks.md` — sha256 drift
-- **ERROR** `raw/articles/ai-coding-assistants-2026.md` — sha256 drift
-- **ERROR** `raw/articles/ai-coding-assistants.md` — sha256 drift
-- **ERROR** `raw/articles/ai-content-is-everywhere-on-social-media-especially-linkedin-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/ai-education.md` — sha256 drift
-- **ERROR** `raw/articles/ai-hardware.md` — sha256 drift
-- **ERROR** `raw/articles/ai-image-generation-tools.md` — sha256 drift
-- **ERROR** `raw/articles/ai-in-your-feed.md` — sha256 drift
-- **ERROR** `raw/articles/ai-integrated-models-for-assessing-agricultural-resilience-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/ai-policy.md` — sha256 drift
-- **ERROR** `raw/articles/ai-safety-alignment-2026-synthesis.md` — sha256 drift
-- **ERROR** `raw/articles/algorithm-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/aligning-clinical-needs-and-ai-capabilities-a-survey-on-llms-for-medical-reasoning-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/alignment-plausibility-a-new-standard-for-assuring-ai-in-healthcare-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/announcing-the-monetization-gateway-charge-for-any-resource-behind-cloudflare-via-x402-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/announcing-the-monetization-gateway-charge-for-any-resource-behind-cloudflare-via-x402-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/anthropic.md` — sha256 drift
-- **ERROR** `raw/articles/applying-large-language-models-cohere.md` — sha256 drift
-- **ERROR** `raw/articles/applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/applying-massive-language-models-in-the-real-world-with-cohere-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/architecture-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/architecture-overview.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702542.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702672.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702686.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702771.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702807.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702846.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702879.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702914.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702931.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260702941.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706624.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706720.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706757.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706760.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706764.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706820.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706906.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706925.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260706993.md` — sha256 drift
-- **ERROR** `raw/articles/arxiv260707021.md` — sha256 drift
-- **ERROR** `raw/articles/ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/attribution-business-insights.md` — sha256 drift
-- **ERROR** `raw/articles/australian-payments-plus-moves-faster-with-chatgpt-and-codex-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/automated-data-readiness-for-scientific-ai-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/automating-ai-away-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/away.md` — sha256 drift
-- **ERROR** `raw/articles/best-ai-coding-assistants-as-of-march.md` — sha256 drift
-- **ERROR** `raw/articles/best-ai-coding-assistants.md` — sha256 drift
-- **ERROR** `raw/articles/bioinformatics.md` — sha256 drift
-- **ERROR** `raw/articles/chatgpt-is-now-a-partner-for-your-most-ambitious-work-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/chatgpt.md` — sha256 drift
-- **ERROR** `raw/articles/claude-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/cloudflare-joins-uk-cyber-resilience-pledge.md` — sha256 drift
-- **ERROR** `raw/articles/cloudflare-proudly-joins-the-uk-governments-cyber-resilience-pledge-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/cloudflare-proudly-joins-the-uk-governments-cyber-resilience-pledge-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/cloudflare-workers-ai-rest-api-2026.md` — sha256 drift
-- **ERROR** `raw/articles/cohere.md` — sha256 drift
-- **ERROR** `raw/articles/comparison.md` — sha256 drift
-- **ERROR** `raw/articles/concept.md` — sha256 drift
-- **ERROR** `raw/articles/content-independence-day-ai-options.md` — sha256 drift
-- **ERROR** `raw/articles/content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/context-graphs-for-proactive-enterprise-agents-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/contrastive-representation-learning-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/contrastive-representation-learning-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/contrastive-representation-learning.md` — sha256 drift
-- **ERROR** `raw/articles/controllable-neural-text-generation-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/controllable-neural-text-generation-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/controllable-neural-text-generation.md` — sha256 drift
-- **ERROR** `raw/articles/core-dump-epidemiology-fixing-an-18-year-old-bug-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/core-plugins-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/cost-effective-agent-harnesses-for-abstract-reasoning-and-generalization-on-arc-agi-1-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/counterfactual-explanations.md` — sha256 drift
-- **ERROR** `raw/articles/course-ai-agents-software-engineer-future-skills-2026.md` — sha256 drift
-- **ERROR** `raw/articles/cron-jobs-audit-2026-07-08-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/data-engineering.md` — sha256 drift
-- **ERROR** `raw/articles/data-quality.md` — sha256 drift
-- **ERROR** `raw/articles/databricks.md` — sha256 drift
-- **ERROR** `raw/articles/deepmind.md` — sha256 drift
-- **ERROR** `raw/articles/diffusion-models-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/diffusion-models-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/diffusion-models.md` — sha256 drift
-- **ERROR** `raw/articles/drug-discovery.md` — sha256 drift
-- **ERROR** `raw/articles/edge-ai.md` — sha256 drift
-- **ERROR** `raw/articles/enterprise-ai.md` — sha256 drift
-- **ERROR** `raw/articles/entity.md` — sha256 drift
-- **ERROR** `raw/articles/evaluating-sagemath-augmented-llm-agents-for-computational-and-experimental-mathematics-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/event.md` — sha256 drift
-- **ERROR** `raw/articles/explainable-ai-cheat-sheet-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/explainable-ai-cheat-sheet-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/explainable-ai-cheat-sheet.md` — sha256 drift
-- **ERROR** `raw/articles/explainable-ai.md` — sha256 drift
-- **ERROR** `raw/articles/explaining-transformers.md` — sha256 drift
-- **ERROR** `raw/articles/exploration-strategies-in-deep-reinforcement-learning-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/exploration-strategies-in-deep-reinforcement-learning-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/exploration-strategies-in-deep-reinforcement-learning.md` — sha256 drift
-- **ERROR** `raw/articles/fablecut.md` — sha256 drift
-- **ERROR** `raw/articles/feature-attribution.md` — sha256 drift
-- **ERROR** `raw/articles/finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/genebench-pro.md` — sha256 drift
-- **ERROR** `raw/articles/generative-ai-and-ai-product-moats-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/generative-ai-and-ai-product-moats-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/generative-ai-and-ai-product-moats.md` — sha256 drift
-- **ERROR** `raw/articles/gh-anthropic-sdk-release-v0.116.0-2026-07-10.md` — raw source missing frontmatter
-- **ERROR** `raw/articles/gh-hugging-face-transformers-release-v5.13.0-2026-07-10.md` — raw source missing frontmatter
-- **ERROR** `raw/articles/gh-langchain-release-langchain-openai==1.3.5-2026-07-10.md` — raw source missing frontmatter
-- **ERROR** `raw/articles/gh-llamacpp-release-b9956-2026-07-10.md` — raw source missing frontmatter
-- **ERROR** `raw/articles/gh-ollama-release-v0.31.2-2026-07-10.md` — raw source missing frontmatter
-- **ERROR** `raw/articles/gh-openai-python-release-v2.45.0-2026-07-10.md` — raw source missing frontmatter
-- **ERROR** `raw/articles/gh-pytorch-release-v2.13.0-2026-07-10.md` — raw source missing frontmatter
-- **ERROR** `raw/articles/gh-vllm-release-v0.24.0-2026-07-10.md` — raw source missing frontmatter
-- **ERROR** `raw/articles/google-open-knowledge-format-spec-0-1.md` — sha256 drift
-- **ERROR** `raw/articles/gpt-55-bio-bug-bounty-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/gpt-56-frontier-intelligence-that-scales-with-your-ambition-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/gpt-56-is-now-the-preferred-model-in-microsoft-365-copilot-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/graph-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/graph-neural-networks.md` — sha256 drift
-- **ERROR** `raw/articles/graphify-llm-wiki-integration-plan.md` — sha256 drift
-- **ERROR** `raw/articles/grounding-spatial-relations-in-a-compact-world-model-instruction-leakage-and-a-goal-free-dynamics-fi-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/hands-on-with-the-amd-ryzen-ai-halo-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/helping-build-shared-standards-for-advanced-ai-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/helping-build-shared-standards-for-advanced-ai.md` — sha256 drift
-- **ERROR** `raw/articles/helping-k12-educators-build-practical-ai-skills-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/helping-k12-educators-build-practical-ai-skills-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/hermes-agent-self-evolution-dspy-gepa-principles.md` — sha256 drift
-- **ERROR** `raw/articles/hermes-agent-self-evolution.md` — sha256 drift
-- **ERROR** `raw/articles/hermes-knowledge-storage.md` — sha256 drift
-- **ERROR** `raw/articles/hidden-states.md` — sha256 drift
-- **ERROR** `raw/articles/how-agents-are-transforming-work-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/how-chatgpt-adoption-has-expanded-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/how-deutsche-telekom-is-rewiring-telecommunications-with-ai-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/how-gpt3-works---visualizations-and-animations-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/how-gpt3-works---visualizations-and-animations-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/how-gpt3-works-visualizations-animations.md` — sha256 drift
-- **ERROR** `raw/articles/how-the-terrorist-group-boko-haram-uses-frontier-ai-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-build-ai-agents.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-choose-ai-coding-assistants.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-deploy-local-llm.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-deploy-with-vllm.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-engineer-prompts.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-evaluate-llm-models.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-fine-tune-llm.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-implement-advanced-rag.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-integrate-mcp.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-maintain-wiki-integrity.md` — sha256 drift
-- **ERROR** `raw/articles/how-to-use-cloudflare-workers-ai.md` — sha256 drift
-- **ERROR** `raw/articles/how-we-built-saga-rollbacks-for-cloudflare-workflows-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/hp-inc-launches-frontier-strategic-partnership-with-openai-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/hugging-face.md` — sha256 drift
-- **ERROR** `raw/articles/idiobionics-the-unification-of-privacy-and-intelligent-robotic-prostheses-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/iflytek-embodied-omni-technical-report-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/illustrated-retrieval-transformer.md` — sha256 drift
-- **ERROR** `raw/articles/illustrated-stable-diffusion.md` — sha256 drift
-- **ERROR** `raw/articles/improving-smart-tiered-cache-for-public-cloud-regions-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/index-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/index.md` — sha256 drift
-- **ERROR** `raw/articles/infinity-parser2-technical-report-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/inside-genebench-pro-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/instructions_for_master-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/instructions_for_monty-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/interfaces-for-explaining-transformer-language-models-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/interfaces-for-explaining-transformer-language-models-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/internal-pluralism-and-the-limits-of-pairwise-comparisons-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/introducing-genebench-pro-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/introducing-gpt-live-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/introducing-gpt-live-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/introducing-meerkat-an-experiment-in-global-consensus-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/introducing-meerkat-an-experiment-in-global-consensus-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/karpathy-llm-wiki-2026.md` — sha256 drift
-- **ERROR** `raw/articles/karpathyhttpsgistgithubcomkarpathyllm-wikimdhttpsgistgithubcomkarpathy442a6bf555914893e9891c11519de94f.md` — sha256 drift
-- **ERROR** `raw/articles/labor-market.md` — sha256 drift
-- **ERROR** `raw/articles/large-behavior-model-a-promptable-digital-twin-of-the-retail-customer-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/learning-social-norms-enhances-compatibility-in-dynamic-human-ai-coordination-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/lint-report-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/llama-vs-mistral-vs-qwen.md` — sha256 drift
-- **ERROR** `raw/articles/llm-deployment-configs.md` — sha256 drift
-- **ERROR** `raw/articles/llm-deployment-qa.md` — sha256 drift
-- **ERROR** `raw/articles/llm-evaluation-benchmarks-2026.md` — sha256 drift
-- **ERROR** `raw/articles/llm-evaluation-benchmarks-and-metrics.md` — sha256 drift
-- **ERROR** `raw/articles/llm-evaluation.md` — sha256 drift
-- **ERROR** `raw/articles/llm-fine-tuning-lora-qlora-dpo-2026.md` — sha256 drift
-- **ERROR** `raw/articles/llm-fine-tuning-techniques-in-2026-lora-qlora-sft-dpo.md` — sha256 drift
-- **ERROR** `raw/articles/llm-fine-tuning-techniques-in-lora-qlora-sft-dpo.md` — sha256 drift
-- **ERROR** `raw/articles/llm-fine-tuning.md` — sha256 drift
-- **ERROR** `raw/articles/llm-inference-deployment-2026-synthesis.md` — sha256 drift
-- **ERROR** `raw/articles/llm-landscape-2026-synthesis.md` — sha256 drift
-- **ERROR** `raw/articles/llm-powered-reasoning-in-agent-based-modeling-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/llm-quantization-gguf-gptq-awq.md` — sha256 drift
-- **ERROR** `raw/articles/llm-quantization-methods-gptq-awq-gguf-smoothquant.md` — sha256 drift
-- **ERROR** `raw/articles/llm-quantization-methods-gptq-awq-gguf-smoothquant_awq.md` — sha256 drift
-- **ERROR** `raw/articles/llm-quantization.md` — sha256 drift
-- **ERROR** `raw/articles/llm-wiki-audit-report.md` — sha256 drift
-- **ERROR** `raw/articles/llm-wiki.md` — sha256 drift
-- **ERROR** `raw/articles/local-llm-hardware.md` — sha256 drift
-- **ERROR** `raw/articles/log-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/log.md` — sha256 drift
-- **ERROR** `raw/articles/making-ai-search-smarter-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/making-ai-search-smarter-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/making-ai-search-smarter.md` — sha256 drift
-- **ERROR** `raw/articles/mapping-europes-ai-workforce-opportunity-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/medcalc-pro-solving-complex-medical-calculations-with-llm-agents-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/meerkat-introduction.md` — sha256 drift
-- **ERROR** `raw/articles/meta-ai.md` — sha256 drift
-- **ERROR** `raw/articles/minimax.md` — sha256 drift
-- **ERROR** `raw/articles/mistral-ai.md` — sha256 drift
-- **ERROR** `raw/articles/ml-dsa-will-have-to-do.md` — sha256 drift
-- **ERROR** `raw/articles/ml-infrastructure.md` — sha256 drift
-- **ERROR** `raw/articles/model-context-protocol-intro-architecture.md` — sha256 drift
-- **ERROR** `raw/articles/model-context-protocol.md` — sha256 drift
-- **ERROR** `raw/articles/model-interpretability.md` — sha256 drift
-- **ERROR** `raw/articles/monetization-gateway.md` — sha256 drift
-- **ERROR** `raw/articles/moving-to-substack-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/moving-to-substack-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/moving-to-substack.md` — sha256 drift
-- **ERROR** `raw/articles/mufg-aims-to-become-ai-native-with-openai-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/mufg-aims-to-become-ai-native-with-openai-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/mufg.md` — sha256 drift
-- **ERROR** `raw/articles/neural-architecture-search-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/neural-architecture-search-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/neural-architecture-search.md` — sha256 drift
-- **ERROR** `raw/articles/oauth-for-all.md` — sha256 drift
-- **ERROR** `raw/articles/object-centric-environment-modeling-for-agentic-tasks-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/open-domain-question-answering-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/open-domain-question-answering-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/open-domain-question-answering.md` — sha256 drift
-- **ERROR** `raw/articles/open-knowledge-format.md` — sha256 drift
-- **ERROR** `raw/articles/open-source-llm-landscape-2026-llama-vs-mistral-vs-qwen.md` — sha256 drift
-- **ERROR** `raw/articles/open-source-llm-landscape-2026.md` — sha256 drift
-- **ERROR** `raw/articles/open-source-llm-landscape-llama-vs-mistral-vs-qwen.md` — sha256 drift
-- **ERROR** `raw/articles/open-source-llm-models.md` — sha256 drift
-- **ERROR** `raw/articles/openai-and-broadcom-unveil-llm-optimized-inference-chip-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/openai.md` — sha256 drift
-- **ERROR** `raw/articles/our-approach-to-government-and-national-security-partnerships-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/our-approach-to-government-and-national-security-partnerships-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/oyster-ii-reinforcement-learning-for-constructive-safety-alignment-in-large-language-models-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/oyster-ii-reinforcement-learning-for-constructive-safety-alignment-in-large-language-models.md` — sha256 drift
-- **ERROR** `raw/articles/playbook.md` — sha256 drift
-- **ERROR** `raw/articles/post-quantum-eo.md` — sha256 drift
-- **ERROR** `raw/articles/previewing-gpt-5-6-sol.md` — sha256 drift
-- **ERROR** `raw/articles/previewing-gpt-56-sol-a-next-generation-model-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/prompt-engineering-techniques.md` — sha256 drift
-- **ERROR** `raw/articles/qantis-hardware-calibrated-sequential-pomdp-belief-updates-on-ibm-heron-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/qwen.md` — sha256 drift
-- **ERROR** `raw/articles/rag-vs-llm-wiki.md` — sha256 drift
-- **ERROR** `raw/articles/readme-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/reducing-toxicity-in-language-models-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/reducing-toxicity-in-language-models-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/reducing-toxicity-in-language-models.md` — sha256 drift
-- **ERROR** `raw/articles/reference.md` — sha256 drift
-- **ERROR** `raw/articles/reinforcement-learning.md` — sha256 drift
-- **ERROR** `raw/articles/remaking-old-computer-graphics-with-ai-image-generation-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/remaking-old-computer-graphics-with-ai-image-generation-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/remaking-old-computer-graphics-with-ai-image-generation.md` — sha256 drift
-- **ERROR** `raw/articles/rest-api.md` — sha256 drift
-- **ERROR** `raw/articles/robots-txt-2023-war-memorial.md` — sha256 drift
-- **ERROR** `raw/articles/rollbacks-for-workflows.md` — sha256 drift
-- **ERROR** `raw/articles/rtx-5070-ti-build-reference.md` — sha256 drift
-- **ERROR** `raw/articles/rtx-5070-ti.md` — sha256 drift
-- **ERROR** `raw/articles/scale-ai.md` — sha256 drift
-- **ERROR** `raw/articles/scheduling-algorithms.md` — sha256 drift
-- **ERROR** `raw/articles/schema-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/semi-supervised-learning-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/semi-supervised-learning-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/semi-supervised-learning.md` — sha256 drift
-- **ERROR** `raw/articles/separating-signal-from-noise-in-coding-evaluations-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/separating-signal-from-noise-in-coding-evaluations-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/show-hn-fablecut--a-browser-video-editor-ai-agents-can-drive-zero-deps-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/show-hn-reviving-my-2001-college-band-with-ai-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/software-engineer-в-ai-agents-ринок-праці-та-навчальна-програма-майбутньої-професії.md` — sha256 drift
-- **ERROR** `raw/articles/source_note.md` — sha256 drift
-- **ERROR** `raw/articles/swarmresearch-orchestrating-coding-agents-for-open-ended-discovery-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/the-harness-effect-how-orchestration-design-sets-the-token-economics-of-enterprise-agentic-ai-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/the-illustrated-retrieval-transformer-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/the-illustrated-retrieval-transformer-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/the-illustrated-stable-diffusion-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/the-illustrated-stable-diffusion-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/the-illustrated-stable-diffusion.md` — sha256 drift
-- **ERROR** `raw/articles/the-white-houses-post-quantum-executive-order-is-an-important-milestone-its-time-to-get-to-work-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/train-large-neural-networks-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/train-large-neural-networks-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/train-large-neural-networks.md` — sha256 drift
-- **ERROR** `raw/articles/unlocking-the-cloudflare-app-ecosystem-with-oauth-for-all-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/unmasking-the-crawls-with-attribution-business-insights-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/unmasking-the-crawls-with-attribution-business-insights-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/vectorizationllm-smart-vectorization-based-ai-assistant-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/veritas-towards-a-general-purpose-replication-tool-for-scientific-research-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/when-does-in-context-search-help-a-sampling-complexity-theory-of-reflection-driven-reasoning-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/why-we-cannot-wait-for-better-post-quantum-signature-algorithms-2026-07-09.md` — sha256 drift
-- **ERROR** `raw/articles/why-we-cannot-wait-for-better-post-quantum-signature-algorithms-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/workers-cache.md` — sha256 drift
-- **ERROR** `raw/articles/workspace-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/your-site-your-rules-new-ai-traffic-options-for-all-customers-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/your-site-your-rules-new-ai-traffic-options-for-all-customers-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/your-worker-can-now-have-its-own-cache-in-front-of-it-2026-07-07.md` — sha256 drift
-- **ERROR** `raw/articles/your-worker-can-now-have-its-own-cache-in-front-of-it-2026-07-10.md` — sha256 drift
-- **ERROR** `raw/articles/інтеграція-graphify-з-llm-wiki-стратегія-теорія-техніка-рекомендації.md` — sha256 drift
-- **ERROR** `raw/articles/збірка-rtx-5070-ti-фінальна-оцінка.md` — sha256 drift
-- **ERROR** `raw/articles/збірка-rtx-фінальна-оцінка.md` — sha256 drift

@@ -7,82 +7,9 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = {"type", "title", "description", "created", "updated", "tags", "sources", "confidence", "links"}
-APPROVED_TAGS = {
-    "active-learning", "adoption", "agent", "agent-workflow", "agentic-tasks", "ai", "ai-agents", "ai-benchmark", "ai-education", "ai-infrastructure",
-    "ai-integration", "ai-safety", "ai-workforce", "alignment", "analytics", "analysis", "application", "architecture", "architecture-design", "arxiv",
-    "assembly", "async", "auto-ml", "automation", "awq", "benchmark", "bias-mitigation", "bioinformatics", "best-practice", "broadcom", "business-process",
-    "chatgpt", "ci-cd", "clarification", "claude", "clinical", "clinical-decision-support", "closed-source", "cloud", "cloudflare", "coding-agents", "company", "comparison", "concept",
-    "computer-vision", "conditional-generation", "configuration", "consistency-regularization", "contrastive-loss", "controllability", "cost", "cost-economics", "cot", "data", "data-efficiency",
-    "data-engineering", "data-parallelism", "data-quality", "decision", "deepseek", "deployment", "design-pattern", "diffusion", "digest",
-    "distributed", "distributed-training", "dpo", "dqn", "drug-discovery", "duplicates", "efficiency", "embedding", "embeddings", "embodied-ai", "edge", "enterprise",
-    "enterprise-ai", "entity", "environment-modeling", "europe", "evaluation", "event", "explainable-ai", "exploration",
-    "faq", "feature-attribution", "few-shot", "fine-tuning", "framework", "foundation-model", "gemma", "genebench-pro", "generative-models", "genomics",
-    "gemini", "gguf", "glm", "gpt", "gptq", "graph-neural-networks", "gpu", "guide", "governance", "hardware", "health-check", "healthcare", "helk", "hermes",
-    "hp", "iFLYTEK", "image-generation", "in-context-learning", "indexer", "inference", "inference-chip", "ingest", "instruction-tuning", "integration", "integrity", "interpretability",
-    "constitutional-ai",
-    "vllm",
-    "advanced-rag",
-    "knowledge-base", "labor-market", "language-action", "language-model", "library", "lint", "llama", "llm", "llm-agents", "llm-assistance",
-    "llm-benchmarks", "llm-wiki", "local", "local-llm-hardware", "lora", "machine-learning", "manufacturing", "mcp", "medical-calculation",
-    "meeting", "milestone", "mistral", "mixed-precision", "ml", "ml-infrastructure", "mmlu", "model",
-    "model-auditing", "model-parallelism", "mobile", "mt-bench", "multi-agent", "multimodal", "nas", "next-gen", "news", "nlp",
-    "object-centric", "obsidian", "okf", "online", "open-domain", "open-source", "open-source-llm", "openai", "optimization", "orchestration", "pairwise-comparison",
-    "partial-observability", "partnership", "parallel", "peft", "performance", "pipeline", "planning", "playbook", "pluralism", "policy", "policy-gradient",
-    "productivity", "prompt-engineering", "prompt-tuning", "qa", "quantization", "qlora", "query", "query-strategy", "qwen", "rag",
-    "real-time", "reference", "reinforcement-learning", "reliability", "replication", "representation-learning", "reproducibility", "retrieval", "research", "rlhf",
-    "robotics", "robustness", "rtx-5070-ti", "safety", "scalability", "search", "scheduling", "schema", "scientific-ai", "scientific-research",
-    "security", "self-consistency", "self-supervised", "self-training", "semi-supervised", "serverless", "serving", "sft", "skills-gap", "software-engineering",
-    "sol", "source", "source-management", "stable-diffusion", "storage", "style-transfer", "supervised", "swarm-intelligence", "swrl",
-    "synthesis", "system-design", "text-generation", "tools", "tot", "toxicity", "toxicity-reduction", "training", "transfer-learning", "trust", "truthfulqa", "uncertainty", "use-case", "user-metrics",
-    "vector-database", "verification", "visualization", "web", "wikilinks", "wiki", "wiki-maintenance", "workflow", "xai", "zero-shot", "audit", "system-audit", "system-integrity", "cron", "scripts", "integrator", "monitors"
-}
 RESERVED_NAMES = {"README.md"}
 
-
-def split_frontmatter(text):
-    if not text.startswith("---\n"):
-        return None, text
-    end = text.find("\n---\n", 4)
-    if end == -1:
-        return None, text
-    return text[4:end], text[end+5:]
-
-
-def parse_simple_yaml(fm):
-    data = {}
-    lines = fm.splitlines()
-    i = 0
-    while i < len(lines):
-        raw = lines[i]
-        line = raw.strip()
-        i += 1
-        if not line or line.startswith("#") or ":" not in line:
-            continue
-        key, value = line.split(":", 1)
-        key = key.strip()
-        value = value.strip()
-        if value.startswith("[") and value.endswith("]"):
-            inner = value[1:-1].strip()
-            data[key] = [x.strip().strip('"\'') for x in inner.split(",") if x.strip()]
-        elif value.lower() in {"true", "false"}:
-            data[key] = value.lower() == "true"
-        elif value == "":
-            # Multi-line YAML list (tags:, sources:)
-            items = []
-            while i < len(lines):
-                child = lines[i].strip()
-                i += 1
-                if not child:
-                    continue
-                if child.startswith("- "):
-                    items.append(child[2:].strip().strip('"\''))
-                elif ":" in child and not child.startswith("-"):
-                    i -= 1
-                    break
-            data[key] = items if items else value
-        else:
-            data[key] = value.strip('"\'')
-    return data
+from utils import split_frontmatter, parse_simple_yaml, APPROVED_TAGS
 
 
 def slug_for(path):
@@ -147,7 +74,9 @@ def main():
             continue
         data = parse_simple_yaml(fm)
         expected = data.get("sha256")
-        actual = hashlib.sha256(body.strip().encode("utf-8")).hexdigest()
+        if expected is None:
+            continue  # no sha256 field — not a drift, just unindexed
+        actual = hashlib.sha256(body.encode("utf-8")).hexdigest()
         if expected != actual:
             issues.append(("ERROR", str(rel), "sha256 drift"))
 

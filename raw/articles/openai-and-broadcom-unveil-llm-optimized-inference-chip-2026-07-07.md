@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/openai-broadcom-jalapeno-inference-chip
 ingested: 2026-07-07
-sha256: ed4947dc4dc581b6054e0f9b2060fef897deba4370d47a0bc33bad1dc13c2dd6
+sha256: fbbd02fbe70ffb07df701ba66d78349bf4f79bfa63969218d86e37a9672ae034
 blog_source: OpenAI Blog
 ---
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://cast.ai/blog/demystifying-quantizations-llms
 ingested: 2026-07-06
-sha256: 287809ead8a426f430e1668261efb72522a0910ef3d38e8db9790b9ef332ddb6
+sha256: 11001683c9e27b7332c4b03f32097c7364ef687586aacab0fe14542786381aa8
 ---
 # LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant
 By Igor Šušić, Cast AI.

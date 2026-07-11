@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/monetization-gateway/
 ingested: 2026-07-07
-sha256: 692efeea07a466dc7050f1678260a468a6acf97fd131565e0adbaa5b3eb281f0
+sha256: 0b47a75b9f18c63d9b9b5b5d51c62adef2fe10ed6b8b3f4940536e64bcbfcc49
 blog_source: Cloudflare Blog
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: http://jalammar.github.io/applying-large-language-models-cohere/
 ingested: 2026-07-07
-sha256: 540ddd1c30c74651964f5dff92d7c2dca2ca3694a1a37f5822024ad6bc1aa497
+sha256: b034fc3bf32ddf79631e5eb75d6f295201e728e16e67eaf115169c20b3d87c92
 blog_source: Jay Alammar
 ---
 

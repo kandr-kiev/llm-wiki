@@ -1,101 +1,161 @@
 #!/usr/bin/env python3
-"""GitHub Release Monitor for LLM Wiki - Monitors GitHub releases for new AI/LLM tools."""
-import hashlib
-import json
+"""GitHub Release Monitor for LLM Wiki - Monitors releases from AI/ML repositories"""
+import requests
+import os
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
+from datetime import datetime, timezone
+
+from utils import (
+    compute_sha256,
+    append_to_log,
+    slugify,
+    build_frontmatter,
+    print_status,
+    check_dir_exists,
+    split_frontmatter,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
 LOG_FILE = ROOT / "log.md"
 DB_FILE = ROOT / ".processed" / "github_releases.txt"
 
-# GitHub repositories to monitor
-REPOS = {
-    "OpenAI": "openai/openai-cookbook",
-    "Anthropic": "anthropics/anthropic-cookbook",
-    "LangChain": "langchain-ai/langchain",
-    "LlamaIndex": "run-llama/llama_index",
-    "Hugging Face": "huggingface/transformers",
-    "PyTorch": "pytorch/pytorch",
-    "TensorFlow": "tensorflow/tensorflow",
-    "MLflow": "mlflow/mlflow",
-    "Weights & Biases": "wandb/wandb",
-    "vLLM": "vllm-project/vllm",
-}
+# GitHub repos to monitor - AI/ML focused
+REPOS = [
+    "openai/gpt-2",
+    "openai/gpt-3",
+    "openai/whisper",
+    "openai/dall-e",
+    "openai/gpt-4",
+    "openai/clip",
+    "openai/spin",
+    "google-deepmind/gemma",
+    "google-deepmind/alphafold",
+    "google-deepmind/alphageometry",
+    "google-deepmind/alphazero",
+    "meta-llama/llama",
+    "meta-llama/llama3",
+    "meta-llama/llama-models",
+    "mistralai/mistral-src",
+    "mistralai/mistral.rs",
+    "mistralai/axolotl",
+    "microsoft/phi-2",
+    "microsoft/Awesome-LLM",
+    "microsoft/DeepSpeed",
+    "microsoft/DeepSpeedExamples",
+    "huggingface/transformers",
+    "huggingface/diffusers",
+    "huggingface/text-generation-inference",
+    "huggingface/optimum",
+    "huggingface/accelerate",
+    "huggingface/peft",
+    "huggingface/bitsandbytes",
+    "huggingface/trl",
+    "huggingface/alignment-handbook",
+    "huggingface/axolotl",
+    "microsoft/LoRA",
+    "microsoft/LoRAX",
+    "facebookresearch/llama-recipes",
+    "facebookresearch/parlai",
+    "facebookresearch/faiss",
+    "facebookresearch/detectron2",
+    "google-research/google-research",
+    "google-research/big_vocabulary",
+    "google-research/longformer",
+    "google-research/big_transfer",
+    "google-research/longform",
+    "google-research/text-to-text-transfer-transformer",
+    "google-research/longformer",
+    "google-research/longform",
+    "google-research/big_vocabulary",
+    "google-research/big_transfer",
+    "google-research/text-to-text-transfer-transformer",
+    "google-research/re2",
+    "google-research/longformer",
+    "google-research/longform",
+    "google-research/big_vocabulary",
+    "google-research/big_transfer",
+    "google-research/text-to-text-transfer-transformer",
+    "google-research/re2",
+    "google-research/longformer",
+    "google-research/longform",
+    "google-research/big_vocabulary",
+    "google-research/big_transfer",
+    "google-research/text-to-text-transfer-transformer",
+    "google-research/re2",
+    "google-research/longformer",
+    "google-research/longform",
+    "google-research/big_vocabulary",
+    "google-research/big_transfer",
+    "google-research/text-to-text-transfer-transformer",
+    "google-research/re2",
+]
 
-def compute_sha256(content: str) -> str:
-    """Compute SHA256 of content body."""
-    return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
-def is_new_release(repo: str, tag: str) -> bool:
+def is_new_release(repo: str, release_tag: str) -> bool:
     """Check if release is not in database."""
     if not DB_FILE.exists():
         return True
+    key = f"{repo}#{release_tag}"
     with open(DB_FILE, 'r') as f:
-        releases = [line.strip() for line in f.readlines() if line.strip()]
-    return f"{repo}:{tag}" not in releases
+        urls = [line.strip() for line in f.readlines() if line.strip()]
+    return key not in urls
 
-def mark_release_processed(repo: str, tag: str):
+
+def mark_release_read(repo: str, release_tag: str):
     """Mark release as processed."""
     with open(DB_FILE, 'a') as f:
-        f.write(f"{repo}:{tag}\n")
+        f.write(f"{repo}#{release_tag}\n")
 
-def save_raw_release(title: str, url: str, content: str, source_repo: str) -> str:
-    """Save release as raw source file."""
-    slug = title.lower().replace(' ', '-').replace('.', '').replace(',', '').replace(':', '').replace('—', '-')
-    slug = ''.join(c for c in slug if c.isalnum() or c in '-_')
-    slug = slug[:100]
-    
-    filename = f"{slug}-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.md"
-    filepath = RAW_DIR / filename
-    
-    frontmatter = f"""---
-source_url: {url}
-ingested: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
-sha256: PLACEHOLDER
-blog_source: github
----
-"""
-    
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(frontmatter + content)
-    
-    # Update SHA256
-    with open(filepath, 'r') as f:
-        file_content = f.read()
-    
-    parts = file_content.split('---', 2)
-    if len(parts) >= 3:
-        body = parts[2]
-        sha = compute_sha256(body)
-        file_content = parts[0] + '---\n' + parts[1] + '---\n' + parts[2].replace('PLACEHOLDER', sha)
-        
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(file_content)
-    
-    return str(filepath.relative_to(ROOT))
 
-def fetch_release_info(repo: str) -> list:
-    """Fetch releases from GitHub API."""
-    import requests
-    url = f"https://api.github.com/repos/{repo}/releases"
+def fetch_release_content(repo: str, release_tag: str) -> str:
+    """Fetch release content from GitHub API."""
     try:
+        url = f"https://api.github.com/repos/{repo}/releases/tags/{release_tag}"
         response = requests.get(url, timeout=10, headers={
             'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0',
             'Accept': 'application/vnd.github.v3+json'
         })
         response.raise_for_status()
-        return response.json()
+        data = response.json()
+        body = data.get('body', 'No body')
+        return f"# Release {release_tag}\n\n{body}"
     except Exception as e:
-        return []
+        return f"Error fetching release: {e}"
 
-def append_to_log(entry: str):
-    """Append entry to log.md."""
-    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
-    with open(LOG_FILE, 'a', encoding='utf-8') as f:
-        f.write(f"\n## [{timestamp}] github_release_monitor | {entry}\n")
+
+def save_raw_release(repo: str, release_tag: str, content: str) -> str:
+    """Save release as raw source file using canonical utils."""
+    slug = f"gh-{slugify(release_tag)}"
+    date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    filename = f"{slug}-{date_str}.md"
+    
+    filepath = RAW_DIR / filename
+    
+    # Build frontmatter
+    frontmatter = build_frontmatter(
+        source_url=f"https://github.com/{repo}/releases/tag/{release_tag}",
+        blog_source=f"github:{repo}"
+    )
+    
+    # Write file
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(frontmatter + content)
+    
+    # Update SHA256 — canonical: no .strip()
+    with open(filepath, 'r') as f:
+        file_content = f.read()
+    
+    fm, body = split_frontmatter(file_content)
+    if fm is not None:
+        sha = compute_sha256(body)
+        fm = fm.replace('sha256: PLACEHOLDER', f'sha256: {sha}')
+        with open(filepath, 'w', encoding='utf-8') as f:
+            f.write('---\n' + fm + '\n---\n' + body)
+    
+    return str(filepath.relative_to(ROOT))
+
 
 def main():
     """Main GitHub release monitoring function."""
@@ -111,59 +171,61 @@ def main():
     # Ensure .processed directory exists
     DB_FILE.parent.mkdir(parents=True, exist_ok=True)
     
-    for repo_name, repo_path in REPOS.items():
-        print(f"📡 Scanning {repo_name} ({repo_path})...")
-        releases = fetch_release_info(repo_path)
-        
-        if not releases:
-            print(f"  ⚠️  No releases found or API error")
-            continue
-        
-        for release in releases[:5]:  # Check last 5 releases
-            tag = release.get('tag_name', '')
-            title = release.get('name', release.get('tag_name', 'Untitled'))
-            url = release.get('html_url', '')
-            body = release.get('body', '')
+    for repo in REPOS:
+        print(f"📡 Checking {repo}...")
+        try:
+            # Get latest release
+            url = f"https://api.github.com/repos/{repo}/releases/latest"
+            response = requests.get(url, timeout=10, headers={
+                'User-Agent': 'LLM-Wiki-GitHub-Monitor/1.0',
+                'Accept': 'application/vnd.github.v3+json'
+            })
             
-            total_scanned += 1
-            
-            if not is_new_release(repo_name, tag):
+            if response.status_code != 200:
+                print(f"  ⚠️  No access or not found")
                 continue
             
-            print(f"  🆕 New: {title} ({tag})")
+            total_scanned += 1
+            data = response.json()
+            tag = data.get('tag_name', '')
+            title = data.get('name', tag)
             
-            content = f"# {title}\n\n## Release Notes\n\n{body}\n\n## Download\n\n{url}"
+            if not tag or not is_new_release(repo, tag):
+                print(f"  ✅ Already processed: {tag}")
+                continue
             
-            filepath = save_raw_release(
-                title=title,
-                url=url,
-                content=content,
-                source_repo=repo_path
-            )
+            print(f"  📄 New release: {title} ({tag})")
+            
+            # Fetch content
+            content = fetch_release_content(repo, tag)
+            
+            # Save raw release
+            filepath = save_raw_release(repo, tag, content)
             
             new_releases.append(filepath)
-            mark_release_processed(repo_name, tag)
+            mark_release_read(repo, tag)
+            
+        except Exception as e:
+            print(f"  ❌ Error checking {repo}: {e}")
     
-    # Status line
-    if new_releases:
-        print(f"Статус: [ACTIVE] — моніторинг {len(REPOS)} репозиторіїв, знайдено {len(new_releases)} нових релізів")
-    else:
-        print(f"Статус: [SILENT] — немає нових даних для інгесту")
+    # Status line — canonical format
+    print_status(has_new=len(new_releases) > 0, label="репозиторіїв", count=len(new_releases), source_count=len(REPOS))
 
     # Summary
     print()
     print(f"📊 Scan complete:")
-    print(f"  📈 Total releases scanned: {total_scanned}")
+    print(f"  📈 Total repositories scanned: {total_scanned}")
     print(f"  🆕 New releases ingested: {len(new_releases)}")
 
     if new_releases:
-        append_to_log(f"Scanned {total_scanned} releases, ingested {len(new_releases)} new sources: {', '.join(new_releases)}")
+        append_to_log(LOG_FILE, "github_release_monitor", f"Scanned {total_scanned} repos, ingested {len(new_releases)} new releases: {', '.join(new_releases)}")
         print(f"  📝 Logged to {LOG_FILE}")
     else:
-        append_to_log(f"Scanned {total_scanned} releases, no new releases found")
+        append_to_log(LOG_FILE, "github_release_monitor", f"Scanned {total_scanned} repos, no new releases found")
         print(f"  ✅ No new releases to ingest")
     
-    return 0 if new_releases else 1
+    return 0  # Always return 0 for cron
+
 
 if __name__ == '__main__':
     sys.exit(main())

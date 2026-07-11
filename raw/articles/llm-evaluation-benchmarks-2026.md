@@ -1,7 +1,7 @@
 ---
 source_url: https://responsibleailabs.ai/knowledge-hub/articles/llm-evaluation-benchmarks-2025
 ingested: 2026-07-06
-sha256: 2f18f8f707e2116ba735ad35dc690b05c5fc9bc4e929286c205ce88b68d69c3c
+sha256: 8f5936ca3c7af19cc3975855e245d494466b5a866972ca8b67066e2717a89a85
 ---
 # LLM Evaluation Benchmarks and Metrics 2026
 

@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/hp-frontier-partnership
 ingested: 2026-07-07
-sha256: 0c5165bb751293e83aa9c880d3b61af1d4af73821d335dac6fcf6df0659fbde7
+sha256: a376621c1009448e274c00f95f191136de134a409bc8407640c6834aaec97243
 blog_source: OpenAI Blog
 ---
 
