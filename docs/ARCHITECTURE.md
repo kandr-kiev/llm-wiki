@@ -829,13 +829,148 @@
 
 ### 6.5 Крон-задачі (Hermes Agent)
 
-| Задача | Частота | Статус |
-|--------|---------|--------|
-| RSS Scan | Periodic | Active |
-| Integration | After RSS | Active |
-| Lint Check | Periodic | Active |
+**Загальні параметри всіх крон-завдань:**
+- **Провайдер:** `custom:llama-server` (локальний LLM)
+- **Модель:** `qwen3.6-35b-a3b` (закріплена для запобігання drift)
+- **Доставка:** `origin` (повернення до чату — Telegram)
+- **Мова звітів:** українська
+- **Формат виводу:** усі монітори використовують `standard_report.py` з контрактом `{status, summary, details, timestamp, source_job}`
 
 ---
+
+#### 6.5.1 Wiki Raw Scanner
+- **job_id:** `985c4adb8ff5`
+- **Частота:** `every 360m` (кожні 6 годин)
+- **Навички:** `wiki-indexer`, `llm-wiki`
+- **Toolsets:** `terminal`, `skills`, `file`
+- **Виконує:**
+  1. `python3 tools/wiki_indexer.py --check` — перевірка нових файлів у `raw/`
+  2. `python3 tools/rss_monitor.py` — запуск RSS-монітора
+  3. `python3 tools/local_file_monitor.py` — запуск локального монітора
+- **Очікуваний вивід:** структурований звіт з полів `status`, `summary`, `details`, `timestamp`, `source_job`
+- **Обробка помилок:**
+  - RSS/Local монітори повертають `status: error` при відмові мережі
+  - `wiki_indexer.py --check` завжди повертає Exit 0 (не блокує пайплайн)
+- **Підстави частоти:** 6 годин — оптимальний баланс між свіжістю даних та навантаженням на LLM. RSS-канали оновлюються рідше ніж щогодини.
+
+#### 6.5.2 Wiki Weekly Digest
+- **job_id:** `316efc90f866`
+- **Частота:** `0 9 * * 1` (кожен понеділок о 09:00)
+- **Навички:** `llm-wiki`, `wiki-indexer`
+- **Toolsets:** `terminal`, `file`
+- **Виконує:**
+  1. `python3 tools/wiki_lint.py` — перевірка цілісності
+- **Очікуваний вивід:** структурований звіт з категоріями проблем (Critical/Warning/Info)
+- **Обробка помилок:** `wiki_lint.py` завжди Exit 0 — не блокує пайплайн
+- **Підстави частоти:** щотижневий аудит — достатньо для підтримки якості; щоденний лінтинг надлишковий.
+
+#### 6.5.3 RSS Feed Monitor
+- **job_id:** `a4d137e48854`
+- **Частота:** `0 0,12 * * *` (щодня о 00:00 та 12:00)
+- **Навички:** відсутні
+- **Toolsets:** `terminal`, `file`
+- **Виконує:** `python3 tools/rss_monitor.py`
+- **Очікуваний вивід:** `format_report_simple()` з полів `status`, `summary`, `details`, `timestamp`, `source_job`
+- **Обробка помилок:**
+  - HTTP 304 Not Modified → `status: ok`, `summary: "Nothing new"`
+  - Мережева відмова → `status: error`, `details` містить traceback
+  - Пуста відповідь → `status: ok`, `summary: "No new items"`
+- **Підстави частоти:** 12 годин — RSS-канали оновлюються не частіше; ETag/Last-Modified caching мінімізує трафік.
+
+#### 6.5.4 GitHub Release Monitor
+- **job_id:** `2db3c4ec8f2e`
+- **Частота:** `0 2,14 * * *` (щодня о 02:00 та 14:00)
+- **Навички:** відсутні
+- **Toolsets:** `terminal`, `file`
+- **Виконує:** `python3 tools/github_release_monitor.py`
+- **Очікуваний вивід:** `format_report_simple()` з полів `status`, `summary`, `details`, `timestamp`, `source_job`
+- **Обробка помилок:**
+  - 403 Forbidden → `status: error`, `details` містить список заблокованих репозиторіїв
+  - Rate limit → exponential backoff з `Retry-After` заголовком
+  - Нова версія → інгест у `raw/articles/`
+- **Відомі обмеження:** 10 репозиторіїв повертають 403 без аутентифікації. Потрібен `GITHUB_TOKEN` для повного доступу.
+- **Підстави частоти:** 12 годин — релізи виходять рідко; подвійний запуск покриває різні часові пояси.
+
+#### 6.5.5 Local File Monitor
+- **job_id:** `81362b3212b6`
+- **Частота:** `0 4,16 * * *` (щодня о 04:00 та 16:00)
+- **Навички:** відсутні
+- **Toolsets:** `terminal`, `file`
+- **Виконує:** `python3 tools/local_file_monitor.py`
+- **Очікуваний вивід:** `format_report_simple()` з полів `status`, `summary`, `details`, `timestamp`, `source_job`
+- **Обробка помилок:**
+  - Директорія відсутня → `status: warning`, `details` містить список пропущених директорій
+  - Помилка читання файлу → `status: error`, `details` містить шлях та traceback
+  - Немає змін → `status: ok`, `summary: "No changes detected"`
+- **Підстави частоти:** 12 годин — моніторинг локальних змін; достатньо для виявлення нових файлів.
+
+#### 6.5.6 Wiki Integrator
+- **job_id:** `981a544c6439`
+- **Частота:** `0 6,18 * * *` (щодня о 06:00 та 18:00)
+- **Навички:** відсутні
+- **Toolsets:** `terminal`, `file`
+- **Виконує:** `python3 tools/integrator.py`
+- **Очікуваний вивід:** структурований звіт про створені wiki-сторінки
+- **Обробка помилок:**
+  - Низький score → `skip` (не помилка)
+  - Дублікат slug → `skip` (не помилка)
+  - Фатальна помилка → `status: error`, `details` містить traceback
+- **Підстави частоти:** 12 годин — інтеграція після сканування; подвійний запуск покриває нові джерела протягом дня.
+
+---
+
+#### 6.5.7 Сумісна діаграма виконання
+
+```
+Час    RSS Monitor    GitHub Monitor    Local Monitor    Integrator    Raw Scanner    Weekly Digest
+─────  ───────────    ────────────────    ─────────────    ────────────    ───────────    ─────────────
+00:00  ✓              ─                 ─                ─             ✓ (tick 1)     ─
+02:00  ─              ✓                 ─                ─             ─              ─
+04:00  ─              ─                 ✓                ─             ─              ─
+06:00  ─              ─                 ─                ✓             ─              ─
+08:00  ─              ─                 ─                ─             ─              ─
+10:00  ─              ─                 ─                ─             ─              ─
+12:00  ✓              ─                 ─                ─             ✓ (tick 2)     ─
+14:00  ─              ✓                 ─                ─             ─              ─
+16:00  ─              ─                 ✓                ─             ─              ─
+18:00  ─              ─                 ─                ✓             ─              ─
+20:00  ─              ─                 ─                ─             ─              ─
+22:00  ─              ─                 ─                ─             ─              ─
+
+Понеділок 09:00 → Weekly Digest (щотижня)
+```
+
+---
+
+#### 6.5.8 Порядок виконання та залежності
+
+```
+1. RSS/Local/GitHub Monitors (00:00-16:00)
+   ↓ запис у raw/articles/
+2. Wiki Raw Scanner (00:00, 06:00, 12:00, 18:00)
+   ↓ перевірка нових raw-файлів
+3. Wiki Integrator (06:00, 18:00)
+   ↓ raw → wiki + index.md + log.md
+4. Wiki Weekly Digest (Пн 09:00)
+   ↓ wiki_lint.py — перевірка цілісності
+```
+
+**Важливо:** Integrator запускається через 2+ години після Monitor-ів, щоб дати час на накопичення raw-файлів. Raw Scanner працює частіше для оперативного виявлення нових джерел.
+
+---
+
+#### 6.5.9 Стратегія обробки помилок та backoff
+
+| Помилка | Поведінка | Відновлення |
+|---------|-----------|-------------|
+| RSS: HTTP 304 | `status: ok`, skip | Наступний запуск через 12 год |
+| RSS: мережева відмова | `status: error`, traceback | Автоматичне відновлення на наступний запуск |
+| GitHub: 403 Forbidden | `status: error`, список репозиторіїв | Потрібен `GITHUB_TOKEN` |
+| GitHub: rate limit | Exponential backoff (1s, 2s, 4s, 8s, 16s) | Автоматичне відновлення |
+| Local: директорія відсутня | `status: warning`, skip | Перевірити шляхи |
+| Integrator: низький score | `skip`, не помилка | Наступний запуск |
+| Integrator: дублікат slug | `skip`, не помилка | Наступний запуск |
+| Lint: проблеми знайдено | `status: ok` (Exit 0) | Ручне виправлення |
 
 ## Додаткова інформація
 
