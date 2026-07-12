@@ -16,6 +16,7 @@ from utils import (
     check_dir_exists,
     split_frontmatter,
 )
+from standard_report import format_report_simple
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
@@ -181,14 +182,19 @@ def main():
         except Exception as e:
             print(f"  ❌ Error scanning {dirpath}: {e}")
     
-    # Status line — canonical format
-    print_status(has_new=len(new_files) > 0, label="каталогів", count=len(new_files), source_count=len(LOCAL_DIRS))
-
+    # Generate standardized report
+    report = format_report_simple(
+        component="local_file_monitor",
+        label="каталогів",
+        count=len(new_files),
+        source_count=len(LOCAL_DIRS),
+        has_new=len(new_files) > 0,
+        details=[f"  - {f}" for f in new_files] if new_files else None,
+    )
+    
     # Summary
     print()
-    print(f"📊 Scan complete:")
-    print(f"  📈 Total files scanned: {total_scanned}")
-    print(f"  🆕 New files ingested: {len(new_files)}")
+    print(report)
 
     if new_files:
         append_to_log(LOG_FILE, "local_file_monitor", f"Scanned {total_scanned} files, ingested {len(new_files)} new sources: {', '.join(new_files)}")

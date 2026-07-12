@@ -14,6 +14,7 @@ from utils import (
     print_status,
     check_dir_exists,
 )
+from standard_report import format_report_simple
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
@@ -72,9 +73,6 @@ def save_raw_article(title: str, url: str, content: str, source_blog: str) -> st
     with open(filepath, 'r') as f:
         file_content = f.read()
     
-    fm, body = utils.split_frontmatter(file_content) if 'utils' in dir() else (None, file_content.split('---', 2)[2] if '---' in file_content else '')
-    
-    # Simpler: use split_frontmatter from utils
     from utils import split_frontmatter
     fm, body = split_frontmatter(file_content)
     if fm is not None:
@@ -147,14 +145,19 @@ def main():
         except Exception as e:
             print(f"  ❌ Error scanning {blog_name}: {e}")
     
-    # Status line — canonical format
-    print_status(has_new=len(new_articles) > 0, label="feedів", count=len(new_articles), source_count=len(FEEDS))
-
+    # Generate standardized report
+    report = format_report_simple(
+        component="rss_monitor",
+        label="feedів",
+        count=len(new_articles),
+        source_count=len(FEEDS),
+        has_new=len(new_articles) > 0,
+        details=[f"  - {a}" for a in new_articles] if new_articles else None,
+    )
+    
     # Summary
     print()
-    print(f"📊 Scan complete:")
-    print(f"  📈 Total articles scanned: {total_scanned}")
-    print(f"  🆕 New articles ingested: {len(new_articles)}")
+    print(report)
 
     if new_articles:
         append_to_log(LOG_FILE, "rss_monitor", f"Scanned {total_scanned} articles, ingested {len(new_articles)} new sources: {', '.join(new_articles)}")

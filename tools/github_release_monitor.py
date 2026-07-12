@@ -18,6 +18,7 @@ from utils import (
     split_frontmatter,
     retry_for_status,
 )
+from standard_report import format_report_simple
 
 # GitHub token for authenticated API access
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
@@ -182,14 +183,19 @@ def main():
         except Exception as e:
             print(f"  ❌ Error checking {repo}: {e}")
     
-    # Status line — canonical format
-    print_status(has_new=len(new_releases) > 0, label="репозиторіїв", count=len(new_releases), source_count=len(REPOS))
-
+    # Generate standardized report
+    report = format_report_simple(
+        component="github_release_monitor",
+        label="репозиторіїв",
+        count=len(new_releases),
+        source_count=len(REPOS),
+        has_new=len(new_releases) > 0,
+        details=[f"  - {r}" for r in new_releases] if new_releases else None,
+    )
+    
     # Summary
     print()
-    print(f"📊 Scan complete:")
-    print(f"  📈 Total repositories scanned: {total_scanned}")
-    print(f"  🆕 New releases ingested: {len(new_releases)}")
+    print(report)
 
     if new_releases:
         append_to_log(LOG_FILE, "github_release_monitor", f"Scanned {total_scanned} repos, ingested {len(new_releases)} new releases: {', '.join(new_releases)}")

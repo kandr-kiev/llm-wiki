@@ -49,6 +49,7 @@ from utils import (
     append_to_log,
     slugify,
 )
+from standard_report import format_wiki_doctor_report
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -802,22 +803,28 @@ def diagnose_and_cure():
     print(f"   {report2.severity_summary()}")
 
     # Phase 4: Final status report
-    print("\n" + "=" * 60)
-    print("  📋 ФІНАЛЬНИЙ ЗВІТ")
-    print("=" * 60)
-    print(f"\nДо лікування: {report.severity_summary()}")
-    print(f"Після лікування: {report2.severity_summary()}")
-    print(f"\nВиправлення:")
-    for fix_name, count in cure_stats.items():
-        print(f"  ✅ {fix_name}: {count} виправлень")
-
-    if report2.summary["ERROR"] == 0:
-        print(f"\n✅ Статус: [CLEAN] — критичних помилок не виявлено")
-    else:
-        print(f"\n⚠️ Статус: [DRIFT] — залишилися ERROR. Потрібна увага:")
-        for issue in report2.get_all_issues():
-            if issue["severity"] == "ERROR":
-                print(f"  ❌ [{issue['layer']}] {issue['path']}: {issue['message']}")
+    # Collect remaining error/warn details
+    error_details = [f"[{i['layer']}] {i['path']}: {i['message']}" for i in report2.get_all_issues() if i["severity"] == "ERROR"]
+    warn_details = [f"[{i['layer']}] {i['path']}: {i['message']}" for i in report2.get_all_issues() if i["severity"] == "WARN"]
+    
+    # Generate standardized report
+    report_str = format_wiki_doctor_report(
+        component="wiki_doctor",
+        before_errors=report.summary["ERROR"],
+        before_warns=report.summary["WARN"],
+        before_info=report.summary["INFO"],
+        before_auto_fixable=report.summary["auto_fixable"],
+        after_errors=report2.summary["ERROR"],
+        after_warns=report2.summary["WARN"],
+        after_info=report2.summary["INFO"],
+        after_auto_fixable=report2.summary["auto_fixable"],
+        fixes_applied=sum(cure_stats.values()),
+        error_details=error_details if error_details else None,
+        warn_details=warn_details if warn_details else None,
+    )
+    
+    print()
+    print(report_str)
 
     # Save report
     report_path = ROOT / "outputs" / "doctor-report.json"
@@ -833,7 +840,6 @@ def diagnose_and_cure():
         ],
     }
     report_path.write_text(json.dumps(report_data, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"\n📄 Звіт збережено: {report_path}")
 
     # Log
     log_entry = (

@@ -1,10 +1,9 @@
 # Local LLM Wiki Lint Report
 
-Pages checked: 136
-Issues: 52
+Pages checked: 135
+Issues: 37
 
 - **WARN** `wiki/index.md` — page over 200 lines
-- **ERROR** `wiki/concepts/advanced-rag-techniques.md` — broken wikilink: [[rag-vs-llm-wiki]]
 - **INFO** `wiki/concepts/core-dump-epidemiology-fixing-an-18-year-old-bug-2026-07-07.md` — low confidence page
 - **INFO** `wiki/concepts/explainable-ai-cheat-sheet-2026-07-07.md` — low confidence page
 - **WARN** `wiki/concepts/finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07.md` — page over 200 lines
@@ -17,10 +16,6 @@ Issues: 52
 - **WARN** `wiki/concepts/interfaces-for-explaining-transformer-language-models-2026-07-07.md` — page over 200 lines
 - **INFO** `wiki/concepts/introducing-genebench-pro-2026-07-07.md` — low confidence page
 - **WARN** `wiki/concepts/karpathy-llm-wiki-2026.md` — page over 200 lines
-- **ERROR** `wiki/concepts/llm-evaluation-benchmarks-2026.md` — broken wikilink: [[llm-fine-tuning-lora-qlora-dpo-2026]]
-- **ERROR** `wiki/concepts/llm-evaluation-benchmarks-2026.md` — broken wikilink: [[open-source-llm-landscape-2026]]
-- **ERROR** `wiki/concepts/llm-evaluation-benchmarks-2026.md` — broken wikilink: [[rag-vs-llm-wiki]]
-- **ERROR** `wiki/concepts/llm-wiki.md` — broken wikilink: [[rag-vs-llm-wiki]]
 - **INFO** `wiki/concepts/mapping-europes-ai-workforce-opportunity-2026-07-07.md` — low confidence page
 - **WARN** `wiki/concepts/model-context-protocol-intro-architecture.md` — page over 200 lines
 - **WARN** `wiki/concepts/moving-to-substack-2026-07-07.md` — page over 200 lines
@@ -32,26 +27,16 @@ Issues: 52
 - **WARN** `wiki/playbooks/how-to-build-ai-agents.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-choose-ai-coding-assistants.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-deploy-local-llm.md` — page over 200 lines
-- **ERROR** `wiki/playbooks/how-to-deploy-local-llm.md` — broken wikilink: [[llama-vs-mistral-vs-qwen]]
 - **WARN** `wiki/playbooks/how-to-deploy-with-vllm.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-engineer-prompts.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-evaluate-llm-models.md` — page over 200 lines
-- **ERROR** `wiki/playbooks/how-to-evaluate-llm-models.md` — broken wikilink: [[llm-fine-tuning-lora-qlora-dpo-2026]]
-- **ERROR** `wiki/playbooks/how-to-evaluate-llm-models.md` — broken wikilink: [[open-source-llm-landscape-2026]]
 - **WARN** `wiki/playbooks/how-to-fine-tune-llm.md` — page over 200 lines
-- **ERROR** `wiki/playbooks/how-to-fine-tune-llm.md` — broken wikilink: [[llama-vs-mistral-vs-qwen]]
 - **WARN** `wiki/playbooks/how-to-implement-advanced-rag.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-integrate-mcp.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-maintain-wiki-integrity.md` — page over 200 lines
 - **WARN** `wiki/playbooks/how-to-use-cloudflare-workers-ai.md` — page over 200 lines
-- **ERROR** `wiki/queries/llm-deployment-qa.md` — broken wikilink: [[llama-vs-mistral-vs-qwen]]
 - **WARN** `wiki/synthesis/ai-agents-2026-synthesis.md` — page over 200 lines
 - **WARN** `wiki/synthesis/ai-safety-alignment-2026-synthesis.md` — page over 200 lines
 - **WARN** `wiki/synthesis/llm-inference-deployment-2026-synthesis.md` — page over 200 lines
 - **WARN** `wiki/synthesis/llm-landscape-2026-synthesis.md` — page over 200 lines
 - **WARN** `wiki/synthesis/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md` — page over 200 lines
-- **ERROR** `wiki/synthesis/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md` — broken wikilink: [[advanced-rag-techniques-2026]]
-- **ERROR** `wiki/synthesis/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md` — broken wikilink: [[advanced-rag-techniques-2026]]
-- **ERROR** `wiki/synthesis/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md` — broken wikilink: [[advanced-rag-techniques-2026]]
-- **ERROR** `wiki/synthesis/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md` — broken wikilink: [[advanced-rag-techniques-2026]]
-- **ERROR** `wiki/synthesis/sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md` — broken wikilink: [[course-ai-agents-software-engineer-future-skills-2026]]
