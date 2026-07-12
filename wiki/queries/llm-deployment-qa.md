@@ -8,9 +8,7 @@ tags: [qa, local-llm-hardware, local, deployment, faq]
 sources: [raw/articles/open-source-llm-landscape-2026.md, raw/articles/llm-fine-tuning-lora-qlora-dpo-2026.md, raw/articles/llm-quantization-gguf-gptq-awq.md, raw/articles/rtx-5070-ti-build-reference.md]
 confidence: high
 links: [local-llm-hardware, llm-quantization, how-to-deploy-local-llm]
----
-
-# LLM Deployment Q&A — Common Questions
+---# LLM Deployment Q&A — Common Questions
 
 Answers to frequently asked questions about deploying and using local LLMs.
 
@@ -86,6 +84,6 @@ Answers to frequently asked questions about deploying and using local LLMs.
 
 ## Key References
 
-- `[[local-llm-hardware]]` — Hardware requirements
+- `[[concepts/local-llm-hardware]]` — Hardware requirements
 - `[[llm-quantization]]` — Quantization methods
-- `[[how-to-deploy-local-llm]]` — Deployment runbook
+- `[[playbooks/how-to-deploy-local-llm]]` — Deployment runbook

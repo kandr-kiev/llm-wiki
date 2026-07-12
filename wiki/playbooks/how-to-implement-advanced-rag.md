@@ -8,9 +8,7 @@ tags: [playbook, rag, advanced-rag, retrieval, reference, automation]
 sources: [raw/articles/advanced-rag-techniques-2026.md]
 confidence: high
 links: [advanced-rag-techniques, llm-wiki, open-domain-question-answering]
----
-
-# How to Implement Advanced RAG — Step-by-Step
+---# How to Implement Advanced RAG — Step-by-Step
 
 Actionable runbook for implementing advanced RAG techniques that improve retrieval accuracy beyond naive vector search.
 
@@ -284,8 +282,8 @@ for technique, score in techniques.items():
 ## Key References
 
 - `[[advanced-rag-techniques]]` — 12 advanced RAG techniques catalog
-- `[[open-domain-question-answering]]` — QA systems using external knowledge
-- `[[llm-wiki]]` — Knowledge base patterns
+- `[[comparisons/ai]]` — QA systems using external knowledge
+- `[[concepts/karpathy-llm-wiki-2026]]` — Knowledge base patterns
 - RAPTOR (arXiv:2401.18059)
 - Self-RAG (arXiv:2310.11511)
 - CRAG Benchmark (arXiv:2406.04744)

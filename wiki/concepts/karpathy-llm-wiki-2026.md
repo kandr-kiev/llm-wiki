@@ -10,7 +10,6 @@ confidence: high
 contested: false
 links: [[advanced-rag-techniques-2026], [course-ai-agents-software-engineer-future-skills-2026], [helping-build-shared-standards-for-advanced-ai-2026-07-07], [llm-fine-tuning-lora-qlora-dpo-2026], [open-source-llm-landscape-2026]]
 ---
-
 # [karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**
 
 > **Source:** [karpathy-llm-wiki-2026.md](https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md)

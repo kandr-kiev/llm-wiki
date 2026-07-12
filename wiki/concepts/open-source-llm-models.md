@@ -8,9 +8,7 @@ tags: [open-source-llm, llama, mistral, qwen, gemma, glm, deepseek, benchmark]
 sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-quantization, local-llm-hardware]
----
-
-# Open Source LLM Models
+---# Open Source LLM Models
 
 Overview of the major open-weight LLM families available for local deployment and fine-tuning.
 
@@ -50,4 +48,4 @@ All three support identical deployment patterns (vLLM, Ray Serve, Together.AI AP
 ## Key References
 
 - [[llm-quantization]] — Quantization methods
-- [[local-llm-hardware]] — Hardware requirements
+- [[concepts/local-llm-hardware]] — Hardware requirements

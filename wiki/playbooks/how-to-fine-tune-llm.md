@@ -8,9 +8,7 @@ tags: [playbook, fine-tuning, lora, qlora, dpo, peft, sft, rlhf]
 sources: [raw/articles/llm-fine-tuning-lora-qlora-dpo-2026.md]
 confidence: high
 links: [llm-fine-tuning, open-source-llm-models, local-llm-hardware]
----
-
-# How to Fine-Tune an LLM — Step-by-Step
+---# How to Fine-Tune an LLM — Step-by-Step
 
 Actionable runbook for parameter-efficient fine-tuning and alignment of open-source LLMs.
 
@@ -254,5 +252,5 @@ print(outputs[0].outputs[0].text)
 ## Key References
 
 - `[[llm-fine-tuning]]` — Theory: LoRA, QLoRA, SFT, DPO, RLHF
-- `[[local-llm-hardware]]` — Hardware requirements
+- `[[concepts/local-llm-hardware]]` — Hardware requirements
 - `[[llm-quantization]]` — Quantization methods

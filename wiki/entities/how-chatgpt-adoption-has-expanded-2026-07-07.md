@@ -8,12 +8,10 @@ tags: [chatgpt, adoption, openai, analytics, enterprise-ai, user-metrics]
 sources: [raw/articles/how-chatgpt-adoption-has-expanded-2026-07-07.md]
 confidence: medium
 links:
-  - [[chatgpt]] — ChatGPT: OpenAI's conversational AI assistant
-  - [[enterprise-ai]] — Enterprise AI adoption trends
-  - [[ai-analytics]] — AI usage analytics and metrics
----
-
-# ChatGPT Adoption Expansion — 2026 Metrics
+  - [[entities/chatgpt]] — ChatGPT: OpenAI's conversational AI assistant
+  - [[comparisons/ai]] — Enterprise AI adoption trends
+  - [[comparisons/ai]] — AI usage analytics and metrics
+---# ChatGPT Adoption Expansion — 2026 Metrics
 
 ## Overview
 
@@ -33,9 +31,9 @@ This analysis provides valuable insights into the current state of AI assistant 
 
 ## Related Concepts
 
-- [[chatgpt]] — ChatGPT: OpenAI's conversational AI assistant
-- [[enterprise-ai]] — Enterprise AI adoption and deployment
-- [[ai-analytics]] — AI usage analytics and measurement frameworks
+- [[entities/chatgpt]] — ChatGPT: OpenAI's conversational AI assistant
+- [[comparisons/ai]] — Enterprise AI adoption and deployment
+- [[comparisons/ai]] — AI usage analytics and measurement frameworks
 
 ## Source
 

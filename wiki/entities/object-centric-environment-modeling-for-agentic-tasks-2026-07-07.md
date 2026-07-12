@@ -9,9 +9,7 @@ sources: [raw/articles/object-centric-environment-modeling-for-agentic-tasks-202
 confidence: high
 contested: false
 links: [iflytek-embodied-omni-technical-report-2026-07-07, exploration-strategies-in-deep-reinforcement-learning]
----
-
-# Object-Centric Environment Modeling for Agentic Tasks
+---# Object-Centric Environment Modeling for Agentic Tasks
 
 ## Overview
 
@@ -49,5 +47,5 @@ Instead of processing raw pixel observations, the agent learns to represent the 
 
 ## Related Pages
 
-- [[iflytek-embodied-omni-technical-report-2026-07-07]] — Embodied AI system
-- [[exploration-strategies-in-deep-reinforcement-learning]] — RL exploration methods
+- [[entities/iflytek-embodied-omni-technical-report-2026-07-07]] — Embodied AI system
+- [[concepts/exploration-strategies-in-deep-reinforcement-learning]] — RL exploration methods

@@ -8,9 +8,7 @@ tags: [synthesis, safety, alignment, interpretability, explainable-ai, toxicity-
 sources: [raw/articles/reducing-toxicity-in-language-models-2026-07-07.md, raw/articles/oyster-ii-reinforcement-learning-for-constructive-safety-alignment-in-large-language-models-2026-07-07.md, raw/articles/explainable-ai-cheat-sheet-2026-07-07.md, raw/articles/interfaces-for-explaining-transformer-language-models-2026-07-07.md]
 confidence: high
 links: [reducing-toxicity-in-language-models, explainable-ai, oyster-ii, deepmind, scale-ai]
----
-
-# AI Safety & Alignment — Multi-Source Synthesis
+---# AI Safety & Alignment — Multi-Source Synthesis
 
 Integrated analysis of AI safety and alignment as of mid-2026, combining constructive safety frameworks, explainable AI methods, transformer interpretability, and toxicity reduction strategies.
 

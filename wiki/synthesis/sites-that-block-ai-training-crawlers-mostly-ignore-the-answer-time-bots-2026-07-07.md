@@ -10,7 +10,6 @@ confidence: high
 contested: false
 links: [advanced-rag-techniques]
 ---
-
 # Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots
 
 > **Source:** [sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07.md](https://sitedex.dev/insights/robots-txt-2023-war-memorial)

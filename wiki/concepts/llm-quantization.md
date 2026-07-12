@@ -9,8 +9,7 @@ sources: [raw/articles/llm-quantization-gguf-gptq-awq.md]
 confidence: high
 contested: false
 links: [local-llm-hardware, rtx-5070-ti]
----
-# LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant
+---# LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant
 
 Quantization is the process of constraining model weights from continuous high-precision values to discrete low-precision representations. For LLMs, this is the primary method for running models on consumer hardware.
 
@@ -45,10 +44,10 @@ Reduces outlier magnitudes before quantization. Moves quantization difficulty fr
 
 ## Hardware Implications
 
-Quantization directly determines what hardware can run a given model. For example, a 7B model at INT4 requires ~4GB VRAM, while the same model at FP16 requires ~14GB. This makes quantization critical for [[local-llm-hardware]] planning.
+Quantization directly determines what hardware can run a given model. For example, a 7B model at INT4 requires ~4GB VRAM, while the same model at FP16 requires ~14GB. This makes quantization critical for [[concepts/local-llm-hardware]] planning.
 
 ## Related Pages
 
-- [[local-llm-hardware]] — Hardware requirements for local LLM inference
+- [[concepts/local-llm-hardware]] — Hardware requirements for local LLM inference
 - [[rtx-5070-ti]] — NVIDIA RTX 5070 Ti GPU specs and AI performance
-- [[llm-wiki]] — LLM Wiki pattern for local knowledge management
+- [[concepts/karpathy-llm-wiki-2026]] — LLM Wiki pattern for local knowledge management

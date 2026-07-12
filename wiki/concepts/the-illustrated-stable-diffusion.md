@@ -9,8 +9,7 @@ sources: []
 updated: 2026-07-07
 created: 2026-07-07
 
----
-# The Illustrated Stable Diffusion
+---# The Illustrated Stable Diffusion
 
 > Placeholder page — link exists but content not yet ingested.
 

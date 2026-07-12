@@ -9,9 +9,7 @@ sources: [raw/articles/iflytek-embodied-omni-technical-report-2026-07-07.md]
 confidence: high
 contested: false
 links: [object-centric-environment-modeling-for-agentic-tasks, how-agents-are-transforming-work]
----
-
-# iFLYTEK-Embodied-Omni
+---# iFLYTEK-Embodied-Omni
 
 ## Overview
 
@@ -44,5 +42,5 @@ iFLYTEK-Embodied-Omni is a technical report presenting a multimodal language-act
 
 ## Related Pages
 
-- [[object-centric-environment-modeling-for-agentic-tasks-2026-07-07]] — Object-centric modeling for agentic tasks
-- [[how-agents-are-transforming-work-2026-07-07]] — Enterprise agent adoption
+- [[entities/object-centric-environment-modeling-for-agentic-tasks-2026-07-07]] — Object-centric modeling for agentic tasks
+- [[comparisons/agents]] — Enterprise agent adoption

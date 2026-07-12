@@ -10,16 +10,6 @@ type: concept
 updated: 2026-07-08
 
 ---
---
-type: Comparison
-title: "{{title}}"
-description: "{{description}}"
-tags: [comparison]
-confidence: verified
-links: []
-timestamp: "{{timestamp}}"
-language: uk---
-
 # {{title}}
 
 ## Контекст порівняння

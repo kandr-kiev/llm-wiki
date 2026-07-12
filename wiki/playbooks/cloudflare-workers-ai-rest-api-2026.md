@@ -9,7 +9,6 @@ sources: [raw/articles/cloudflare-workers-ai-rest-api-2026.md]
 confidence: high
 links: []
 ---
-
 # REST API
 
 > **Source:** [cloudflare-workers-ai-rest-api-2026.md](https://developers.cloudflare.com/workers-ai/get-started/rest-api/)

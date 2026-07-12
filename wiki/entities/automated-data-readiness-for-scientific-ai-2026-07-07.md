@@ -9,9 +9,7 @@ sources: [raw/articles/automated-data-readiness-for-scientific-ai-2026-07-07.md]
 confidence: high
 contested: false
 links: [veritas-towards-a-general-purpose-replication-tool-for-scientific-research-2026-07-07]
----
-
-# Automated Data Readiness for Scientific AI
+---# Automated Data Readiness for Scientific AI
 
 ## Overview
 
@@ -43,4 +41,4 @@ This research presents an automated framework for assessing and preparing datase
 
 ## Related Pages
 
-- [[veritas-towards-a-general-purpose-replication-tool-for-scientific-research-2026-07-07]] — Scientific research replication tool
+- [[entities/veritas-towards-a-general-purpose-replication-tool-for-scientific-research-2026-07-07]] — Scientific research replication tool

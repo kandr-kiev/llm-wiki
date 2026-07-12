@@ -9,11 +9,9 @@ sources: [raw/articles/a-sliding-window-based-reinforcement-learning-for-dynamic
 confidence: high
 links:
   - [[reinforcement-learning]] — Reinforcement learning fundamentals and applications
-  - [[graph-neural-networks]] — Graph neural networks and their applications
-  - [[scheduling-algorithms]] — Scheduling algorithms and optimization
----
-
-# SWRL — Sliding-Window Reinforcement Learning for Assembly Scheduling
+  - [[concepts/graph-neural-networks]] — Graph neural networks and their applications
+  - [[concepts/scheduling-algorithms]] — Scheduling algorithms and optimization
+---# SWRL — Sliding-Window Reinforcement Learning for Assembly Scheduling
 
 ## Overview
 
@@ -47,8 +45,8 @@ This work demonstrates the application of reinforcement learning to real-world m
 ## Related Concepts
 
 - [[reinforcement-learning]] — Reinforcement learning fundamentals and applications
-- [[graph-neural-networks]] — Graph neural networks for structured data
-- [[scheduling-algorithms]] — Scheduling optimization and dispatching rules
+- [[concepts/graph-neural-networks]] — Graph neural networks for structured data
+- [[concepts/scheduling-algorithms]] — Scheduling optimization and dispatching rules
 
 ## Source
 

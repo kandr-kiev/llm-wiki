@@ -9,9 +9,7 @@ sources: [raw/articles/veritas-towards-a-general-purpose-replication-tool-for-sc
 confidence: high
 contested: false
 links: [automated-data-readiness-for-scientific-ai-2026-07-07, ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07]
----
-
-# VERITAS — General-Purpose Replication Tool
+---# VERITAS — General-Purpose Replication Tool
 
 ## Overview
 
@@ -51,5 +49,5 @@ VERITAS is a framework designed to automate the replication of scientific resear
 
 ## Related Pages
 
-- [[automated-data-readiness-for-scientific-ai-2026-07-07]] — Data quality automation
-- [[ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07]] — Uncertainty-aware assistance
+- [[comparisons/ai]] — Data quality automation
+- [[comparisons/ai]] — Uncertainty-aware assistance

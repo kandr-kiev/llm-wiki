@@ -10,7 +10,6 @@ confidence: high
 contested: false
 links: [[advanced-rag-techniques-2026], [course-ai-agents-software-engineer-future-skills-2026], [helping-build-shared-standards-for-advanced-ai-2026-07-07], [llm-fine-tuning-lora-qlora-dpo-2026], [open-source-llm-landscape-2026]]
 ---
-
 # The Illustrated Stable Diffusion
 
 > **Source:** [the-illustrated-stable-diffusion-2026-07-07.md](http://jalammar.github.io/illustrated-stable-diffusion/)

@@ -10,10 +10,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [open-source-llm, llama, mistral, qwen, gpt, chatgpt, deepmind]
 
----
-
-
-# OpenAI
+---# OpenAI
 
 ## Overview
 
@@ -109,12 +106,12 @@ OpenAI has historically been **closed-source**, releasing models only via API. H
 - **Labor disputes** — employee protests over government AI contracts
 
 ## See Also
-- [[anthropic]]
-- [[meta-ai]]
-- [[deepmind]]
-- [[mistral-ai]]
-- [[qwen]]
+- [[entities/anthropic]]
+- [[comparisons/ai]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]
+- [[entities/qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[enterprise-ai]]
+- [[comparisons/ai]]

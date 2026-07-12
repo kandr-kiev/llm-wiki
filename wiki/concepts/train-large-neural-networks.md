@@ -9,9 +9,7 @@ sources: [raw/articles/train-large-neural-networks-2026-07-07.md]
 confidence: high
 contested: false
 links: [llm-fine-tuning]
----
-
-# Training Large Neural Networks
+---# Training Large Neural Networks
 
 ## Overview
 

@@ -9,7 +9,6 @@ sources: []
 confidence: high
 links: [wiki-lint, integrator, schema-conventions]
 ---
-
 # Wiki Integrity Maintenance — Tools & Workflow
 
 ## Overview

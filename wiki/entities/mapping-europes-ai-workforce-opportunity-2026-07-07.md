@@ -8,12 +8,10 @@ tags: [ai-workforce, europe, policy, skills-gap, labor-market, ai-education]
 sources: [raw/articles/mapping-europes-ai-workforce-opportunity-2026-07-07.md]
 confidence: medium
 links:
-  - [[ai-policy]] — AI policy and regulation
-  - [[ai-education]] — AI education and workforce development
-  - [[labor-market]] — AI impact on labor markets
----
-
-# Mapping Europe's AI Workforce Opportunity
+  - [[comparisons/ai]] — AI policy and regulation
+  - [[comparisons/ai]] — AI education and workforce development
+  - [[entities/labor-market]] — AI impact on labor markets
+---# Mapping Europe's AI Workforce Opportunity
 
 ## Overview
 
@@ -33,9 +31,9 @@ This analysis is critical for understanding Europe's position in the global AI t
 
 ## Related Concepts
 
-- [[ai-policy]] — AI policy and regulatory frameworks
-- [[ai-education]] — AI education and workforce development strategies
-- [[labor-market]] — AI impact on employment and labor markets
+- [[comparisons/ai]] — AI policy and regulatory frameworks
+- [[comparisons/ai]] — AI education and workforce development strategies
+- [[entities/labor-market]] — AI impact on employment and labor markets
 
 ## Source
 

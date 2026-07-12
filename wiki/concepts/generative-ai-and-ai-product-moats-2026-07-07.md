@@ -9,7 +9,6 @@ sources: [raw/articles/generative-ai-and-ai-product-moats-2026-07-07.md]
 confidence: medium
 links: []
 ---
-
 # Generative Ai And Ai Product Moats 2026 07 07
 
 > **Source:** [generative-ai-and-ai-product-moats-2026-07-07.md](http://jalammar.github.io/generative-ai-and-ai-product-moats/)

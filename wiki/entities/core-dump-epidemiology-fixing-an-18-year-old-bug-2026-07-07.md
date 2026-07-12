@@ -8,12 +8,10 @@ tags: [data-engineering, ml-infrastructure, data-quality, openai, reliability]
 sources: [raw/articles/core-dump-epidemiology-fixing-an-18-year-old-bug-2026-07-07.md]
 confidence: medium
 links:
-  - [[data-engineering]] — Data engineering fundamentals
-  - [[data-quality]] — Data quality assurance practices
-  - [[ml-infrastructure]] — ML infrastructure patterns
----
-
-# Core Dump Epidemiology — Fixing an 18-Year-Old Bug
+  - [[concepts/data-engineering]] — Data engineering fundamentals
+  - [[concepts/data-quality]] — Data quality assurance practices
+  - [[concepts/ml-infrastructure]] — ML infrastructure patterns
+---# Core Dump Epidemiology — Fixing an 18-Year-Old Bug
 
 ## Overview
 
@@ -32,9 +30,9 @@ This post is significant for understanding the intersection of data infrastructu
 
 ## Related Concepts
 
-- [[data-engineering]] — Data engineering fundamentals and best practices
-- [[ml-infrastructure]] — ML infrastructure patterns and reliability
-- [[data-quality]] — Data quality assurance and validation
+- [[concepts/data-engineering]] — Data engineering fundamentals and best practices
+- [[concepts/ml-infrastructure]] — ML infrastructure patterns and reliability
+- [[concepts/data-quality]] — Data quality assurance and validation
 
 ## Source
 

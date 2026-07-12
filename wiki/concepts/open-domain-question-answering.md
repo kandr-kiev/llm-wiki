@@ -9,9 +9,7 @@ sources: [raw/articles/open-domain-question-answering-2026-07-07.md]
 confidence: high
 contested: false
 links: [controllable-neural-text-generation, model-context-protocol]
----
-
-# Open-Domain Question Answering
+---# Open-Domain Question Answering
 
 ## Overview
 
@@ -66,5 +64,5 @@ Open-domain QA evolved into modern RAG (Retrieval-Augmented Generation):
 
 ## Related Pages
 
-- [[controllable-neural-text-generation]] — Controlled generation for QA outputs
+- [[concepts/controllable-neural-text-generation]] — Controlled generation for QA outputs
 - [[model-context-protocol]] — Protocol for connecting AI to external tools and data

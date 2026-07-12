@@ -9,9 +9,7 @@ sources: [raw/articles/oyster-ii-reinforcement-learning-for-constructive-safety-
 confidence: high
 contested: false
 links: [reducing-toxicity-in-language-models, exploration-strategies-in-deep-reinforcement-learning]
----
-
-# Oyster II - RL for Constructive Safety Alignment
+---# Oyster II - RL for Constructive Safety Alignment
 
 ## Overview
 
@@ -44,5 +42,5 @@ Oyster II is a research framework for achieving constructive safety alignment in
 
 ## Related Pages
 
-- [[reducing-toxicity-in-language-models]] — General approaches to toxicity reduction
-- [[exploration-strategies-in-deep-reinforcement-learning]] — RL exploration methods
+- [[concepts/reducing-toxicity-in-language-models]] — General approaches to toxicity reduction
+- [[concepts/exploration-strategies-in-deep-reinforcement-learning]] — RL exploration methods

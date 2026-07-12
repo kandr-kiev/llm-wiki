@@ -8,12 +8,10 @@ tags: [genebench-pro, genomics, ai-benchmark, bioinformatics, openai, benchmark]
 sources: [raw/articles/introducing-genebench-pro-2026-07-07.md]
 confidence: medium
 links:
-  - [[ai-benchmarks]] — AI model evaluation benchmarks
+  - [[comparisons/ai]] — AI model evaluation benchmarks
   - [[genebench-pro]] — GeneBench Pro benchmark suite
-  - [[bioinformatics]] — Bioinformatics and computational biology
----
-
-# Introducing GeneBench Pro
+  - [[entities/bioinformatics]] — Bioinformatics and computational biology
+---# Introducing GeneBench Pro
 
 ## Overview
 
@@ -33,9 +31,9 @@ GeneBench Pro provides a much-needed standardized framework for evaluating AI mo
 
 ## Related Concepts
 
-- [[ai-benchmarks]] — AI model evaluation benchmarks and frameworks
+- [[comparisons/ai]] — AI model evaluation benchmarks and frameworks
 - [[genebench-pro]] — GeneBench Pro benchmark suite details
-- [[bioinformatics]] — Bioinformatics and computational biology
+- [[entities/bioinformatics]] — Bioinformatics and computational biology
 
 ## Source
 

@@ -9,9 +9,7 @@ sources: [raw/articles/internal-pluralism-and-the-limits-of-pairwise-comparisons
 confidence: high
 contested: false
 links: [oyster-ii-reinforcement-learning-for-constructive-safety-alignment-in-large-language-models]
----
-
-# Internal Pluralism and the Limits of Pairwise Comparisons
+---# Internal Pluralism and the Limits of Pairwise Comparisons
 
 ## Overview
 

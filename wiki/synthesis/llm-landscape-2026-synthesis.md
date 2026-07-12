@@ -8,9 +8,7 @@ tags: [synthesis, open-source-llm, benchmark, cost-economics, fine-tuning, local
 sources: [raw/articles/open-source-llm-landscape-2026.md, raw/articles/llm-fine-tuning-lora-qlora-dpo-2026.md, raw/articles/llm-quantization-gguf-gptq-awq.md, raw/articles/llm-evaluation-benchmarks-2026.md, raw/articles/advanced-prompt-engineering-2026.md, raw/articles/rtx-5070-ti-build-reference.md]
 links: [llama-vs-mistral-vs-qwen, open-source-llm-models, llm-fine-tuning, llm-quantization, local-llm-hardware, llm-evaluation]
 confidence: high
----
-
-# LLM Landscape 2026 — Multi-Source Synthesis
+---# LLM Landscape 2026 — Multi-Source Synthesis
 
 Integrated analysis combining 6+ sources to provide a comprehensive view of the open-source LLM ecosystem as of mid-2026.
 

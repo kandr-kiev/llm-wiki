@@ -9,7 +9,6 @@ sources: [raw/articles/model-context-protocol-intro-architecture.md]
 confidence: high
 links: []
 ---
-
 # Architecture overview
 
 > **Source:** [model-context-protocol-intro-architecture.md](https://modelcontextprotocol.io/docs/getting-started/intro)

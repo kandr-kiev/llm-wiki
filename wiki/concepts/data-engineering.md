@@ -9,8 +9,7 @@ sources: []
 updated: 2026-07-07
 created: 2026-07-07
 
----
-# Data Engineering
+---# Data Engineering
 
 > Placeholder page — link exists but content not yet ingested.
 

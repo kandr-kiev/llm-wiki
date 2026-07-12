@@ -9,9 +9,7 @@ sources: [raw/articles/google-open-knowledge-format-spec-0-1.md]
 confidence: high
 contested: false
 links: [llm-wiki, model-context-protocol]
----
-
-# Open Knowledge Format
+---# Open Knowledge Format
 
 Open Knowledge Format (OKF) is a draft specification for representing knowledge as a directory of markdown files with YAML frontmatter. It is designed to be human-readable, agent-parseable, diffable in Git, and portable across tools.
 
@@ -25,7 +23,7 @@ Local LLM Wiki borrows OKF's minimalism:
 
 The local schema is stricter than OKF because this wiki needs operational discipline for multiple agents.
 
-Related: [[llm-wiki]], [[model-context-protocol]].
+Related: [[concepts/karpathy-llm-wiki-2026]], [[model-context-protocol]].
 
 # Citations
 [1] [OKF raw source](../../raw/google-open-knowledge-format-spec-0-1.md)

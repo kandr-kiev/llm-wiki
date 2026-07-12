@@ -8,9 +8,7 @@ tags: [synthesis, inference, deployment, quantization, hardware, serving, fine-t
 sources: [raw/articles/llm-quantization-gguf-gptq-awq.md, raw/articles/cloudflare-workers-ai-rest-api-2026.md, raw/articles/llm-fine-tuning-lora-qlora-dpo-2026.md]
 confidence: high
 links: [llm-quantization, ml-infrastructure, enterprise-ai, llm-fine-tuning, vllm]
----
-
-# LLM Inference & Deployment — Multi-Source Synthesis
+---# LLM Inference & Deployment — Multi-Source Synthesis
 
 Integrated analysis of the LLM inference and deployment landscape as of mid-2026, combining quantization methods, serving frameworks, fine-tuning strategies, and hardware considerations.
 

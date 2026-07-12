@@ -9,7 +9,6 @@ sources: [raw/articles/llm-quantization-gguf-gptq-awq.md]
 confidence: high
 links: []
 ---
-
 # LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant
 
 > **Source:** [llm-quantization-gguf-gptq-awq.md](https://cast.ai/blog/demystifying-quantizations-llms)

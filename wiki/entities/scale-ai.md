@@ -10,10 +10,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, data-engineering, llm-fine-tuning, openai, anthropic]
 
----
-
-
-# Scale AI
+---# Scale AI
 
 ## Overview
 
@@ -113,12 +110,12 @@ Scale AI is **primarily a service company**:
 - **Competition with open-source** — Service company vs. open-source data
 
 ## See Also
-- [[openai]]
-- [[anthropic]]
-- [[deepmind]]
-- [[meta-ai]]
-- [[mistral-ai]]
-- [[qwen]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]
+- [[comparisons/ai]]
+- [[entities/qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]

@@ -9,10 +9,7 @@ tags: [llm-wiki, enterprise-ai]
 sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, openai, anthropic, deepmind, mistral, qwen, cohere]
----
-
-
-# Enterprise AI
+---# Enterprise AI
 
 ## Overview
 
@@ -126,7 +123,7 @@ Enterprise AI refers to the adoption and integration of large language models an
 - [[llm-deployment-qa]]
 - [[llm-fine-tuning]]
 - [[llm-quantization]]
-- [[openai]]
-- [[anthropic]]
-- [[cohere]]
-- [[databricks]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[entities/cohere]]
+- [[entities/databricks]]

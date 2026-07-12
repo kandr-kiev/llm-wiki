@@ -8,9 +8,7 @@ tags: [playbook, cloudflare, serverless, reference, deployment]
 sources: [raw/articles/cloudflare-workers-ai-rest-api-2026.md]
 confidence: high
 links: [cloudflare-workers-ai-rest-api, how-to-deploy-local-llm]
----
-
-# How to Use Cloudflare Workers AI
+---# How to Use Cloudflare Workers AI
 
 Actionable runbook for deploying and using Cloudflare Workers AI: REST API, model catalog, AI SDK, and production patterns.
 
@@ -289,7 +287,7 @@ export default {
 ## Key References
 
 - `` — REST API reference
-- `[[how-to-deploy-local-llm]]` — Local deployment alternatives
+- `[[playbooks/how-to-deploy-local-llm]]` — Local deployment alternatives
 - Workers AI Models: https://developers.cloudflare.com/workers-ai/models/
 - Workers AI AI SDK: https://developers.cloudflare.com/workers-ai/configuration/ai-sdk/
 - Workers AI Docs: https://developers.cloudflare.com/workers-ai/

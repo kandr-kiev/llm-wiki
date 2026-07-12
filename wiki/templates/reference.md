@@ -10,16 +10,6 @@ type: concept
 updated: 2026-07-08
 
 ---
---
-type: Reference
-title: "{{title}}"
-description: "{{description}}"
-tags: [reference]
-confidence: verified
-links: []
-timestamp: "{{timestamp}}"
-language: uk---
-
 # {{title}}
 
 ## Опис

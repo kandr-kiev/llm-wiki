@@ -9,9 +9,7 @@ sources: [raw/articles/semi-supervised-learning-2026-07-07.md]
 confidence: high
 contested: false
 links: [active-learning, contrastive-representation-learning]
----
-
-# Semi-Supervised Learning
+---# Semi-Supervised Learning
 
 ## Overview
 
@@ -46,5 +44,5 @@ Construct a graph over all data points (labeled + unlabeled). Propagate label in
 
 ## Related Pages
 
-- [[active-learning]] — Query strategy for selecting which unlabeled data to label
-- [[contrastive-representation-learning]] — SSL technique that learns representations by contrasting positive/negative pairs
+- [[concepts/active-learning]] — Query strategy for selecting which unlabeled data to label
+- [[concepts/contrastive-representation-learning]] — SSL technique that learns representations by contrasting positive/negative pairs

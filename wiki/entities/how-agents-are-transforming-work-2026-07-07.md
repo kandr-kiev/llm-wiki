@@ -9,9 +9,7 @@ sources: [raw/articles/how-agents-are-transforming-work-2026-07-07.md]
 confidence: high
 contested: false
 links: [swarmresearch-orchestrating-coding-agents-for-open-ended-discovery-2026-07-07, model-context-protocol]
----
-
-# How Agents Are Transforming Work
+---# How Agents Are Transforming Work
 
 ## Overview
 
@@ -44,5 +42,5 @@ Analysis of the current state of AI agent adoption in enterprise environments. A
 
 ## Related Pages
 
-- [[swarmresearch-orchestrating-coding-agents-for-open-ended-discovery-2026-07-07]] — Multi-agent coding systems
+- [[comparisons/agents]] — Multi-agent coding systems
 - [[model-context-protocol]] — Standardized agent tool integration

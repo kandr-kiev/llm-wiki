@@ -8,9 +8,7 @@ tags: [reference, local-llm-hardware, automation, deployment, configuration]
 sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [local-llm-hardware, how-to-deploy-local-llm, llm-quantization]
----
-
-# LLM Deployment Configurations — Reference
+---# LLM Deployment Configurations — Reference
 
 Ready-to-use configuration templates for deploying LLMs with Ollama, llama.cpp, and vLLM.
 
@@ -185,6 +183,6 @@ export OLLAMA_NUM_PARALLEL=4
 
 ## Key References
 
-- `[[local-llm-hardware]]` — Hardware requirements
-- `[[how-to-deploy-local-llm]]` — Deployment runbook
+- `[[concepts/local-llm-hardware]]` — Hardware requirements
+- `[[playbooks/how-to-deploy-local-llm]]` — Deployment runbook
 - `[[llm-quantization]]` — Quantization methods

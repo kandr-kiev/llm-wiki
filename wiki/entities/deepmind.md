@@ -9,10 +9,7 @@ tags: [llm-wiki, company, model]
 sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, openai, anthropic, llama, mistral, qwen]
----
-
-
-# Google DeepMind
+---# Google DeepMind
 
 ## Overview
 
@@ -147,12 +144,12 @@ Google is **selectively open**:
 
 ## See Also
 
-- [[openai]]
-- [[anthropic]]
-- [[meta-ai]]
-- [[mistral-ai]]
-- [[qwen]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[comparisons/ai]]
+- [[comparisons/ai]]
+- [[entities/qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[enterprise-ai]]
+- [[comparisons/ai]]

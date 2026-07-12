@@ -10,10 +10,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, open-source-llm, openai, meta, mistral-ai]
 
----
-
-
-# Hugging Face
+---# Hugging Face
 
 ## Overview
 
@@ -118,12 +115,12 @@ Hugging Face is the **champion of open-source AI**:
 - **Competition with open-source** — Platform vs. open-source debate
 
 ## See Also
-- [[openai]]
-- [[anthropic]]
-- [[meta-ai]]
-- [[deepmind]]
-- [[mistral-ai]]
-- [[qwen]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[comparisons/ai]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]
+- [[entities/qwen]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[enterprise-ai]]
+- [[comparisons/ai]]

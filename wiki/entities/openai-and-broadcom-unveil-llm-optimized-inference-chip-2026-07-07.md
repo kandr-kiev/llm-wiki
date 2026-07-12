@@ -9,9 +9,7 @@ sources: [raw/articles/openai-and-broadcom-unveil-llm-optimized-inference-chip-2
 confidence: high
 contested: false
 links: [previewing-gpt-56-sol-a-next-generation-model-2026-07-07, train-large-neural-networks]
----
-
-# OpenAI & Broadcom LLM-Optimized Inference Chip
+---# OpenAI & Broadcom LLM-Optimized Inference Chip
 
 ## Overview
 
@@ -44,4 +42,4 @@ OpenAI and Broadcom announced a partnership to develop custom AI inference chips
 ## Related Pages
 
 -  — GPT-5.6 Sol model
-- [[train-large-neural-networks]] — Distributed training considerations
+- [[comparisons/ai]] — Distributed training considerations

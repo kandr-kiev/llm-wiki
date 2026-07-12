@@ -9,9 +9,7 @@ sources: [raw/articles/contrastive-representation-learning-2026-07-07.md]
 confidence: high
 contested: false
 links: [semi-supervised-learning, diffusion-models]
----
-
-# Contrastive Representation Learning
+---# Contrastive Representation Learning
 
 ## Overview
 
@@ -64,5 +62,5 @@ Where u, v are positive pair embeddings, z_i are negative embeddings, sim is cos
 
 ## Related Pages
 
-- [[semi-supervised-learning]] — Broader SSL framework
-- [[diffusion-models]] — Complementary generative approach
+- [[concepts/semi-supervised-learning]] — Broader SSL framework
+- [[concepts/diffusion-models]] — Complementary generative approach

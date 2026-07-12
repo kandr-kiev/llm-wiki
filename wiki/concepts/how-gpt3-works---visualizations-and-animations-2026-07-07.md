@@ -10,7 +10,6 @@ confidence: high
 contested: false
 links: [[advanced-rag-techniques-2026], [course-ai-agents-software-engineer-future-skills-2026], [helping-build-shared-standards-for-advanced-ai-2026-07-07], [llm-fine-tuning-lora-qlora-dpo-2026], [open-source-llm-landscape-2026]]
 ---
-
 # How Gpt3 Works Visualizations And Animations
 
 > **Source:** [how-gpt3-works---visualizations-and-animations-2026-07-07.md](http://jalammar.github.io/how-gpt3-works-visualizations-animations/)

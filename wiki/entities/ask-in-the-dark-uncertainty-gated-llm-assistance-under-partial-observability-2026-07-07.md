@@ -9,9 +9,7 @@ sources: [raw/articles/ask-in-the-dark-uncertainty-gated-llm-assistance-under-pa
 confidence: high
 contested: false
 links: [controllable-neural-text-generation, oyster-ii-reinforcement-learning-for-constructive-safety-alignment-in-large-language-models]
----
-
-# Ask in the Dark — Uncertainty-Gated LLM Assistance
+---# Ask in the Dark — Uncertainty-Gated LLM Assistance
 
 ## Overview
 
@@ -51,5 +49,5 @@ This work introduces **uncertainty gating** — the model explicitly signals whe
 
 ## Related Pages
 
-- [[controllable-neural-text-generation]] — Controlled generation for reliable outputs
+- [[concepts/controllable-neural-text-generation]] — Controlled generation for reliable outputs
 - [[oyster-ii-reinforcement-learning-for-constructive-safety-alignment-in-large-language-models]] — RL-based alignment

@@ -10,17 +10,6 @@ type: concept
 updated: 2026-07-08
 
 ---
---
-type: Source
-title: "{{title}}"
-description: "{{description}}"
-tags: [source]
-confidence: verified
-links: []
-timestamp: "{{timestamp}}"
-source: "{{source_url}}"
-language: uk---
-
 # {{title}}
 
 > **Джерело:** {{author}} | **Отримано:** {{timestamp}}

@@ -9,8 +9,7 @@ sources: [raw/articles/advanced-rag-techniques-2026.md]
 confidence: high
 contested: false
 links: [model-context-protocol, advanced-rag-techniques]
----
-# Advanced RAG Techniques
+---# Advanced RAG Techniques
 
 Retrieval-Augmented Generation (RAG) is the dominant architecture for grounding LLMs with external knowledge. However, naive RAG hits a hard accuracy ceiling (~44% factual accuracy). Advanced RAG techniques close this gap through smarter retrieval, better chunking, and self-correcting generation.
 
@@ -62,4 +61,4 @@ For most production systems, the highest-ROI starting point is **hybrid retrieva
 ## Related Pages
 
 - [[model-context-protocol]] — MCP as potential integration layer for RAG systems
-- [[llm-wiki]] — LLM Wiki pattern as RAG alternative
+- [[concepts/karpathy-llm-wiki-2026]] — LLM Wiki pattern as RAG alternative

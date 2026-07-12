@@ -10,10 +10,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, open-source-llm, mlflow, delta-lake, apache-spark]
 
----
-
-
-# Databricks
+---# Databricks
 
 ## Overview
 
@@ -114,12 +111,12 @@ Databricks is **strongly committed to open-source**:
 - **Pricing complexity** — Enterprise pricing can be opaque
 
 ## See Also
-- [[openai]]
-- [[anthropic]]
-- [[deepmind]]
-- [[meta-ai]]
-- [[mistral-ai]]
-- [[qwen]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]
+- [[comparisons/ai]]
+- [[entities/qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]

@@ -9,9 +9,7 @@ sources: [raw/articles/swarmresearch-orchestrating-coding-agents-for-open-ended-
 confidence: high
 contested: false
 links: [how-agents-are-transforming-work, model-context-protocol]
----
-
-# Swarm Research — Orchestrating Coding Agents
+---# Swarm Research — Orchestrating Coding Agents
 
 ## Overview
 
@@ -49,5 +47,5 @@ Swarm Research explores multi-agent orchestration for coding, where specialized 
 
 ## Related Pages
 
-- [[how-agents-are-transforming-work-2026-07-07]] — Enterprise agent adoption trends
+- [[comparisons/agents]] — Enterprise agent adoption trends
 - [[model-context-protocol]] — Standardized tool integration for agents

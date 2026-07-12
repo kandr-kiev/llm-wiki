@@ -8,7 +8,6 @@ description: ""
 sources: []
 type: concept
 updated: 2026-07-08
----
-# wiki/entities
+---# wiki/entities
 
 Directory reserved for Local LLM Wiki artifacts.

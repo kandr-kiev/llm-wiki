@@ -8,8 +8,7 @@ tags: [hermes, agent-workflow, architecture]
 sources: []
 confidence: medium
 links: [llm-wiki, agent-workflow]
----
-# Hermes Knowledge Storage — State Report
+---# Hermes Knowledge Storage — State Report
 
 **Date:** 2026-07-04
 **Author:** MONTY (Hermes Agent)

@@ -8,12 +8,10 @@ tags: [explainable-ai, xai, interpretability, feature-attribution, model-auditin
 sources: [raw/articles/explainable-ai-cheat-sheet-2026-07-07.md]
 confidence: high
 links:
-  - [[feature-attribution]] — Feature attribution methods (SHAP, LIME)
-  - [[model-interpretability]] — Model interpretability techniques
-  - [[counterfactual-explanations]] — Counterfactual explanation methods
----
-
-# Explainable AI (XAI) Cheat Sheet
+  - [[concepts/feature-attribution]] — Feature attribution methods (SHAP, LIME)
+  - [[concepts/model-interpretability]] — Model interpretability techniques
+  - [[concepts/counterfactual-explanations]] — Counterfactual explanation methods
+---# Explainable AI (XAI) Cheat Sheet
 
 ## Overview
 
@@ -64,9 +62,9 @@ Comprehensive cheat sheet covering interpretability methods for AI/ML models. Th
 
 ## Related Concepts
 
-- [[feature-attribution]] — Feature attribution methods (SHAP, LIME)
-- [[model-interpretability]] — Model interpretability techniques
-- [[counterfactual-explanations]] — Counterfactual explanation methods
+- [[concepts/feature-attribution]] — Feature attribution methods (SHAP, LIME)
+- [[concepts/model-interpretability]] — Model interpretability techniques
+- [[concepts/counterfactual-explanations]] — Counterfactual explanation methods
 
 ## Source
 

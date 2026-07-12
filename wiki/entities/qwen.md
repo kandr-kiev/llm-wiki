@@ -10,10 +10,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, open-source-llm, meta, mistral-ai, deepmind]
 
----
-
-
-# Qwen (Alibaba)
+---# Qwen (Alibaba)
 
 ## Overview
 
@@ -127,12 +124,12 @@ Qwen is **strongly committed to open-weight**:
 - **Open-weight safety** — Debate on open-weight model safety implications
 
 ## See Also
-- [[openai]]
-- [[anthropic]]
-- [[meta-ai]]
-- [[deepmind]]
-- [[mistral-ai]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[comparisons/ai]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[enterprise-ai]]
+- [[comparisons/ai]]

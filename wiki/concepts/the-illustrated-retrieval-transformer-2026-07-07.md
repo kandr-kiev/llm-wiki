@@ -9,7 +9,6 @@ sources: [raw/articles/the-illustrated-retrieval-transformer-2026-07-07.md]
 confidence: high
 links: []
 ---
-
 # The Illustrated Retrieval Transformer 2026 07 07
 
 > **Source:** [the-illustrated-retrieval-transformer-2026-07-07.md](http://jalammar.github.io/illustrated-retrieval-transformer/)

@@ -9,7 +9,6 @@ sources: [raw/articles/rtx-5070-ti-build-reference.md]
 confidence: medium
 links: []
 ---
-
 # 🖥️ Збірка RTX 5070 Ti — Фінальна оцінка
 
 > **Source:** [rtx-5070-ti-build-reference.md](raw/rtx-5070-ti-build-reference.md)

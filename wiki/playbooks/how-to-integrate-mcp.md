@@ -8,9 +8,7 @@ tags: [playbook, mcp, reference, automation, configuration]
 sources: [raw/articles/model-context-protocol-intro-architecture.md]
 confidence: high
 links: [model-context-protocol, ai-agent-frameworks, hermes-agent]
----
-
-# How to Integrate MCP — Step-by-Step
+---# How to Integrate MCP — Step-by-Step
 
 Actionable runbook for implementing the Model Context Protocol: building MCP servers, connecting clients, and exposing tools/resources/prompts to AI applications.
 
@@ -370,8 +368,8 @@ mcp-inspector python my_server.py
 ## Key References
 
 - `[[model-context-protocol]]` — MCP protocol overview
-- `[[ai-agent-frameworks]]` — Frameworks that use MCP
-- `[[model-context-protocol-intro-architecture]]` — Hermes Agent MCP integration
+- `[[comparisons/ai]]` — Frameworks that use MCP
+- `[[concepts/model-context-protocol-intro-architecture]]` — Hermes Agent MCP integration
 - [MCP Specification](https://modelcontextprotocol.io/specification/latest)
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)

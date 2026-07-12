@@ -9,9 +9,7 @@ sources: [raw/articles/rtx-5070-ti-build-reference.md]
 confidence: medium
 contested: false
 links: [rtx-5070-ti, llm-wiki, model-context-protocol]
----
-
-# Local LLM Hardware
+---# Local LLM Hardware
 
 Апаратне забезпечення для локального інференсу LLM визначається трьома ключовими параметрами: **VRAM GPU**, **швидкість CPU** для попередньої обробки, та **швидкість NVMe SSD** для завантаження моделей.
 

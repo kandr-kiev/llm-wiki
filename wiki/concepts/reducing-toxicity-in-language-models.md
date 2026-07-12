@@ -9,9 +9,7 @@ sources: [raw/articles/reducing-toxicity-in-language-models-2026-07-07.md]
 confidence: high
 contested: false
 links: [oyster-ii-reinforcement-learning-for-constructive-safety-alignment-in-large-language-models]
----
-
-# Reducing Toxicity in Language Models
+---# Reducing Toxicity in Language Models
 
 ## Overview
 

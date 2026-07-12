@@ -9,9 +9,7 @@ sources: [raw/articles/medcalc-pro-solving-complex-medical-calculations-with-llm
 confidence: high
 contested: false
 links: [reducing-toxicity-in-language-models, ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07]
----
-
-# MedCalc Pro
+---# MedCalc Pro
 
 ## Overview
 
@@ -46,5 +44,5 @@ MedCalc Pro applies LLM agents to complex medical calculations, including dosage
 
 ## Related Pages
 
-- [[reducing-toxicity-in-language-models]] — Safety in AI systems
-- [[ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07]] — Uncertainty-aware assistance
+- [[concepts/reducing-toxicity-in-language-models]] — Safety in AI systems
+- [[comparisons/ai]] — Uncertainty-aware assistance

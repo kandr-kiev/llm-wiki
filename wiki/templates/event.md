@@ -10,13 +10,6 @@ type: concept
 updated: 2026-07-08
 
 ---
---
-type: Event
-title: "{{title}}"
-description: "{{description}}"
-timestamp: "{{timestamp}}
-tags: [event]---
-
 # {{title}}
 
 ## Контекст

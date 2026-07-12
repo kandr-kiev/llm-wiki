@@ -8,9 +8,7 @@ tags: [playbook, agent-workflow, automation, reference, configuration]
 sources: [raw/articles/ai-agent-frameworks-2026.md]
 confidence: high
 links: [ai-agent-frameworks, model-context-protocol, hermes-agent]
----
-
-# How to Build AI Agents — Framework Comparison & Setup
+---# How to Build AI Agents — Framework Comparison & Setup
 
 Actionable runbook for selecting and implementing AI agent frameworks. Covers LangGraph, CrewAI, AutoGen, and the 2026 landscape.
 
@@ -343,9 +341,9 @@ print(f"Agent cycle: {elapsed:.2f}s, tokens: {result.get('token_count', 'N/A')}"
 
 ## Key References
 
-- `[[ai-agent-frameworks]]` — Framework comparison catalog
+- `[[comparisons/ai]]` — Framework comparison catalog
 - `[[model-context-protocol]]` — MCP for agent tool integration
-- `[[model-context-protocol-intro-architecture]]` — Hermes Agent architecture
+- `[[concepts/model-context-protocol-intro-architecture]]` — Hermes Agent architecture
 - LangGraph docs: https://langchain-ai.github.io/langgraph/
 - CrewAI docs: https://docs.crewai.com/
 - AutoGen docs: https://microsoft.github.io/autogen/

@@ -9,9 +9,7 @@ sources: [raw/articles/karpathy-llm-wiki-2026.md, raw/articles/google-open-knowl
 confidence: high
 contested: false
 links: [open-knowledge-format, model-context-protocol, local-llm-hardware]
----
-
-# LLM Wiki
+---# LLM Wiki
 
 An LLM Wiki is a persistent, interlinked markdown knowledge base that an agent maintains over time. Unlike query-time RAG, the agent compiles knowledge into durable pages, updates them during ingest, and files valuable query results back into the wiki.
 
@@ -34,7 +32,7 @@ This repository implements the pattern with:
 - schema/algorithm contracts for agents;
 - future MCP exposure as optional integration.
 
-Related: [[open-knowledge-format]], [[model-context-protocol]], [[local-llm-hardware]].
+Related: [[open-knowledge-format]], [[model-context-protocol]], [[concepts/local-llm-hardware]].
 
 # Citations
 [1] [Karpathy LLM Wiki raw source](../../raw/karpathy-llm-wiki-2026.md)

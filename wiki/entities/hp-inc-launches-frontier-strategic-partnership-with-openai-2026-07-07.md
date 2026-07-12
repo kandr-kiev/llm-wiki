@@ -8,12 +8,10 @@ tags: [openai, hp, partnership, enterprise-ai, hardware, ai-integration]
 sources: [raw/articles/hp-inc-launches-frontier-strategic-partnership-with-openai-2026-07-07.md]
 confidence: medium
 links:
-  - [[openai]] — OpenAI: GPT-4, GPT-5, o-series models
-  - [[enterprise-ai]] — Enterprise AI adoption and deployment
-  - [[ai-hardware]] — AI-optimized hardware and device integration
----
-
-# HP Inc. × OpenAI — Frontier Strategic Partnership
+  - [[entities/openai]] — OpenAI: GPT-4, GPT-5, o-series models
+  - [[comparisons/ai]] — Enterprise AI adoption and deployment
+  - [[comparisons/ai]] — AI-optimized hardware and device integration
+---# HP Inc. × OpenAI — Frontier Strategic Partnership
 
 ## Overview
 
@@ -33,9 +31,9 @@ This partnership represents a significant step in the integration of frontier AI
 
 ## Related Concepts
 
-- [[enterprise-ai]] — Enterprise AI adoption and deployment strategies
-- [[ai-hardware]] — AI-optimized hardware and device ecosystems
-- [[edge-ai]] — On-device AI inference and optimization
+- [[comparisons/ai]] — Enterprise AI adoption and deployment strategies
+- [[comparisons/ai]] — AI-optimized hardware and device ecosystems
+- [[comparisons/ai]] — On-device AI inference and optimization
 
 ## Source
 

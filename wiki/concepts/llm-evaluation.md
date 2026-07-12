@@ -8,9 +8,7 @@ tags: [llm-benchmarks, evaluation, helk, mmlu, mt-bench, truthfulqa, safety, rob
 sources: [raw/articles/llm-evaluation-benchmarks-2026.md]
 confidence: high
 links: [llm-fine-tuning, open-source-llm-models]
----
-
-# LLM Evaluation
+---# LLM Evaluation
 
 Systematic evaluation of LLMs across multiple dimensions: accuracy, safety, fairness, robustness, calibration, efficiency, and alignment.
 
@@ -46,4 +44,4 @@ Systematic evaluation of LLMs across multiple dimensions: accuracy, safety, fair
 ## Key References
 
 - [[llm-fine-tuning]] — Evaluate fine-tuned models
-- [[open-source-llm-models]] — Model benchmark comparisons
+- [[concepts/open-source-llm-models]] — Model benchmark comparisons

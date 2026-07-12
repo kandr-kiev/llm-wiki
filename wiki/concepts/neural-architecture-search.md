@@ -9,9 +9,7 @@ sources: [raw/articles/neural-architecture-search-2026-07-07.md]
 confidence: high
 contested: false
 links: [train-large-neural-networks]
----
-
-# Neural Architecture Search
+---# Neural Architecture Search
 
 ## Overview
 
@@ -65,4 +63,4 @@ NAS has been applied to:
 
 ## Related Pages
 
-- [[train-large-neural-networks]] — Training considerations for large architectures
+- [[comparisons/ai]] — Training considerations for large architectures

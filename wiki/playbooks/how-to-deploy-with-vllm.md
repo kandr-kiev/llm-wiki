@@ -8,9 +8,7 @@ tags: [playbook, deployment, vllm, reference, configuration]
 sources: [raw/articles/train-large-neural-networks-2026-07-07.md]
 confidence: high
 links: [how-to-fine-tune-llm-lora-qlora-dpo, how-to-use-rag, llm-serving-comparison]
----
-
-# How to Deploy with vLLM — Production LLM Serving
+---# How to Deploy with vLLM — Production LLM Serving
 
 Actionable runbook for deploying vLLM as a production inference engine. Covers single-GPU, multi-GPU, Docker, Kubernetes, and monitoring.
 

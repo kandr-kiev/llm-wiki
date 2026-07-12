@@ -10,17 +10,6 @@ type: concept
 updated: 2026-07-08
 
 ---
---
-type: Entity
-title: "{{title}}"
-description: "{{description}}"
-tags: [entity]
-confidence: verified
-links: []
-timestamp: "{{timestamp}}"
-resource: "{{resource}}"
-language: uk---
-
 # {{title}}
 
 ## Огляд

@@ -9,9 +9,7 @@ sources: [raw/articles/diffusion-models-2026-07-07.md]
 confidence: high
 contested: false
 links: [remaking-old-computer-graphics-with-ai-image-generation, the-illustrated-stable-diffusion]
----
-
-# Diffusion Models
+---# Diffusion Models
 
 ## Overview
 
@@ -68,4 +66,4 @@ This reduces the diffusion dimensionality from pixels (e.g., 512×512×3) to lat
 ## Related Pages
 
 - [[the-illustrated-stable-diffusion]] — Visual guide to Stable Diffusion architecture
-- [[remaking-old-computer-graphics-with-ai-image-generation]] — Practical applications of AI image generation
+- [[comparisons/ai]] — Practical applications of AI image generation

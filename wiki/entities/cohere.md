@@ -10,10 +10,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, enterprise-ai, openai, anthropic, deepmind]
 
----
-
-
-# Cohere
+---# Cohere
 
 ## Overview
 
@@ -111,12 +108,12 @@ Cohere is **selectively open**:
 - **Enterprise focus** — Critics argue enterprise focus limits accessibility
 
 ## See Also
-- [[openai]]
-- [[anthropic]]
-- [[deepmind]]
-- [[meta-ai]]
-- [[qwen]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]
+- [[entities/qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[enterprise-ai]]
+- [[comparisons/ai]]

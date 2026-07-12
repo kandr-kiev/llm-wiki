@@ -9,8 +9,7 @@ sources: [raw/articles/ai-agent-frameworks-2026.md]
 confidence: high
 contested: false
 links: [model-context-protocol, ai-coding-assistants, local-llm-hardware]
----
-# AI Agent Frameworks
+---# AI Agent Frameworks
 
 AI agent frameworks are software development kits (SDKs) that simplify building applications powered by LLMs. They provide structured approaches to creating "agents" — autonomous programs that can understand tasks, make decisions, and use tools to achieve goals.
 
@@ -61,6 +60,6 @@ Agents participate in group chats with defined speaking orders and termination c
 ## Related Pages
 
 - [[model-context-protocol]] — MCP as standard protocol for agent tool integration
-- [[ai-coding-assistants]] — AI coding assistants as specialized agent applications
-- [[local-llm-hardware]] — Hardware requirements for local agent inference
-- [[llm-wiki]] — LLM Wiki as knowledge base for agent decision-making
+- [[comparisons/ai]] — AI coding assistants as specialized agent applications
+- [[concepts/local-llm-hardware]] — Hardware requirements for local agent inference
+- [[concepts/karpathy-llm-wiki-2026]] — LLM Wiki as knowledge base for agent decision-making

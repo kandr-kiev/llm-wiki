@@ -10,7 +10,6 @@ confidence: high
 contested: false
 links: [advanced-rag-techniques, llm-fine-tuning]
 ---
-
 # LLM Evaluation Benchmarks and Metrics 2026
 
 > **Source:** [llm-evaluation-benchmarks-2026.md](https://responsibleailabs.ai/knowledge-hub/articles/llm-evaluation-benchmarks-2025)
@@ -128,7 +127,7 @@ As of April 2026, GLM-5.1 leads SWE-Bench Pro at 58.4%.
 ## Related Wiki Pages
 
 - [[llm-fine-tuning]] — Evaluate fine-tuned models
-- [[llm-landscape-2026-synthesis]] — Model landscape overview
+- [[synthesis/llm-landscape-2026-synthesis]] — Model landscape overview
 
 ---
 

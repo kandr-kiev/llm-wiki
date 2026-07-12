@@ -9,9 +9,7 @@ sources: [raw/articles/controllable-neural-text-generation-2026-07-07.md]
 confidence: high
 contested: false
 links: [open-domain-question-answering, prompt-engineering-techniques]
----
-
-# Controllable Neural Text Generation
+---# Controllable Neural Text Generation
 
 ## Overview
 
@@ -66,5 +64,5 @@ Retrieve relevant examples and use them to guide generation, ensuring topical re
 
 ## Related Pages
 
-- [[open-domain-question-answering]] — QA systems requiring controlled factual responses
+- [[comparisons/ai]] — QA systems requiring controlled factual responses
 - [[prompt-engineering-techniques]] — Prompt-based control methods

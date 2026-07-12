@@ -9,9 +9,7 @@ sources: [raw/articles/previewing-gpt-56-sol-a-next-generation-model-2026-07-07.
 confidence: high
 contested: false
 links: [openai-and-broadcom-unveil-llm-optimized-inference-chip, how-agents-are-transforming-work]
----
-
-# GPT-5.6 Sol
+---# GPT-5.6 Sol
 
 ## Overview
 
@@ -38,5 +36,5 @@ GPT-5.6 Sol is OpenAI's next-generation language model, building on the GPT-5 fa
 
 ## Related Pages
 
-- [[openai-and-broadcom-unveil-llm-optimized-inference-chip-2026-07-07]] — Custom inference hardware
-- [[how-agents-are-transforming-work-2026-07-07]] — Enterprise agent adoption
+- [[comparisons/ai]] — Custom inference hardware
+- [[comparisons/agents]] — Enterprise agent adoption

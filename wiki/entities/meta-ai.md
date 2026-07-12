@@ -9,10 +9,7 @@ tags: [llm-wiki, company, open-source-llm]
 sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, open-source-llm, openai, anthropic]
----
-
-
-# Meta AI (Facebook)
+---# Meta AI (Facebook)
 
 ## Overview
 
@@ -124,12 +121,12 @@ Meta is the **leading advocate for open-weight AI**:
 
 ## See Also
 
-- [[openai]]
-- [[anthropic]]
-- [[deepmind]]
-- [[mistral-ai]]
-- [[qwen]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]
+- [[entities/qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[enterprise-ai]]
+- [[comparisons/ai]]

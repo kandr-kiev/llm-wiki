@@ -9,7 +9,6 @@ sources: [raw/articles/ai-coding-assistants-2026.md]
 confidence: high
 links: []
 ---
-
 # Best AI Coding Assistants as of March 2026
 
 > **Source:** [ai-coding-assistants-2026.md](https://www.shakudo.io/blog/best-ai-coding-assistants)

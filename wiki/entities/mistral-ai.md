@@ -10,10 +10,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, open-source-llm, meta, openai, qwen]
 
----
-
-
-# Mistral AI
+---# Mistral AI
 
 ## Overview
 
@@ -110,12 +107,12 @@ Mistral is **strongly committed to open-weight**:
 - **Open-weight safety** — Debate on open-weight model safety implications
 
 ## See Also
-- [[openai]]
-- [[anthropic]]
-- [[meta-ai]]
-- [[deepmind]]
-- [[qwen]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[comparisons/ai]]
+- [[entities/deepmind]]
+- [[entities/qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[enterprise-ai]]
+- [[comparisons/ai]]

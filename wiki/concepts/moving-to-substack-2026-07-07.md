@@ -9,7 +9,6 @@ sources: [raw/articles/moving-to-substack-2026-07-07.md]
 confidence: medium
 links: []
 ---
-
 # Moving To Substack 2026 07 07
 
 > **Source:** [moving-to-substack-2026-07-07.md](http://jalammar.github.io/moving_to_substack/)

@@ -9,9 +9,7 @@ sources: [raw/articles/active-learning-2026-07-07.md]
 confidence: high
 contested: false
 links: [semi-supervised-learning, contrastive-representation-learning]
----
-
-# Active Learning
+---# Active Learning
 
 ## Overview
 
@@ -43,5 +41,5 @@ Active learning remains relevant for:
 
 ## Related Pages
 
-- [[semi-supervised-learning]] — Broader context of using unlabeled data
-- [[contrastive-representation-learning]] — Representation learning that benefits from efficient data curation
+- [[concepts/semi-supervised-learning]] — Broader context of using unlabeled data
+- [[concepts/contrastive-representation-learning]] — Representation learning that benefits from efficient data curation

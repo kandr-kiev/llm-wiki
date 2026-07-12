@@ -9,8 +9,7 @@ sources: [raw/articles/ai-coding-assistants-2026.md]
 confidence: high
 contested: false
 links: [ai-agent-frameworks, local-llm-hardware]
----
-# AI Coding Assistants Landscape
+---# AI Coding Assistants Landscape
 
 The AI coding assistant landscape has evolved from simple autocomplete to agentic development tools as of July 2026.
 
@@ -35,9 +34,9 @@ Karpathy's concept — describe intent in natural language, let AI implement —
 
 ## Underlying Infrastructure
 
-Most coding assistants are built on top of the same [[ai-agent-frameworks]] that power broader agentic systems: LangChain/LangGraph, CrewAI, AutoGen.
+Most coding assistants are built on top of the same [[comparisons/ai]] that power broader agentic systems: LangChain/LangGraph, CrewAI, AutoGen.
 
 ## Related Pages
 
-- [[ai-agent-frameworks]] — Agent frameworks powering these tools
-- [[local-llm-hardware]] — Hardware requirements for local assistant inference
+- [[comparisons/ai]] — Agent frameworks powering these tools
+- [[concepts/local-llm-hardware]] — Hardware requirements for local assistant inference

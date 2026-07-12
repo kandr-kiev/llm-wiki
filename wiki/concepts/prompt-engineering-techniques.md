@@ -8,9 +8,7 @@ tags: [prompt-engineering, cot, tot, self-consistency, in-context-learning, zero
 sources: [raw/articles/advanced-prompt-engineering-2026.md]
 confidence: high
 links: [advanced-rag-techniques]
----
-
-# Prompt Engineering Techniques
+---# Prompt Engineering Techniques
 
 Systematic methods for eliciting desired LLM behavior through carefully crafted inputs, without modifying model parameters.
 

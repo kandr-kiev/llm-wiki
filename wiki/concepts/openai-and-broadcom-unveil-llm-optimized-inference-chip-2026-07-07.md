@@ -10,7 +10,6 @@ confidence: low
 contested: false
 links: [[advanced-rag-techniques-2026], [course-ai-agents-software-engineer-future-skills-2026], [helping-build-shared-standards-for-advanced-ai-2026-07-07], [llm-fine-tuning-lora-qlora-dpo-2026], [open-source-llm-landscape-2026]]
 ---
-
 # Openai And Broadcom Unveil Llm Optimized Inference Chip 2026 07 07
 
 > **Source:** [openai-and-broadcom-unveil-llm-optimized-inference-chip-2026-07-07.md](https://openai.com/index/openai-broadcom-jalapeno-inference-chip)

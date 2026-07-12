@@ -8,9 +8,7 @@ tags: [playbook, local-llm-hardware, reference, automation, llama]
 sources: [raw/articles/llm-quantization-gguf-gptq-awq.md, raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-quantization, local-llm-hardware, open-source-llm-models]
----
-
-# How to Deploy a Local LLM — Step-by-Step
+---# How to Deploy a Local LLM — Step-by-Step
 
 Actionable runbook for deploying quantized LLMs locally on consumer or server hardware.
 
@@ -308,5 +306,5 @@ docker run -p 8000:8000 --gpus all local-llm
 ## Key References
 
 - `[[llm-quantization]]` — GGUF, GPTQ, AWQ methods
-- `[[local-llm-hardware]]` — Hardware requirements
-- `[[open-source-llm-models]]` — Available model families
+- `[[concepts/local-llm-hardware]]` — Hardware requirements
+- `[[concepts/open-source-llm-models]]` — Available model families

@@ -9,9 +9,7 @@ sources: [raw/articles/rtx-5070-ti-build-reference.md]
 confidence: high
 contested: false
 links: [local-llm-hardware, llm-wiki]
----
-
-# RTX 5070 Ti
+---# RTX 5070 Ti
 
 NVIDIA GeForce RTX 5070 Ti — відеокарта на архітектурі **NVIDIA Blackwell** з **16 GB GDDR7** пам'яті. Позиціонується як оптимальний вибір для AI-інференсу локальних LLM та геймінгу в 1440p.
 

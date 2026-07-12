@@ -8,9 +8,7 @@ tags: [playbook, prompt-engineering, reference, automation]
 sources: [raw/articles/advanced-prompt-engineering-2026.md]
 confidence: high
 links: [prompt-engineering-techniques, open-source-llm-models, llm-evaluation]
----
-
-# How to Engineer Prompts — Step-by-Step
+---# How to Engineer Prompts — Step-by-Step
 
 Actionable runbook for systematic prompt engineering: structure, techniques, testing, and optimization.
 
@@ -279,5 +277,5 @@ explain why it helps and provide the revised prompt.
 ## Key References
 
 - `[[prompt-engineering-techniques]]` — 58+ prompt techniques catalog
-- `[[open-source-llm-models]]` — Available model families
+- `[[concepts/open-source-llm-models]]` — Available model families
 - `[[llm-evaluation]]` — Evaluation methodology

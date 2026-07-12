@@ -8,9 +8,7 @@ tags: [playbook, automation, reference, configuration]
 sources: [raw/articles/ai-coding-assistants-2026.md]
 confidence: high
 links: [ai-agent-frameworks, hermes-agent]
----
-
-# How to Choose & Deploy AI Coding Assistants
+---# How to Choose & Deploy AI Coding Assistants
 
 Actionable runbook for selecting and deploying AI coding assistants in 2026. Covers commercial, open-source, and agentic options.
 
@@ -244,8 +242,8 @@ docker run -p 3000:3000 tabnine/tabnine-enterprise:latest
 
 ## Key References
 
-- `[[ai-agent-frameworks]]` — Frameworks that power coding agents
-- `[[model-context-protocol-intro-architecture]]` — Hermes Agent as a coding assistant
+- `[[comparisons/ai]]` — Frameworks that power coding agents
+- `[[concepts/model-context-protocol-intro-architecture]]` — Hermes Agent as a coding assistant
 - GitHub Copilot: https://github.com/features/copilot
 - Cursor: https://cursor.com
 - Claude Code: https://anthropic.com/claude-code

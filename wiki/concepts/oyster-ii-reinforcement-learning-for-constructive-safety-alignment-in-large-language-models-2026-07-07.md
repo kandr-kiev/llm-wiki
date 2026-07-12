@@ -10,7 +10,6 @@ confidence: high
 contested: false
 links: [[advanced-rag-techniques-2026], [advanced-rag-techniques-2026_1], [course-ai-agents-software-engineer-future-skills-2026], [course-ai-agents-software-engineer-future-skills-2026_1], [helping-build-shared-standards-for-advanced-ai-2026-07-07]]
 ---
-
 # Oyster Ii Reinforcement Learning For Constructive Safety Alignment In Large Language Models
 
 > **Source:** [oyster-ii-reinforcement-learning-for-constructive-safety-alignment-in-large-language-models-2026-07-07.md](https://arxiv.org/abs/2607.02914)

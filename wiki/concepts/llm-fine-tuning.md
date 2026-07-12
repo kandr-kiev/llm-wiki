@@ -8,9 +8,7 @@ tags: [fine-tuning, lora, qlora, dpo, peft, sft, rlhf]
 sources: [raw/articles/llm-fine-tuning-lora-qlora-dpo-2026.md]
 confidence: high
 links: [llm-quantization, advanced-rag-techniques, open-source-llm-models]
----
-
-# LLM Fine-Tuning
+---# LLM Fine-Tuning
 
 Parameter-efficient and full fine-tuning methods for adapting pre-trained LLMs to specific domains and tasks.
 
@@ -45,4 +43,4 @@ Fine-tuning adapts a pre-trained LLM to specific needs by continuing training on
 - [[llm-fine-tuning]] — Detailed techniques guide
 - [[llm-quantization]] — Quantization for deployment
 - [[advanced-rag-techniques]] — RAG as alternative to fine-tuning
-- [[open-source-llm-models]] — Base model selection
+- [[concepts/open-source-llm-models]] — Base model selection

@@ -10,16 +10,6 @@ type: concept
 updated: 2026-07-08
 
 ---
---
-type: Concept
-title: "{{title}}"
-description: "{{description}}"
-tags: [concept]
-confidence: verified
-links: []
-timestamp: "{{timestamp}}"
-language: uk---
-
 # {{title}}
 
 ## Визначення

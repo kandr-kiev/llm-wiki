@@ -10,10 +10,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, openai, deepmind, mistral]
 
----
-
-
-# Anthropic
+---# Anthropic
 
 ## Overview
 
@@ -130,12 +127,12 @@ Anthropic is **partially open**:
 - **Competition with open-source** — closed models vs open-weight debate
 
 ## See Also
-- [[openai]]
-- [[meta-ai]]
-- [[deepmind]]
-- [[mistral-ai]]
-- [[qwen]]
+- [[entities/openai]]
+- [[comparisons/ai]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]
+- [[entities/qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[enterprise-ai]]
+- [[comparisons/ai]]

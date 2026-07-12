@@ -8,12 +8,10 @@ tags: [genebench-pro, genomics, ai-benchmark, bioinformatics, drug-discovery, op
 sources: [raw/articles/inside-genebench-pro-2026-07-07.md]
 confidence: medium
 links:
-  - [[ai-benchmarks]] — AI model evaluation benchmarks
-  - [[bioinformatics]] — Bioinformatics and computational biology
-  - [[drug-discovery]] — AI in drug discovery and development
----
-
-# GeneBench Pro — AI Benchmark for Genomic AI
+  - [[comparisons/ai]] — AI model evaluation benchmarks
+  - [[entities/bioinformatics]] — Bioinformatics and computational biology
+  - [[entities/drug-discovery]] — AI in drug discovery and development
+---# GeneBench Pro — AI Benchmark for Genomic AI
 
 ## Overview
 
@@ -33,9 +31,9 @@ GeneBench Pro represents a significant step toward standardized evaluation of AI
 
 ## Related Concepts
 
-- [[ai-benchmarks]] — AI model evaluation benchmarks and evaluation frameworks
-- [[bioinformatics]] — Bioinformatics and computational biology
-- [[drug-discovery]] — AI applications in drug discovery
+- [[comparisons/ai]] — AI model evaluation benchmarks and evaluation frameworks
+- [[entities/bioinformatics]] — Bioinformatics and computational biology
+- [[entities/drug-discovery]] — AI applications in drug discovery
 
 ## Source
 

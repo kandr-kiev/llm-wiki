@@ -8,9 +8,7 @@ tags: [llm-wiki, company, model, open-source-llm]
 sources: []
 confidence: high
 links: [llm-wiki, qwen, deepmind, anthropic]
----
-
-# MiniMax
+---# MiniMax
 
 ## Overview
 
@@ -86,8 +84,8 @@ MiniMax is **selectively open**:
 
 ## See Also
 
-- [[openai]]
-- [[anthropic]]
-- [[qwen]]
-- [[deepmind]]
-- [[enterprise-ai]]
+- [[entities/openai]]
+- [[entities/anthropic]]
+- [[entities/qwen]]
+- [[entities/deepmind]]
+- [[comparisons/ai]]

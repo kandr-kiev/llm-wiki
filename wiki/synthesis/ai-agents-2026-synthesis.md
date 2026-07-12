@@ -8,9 +8,7 @@ tags: [synthesis, agent-workflow, automation, architecture, orchestration, mcp, 
 sources: [raw/articles/ai-agent-frameworks-2026.md, raw/articles/how-agents-are-transforming-work-2026-07-07.md, raw/articles/swarmresearch-orchestrating-coding-agents-for-open-ended-discovery-2026-07-07.md, raw/articles/content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07.md, raw/articles/ask-in-the-dark-uncertainty-gated-llm-assistance-under-partial-observability-2026-07-07.md, raw/articles/model-context-protocol-intro-architecture.md]
 confidence: high
 links: [ai-agent-frameworks, model-context-protocol, ai-coding-assistants, enterprise-ai, openai, anthropic]
----
-
-# AI Agents 2026 — Multi-Source Synthesis
+---# AI Agents 2026 — Multi-Source Synthesis
 
 Integrated analysis combining 6+ sources to provide a comprehensive view of the AI agent ecosystem as of mid-2026.
 
