@@ -1,0 +1,278 @@
+/* Minimal Dark Theme for LLM Wiki */
+/* Based on Minimal theme concepts */
+
+:root {
+  /* Colors */
+  --background-primary: #1a1a2e;
+  --background-secondary: #16213e;
+  --background-tertiary: #0f3460;
+  --text-normal: #e8e8e8;
+  --text-muted: #a0a0a0;
+  --text-faint: #666;
+  --text-title-h1: #ffffff;
+  --text-title-h2: #e0e0e0;
+  --text-title-h3: #d0d0d0;
+  --text-link: #7aa2f7;
+  --text-link-hover: #9ec5ff;
+  --interactive-normal: #555;
+  --interactive-hover: #777;
+  --interactive-accent: #7aa2f7;
+  --interactive-accent-hover: #9ec5ff;
+  --border-color: #333;
+  --blockquote-border: #7aa2f7;
+  --code-background: #1a1a2e;
+  --table-border: #333;
+  --hr-color: #333;
+  
+  /* Spacing */
+  --size-2-1: 0.25rem;
+  --size-2-2: 0.5rem;
+  --size-2-3: 0.75rem;
+  --size-4-1: 1rem;
+  --size-4-2: 1.5rem;
+  --size-4-3: 2rem;
+  --size-4-4: 3rem;
+  --size-4-5: 4rem;
+  --size-4-6: 6rem;
+  --size-4-7: 8rem;
+  
+  /* Typography */
+  --font-text: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", Consolas, monospace;
+  --font-size-small: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-large: 1.125rem;
+  --line-height-tight: 1.4;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
+  
+  /* Width */
+  --file-line-width: 800px;
+  --file-line-width-reading: 800px;
+  
+  /* Shadows */
+  --shadow-s: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-m: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --shadow-l: 0 10px 15px rgba(0, 0, 0, 0.5);
+  
+  /* Radius */
+  --radius-s: 4px;
+  --radius-m: 8px;
+  --radius-l: 12px;
+}
+
+/* Base */
+body {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  font-family: var(--font-text);
+  line-height: var(--line-height-normal);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-title-h1);
+  font-weight: 600;
+  line-height: var(--line-height-tight);
+}
+
+h1 { font-size: 2.25rem; border-bottom: 1px solid var(--hr-color); padding-bottom: 0.5rem; }
+h2 { font-size: 1.75rem; margin-top: 2.5rem; }
+h3 { font-size: 1.375rem; margin-top: 2rem; }
+h4 { font-size: 1.125rem; margin-top: 1.5rem; }
+
+/* Links */
+a, .internal-link {
+  color: var(--text-link);
+  text-decoration: none;
+}
+a:hover, .internal-link:hover {
+  color: var(--text-link-hover);
+  text-decoration: underline;
+}
+
+/* Code */
+code {
+  font-family: var(--font-mono);
+  background-color: var(--code-background);
+  padding: 0.125rem 0.375rem;
+  border-radius: var(--radius-s);
+  font-size: 0.9em;
+}
+
+pre {
+  background-color: var(--code-background);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-m);
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  font-size: 0.875rem;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid var(--blockquote-border);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+th, td {
+  border: 1px solid var(--table-border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: var(--background-secondary);
+  font-weight: 600;
+}
+
+tr:nth-child(even) td {
+  background-color: var(--background-secondary);
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid var(--hr-color);
+  margin: 2rem 0;
+}
+
+/* Frontmatter */
+.frontmatter-container {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-m);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.frontmatter-container .frontmatter-key {
+  color: var(--text-muted);
+}
+
+.frontmatter-container .frontmatter-value {
+  color: var(--text-normal);
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  background-color: var(--background-tertiary);
+  color: var(--text-link);
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--radius-s);
+  font-size: 0.75rem;
+  margin-right: 0.375rem;
+  margin-bottom: 0.375rem;
+}
+
+/* Callouts (Obsidian style) */
+.callout {
+  border-left: 3px solid var(--blockquote-border);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0 var(--radius-m) var(--radius-m) 0;
+  background-color: var(--background-secondary);
+}
+
+.callout-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Graph view improvements */
+.graph-view {
+  background-color: var(--background-primary);
+}
+
+/* File explorer */
+.nav-file-title {
+  color: var(--text-normal);
+}
+
+.nav-file-title:hover {
+  color: var(--text-link);
+}
+
+/* Sidebar */
+.side-dock-ribbon {
+  background-color: var(--background-secondary);
+  border-right: 1px solid var(--border-color);
+}
+
+/* Status bar */
+.status-bar {
+  background-color: var(--background-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+/* Search */
+.search-result-file-matched-text {
+  background-color: rgba(122, 162, 247, 0.2);
+}
+
+/* Checkboxes */
+.task-list-item-checkbox {
+  margin-right: 0.5rem;
+  width: 1.125rem;
+  height: 1.125rem;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: var(--radius-m);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--interactive-normal);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--interactive-hover);
+}
+
+/* Focus */
+*:focus-visible {
+  outline: 2px solid var(--interactive-accent);
+  outline-offset: 2px;
+}
+
+/* Print */
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+}

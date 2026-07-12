@@ -1,0 +1,15 @@
+{
+  "renderNullAs": "\\-",
+  "taskManagement": {
+    "enabled": true,
+    "ignore": []
+  },
+  "query": {
+    "syntax": "v1"
+  },
+  "view": {
+    "showResultsAsList": true,
+    "showBacklinksInAccordion": false,
+    "hideFieldAfterQuery": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "commitMessage": "wiki: {{date:YYYY-MM-DD}} {{time:HH:mm}}",
+  "commitDateFormat": "YYYY-MM-DD HH:mm",
+  "autoSaveInterval": 300,
+  "autoPushInterval": 3600,
+  "pullOnStartup": false,
+  "modifiedFilesPath": ""
+}

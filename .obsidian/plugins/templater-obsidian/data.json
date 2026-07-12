@@ -1,0 +1,27 @@
+{
+  "command_folder_title": "",
+  "command_folder_enabled": true,
+  "user_functions": "",
+  "template_folder": ".obsidian/templates",
+  "command_created": "",
+  "triggers": {
+    "file_explorer_entry_creation": false,
+    "quick_add": false,
+    "ribbon_trigger": false,
+    "scheduled_trigger": false
+  },
+  "event_triggers_list": {
+    "creation": false,
+    "move": false,
+    "save": false,
+    "daily_note": true
+  },
+  "scheduled_trigger_interval": 60,
+  "custom_templates_folder": ".obsidian/templates",
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": true,
+  "syntax_highlighting_theme": "Obsidian",
+  "map_keys": {
+    "insert_template": ""
+  }
+}

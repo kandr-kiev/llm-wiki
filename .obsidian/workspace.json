@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "outputs/lint-report.md",
+                "file": "wiki/comparisons/advanced-prompt-engineering-techniques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lint-report"
+              "title": "advanced-prompt-engineering-techniques"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Файловий менеджер"
@@ -182,7 +182,32 @@
   },
   "active": "67935e76ae99f386",
   "lastOpenFiles": [
-    "wiki/playbooks/how-to-build-ai-agents.md",
-    "wiki/index.md"
+    "wiki/comparisons/інтеграція-graphify-з-llm-wiki-стратегія-теорія-техніка-рекомендації.md",
+    "wiki/comparisons/інструкція-для-master-legacy.md",
+    "wiki/comparisons/інструкція-для-агента-монті-збір-інформації-для-llm-wiki.md",
+    "wiki/comparisons/збірка-rtx-фінальна-оцінка.md",
+    "wiki/comparisons/12-advanced-rag-techniques-beyond-naive-retrieval.md",
+    "raw/articles/contrastive-representation-learning-2026-07-10.md",
+    "Без назви.base",
+    "index.md",
+    "2026-07-12.md",
+    "log.md",
+    "wiki/log.md",
+    "raw/articles/curve-circuits-2026-07-11.md",
+    "raw/articles/visualizing-weights-2026-07-11.md",
+    "raw/articles/self-organising-textures-2026-07-11.md",
+    "raw/articles/multimodal-neurons-in-artificial-neural-networks-2026-07-11.md",
+    "raw/articles/branch-specialization-2026-07-11.md",
+    "raw/articles/weight-banding-2026-07-11.md",
+    "raw/articles/adversarial-reprogramming-of-neural-cellular-automata-2026-07-11.md",
+    "raw/articles/distill-hiatus-2026-07-11.md",
+    "raw/articles/a-gentle-introduction-to-graph-neural-networks-2026-07-11.md",
+    "raw/articles/understanding-convolutions-on-graphs-2026-07-11.md",
+    "raw/articles/the-latest-ai-news-we-announced-in-may-2026-2026-07-11.md",
+    "raw/articles/our-new-community-investments-in-virginia-support-local-jobs-and-expand-energy-affordability-2026-07-11.md",
+    "raw/articles/were-strengthening-our-presence-in-alabama-through-new-investments-and-community-support-2026-07-11.md",
+    "raw/articles/new-research-shows-how-amie-our-medical-ai-could-help-manage-health-conditions-2026-07-11.md",
+    "raw/articles/our-latest-google-finance-upgrades-including-a-new-app-2026-07-11.md",
+    "raw/articles/ask-an-ai-expert-what-exactly-is-the-full-stack-2026-07-11.md"
   ]
 }
