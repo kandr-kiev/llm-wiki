@@ -41,10 +41,8 @@ DB_FILE = ROOT / ".processed" / "github_releases.txt"
 # GitHub repos to monitor - AI/ML focused
 REPOS = [
     "openai/whisper",
-    "openai/clip",
     "google-deepmind/gemma",
     "google-deepmind/alphafold",
-    "meta-llama/llama",
     "meta-llama/llama3",
     "meta-llama/llama-models",
     "mistralai/mistral-src",
