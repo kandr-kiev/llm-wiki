@@ -20,6 +20,8 @@ def main():
     issues = []
     wiki_pages = [p for p in (ROOT / "wiki").rglob("*.md") if p.name not in RESERVED_NAMES and p.parent.name not in ("templates", "comparisons")]
     slugs = {slug_for(p): p for p in wiki_pages}
+    # Add comparison slugs for wikilink validation (comparisons excluded from wiki_pages lint but valid link targets)
+    comparison_slugs = {p.stem for p in (ROOT / "wiki" / "comparisons").rglob("*.md")}
     index_text = (ROOT / "wiki" / "index.md").read_text(encoding="utf-8") if (ROOT / "wiki" / "index.md").exists() else ""
 
     for page in wiki_pages:
@@ -52,7 +54,9 @@ def main():
         # Then strip remaining HTML tags
         clean_body = re.sub(r'<[^>]+>', ' ', clean_body)
         for link in re.findall(r"\[\[([^\]|#]+)", clean_body):
-            if link not in slugs:
+            # Extract stem from link (handles both "slug" and "dir/slug" formats)
+            link_stem = link.split('/')[-1]
+            if link_stem not in slugs and link_stem not in comparison_slugs:
                 issues.append(("ERROR", str(rel), f"broken wikilink: [[{link}]]"))
         # Check that source files actually exist
         sources = data.get("sources", [])

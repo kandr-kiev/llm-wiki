@@ -52,3 +52,11 @@ Phase 4 Architecture Documentation completed on 2026-07-09: created `docs/ARCHIT
 Phase 5 Schema & Documentation completed on 2026-07-10: created `SCHEMA.md` (184 tags, 8 categories), consolidated documentation into `docs/` directory, renamed agent contract to `AGENT.md`, streamlined `CLAUDE.md` out of root.
 
 Phase 6 Tag Sync completed on 2026-07-10: tag taxonomy synced across `SCHEMA.md` and `wiki_lint.py`, auto-tagged 101 pages, fixed `audit-report` frontmatter drift.
+
+Phase 7 Central Utilities completed on 2026-07-11: `tools/utils.py` created — single source of truth for hashes, frontmatter, tags, statuses. `check_new_raw.py` and `verify_hashes.py` converted to `utils.check_raw_integrity()`. 158 false-positive MISMATCH fixed. `fix_sha256.py` updated 158 files. `rglob('**/*.md')` replaces `glob('*.md')` for recursive scanning. `APPROVED_TAGS` (262 tags) unified in `utils.py`. `wiki_lint.py` depends on `utils.*`.
+
+Phase 8 Wiki Doctor completed on 2026-07-12: `tools/wiki_doctor.py` — 6-layer diagnostic system with auto-cure (875 lines). Fixes broken wikilinks, frontmatter drift, SHA256 mismatches, duplicate detection.
+
+Phase 9 Git Corrections completed on 2026-07-13: `wiki/comparisons/` (280 files) added to git — these are synthesized pages, not cache. `.obsidian/workspace.json` and `outputs/` removed from git. `.gitignore` updated. `.processed/` layer documented. Architecture diagram rebuilt with all layers.
+
+Phase 10 Final Documentation completed on 2026-07-13: All documentation updated to current state — README.md, AGENT.md, ALGORITHM.md, ARCHITECTURE.md, .gitignore. System: 417 wiki pages, 703 raw sources, 15 tools, 1074 files tracked in git.

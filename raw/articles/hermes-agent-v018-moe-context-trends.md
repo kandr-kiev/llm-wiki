@@ -1,3 +1,13 @@
+---
+title: "Hermes Agent v0.18.0 Deep Dive & 2026 Trends (MoE, Context)"
+type: raw
+category: articles
+tags: [hermes-agent, moe, context-window, local-llm, trends]
+created: 2026-07-12
+updated: 2026-07-12
+sha256: 38e28c084dc883a4e0e35477f6d559b621bf799dccebe4dde782871d2f376c2f
+---
+
 # Hermes Agent v0.18.0 Deep Dive & 2026 Trends (MoE, Context)
 
 ## Hermes Agent v0.18.0 "Judgment Release"

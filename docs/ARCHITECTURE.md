@@ -1,7 +1,7 @@
 # Local LLM Wiki — Повна архітектурна документація
 
-> **Дата останнього оновлення:** 2026-07-11
-> **Версія системи:** 5.0.0
+> **Дата останнього оновлення:** 2026-07-13
+> **Версія системи:** 6.0.0
 > **Статус:** Production
 
 ---
@@ -43,11 +43,17 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
-│                    ШАР 1: СИРІ ДЖЕРЕЛА (Immutable)                   │
+│                 ШАР 1: СИРІ ДЖЕРЕЛА (Immutable)                     │
 │  raw/articles/  raw/papers/  raw/transcripts/  raw/assets/          │
 │  → Ніколи не редагуються після збереження                            │
 └─────────────────────────────────────────────────────────────────────┘
                               ↓ сканування
+┌─────────────────────────────────────────────────────────────────────┐
+│               ШАР 1.5: ПРОМІЖНИЙ КЕШ (.processed/)                   │
+│  HTML→MD конверсія, 14 файлів, НЕ в git                             │
+│  → Проміжна ланка між raw/ і wiki/                                   │
+└─────────────────────────────────────────────────────────────────────┘
+                              ↓ інтеграція
 ┌─────────────────────────────────────────────────────────────────────┐
 │                    ШАР 2: СИНТЕЗ (Mutable)                           │
 │  wiki/concepts/  wiki/entities/  wiki/comparisons/                   │
@@ -465,12 +471,86 @@
     └─ Exit 0 (завжди, навіть при проблемах — не блокує пайплайн)
 ```
 
+|| **Категорії проблем:**
+| Критичність | Типи проблем |
+|-------------|-------------|
+| **Critical** | Відсутній frontmatter, відсутні required fields, брукен-лінки |
+| **Warning** | SHA256-дрейф, теги не з таксономії, >200 рядків |
+| **Info** | confidence: low, contested: true |
+
+### 3.18 `tools/wiki_doctor.py` — 6-layer diagnostic & auto-cure
+
+**Роль:** Повна діагностика та авто-лікування wiki: брукен-лінки, frontmatter-дрейф, SHA256-дрейф, дублікати, невалідні теги, порожні сторінки.
+
+**Алгоритм виконання:**
+
+```
+1. LAYER 1: Broken Wikilinks
+   ├─ Regex: \[\[([^\]|#]+)
+   ├─ Для кожного wikilink: перевірка існування slug
+   ├─ Auto-fix: замінити на існуючий slug або видалити
+   └─ Report: {broken_count, fixed_count, removed_count}
+
+2. LAYER 2: Frontmatter Drift
+   ├─ Для кожного файлу wiki/**/*.md:
+   │   ├─ parse frontmatter
+   │   ├─ check required fields (type, title, created, updated, tags, sources)
+   │   ├─ check type is in VALID_TYPES
+   │   └─ Auto-fix: add missing fields with defaults
+   └─ Report: {drifted_count, fixed_count}
+
+3. LAYER 3: SHA256 Drift
+   ├─ Для кожного файлу wiki/**/*.md:
+   │   ├─ compute sha256(body)
+   │   ├─ compare with stored sha256
+   │   └─ Auto-fix: update stored sha256
+   └─ Report: {drifted_count, fixed_count}
+
+4. LAYER 4: Duplicate Detection
+   ├─ SCAN wiki/**/*.md
+   ├─ Group by base name (strip _N suffixes)
+   ├─ Flag groups with >1 file
+   └─ Report: {duplicate_groups, total_duplicates}
+
+5. LAYER 5: Invalid Tags
+   ├─ Для кожного файлу: extract tags
+   ├─ Compare with SCHEMA.md taxonomy
+   ├─ Auto-fix: replace invalid tags with approved ones
+   └─ Report: {invalid_count, fixed_count}
+
+6. LAYER 6: Empty Pages
+   ├─ Для кожного файлу: check body length
+   ├─ Flag pages with <100 chars of body text
+   └─ Report: {empty_count, flagged_count}
+
+7. MAIN()
+   ├─ Run all 6 layers
+   ├─ Generate JSON report → outputs/doctor-report.json
+   ├─ Print summary: ERROR/WARN/INFO/Auto-fixable counts
+   └─ Exit 0 (always, non-blocking)
+```
+
 **Категорії проблем:**
-|| Критичність | Типи проблем |
-||-------------|-------------|
-|| **Critical** | Відсутній frontmatter, відсутні required fields, брукен-лінки |
-|| **Warning** | SHA256-дрейф, теги не з таксономії, >200 рядків |
-|| **Info** | confidence: low, contested: true |
+| Критичність | Типи проблем |
+|-------------|-------------|
+| **ERROR** | Відсутній frontmatter, брукен-лінки, дублікати |
+| **WARN** | SHA256-дрейф, невалідні теги, порожні сторінки |
+| **INFO** | confidence: low, contested: true |
+
+### 3.19 `tools/standard_report.py` — Форматування звітів для cron
+
+**Роль:** Канонічний формат звітів для всіх крон-моніторів. Використовується rss_monitor, local_file_monitor, github_release_monitor.
+
+**Контракт виводу:**
+```python
+{
+    "status": "ok" | "error" | "warning",
+    "summary": "short description",
+    "details": "detailed breakdown",
+    "timestamp": "YYYY-MM-DD HH:MM UTC",
+    "source_job": "job_name"
+}
+```
 
 ### 3.17 `tools/integrator.py` — Автоматичний інтегратор (legacy reference)
 
@@ -779,28 +859,31 @@
 
 | Директорія | Кількість файлів | Тип |
 |------------|-----------------|-----|
-| `raw/articles/` | 89 | Сирі статті |
+| `raw/articles/` | 701 | Сирі статті |
 | `raw/papers/` | 1 | Академічні папери |
 | `raw/transcripts/` | 1 | Транскрипти |
 | `raw/assets/` | 1 | Ассети |
-| **Raw total** | **92** | |
-| `wiki/concepts/` | 68 | Концепції |
+| `raw/configs/` | 0 | Конфіги (поки пусто) |
+| **Raw total** | **704** | |
+| `.processed/` | 14 | Проміжний кеш HTML→MD (НЕ в git) |
+| `wiki/comparisons/` | 280 | Порівняння |
+| `wiki/concepts/` | 60 | Концепції |
 | `wiki/entities/` | 44 | Сутності |
-| `wiki/comparisons/` | 78 | Порівняння |
 | `wiki/playbooks/` | 14 | Інструкції |
 | `wiki/synthesis/` | 7 | Синтез |
 | `wiki/queries/` | 2 | Q&A |
 | `wiki/references/` | 2 | Довідкові |
 | `wiki/templates/` | 8 | Шаблони |
-| **Wiki total** | **223** | |
-| **Grand total** | **317** | |
+| `wiki/sources/` | 0 | Пусто |
+| **Wiki total** | **418** | |
+| **Grand total** | **1136** | |
 
 ### 6.2 Індекси та журнали
 
 | Елемент | Статус |
 |---------|--------|
-| `wiki/index.md` | 224 сторінки, 8 категорій, 925 рядків |
-| `log.md` | 71 запис, append-only |
+| `wiki/index.md` | 417 сторінок, 357 рядків, 8+ категорій |
+| `log.md` | 169 записів, append-only |
 
 ### 6.3 Бази даних трекингу
 
@@ -810,24 +893,49 @@
 
 ### 6.4 Скрипти
 
-| Скрипт | Статус | Роль |
-|--------|--------|------|
-| `utils.py` | ✅ Production | Центральна бібліотека: хеші, frontmatter, теги, статуси (єдине джерело правди) |
-| `integrator.py` | ✅ Production | Інтеграція raw → wiki |
-| `rss_monitor.py` | ✅ Production | RSS-сканер |
-| `local_file_monitor.py` | ✅ Production | Моніторинг локальних файлів |
-| `local_monitor.py` | ✅ Production | Альтернативний локальний монітор |
-| `github_monitor.py` | ✅ Production | Моніторинг GitHub репозиторіїв |
-| `github_release_monitor.py` | ✅ Production | Моніторинг GitHub релізів |
-| `wiki_lint.py` | ✅ Production | Перевірка цілісності (залежить від utils.*) |
-| `check_new_raw.py` | ✅ Production | Перевірка нових raw-файлів (utils.check_raw_integrity) |
-| `cleanup_duplicates.py` | ✅ Production | Видалення дублікатів |
-| `promote_fallback_to_base.py` | ✅ Production | Промоція fallback у base |
-| `verify_full_mapping.py` | ✅ Production | Верифікація повного мапінгу |
-| `verify_hashes.py` | ✅ Production | Верифікація хешів (utils.check_raw_integrity) |
-| `fix_sha256.py` | ✅ Production | Оновлення хешів (вручну) |
+| Скрипт | Роль |
+|--------|------|
+| `utils.py` | Центральна бібліотека: хеші, frontmatter, теги, статуси (єдине джерело правди) |
+| `integrator.py` | Інтеграція raw → wiki |
+| `rss_monitor.py` | RSS-сканер |
+| `local_file_monitor.py` | Моніторинг локальних файлів |
+| `github_monitor.py` | Моніторинг GitHub репозиторіїв |
+| `github_release_monitor.py` | Моніторинг GitHub релізів |
+| `wiki_lint.py` | Перевірка цілісності (залежить від utils.*) |
+| `wiki_doctor.py` | 6-layer diagnostic & auto-cure |
+| `check_new_raw.py` | Перевірка нових raw-файлів |
+| `cleanup_duplicates.py` | Видалення дублікатів |
+| `promote_fallback_to_base.py` | Промоція fallback у base |
+| `verify_full_mapping.py` | Верифікація повного мапінгу |
+| `verify_hashes.py` | Верифікація хешів |
+| `fix_sha256.py` | Оновлення хешів (вручну) |
+| `standard_report.py` | Форматування звітів для cron |
 
-### 6.5 Крон-задачі (Hermes Agent)
+### 6.5 Obsidian Vault
+
+| Компонент | Файлів | Роль |
+|-----------|--------|------|
+| `app.json` | 1 | Основна конфігурація |
+| `appearance.json` | 1 | Тема, шрифти |
+| `core-plugins.json` | 1 | Ввімкнені ядрові плагіни |
+| `community-plugins.json` | 1 | Список плагінів |
+| `graph.json` | 1 | Налаштування графу |
+| `dataview/data.json` | 1 | Конфіг Dataview |
+| `obsidian-git.json` | 1 | Конфіг Git синхронізації |
+| `templater-obsidian/data.json` | 1 | Конфіг Templater |
+| `templates/` | 4 | Шаблони для Obsidian |
+| `themes/llm-wiki-dark.css` | 1 | Кастомна тема |
+| **Всього** | **14** | |
+
+### 6.6 Outputs (згенеровані звіти, НЕ в git)
+
+| Файл | Розмір | Призначення |
+|------|--------|-------------|
+| `outputs/README.md` | 60B | Пояснення директорії |
+| `outputs/doctor-report.json` | 43KB | Результати Wiki Doctor |
+| `outputs/lint-report.md` | 2.7KB | Результати лінтингу |
+
+### 6.7 Крон-задачі (Hermes Agent)
 
 **Загальні параметри всіх крон-завдань:**
 - **Провайдер:** `custom:llama-server` (локальний LLM)
@@ -836,9 +944,7 @@
 - **Мова звітів:** українська
 - **Формат виводу:** усі монітори використовують `standard_report.py` з контрактом `{status, summary, details, timestamp, source_job}`
 
----
-
-#### 6.5.1 Wiki Raw Scanner
+#### 6.7.1 Wiki Raw Scanner
 - **job_id:** `985c4adb8ff5`
 - **Частота:** `every 360m` (кожні 6 годин)
 - **Навички:** `wiki-indexer`, `llm-wiki`
@@ -853,7 +959,7 @@
   - `wiki_indexer.py --check` завжди повертає Exit 0 (не блокує пайплайн)
 - **Підстави частоти:** 6 годин — оптимальний баланс між свіжістю даних та навантаженням на LLM. RSS-канали оновлюються рідше ніж щогодини.
 
-#### 6.5.2 Wiki Weekly Digest
+#### 6.7.2 Wiki Weekly Digest
 - **job_id:** `316efc90f866`
 - **Частота:** `0 9 * * 1` (кожен понеділок о 09:00)
 - **Навички:** `llm-wiki`, `wiki-indexer`
@@ -864,7 +970,7 @@
 - **Обробка помилок:** `wiki_lint.py` завжди Exit 0 — не блокує пайплайн
 - **Підстави частоти:** щотижневий аудит — достатньо для підтримки якості; щоденний лінтинг надлишковий.
 
-#### 6.5.3 RSS Feed Monitor
+#### 6.7.3 RSS Feed Monitor
 - **job_id:** `a4d137e48854`
 - **Частота:** `0 0,12 * * *` (щодня о 00:00 та 12:00)
 - **Навички:** відсутні
@@ -877,7 +983,7 @@
   - Пуста відповідь → `status: ok`, `summary: "No new items"`
 - **Підстави частоти:** 12 годин — RSS-канали оновлюються не частіше; ETag/Last-Modified caching мінімізує трафік.
 
-#### 6.5.4 GitHub Release Monitor
+#### 6.7.4 GitHub Release Monitor
 - **job_id:** `2db3c4ec8f2e`
 - **Частота:** `0 2,14 * * *` (щодня о 02:00 та 14:00)
 - **Навички:** відсутні
@@ -891,7 +997,7 @@
 - **Відомі обмеження:** 10 репозиторіїв повертають 403 без аутентифікації. Потрібен `GITHUB_TOKEN` для повного доступу.
 - **Підстави частоти:** 12 годин — релізи виходять рідко; подвійний запуск покриває різні часові пояси.
 
-#### 6.5.5 Local File Monitor
+#### 6.7.5 Local File Monitor
 - **job_id:** `81362b3212b6`
 - **Частота:** `0 4,16 * * *` (щодня о 04:00 та 16:00)
 - **Навички:** відсутні
@@ -904,7 +1010,7 @@
   - Немає змін → `status: ok`, `summary: "No changes detected"`
 - **Підстави частоти:** 12 годин — моніторинг локальних змін; достатньо для виявлення нових файлів.
 
-#### 6.5.6 Wiki Integrator
+#### 6.7.6 Wiki Integrator
 - **job_id:** `981a544c6439`
 - **Частота:** `0 6,18 * * *` (щодня о 06:00 та 18:00)
 - **Навички:** відсутні
@@ -919,7 +1025,7 @@
 
 ---
 
-#### 6.5.7 Сумісна діаграма виконання
+#### 6.7.7 Сумісна діаграма виконання
 
 ```
 Час    RSS Monitor    GitHub Monitor    Local Monitor    Integrator    Raw Scanner    Weekly Digest
@@ -942,7 +1048,7 @@
 
 ---
 
-#### 6.5.8 Порядок виконання та залежності
+#### 6.7.8 Порядок виконання та залежності
 
 ```
 1. RSS/Local/GitHub Monitors (00:00-16:00)

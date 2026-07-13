@@ -1,0 +1,168 @@
+---
+title: "Google DeepMind"
+type: comparison
+tags:
+  - llm-wiki
+  - knowledge-base
+    - ai
+  - api
+  - best-practice
+  - closed-source
+  - cloud
+  - commercial
+  - cost
+  - data
+  - deep-learning
+  - edge
+  - ethics
+  - fine-tuning
+  - foundation-model
+  - gemini
+  - governance
+  - gpt
+  - hardware
+  - image-generation
+  - jax
+  - llama
+  - llm
+  - mistral
+  - mobile
+  - multimodal
+  - open-source
+  - performance
+  - policy
+  - proprietary
+  - quantization
+  - research
+  - search
+  - tensorflow
+  - training
+  - use-case
+  - video-generation
+---
+# Google DeepMind
+
+> **Source:** deepmind.md
+> **Type:** comparison
+> **Created:** 2026-07-11
+> **Updated:** 2026-07-11
+> **Confidence:** high
+> **Description:** --- title: "Google DeepMind" type: entity description: Google's AI research laboratory behind Gemini, AlphaFold, and foundational AI research created: 2026-07-06 updated: 2026-07-06 tags: [llm-wiki, c...
+> **Sources:**
+>   - deepmind.md
+> **Links:**
+- [[deepmind]]
+- [[openai]]
+- [[qwen]]
+- [[mistral-ai]]
+- [[anthropic]]
+
+## Key Findings
+
+
+# Google DeepMind
+## Overview
+Google DeepMind is a British-American artificial intelligence research laboratory and a subsidiary of Google (Alphabet). Formed by the merger of DeepMind Technologies and Google Brain in 2023, it is one of the world's leading AI research organizations. DeepMind is known for breakthrough achievements in AI including AlphaGo, AlphaFold, and the Gemini model family. The lab combines fundamental AI research with practical applications.
+## Key Facts
+| Field | Details |
+|---|---|
+| **Founded** | 2010 (DeepMind), 2023 (DeepMind merged with Google Brain) |
+| **Headquarters** | London, UK (DeepMind) + Mountain View, CA (Google Brain) |
+| **CEO** | Demis Hassabis (DeepMind), Jeff Dean (Google DeepMind) |
+| **Parent** | Alphabet Inc. (Google) |
+| **Key Researchers** | Demis Hassabis, John Jumper, David Silver, Koray Kavukcuoglu |
+| **Type** | AI Research Laboratory (subsidiary of Alphabet) |
+| **Revenue (Alphabet 2024)** | ~$307B (annual) |
+| **Employees** | ~10,000+ (DeepMind + Google Brain combined) |
+## Models & Products
+### Gemini Series (2026)
+- **Gemini Omni** (червень 2026) — World model for simulating physical environments, predicts what happens next based on inputs. NOT an LLM — a world model for physical reasoning.
+- **Gemini Omni Flash** (30 червня 2026) — Швидка версія Omni, Nano Banana 2 Lite
+- **Gemini 3.5 Pro** (червень 2026) — Прогнозований, reasoning
+- **Gemini 3.5 Flash** (19 травня 2026, Google I/O) — Agentic coding flagship, 83.6% MCP Atlas, 76.2% Terminal-Bench, 1M context, 4x швидше, 40% дешевше
+- **Gemini 3.1 Pro** (листопад 2025) — Попередній Pro, замінений Gemini 3/3.5
+- **Gemini 3 Deep Think** (листопад 2025) — Reasoning-версія
+- **Gemini 2.0 Flash** (2025) — Швидкий, multimodal, cost-effective
+- **Gemini 1.5 Pro** (вересень 2024) — 1M context window breakthrough
+### Gemini Model Variants (2026)
+|| Model | Size | Context | Use Case |
+|---|---|---|---|
+| **Gemini Nano** | Small | 128K | On-device, mobile |
+| **Gemini Pro** | Medium | 1M | General purpose, API |
+| **Gemini Ultra** | Large | 1M | Maximum capability, research |
+### Gemma Series (Open-Weight, Apache 2.0)
+- **Gemma 4** (квітень 2026) — Google's most intelligent open model family, 150M+ downloads
+- **Gemma 4 2B-E2B** — Edge device, ultra-lightweight
+- **Gemma 4 4B-E4B** — Mobile, fast inference
+- **Gemma 4 26B-A4B** — MoE, best balance performance/cost
+- **Gemma 4 31B** — Maximum open-weight capability, 256K context
+- **Variants**: DiffusionGemma (4x faster text), FunctionGemma, EmbeddingGemma, ShieldGemma 2, PaliGemma v2
+- **License**: Apache 2.0, fully open for commercial use
+- **Gemma 3** (202
+
+## Summary
+
+5) — Попередня генерація
+- **Gemma 2** (2024) — 2B/7B/27B, early open-weight success
+### Other Google AI Products
+- **Google AI** — Google's broader AI research division
+- **Google Cloud AI** — Enterprise AI services, Vertex AI
+- **Google Search AI Overviews** — AI-enhanced search results
+- **Google Workspace AI** — AI features in Docs, Sheets, Gmail
+- **Google Assistant** — Conversational AI assistant
+- **Google Bard** — Conversational AI (now Gemini)
+- **Imagen** — Text-to-image generation model
+- **MusicLM** — Text-to-music generation
+- **Sora competitor** — Video generation models
+- **PaLM** — Predecessor to Gemini (540B parameters)
+- **LaMDA** — Conversational model (2022)
+## AlphaFold
+DeepMind's most famous achievement beyond LLMs:
+- **AlphaFold 1** (2018) — Solved protein folding problem at CASP13
+- **AlphaFold 2** (2020) — Near-perfect protein structure prediction
+- **AlphaFold 3** (2024) — Predicts protein-DNA-RNA interactions
+- **Impact**: Revolutionized biological research, 200M+ protein structures predicted
+- **Recognition**: Demis Hassabis awarded Nobel Prize in Chemistry (2024)
+## Infrastructure
+- **Training hardware**: Google TPU v4/v5p clusters, NVIDIA H100 GPUs
+- **Compute**: Google Cloud infrastructure (massive scale)
+- **Context window**: Up to 1M tokens (Gemini 1.5)
+- **Fine-tuning**: Supports fine-tuning via Vertex AI
+- **Safety**: Google's AI principles, content safety layers
+## Business Model
+Google DeepMind operates within Google's ecosystem:
+- **API access**: Gemini via Google Cloud, Vertex AI
+- **Google Workspace**: AI features in Docs, Sheets, Gmail, Calendar
+- **Google Search**: AI-powered search (SGE — Search Generative Experience)
+- **Cloud AI**: Enterprise AI services for businesses
+- **Research**: Fundamental AI research with practical applications
+- **Open research**: Publishes papers, open-sources some tools (AlphaFold)
+## Open Source Policy
+Google is **selectively open**:
+- **Open weights**: Gemini models are NOT open-source (API only)
+- **Open research**: All research papers published openly
+- **Open tools**: AlphaFold, JAX, TensorFlow (open-source)
+- **Open datasets**: Many AI datasets released publicly
+- **Competes with**: Llama (Meta), Mistral, Qwen (open-weight)
+- **Philosophy**: "Open research accelerates science, but models remain proprietary"
+## Relationships
+- **Alphabet/Google**: Parent company, primary funder
+- **Microsoft**: Competitor (competing with GPT)
+- **OpenAI**: Competitor (competing with Gemini)
+- **Anthropic**: Investor (Google invested $6B in Anthropic)
+- **Meta**: Competitor (competing with Llama)
+- **Apple**: Competitor (competing with Siri, on-device AI)
+## Recent Developments (2024-2026)
+1. **Gemini 1.0 launch** (Dec 2023) — Multimodal model family
+2. **Gemini 1.5** (Sep 2024) — 1M context window, multimodal reasoning
+3. **AlphaFold 3** (May 2024) — Protein-DNA-RNA prediction
+4. **Gemini 2.0** (2025) — Enhanced multimodal, agentic capabilities
+5. **Google AI Overviews** — AI-enhanced s
+
+## Related Articles
+
+- [[deepmind]]
+- [[openai]]
+- [[qwen]]
+- [[mistral-ai]]
+- [[anthropic]]

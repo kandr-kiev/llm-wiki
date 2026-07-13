@@ -17,5 +17,5 @@ Thumbs.db
 # Generated/cache directories (not source of truth)
 .processed/
 
-# Generated wiki comparison pages (derived from raw/)
-wiki/comparisons/
+# Generated reports (not source of truth)
+outputs/

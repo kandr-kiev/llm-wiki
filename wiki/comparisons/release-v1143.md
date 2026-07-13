@@ -1,0 +1,115 @@
+---
+title: "Release v1.14.3"
+type: comparison
+tags:
+  - llm-wiki
+  - knowledge-base
+    - backend
+  - ci-cd
+  - cost
+  - data
+  - frontend
+  - gpu
+  - library
+  - open-source
+  - performance
+  - search
+  - tutorial
+  - use-case
+  - workflow
+---
+# Release v1.14.3
+
+> **Source:** gh-v1143-2026-07-11.md
+> **Type:** comparison
+> **Created:** 2026-07-11
+> **Updated:** 2026-07-11
+> **Confidence:** high
+> **Description:** --- source_url: https://github.com/facebookresearch/faiss/releases/tag/v1.14.3 ingested: 2026-07-11 sha256: e9fbc9bd67dc46c5ea566f87e3e61c732d671a5b620c65d687a088ea09beefca blog_source: github:faceboo...
+> **Sources:**
+>   - gh-v1143-2026-07-11.md
+> **Links:**
+- [[release-notes-ollama-vv0312]]
+- [[release-v0192]]
+- [[release-v1140]]
+- [[release-notes-pytorch-vv2130]]
+- [[release-172]]
+
+## Key Findings
+
+---
+source_url: https://github.com/facebookresearch/faiss/releases/tag/v1.14.3
+ingested: 2026-07-11
+sha256: e9fbc9bd67dc46c5ea566f87e3e61c732d671a5b620c65d687a088ea09beefca
+blog_source: github:facebookresearch/faiss
+---
+# Release v1.14.3
+## Highlights
+- **Metal GPU backend expansion** — new `MetalIndexIVFFlat` with IVF scan/merge kernels and expanded top-k support (#5202); Metal now enabled by default on Apple Silicon machines (#5280)
+- **TurboQuant in ScalarQuantizer** — full Algorithm 2 (QJL stage) with SIMD and optimizations (#5170)
+- **Sapphire Rapids (SPR) optimizations** — ScalarQuantizer L2/IP (#5173), VPOPCNTDQ-based HammingComputer (#5183), and VPOPCNTDQ-based RaBitQ kernel (#5149)
+- **faiss-gpu pip wheels** — new GPU wheel packaging (#5131); musllinux wheels re-enabled for faiss-cpu (#5299)
+- **SVS static vamana support** (#5224)
+- **HNSW `is_similarity` mode** for IP/similarity metrics (#5246, #5226)
+- **HNSW search performance** — reserve `VisitedTableSet` capacity to avoid rehashes (#5290), `search_from_candidate_unbounded` templatized for `VisitedTable` devirtualization (#5270), and runtime checks avoided in `VisitedTable` (#5234)
+- **NEON FINE_SIZE=2 specializations** for `Index2LevelDecoderImpl` and `IndexPQDecoder` (#5255)
+- **cuVS upgraded to 26.06** (#5240); CI updated to **ROCm 7** (#5196)
+- **Deserialization hardening** — bool-field validation (#5279) and null inner-index rejection in IDMap / BinaryFromFloat (#5239)
+- **Build robustness** — fix non-AVX2 import SIGILL via `.rodata` partitioning tables (#5298), Windows ARM64 (MSVC) NEON build fix (#5274), and AVX512_SPR dispatch fix on AMD (#5281)
+## Full Changelog
+Added
+- 261d8f25aac03c980f1faf5df775248eff96cb6d Add IVFSQTurboQSearchParameters to __init__.pyi stub (#5304)
+- 684a32d0404758bddd4f7fb9ec76db54252819e0 Add manual Faiss nightly workflow dispatch (#5300)
+- 10b6b2a1e554afc4cbd66fe73d864728ff9e310c Add MetalIndexIVFFlat with IVF scan/merge kernels and expanded top-k support (#5202)
+- 74d36198faac528fce715aa8731bf589727bef6d TurboQuant in ScalarQuantizer: full Algorithm 2 (QJL stage) with SIMD and optimizations (#5170)
+- 506600962f8a58926710edd24715bc9002eb18e9 Add Python HNSW tutorial (#5260)
+- 3cff0f419c459bdc7c4f56ea49effb6d7da1475c Add Sapphire Rapids optimizations for ScalarQuantizer (L2, IP) (#5173)
+- 46ef80db639e4de03720e3c404065636846ed47e Support IndexIDMap/IndexIDMap2 in reverse_index_factory (#5266)
+- 420158b10e0136228ff634d464fa90c4370a1ead Add VPOPCNTDQ-based HammingComputer for Sapphire Rapids+ (#5183)
+- d8f1c2716d9c2c070c0d7e4e0c1017331e9e9e8a Implement NEON-based FINE_SIZE=2 specializations for Index2LevelDecoderImpl and IndexPQDecoder (#5262)
+- 0951b5337b72755ade5c02705396fb7d7cedceac Support user provided blas library (#5189)
+- 215740ecc3add92d7c27e24436b2dffd8fdb157c SVS static vamana support (#5224)
+- d24ad6ef5b3e40c0e4cf8b695923cbcd674d2573 Add is_similarity mode to HNSW (#5246)
+- aa332cd5f0d6984075c849b32c387fffe067a49a Implement NEON-based FINE_SI
+
+## Summary
+
+ZE=2 specializations for Index2LevelDecoderImpl and IndexPQDecoder (#5255)
+- 5d9aae6ee81078d33ff3c4e2fc97f7583e2e450d Add faiss-gpu pip wheel packaging (#5131)
+- 6f1cf64531130db04843737d1f538999fc295583 Add VPOPCNTDQ-based RaBitQ kernel for Sapphire Rapids+ (#5149)
+Changed
+- 262fc3c7a2ec099cdd0cd21482931702171c60eb Re-enable musllinux wheels for faiss-cpu (#5299)
+- 1cdc3709c656eea41ce3725024070f2516e3b30b Run CI on push to main to refresh ccache cache (#5291)
+- 379ee758b1bb49cd167c6ed86e80be331e94c593 Reserve VisitedTableSet capacity to avoid rehashes during HNSW search (#5290)
+- 6513a2497cbc29f5c0c74c0d17bbe8b9f6ff3230 Enable Metal by default on Apple machines (#5280)
+- fe46c3c804296cc04238c2e17b02c671887791a8 Validate bool fields during deserialization (#5279)
+- 480f91790080c8daa92fcb1941c5e8d0f56de237 Type imbalance_factor and wire the .pyi stub into the buck build (#5269)
+- e60baeb7b61e617a483310fccb239ba204458c7b Templatize search_from_candidate_unbounded for VisitedTable devirtualization (#5270)
+- c000190dc07c161898093a72a16f3918bd9fd621 Accelerate ScalarQuantizer::QT_bf16 with AVX512-BF16. (#4889)
+- 7504fc8ddebdade7fcabd9dacd9861318d475b50 Upgrade CUVS Version to 26.06 (#5240)
+- d12683c3b00247ca6333ac717f3a8af49aa835e3 facebook-unused-include-check in IndexBinaryIVF.cpp (#5263)
+- 99d9013e1fbe232356759d3abedbe20df0e8dba1 facebook-unused-include-check in distances_simd.cpp (#5264)
+- 2f0368b6205c92d910ae772417e71b68dde216aa facebook-unused-include-check in hamming_avx2.cpp (#5265)
+- 0c72755eccff39f903d58ed1f46d6c278a914cae Remove unused include of platform_macros.h in partitioning.cpp
+- e6b8f6de5380aed85c2450abd31ecdb749770bbe IndexHNSW: use HNSW::is_similarity for IP/similarity metrics + tests (#5226)
+- c0575f2c1319a702fa4ca615e2354014c42b3e67 avoid runtime checks in VisitedTable (#5234)
+- 1cb760182917697677fe100f8a1cc2b4d0b9f751 Eliminate per-code denormalization in uniform SQ distance computation (#5166)
+- f29d8621fa4250b381d1bfb1d8362c4867ee3de3 Revert D106693266: Implement NEON-based FINE_SIZE=2 specializations for Index2LevelDecoderImpl and IndexPQDecoder
+- ef96e3d25ecbfaa52894b0f361e9d156ee92254a Updating CI to ROCm 7 (#5196)
+- f5217d74960ead3a1d2c0b69baa63479b6f49ea2 facebook-unused-include-check in IndexBinaryHNSW.cpp (#5251)
+- 3e6ed99bbb6cfb8daf98cadf904da449a4aaea48 facebook-unused-include-check in IndexBinaryIVF.cpp (#5252)
+- 108868bfac5ad7e0ce1b4e46857d4724a62a309e Reject null inner index in IDMap and BinaryFromFloat deserialization (#5239)
+- a64b5496762a93cb7836d013c2283c6da479f717 Add IndexLattice r2 limit to cap decode-cache build cost (#5238)
+- 09937153dc55f64321ed7d96730fc3d673a9092d faiss: Replace remaining get_single_code calls with ScopedCodes (#5248)
+- 910e435bccafedfac5aa69f87863085ce6d90a3c facebook-unused-include-check in hamming_avx2.cpp (#5242)
+- d581f2f8406f8794f58794124b650ab7402ac848 Use per-SIMD TU scan for standalone PQ (AVX2 gather inlining) (#5233)
+Fixed
+- 20afed0fa3aefe2d4f5bf6a5f6ab1d1459efec05 make intenti
+
+## Related Articles
+
+- [[release-notes-ollama-vv0312]]
+- [[release-v0192]]
+- [[release-v1140]]
+- [[release-notes-pytorch-vv2130]]
+- [[release-172]]
