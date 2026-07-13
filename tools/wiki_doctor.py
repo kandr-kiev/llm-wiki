@@ -245,13 +245,13 @@ def diagnose_index(report):
         report.add("index", "WARN", "wiki/index.md", "missing 'Total pages' metadata", auto_fixable=True)
 
     # 3c. Stale links (pointing to deleted _N files or wrong paths)
+    # Correct plural subdirectories
+    correct_subdirs = {"concepts", "entities", "playbooks", "comparisons", "synthesis", "queries", "references"}
     for match in re.finditer(r'\[\[wiki/(\w+)/([^\]]+)\]\]', index_text):
         subdir = match.group(1)
         slug = match.group(2)
-        # Check if path uses correct plural form
-        expected_plural = subdir + "s"
-        if subdir != expected_plural:
-            report.add("index", "WARN", "wiki/index.md", f"stale path: wiki/{subdir}/ should be wiki/{expected_plural}/", auto_fixable=True)
+        if subdir not in correct_subdirs:
+            report.add("index", "WARN", "wiki/index.md", f"stale path: wiki/{subdir}/ should be wiki/{slug} — unknown section", auto_fixable=True)
 
 
 # ---------------------------------------------------------------------------
@@ -275,7 +275,7 @@ def diagnose_infrastructure(report):
         files = list(subdir.glob("*.md"))
         base_names = defaultdict(list)
         for f in files:
-            m = re.match(r'^(.+)_\d+\.md$', f.stem)
+            m = re.match(r'^(.+)_\d+$', f.stem)
             if m:
                 base_names[m.group(1)].append(f)
         for base, variants in base_names.items():
@@ -351,7 +351,7 @@ def extract_schema_tags():
     text = SCHEMA_FILE.read_text(encoding="utf-8")
     tags = set()
     # Match lines like:  - tag-name — description
-    for m in re.finditer(r'^\s+- ([\w-]+)\s+—', text, re.MULTILINE):
+    for m in re.finditer(r'^-\s+([\w-]+)\s+—', text, re.MULTILINE):
         tags.add(m.group(1))
     # Also match YAML flow sequences: tags: [tag1, tag2]
     for m in re.finditer(r'tags:\s*\[([^\]]+)\]', text):
@@ -410,6 +410,23 @@ def diagnose():
 # CURE FUNCTIONS (auto-fix)
 # ---------------------------------------------------------------------------
 
+# Global flag for dry-run mode
+_DRY_RUN = False
+
+
+def _set_dry_run(flag: bool):
+    """Set dry-run mode for all cure functions."""
+    global _DRY_RUN
+    _DRY_RUN = flag
+
+
+def _write_if_not_dry(path: Path, content: str):
+    """Write file only if not in dry-run mode."""
+    if _DRY_RUN:
+        return False
+    path.write_text(content, encoding="utf-8")
+    return True
+
 def cure_broken_wikilinks(report):
     """Fix broken wikilinks: replace with existing slugs or remove."""
     wiki_pages = [
@@ -418,6 +435,7 @@ def cure_broken_wikilinks(report):
     ]
     slugs = {p.stem: p for p in wiki_pages}
     fixes = 0
+    dry_changes = 0
 
     for page in wiki_pages:
         text = page.read_text(encoding="utf-8")
@@ -430,7 +448,7 @@ def cure_broken_wikilinks(report):
         clean_body = re.sub(r'<[^>]+>', ' ', clean_body)
 
         def replace_wikilink(m):
-            nonlocal fixes
+            nonlocal fixes, dry_changes
             link = m.group(1)
             if link in slugs:
                 return m.group(0)  # already valid
@@ -438,20 +456,28 @@ def cure_broken_wikilinks(report):
             full_match = m.group(0)
             if "](" in full_match:
                 fixes += 1
-                return m.group(0).replace("[[", "[").rstrip("]")  # [[name](url)] → [name](url)
+                if _DRY_RUN:
+                    dry_changes += 1
+                    return m.group(0).replace("[[", "[").rstrip("]")
+                return m.group(0).replace("[[", "[").rstrip("]")
             # Try to find similar existing slug
             best = _find_best_slug_match(link, slugs)
             if best:
                 fixes += 1
+                if _DRY_RUN:
+                    dry_changes += 1
+                    return f"[[{best}]]"
                 return f"[[{best}]]"
             # Remove orphaned wikilink
             fixes += 1
+            if _DRY_RUN:
+                dry_changes += 1
             return ""
 
         new_body = re.sub(r"\[\[([^\]|#]+)\]", replace_wikilink, body)
         if new_body != body:
             new_text = fm + "\n" + new_body
-            page.write_text(new_text, encoding="utf-8")
+            _write_if_not_dry(page, new_text)
 
     return fixes
 
@@ -488,8 +514,9 @@ def cure_missing_frontmatter(report):
             f"updated: {now}\n"
             f"---\n"
         )
-        page.write_text(default_fm + body, encoding="utf-8")
-        fixes += 1
+        _write_if_not_dry(page, default_fm + body)
+        if not _DRY_RUN:
+            fixes += 1
 
     return fixes
 
@@ -500,13 +527,53 @@ def cure_sha256_drift(report):
     for raw in RAW_DIR.rglob("*.md"):
         if raw.name == "README.md":
             continue
-        if fix_file_hash(raw):
-            fixes += 1
+        if _DRY_RUN:
+            # Dry-run: check if hash would change without writing
+            text = raw.read_text(encoding='utf-8')
+            fm, body = split_frontmatter(text)
+            if fm:
+                data = parse_simple_yaml(fm)
+                expected = data.get("sha256")
+                if expected:
+                    actual = hashlib.sha256(body.encode("utf-8")).hexdigest()
+                    if expected != actual:
+                        fixes += 1
+        else:
+            if fix_file_hash(raw):
+                fixes += 1
     return fixes
 
 
 def cure_approved_tags_drift(report):
     """Sync APPROVED_TAGS in utils.py with SCHEMA.md + actual wiki usage."""
+    if _DRY_RUN:
+        # Dry-run: check what would change without writing
+        schema_tags = extract_schema_tags()
+        if not schema_tags:
+            return 0
+        utils_path = TOOLS_DIR / "utils.py"
+        content = utils_path.read_text(encoding="utf-8")
+        fm_match = re.search(r'(APPROVED_TAGS\s*=\s*\{)(.*?)(\})', content, re.DOTALL)
+        if not fm_match:
+            return 0
+        current_tags_str = fm_match.group(2)
+        current_tags = set()
+        for m in re.finditer(r'"([^"]+)"', current_tags_str):
+            current_tags.add(m.group(1))
+        used_tags = set()
+        for page in WIKI_DIR.rglob("*.md"):
+            if page.name in RESERVED_NAMES or page.parent.name in ("templates", "comparisons"):
+                continue
+            text = page.read_text(encoding="utf-8")
+            fm, _ = split_frontmatter(text)
+            if fm:
+                data = parse_simple_yaml(fm)
+                for tag in data.get("tags", []):
+                    used_tags.add(tag)
+        all_tags = schema_tags | used_tags | current_tags
+        # Dry-run: report what would change but don't count as a fix
+        return 0
+
     schema_tags = extract_schema_tags()
     if not schema_tags:
         return 0
@@ -564,6 +631,8 @@ def cure_missing_index_entries(report):
 
     for page in wiki_pages:
         rel = page.relative_to(ROOT)
+        if page.name == "index.md":
+            continue
         if str(rel) in index_text:
             continue
 
@@ -605,8 +674,9 @@ def cure_missing_index_entries(report):
             new_total = int(total_match.group(1)) + 1
             new_index = re.sub(r'(Total pages:\s*)\d+', rf'\g<1>{new_total}', new_index)
 
-        INDEX_FILE.write_text(new_index, encoding="utf-8")
-        fixes += 1
+        _write_if_not_dry(INDEX_FILE, new_index)
+        if not _DRY_RUN:
+            fixes += 1
 
     return fixes
 
@@ -640,17 +710,17 @@ def cure_missing_sources(report):
                 changed = True
 
         if changed:
-            # Rebuild frontmatter
+            # Rebuild frontmatter — use valid_sources (not original sources)
             lines = fm.split('\n')
             new_lines = []
             i = 0
             while i < len(lines):
                 line = lines[i]
                 if line.strip().startswith("sources:"):
-                    if isinstance(sources, list) and len(sources) == 1:
-                        new_lines.append(f"sources: [{sources[0]}]")
-                    elif isinstance(sources, list) and len(sources) > 1:
-                        new_lines.append(f"sources: [{', '.join(sources)}]")
+                    if isinstance(valid_sources, list) and len(valid_sources) == 1:
+                        new_lines.append(f"sources: [{valid_sources[0]}]")
+                    elif isinstance(valid_sources, list) and len(valid_sources) > 1:
+                        new_lines.append(f"sources: [{', '.join(valid_sources)}]")
                     else:
                         new_lines.append("sources: []")
                 else:
@@ -658,8 +728,8 @@ def cure_missing_sources(report):
                 i += 1
 
             new_fm = '\n'.join(new_lines)
-            new_text = new_fm + "\n" + body
-            page.write_text(new_text, encoding="utf-8")
+            new_text = f"---\n{new_fm}\n---\n{body}"
+            _write_if_not_dry(page, new_text)
             fixes += 1
 
     return fixes
@@ -670,10 +740,10 @@ def cure_missing_fields(report):
     wiki_pages = [
         p for p in WIKI_DIR.rglob("*.md")
         if p.name not in RESERVED_NAMES and p.parent.name not in ("templates", "comparisons")
+        and p.name != "index.md"
     ]
     fixes = 0
     now = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-
     for page in wiki_pages:
         text = page.read_text(encoding="utf-8")
         fm, body = split_frontmatter(text)
@@ -712,9 +782,10 @@ def cure_missing_fields(report):
             new_lines.append(f"{key}: {val}")
 
         new_fm = '\n'.join(new_lines)
-        new_text = new_fm + "\n" + body
-        page.write_text(new_text, encoding="utf-8")
-        fixes += 1
+        new_text = f"---\n{new_fm}\n---\n{body}"
+        _write_if_not_dry(page, new_text)
+        if not _DRY_RUN:
+            fixes += 1
 
     return fixes
 
@@ -729,12 +800,12 @@ def _find_best_slug_match(link, slugs):
         return link
 
     # Simple word overlap
-    link_words = set(link.lower().split('-'))
+    link_words = set(re.split(r'[-\s]+', link.lower()))
     best_score = 0
     best_slug = None
 
     for slug in slugs:
-        slug_words = set(slug.lower().split('-'))
+        slug_words = set(re.split(r'[-\s]+', slug.lower()))
         overlap = len(link_words & slug_words)
         if overlap > best_score:
             best_score = overlap
@@ -750,21 +821,25 @@ def _find_best_slug_match(link, slugs):
 # CURE ORCHESTRATOR
 # ---------------------------------------------------------------------------
 
-def diagnose_and_cure():
+def diagnose_and_cure(dry_run=False):
     """Full diagnosis + auto-cure cycle. Returns DoctorReport + cure stats."""
+    global _DRY_RUN
+    _DRY_RUN = dry_run
+
+    mode_label = "DRY-RUN" if dry_run else "LIVE"
     print("=" * 60)
-    print("  WIKI DOCTOR — Повна діагностика та лікування")
+    print(f"  WIKI DOCTOR — Повна діагностика та лікування [{mode_label}]")
     print(f"  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print("=" * 60)
 
     # Phase 1: Diagnose
-    print("\n🔍 Фаза 1: Діагностика всіх шарів...")
+    print(f"\n🔍 Фаза 1: Діагностика всіх шарів...")
     report = diagnose()
     print(f"\n📊 Результати діагностики:")
     print(f"   {report.severity_summary()}")
 
     # Phase 2: Cure
-    print("\n💊 Фаза 2: Лікування...")
+    print(f"\n💊 Фаза 2: Лікування...")
     cure_stats = {}
 
     if report.summary["ERROR"] > 0:
@@ -797,7 +872,7 @@ def diagnose_and_cure():
         cure_stats["approved_tags_sync"] = n
 
     # Phase 3: Re-diagnose
-    print("\n🔍 Фаза 3: Повторна діагностика (після лікування)...")
+    print(f"\n🔍 Фаза 3: Повторна діагностика (після лікування)...")
     report2 = diagnose()
     print(f"\n📊 Результати після лікування:")
     print(f"   {report2.severity_summary()}")
@@ -806,7 +881,7 @@ def diagnose_and_cure():
     # Collect remaining error/warn details
     error_details = [f"[{i['layer']}] {i['path']}: {i['message']}" for i in report2.get_all_issues() if i["severity"] == "ERROR"]
     warn_details = [f"[{i['layer']}] {i['path']}: {i['message']}" for i in report2.get_all_issues() if i["severity"] == "WARN"]
-    
+
     # Generate standardized report
     report_str = format_wiki_doctor_report(
         component="wiki_doctor",
@@ -822,15 +897,16 @@ def diagnose_and_cure():
         error_details=error_details if error_details else None,
         warn_details=warn_details if warn_details else None,
     )
-    
+
     print()
     print(report_str)
 
-    # Save report
+    # Save report (JSON always saved, even in dry-run)
     report_path = ROOT / "outputs" / "doctor-report.json"
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_data = {
         "timestamp": report2.timestamp,
+        "mode": "dry-run" if dry_run else "live",
         "before": report.summary,
         "after": report2.summary,
         "cure_stats": cure_stats,
@@ -843,7 +919,7 @@ def diagnose_and_cure():
 
     # Log
     log_entry = (
-        f"Wiki Doctor — до: {report.severity_summary()}, після: {report2.severity_summary()}, "
+        f"Wiki Doctor ({mode_label}) — до: {report.severity_summary()}, після: {report2.severity_summary()}, "
         f"виправлень: {sum(cure_stats.values())}"
     )
     append_to_log(LOG_FILE, "wiki_doctor", log_entry)
@@ -860,9 +936,15 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Wiki Doctor — діагностика та лікування LLM Wiki")
     parser.add_argument(
         "mode",
+        nargs="?",
         choices=["diagnose", "cure"],
         default="cure",
         help="diagnose = тільки діагностика; cure = діагностика + лікування (за замовчуванням)",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Показати що буде виправлено без зміни файлів",
     )
     args = parser.parse_args()
 
@@ -872,4 +954,4 @@ if __name__ == "__main__":
         for issue in report.get_all_issues():
             print(f"  [{issue['severity']}] {issue['path']}: {issue['message']}")
     else:
-        diagnose_and_cure()
+        diagnose_and_cure(dry_run=args.dry_run)
