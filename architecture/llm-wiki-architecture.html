@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Local LLM Wiki — Architecture Diagram (2026-07-13)</title>
+  <title>Local LLM Wiki — Architecture Diagram (2026-07-14)</title>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -346,10 +346,10 @@
       </div>
       <p class="subtitle">4-layer knowledge base: Raw Sources → .processed/ → Synthesized Wiki → Schema &amp; Operations</p>
       <div class="stats-bar">
-        <span class="stat-item"><span class="stat-dot" style="background:#fbbf24"></span> <span class="stat-num">704</span> raw files</span>
-        <span class="stat-item"><span class="stat-dot" style="background:#34d399"></span> <span class="stat-num">418</span> wiki pages</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#fbbf24"></span> <span class="stat-num">707</span> raw files</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#34d399"></span> <span class="stat-num">421</span> wiki pages</span>
         <span class="stat-item"><span class="stat-dot" style="background:#06b6d4"></span> <span class="stat-num">15</span> tools</span>
-        <span class="stat-item"><span class="stat-dot" style="background:#06b6d4"></span> <span class="stat-num">6</span> cron jobs</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#06b6d4"></span> <span class="stat-num">3</span> cron jobs (50% reduction)</span>
         <span class="stat-item"><span class="stat-dot" style="background:#a78bfa"></span> <span class="stat-num">16</span> .processed</span>
         <span class="stat-item"><span class="stat-dot" style="background:#a855f7"></span> <span class="stat-num">14</span> Obsidian files</span>
       </div>
@@ -370,7 +370,7 @@
             <div class="raw-item">
               <div class="raw-name">📄 Raw Articles</div>
               <div class="raw-path">raw/articles/</div>
-              <div class="raw-count">701 files</div>
+              <div class="raw-count">704 files</div>
             </div>
             <div class="raw-item">
               <div class="raw-name">📑 Raw Papers</div>
@@ -395,7 +395,7 @@
             <div class="raw-item cron">
               <div class="raw-name">⏰ Cron Sources</div>
               <div class="raw-path">RSS / GitHub / Local</div>
-              <div class="raw-count">6 cron jobs</div>
+              <div class="raw-count">3 cron jobs (50% reduction)</div>
             </div>
           </div>
         </div>
@@ -454,7 +454,7 @@
             <div class="wiki-item">
               <div class="wiki-name">🧠 Concept</div>
               <div class="wiki-path">wiki/concepts/</div>
-              <div class="wiki-count">60 pages</div>
+              <div class="wiki-count">61 pages</div>
             </div>
             <div class="wiki-item">
               <div class="wiki-name">🏢 Entity</div>
@@ -464,7 +464,7 @@
             <div class="wiki-item comparison">
               <div class="wiki-name">⚖️ Comparison</div>
               <div class="wiki-path">wiki/comparisons/</div>
-              <div class="wiki-count">280 pages ★</div>
+              <div class="wiki-count">281 pages ★</div>
             </div>
             <div class="wiki-item">
               <div class="wiki-name">📋 Playbook</div>
@@ -474,7 +474,7 @@
             <div class="wiki-item synthesis">
               <div class="wiki-name">🔮 Synthesis</div>
               <div class="wiki-path">wiki/synthesis/</div>
-              <div class="wiki-count">7 pages</div>
+              <div class="wiki-count">8 pages</div>
             </div>
             <div class="wiki-item">
               <div class="wiki-name">❓ Query</div>
@@ -543,7 +543,7 @@
         <!-- Connection 6: Cron → Tools (MAPPING) -->
         <div class="conn cyan">
           <span>⏰ Cron Jobs → Tools (scheduled execution)</span>
-          <span class="conn-label">6 cron jobs trigger specific scripts on schedule</span>
+          <span class="conn-label">3 cron jobs trigger specific scripts on schedule (50% reduction from 6)</span>
         </div>
 
         <!-- TOOLS & CRON -->
@@ -551,45 +551,27 @@
           <div class="layer-title">
             <span>▣</span> TOOLS &amp; CRON JOBS (Automation Layer)
           </div>
-          <div class="layer-subtitle">15 Python scripts • 6 scheduled jobs • GitHub MCP integration</div>
+          <div class="layer-subtitle">15 Python scripts • 3 scheduled jobs • GitHub MCP integration</div>
 
-          <!-- Cron → Tool Mapping -->
+          <!-- Cron → Tool Mapping (3 jobs) -->
           <div class="cron-map">
             <div class="cron-map-row">
-              <span class="cron-map-job">RSS Feed Monitor</span>
+              <span class="cron-map-job">Source Monitor</span>
               <span class="cron-map-arrow">→</span>
-              <span class="cron-map-target">rss_monitor.py</span>
-              <span class="cron-map-detail">00:00, 12:00 → raw/articles/</span>
-            </div>
-            <div class="cron-map-row">
-              <span class="cron-map-job">GitHub Release Mon</span>
-              <span class="cron-map-arrow">→</span>
-              <span class="cron-map-target">github_release_monitor.py</span>
-              <span class="cron-map-detail">02:00, 14:00 → raw/articles/</span>
-            </div>
-            <div class="cron-map-row">
-              <span class="cron-map-job">Local File Monitor</span>
-              <span class="cron-map-arrow">→</span>
-              <span class="cron-map-target">local_file_monitor.py</span>
-              <span class="cron-map-detail">04:00, 16:00 → raw/articles/</span>
-            </div>
-            <div class="cron-map-row">
-              <span class="cron-map-job">Wiki Raw Scanner</span>
-              <span class="cron-map-arrow">→</span>
-              <span class="cron-map-target">wiki_indexer.py + rss + local</span>
-              <span class="cron-map-detail">every 360m → check new raw</span>
+              <span class="cron-map-target">source_monitor.py</span>
+              <span class="cron-map-detail">every 6h → RSS + GitHub + Local</span>
             </div>
             <div class="cron-map-row">
               <span class="cron-map-job">Wiki Integrator</span>
               <span class="cron-map-arrow">→</span>
               <span class="cron-map-target">integrator.py</span>
-              <span class="cron-map-detail">06:00, 18:00 → raw → wiki</span>
+              <span class="cron-map-detail">every 12h → raw → wiki pages</span>
             </div>
             <div class="cron-map-row">
-              <span class="cron-map-job">Wiki Weekly Digest</span>
+              <span class="cron-map-job">Wiki Doctor</span>
               <span class="cron-map-arrow">→</span>
-              <span class="cron-map-target">wiki_lint.py</span>
-              <span class="cron-map-detail">Mon 09:00 → outputs/lint-report.md</span>
+              <span class="cron-map-target">wiki_doctor.py</span>
+              <span class="cron-map-detail">every 12h → diagnose + auto-cure</span>
             </div>
           </div>
 
@@ -809,7 +791,7 @@
             <h3>Raw Sources</h3>
           </div>
           <ul>
-            <li>• 704 immutable source files</li>
+            <li>• 707 immutable source files</li>
             <li>• SHA256 on ingest</li>
             <li>• Never modified after save</li>
             <li>• Sources: URL, PDF, RSS, GitHub</li>
@@ -822,8 +804,8 @@
             <h3>Wiki Knowledge</h3>
           </div>
           <ul>
-            <li>• 418 synthesized pages</li>
-            <li>• 10 categories (concepts, entities...)</li>
+            <li>• 421 synthesized pages</li>
+            <li>• 9 categories (concepts, entities...)</li>
             <li>• Cross-linked with wikilinks</li>
             <li>• Open Knowledge Format v0.1</li>
           </ul>
@@ -845,7 +827,7 @@
     </div>
 
     <!-- Footer -->
-    <p class="footer">Local LLM Wiki • Architecture Diagram v6.1.0 • 2026-07-13 • 1136 total artifacts • 8 connection types</p>
+    <p class="footer">Local LLM Wiki • Architecture Diagram v7.0.0 • 2026-07-14 • 1148 total artifacts • 3 cron jobs (50% reduction) • 8 connection types</p>
   </div>
 </body>
 </html>

@@ -177,7 +177,43 @@ print(report.severity_summary())  # "ERROR: 0 | WARN: 30 | INFO: 10 | Auto-fixab
 
 # Diagnosis + cure
 report = diagnose_and_cure()  # returns final report after re-scan
+
+# Dry-run mode — no file changes, only report
+report = diagnose_and_cure(dry_run=True)
+# report.mode == 'dry-run'
+# report.fixes == 0 (none applied)
+# JSON saved with mode='dry-run' in outputs/doctor-report.json
 ```
+
+## `--dry-run` режим
+
+**Призначення:** Безпечна діагностика без зміни жодного файлу. Використовується у cron Wiki Doctor (`wiki_doctor.py cure --dry-run`) для щоденного health-check.
+
+**Як працює:**
+- `diagnose_and_cure(dry_run=True)` встановлює `__dict__['_DRY_RUN'] = True`
+- Усі 7 cure-функцій перевіряють `_DRY_RUN` перед викликом `_write_if_not_dry()`
+- `fixes` завжди 0 — нічого не записується на диск
+- JSON звіт зберігається з `mode: 'dry-run'`
+- Console report показує, що БУЛО б виправлено
+
+**CLI:**
+```bash
+# Безпечний health-check — жодних змін файлів
+python3 tools/wiki_doctor.py cure --dry-run
+
+# Тільки діагностика (без cure взагалі)
+python3 tools/wiki_doctor.py diagnose
+```
+
+**Порівняння:**
+
+| Режим | Файли змінюються? | JSON mode | Fixes | Використання |
+|-------|-------------------|-----------|-------|--------------|
+| `diagnose` | ❌ ні | — | — | Швидкий health-check |
+| `cure --dry-run` | ❌ ні | `'dry-run'` | 0 | Cron Wiki Doctor (безпечно) |
+| `cure` | ✅ так | `'live'` | N | Тижневий maintenance |
+
+**Тести:** 42/42 PASS (36 live + 6 dry-run).
 
 ## Залежності
 

@@ -1,7 +1,7 @@
 # Local LLM Wiki — Повна архітектурна документація
 
-> **Дата останнього оновлення:** 2026-07-13
-> **Версія системи:** 6.0.0
+> **Дата останнього оновлення:** 2026-07-14
+> **Версія системи:** 7.0.0
 > **Статус:** Production
 
 ---
@@ -89,7 +89,7 @@
 
 ## 3. Скрипти інфраструктури
 
-### 3.5 `tools/utils.py` — Центральна бібліотека утиліт
+### 3.1 `tools/utils.py` — Центральна бібліотека утиліт
 
 **Роль:** Єдине джерело правди для хешування, frontmatter, тегів та статусів. Усі інструменти залежать від цього модулю.
 
@@ -115,7 +115,7 @@
 - `APPROVED_TAGS` — єдине джерело тегів (замість дублювання в `wiki_lint.py` та `integrator.py`)
 - `build_frontmatter()` — fallback-логіка для GitHub-релізів
 
-### 3.6 `tools/github_monitor.py` — Моніторинг GitHub репозиторіїв
+### 3.2 `tools/github_monitor.py` — Моніторинг GitHub репозиторіїв
 
 **Роль:** Відслідковування нових релізів та тегів у ключових AI/LLM репозиторіях через GitHub REST API.
 
@@ -149,7 +149,7 @@
 - SQLite-free: простий текстовий DB для теґів
 - Автоматична конвертація HTML → Markdown
 
-### 3.7 `tools/local_monitor.py` — Моніторинг локальних директорій
+### 3.3 `tools/local_monitor.py` — Моніторинг локальних директорій
 
 **Роль:** Відслідковування нових та змінених файлів у локальних директоріях користувача.
 
@@ -177,7 +177,7 @@
 - Крос-платформений polling-підхід
 - Налаштовувані MONITORED_DIRS
 
-### 3.8 `tools/check_new_raw.py` — Перевірка нових raw-файлів
+### 3.4 `tools/check_new_raw.py` — Перевірка нових raw-файлів
 
 **Роль:** Порівняння raw/ директорії з wiki/sources/ для виявлення необроблених джерел.
 
@@ -194,7 +194,7 @@
 5. Повернути report: {new_raw, hash_mismatches}
 ```
 
-### 3.9 `tools/cleanup_duplicates.py` — Видалення дублікатів
+### 3.5 `tools/cleanup_duplicates.py` — Видалення дублікатів
 
 **Роль:** Знаходження та видалення дублікатів wiki-сторінок з суфіксами `_1`, `_2`, `_3`, `_4`.
 
@@ -209,7 +209,7 @@
 4. --apply для фактичного видалення/перейменування
 ```
 
-### 3.10 `tools/promote_fallback_to_base.py` — Промоція fallback у base
+### 3.6 `tools/promote_fallback_to_base.py` — Промоція fallback у base
 
 **Роль:** Промоція `_1`, `_2`, `_3`, `_4` файлів у базові версії коли base не існує.
 
@@ -224,7 +224,7 @@
 3. --apply для фактичної дії
 ```
 
-### 3.11 `tools/verify_hashes.py` — Верифікація хешів
+### 3.7 `tools/verify_hashes.py` — Верифікація хешів
 
 **Роль:** Перевірка коректності всіх SHA256 хешів у raw файлах.
 
@@ -240,7 +240,7 @@
 3. Повернути: {all_ok: bool, mismatches: list}
 ```
 
-### 3.12 `tools/verify_full_mapping.py` — Верифікація повного мапінгу
+### 3.8 `tools/verify_full_mapping.py` — Верифікація повного мапінгу
 
 **Роль:** Перевірка повного мапінгу raw → wiki sources.
 
@@ -254,7 +254,7 @@
 5. Повернути: {missing, extra, raw_count, wiki_count}
 ```
 
-### 3.13 `tools/rss_monitor.py` — RSS-сканер
+### 3.9 `tools/rss_monitor.py` — RSS-сканер
 
 **Роль:** Моніторинг RSS/Atom-каналів для виявлення нових статей.
 
@@ -332,7 +332,7 @@
 - Автоматична класифікація за URL (arXiv, YouTube, інше)
 - SQLite-база для трекингу оброблених URL
 
-### 3.14 `tools/local_file_monitor.py` — Моніторинг локальних директорій
+### 3.10 `tools/local_file_monitor.py` — Моніторинг локальних директорій
 
 **Роль:** Відслідковування змін у локальних директоріях, що містять сирі дані.
 
@@ -362,7 +362,7 @@
 - Користувач може вказати custom директорії через аргументи CLI
 - Використовує polling-підхід (не inotify) для крос-платформеності
 
-### 3.15 `tools/github_release_monitor.py` — Моніторинг GitHub релізів
+### 3.11 `tools/github_release_monitor.py` — Моніторинг GitHub релізів
 
 **Роль:** Відслідковування нових релізів та ассетів на GitHub.
 
@@ -399,7 +399,7 @@
 - Автоматичне завантаження ассетів (binaries, docs)
 - Трекинг через tag name + repo
 
-### 3.16 `tools/wiki_lint.py` — Перевірка структурної цілісності
+### 3.12 `tools/wiki_lint.py` — Перевірка структурної цілісності
 
 **Роль:** Сканування всієї вікі та виявлення проблем: брукен-лінки, відсутній frontmatter, SHA256-дрейф, невалідні теги.
 
@@ -478,7 +478,7 @@
 | **Warning** | SHA256-дрейф, теги не з таксономії, >200 рядків |
 | **Info** | confidence: low, contested: true |
 
-### 3.18 `tools/wiki_doctor.py` — 6-layer diagnostic & auto-cure
+### 3.13 `tools/wiki_doctor.py` — 6-layer diagnostic & auto-cure
 
 **Роль:** Повна діагностика та авто-лікування wiki: брукен-лінки, frontmatter-дрейф, SHA256-дрейф, дублікати, невалідні теги, порожні сторінки.
 
@@ -537,7 +537,7 @@
 | **WARN** | SHA256-дрейф, невалідні теги, порожні сторінки |
 | **INFO** | confidence: low, contested: true |
 
-### 3.19 `tools/standard_report.py` — Форматування звітів для cron
+### 3.14 `tools/standard_report.py` — Форматування звітів для cron
 
 **Роль:** Канонічний формат звітів для всіх крон-моніторів. Використовується rss_monitor, local_file_monitor, github_release_monitor.
 
@@ -552,7 +552,7 @@
 }
 ```
 
-### 3.17 `tools/integrator.py` — Автоматичний інтегратор (legacy reference)
+### 3.15 `tools/integrator.py` — Автоматичний інтегратор
 
 **Роль:** Головний скрипт перетворення сирого джерела на сторінку вікі. Запускається після сканування для обробки нових raw-файлів.
 
@@ -859,13 +859,13 @@
 
 | Директорія | Кількість файлів | Тип |
 |------------|-----------------|-----|
-| `raw/articles/` | 701 | Сирі статті |
+| `raw/articles/` | 704 | Сирі статті |
 | `raw/papers/` | 1 | Академічні папери |
 | `raw/transcripts/` | 1 | Транскрипти |
 | `raw/assets/` | 1 | Ассети |
 | `raw/configs/` | 0 | Конфіги (поки пусто) |
-| **Raw total** | **704** | |
-| `.processed/` | 14 | Проміжний кеш HTML→MD (НЕ в git) |
+| **Raw total** | **707** | |
+| `.processed/` | 16 | Проміжний кеш HTML→MD (НЕ в git) |
 | `wiki/comparisons/` | 280 | Порівняння |
 | `wiki/concepts/` | 60 | Концепції |
 | `wiki/entities/` | 44 | Сутності |
@@ -875,8 +875,8 @@
 | `wiki/references/` | 2 | Довідкові |
 | `wiki/templates/` | 8 | Шаблони |
 | `wiki/sources/` | 0 | Пусто |
-| **Wiki total** | **418** | |
-| **Grand total** | **1136** | |
+| **Wiki total** | **421** | |
+| **Grand total** | **1148** | |
 
 ### 6.2 Індекси та журнали
 
@@ -909,6 +909,7 @@
 | `verify_full_mapping.py` | Верифікація повного мапінгу |
 | `verify_hashes.py` | Верифікація хешів |
 | `fix_sha256.py` | Оновлення хешів (вручну) |
+| `source_monitor.py` | Об'єднаний моніторинг (RSS + GitHub + Local) |
 | `standard_report.py` | Форматування звітів для cron |
 
 ### 6.5 Obsidian Vault
@@ -944,143 +945,92 @@
 - **Мова звітів:** українська
 - **Формат виводу:** усі монітори використовують `standard_report.py` з контрактом `{status, summary, details, timestamp, source_job}`
 
-#### 6.7.1 Wiki Raw Scanner
-- **job_id:** `985c4adb8ff5`
-- **Частота:** `every 360m` (кожні 6 годин)
+**Архітектура з 3 jobs (замість 6):**
+
+| # | Job | Скрипт | Частота | Що робить |
+|---|-----|--------|---------|-----------|
+| 1 | **Source Monitor** | `source_monitor.py` | every 6h | RSS + GitHub + Local → raw/articles/ |
+| 2 | **Wiki Integrator** | `integrator.py` | every 12h | raw/ → wiki-сторінки |
+| 3 | **Wiki Doctor** | `wiki_doctor.py` | every 12h | diagnose → auto-cure → re-diagnose → JSON |
+
+**Економія:** 50% cron-сесій (6 → 3), 50% витрат на LLM.
+
+#### 6.7.1 Source Monitor
+- **Частота:** `every 6h` (кожні 6 годин)
 - **Навички:** `wiki-indexer`, `llm-wiki`
 - **Toolsets:** `terminal`, `skills`, `file`
-- **Виконує:**
-  1. `python3 tools/wiki_indexer.py --check` — перевірка нових файлів у `raw/`
-  2. `python3 tools/rss_monitor.py` — запуск RSS-монітора
-  3. `python3 tools/local_file_monitor.py` — запуск локального монітора
-- **Очікуваний вивід:** структурований звіт з полів `status`, `summary`, `details`, `timestamp`, `source_job`
-- **Обробка помилок:**
-  - RSS/Local монітори повертають `status: error` при відмові мережі
-  - `wiki_indexer.py --check` завжди повертає Exit 0 (не блокує пайплайн)
-- **Підстави частоти:** 6 годин — оптимальний баланс між свіжістю даних та навантаженням на LLM. RSS-канали оновлюються рідше ніж щогодини.
+- **Виконує:** `python3 tools/source_monitor.py`
+- **Що робить:** Об'єднує RSS (10 feed), GitHub (26 repos), Local (8 dirs) в одному запуску
+- **Вивід:** структурований звіт з полів `status`, `summary`, `details`, `timestamp`, `source_job`
+- **Підстави частоти:** 6 годин — оптимальний баланс між свіжістю даних та навантаженням на LLM
 
-#### 6.7.2 Wiki Weekly Digest
-- **job_id:** `316efc90f866`
-- **Частота:** `0 9 * * 1` (кожен понеділок о 09:00)
-- **Навички:** `llm-wiki`, `wiki-indexer`
-- **Toolsets:** `terminal`, `file`
-- **Виконує:**
-  1. `python3 tools/wiki_lint.py` — перевірка цілісності
-- **Очікуваний вивід:** структурований звіт з категоріями проблем (Critical/Warning/Info)
-- **Обробка помилок:** `wiki_lint.py` завжди Exit 0 — не блокує пайплайн
-- **Підстави частоти:** щотижневий аудит — достатньо для підтримки якості; щоденний лінтинг надлишковий.
-
-#### 6.7.3 RSS Feed Monitor
-- **job_id:** `a4d137e48854`
-- **Частота:** `0 0,12 * * *` (щодня о 00:00 та 12:00)
-- **Навички:** відсутні
-- **Toolsets:** `terminal`, `file`
-- **Виконує:** `python3 tools/rss_monitor.py`
-- **Очікуваний вивід:** `format_report_simple()` з полів `status`, `summary`, `details`, `timestamp`, `source_job`
-- **Обробка помилок:**
-  - HTTP 304 Not Modified → `status: ok`, `summary: "Nothing new"`
-  - Мережева відмова → `status: error`, `details` містить traceback
-  - Пуста відповідь → `status: ok`, `summary: "No new items"`
-- **Підстави частоти:** 12 годин — RSS-канали оновлюються не частіше; ETag/Last-Modified caching мінімізує трафік.
-
-#### 6.7.4 GitHub Release Monitor
-- **job_id:** `2db3c4ec8f2e`
-- **Частота:** `0 2,14 * * *` (щодня о 02:00 та 14:00)
-- **Навички:** відсутні
-- **Toolsets:** `terminal`, `file`
-- **Виконує:** `python3 tools/github_release_monitor.py`
-- **Очікуваний вивід:** `format_report_simple()` з полів `status`, `summary`, `details`, `timestamp`, `source_job`
-- **Обробка помилок:**
-  - 403 Forbidden → `status: error`, `details` містить список заблокованих репозиторіїв
-  - Rate limit → exponential backoff з `Retry-After` заголовком
-  - Нова версія → інгест у `raw/articles/`
-- **Відомі обмеження:** 10 репозиторіїв повертають 403 без аутентифікації. Потрібен `GITHUB_TOKEN` для повного доступу.
-- **Підстави частоти:** 12 годин — релізи виходять рідко; подвійний запуск покриває різні часові пояси.
-
-#### 6.7.5 Local File Monitor
-- **job_id:** `81362b3212b6`
-- **Частота:** `0 4,16 * * *` (щодня о 04:00 та 16:00)
-- **Навички:** відсутні
-- **Toolsets:** `terminal`, `file`
-- **Виконує:** `python3 tools/local_file_monitor.py`
-- **Очікуваний вивід:** `format_report_simple()` з полів `status`, `summary`, `details`, `timestamp`, `source_job`
-- **Обробка помилок:**
-  - Директорія відсутня → `status: warning`, `details` містить список пропущених директорій
-  - Помилка читання файлу → `status: error`, `details` містить шлях та traceback
-  - Немає змін → `status: ok`, `summary: "No changes detected"`
-- **Підстави частоти:** 12 годин — моніторинг локальних змін; достатньо для виявлення нових файлів.
-
-#### 6.7.6 Wiki Integrator
-- **job_id:** `981a544c6439`
-- **Частота:** `0 6,18 * * *` (щодня о 06:00 та 18:00)
-- **Навички:** відсутні
+#### 6.7.2 Wiki Integrator
+- **Частота:** `every 12h` (щодві години)
 - **Toolsets:** `terminal`, `file`
 - **Виконує:** `python3 tools/integrator.py`
-- **Очікуваний вивід:** структурований звіт про створені wiki-сторінки
-- **Обробка помилок:**
-  - Низький score → `skip` (не помилка)
-  - Дублікат slug → `skip` (не помилка)
-  - Фатальна помилка → `status: error`, `details` містить traceback
-- **Підстави частоти:** 12 годин — інтеграція після сканування; подвійний запуск покриває нові джерела протягом дня.
+- **Що робить:** raw → wiki-сторінки (класифікація, синтез, index.md, log.md)
+- **Підстави частоти:** 12 годин — інтеграція після накопичення raw-файлів
 
----
+#### 6.7.3 Wiki Doctor
+- **Частота:** `every 12h` (щодві години)
+- **Toolsets:** `terminal`, `file`
+- **Виконує:** `python3 tools/wiki_doctor.py cure --dry-run`
+- **Що робить:** 6-layer діагностика + auto-cure + re-diagnosis → outputs/doctor-report.json
+- **Вивід:** console report + JSON (outputs/doctor-report.json) + log.md entry
+- **Підстави частоти:** 12 годин — регулярний health-check без зміни файлів (--dry-run)
+- **Безпека:** --dry-run гарантує жодних змін файлів; лише звіт про те що БУЛО б виправлено
 
-#### 6.7.7 Сумісна діаграма виконання
-
-```
-Час    RSS Monitor    GitHub Monitor    Local Monitor    Integrator    Raw Scanner    Weekly Digest
-─────  ───────────    ────────────────    ─────────────    ────────────    ───────────    ─────────────
-00:00  ✓              ─                 ─                ─             ✓ (tick 1)     ─
-02:00  ─              ✓                 ─                ─             ─              ─
-04:00  ─              ─                 ✓                ─             ─              ─
-06:00  ─              ─                 ─                ✓             ─              ─
-08:00  ─              ─                 ─                ─             ─              ─
-10:00  ─              ─                 ─                ─             ─              ─
-12:00  ✓              ─                 ─                ─             ✓ (tick 2)     ─
-14:00  ─              ✓                 ─                ─             ─              ─
-16:00  ─              ─                 ✓                ─             ─              ─
-18:00  ─              ─                 ─                ✓             ─              ─
-20:00  ─              ─                 ─                ─             ─              ─
-22:00  ─              ─                 ─                ─             ─              ─
-
-Понеділок 09:00 → Weekly Digest (щотижня)
-```
-
----
-
-#### 6.7.8 Порядок виконання та залежності
+#### 6.7.4 Нова діаграма виконання
 
 ```
-1. RSS/Local/GitHub Monitors (00:00-16:00)
+Час    Source Monitor    Integrator    Wiki Doctor
+─────  ──────────────  ────────────  ─────────────
+00:00  ✓               ─             ─
+02:00  ─               ─             ─
+04:00  ─               ─             ─
+06:00  ✓               ✓             ✓
+08:00  ─               ─             ─
+10:00  ─               ─             ─
+12:00  ✓               ─             ─
+14:00  ─               ─             ─
+16:00  ─               ─             ─
+18:00  ✓               ✓             ✓
+20:00  ─               ─             ─
+22:00  ─               ─             ─
+```
+
+#### 6.7.5 Порядок виконання та залежності
+
+```
+1. Source Monitor (00:00, 06:00, 12:00, 18:00)
    ↓ запис у raw/articles/
-2. Wiki Raw Scanner (00:00, 06:00, 12:00, 18:00)
-   ↓ перевірка нових raw-файлів
-3. Wiki Integrator (06:00, 18:00)
+2. Wiki Integrator (06:00, 18:00) — через 0-6h після Source Monitor
    ↓ raw → wiki + index.md + log.md
-4. Wiki Weekly Digest (Пн 09:00)
-   ↓ wiki_lint.py — перевірка цілісності
+3. Wiki Doctor (06:00, 18:00) — паралельно з Integrator
+   ↓ diagnose → cure → re-diagnose → JSON
 ```
 
-**Важливо:** Integrator запускається через 2+ години після Monitor-ів, щоб дати час на накопичення raw-файлів. Raw Scanner працює частіше для оперативного виявлення нових джерел.
+**Важливо:** Integrator запускається через 0-6h після Source Monitor для накопичення raw-файлів. Wiki Doctor працює паралельно для постійного контролю якості.
 
----
-
-#### 6.5.9 Стратегія обробки помилок та backoff
+#### 6.7.6 Стратегія обробки помилок та backoff
 
 | Помилка | Поведінка | Відновлення |
 |---------|-----------|-------------|
-| RSS: HTTP 304 | `status: ok`, skip | Наступний запуск через 12 год |
-| RSS: мережева відмова | `status: error`, traceback | Автоматичне відновлення на наступний запуск |
-| GitHub: 403 Forbidden | `status: error`, список репозиторіїв | Потрібен `GITHUB_TOKEN` |
-| GitHub: rate limit | Exponential backoff (1s, 2s, 4s, 8s, 16s) | Автоматичне відновлення |
-| Local: директорія відсутня | `status: warning`, skip | Перевірити шляхи |
+| Source Monitor: RSS HTTP 304 | `status: ok`, skip | Наступний запуск через 6 год |
+| Source Monitor: мережева відмова | `status: error`, traceback | Автоматичне відновлення |
+| Source Monitor: GitHub 403 | `status: error`, список репозиторіїв | Потрібен `GITHUB_TOKEN` |
+| Source Monitor: GitHub rate limit | Exponential backoff | Автоматичне відновлення |
+| Source Monitor: local dir missing | `status: warning`, skip | Перевірити шляхи |
 | Integrator: низький score | `skip`, не помилка | Наступний запуск |
 | Integrator: дублікат slug | `skip`, не помилка | Наступний запуск |
+| Wiki Doctor: --dry-run | Жодних змін, лише звіт | Безпечно, завжди |
 | Lint: проблеми знайдено | `status: ok` (Exit 0) | Ручне виправлення |
 
-## Додаткова інформація
+**Надійність:** 42/42 тестів PASS — Wiki Doctor auto-cure гарантовано точний. --dry-run mode не змінює жодного файлу.
 
-### 6.6 Історія змін системи
+---
+
+### 6.8 Історія змін системи
 
 | Дата | Фаза | Опис |
 |------|------|------|
@@ -1091,7 +1041,7 @@
 | 2026-07-09 | Phase 5 | SCHEMA.md docs/ directory added, CLAUDE.md updated, ALGORITHM.md streamlined |
 | 2026-07-11 | Phase 7 | Central utilities: `tools/utils.py` created — єдине джерело правди для хешів, frontmatter, тегів та статусів. `check_new_raw.py` та `verify_hashes.py` переведено на `utils.check_raw_integrity()`. 158 false-positive MISMATCH усунуто. `fix_sha256.py` оновлено 158 файлів. `rglob('**/*.md')` замінено `glob('*.md')` для рекурсивного сканування. `APPROVED_TAGS` (262 теги) уніфіковано в `utils.py`. `wiki_lint.py` залежить від `utils.*`. |
 
-### 6.7 Правила якості (з SCHEMA.md)
+### 6.9 Правила якості (з SCHEMA.md)
 
 - Створити сторінку, коли концепція центральна для одного джерела або з'являється в 2+ джерелах
 - Оновлювати існуючу сторінку замість створення дублікатів
@@ -1099,13 +1049,13 @@
 - Розділяти сторінки понад ~200 рядків
 - Кожна концепція/порівняння/Q&A має посилатися мінімум на 2 інші сторінки
 
-### 6.8 Правила посилань
+### 6.10 Правила посилань
 
 - Використовувати Obsidian-стиль `[[wikilinks]]` для концептуальних посилань
 - Використовувати markdown-посилання для raw-шляхів та зовнішніх URL
 - Кожна нова сторінка має бути вказана в `index.md`
 
-### 6.9 Сигнали якості
+### 6.11 Сигнали якості
 
 | Сигнал | Значення |
 |--------|---------|
@@ -1114,7 +1064,7 @@
 | `confidence: low` | Слабке, суперечливе, виведене або потребує перевірки |
 | `contested: true` | Існує непідтверджений конфлікт |
 
-### 6.10 Порядок роботи нового агента
+### 6.12 Порядок роботи нового агента
 
 1. Прочитати `AGENT.md`
 2. Прочитати `SCHEMA.md`

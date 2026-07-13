@@ -19,3 +19,6 @@ Thumbs.db
 
 # Generated reports (not source of truth)
 outputs/
+
+# Backup files (git has history)
+*.bak
