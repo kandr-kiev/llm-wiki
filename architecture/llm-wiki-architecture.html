@@ -7,49 +7,326 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
+
     body {
       font-family: 'JetBrains Mono', monospace;
       background: #020617;
       min-height: 100vh;
-      padding: 2rem;
-      color: white;
+      padding: 1.5rem;
+      color: #e2e8f0;
     }
-    .container { max-width: 1400px; margin: 0 auto; }
-    .header { margin-bottom: 2rem; }
-    .header-row { display: flex; align-items: center; gap: 1rem; margin-bottom: 0.5rem; }
-    .pulse-dot {
-      width: 12px; height: 12px; background: #22d3ee; border-radius: 50%;
-      animation: pulse 2s infinite;
-    }
+
+    .container { max-width: 1600px; margin: 0 auto; }
+
+    /* ─── Header ─── */
+    .header { margin-bottom: 1.5rem; }
+    .header-row { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.375rem; }
+    .pulse-dot { width: 10px; height: 10px; background: #22d3ee; border-radius: 50%; animation: pulse 2s infinite; }
     @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-    h1 { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; }
-    .subtitle { color: #94a3b8; font-size: 0.875rem; margin-left: 1.75rem; }
-    .diagram-container {
-      background: rgba(15, 23, 42, 0.5); border-radius: 1rem;
-      border: 1px solid #1e293b; padding: 1.5rem; overflow-x: auto;
+    h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: -0.025em; }
+    .subtitle { color: #94a3b8; font-size: 0.8rem; margin-left: 1.5rem; }
+    .stats-bar { display: flex; gap: 1.5rem; margin-left: 1.5rem; margin-top: 0.5rem; flex-wrap: wrap; }
+    .stat-item { display: flex; align-items: center; gap: 0.375rem; font-size: 0.75rem; color: #94a3b8; }
+    .stat-dot { width: 6px; height: 6px; border-radius: 50%; }
+    .stat-num { color: #e2e8f0; font-weight: 600; }
+
+    /* ─── Main Layout ─── */
+    .diagram-grid {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 1rem;
     }
-    svg { width: 100%; min-width: 1200px; display: block; }
-    .cards {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1rem; margin-top: 2rem;
+    .main-flow { display: flex; flex-direction: column; gap: 0.5rem; }
+
+    /* ─── Layer Containers ─── */
+    .layer {
+      border-radius: 0.75rem;
+      padding: 1rem;
+      position: relative;
     }
+    .layer-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .layer-subtitle {
+      font-size: 0.7rem;
+      color: #94a3b8;
+      margin-top: 0.125rem;
+    }
+
+    /* ─── Layer 1: Raw Sources ─── */
+    .layer-raw {
+      background: rgba(120, 53, 15, 0.06);
+      border: 1.5px dashed #fbbf24;
+    }
+    .layer-raw .layer-title { color: #fbbf24; }
+    .raw-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.5rem;
+    }
+    .raw-item {
+      background: rgba(120, 53, 15, 0.2);
+      border: 1px solid #fbbf24;
+      border-radius: 0.5rem;
+      padding: 0.625rem;
+      text-align: center;
+    }
+    .raw-item.ext { background: rgba(30, 41, 59, 0.4); border-color: #94a3b8; }
+    .raw-item.cron { background: rgba(21, 94, 117, 0.2); border-color: #06b6d4; }
+    .raw-name { font-size: 0.75rem; font-weight: 600; color: #fff; }
+    .raw-path { font-size: 0.65rem; color: #94a3b8; margin-top: 0.125rem; }
+    .raw-count { font-size: 0.7rem; font-weight: 700; color: #fbbf24; margin-top: 0.25rem; }
+    .raw-item.ext .raw-count { color: #94a3b8; }
+    .raw-item.cron .raw-count { color: #06b6d4; }
+
+    /* ─── .processed/ ─── */
+    .processed-bar {
+      background: rgba(115, 109, 216, 0.08);
+      border: 1.5px solid #7c3aed;
+      border-radius: 0.5rem;
+      padding: 0.625rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .processed-label { font-size: 0.75rem; color: #a78bfa; font-weight: 700; }
+    .processed-desc { font-size: 0.65rem; color: #94a3b8; margin-top: 0.125rem; }
+    .processed-badge { font-size: 0.7rem; color: #a78bfa; font-weight: 600; background: rgba(115,109,216,0.2); padding: 0.25rem 0.5rem; border-radius: 0.375rem; }
+
+    /* ─── Layer 2: Wiki ─── */
+    .layer-wiki {
+      background: rgba(6, 78, 59, 0.06);
+      border: 1.5px dashed #34d399;
+    }
+    .layer-wiki .layer-title { color: #34d399; }
+    .wiki-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 0.5rem;
+    }
+    .wiki-item {
+      background: rgba(6, 78, 59, 0.2);
+      border: 1px solid #34d399;
+      border-radius: 0.5rem;
+      padding: 0.625rem;
+      text-align: center;
+    }
+    .wiki-item.comparison { background: rgba(236, 72, 153, 0.15); border-color: #fb7185; }
+    .wiki-item.comparison .wiki-count { color: #fb7185; }
+    .wiki-item.synthesis { background: rgba(76, 29, 149, 0.2); border-color: #a78bfa; }
+    .wiki-item.synthesis .wiki-count { color: #a78bfa; }
+    .wiki-item.index { background: rgba(8, 51, 68, 0.2); border-color: #22d3ee; }
+    .wiki-item.index .wiki-count { color: #22d3ee; }
+    .wiki-item.log { background: rgba(76, 29, 149, 0.2); border-color: #a78bfa; }
+    .wiki-item.log .wiki-count { color: #a78bfa; }
+    .wiki-name { font-size: 0.75rem; font-weight: 600; color: #fff; }
+    .wiki-path { font-size: 0.65rem; color: #94a3b8; margin-top: 0.125rem; }
+    .wiki-count { font-size: 0.7rem; font-weight: 700; color: #34d399; margin-top: 0.25rem; }
+
+    /* ─── Integrator ─── */
+    .integrator {
+      background: rgba(120, 53, 15, 0.25);
+      border: 1.5px solid #fbbf24;
+      border-radius: 0.5rem;
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .integrator-name { font-size: 0.8rem; font-weight: 700; color: #fff; }
+    .integrator-desc { font-size: 0.65rem; color: #94a3b8; }
+    .integrator-tags { display: flex; gap: 0.375rem; flex-wrap: wrap; margin-top: 0.25rem; }
+    .integrator-tag { font-size: 0.6rem; color: #fbbf24; background: rgba(251, 191, 36, 0.15); padding: 0.125rem 0.375rem; border-radius: 0.25rem; }
+
+    /* ─── Connection Arrows ─── */
+    .conn {
+      padding: 0.375rem 0.625rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      border-radius: 0.375rem;
+      font-size: 0.65rem;
+      font-weight: 600;
+      line-height: 1.4;
+      text-align: center;
+    }
+    .conn-label { font-size: 0.55rem; color: #94a3b8; font-weight: 400; display: block; margin-top: 0.125rem; }
+    .conn.amber { background: rgba(251, 191, 36, 0.1); border: 1px solid rgba(251, 191, 36, 0.3); color: #fbbf24; }
+    .conn.violet { background: rgba(167, 139, 250, 0.1); border: 1px solid rgba(167, 139, 250, 0.3); color: #a78bfa; }
+    .conn.emerald { background: rgba(52, 211, 153, 0.1); border: 1px solid rgba(52, 211, 153, 0.3); color: #34d399; }
+    .conn.rose { background: rgba(251, 113, 133, 0.1); border: 1px solid rgba(251, 113, 133, 0.3); color: #fb7185; }
+    .conn.cyan { background: rgba(6, 182, 212, 0.1); border: 1px solid rgba(6, 182, 212, 0.3); color: #06b6d4; }
+    .conn.gray { background: rgba(100, 116, 139, 0.1); border: 1px solid rgba(100, 116, 139, 0.3); color: #94a3b8; }
+
+    /* ─── Cron Mapping ─── */
+    .cron-map {
+      display: flex;
+      flex-direction: column;
+      gap: 0.375rem;
+      margin-top: 0.5rem;
+    }
+    .cron-map-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 0.625rem;
+      background: rgba(21, 94, 117, 0.15);
+      border: 1px solid rgba(6, 182, 212, 0.25);
+      border-radius: 0.375rem;
+      font-size: 0.65rem;
+    }
+    .cron-map-job {
+      font-weight: 700;
+      color: #fff;
+      min-width: 130px;
+      flex-shrink: 0;
+    }
+    .cron-map-arrow {
+      color: #06b6d4;
+      font-size: 0.75rem;
+      flex-shrink: 0;
+    }
+    .cron-map-target {
+      color: #fbbf24;
+      font-weight: 600;
+    }
+    .cron-map-detail {
+      color: #94a3b8;
+      font-size: 0.55rem;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+
+    /* ─── Tools & Cron ─── */
+    .layer-tools {
+      background: rgba(21, 94, 117, 0.06);
+      border: 1.5px dashed #06b6d4;
+    }
+    .layer-tools .layer-title { color: #06b6d4; }
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+      gap: 0.375rem;
+      margin-bottom: 0.75rem;
+    }
+    .tool-item {
+      background: rgba(6, 78, 59, 0.2);
+      border: 1px solid #34d399;
+      border-radius: 0.375rem;
+      padding: 0.5rem;
+      text-align: center;
+      font-size: 0.65rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .cron-section .cron-title { font-size: 0.75rem; font-weight: 700; color: #06b6d4; margin-bottom: 0.5rem; }
+    .cron-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.375rem; }
+    .cron-item {
+      background: rgba(21, 94, 117, 0.2);
+      border: 1px solid #06b6d4;
+      border-radius: 0.375rem;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    .cron-name { font-size: 0.7rem; font-weight: 600; color: #fff; }
+    .cron-schedule { font-size: 0.6rem; color: #06b6d4; margin-top: 0.125rem; }
+
+    /* ─── Outputs ─── */
+    .layer-outputs {
+      background: rgba(136, 19, 55, 0.06);
+      border: 1.5px dashed #fb7185;
+    }
+    .layer-outputs .layer-title { color: #fb7185; }
+    .outputs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.5rem; }
+    .output-item {
+      background: rgba(136, 19, 55, 0.2);
+      border: 1px solid #fb7185;
+      border-radius: 0.375rem;
+      padding: 0.5rem;
+      text-align: center;
+      font-size: 0.7rem;
+      color: #fff;
+    }
+
+    /* ─── Layer 3: Schema ─── */
+    .layer-schema {
+      background: rgba(76, 29, 149, 0.06);
+      border: 1.5px dashed #a78bfa;
+    }
+    .layer-schema .layer-title { color: #a78bfa; }
+    .schema-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 0.5rem;
+    }
+    .schema-item {
+      background: rgba(76, 29, 149, 0.2);
+      border: 1px solid #a78bfa;
+      border-radius: 0.5rem;
+      padding: 0.625rem;
+      text-align: center;
+    }
+    .schema-item.future { background: rgba(30, 41, 59, 0.3); border-color: #94a3b8; border-style: dashed; }
+    .schema-name { font-size: 0.75rem; font-weight: 600; color: #fff; }
+    .schema-desc { font-size: 0.6rem; color: #94a3b8; margin-top: 0.125rem; line-height: 1.4; }
+    .schema-tag { font-size: 0.55rem; color: #a78bfa; margin-top: 0.25rem; }
+
+    /* ─── Sidebar: Obsidian ─── */
+    .sidebar { display: flex; flex-direction: column; gap: 0.75rem; }
+    .obsidian-panel {
+      background: rgba(168, 85, 247, 0.06);
+      border: 1.5px solid #a855f7;
+      border-radius: 0.75rem;
+      padding: 1rem;
+    }
+    .obsidian-title { font-size: 0.8rem; font-weight: 700; color: #a855f7; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+    .obsidian-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.375rem; }
+    .obsidian-item {
+      background: rgba(168, 85, 247, 0.15);
+      border: 1px solid rgba(168, 85, 247, 0.4);
+      border-radius: 0.375rem;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    .obsidian-name { font-size: 0.65rem; font-weight: 600; color: #fff; }
+    .obsidian-desc { font-size: 0.55rem; color: #94a3b8; margin-top: 0.125rem; }
+
+    /* ─── Cards Row ─── */
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.75rem; margin-top: 1rem; }
     .card {
-      background: rgba(15, 23, 42, 0.5); border-radius: 0.75rem;
-      border: 1px solid #1e293b; padding: 1.25rem;
+      background: rgba(15, 23, 42, 0.5);
+      border-radius: 0.5rem;
+      border: 1px solid #1e293b;
+      padding: 0.875rem;
     }
-    .card-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
-    .card-dot { width: 8px; height: 8px; border-radius: 50%; }
-    .card-dot.cyan { background: #22d3ee; }
-    .card-dot.emerald { background: #34d399; }
-    .card-dot.violet { background: #a78bfa; }
-    .card-dot.amber { background: #fbbf24; }
-    .card-dot.rose { background: #fb7185; }
-    .card-dot.gray { background: #64748b; }
-    .card h3 { font-size: 0.875rem; font-weight: 600; }
-    .card ul { list-style: none; color: #94a3b8; font-size: 0.75rem; }
-    .card li { margin-bottom: 0.375rem; }
-    .card .stat { color: #e2e8f0; font-weight: 600; }
-    .footer { text-align: center; margin-top: 1.5rem; color: #475569; font-size: 0.75rem; }
+    .card-header { display: flex; align-items: center; gap: 0.375rem; margin-bottom: 0.5rem; }
+    .card-dot { width: 6px; height: 6px; border-radius: 50%; }
+    .card h3 { font-size: 0.75rem; font-weight: 600; }
+    .card ul { list-style: none; font-size: 0.65rem; color: #94a3b8; }
+    .card li { margin-bottom: 0.25rem; }
+
+    /* ─── Footer ─── */
+    .footer { text-align: center; margin-top: 1.25rem; color: #475569; font-size: 0.65rem; }
+
+    /* ─── Responsive ─── */
+    @media (max-width: 1200px) {
+      .diagram-grid { grid-template-columns: 1fr; }
+      .sidebar { order: -1; }
+    }
+    @media (max-width: 768px) {
+      body { padding: 0.75rem; }
+      .raw-grid, .wiki-grid, .tools-grid, .schema-grid, .cron-grid { grid-template-columns: repeat(2, 1fr); }
+      .cron-map-row { flex-direction: column; text-align: center; gap: 0.25rem; }
+      .cron-map-detail { margin-left: 0; }
+      h1 { font-size: 1rem; }
+    }
   </style>
 </head>
 <body>
@@ -60,642 +337,463 @@
         <div class="pulse-dot"></div>
         <h1>Local LLM Wiki — Architecture</h1>
       </div>
-      <p class="subtitle">Three-layer knowledge base: Raw Sources → Synthesized Wiki → Schema &amp; Operations • 418 pages • 704 raw files • 15 tools • 6 cron jobs • Obsidian Vault</p>
+      <p class="subtitle">4-layer knowledge base: Raw Sources → .processed/ → Synthesized Wiki → Schema &amp; Operations</p>
+      <div class="stats-bar">
+        <span class="stat-item"><span class="stat-dot" style="background:#fbbf24"></span> <span class="stat-num">704</span> raw files</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#34d399"></span> <span class="stat-num">418</span> wiki pages</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#06b6d4"></span> <span class="stat-num">15</span> tools</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#06b6d4"></span> <span class="stat-num">6</span> cron jobs</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#a78bfa"></span> <span class="stat-num">16</span> .processed</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#a855f7"></span> <span class="stat-num">14</span> Obsidian files</span>
+      </div>
     </div>
 
-    <!-- Main Diagram -->
-    <div class="diagram-container">
-      <svg viewBox="0 0 1260 1180">
-        <!-- Definitions -->
-        <defs>
-          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
-          </marker>
-          <marker id="arrowhead-cyan" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" fill="#22d3ee" />
-          </marker>
-          <marker id="arrowhead-emerald" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" fill="#34d399" />
-          </marker>
-          <marker id="arrowhead-violet" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" fill="#a78bfa" />
-          </marker>
-          <marker id="arrowhead-amber" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" fill="#fbbf24" />
-          </marker>
-          <marker id="arrowhead-rose" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" fill="#fb7185" />
-          </marker>
-          <marker id="arrowhead-gray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-            <polygon points="0 0, 10 3.5, 0 7" fill="#64748b" />
-          </marker>
-          <pattern id="grid" width="40" height="40" patternUnits="userSpaceUse">
-            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
-          </pattern>
-          <!-- Layer 1 Gradient -->
-          <linearGradient id="layer1-grad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="rgba(120,53,15,0.08)"/>
-            <stop offset="100%" stop-color="rgba(120,53,15,0.02)"/>
-          </linearGradient>
-          <!-- Layer 2 Gradient -->
-          <linearGradient id="layer2-grad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="rgba(6,78,59,0.08)"/>
-            <stop offset="100%" stop-color="rgba(6,78,59,0.02)"/>
-          </linearGradient>
-          <!-- Layer 3 Gradient -->
-          <linearGradient id="layer3-grad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="rgba(76,29,149,0.08)"/>
-            <stop offset="100%" stop-color="rgba(76,29,149,0.02)"/>
-          </linearGradient>
-          <!-- Tools Gradient -->
-          <linearGradient id="tools-grad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="rgba(120,53,15,0.06)"/>
-            <stop offset="100%" stop-color="rgba(120,53,15,0.01)"/>
-          </linearGradient>
-          <!-- Cron Gradient -->
-          <linearGradient id="cron-grad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="rgba(21,94,117,0.1)"/>
-            <stop offset="100%" stop-color="rgba(21,94,117,0.03)"/>
-          </linearGradient>
-          <!-- Processed Gradient -->
-          <linearGradient id="processed-grad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="rgba(115,109,216,0.08)"/>
-            <stop offset="100%" stop-color="rgba(115,109,216,0.02)"/>
-          </linearGradient>
-          <!-- Obsidian Gradient -->
-          <linearGradient id="obsidian-grad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="rgba(168,85,247,0.08)"/>
-            <stop offset="100%" stop-color="rgba(168,85,247,0.02)"/>
-          </linearGradient>
-        </defs>
-
-        <!-- Background Grid -->
-        <rect width="100%" height="100%" fill="url(#grid)" />
-
-        <!-- =================================================================
-             LAYER 1 — RAW SOURCES (Top, amber)
-             ================================================================= -->
-        <rect x="30" y="30" width="1200" height="160" rx="12" fill="url(#layer1-grad)" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="8,4"/>
-        <text x="48" y="52" fill="#fbbf24" font-size="11" font-weight="700">LAYER 1 — RAW SOURCES (Immutable) — 704 files</text>
-        <text x="48" y="66" fill="#94a3b8" font-size="8">Path: raw/ — External sources preserved as immutable evidence. SHA256 stored on ingest. Never modified.</text>
-
-        <!-- Raw Articles (701) -->
-        <rect x="50" y="82" width="170" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-        <text x="135" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw Articles</text>
-        <text x="135" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">raw/articles/</text>
-        <text x="135" y="130" fill="#fbbf24" font-size="9" text-anchor="middle" font-weight="700">701 files</text>
-
-        <!-- Raw Papers -->
-        <rect x="240" y="82" width="110" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-        <text x="295" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw Papers</text>
-        <text x="295" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">raw/papers/</text>
-        <text x="295" y="130" fill="#fbbf24" font-size="9" text-anchor="middle" font-weight="700">1 file</text>
-
-        <!-- Raw Transcripts -->
-        <rect x="370" y="82" width="120" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-        <text x="430" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw Transcripts</text>
-        <text x="430" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">raw/transcripts/</text>
-        <text x="430" y="130" fill="#fbbf24" font-size="9" text-anchor="middle" font-weight="700">1 file</text>
-
-        <!-- Raw Assets -->
-        <rect x="510" y="82" width="110" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-        <text x="565" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw Assets</text>
-        <text x="565" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">raw/assets/</text>
-        <text x="565" y="130" fill="#fbbf24" font-size="9" text-anchor="middle" font-weight="700">1 file</text>
-
-        <!-- Raw Configs -->
-        <rect x="640" y="82" width="110" height="55" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-        <text x="695" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Raw Configs</text>
-        <text x="695" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">raw/configs/</text>
-        <text x="695" y="130" fill="#fbbf24" font-size="9" text-anchor="middle" font-weight="700">0 files</text>
-
-        <!-- External Sources -->
-        <rect x="780" y="82" width="120" height="55" rx="6" fill="rgba(30,41,59,0.5)" stroke="#94a3b8" stroke-width="1.5"/>
-        <text x="840" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">External</text>
-        <text x="840" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">Sources</text>
-        <text x="840" y="130" fill="#94a3b8" font-size="7" text-anchor="middle">URL / PDF / Paste</text>
-
-        <!-- Cron Sources -->
-        <rect x="920" y="82" width="130" height="55" rx="6" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1.5"/>
-        <text x="985" y="102" fill="white" font-size="10" font-weight="600" text-anchor="middle">Cron Sources</text>
-        <text x="985" y="116" fill="#94a3b8" font-size="8" text-anchor="middle">RSS / GitHub / Local</text>
-        <text x="985" y="130" fill="#06b6d4" font-size="7" text-anchor="middle">6 cron jobs</text>
-
-        <!-- Arrows Layer 1 -->
-        <line x1="170" y1="110" x2="238" y2="110" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="300" y1="110" x2="368" y2="110" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="430" y1="110" x2="448" y2="110" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="570" y1="110" x2="638" y2="110" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="700" y1="110" x2="718" y2="110" stroke="#fbbf24" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="840" y1="137" x2="840" y2="210" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead)"/>
-        <line x1="985" y1="137" x2="985" y2="210" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#arrowhead-cyan)"/>
-        <text x="998" y="178" fill="#06b6d4" font-size="7">trigger</text>
-
-        <!-- =================================================================
-             .PROCESSED/ — HTML→MD Conversion Cache (Purple)
-             ================================================================= -->
-        <rect x="30" y="210" width="1200" height="90" rx="12" fill="url(#processed-grad)" stroke="#7c3aed" stroke-width="1.5" stroke-dasharray="8,4"/>
-        <text x="48" y="232" fill="#a78bfa" font-size="11" font-weight="700">.PROCESSED/ — HTML→MD Conversion Cache — 16 files</text>
-        <text x="48" y="246" fill="#94a3b8" font-size="8">Intermediate layer: HTML articles converted to Markdown before synthesis. NOT version-controlled (in .gitignore).</text>
-
-        <!-- Processed Articles -->
-        <rect x="50" y="260" width="280" height="40" rx="4" fill="rgba(120,53,15,0.2)" stroke="#a78bfa" stroke-width="1"/>
-        <text x="190" y="285" fill="white" font-size="9" font-weight="600" text-anchor="middle">.processed/*.md — HTML→MD conversion</text>
-
-        <!-- Arrows: raw → processed -->
-        <line x1="135" y1="160" x2="135" y2="210" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrowhead-amber)"/>
-        <text x="148" y="190" fill="#fbbf24" font-size="7">raw articles</text>
-
-        <!-- =================================================================
-             LAYER 2 — WIKI PAGES (Middle, emerald) — 418 pages
-             ================================================================= -->
-        <rect x="30" y="310" width="1200" height="360" rx="12" fill="url(#layer2-grad)" stroke="#34d399" stroke-width="1.5" stroke-dasharray="8,4"/>
-        <text x="48" y="332" fill="#34d399" font-size="11" font-weight="700">LAYER 2 — WIKI PAGES (Synthesized Knowledge) — 418 pages</text>
-        <text x="48" y="346" fill="#94a3b8" font-size="8">Path: wiki/ — Mutable, cross-linked, agent-maintained knowledge base. Open Knowledge Format v0.1.</text>
-
-        <!-- Processed → Integrator arrow -->
-        <line x1="135" y1="300" x2="135" y2="310" stroke="#a78bfa" stroke-width="2" marker-end="url(#arrowhead-violet)"/>
-        <text x="148" y="308" fill="#a78bfa" font-size="7">processed</text>
-
-        <!-- Integrator (center top) -->
-        <rect x="55" y="360" width="160" height="70" rx="6" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1.5"/>
-        <text x="135" y="382" fill="white" font-size="10" font-weight="700" text-anchor="middle">integrator.py</text>
-        <text x="135" y="398" fill="#94a3b8" font-size="8" text-anchor="middle">classify → synthesize</text>
-        <text x="135" y="412" fill="#fbbf24" font-size="7" text-anchor="middle">HTML→MD • title extr.</text>
-        <text x="135" y="424" fill="#fbbf24" font-size="7" text-anchor="middle">wikilinks • write + log</text>
-
-        <!-- Wiki Pages grid (3x3) -->
-        <!-- Row 1 -->
-        <rect x="240" y="360" width="120" height="55" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="300" y="380" fill="white" font-size="10" font-weight="600" text-anchor="middle">Concept</text>
-        <text x="300" y="395" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/concepts/</text>
-        <text x="300" y="410" fill="#34d399" font-size="9" text-anchor="middle" font-weight="700">60 pages</text>
-
-        <rect x="380" y="360" width="120" height="55" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="440" y="380" fill="white" font-size="10" font-weight="600" text-anchor="middle">Entity</text>
-        <text x="440" y="395" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/entities/</text>
-        <text x="440" y="410" fill="#34d399" font-size="9" text-anchor="middle" font-weight="700">44 pages</text>
-
-        <rect x="520" y="360" width="120" height="55" rx="6" fill="rgba(6,78,59,0.4)" stroke="#fb7185" stroke-width="1.5"/>
-        <text x="580" y="380" fill="white" font-size="10" font-weight="600" text-anchor="middle">Comparison</text>
-        <text x="580" y="395" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/comparisons/</text>
-        <text x="580" y="410" fill="#fb7185" font-size="9" text-anchor="middle" font-weight="700">280 pages ★</text>
-        <text x="580" y="422" fill="#94a3b8" font-size="6" text-anchor="middle">[in .gitignore]</text>
-
-        <rect x="660" y="360" width="120" height="55" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="720" y="380" fill="white" font-size="10" font-weight="600" text-anchor="middle">Playbook</text>
-        <text x="720" y="395" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/playbooks/</text>
-        <text x="720" y="410" fill="#34d399" font-size="9" text-anchor="middle" font-weight="700">14 pages</text>
-
-        <rect x="800" y="360" width="120" height="55" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="860" y="380" fill="white" font-size="10" font-weight="600" text-anchor="middle">Synthesis</text>
-        <text x="860" y="395" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/synthesis/</text>
-        <text x="860" y="410" fill="#a78bfa" font-size="9" text-anchor="middle" font-weight="700">7 pages</text>
-
-        <!-- Row 2 -->
-        <rect x="240" y="430" width="120" height="55" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="300" y="450" fill="white" font-size="10" font-weight="600" text-anchor="middle">Query</text>
-        <text x="300" y="465" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/queries/</text>
-        <text x="300" y="480" fill="#34d399" font-size="9" text-anchor="middle" font-weight="700">2 pages</text>
-
-        <rect x="380" y="430" width="120" height="55" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="440" y="450" fill="white" font-size="10" font-weight="600" text-anchor="middle">Reference</text>
-        <text x="440" y="465" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/references/</text>
-        <text x="440" y="480" fill="#34d399" font-size="9" text-anchor="middle" font-weight="700">2 pages</text>
-
-        <rect x="520" y="430" width="120" height="55" rx="6" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1.5"/>
-        <text x="580" y="450" fill="white" font-size="10" font-weight="600" text-anchor="middle">Template</text>
-        <text x="580" y="465" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/templates/</text>
-        <text x="580" y="480" fill="#34d399" font-size="9" text-anchor="middle" font-weight="700">8 templates</text>
-
-        <rect x="660" y="430" width="120" height="55" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
-        <text x="720" y="450" fill="white" font-size="10" font-weight="600" text-anchor="middle">Index</text>
-        <text x="720" y="465" fill="#94a3b8" font-size="8" text-anchor="middle">wiki/index.md</text>
-        <text x="720" y="480" fill="#22d3ee" font-size="9" text-anchor="middle" font-weight="700">24KB catalog</text>
-
-        <rect x="800" y="430" width="120" height="55" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="860" y="450" fill="white" font-size="10" font-weight="600" text-anchor="middle">Log</text>
-        <text x="860" y="465" fill="#94a3b8" font-size="8" text-anchor="middle">log.md</text>
-        <text x="860" y="480" fill="#a78bfa" font-size="9" text-anchor="middle" font-weight="700">47KB journal</text>
-
-        <!-- Inter-page wikilink arrows -->
-        <line x1="360" y1="388" x2="378" y2="388" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="500" y1="388" x2="518" y2="388" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="640" y1="388" x2="658" y2="388" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="780" y1="388" x2="798" y2="388" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="360" y1="458" x2="378" y2="458" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="500" y1="458" x2="518" y2="458" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="640" y1="458" x2="658" y2="458" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="780" y1="458" x2="798" y2="458" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-
-        <!-- Integrator → Wiki arrow -->
-        <line x1="135" y1="430" x2="135" y2="460" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,5"/>
-        <line x1="135" y1="460" x2="240" y2="460" stroke="#fbbf24" stroke-width="1.5" marker-end="url(#arrowhead-amber)"/>
-        <text x="188" y="455" fill="#fbbf24" font-size="7">write</text>
-
-        <!-- Lint Tool (bottom left of Layer 2) -->
-        <rect x="950" y="360" width="140" height="70" rx="6" fill="rgba(136,19,55,0.4)" stroke="#fb7185" stroke-width="1.5"/>
-        <text x="1020" y="382" fill="white" font-size="10" font-weight="700" text-anchor="middle">wiki_lint.py</text>
-        <text x="1020" y="398" fill="#94a3b8" font-size="8" text-anchor="middle">structural health</text>
-        <text x="1020" y="412" fill="#fb7185" font-size="7" text-anchor="middle">ERROR / WARN / INFO</text>
-        <text x="1020" y="424" fill="#fb7185" font-size="7" text-anchor="middle">tags • links • schema</text>
-
-        <!-- Wiki Doctor -->
-        <rect x="950" y="445" width="140" height="55" rx="6" fill="rgba(136,19,55,0.3)" stroke="#fb7185" stroke-width="1.5"/>
-        <text x="1020" y="465" fill="white" font-size="10" font-weight="700" text-anchor="middle">wiki_doctor.py</text>
-        <text x="1020" y="480" fill="#94a3b8" font-size="8" text-anchor="middle">auto-fix broken</text>
-        <text x="1020" y="492" fill="#fb7185" font-size="7" text-anchor="middle">wikilinks • SHA256</text>
-
-        <!-- Lint → Wiki feedback arrow -->
-        <line x1="950" y1="395" x2="920" y2="395" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#arrowhead-rose)"/>
-        <text x="938" y="390" fill="#fb7185" font-size="7">report</text>
-
-        <!-- =================================================================
-             OUTPUTS (Middle-bottom, rose)
-             ================================================================= -->
-        <rect x="30" y="680" width="1200" height="100" rx="12" fill="rgba(136,19,55,0.08)" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="8,4"/>
-        <text x="48" y="702" fill="#fb7185" font-size="11" font-weight="700">OUTPUTS/ — Generated Reports</text>
-        <text x="48" y="716" fill="#94a3b8" font-size="8">Artifacts from lint and doctor tools. Not version-controlled.</text>
-
-        <!-- Lint Report -->
-        <rect x="50" y="730" width="200" height="35" rx="4" fill="rgba(136,19,55,0.3)" stroke="#fb7185" stroke-width="1"/>
-        <text x="150" y="752" fill="white" font-size="9" font-weight="600" text-anchor="middle">lint-report.md — 2.7KB</text>
-
-        <!-- Doctor Report -->
-        <rect x="270" y="730" width="200" height="35" rx="4" fill="rgba(136,19,55,0.3)" stroke="#fb7185" stroke-width="1"/>
-        <text x="370" y="752" fill="white" font-size="9" font-weight="600" text-anchor="middle">doctor-report.json — 43KB</text>
-
-        <!-- Arrows: Lint/Doctor → Outputs -->
-        <line x1="1020" y1="500" x2="1020" y2="560" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="5,5"/>
-        <line x1="1020" y1="560" x2="1020" y2="680" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="5,5"/>
-        <line x1="1020" y1="680" x2="150" y2="680" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="5,5" marker-end="url(#arrowhead-rose)"/>
-        <text x="1033" y="580" fill="#fb7185" font-size="7">report</text>
-
-        <!-- =================================================================
-             TOOLS & CRON (Bottom, cyan)
-             ================================================================= -->
-        <rect x="30" y="800" width="1200" height="200" rx="12" fill="url(#cron-grad)" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="8,4"/>
-        <text x="48" y="822" fill="#06b6d4" font-size="11" font-weight="700">TOOLS &amp; CRON JOBS (Automation Layer)</text>
-        <text x="48" y="836" fill="#94a3b8" font-size="8">Path: tools/ — 15 Python scripts • Cron: 6 scheduled jobs • GitHub: mcp__github__</text>
-
-        <!-- Tools grid (5x3) -->
-        <!-- Row 1 -->
-        <rect x="50" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="110" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">integrator.py</text>
-
-        <rect x="180" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="240" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">wiki_lint.py</text>
-
-        <rect x="310" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="370" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">wiki_doctor.py</text>
-
-        <rect x="440" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="500" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">utils.py</text>
-
-        <rect x="570" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="630" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">check_new_raw.py</text>
-
-        <rect x="700" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="760" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">rss_monitor.py</text>
-
-        <rect x="830" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="890" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">github_release</text>
-
-        <rect x="960" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="1020" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">local_file_mon</text>
-
-        <rect x="1090" y="852" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="1150" y="876" fill="white" font-size="8" font-weight="600" text-anchor="middle">cleanup_dup.py</text>
-
-        <!-- Row 2 -->
-        <rect x="50" y="902" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="110" y="926" fill="white" font-size="8" font-weight="600" text-anchor="middle">fix_sha256.py</text>
-
-        <rect x="180" y="902" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="240" y="926" fill="white" font-size="8" font-weight="600" text-anchor="middle">verify_hashes.py</text>
-
-        <rect x="310" y="902" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="370" y="926" fill="white" font-size="8" font-weight="600" text-anchor="middle">standard_report.py</text>
-
-        <rect x="440" y="902" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="500" y="926" fill="white" font-size="8" font-weight="600" text-anchor="middle">github_monitor.py</text>
-
-        <rect x="570" y="902" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="630" y="926" fill="white" font-size="8" font-weight="600" text-anchor="middle">promote_fallback.py</text>
-
-        <rect x="700" y="902" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="760" y="926" fill="white" font-size="8" font-weight="600" text-anchor="middle">verify_full_map.py</text>
-
-        <rect x="830" y="902" width="120" height="40" rx="4" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="890" y="926" fill="white" font-size="8" font-weight="600" text-anchor="middle">README.md</text>
-
-        <rect x="960" y="902" width="250" height="40" rx="4" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1"/>
-        <text x="1085" y="926" fill="#06b6d4" font-size="8" font-weight="600" text-anchor="middle">+ .processed/ cache • __pycache__/</text>
-
-        <!-- Cron jobs grid -->
-        <text x="48" y="964" fill="#06b6d4" font-size="9" font-weight="700">CRON JOBS:</text>
-
-        <rect x="120" y="974" width="130" height="30" rx="4" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1"/>
-        <text x="185" y="993" fill="white" font-size="7" font-weight="600" text-anchor="middle">Wiki Raw Scanner</text>
-        <text x="185" y="1004" fill="#06b6d4" font-size="6" text-anchor="middle">every 360m</text>
-
-        <rect x="260" y="974" width="130" height="30" rx="4" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1"/>
-        <text x="325" y="993" fill="white" font-size="7" font-weight="600" text-anchor="middle">Wiki Weekly Digest</text>
-        <text x="325" y="1004" fill="#06b6d4" font-size="6" text-anchor="middle">Mon 09:00</text>
-
-        <rect x="400" y="974" width="130" height="30" rx="4" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1"/>
-        <text x="465" y="993" fill="white" font-size="7" font-weight="600" text-anchor="middle">RSS Feed Monitor</text>
-        <text x="465" y="1004" fill="#06b6d4" font-size="6" text-anchor="middle">every 12h</text>
-
-        <rect x="540" y="974" width="130" height="30" rx="4" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1"/>
-        <text x="605" y="993" fill="white" font-size="7" font-weight="600" text-anchor="middle">GitHub Release Mon</text>
-        <text x="605" y="1004" fill="#06b6d4" font-size="6" text-anchor="middle">02:00, 14:00</text>
-
-        <rect x="680" y="974" width="130" height="30" rx="4" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1"/>
-        <text x="745" y="993" fill="white" font-size="7" font-weight="600" text-anchor="middle">Local File Monitor</text>
-        <text x="745" y="1004" fill="#06b6d4" font-size="6" text-anchor="middle">04:00, 16:00</text>
-
-        <rect x="820" y="974" width="130" height="30" rx="4" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1"/>
-        <text x="885" y="993" fill="white" font-size="7" font-weight="600" text-anchor="middle">Wiki Integrator</text>
-        <text x="885" y="1004" fill="#06b6d4" font-size="6" text-anchor="middle">06:00, 18:00</text>
-
-        <!-- Cron → Tools arrows -->
-        <line x1="185" y1="974" x2="185" y2="892" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="325" y1="974" x2="325" y2="892" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="465" y1="974" x2="465" y2="892" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="605" y1="974" x2="605" y2="892" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="745" y1="974" x2="745" y2="892" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="885" y1="974" x2="885" y2="892" stroke="#06b6d4" stroke-width="1" stroke-dasharray="3,3"/>
-
-        <!-- =================================================================
-             LAYER 3 — SCHEMA & OPERATIONS (Bottom, violet)
-             ================================================================= -->
-        <rect x="30" y="1010" width="1200" height="180" rx="12" fill="url(#layer3-grad)" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="8,4"/>
-        <text x="48" y="1032" fill="#a78bfa" font-size="11" font-weight="700">LAYER 3 — SCHEMA &amp; OPERATIONS</text>
-        <text x="48" y="1046" fill="#94a3b8" font-size="8">Structural contracts, navigation, logging, and documentation.</text>
-
-        <!-- SCHEMA.md -->
-        <rect x="50" y="1062" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="115" y="1082" fill="white" font-size="10" font-weight="600" text-anchor="middle">SCHEMA.md</text>
-        <text x="115" y="1097" fill="#94a3b8" font-size="8" text-anchor="middle">Types, tags,</text>
-        <text x="115" y="1110" fill="#94a3b8" font-size="8" text-anchor="middle">field contracts</text>
-        <text x="115" y="1122" fill="#a78bfa" font-size="7" text-anchor="middle">structural guard</text>
-
-        <!-- CLAUDE.md -->
-        <rect x="200" y="1062" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="265" y="1082" fill="white" font-size="10" font-weight="600" text-anchor="middle">CLAUDE.md</text>
-        <text x="265" y="1097" fill="#94a3b8" font-size="8" text-anchor="middle">Agent operational</text>
-        <text x="265" y="1110" fill="#94a3b8" font-size="8" text-anchor="middle">contract</text>
-        <text x="265" y="1122" fill="#a78bfa" font-size="7" text-anchor="middle">behavior rules</text>
-
-        <!-- ALGORITHM.md -->
-        <rect x="350" y="1062" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="415" y="1082" fill="white" font-size="10" font-weight="600" text-anchor="middle">ALGORITHM.md</text>
-        <text x="415" y="1097" fill="#94a3b8" font-size="8" text-anchor="middle">Step-by-step</text>
-        <text x="415" y="1110" fill="#94a3b8" font-size="8" text-anchor="middle">workflows</text>
-        <text x="415" y="1122" fill="#a78bfa" font-size="7" text-anchor="middle">ingest/query/lint</text>
-
-        <!-- ARCHITECTURE.md -->
-        <rect x="500" y="1062" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="565" y="1082" fill="white" font-size="10" font-weight="600" text-anchor="middle">ARCHITECTURE.md</text>
-        <text x="565" y="1097" fill="#94a3b8" font-size="8" text-anchor="middle">Technical</text>
-        <text x="565" y="1110" fill="#94a3b8" font-size="8" text-anchor="middle">architecture</text>
-        <text x="565" y="1122" fill="#a78bfa" font-size="7" text-anchor="middle">design docs</text>
-
-        <!-- docs/ -->
-        <rect x="650" y="1062" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="715" y="1082" fill="white" font-size="10" font-weight="600" text-anchor="middle">docs/</text>
-        <text x="715" y="1097" fill="#94a3b8" font-size="8" text-anchor="middle">Wiki docs</text>
-        <text x="715" y="1110" fill="#94a3b8" font-size="8" text-anchor="middle">roadmap, wiki-doctor</text>
-        <text x="715" y="1122" fill="#a78bfa" font-size="7" text-anchor="middle">ARCHITECTURE, ROADMAP</text>
-
-        <!-- AGENTS.md / AGENT.md -->
-        <rect x="800" y="1062" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="865" y="1082" fill="white" font-size="10" font-weight="600" text-anchor="middle">AGENTS.md</text>
-        <text x="865" y="1097" fill="#94a3b8" font-size="8" text-anchor="middle">Agent config</text>
-        <text x="865" y="1110" fill="#94a3b8" font-size="8" text-anchor="middle">instructions</text>
-        <text x="865" y="1122" fill="#a78bfa" font-size="7" text-anchor="middle">system prompts</text>
-
-        <!-- .gitignore -->
-        <rect x="950" y="1062" width="130" height="65" rx="6" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1.5"/>
-        <text x="1015" y="1082" fill="white" font-size="10" font-weight="600" text-anchor="middle">.gitignore</text>
-        <text x="1015" y="1097" fill="#94a3b8" font-size="8" text-anchor="middle">Excludes:</text>
-        <text x="1015" y="1110" fill="#94a3b8" font-size="8" text-anchor="middle">.processed/, wiki/comparisons/</text>
-        <text x="1015" y="1122" fill="#a78bfa" font-size="7" text-anchor="middle">.obsidian/workspace*</text>
-
-        <!-- MCP (future) -->
-        <rect x="1100" y="1062" width="110" height="65" rx="6" fill="rgba(30,41,59,0.5)" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
-        <text x="1155" y="1082" fill="#94a3b8" font-size="10" font-weight="600" text-anchor="middle">MCP Server</text>
-        <text x="1155" y="1097" fill="#94a3b8" font-size="8" text-anchor="middle">Final phase</text>
-        <text x="1155" y="1110" fill="#94a3b8" font-size="7" text-anchor="middle">resources/tools</text>
-        <text x="1155" y="1122" fill="#94a3b8" font-size="7" text-anchor="middle">prompts</text>
-
-        <!-- Arrows L2 → L3 -->
-        <line x1="135" y1="800" x2="135" y2="830" stroke="#34d399" stroke-width="1.5" stroke-dasharray="5,5"/>
-        <line x1="135" y1="830" x2="135" y2="1010" stroke="#34d399" stroke-width="1.5" stroke-dasharray="5,5"/>
-        <text x="148" y="920" fill="#34d399" font-size="7" transform="rotate(-90,148,920)">maintain</text>
-
-        <!-- Arrows L3 → L2 (feedback) -->
-        <line x1="565" y1="1060" x2="565" y2="800" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,3"/>
-        <line x1="565" y1="800" x2="565" y2="310" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,3"/>
-        <text x="578" y="555" fill="#a78bfa" font-size="7" transform="rotate(-90,578,555)">schema + templates</text>
-
-        <!-- =================================================================
-             OBSIDIAN VAULT (Right side, purple)
-             ================================================================= -->
-        <rect x="1040" y="310" width="190" height="280" rx="12" fill="url(#obsidian-grad)" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="8,4"/>
-        <text x="1135" y="332" fill="#a855f7" font-size="11" font-weight="700" text-anchor="middle">OBSIDIAN VAULT</text>
-        <text x="1135" y="346" fill="#94a3b8" font-size="8" text-anchor="middle">Primary visualization layer</text>
-
-        <!-- Obsidian components -->
-        <rect x="1060" y="360" width="150" height="35" rx="4" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1"/>
-        <text x="1135" y="382" fill="white" font-size="8" font-weight="600" text-anchor="middle">Dataview Plugin</text>
-
-        <rect x="1060" y="400" width="150" height="35" rx="4" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1"/>
-        <text x="1135" y="422" fill="white" font-size="8" font-weight="600" text-anchor="middle">Obsidian Git</text>
-
-        <rect x="1060" y="440" width="150" height="35" rx="4" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1"/>
-        <text x="1135" y="462" fill="white" font-size="8" font-weight="600" text-anchor="middle">Templater</text>
-
-        <rect x="1060" y="480" width="150" height="35" rx="4" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1"/>
-        <text x="1135" y="502" fill="white" font-size="8" font-weight="600" text-anchor="middle">Graph View</text>
-
-        <rect x="1060" y="520" width="150" height="35" rx="4" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1"/>
-        <text x="1135" y="542" fill="white" font-size="8" font-weight="600" text-anchor="middle">Dark Theme</text>
-
-        <rect x="1060" y="560" width="150" height="35" rx="4" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1"/>
-        <text x="1135" y="582" fill="white" font-size="8" font-weight="600" text-anchor="middle">Templates/</text>
-
-        <!-- Arrows: Wiki → Obsidian -->
-        <line x1="920" y1="460" x2="1040" y2="460" stroke="#a855f7" stroke-width="1.5" marker-end="url(#arrowhead-violet)"/>
-        <text x="980" y="455" fill="#a855f7" font-size="7">read</text>
-
-        <!-- Arrows: Obsidian → Wiki (edit) -->
-        <line x1="1040" y1="520" x2="920" y2="520" stroke="#a855f7" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead-violet)"/>
-        <text x="980" y="515" fill="#a855f7" font-size="7">edit</text>
-
-        <!-- =================================================================
-             SECURITY (Bottom right, gray)
-             ================================================================= -->
-        <rect x="1040" y="610" width="190" height="60" rx="12" fill="rgba(100,116,139,0.1)" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4"/>
-        <text x="1135" y="632" fill="#94a3b8" font-size="10" font-weight="600" text-anchor="middle">SECURITY</text>
-        <text x="1135" y="646" fill="#64748b" font-size="8" text-anchor="middle">wiki-secret.txt</text>
-        <text x="1135" y="660" fill="#64748b" font-size="7" text-anchor="middle">43 bytes</text>
-
-        <!-- =================================================================
-             LEGEND
-             ================================================================= -->
-        <text x="1040" y="700" fill="white" font-size="10" font-weight="600">Legend</text>
-
-        <rect x="1040" y="712" width="16" height="10" rx="2" fill="rgba(120,53,15,0.3)" stroke="#fbbf24" stroke-width="1"/>
-        <text x="1062" y="720" fill="#94a3b8" font-size="8">Layer 1 — Raw Sources</text>
-
-        <rect x="1040" y="728" width="16" height="10" rx="2" fill="rgba(124,58,237,0.3)" stroke="#7c3aed" stroke-width="1"/>
-        <text x="1062" y="736" fill="#94a3b8" font-size="8">.processed/ — HTML→MD</text>
-
-        <rect x="1040" y="744" width="16" height="10" rx="2" fill="rgba(6,78,59,0.4)" stroke="#34d399" stroke-width="1"/>
-        <text x="1062" y="752" fill="#94a3b8" font-size="8">Layer 2 — Wiki Pages</text>
-
-        <rect x="1040" y="760" width="16" height="10" rx="2" fill="rgba(76,29,149,0.4)" stroke="#a78bfa" stroke-width="1"/>
-        <text x="1062" y="768" fill="#94a3b8" font-size="8">Layer 3 — Schema &amp; Ops</text>
-
-        <rect x="1040" y="776" width="16" height="10" rx="2" fill="rgba(21,94,117,0.3)" stroke="#06b6d4" stroke-width="1"/>
-        <text x="1062" y="784" fill="#94a3b8" font-size="8">Tools &amp; Cron</text>
-
-        <rect x="1040" y="792" width="16" height="10" rx="2" fill="rgba(136,19,55,0.4)" stroke="#fb7185" stroke-width="1"/>
-        <text x="1062" y="800" fill="#94a3b8" font-size="8">Lint / Doctor</text>
-
-        <rect x="1040" y="808" width="16" height="10" rx="2" fill="rgba(168,85,247,0.2)" stroke="#a855f7" stroke-width="1"/>
-        <text x="1062" y="816" fill="#94a3b8" font-size="8">Obsidian Vault</text>
-
-        <rect x="1040" y="824" width="16" height="10" rx="2" fill="rgba(100,116,139,0.1)" stroke="#64748b" stroke-width="1"/>
-        <text x="1062" y="832" fill="#94a3b8" font-size="8">Security</text>
-
-        <line x1="1040" y1="850" x2="1056" y2="850" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,5"/>
-        <text x="1062" y="853" fill="#94a3b8" font-size="8">Data flow</text>
-
-        <line x1="1040" y1="866" x2="1056" y2="866" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <text x="1062" y="869" fill="#94a3b8" font-size="8">Wikilink / Inter-page</text>
-
-        <line x1="1040" y1="882" x2="1056" y2="882" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="5,5"/>
-        <text x="1062" y="885" fill="#94a3b8" font-size="8">Cron / Async</text>
-
-        <line x1="1040" y1="898" x2="1056" y2="898" stroke="#fb7185" stroke-width="1.5" stroke-dasharray="4,4"/>
-        <text x="1062" y="901" fill="#94a3b8" font-size="8">Lint report</text>
-
-        <line x1="1040" y1="914" x2="1056" y2="914" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="5,5"/>
-        <text x="1062" y="917" fill="#94a3b8" font-size="8">Obsidian sync</text>
-
-        <line x1="1040" y1="930" x2="1056" y2="930" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
-        <text x="1062" y="933" fill="#94a3b8" font-size="8">Future (MCP)</text>
-
-        <!-- ★ = most populated -->
-        <text x="1040" y="950" fill="#fb7185" font-size="8" font-weight="600">★ = most populated</text>
-      </svg>
-    </div>
-
-    <!-- Info Cards -->
-    <div class="cards">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-dot amber"></div>
-          <h3>Layer 1 — Raw Sources</h3>
+    <!-- Main Grid: Flow + Sidebar -->
+    <div class="diagram-grid">
+      <!-- Main Flow -->
+      <div class="main-flow">
+
+        <!-- LAYER 1: Raw Sources -->
+        <div class="layer layer-raw">
+          <div class="layer-title">
+            <span>▣</span> LAYER 1 — RAW SOURCES (Immutable)
+          </div>
+          <div class="layer-subtitle">External sources preserved as immutable evidence. SHA256 stored on ingest. Never modified.</div>
+          <div class="raw-grid" style="margin-top:0.75rem">
+            <div class="raw-item">
+              <div class="raw-name">📄 Raw Articles</div>
+              <div class="raw-path">raw/articles/</div>
+              <div class="raw-count">701 files</div>
+            </div>
+            <div class="raw-item">
+              <div class="raw-name">📑 Raw Papers</div>
+              <div class="raw-path">raw/papers/</div>
+              <div class="raw-count">1 file</div>
+            </div>
+            <div class="raw-item">
+              <div class="raw-name">🎙️ Raw Transcripts</div>
+              <div class="raw-path">raw/transcripts/</div>
+              <div class="raw-count">1 file</div>
+            </div>
+            <div class="raw-item">
+              <div class="raw-name">📎 Raw Assets</div>
+              <div class="raw-path">raw/assets/</div>
+              <div class="raw-count">1 file</div>
+            </div>
+            <div class="raw-item ext">
+              <div class="raw-name">🌐 External Sources</div>
+              <div class="raw-path">URL / PDF / Paste</div>
+              <div class="raw-count">—</div>
+            </div>
+            <div class="raw-item cron">
+              <div class="raw-name">⏰ Cron Sources</div>
+              <div class="raw-path">RSS / GitHub / Local</div>
+              <div class="raw-count">6 cron jobs</div>
+            </div>
+          </div>
         </div>
-        <ul>
-          <li>• <span class="stat">704 total files</span> across 5 subdirectories</li>
-          <li>• Immutable external sources (URL, PDF, paste)</li>
-          <li>• SHA256 hash stored on ingest</li>
-          <li>• Subfolders: articles (701), papers (1), transcripts (1), assets (1), configs (0)</li>
-          <li>• Source of truth — never modified after ingest</li>
-          <li>• Filled by 6 cron jobs + manual ingestion</li>
-        </ul>
+
+        <!-- Connection 1: Raw Articles → .processed/ -->
+        <div class="conn amber">
+          <span>raw/articles/*.md →</span>
+          <span>.processed/*.md</span>
+          <span class="conn-label">integrator.py: HTML→MD конверсія перед синтезом</span>
+        </div>
+
+        <!-- .processed/ Cache -->
+        <div class="processed-bar">
+          <div>
+            <div class="processed-label">.processed/ — HTML→MD Conversion Cache</div>
+            <div class="processed-desc">Intermediate layer: HTML articles converted to Markdown before synthesis. NOT version-controlled.</div>
+          </div>
+          <div class="processed-badge">16 files</div>
+        </div>
+
+        <!-- Connection 2: .processed/ → integrator.py -->
+        <div class="conn violet">
+          <span>.processed/*.md →</span>
+          <span>integrator.py</span>
+          <span class="conn-label">класифікація типу → синтез wiki-сторінки</span>
+        </div>
+
+        <!-- Integrator -->
+        <div class="integrator">
+          <div>
+            <div class="integrator-name">🔄 integrator.py</div>
+            <div class="integrator-desc">classify → synthesize → write wiki → update index.md → append log.md</div>
+            <div class="integrator-tags">
+              <span class="integrator-tag">HTML→MD</span>
+              <span class="integrator-tag">title extraction</span>
+              <span class="integrator-tag">wikilinks</span>
+              <span class="integrator-tag">write + log</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Connection 3: integrator.py → wiki/ -->
+        <div class="conn emerald">
+          <span>integrator.py →</span>
+          <span>wiki/concepts/ wiki/entities/ wiki/comparisons/ wiki/playbooks/ wiki/synthesis/</span>
+          <span class="conn-label">створення/оновлення сторінок з frontmatter</span>
+        </div>
+
+        <!-- LAYER 2: Wiki Pages -->
+        <div class="layer layer-wiki">
+          <div class="layer-title">
+            <span>▣</span> LAYER 2 — WIKI PAGES (Synthesized Knowledge)
+          </div>
+          <div class="layer-subtitle">Mutable, cross-linked, agent-maintained knowledge base. Open Knowledge Format v0.1.</div>
+          <div class="wiki-grid" style="margin-top:0.75rem">
+            <div class="wiki-item">
+              <div class="wiki-name">🧠 Concept</div>
+              <div class="wiki-path">wiki/concepts/</div>
+              <div class="wiki-count">60 pages</div>
+            </div>
+            <div class="wiki-item">
+              <div class="wiki-name">🏢 Entity</div>
+              <div class="wiki-path">wiki/entities/</div>
+              <div class="wiki-count">44 pages</div>
+            </div>
+            <div class="wiki-item comparison">
+              <div class="wiki-name">⚖️ Comparison</div>
+              <div class="wiki-path">wiki/comparisons/</div>
+              <div class="wiki-count">280 pages ★</div>
+            </div>
+            <div class="wiki-item">
+              <div class="wiki-name">📋 Playbook</div>
+              <div class="wiki-path">wiki/playbooks/</div>
+              <div class="wiki-count">14 pages</div>
+            </div>
+            <div class="wiki-item synthesis">
+              <div class="wiki-name">🔮 Synthesis</div>
+              <div class="wiki-path">wiki/synthesis/</div>
+              <div class="wiki-count">7 pages</div>
+            </div>
+            <div class="wiki-item">
+              <div class="wiki-name">❓ Query</div>
+              <div class="wiki-path">wiki/queries/</div>
+              <div class="wiki-count">2 pages</div>
+            </div>
+            <div class="wiki-item">
+              <div class="wiki-name">📚 Reference</div>
+              <div class="wiki-path">wiki/references/</div>
+              <div class="wiki-count">2 pages</div>
+            </div>
+            <div class="wiki-item">
+              <div class="wiki-name">📝 Template</div>
+              <div class="wiki-path">wiki/templates/</div>
+              <div class="wiki-count">8 templates</div>
+            </div>
+            <div class="wiki-item index">
+              <div class="wiki-name">📇 Index</div>
+              <div class="wiki-path">wiki/index.md</div>
+              <div class="wiki-count">24KB catalog</div>
+            </div>
+            <div class="wiki-item log">
+              <div class="wiki-name">📜 Log</div>
+              <div class="wiki-path">log.md</div>
+              <div class="wiki-count">47KB journal</div>
+            </div>
+          </div>
+
+          <!-- Tools inside Layer 2 -->
+          <div style="margin-top:0.75rem; display:flex; gap:0.5rem; flex-wrap:wrap;">
+            <div class="tool-item" style="border-color:#fb7185; background:rgba(136,19,55,0.2);">
+              🔍 wiki_lint.py<br><span style="font-size:0.55rem;color:#fb7185;">structural health</span>
+            </div>
+            <div class="tool-item" style="border-color:#fb7185; background:rgba(136,19,55,0.15);">
+              🏥 wiki_doctor.py<br><span style="font-size:0.55rem;color:#fb7185;">auto-fix broken</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Connection 4: wiki_lint.py → wiki/ (read) -->
+        <div class="conn rose">
+          <span>wiki_lint.py →</span>
+          <span>wiki/**/*.md</span>
+          <span class="conn-label">перевірка: frontmatter, теги, wikilinks, SHA256 → outputs/lint-report.md</span>
+        </div>
+
+        <!-- Connection 5: wiki_doctor.py → wiki/ (fix) -->
+        <div class="conn rose">
+          <span>wiki_doctor.py →</span>
+          <span>wiki/**/*.md</span>
+          <span class="conn-label">auto-fix: брукен-лінки, SHA256 drift, missing frontmatter → outputs/doctor-report.json</span>
+        </div>
+
+        <!-- Outputs -->
+        <div class="layer layer-outputs">
+          <div class="layer-title">
+            <span>▣</span> OUTPUTS/ — Generated Reports
+          </div>
+          <div class="layer-subtitle">Artifacts from lint and doctor tools. Not version-controlled.</div>
+          <div class="outputs-grid" style="margin-top:0.5rem">
+            <div class="output-item">📄 lint-report.md (2.7KB)<br><span style="font-size:0.55rem;color:#94a3b8;">wiki_lint.py →</span></div>
+            <div class="output-item">📋 doctor-report.json (43KB)<br><span style="font-size:0.55rem;color:#94a3b8;">wiki_doctor.py →</span></div>
+          </div>
+        </div>
+
+        <!-- Connection 6: Cron → Tools (MAPPING) -->
+        <div class="conn cyan">
+          <span>⏰ Cron Jobs → Tools (scheduled execution)</span>
+          <span class="conn-label">6 cron jobs trigger specific scripts on schedule</span>
+        </div>
+
+        <!-- TOOLS & CRON -->
+        <div class="layer layer-tools">
+          <div class="layer-title">
+            <span>▣</span> TOOLS &amp; CRON JOBS (Automation Layer)
+          </div>
+          <div class="layer-subtitle">15 Python scripts • 6 scheduled jobs • GitHub MCP integration</div>
+
+          <!-- Cron → Tool Mapping -->
+          <div class="cron-map">
+            <div class="cron-map-row">
+              <span class="cron-map-job">RSS Feed Monitor</span>
+              <span class="cron-map-arrow">→</span>
+              <span class="cron-map-target">rss_monitor.py</span>
+              <span class="cron-map-detail">00:00, 12:00 → raw/articles/</span>
+            </div>
+            <div class="cron-map-row">
+              <span class="cron-map-job">GitHub Release Mon</span>
+              <span class="cron-map-arrow">→</span>
+              <span class="cron-map-target">github_release_monitor.py</span>
+              <span class="cron-map-detail">02:00, 14:00 → raw/articles/</span>
+            </div>
+            <div class="cron-map-row">
+              <span class="cron-map-job">Local File Monitor</span>
+              <span class="cron-map-arrow">→</span>
+              <span class="cron-map-target">local_file_monitor.py</span>
+              <span class="cron-map-detail">04:00, 16:00 → raw/articles/</span>
+            </div>
+            <div class="cron-map-row">
+              <span class="cron-map-job">Wiki Raw Scanner</span>
+              <span class="cron-map-arrow">→</span>
+              <span class="cron-map-target">wiki_indexer.py + rss + local</span>
+              <span class="cron-map-detail">every 360m → check new raw</span>
+            </div>
+            <div class="cron-map-row">
+              <span class="cron-map-job">Wiki Integrator</span>
+              <span class="cron-map-arrow">→</span>
+              <span class="cron-map-target">integrator.py</span>
+              <span class="cron-map-detail">06:00, 18:00 → raw → wiki</span>
+            </div>
+            <div class="cron-map-row">
+              <span class="cron-map-job">Wiki Weekly Digest</span>
+              <span class="cron-map-arrow">→</span>
+              <span class="cron-map-target">wiki_lint.py</span>
+              <span class="cron-map-detail">Mon 09:00 → outputs/lint-report.md</span>
+            </div>
+          </div>
+
+          <div class="tools-grid" style="margin-top:0.75rem">
+            <div class="tool-item">integrator.py</div>
+            <div class="tool-item">wiki_lint.py</div>
+            <div class="tool-item">wiki_doctor.py</div>
+            <div class="tool-item">utils.py</div>
+            <div class="tool-item">check_new_raw.py</div>
+            <div class="tool-item">rss_monitor.py</div>
+            <div class="tool-item">github_release.py</div>
+            <div class="tool-item">local_file_mon.py</div>
+            <div class="tool-item">cleanup_dup.py</div>
+            <div class="tool-item">fix_sha256.py</div>
+            <div class="tool-item">verify_hashes.py</div>
+            <div class="tool-item">standard_report.py</div>
+            <div class="tool-item">github_monitor.py</div>
+            <div class="tool-item">promote_fallback.py</div>
+            <div class="tool-item">verify_full_map.py</div>
+          </div>
+        </div>
+
+        <!-- Connection 7: Wiki → Schema (maintained by) -->
+        <div class="conn violet">
+          <span>wiki/**/*.md</span>
+          <span class="conn-label">← maintained by →</span>
+          <span>SCHEMA.md (types/tags) • ALGORITHM.md (workflows) • .gitignore (excludes)</span>
+        </div>
+
+        <!-- Connection 8: Schema → Tools (reference) -->
+        <div class="conn gray">
+          <span>SCHEMA.md + ALGORITHM.md + AGENTS.md</span>
+          <span class="conn-label">← referenced by →</span>
+          <span>agents, cron jobs, scripts (utils.py, wiki_lint.py, integrator.py)</span>
+        </div>
+
+        <!-- LAYER 3: Schema & Operations -->
+        <div class="layer layer-schema">
+          <div class="layer-title">
+            <span>▣</span> LAYER 3 — SCHEMA &amp; OPERATIONS
+          </div>
+          <div class="layer-subtitle">Structural contracts, navigation, logging, and documentation.</div>
+          <div class="schema-grid" style="margin-top:0.75rem">
+            <div class="schema-item">
+              <div class="schema-name">📐 SCHEMA.md</div>
+              <div class="schema-desc">Types, tags, field contracts</div>
+              <div class="schema-tag">structural guard</div>
+            </div>
+            <div class="schema-item">
+              <div class="schema-name">🤖 AGENTS.md</div>
+              <div class="schema-desc">Agent config instructions</div>
+              <div class="schema-tag">system prompts</div>
+            </div>
+            <div class="schema-item">
+              <div class="schema-name">⚙️ ALGORITHM.md</div>
+              <div class="schema-desc">Step-by-step workflows</div>
+              <div class="schema-tag">ingest/query/lint</div>
+            </div>
+            <div class="schema-item">
+              <div class="schema-name">🏗️ ARCHITECTURE.md</div>
+              <div class="schema-desc">Technical architecture</div>
+              <div class="schema-tag">design docs</div>
+            </div>
+            <div class="schema-item">
+              <div class="schema-name">📁 docs/</div>
+              <div class="schema-desc">Wiki docs, roadmap, wiki-doctor</div>
+              <div class="schema-tag">ARCHITECTURE, ROADMAP</div>
+            </div>
+            <div class="schema-item">
+              <div class="schema-name">🚫 .gitignore</div>
+              <div class="schema-desc">Excludes: .processed/, comparisons/, outputs/, workspace*</div>
+              <div class="schema-tag">version control</div>
+            </div>
+            <div class="schema-item future">
+              <div class="schema-name">🔮 MCP Server</div>
+              <div class="schema-desc">Final phase: resources/tools/prompts</div>
+              <div class="schema-tag">future</div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="card">
-        <div class="card-header">
-          <div class="card-dot violet"></div>
-          <h3>.processed/ — HTML→MD Cache</h3>
+      <!-- Sidebar: Obsidian Vault -->
+      <div class="sidebar">
+        <div class="obsidian-panel">
+          <div class="obsidian-title">
+            <span>📓</span> Obsidian Vault
+          </div>
+          <div class="obsidian-grid">
+            <div class="obsidian-item">
+              <div class="obsidian-name">📱 Dataview</div>
+              <div class="obsidian-desc">SQL-like queries</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">🔄 Obsidian Git</div>
+              <div class="obsidian-desc">Sync with git</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">🎯 Templater</div>
+              <div class="obsidian-desc">Auto-create notes</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">🕸️ Graph View</div>
+              <div class="obsidian-desc">Wikilink network</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">🌙 Dark Theme</div>
+              <div class="obsidian-desc">llm-wiki-dark.css</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">📝 Templates</div>
+              <div class="obsidian-desc">4 note templates</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">⚙️ app.json</div>
+              <div class="obsidian-desc">Vault config</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">📊 graph.json</div>
+              <div class="obsidian-desc">Graph settings</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">🔌 core-plugins</div>
+              <div class="obsidian-desc">Plugin config</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">🎨 appearance</div>
+              <div class="obsidian-desc">Theme settings</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">📂 plugins/*</div>
+              <div class="obsidian-desc">Data configs</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">📄 notes.json</div>
+              <div class="obsidian-desc">Note registry</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">🔗 cm-settings</div>
+              <div class="obsidian-desc">Code mirror</div>
+            </div>
+            <div class="obsidian-item">
+              <div class="obsidian-name">🗂️ hotkeys</div>
+              <div class="obsidian-desc">Key bindings</div>
+            </div>
+          </div>
+          <div style="margin-top:0.5rem; font-size:0.6rem; color:#94a3b8; text-align:center;">
+            14 files • Config state (not in git)
+          </div>
         </div>
-        <ul>
-          <li>• <span class="stat">16 files</span> — intermediate conversion layer</li>
-          <li>• HTML articles converted to Markdown</li>
-          <li>• NOT version-controlled (in .gitignore)</li>
-          <li>• Regenerated from raw/ on each ingest</li>
-          <li>• Bridge between raw/ and wiki/</li>
-          <li>• Contains github_releases.txt</li>
-        </ul>
-      </div>
 
-      <div class="card">
-        <div class="card-header">
-          <div class="card-dot emerald"></div>
-          <h3>Layer 2 — Wiki Pages</h3>
+        <!-- Connection Legend -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-dot" style="background:#06b6d4"></div>
+            <h3>Зв'язки (Connections)</h3>
+          </div>
+          <ul>
+            <li>• <span style="color:#fbbf24">amber</span> = raw → processed (HTML→MD)</li>
+            <li>• <span style="color:#a78bfa">violet</span> = processed → integrator → wiki</li>
+            <li>• <span style="color:#34d399">emerald</span> = integrator → wiki pages</li>
+            <li>• <span style="color:#fb7185">rose</span> = lint/doctor → wiki → outputs</li>
+            <li>• <span style="color:#06b6d4">cyan</span> = cron jobs → tools (scheduled)</li>
+            <li>• <span style="color:#94a3b8">gray</span> = schema → tools (reference)</li>
+          </ul>
         </div>
-        <ul>
-          <li>• <span class="stat">418 total pages</span> across 9 subdirectories</li>
-          <li>• Mutable, cross-linked knowledge base</li>
-          <li>• <span class="stat">comparisons/ 280★</span> • concepts/ 60 • entities/ 44</li>
-          <li>• playbooks/ 14 • synthesis/ 7 • templates/ 8</li>
-          <li>• queries/ 2 • references/ 2 • index.md • log.md</li>
-          <li>• comparisons/ in .gitignore (regenerated)</li>
-          <li>• Hermes Agent orchestrates synthesis via integrator.py</li>
-        </ul>
-      </div>
 
-      <div class="card">
-        <div class="card-header">
-          <div class="card-dot rose"></div>
-          <h3>Outputs &amp; Automation</h3>
+        <!-- Summary Cards -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-dot" style="background:#fbbf24"></div>
+            <h3>Raw Sources</h3>
+          </div>
+          <ul>
+            <li>• 704 immutable source files</li>
+            <li>• SHA256 on ingest</li>
+            <li>• Never modified after save</li>
+            <li>• Sources: URL, PDF, RSS, GitHub</li>
+          </ul>
         </div>
-        <ul>
-          <li>• <span class="stat">15 Python tools</span> in tools/</li>
-          <li>• integrator.py — main ingestion pipeline</li>
-          <li>• wiki_lint.py — structural health checker</li>
-          <li>• wiki_doctor.py — auto-fix broken wikilinks</li>
-          <li>• <span class="stat">6 cron jobs</span> — every 30m to twice daily</li>
-          <li>• outputs/ — lint-report.md + doctor-report.json</li>
-          <li>• GitHub MCP — repository management</li>
-        </ul>
-      </div>
 
-      <div class="card">
-        <div class="card-header">
-          <div class="card-dot violet"></div>
-          <h3>Obsidian Vault</h3>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-dot" style="background:#34d399"></div>
+            <h3>Wiki Knowledge</h3>
+          </div>
+          <ul>
+            <li>• 418 synthesized pages</li>
+            <li>• 10 categories (concepts, entities...)</li>
+            <li>• Cross-linked with wikilinks</li>
+            <li>• Open Knowledge Format v0.1</li>
+          </ul>
         </div>
-        <ul>
-          <li>• <span class="stat">Primary visualization layer</span></li>
-          <li>• Dataview — SQL-like queries to wiki files</li>
-          <li>• Obsidian Git — version control sync</li>
-          <li>• Templater — automated note creation</li>
-          <li>• Graph View — visual wikilink network</li>
-          <li>• Dark theme — llm-wiki-dark.css</li>
-          <li>• 4 templates: concept, entity, comparison, playbook</li>
-        </ul>
-      </div>
 
-      <div class="card">
-        <div class="card-header">
-          <div class="card-dot violet"></div>
-          <h3>Layer 3 — Schema &amp; Operations</h3>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-dot" style="background:#a78bfa"></div>
+            <h3>Schema &amp; Ops</h3>
+          </div>
+          <ul>
+            <li>• SCHEMA.md: types, tags, fields</li>
+            <li>• ALGORITHM.md: ingest/query/lint</li>
+            <li>• ARCHITECTURE.md: design docs</li>
+            <li>• MCP Server: future phase</li>
+          </ul>
         </div>
-        <ul>
-          <li>• SCHEMA.md — structural contract (types, tags)</li>
-          <li>• CLAUDE.md — agent operational contract</li>
-          <li>• ALGORITHM.md — step-by-step workflows</li>
-          <li>• ARCHITECTURE.md — technical architecture</li>
-          <li>• docs/ — wiki docs, roadmap, wiki-doctor</li>
-          <li>• AGENTS.md — system prompts &amp; instructions</li>
-          <li>• .gitignore — excludes .processed/, wiki/comparisons/</li>
-          <li>• MCP Server — future integration layer</li>
-        </ul>
       </div>
     </div>
 
     <!-- Footer -->
-    <p class="footer">
-      Local LLM Wiki • Three-Layer Architecture • Karpathy Pattern • Open Knowledge Format v0.1 • Updated 2026-07-13
-    </p>
+    <p class="footer">Local LLM Wiki • Architecture Diagram v6.1.0 • 2026-07-13 • 1136 total artifacts • 8 connection types</p>
   </div>
 </body>
 </html>
