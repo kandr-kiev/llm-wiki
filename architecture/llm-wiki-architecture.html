@@ -222,10 +222,17 @@
       border-radius: 0.375rem;
       padding: 0.5rem;
       text-align: center;
-      font-size: 0.65rem;
+      font-size: 0.6rem;
       font-weight: 600;
       color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      min-height: 60px;
+      justify-content: center;
     }
+    .tool-name { font-weight: 700; }
+    .tool-desc { font-size: 0.5rem; font-weight: 400; color: #94a3b8; line-height: 1.3; }
     .cron-section .cron-title { font-size: 0.75rem; font-weight: 700; color: #06b6d4; margin-bottom: 0.5rem; }
     .cron-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.375rem; }
     .cron-item {
@@ -587,21 +594,66 @@
           </div>
 
           <div class="tools-grid" style="margin-top:0.75rem">
-            <div class="tool-item">integrator.py</div>
-            <div class="tool-item">wiki_lint.py</div>
-            <div class="tool-item">wiki_doctor.py</div>
-            <div class="tool-item">utils.py</div>
-            <div class="tool-item">check_new_raw.py</div>
-            <div class="tool-item">rss_monitor.py</div>
-            <div class="tool-item">github_release.py</div>
-            <div class="tool-item">local_file_mon.py</div>
-            <div class="tool-item">cleanup_dup.py</div>
-            <div class="tool-item">fix_sha256.py</div>
-            <div class="tool-item">verify_hashes.py</div>
-            <div class="tool-item">standard_report.py</div>
-            <div class="tool-item">github_monitor.py</div>
-            <div class="tool-item">promote_fallback.py</div>
-            <div class="tool-item">verify_full_map.py</div>
+            <div class="tool-item">
+              <span class="tool-name">🔄 integrator.py</span>
+              <span class="tool-desc">classify → synthesize → write wiki pages</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🔍 wiki_lint.py</span>
+              <span class="tool-desc">check frontmatter, tags, links, SHA256</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🏥 wiki_doctor.py</span>
+              <span class="tool-desc">auto-fix broken links, SHA drift</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">📚 utils.py</span>
+              <span class="tool-desc">SHA256, frontmatter, tags, slugify</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🔎 check_new_raw.py</span>
+              <span class="tool-desc">raw/ vs wiki/sources/ diff</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">📡 rss_monitor.py</span>
+              <span class="tool-desc">RSS/Atom feed → raw articles</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🐙 github_release.py</span>
+              <span class="tool-desc">GitHub releases → raw articles</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">📂 local_file_mon.py</span>
+              <span class="tool-desc">local dirs → hash scan → raw</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🧹 cleanup_dup.py</span>
+              <span class="tool-desc">remove _1/_2/_3/_4 duplicates</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🔧 fix_sha256.py</span>
+              <span class="tool-desc">update SHA256 in frontmatter</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">✅ verify_hashes.py</span>
+              <span class="tool-desc">verify all raw SHA256 hashes</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">📊 standard_report.py</span>
+              <span class="tool-desc">standardize report format</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🌐 github_monitor.py</span>
+              <span class="tool-desc">REST API: repos, releases, tags</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">⬆️ promote_fallback.py</span>
+              <span class="tool-desc">promote _N → base version</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🗺️ verify_full_map.py</span>
+              <span class="tool-desc">raw → wiki mapping completeness</span>
+            </div>
           </div>
         </div>
 
