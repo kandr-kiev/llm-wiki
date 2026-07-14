@@ -1,0 +1,7 @@
+---
+source_url: https://github.com/axolotl-ai-cloud/axolotl/issues/3829
+ingested: 2026-07-14
+sha256: 18419abbbdacdb788edfb9e9c56041bc90df162d864a81e6e02d2a16d7d18ac1
+blog_source: github:axolotl-ai-cloud/axolotl
+---
+Error fetching issue: 429 Client Error: too many requests for url: https://api.github.com/repos/axolotl-ai-cloud/axolotl/issues/3829
