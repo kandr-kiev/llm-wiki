@@ -6,11 +6,9 @@ tags: [llm-wiki, concept]
 sources: []
 confidence: medium
 links: []
-created: 2026-07-12
-updated: 2026-07-12
+created: 2026-07-13
+updated: 2026-07-13
 ---
----
-
 title: "Hugging Face"
 type: entity
 description: Platform and company behind the largest open-source AI community, model hub, and transformers library
@@ -21,7 +19,8 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, open-source-llm, openai, meta, mistral-ai]
 
----# Hugging Face
+
+# Hugging Face
 
 ## Overview
 
@@ -128,10 +127,10 @@ Hugging Face is the **champion of open-source AI**:
 ## See Also
 - [[openai]]
 - [[anthropic]]
-- [[comparisons/ai]]
+- ]
 - [[deepmind]]
-- [[comparisons/ai]]
+- ]
 - [[qwen]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[comparisons/ai]]
+- ]

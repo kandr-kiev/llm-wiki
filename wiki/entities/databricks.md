@@ -6,11 +6,9 @@ tags: [llm-wiki, concept]
 sources: []
 confidence: medium
 links: []
-created: 2026-07-12
-updated: 2026-07-12
+created: 2026-07-13
+updated: 2026-07-13
 ---
----
-
 title: "Databricks"
 type: entity
 description: Data and AI platform company behind Delta Lake, MLflow, and open-weight AI models
@@ -21,7 +19,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, open-source-llm, mlflow, delta-lake, apache-spark]
 
----# Databricks
+# Databricks
 
 ## Overview
 
@@ -125,8 +123,8 @@ Databricks is **strongly committed to open-source**:
 - [[openai]]
 - [[anthropic]]
 - [[deepmind]]
-- [[comparisons/ai]]
-- [[comparisons/ai]]
+- ]
+- ]
 - [[qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]

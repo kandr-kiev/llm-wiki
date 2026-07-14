@@ -6,11 +6,9 @@ tags: [llm-wiki, concept]
 sources: []
 confidence: medium
 links: []
-created: 2026-07-12
-updated: 2026-07-12
+created: 2026-07-13
+updated: 2026-07-13
 ---
----
-
 title: "Cohere"
 type: entity
 description: Canadian AI company specializing in enterprise NLP, command models, and developer-focused AI APIs
@@ -21,7 +19,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, enterprise-ai, openai, anthropic, deepmind]
 
----# Cohere
+# Cohere
 
 ## Overview
 
@@ -122,9 +120,9 @@ Cohere is **selectively open**:
 - [[openai]]
 - [[anthropic]]
 - [[deepmind]]
-- [[comparisons/ai]]
+- ]
 - [[qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[comparisons/ai]]
+- ]

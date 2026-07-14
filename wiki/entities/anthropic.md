@@ -6,11 +6,9 @@ tags: [llm-wiki, concept]
 sources: []
 confidence: medium
 links: []
-created: 2026-07-12
-updated: 2026-07-12
+created: 2026-07-13
+updated: 2026-07-13
 ---
----
-
 title: "Anthropic"
 type: entity
 description: American AI safety-focused company behind Claude models, emphasizing constitutional AI and responsible AI development
@@ -21,7 +19,7 @@ sources: [raw/articles/open-source-llm-landscape-2026.md]
 confidence: high
 links: [llm-wiki, openai, deepmind, mistral]
 
----# Anthropic
+# Anthropic
 
 ## Overview
 
@@ -139,11 +137,11 @@ Anthropic is **partially open**:
 
 ## See Also
 - [[openai]]
-- [[comparisons/ai]]
+- ]
 - [[deepmind]]
-- [[comparisons/ai]]
+- ]
 - [[qwen]]
 - [[hugging-face]]
 - [[llm-quantization]]
 - [[llm-fine-tuning]]
-- [[comparisons/ai]]
+- ]
