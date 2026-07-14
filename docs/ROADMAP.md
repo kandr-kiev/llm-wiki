@@ -236,6 +236,7 @@ score = (
 | **GitHub API** | Автоматичне створення issues для low-quality pages | 📋 Planned |
 | **Slack/Discord** | Notifications про нові статті, alerts | 📋 Planned |
 | **Web Dashboard** | Візуалізація графа знань, метрик | 📋 Planned |
+| **Wiki Dashboard UI** | Повноцінний UI — центр керування LLM-Wiki (статистика, лінтинг, інгест, cron) | 💡 Ідея |
 | **API Endpoint** | REST API для запитів до wiki | 📋 Planned |
 | **Browser Extension** | "Add to Wiki" кнопка в браузері | 📋 Planned |
 | **Email Digest** | Щотижневий digest на email | 📋 Planned |

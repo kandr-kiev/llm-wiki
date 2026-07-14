@@ -102,6 +102,10 @@ status: draft | completed | archived
 | `reproducibility` | `retrieval` | `rlhf` | `serving` |
 | `self-consistency` | `self-supervised` | `self-training` | `semi-supervised` |
 | `sft` | `text-generation` | `zero-shot` | |
+| `llm-agents` | `context-window` | `moe` | `hermes-agent` |
+| `interpretability` | `model-auditing` | `agent-skills` | `ai-coding` |
+| `code-architecture` | `process-improvement` | `tdd` | `code-quality` |
+| `critical-analysis` | | | |
 
 ### Infrastructure & Systems (19 tags)
 
@@ -111,7 +115,7 @@ status: draft | completed | archived
 | `data-parallelism` | `hardware` | `helk` | `inference-chip` |
 | `knowledge-base` | `local-llm-hardware` | `mcp` | `model-parallelism` |
 | `object-centric` | `orchestration` | `rtx-5070-ti` | `serverless` |
-| `vllm` | | | |
+| `vllm` | `ml-infrastructure` | | |
 
 ### Methods & Techniques (20 tags)
 
@@ -121,7 +125,7 @@ status: draft | completed | archived
 | `auto-ml` | `configuration` | `duplicates` | `feature-attribution` |
 | `language-action` | `mixed-precision` | `nas` | `next-gen` |
 | `partial-observability` | `style-transfer` | `swrl` | `tot` |
-| `xai` | | | |
+| `xai` | `scheduling` | | |
 
 ### Evaluation & Benchmarks (12 tags)
 
@@ -140,7 +144,8 @@ status: draft | completed | archived
 | `faq` | `genebench-pro` | `genomics` | `healthcare` |
 | `image-generation` | `labor-market` | `manufacturing` | `medical-calculation` |
 | `multi-agent` | `scientific-ai` | `scientific-research` | `swarm-intelligence` |
-| `toxicity` | `toxicity-reduction` | `visualization` | |
+| `toxicity` | `toxicity-reduction` | `visualization` | `robotics` |
+| `software-engineering` | | | |
 
 ### Companies & Products (10 tags)
 
@@ -157,7 +162,7 @@ status: draft | completed | archived
 | `arxiv` | `hermes` | `ingest` | `integrity` |
 | `llm-assistance` | `llm-benchmarks` | `llm-wiki` | `ml` |
 | `okf` | `reference` | `schema` | `source` |
-| `synthesis` | `tools` | `wiki-maintenance` | |
+| `synthesis` | `tools` | `wiki-maintenance` | `trends` |
 
 ### Wiki Operations (14 tags)
 
@@ -167,6 +172,31 @@ status: draft | completed | archived
 | `playbook` | `pluralism` | `productivity` | `query-strategy` |
 | `skills-gap` | `swrl` | `trust` | `user-metrics` |
 | `wikilinks` | `workflow` | | |
+| `indexer` | `audit` | `cron` | `integrator` |
+| `monitors` | `scripts` | `system-audit` | `system-integrity` |
+| `obsidian` | `wiki` | | |
+
+### Extended Tags (from wiki usage)
+
+| Tag | Tag | Tag | Tag |
+|-----|-----|-----|-----|
+| `agent` | `ai` | `analysis` | `application` |
+| `async` | `awq` | `best-practice` | `business-process` |
+| `ci-cd` | `claude` | `clinical` | `closed-source` |
+| `cloud` | `company` | `computer-vision` | `cost` |
+| `data` | `decision` | `design-pattern` | `digest` |
+| `distributed` | `edge` | `embedding` | `event` |
+| `foundation-model` | `framework` | `gemini` | `gguf` |
+| `governance` | `gptq` | `gpu` | `guide` |
+| `health-check` | `instruction-tuning` | `integration` | `library` |
+| `lint` | `llm` | `machine-learning` | `meeting` |
+| `milestone` | `mobile` | `news` | `online` |
+| `open-source` | `optimization` | `parallel` | `performance` |
+| `pipeline` | `prompt-tuning` | `query` | `real-time` |
+| `research` | `scalability` | `search` | `security` |
+| `source-management` | `storage` | `supervised` | `system-design` |
+| `training` | `transfer-learning` | `use-case` | `vector-database` |
+| `web` | | | |
 
 ### Page Thresholds
 
