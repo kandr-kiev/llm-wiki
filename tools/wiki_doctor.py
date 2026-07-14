@@ -345,20 +345,44 @@ def diagnose_integrator(report):
 # ---------------------------------------------------------------------------
 
 def extract_schema_tags():
-    """Extract tags from SCHEMA.md tag taxonomy section."""
+    """Extract tags from SCHEMA.md tag taxonomy section ONLY.
+
+    SCHEMA.md contains tags in Markdown tables within the '## Tag Taxonomy' section.
+    This function isolates that section and parses table cells for backtick-enclosed tags.
+    """
     if not SCHEMA_FILE.exists():
         return None
     text = SCHEMA_FILE.read_text(encoding="utf-8")
     tags = set()
-    # Match lines like:  - tag-name — description
-    for m in re.finditer(r'^-\s+([\w-]+)\s+—', text, re.MULTILINE):
-        tags.add(m.group(1))
-    # Also match YAML flow sequences: tags: [tag1, tag2]
-    for m in re.finditer(r'tags:\s*\[([^\]]+)\]', text):
-        for t in m.group(1).split(','):
-            t = t.strip().strip('"').strip("'")
-            if t:
-                tags.add(t)
+
+    # Isolate the Tag Taxonomy section only
+    taxonomy_start = text.find('## Tag Taxonomy')
+    if taxonomy_start == -1:
+        return None
+
+    # Find the end: next major section after tags (e.g., '### Page Thresholds')
+    taxonomy_end = text.find('### Page Thresholds', taxonomy_start)
+    if taxonomy_end == -1:
+        taxonomy_end = len(text)
+
+    taxonomy_section = text[taxonomy_start:taxonomy_end]
+
+    # Parse Markdown table rows for backtick-enclosed tags
+    # Table rows look like: || `tag-name` | `tag2` | `tag3` | |
+    for line in taxonomy_section.split('\n'):
+        if not line.strip().startswith('|'):
+            continue
+        # Skip header separator rows (|---|---|)
+        if re.match(r'^\|[\s\-:|]+\|', line) and not '`' in line:
+            continue
+
+        # Extract all backtick-enclosed values from this row
+        for m in re.finditer(r'\`([^\`]+)\`', line):
+            tag = m.group(1).strip()
+            # Only accept valid tag format: lowercase alphanumeric + hyphens
+            if tag and re.match(r'^[\w\-]+$', tag):
+                tags.add(tag)
+
     return tags
 
 
