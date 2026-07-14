@@ -2,7 +2,7 @@
 """Full raw-to-wiki mapping with recursive raw/ scan."""
 import os
 
-wiki_sources_dir = 'wiki/sources'
+wiki_sources_dir = 'raw/articles'
 raw_files = set()
 wiki_files = set()
 

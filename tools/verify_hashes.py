@@ -26,7 +26,7 @@ if integrity['mismatch_files']:
 
 # Check raw-to-wiki mapping
 print("\n=== Raw-to-Wiki Mapping ===")
-wiki_sources_dir = 'wiki/sources'
+wiki_sources_dir = 'raw/articles'
 raw_files = set()
 wiki_files = set()
 

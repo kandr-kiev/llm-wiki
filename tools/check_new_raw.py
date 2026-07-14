@@ -13,7 +13,7 @@ if str(_tools_dir) not in sys.path:
 
 from utils import check_raw_integrity, check_dir_exists
 
-wiki_sources_dir = 'wiki/sources'
+wiki_sources_dir = 'raw/articles'
 raw_files = set()
 wiki_files = set()
 
