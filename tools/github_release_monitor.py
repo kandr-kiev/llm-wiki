@@ -39,34 +39,8 @@ LOG_FILE = ROOT / "log.md"
 DB_FILE = ROOT / ".processed" / "github_releases.txt"
 
 # GitHub repos to monitor - AI/ML focused
-REPOS = [
-    "openai/whisper",
-    "google-deepmind/gemma",
-    "google-deepmind/alphafold",
-    "meta-llama/llama3",
-    "meta-llama/llama-models",
-    "mistralai/mistral-src",
-    "mistralai/mistral.rs",
-    "microsoft/DeepSpeed",
-    "microsoft/DeepSpeedExamples",
-    "huggingface/transformers",
-    "huggingface/diffusers",
-    "huggingface/text-generation-inference",
-    "huggingface/optimum",
-    "huggingface/accelerate",
-    "huggingface/peft",
-    "huggingface/bitsandbytes",
-    "huggingface/trl",
-    "huggingface/alignment-handbook",
-    "huggingface/axolotl",
-    "facebookresearch/llama-recipes",
-    "facebookresearch/parlai",
-    "facebookresearch/faiss",
-    "facebookresearch/detectron2",
-    "google-research/google-research",
-    "unslothai/unsloth",
-    "google-research/re2",
-]
+# Single source of truth: github_repos.py
+from github_repos import REPOS
 
 
 def is_new_release(repo: str, release_tag: str) -> bool:

@@ -38,26 +38,8 @@ LOG_FILE = ROOT / "log.md"
 DB_FILE = ROOT / ".processed" / "github_issues.txt"
 
 # GitHub repos to monitor for issues/PRs
-REPOS = [
-    "openai/whisper",
-    "openai/gpt-2",
-    "openai/openai-cookbook",
-    "huggingface/transformers",
-    "huggingface/diffusers",
-    "huggingface/peft",
-    "huggingface/trl",
-    "meta-llama/llama",
-    "mistralai/mistral-src",
-    "google-deepmind/gemma",
-    "facebookresearch/llama-recipes",
-    "microsoft/DeepSpeed",
-    "pytorch/pytorch",
-    "tensorflow/tensorflow",
-    "langchain-ai/langchain",
-    "microsoft/autogen",
-    "unslothai/unsloth",
-    "google-research/google-research",
-]
+# Single source of truth: github_repos.py
+from github_repos import REPOS
 
 
 def is_new_issue(repo: str, issue_number: str) -> bool:
