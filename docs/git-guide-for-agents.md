@@ -14,7 +14,7 @@ git remote -v
 
 # Повинно показати:
 # origin  https://github.com/kandr-kiev/llm-wiki.git (fetch)
-# origin  https://github.com/kandr-kiev/klm-wiki.git (push)
+# origin  https://github.com/kandr-kiev/llm-wiki.git (push)
 ```
 
 ### 2. Встановити токен для автентифікації (якщо потрібно)
@@ -143,7 +143,7 @@ git fetch origin
 git status -sb
 ```
 
-### Synchornization
+### Sync
 
 ```bash
 # Оновити локальну гілку з віддаленою
