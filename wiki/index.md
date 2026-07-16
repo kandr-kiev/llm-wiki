@@ -12,6 +12,273 @@ contested: false
 links: [llm-wiki, architecture]
 ---
 
+### [from human hands](wiki/comparisons/from-human-hands.md)
+
+
+### [speculative growth AI public.pdf](wiki/comparisons/speculative-growth-ai-publicpdf.md)
+
+
+### [fortune david siegel open source ai.pdf](wiki/comparisons/fortune-david-siegel-open-source-aipdf.md)
+
+
+### [unlocking self improvement gpt red](wiki/comparisons/unlocking-self-improvement-gpt-red.md)
+
+
+### [Release v5.14.0](wiki/comparisons/release-v5140.md)
+
+
+### [Release v0.1.49-beta](wiki/comparisons/release-v0149-beta.md)
+
+
+### [Release b10034](wiki/comparisons/release-b10034.md)
+
+
+### [Release b10031](wiki/comparisons/release-b10031.md)
+
+
+### [the three second theft why ai voice fraud outruns every defence](wiki/comparisons/the-three-second-theft-why-ai-voice-fraud-outruns-every-defence.md)
+
+
+### [arXiv:2607.11977](wiki/comparisons/arxiv260711977.md)
+
+
+### [arXiv:2607.11888](wiki/comparisons/arxiv260711888.md)
+
+
+### [arXiv:2607.12085](wiki/comparisons/arxiv260712085.md)
+
+
+### [arXiv:2607.11948](wiki/comparisons/arxiv260711948.md)
+
+
+### [arXiv:2607.11980](wiki/comparisons/arxiv260711980.md)
+
+
+### [arXiv:2607.11906](wiki/comparisons/arxiv260711906.md)
+
+
+### [arXiv:2607.11951](wiki/comparisons/arxiv260711951.md)
+
+
+### [arXiv:2607.12077](wiki/comparisons/arxiv260712077.md)
+
+
+### [Release b10020](wiki/comparisons/release-b10020.md)
+
+
+### [Release b10015](wiki/comparisons/release-b10015.md)
+
+
+### [bisbull120.pdf](wiki/comparisons/bisbull120pdf.md)
+
+
+### [arXiv:2607.12056](wiki/comparisons/arxiv260712056.md)
+
+
+### [arXiv:2607.11959](wiki/comparisons/arxiv260711959.md)
+
+
+### [JetBrains Air — текстова версія презентації](wiki/comparisons/jetbrains-air-текстова-версія-презентації.md)
+
+
+### [https://agnost.ai](wiki/comparisons/httpsagnostai.md)
+
+
+### [managing ai investments in agentic era](wiki/comparisons/managing-ai-investments-in-agentic-era.md)
+
+
+### [Model: Qwen/Qwen3.6-35B-A3B](wiki/comparisons/model-qwenqwen36-35b-a3b.md)
+
+
+### [Model: Qwen/Qwen3.6-27B](wiki/comparisons/model-qwenqwen36-27b.md)
+
+
+### [Release v5.6.0](wiki/comparisons/release-v560.md)
+
+
+### [Release v2.21.0](wiki/comparisons/release-v2210.md)
+
+
+### [Release v2.13.0](wiki/comparisons/release-v2130.md)
+
+
+### [Release v1.21.0](wiki/comparisons/release-v1210.md)
+
+
+### [Release v0.9.0](wiki/comparisons/release-v090.md)
+
+
+### [Release v0.8.0](wiki/comparisons/release-v080.md)
+
+
+### [Release v0.32.0](wiki/comparisons/release-v0320.md)
+
+
+### [Release v0.25.1](wiki/comparisons/release-v0251.md)
+
+
+### [Release v0.23.1](wiki/comparisons/release-v0231.md)
+
+
+### [Release v0.17.0](wiki/comparisons/release-v0170.md)
+
+
+### [Issue #123251: PR #44403: [XLA:CPU] onednn_threadpool: cap num_workers at n in parallel_for](wiki/comparisons/issue-123251-pr-44403-xlacpu-onednn_threadpool-cap-num_workers-at-n-in-parallel_for.md)
+
+
+### [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL](wiki/comparisons/issue-189938-gate-nccl2-backend-nccl-code-behind-use_c10d_nccl.md)
+
+
+### [Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s](wiki/comparisons/issue-189937-lint-bump-remaining-shim-linter-git-timeouts-to-60s.md)
+
+
+### [Release python-v0.7.5](wiki/comparisons/release-python-v075.md)
+
+
+### [Issue #8142: Guard WarmupCosineLR against total_num_steps == warmup_num_steps (ZeroDivisionError)](wiki/comparisons/issue-8142-guard-warmupcosinelr-against-total_num_steps-warmup_num_steps-zerodivisionerror.md)
+
+
+### [Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter](wiki/comparisons/issue-8141-fixmuon-support-zero-12-reduce-scatter.md)
+
+
+### [Issue #8140: Add logging support for better observability](wiki/comparisons/issue-8140-add-logging-support-for-better-observability.md)
+
+
+### [Issue #8139: [DeepCompile] Add lightweight pass contracts for optimization passes](wiki/comparisons/issue-8139-deepcompile-add-lightweight-pass-contracts-for-optimization-passes.md)
+
+
+### [Issue #8138: Add governance process page to deepspeed.ai](wiki/comparisons/issue-8138-add-governance-process-page-to-deepspeedai.md)
+
+
+### [Release langchain-core==1.4.9](wiki/comparisons/release-langchain-core149.md)
+
+
+### [Issue #6388: [GOLD] Recommend LFM2.5 and Gemma 4 students](wiki/comparisons/issue-6388-gold-recommend-lfm25-and-gemma-4-students.md)
+
+
+### [Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine](wiki/comparisons/issue-6387-sync-gold-weights-via-vllms-native-weight-transfer-engine.md)
+
+
+### [Issue #6385: AsyncGRPO fork-independent epoch counting](wiki/comparisons/issue-6385-asyncgrpo-fork-independent-epoch-counting.md)
+
+
+### [Issue #6384: Fix SDPO/SDFT use_liger_kernel under DeepSpeed ZeRO-3 during evaluation](wiki/comparisons/issue-6384-fix-sdposdft-use_liger_kernel-under-deepspeed-zero-3-during-evaluation.md)
+
+
+### [Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors](wiki/comparisons/issue-6383-return-http-400-with-diagnostic-detail-for-get_sequence_logprobs-errors.md)
+
+
+### [Issue #47326: Fix assistant tokens mask when a generation span ends at token index 0 or on stripped whitespace](wiki/comparisons/issue-47326-fix-assistant-tokens-mask-when-a-generation-span-ends-at-token-index-0-or-on-stripped-whitespace.md)
+
+
+### [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer](wiki/comparisons/issue-47325-return_assistant_tokens_mask-masks-the-rest-of-the-sequence-when-a-generation-span-ends-at-token-index-0-or-on-whitespace-stripped-by-the-pre-tokenizer.md)
+
+
+### [Issue #47323: Fix deepgemm on multiple devices](wiki/comparisons/issue-47323-fix-deepgemm-on-multiple-devices.md)
+
+
+### [Issue #47322: adding amd quark config class changes](wiki/comparisons/issue-47322-adding-amd-quark-config-class-changes.md)
+
+
+### [Issue #47321: AMD quark class not updated](wiki/comparisons/issue-47321-amd-quark-class-not-updated.md)
+
+
+### [Issue #2198: BPE `build()` panics on load for a crafted `tokenizer.json` (merge concatenation exceeds the scratch buffer)](wiki/comparisons/issue-2198-bpe-build-panics-on-load-for-a-crafted-tokenizerjson-merge-concatenation-exceeds-the-scratch-buffer.md)
+
+
+### [Issue #2197: perf: reduce BPE tokenizer load-time memory](wiki/comparisons/issue-2197-perf-reduce-bpe-tokenizer-load-time-memory.md)
+
+
+### [Issue #2196: Upgrade hf-hub to 1.0](wiki/comparisons/issue-2196-upgrade-hf-hub-to-10.md)
+
+
+### [Issue #2195: Clarify byte-level pretokenizer behavior](wiki/comparisons/issue-2195-clarify-byte-level-pretokenizer-behavior.md)
+
+
+### [Issue #3431: FIX Crash when adding an adapter after deleting the last active one](wiki/comparisons/issue-3431-fix-crash-when-adding-an-adapter-after-deleting-the-last-active-one.md)
+
+
+### [Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge](wiki/comparisons/issue-3430-fix-hira-convnd-layers-with-groups-1-crash-on-forward-not-just-merge.md)
+
+
+### [Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing](wiki/comparisons/issue-3429-fix-c3alinearforward-chaining-multiple-active-adapters-instead-of-summing.md)
+
+
+### [Issue #3427: FIX grouped Conv2d LoRA rank padding for hotswapping (#3416)](wiki/comparisons/issue-3427-fix-grouped-conv2d-lora-rank-padding-for-hotswapping-3416.md)
+
+
+### [Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern](wiki/comparisons/issue-3425-fix-accept-layers_to_transform0-together-with-layers_pattern.md)
+
+
+### [Issue #2460: Bump the actions group across 1 directory with 4 updates](wiki/comparisons/issue-2460-bump-the-actions-group-across-1-directory-with-4-updates.md)
+
+
+### [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning](wiki/comparisons/issue-2455-fix-2432-support-transformers500-and-fix-torchload-security-warning.md)
+
+
+### [Issue #2454: docs(utils): add missing docstrings to 5 public utility functions](wiki/comparisons/issue-2454-docsutils-add-missing-docstrings-to-5-public-utility-functions.md)
+
+
+### [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning](wiki/comparisons/issue-2450-fix-2407-fix-get_wikitext2-tokenization-bug-causing-sequence-length-warning.md)
+
+
+### [Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](wiki/comparisons/issue-14188-quantization-fix-modelopt-pre-quantized-loading.md)
+
+
+### [Issue #14187: Fix SEG `_gaussian_blur_2d`: finite `blur_sigma` is ignored (inverted infinite-blur branch)](wiki/comparisons/issue-14187-fix-seg-_gaussian_blur_2d-finite-blur_sigma-is-ignored-inverted-infinite-blur-branch.md)
+
+
+### [Issue #14186: Make `SD3Transformer2DModel` hidden states contiguous](wiki/comparisons/issue-14186-make-sd3transformer2dmodel-hidden-states-contiguous.md)
+
+
+### [Issue #14185: ask to share self-review notes](wiki/comparisons/issue-14185-ask-to-share-self-review-notes.md)
+
+
+### [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse](wiki/comparisons/issue-14184-fix-auraflow-vae-dtype-mismatch-on-pipeline-reuse.md)
+
+
+### [Issue #8333: Support batched=True in Dataset.to_dict](wiki/comparisons/issue-8333-support-batchedtrue-in-datasetto_dict.md)
+
+
+### [Issue #8332: Raise on length mismatch in batched IterableDataset.map](wiki/comparisons/issue-8332-raise-on-length-mismatch-in-batched-iterabledatasetmap.md)
+
+
+### [Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)](wiki/comparisons/issue-8331-datasets-serverhuggingfaceco-returning-503-on-every-endpoint-whole-host-down-not-one-route.md)
+
+
+### [Issue #8330: Dataset Studio and Viewer down](wiki/comparisons/issue-8330-dataset-studio-and-viewer-down.md)
+
+
+### [Issue #8329: fix: replace list/List with Sequence in function parameter annotations](wiki/comparisons/issue-8329-fix-replace-listlist-with-sequence-in-function-parameter-annotations.md)
+
+
+### [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set](wiki/comparisons/issue-4116-fix-get_non_persistent_buffers-mutating-module_non_persistent_buffers_set.md)
+
+
+### [Issue #4114: Bump the actions group across 1 directory with 5 updates](wiki/comparisons/issue-4114-bump-the-actions-group-across-1-directory-with-5-updates.md)
+
+
+### [Issue #4113: Fix typos in comments, docs, and examples](wiki/comparisons/issue-4113-fix-typos-in-comments-docs-and-examples.md)
+
+
+### [Release b10007](wiki/comparisons/release-b10007.md)
+
+
+### [Release 5.0.0](wiki/comparisons/release-500.md)
+
+
+### [20769574401](wiki/comparisons/20769574401.md)
+
+
+### [google images 25th anniversary](wiki/comparisons/google-images-25th-anniversary.md)
+
+
+### [offloading thinking to ai](wiki/comparisons/offloading-thinking-to-ai.md)
+
+
+### [dnssec nta ede 33](wiki/comparisons/dnssec-nta-ede-33.md)
+
+
 ### [arXiv:2607.09706](wiki/comparisons/arxiv260709706.md)
 
 

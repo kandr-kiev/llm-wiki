@@ -5,7 +5,7 @@ description: Auto-generated wiki page
 created: 2026-07-07
 updated: 2026-07-07
 tags: [llm-wiki, agent-workflow, playbook]
-sources: [raw/articles/ai-agent-frameworks-2026.md]
+sources: [raw/articles/ai-agent-frameworks-2026-comparison.md]
 confidence: high
 links: []
 ---

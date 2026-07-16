@@ -5,7 +5,7 @@ description: Auto-generated wiki page
 created: 2026-07-07
 updated: 2026-07-07
 tags: [llm-wiki, automation, playbook]
-sources: [raw/articles/ai-coding-assistants-2026.md]
+sources: [raw/articles/ai-coding-assistants-2026-list.md]
 confidence: high
 links: []
 ---

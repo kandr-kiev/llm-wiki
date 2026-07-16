@@ -545,6 +545,34 @@ def cure_missing_frontmatter(report):
     return fixes
 
 
+def cure_raw_sources_frontmatter(report):
+    """Add default frontmatter to raw source files missing it."""
+    fixes = 0
+    now = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+
+    for raw in RAW_DIR.rglob("*.md"):
+        if raw.name == "README.md":
+            continue
+        text = raw.read_text(encoding="utf-8")
+        fm, body = split_frontmatter(text)
+        if fm is not None:
+            continue
+
+        default_fm = (
+            f"---\n"
+            f"source_url: unknown\n"
+            f"ingested: {now}\n"
+            f"sha256: PLACEHOLDER\n"
+            f"blog_source: inbox:local\n"
+            f"---\n"
+        )
+        _write_if_not_dry(raw, default_fm + body)
+        if not _DRY_RUN:
+            fixes += 1
+
+    return fixes
+
+
 def cure_sha256_drift(report):
     """Fix SHA256 drift in raw sources."""
     fixes = 0
@@ -559,7 +587,7 @@ def cure_sha256_drift(report):
                 data = parse_simple_yaml(fm)
                 expected = data.get("sha256")
                 if expected:
-                    actual = hashlib.sha256(body.encode("utf-8")).hexdigest()
+                    actual = hashlib.sha256(text.encode("utf-8")).hexdigest()
                     if expected != actual:
                         fixes += 1
         else:
@@ -874,6 +902,10 @@ def diagnose_and_cure(dry_run=False):
         # Priority 2: Fix missing frontmatter
         n = cure_missing_frontmatter(report)
         cure_stats["missing_frontmatter"] = n
+
+        # Priority 2.5: Fix raw sources missing frontmatter
+        n = cure_raw_sources_frontmatter(report)
+        cure_stats["raw_sources_frontmatter"] = n
 
         # Priority 3: Fix SHA256 drift
         n = cure_sha256_drift(report)

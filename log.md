@@ -203,3 +203,33 @@
 ## [2026-07-14 20:30 UTC] source_monitor | RSS: 1661, GH: 31, Local: 0 | new: 2 (1 articles, 1 releases, 0 local)
 
 ## [2026-07-14 20:31 UTC] source_monitor | RSS: 1661, GH: 31, Local: 0 | no new sources
+
+## [2026-07-15 07:37 UTC] wiki_doctor | Wiki Doctor (DRY-RUN) — до: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, після: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, виправлень: 0
+
+## [2026-07-15 07:37 UTC] source_monitor | RSS: 1426, GH: 31, Local: 0 | new: 12 (11 articles, 1 releases, 0 local)
+
+## [2026-07-15 13:39 UTC] source_monitor | RSS: 1424, GH: 31, Local: 0 | new: 2 (1 articles, 1 releases, 0 local)
+
+## [2026-07-15 19:38 UTC] wiki_doctor | Wiki Doctor (DRY-RUN) — до: **ERROR:** 1 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 1, після: **ERROR:** 1 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 1, виправлень: 0
+
+## [2026-07-15 19:40 UTC] source_monitor | RSS: 1425, GH: 31, Local: 0 | new: 5 (2 articles, 3 releases, 0 local)
+
+## [2026-07-15 22:02 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 1 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 1, після: **ERROR:** 1 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 1, виправлень: 0
+
+## [2026-07-15 22:07 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 1 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 1, після: **ERROR:** 1 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 1, виправлень: 1
+
+## [2026-07-15 22:27 UTC] source_monitor | RSS: 1427, GH: 31, Local: 0 | new: 4 (3 articles, 1 releases, 0 local)
+
+## [2026-07-15 22:30 UTC] source_monitor | RSS: 1427, GH: 31, Local: 0 | new: 2 (0 articles, 0 releases, 0 local)
+
+## [2026-07-15 22:35 UTC] source_monitor | RSS: 1427, GH: 31, Local: 0 | new: 2 (0 articles, 0 releases, 0 local)
+
+## [2026-07-15 22:36 UTC] source_monitor | RSS: 1427, GH: 31, HF: 2, Local: 0 | new: 2 (0 articles, 0 releases, 2 HF, 0 local)
+
+## [2026-07-15 23:04 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 1 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 1, після: **ERROR:** 1 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 1, виправлень: 0
+
+## [2026-07-16 01:42 UTC] source_monitor | RSS: 1425, GH: 31, HF: 2, Local: 0 | new: 2 (0 articles, 0 releases, 2 HF, 0 local)
+
+## [2026-07-16 07:39 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, після: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, виправлень: 0
+
+## [2026-07-16 07:42 UTC] source_monitor | RSS: 1398, GH: 31, HF: 2, Local: 0 | new: 14 (11 articles, 1 releases, 2 HF, 0 local)
