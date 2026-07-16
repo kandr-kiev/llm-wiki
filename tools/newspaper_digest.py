@@ -34,6 +34,7 @@ CATEGORY_ICONS = {
     "🛠️ IDE / Tools": "🔧",
     "📰 General": "📢",
     "🚀 GitHub Releases": "📦",
+    "🚀 AI Startups": "🚀",
     "🤗 HuggingFace": "🤗",
     "🐙 GitHub Issues": "🐛",
     "📁 Local": "📂",
@@ -59,6 +60,15 @@ CATEGORY_MAP = {
     "MarkTechPost": "🤖 AI / ML",
     "MIT Tech Review AI": "🤖 AI / ML",
     "The Verge AI": "🤖 AI / ML",
+    "OpenAI News": "🤖 AI / ML",
+    "Google Research Blog": "🤖 AI / ML",
+    "Meta AI Blog": "🤖 AI / ML",
+    "Hacker News": "🤖 AI / ML",
+    "TechCrunch AI": "🤖 AI / ML",
+    "VentureBeat AI": "🤖 AI / ML",
+    # AI Startups
+    "TechCrunch Startups": "🚀 AI Startups",
+    "TechCrunch Venture": "🚀 AI Startups",
     # Programming Languages
     "Python Insider": "💻 Programming",
     "Planet Python": "💻 Programming",

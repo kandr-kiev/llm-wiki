@@ -58,6 +58,15 @@ FEEDS = {
     "MarkTechPost": "https://www.marktechpost.com/feed",
     "MIT Tech Review AI": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
     "The Verge AI": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    "OpenAI News": "https://openai.com/news/rss.xml",
+    "Google Research Blog": "https://research.google/blog/rss/",
+    "Meta AI Blog": "https://ai.meta.com/blog/rss/",
+    "Hacker News": "https://hnrss.org/frontpage",
+    # === AI Startups ===
+    "TechCrunch AI": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "TechCrunch Startups": "https://techcrunch.com/category/startups/feed/",
+    "TechCrunch Venture": "https://techcrunch.com/category/venture/feed/",
+    "VentureBeat AI": "https://venturebeat.com/category/ai/feed/",
     # === Programming Languages ===
     "Python Insider": "https://blog.python.org/rss.xml",
     "Planet Python": "https://planet.python.org/rss20.xml",
