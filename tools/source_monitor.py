@@ -40,6 +40,7 @@ LOG_FILE = ROOT / "log.md"
 # ---------------------------------------------------------------------------
 RSS_DB = ROOT / ".processed" / "rss_urls.txt"
 FEEDS = {
+    # === AI / ML ===
     "Andrej Karpathy": "https://karpathy.bearblog.dev/feed/",
     "Chip Huyen": "https://huyenchip.com/feed",
     "Lilian Weng": "https://lilianweng.github.io/lil-log/feed.xml",
@@ -50,6 +51,40 @@ FEEDS = {
     "OpenAI Blog": "https://openai.com/blog/rss.xml",
     "Google DeepMind": "https://blog.google/technology/ai/rss/",
     "Distill AI": "https://distill.pub/rss.xml",
+    "Papers With Code": "https://paperswithcode.com/rss",
+    "Hugging Face Blog": "https://huggingface.co/blog/feed.xml",
+    "The Gradient": "https://thegradient.substack.com/feed",
+    "r/MachineLearning": "https://old.reddit.com/r/MachineLearning/.rss",
+    "MarkTechPost": "https://www.marktechpost.com/feed",
+    "MIT Tech Review AI": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "The Verge AI": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+    # === Programming Languages ===
+    "Python Insider": "https://blog.python.org/rss.xml",
+    "Planet Python": "https://planet.python.org/rss20.xml",
+    "TypeScript Blog": "https://devblogs.microsoft.com/typescript/feed/",
+    "Rust Blog": "https://blog.rust-lang.org/feed.xml",
+    "Laravel News": "https://laravel-news.com/feed",
+    # === Databases ===
+    "Oracle DBA Soyma": "https://dbasoumya.blogspot.com/feeds/posts/default?alt=rss",
+    # === Algorithms / CS ===
+    "Google Research Blog": "https://blog.research.google/atom.xml",
+    "Algorithm Design": "https://www3.cs.stonybrook.edu/~skiena/",
+    "CS Theory": "https://www.cs.cmu.edu/~odonnell/",
+    "Algorithm Corner": "https://algorithmcorner.com/feed/",
+    # === IDE / Dev Tools ===
+    "JetBrains Blog": "https://blog.jetbrains.com/feed/",
+    "PyCharm Blog": "https://blog.jetbrains.com/pycharm/feed/",
+    "VS Code Blog": "https://code.visualstudio.com/feed.xml",
+    "IntelliJ Blog": "https://blog.jetbrains.com/idea/feed/",
+    # === General Programming ===
+    "GitHub Blog": "https://github.blog/feed/",
+    "Microsoft Dev Blog": "https://devblogs.microsoft.com/dotnet/feed/",
+    "Dev Community": "https://dev.to/feed",
+    "FreeCodeCamp Blog": "https://www.freecodecamp.org/news/rss/",
+    "Netflix Tech Blog": "https://netflixtechblog.com/feed",
+    "Hanselminutes": "https://www.hanselminutes.com/feed/hanselminutes.xml",
+    "CSS Tricks": "https://css-tricks.com/feed/",
+    "Smashing Magazine": "https://www.smashingmagazine.com/feed/",
 }
 
 
@@ -530,6 +565,8 @@ def main():
 
             if not last_modified or not is_new_model_update(model_id, last_modified):
                 print(f"    ✅ Up to date: {last_modified}")
+                # Always include HF models in report (even if up to date)
+                new_hf_models.append(f"{model_id} (up to date)")
                 continue
 
             print(f"    📄 New update: {last_modified}")
@@ -597,16 +634,16 @@ def main():
     # Add per-source breakdown
     breakdown_lines = []
     if new_articles:
-        breakdown_lines.extend([f"  📰 RSS: {len(new_articles)}" for _ in new_articles])
+        breakdown_lines.append(f"  📰 RSS: {len(new_articles)}")
         breakdown_lines.extend([f"    - {a}" for a in new_articles])
     if new_releases:
-        breakdown_lines.extend([f"  🐙 GitHub: {len(new_releases)}" for _ in new_releases])
+        breakdown_lines.append(f"  🐙 GitHub: {len(new_releases)}")
         breakdown_lines.extend([f"    - {r}" for r in new_releases])
     if new_hf_models:
-        breakdown_lines.extend([f"  🤗 HF Hub: {len(new_hf_models)}" for _ in new_hf_models])
+        breakdown_lines.append(f"  🤗 HF Hub: {len(new_hf_models)}")
         breakdown_lines.extend([f"    - {m}" for m in new_hf_models])
     if new_local_files:
-        breakdown_lines.extend([f"  📁 Local: {len(new_local_files)}" for _ in new_local_files])
+        breakdown_lines.append(f"  📁 Local: {len(new_local_files)}")
         breakdown_lines.extend([f"    - {f}" for f in new_local_files])
 
     if breakdown_lines:
@@ -617,14 +654,14 @@ def main():
 
     # Log
     if total_new > 0:
-        all_new = new_articles + new_releases + new_local_files
+        all_new = new_articles + new_releases + new_hf_models + new_local_files
         append_to_log(LOG_FILE, "source_monitor",
-                      f"RSS: {total_rss_scanned}, GH: {total_github_scanned}, Local: {total_local_scanned} | "
-                      f"new: {total_new} ({len(new_articles)} articles, {len(new_releases)} releases, {len(new_local_files)} local)")
+                      f"RSS: {total_rss_scanned}, GH: {total_github_scanned}, HF: {total_hf_scanned}, Local: {total_local_scanned} | "
+                      f"new: {total_new} ({len(new_articles)} articles, {len(new_releases)} releases, {len(new_hf_models)} HF, {len(new_local_files)} local)")
         print(f"  📝 Logged to {LOG_FILE}")
     else:
         append_to_log(LOG_FILE, "source_monitor",
-                      f"RSS: {total_rss_scanned}, GH: {total_github_scanned}, Local: {total_local_scanned} | no new sources")
+                      f"RSS: {total_rss_scanned}, GH: {total_github_scanned}, HF: {total_hf_scanned}, Local: {total_local_scanned} | no new sources")
         print(f"  ✅ No new sources to ingest")
 
     return 0  # Always return 0 for cron
