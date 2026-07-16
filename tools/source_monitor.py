@@ -59,7 +59,6 @@ FEEDS = {
     "MIT Tech Review AI": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
     "The Verge AI": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
     "OpenAI News": "https://openai.com/news/rss.xml",
-    "Google Research Blog": "https://research.google/blog/rss/",
     "Meta AI Blog": "https://ai.meta.com/blog/rss/",
     "Hacker News": "https://hnrss.org/frontpage",
     # === AI Startups ===

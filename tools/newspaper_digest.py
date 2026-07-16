@@ -61,7 +61,6 @@ CATEGORY_MAP = {
     "MIT Tech Review AI": "🤖 AI / ML",
     "The Verge AI": "🤖 AI / ML",
     "OpenAI News": "🤖 AI / ML",
-    "Google Research Blog": "🤖 AI / ML",
     "Meta AI Blog": "🤖 AI / ML",
     "Hacker News": "🤖 AI / ML",
     "TechCrunch AI": "🤖 AI / ML",
@@ -134,7 +133,7 @@ def extract_repo_name_from_url(url: str) -> str:
     if "/releases/tag/" in url:
         parts = url.split("/releases/tag/")[0].split("/")
         if len(parts) >= 2:
-            return parts[-2]  # owner/repo -> repo name
+            return parts[-1]  # owner/repo -> repo name (last segment)
     return ""
 
 
@@ -502,25 +501,68 @@ def count_raw_articles() -> int:
 
 
 # ---------------------------------------------------------------------------
+# Debug helpers
+# ---------------------------------------------------------------------------
+DEBUG = False
+
+def debug(*args, **kwargs):
+    if DEBUG:
+        print("[DEBUG]", *args, **kwargs)
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 def main():
-    # Calculate 24h ago
+    import argparse
+    parser = argparse.ArgumentParser(description="Newspaper Digest — daily wiki newsletter")
+    parser.add_argument("--debug", action="store_true", help="Enable debug output")
+    parser.add_argument("--hours", type=int, default=24, help="Lookback hours (default: 24)")
+    parser.add_argument("--dry-run", action="store_true", help="Only print without saving")
+    args = parser.parse_args()
+    global DEBUG
+    DEBUG = args.debug
+
+    # Calculate lookback
     now = datetime.now(timezone.utc)
-    since = now - timedelta(hours=24)
-    date_str = now.strftime("%B %d, %Y")  # e.g. "July 16, 2026"
+    since = now - timedelta(hours=args.hours)
+    date_str = now.strftime("%B %d, %Y")
+
+    debug(f"⏰ Current UTC: {now.strftime('%Y-%m-%d %H:%M:%S')}")
+    debug(f"📅 Lookback: {args.hours}h → since={since.strftime('%Y-%m-%d %H:%M:%S')}")
+    debug(f"📁 RAW_DIR: {RAW_DIR}")
+    debug(f"📁 RAW_DIR exists: {RAW_DIR.exists()}")
+
+    if RAW_DIR.exists():
+        all_files = list(RAW_DIR.glob("*.md"))
+        debug(f"📄 Total .md files in RAW_DIR: {len(all_files)}")
+        for f in sorted(all_files)[-5:]:  # last 5 files
+            stat = f.stat()
+            mtime = datetime.fromtimestamp(stat.st_mtime, tz=timezone.utc)
+            debug(f"   {f.name} | mtime={mtime.strftime('%Y-%m-%d %H:%M')} | size={stat.st_size}")
 
     # Build digest
+    debug("🔨 Building digest...")
     sections, total = build_digest(since)
+
+    debug(f"📊 Total articles: {total}")
+    debug(f"📂 Categories found: {len(sections)}")
+    for cat, arts in sections:
+        debug(f"   {cat}: {len(arts)} articles")
+        for a in arts[:3]:
+            debug(f"      - {a.title[:60]} | source={a.source[:40]} | cat={a.category}")
 
     if not sections:
         print("📭 Ніяких новин за останні 24 години.")
         return
 
     # Format
+    debug("🎨 Formatting digest...")
     digest = format_digest(sections, total, date_str)
 
     print(digest)
+
+    debug("✅ Digest generation complete.")
 
 
 if __name__ == "__main__":
