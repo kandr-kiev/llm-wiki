@@ -2,7 +2,7 @@
 """Newspaper Digest — щоденна електронна газета з новинами LLM-Wiki.
 
 Парсить raw-файли за останні 24 години, витягує заголовки з frontmatter,
-формує красивий Markdown-дайджест з іконками та категоріями.
+формує красивий Markdown-дайджест з іконками, бейджями та Top Stories.
 
 Використання:
     python3 tools/newspaper_digest.py [--dry-run]
@@ -34,7 +34,7 @@ CATEGORY_ICONS = {
     "🛠️ IDE / Tools": "🔧",
     "📰 General": "📢",
     "🚀 GitHub Releases": "📦",
-    "🤗 HuggingFace": "🦗",
+    "🤗 HuggingFace": "🤗",
     "🐙 GitHub Issues": "🐛",
     "📁 Local": "📂",
 }
@@ -100,6 +100,7 @@ class Article:
     category: str
     url: str
     ingested: str
+    is_top: bool = False  # чи є Top Story
 
 
 # ---------------------------------------------------------------------------
@@ -118,6 +119,15 @@ def parse_frontmatter(content: str) -> dict:
     return fm
 
 
+def extract_repo_name_from_url(url: str) -> str:
+    """Витягує назву репо з URL GitHub releases."""
+    if "/releases/tag/" in url:
+        parts = url.split("/releases/tag/")[0].split("/")
+        if len(parts) >= 2:
+            return parts[-2]  # owner/repo -> repo name
+    return ""
+
+
 def extract_title_from_content(content: str) -> str:
     """Витягує заголовок з HTML-контенту."""
     # Спроба з H1
@@ -125,7 +135,7 @@ def extract_title_from_content(content: str) -> str:
     if h1_match:
         title = re.sub(r'<[^>]+>', '', h1_match.group(1)).strip()
         title = re.sub(r'\s+', ' ', title)
-        if title and title != "Unknown":
+        if title and title not in ("Unknown", "Error fetching content"):
             return title
 
     # Спроба з <title>
@@ -133,7 +143,7 @@ def extract_title_from_content(content: str) -> str:
     if title_match:
         title = re.sub(r'<[^>]+>', '', title_match.group(1)).strip()
         title = re.sub(r'\s+', ' ', title)
-        if title and title != "Unknown":
+        if title and title not in ("Unknown", "Error fetching content"):
             return title
 
     # Fallback: з frontmatter URL (extract meaningful part)
@@ -143,6 +153,9 @@ def extract_title_from_content(content: str) -> str:
         # Extract meaningful part from URL
         if "/releases/tag/" in url:
             tag = url.split("/releases/tag/")[-1]
+            repo = extract_repo_name_from_url(url)
+            if repo:
+                return f"{repo} {tag}"
             return f"Release {tag}"
         elif "/blog/" in url:
             parts = url.strip("/").split("/")
@@ -150,6 +163,10 @@ def extract_title_from_content(content: str) -> str:
         elif "news.ycombinator.com" in url:
             return "Hacker News"
         elif "openai.com" in url:
+            # Extract from openai.com URL path
+            path = url.split("openai.com")[1].strip("/")
+            if path:
+                return path.replace("-", " ").title()
             return "OpenAI Blog"
         elif "google" in url:
             return "Google Blog"
@@ -159,7 +176,25 @@ def extract_title_from_content(content: str) -> str:
 
 def extract_title_from_markdown(content: str) -> str:
     """Витягує заголовок з Markdown-файлу."""
-    # H1
+    # Спочатку перевіряємо URL для кращих заголовків
+    url_match = re.search(r'source_url:\s*(\S+)', content)
+    if url_match:
+        url = url_match.group(1)
+        if "/releases/tag/" in url:
+            tag = url.split("/releases/tag/")[-1]
+            repo = extract_repo_name_from_url(url)
+            if repo:
+                return f"{repo} {tag}"
+            return f"Release {tag}"
+        elif "openai.com" in url:
+            path = url.split("openai.com")[1].strip("/")
+            if path:
+                return path.replace("-", " ").title()
+        elif "/blog/" in url:
+            parts = url.strip("/").split("/")
+            return parts[-1].replace("-", " ").title() if parts else url
+
+    # H1 — fallback
     h1_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
     if h1_match:
         return h1_match.group(1).strip()[:100]
@@ -303,40 +338,92 @@ def build_digest(since: datetime) -> tuple:
     return sorted_sections, total_articles
 
 
+def select_top_stories(sections: list) -> list:
+    """Виділяє Top Stories з AI/ML категорії (якщо є)."""
+    top_stories = []
+    
+    # Шукаємо AI/ML категорію
+    for category, articles in sections:
+        if "AI / ML" in category:
+            # Беремо перші 3 (або менше)
+            for art in articles[:3]:
+                art.is_top = True
+                top_stories.append(art)
+            break
+    
+    return top_stories
+
+
 def format_digest(sections: list, total: int, date_str: str) -> str:
     """Форматує дайджест як електронну газету."""
     lines = []
 
     # === HEADER ===
-    lines.append("📰 **LLM-WIKI DAILY GAZETTE**")
-    lines.append(f"🗓️ {date_str}")
+    lines.append("📰✨ **LLM-WIKI DAILY GAZETTE** ✨📰")
+    lines.append(f"🗓️ *{date_str}*")
     lines.append("")
-    lines.append("─" * 40)
+    lines.append("🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥")
     lines.append("")
 
+    # === TOP STORIES ===
+    top_stories = select_top_stories(sections)
+    if top_stories:
+        lines.append("⭐ **TOP STORIES**")
+        lines.append("🏆 Найважливіші новини дня")
+        lines.append("")
+        lines.append("─── ⭐ ───")
+        lines.append("")
+        
+        for i, art in enumerate(top_stories, 1):
+            display_title = art.title
+            if len(display_title) > 80:
+                display_title = display_title[:77] + "..."
+            
+            # Source label
+            source_label = art.source
+            if source_label.startswith("github:"):
+                source_label = "🐙 " + source_label.split(":")[1]
+            elif source_label.startswith("huggingface:"):
+                source_label = "🤗 " + source_label.split(":")[1]
+            elif source_label.startswith("gh-"):
+                source_label = "🐛 " + source_label.split("-")[2]
+            else:
+                source_label = f"📡 {source_label}"
+            
+            # Category badge
+            cat_emoji = art.category.split()[0] if art.category else "📌"
+            
+            lines.append(f"  {i}. **{display_title}**")
+            lines.append(f"     {source_label} • {cat_emoji}")
+            if art.url:
+                lines.append(f"     🔗 {art.url}")
+            lines.append("")
+
     # === STATS SUMMARY ===
-    lines.append("📊 **ЗАГАЛЬНА СТАТИСТИКА**")
+    lines.append("─── 📊 ───")
     lines.append("")
-    lines.append(f"📈 **Новин за 24г:** {total}")
-    lines.append(f"📡 **RSS-джерел моніторингу:** {read_feeds_count()}")
-    lines.append(f"📚 **Wiki-сторінок:** {count_wiki_pages()}")
-    lines.append(f"📄 **Raw-статей:** {count_raw_articles()}")
+    lines.append("📈 **Новин за 24г:** " + str(total))
+    lines.append("📡 **RSS-джерел моніторингу:** " + str(read_feeds_count()))
+    lines.append("📚 **Wiki-сторінок:** " + str(count_wiki_pages()))
+    lines.append("📄 **Raw-статей:** " + str(count_raw_articles()))
     lines.append("")
 
     # === SECTION BY CATEGORY ===
     for category, articles in sections:
         icon = CATEGORY_ICONS.get(category, "📌")
 
-        lines.append(f"{'─' * 40}")
-        lines.append(f"{icon} **{category}** ({len(articles)})")
-        lines.append(f"{'─' * 40}")
+        lines.append("─── " + icon + " ───")
+        lines.append(f"**{category}** ({len(articles)})")
         lines.append("")
 
         for i, art in enumerate(articles, 1):
-            # Short title or truncate
+            # Skip if already in Top Stories
+            if art.is_top:
+                continue
+                
             display_title = art.title
-            if len(display_title) > 100:
-                display_title = display_title[:97] + "..."
+            if len(display_title) > 80:
+                display_title = display_title[:77] + "..."
 
             # Source label
             source_label = art.source
@@ -349,20 +436,25 @@ def format_digest(sections: list, total: int, date_str: str) -> str:
             else:
                 source_label = f"📡 {source_label}"
 
+            # Category badge
+            cat_emoji = art.category.split()[0] if art.category else "📌"
+
             lines.append(f"  {i}. **{display_title}**")
-            lines.append(f"     {source_label}")
+            lines.append(f"     {source_label} • {cat_emoji}")
             if art.url:
                 lines.append(f"     🔗 {art.url}")
             lines.append("")
 
     # === FOOTER ===
-    lines.append("─" * 40)
+    lines.append("─── 📌 ───")
     lines.append("")
-    lines.append("📌 **Джерела:** RSS (39) + GitHub Releases + HuggingFace + Local")
-    lines.append("🔄 **Наступний дайджест:** завтра о 09:00 UTC")
-    lines.append("🔗 **Wiki:** https://github.com/kandr-kiev/llm-wiki")
+    now = datetime.now(timezone.utc)
+    lines.append(f"⏰ **Згенеровано:** {now.strftime('%H:%M UTC')}")
+    lines.append(f"🔄 **Наступний дайджест:** завтра о 09:00 UTC")
+    lines.append(f"📡 **Джерела:** RSS ({read_feeds_count()}) + GitHub Releases + HuggingFace")
+    lines.append(f"🔗 **Wiki:** https://github.com/kandr-kiev/llm-wiki")
     lines.append("")
-    lines.append("*LLM-Wiki Daily Gazette • Powered by Source Monitor*")
+    lines.append("*📰 LLM-Wiki Daily Gazette • Powered by Source Monitor 🤖*")
 
     return "\n".join(lines)
 
