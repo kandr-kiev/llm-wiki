@@ -29,7 +29,7 @@ REPOS = [
     # Model families
     "google-deepmind/gemma",         # Google Gemma series
     "meta-llama/llama-models",       # Meta Llama (replaces: meta-llama/llama 404)
-    "QwenLM/Qwen3.6",                # Qwen 3.6 series
+    # QwenLM/Qwen3.6 removed — no releases (repo exists but empty)
     "mistralai/mistral-src",         # Mistral models
     # Fine-tuning & training tools
     "unslothai/unsloth",             # Fast fine-tuning
@@ -39,6 +39,13 @@ REPOS = [
     "facebookresearch/faiss",        # Vector similarity search
     # LangChain ecosystem
     "langchain-ai/langchain",
+    # AI Agents — Open Source
+    "NousResearch/hermes-agent",       # Hermes Agent: persistent self-hosted agent (175K+ stars)
+    "opencode-ai/opencode",            # OpenCode: terminal-native agent, model-agnostic (180K+ stars)
+    "cline/cline",                     # Cline: VS Code + CLI agent, MCP (64K+ stars)
+    "earendil-works/pi",               # Pi: minimal open-source coding agent CLI (46K+ stars)
+    "kilocode/kilo-code",              # Kilo Code: VS Code/JetBrains/CLI, 0% markup gateway (19K+ stars)
+    "Aider-AI/aider",                  # Aider: terminal coding agent, open-source
     # Legacy (active but older releases)
     "openai/whisper",                # ASR model (last: 2025-06)
     "huggingface/text-generation-inference", # TGI (maintenance mode)
