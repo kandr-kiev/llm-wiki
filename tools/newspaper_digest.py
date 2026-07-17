@@ -34,6 +34,7 @@ CATEGORY_ICONS = {
     "🛠️ IDE / Tools": "🔧",
     "📰 General": "📢",
     "🚀 GitHub Releases": "📦",
+    "🤖 AI Agents": "🤖",
     "🚀 AI Startups": "🚀",
     "🤗 HuggingFace": "🤗",
     "🐙 GitHub Issues": "🐛",
@@ -93,7 +94,8 @@ CATEGORY_MAP = {
     "FreeCodeCamp Blog": "📰 General",
     "Netflix Tech Blog": "📰 General",
     "Hanselminutes": "📰 General",
-    "CSS Tricks": "📰 General",
+    # FILTER: CSS Tricks gives low-value entries (pointer-events, translate())
+    # "CSS Tricks": "📰 General",
     "Smashing Magazine": "📰 General",
 }
 
@@ -185,6 +187,13 @@ def extract_title_from_content(content: str) -> str:
 
 def extract_title_from_markdown(content: str) -> str:
     """Витягує заголовок з Markdown-файлу."""
+    # Спочатку перевіряємо summary
+    summary_match = re.search(r'summary:\s*(.+)', content)
+    if summary_match:
+        summary = summary_match.group(1).strip()
+        if summary and summary != "Unknown":
+            return summary[:120]
+    
     # Спочатку перевіряємо URL для кращих заголовків
     url_match = re.search(r'source_url:\s*(\S+)', content)
     if url_match:
@@ -221,7 +230,10 @@ def categorize_article(source: str, filename: str) -> str:
     if source.startswith("github:"):
         parts = source.split(":")[1]  # owner/repo
         repo = parts.split("/")[1].lower()
-        if "pytorch" in repo or "tensorflow" in repo or "transformers" in repo or "diffusers" in repo:
+        # AI Agents — категорія
+        if "hermes" in repo or "opencode" in repo or "cline" in repo or "kilo" in repo or "aider" in repo or "pi" in repo:
+            return "🤖 AI Agents"
+        elif "pytorch" in repo or "tensorflow" in repo or "transformers" in repo or "diffusers" in repo:
             return "🤖 AI / ML"
         elif "langchain" in repo or "autogen" in repo or "axolotl" in repo or "unsloth" in repo:
             return "🤖 AI / ML"
@@ -268,6 +280,71 @@ def categorize_article(source: str, filename: str) -> str:
         return "🤗 HuggingFace"
 
     return "📰 General"
+
+
+def is_low_quality_title(title: str) -> bool:
+    """Фільтрує низькоякісні заголовки."""
+    if not title or title == "Unknown":
+        return True
+    if title in ("MachineLearning", "Medium", "Hacker News", "Computer Science > Machine Learning", 
+                 "Computer Science > Computation and Language"):
+        return True
+    if len(title) < 15:  # Занадто короткий заголовок
+        return True
+    # Фрази без контексту
+    low_quality_phrases = ["pointer-events", "translate()", "translateX()", "translateY()", "translateZ()"]
+    for phrase in low_quality_phrases:
+        if phrase in title:
+            return True
+    # Погані HN заголовки
+    bad_hn = ["Dan Kendalls", "Unicode text processing"]
+    for bad in bad_hn:
+        if bad in title:
+            return True
+    return False
+
+
+def deduplicate_titles(articles: list) -> list:
+    """Видаляє дублікати заголовків у межах категорії."""
+    seen = set()
+    unique = []
+    for art in articles:
+        # Нормалізуємо заголовок для порівняння
+        normalized = art.title.lower().strip()
+        if normalized not in seen:
+            seen.add(normalized)
+            unique.append(art)
+    return unique
+
+
+def filter_release_duplicates(articles: list) -> list:
+    """Для TypeScript/Release — залишає лише Final, не Beta/RC."""
+    filtered = []
+    version_map = {}  # key -> article
+    beta_rc = []
+    for art in articles:
+        title_lower = art.title.lower()
+        # TypeScript: Announcing TypeScript X.Y.Z Beta/RC -> фільтруємо
+        if "announcing typescript" in title_lower:
+            if "beta" in title_lower or "rc" in title_lower or "progress" in title_lower:
+                beta_rc.append(art)
+                continue
+            # Extract version number
+            import re
+            m = re.search(r'typescript (\d+\.\d+(?:\.\d+)?)', title_lower)
+            if m:
+                ver = m.group(1)
+                key = f"ts-{ver}"
+                if key not in version_map:
+                    version_map[key] = art
+                continue
+        # Python releases: beta/rc -> фільтруємо
+        if "python" in title_lower and ("beta" in title_lower or "release candidate" in title_lower or "rc" in title_lower):
+            continue
+        filtered.append(art)
+    # Додаємо final releases
+    filtered.extend(version_map.values())
+    return filtered
 
 
 # ---------------------------------------------------------------------------
@@ -323,6 +400,25 @@ def build_digest(since: datetime) -> tuple:
         if category is None:
             continue  # Skip filtered sources (ArXiv)
 
+        # Filter low-quality titles
+        if is_low_quality_title(title):
+            continue
+
+        # Filter stale Google Research Blog (2024 articles)
+        if "google research blog" in source.lower():
+            # Check ingested date
+            if ingested:
+                try:
+                    ingested_dt = datetime.strptime(ingested, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+                    if ingested_dt < since.replace(year=2025):  # Skip 2024 articles
+                        continue
+                except ValueError:
+                    pass
+            else:
+                # Check URL
+                if "2024/" in url:
+                    continue
+
         article = Article(
             filename=filepath.name,
             title=title,
@@ -336,6 +432,20 @@ def build_digest(since: datetime) -> tuple:
             sections[category] = []
         sections[category].append(article)
         total_articles += 1
+
+    # Deduplicate titles within each category
+    for cat in sections:
+        sections[cat] = deduplicate_titles(sections[cat])
+
+    # Filter release duplicates (Beta/RC -> Final only)
+    for cat in sections:
+        sections[cat] = filter_release_duplicates(sections[cat])
+
+    # Limit articles per category to prevent bloat
+    MAX_PER_CATEGORY = 20
+    for cat in sections:
+        if len(sections[cat]) > MAX_PER_CATEGORY:
+            sections[cat] = sections[cat][:MAX_PER_CATEGORY]
 
     # Sort sections by count descending
     sorted_sections = sorted(
@@ -405,7 +515,7 @@ def format_digest(sections: list, total: int, date_str: str) -> str:
             lines.append(f"  {i}. **{display_title}**")
             lines.append(f"     {source_label} • {cat_emoji}")
             if art.url:
-                lines.append(f"     🔗 {art.url}")
+                lines.append(f"     🔗 [Детальніше...]({art.url})")
             lines.append("")
 
     # === STATS SUMMARY ===
@@ -451,7 +561,7 @@ def format_digest(sections: list, total: int, date_str: str) -> str:
             lines.append(f"  {i}. **{display_title}**")
             lines.append(f"     {source_label} • {cat_emoji}")
             if art.url:
-                lines.append(f"     🔗 {art.url}")
+                lines.append(f"     🔗 [Детальніше...]({art.url})")
             lines.append("")
 
     # === FOOTER ===
