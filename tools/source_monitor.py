@@ -226,8 +226,27 @@ def save_raw_release(repo: str, release_tag: str, content: str) -> str:
 # ---------------------------------------------------------------------------
 HF_DB = ROOT / ".processed" / "hf_models.txt"
 HF_MODELS = [
-    "Qwen/Qwen3.6-35B-A3B",   # MoE 35B/3B active — agentic coding
-    "Qwen/Qwen3.6-27B",       # Dense 27B — most anticipated
+    # === Chinese AI Labs — DeepSeek ===
+    "deepseek-ai/DeepSeek-V4-Pro",    # V4 Pro — 1.6T MoE, 1M context
+    "deepseek-ai/DeepSeek-V4-Flash",  # V4 Flash — cost-efficient
+    "deepseek-ai/DeepSeek-V3.2",      # V3.2 — Thinking in Tool-Use
+    "deepseek-ai/DeepSeek-R1",        # R1 — reasoning breakthrough
+    # === Chinese AI Labs — Zhipu AI (Z.ai) ===
+    "zai-org/GLM-5",      # GLM-5 — 744B MoE (40B active), MIT license
+    "zai-org/GLM-5.1",    # GLM-5.1 — coding-focused variant
+    "zai-org/GLM-5.2",    # GLM-5.2 — long-horizon, 1M context
+    # === Chinese AI Labs — Moonshot AI (Kimi) ===
+    "moonshotai/Kimi-K2.5",                     # K2.5 — multimodal agentic
+    "moonshotai/Kimi-K2.6",                     # K2.6 — native multimodal coding
+    "moonshotai/Kimi-K2.7-Code",                # K2.7-Code — coding-focused (GitHub Copilot)
+    "moonshotai/Kimi-VL-A3B-Thinking-2506",     # VL A3B thinking model
+    "moonshotai/Moonlight-16B-A3B-Instruct",    # Moonlight 16B MoE instruct
+    "moonshotai/Moonlight-16B-A3B",             # Moonlight 16B MoE base
+    # === Chinese AI Labs — Alibaba (Qwen) ===
+    "Qwen/Qwen3.6-35B-A3B",         # Qwen3.6 MoE 35B/3B active — agentic coding
+    "Qwen/Qwen3.6-27B",             # Qwen3.6 Dense 27B
+    "Qwen/Qwen3.5-397B-A17B",       # Qwen3.5 massive MoE flagship
+    "Qwen/Qwen3.5-122B-A10B",       # Qwen3.5 large MoE
 ]
 
 

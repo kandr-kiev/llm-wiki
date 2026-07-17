@@ -1117,6 +1117,9 @@ links: [llm-wiki, architecture]
 | 42 | Scale Ai | `wiki/entities/scale-ai.md` |
 | 43 | Swarmresearch Orchestrating Coding Agents For Open Ended Discovery 2026 07 07 | `wiki/entities/swarmresearch-orchestrating-coding-agents-for-open-ended-discovery-2026-07-07.md` |
 | 44 | Veritas Towards A General Purpose Replication Tool For Scientific Research 2026 07 07 | `wiki/entities/veritas-towards-a-general-purpose-replication-tool-for-scientific-research-2026-07-07.md` |
+| 45 | DeepSeek | `wiki/entities/deepseek.md` |
+| 46 | Kimi (Moonshot AI) | `wiki/entities/kimi.md` |
+| 47 | Z.ai (Zhipu AI) | `wiki/entities/z-ai.md` |
 
 ## wiki/playbooks/
 

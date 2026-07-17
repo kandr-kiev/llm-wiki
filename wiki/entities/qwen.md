@@ -6,140 +6,147 @@ tags: [llm-wiki, concept]
 sources: []
 confidence: medium
 links: []
-created: 2026-07-13
-updated: 2026-07-13
+created: 2026-07-18
+updated: 2026-07-18
 ---
-title: "Qwen (Alibaba)"
+title: "Qwen"
 type: entity
-description: Alibaba's open-weight LLM series, one of the most capable and widely deployed open models globally
-created: 2026-07-06
-updated: 2026-07-06
-tags: [llm-wiki, company, open-source-llm]
-sources: [raw/articles/open-source-llm-landscape-2026.md]
+description: Alibaba's Qwen model family — China's largest open-source LLM ecosystem
+created: 2026-07-18
+updated: 2026-07-18
+tags: [llm-wiki, company, model, china]
+sources: []
 confidence: high
-links: [llm-wiki, open-source-llm, meta, mistral-ai, deepmind]
+links: [llm-wiki, openai, anthropic, deepseek, kimi, glm, hugging-face]
 
-
-# Qwen (Alibaba)
+# Qwen
 
 ## Overview
 
-Qwen (通义千问) is a series of large language models developed by Alibaba Group's Tongyi Lab. Qwen has become one of the most capable and widely deployed open-weight models globally, competing directly with Meta's Llama, Mistral, and OpenAI's GPT series. Qwen models are known for their strong multilingual capabilities (especially Chinese), excellent reasoning, and comprehensive open-weight licensing.
+Qwen (通义千问) is the LLM family developed by Alibaba Cloud's Qwen team. It is China's largest and most comprehensive open-source LLM ecosystem, with models ranging from 0.5B to 397B+ parameters. Qwen has become one of the most popular open-weight model families globally, with 100M+ downloads on HuggingFace. The series spans base models, chat models, vision models, audio models, coding models, and specialized tools.
 
 ## Key Facts
 
 | Field | Details |
-|
-|---|
-| **Founded** | 2023 (Qwen series launch) |
-| **Headquarters** | Hangzhou, China (Alibaba Group) |
-| **Developer** | Alibaba Group Tongyi Lab |
-| **Type** | Open-weight model series |
-| **Key Researchers** | Alibaba Tongyi Lab team |
-| **Parent Company** | Alibaba Group (NYSE: BABA, HKEX: 9988) |
-| **Revenue (Alibaba 2024)** | ~$130B (annual) |
-| **Model Sizes** | 0.5B, 1.5B, 3B, 7B, 14B, 32B, 72B, 110B |
+|---|---|
+| **Company** | Alibaba Cloud (Alibaba Group) |
+| **Team** | Qwen team at Alibaba Cloud Intelligence |
+| **First Release** | 2023 (Qwen-7B, Qwen-72B) |
+| **Current Flagship** | Qwen3.6-35B-A3B (MoE) / Qwen3.5-397B-A17B |
+| **Type** | Open-weight model family |
+| **Languages** | 29+ languages |
+| **License** | Qwen License (permissive for research and commercial use) |
 
 ## Models & Products
 
-### Qwen 3.6 Series (2026) — Ключова модель року
-- **Qwen3.6-35B-A3B** (квітень 2026) — Моє поточне середовище! MoE, 35B total, 3B active, agentic coding powerhouse
-- **Qwen3.6-27B** (квітень 2026) — Fully-dense, beats 397B-A17B 3.5 flagship on agentic coding, single consumer GPU
-- **Qwen3.6-Plus** (квітень 2026) — API-only flagship
+### Qwen3 Series (2026)
 
-### Qwen 3.7 Series (API Only)
-- **Qwen3.7-Max** (травень 2026) — Closed-weight, API-only, 1M context, Agent Frontier, beats GPT-5.5 on SWE-Pro/Terminal-Bench at ~1/4 cost
+- **Qwen3.6-35B-A3B** (16 квітня 2026) — MoE, 35B total / 3B active, agentic coding, most popular size
+- **Qwen3.6-27B** (2026) — Dense 27B, most anticipated
+- **Qwen3.5-397B-A17B** — Massive MoE, 397B total / 17B active, top-tier performance
+- **Qwen3.5-122B-A10B** — Large MoE variant
+- **Qwen3.5-35B-A3B** — Mid-size MoE
+- **Qwen3.5-27B** — Dense 27B
+- **Qwen3.5-9B, 4B, 2B, 0.8B** — Small models for edge deployment
 
-### Qwen 3.5 Series
-- **Qwen3.5-397B-A17B** (лютий 2026) — Попередній open-weight флагман, MoE
-- **Qwen3.5-72B** (лютий 2026) — Dense model, cost-effective
+### Qwen-VL Series (Vision-Language)
 
-### Qwen 2.5 Series (Apache 2.0)
-- **Qwen2.5-72B** (жовтень 2024) — Попередній flagship, dense
-- **Qwen2.5-32B/14B/7B/1.5B/0.5B** — Full size range
+- **Qwen3-VL** — Multimodal vision-language model series
+- **Qwen3-VL-Embedding** — Vision-language embeddings
+- **Qwen-Image** (Aug 2025) — 20B MMDiT image foundation model
+- **Qwen-Image-Edit** (Aug 2025) — Text-rendering image editing
 
-### Qwen Parameter Sizes
+### Other Qwen Products
 
-| Model | Parameters | Architecture | Use Case |
-|---|---|---|---|
-| **Qwen 0.5B** | 0.5B | Dense | Edge devices, mobile |
-| **Qwen 1.5B** | 1.5B | Dense | Fast inference, low latency |
-| **Qwen 3B** | 3B | Dense | Balance of speed and quality |
-| **Qwen 7B** | 7B | Dense | General purpose, local deployment |
-| **Qwen 14B** | 14B | Dense | High-performance local |
-| **Qwen 32B** | 32B | Dense | Research, advanced use cases |
-| **Qwen 72B** | 72B | Dense | Maximum capability |
-| **Qwen 110B** | 110B | MoE | Maximum capability, specialized |
-
-### Qwen Variants
-- **Qwen-VL** — Vision-language model (image understanding)
-- **Qwen-Audio** — Audio processing model
-- **Qwen-Coder** — Code generation and understanding
-- **Qwen-Math** — Mathematical reasoning
-- **Qwen-Max** — Proprietary API-only model
-- **Qwen-Plus** — Proprietary API-only model
-- **Qwen-Turbo** — Fast, cost-effective API model
+- **Qwen-Chat** — Conversational interface
+- **Qwen API** — REST API via Alibaba Cloud Model Studio
+- **Qwen Code** — AI coding assistant (CLI tool, active releases)
+- **Qwen Agent** — Agent framework for building AI agents
+- **Qwen3Guard** (Sep 2025) — First safety guardrail model in Qwen family
+- **Qwen-MT** (Jul 2025) — Multilingual translation
+- **Qwen3-ASR** — Automatic speech recognition
+- **Qwen-RobotNav** — Robot navigation
+- **Qwen-RobotManip** — Robot manipulation
+- **Qwen-AgentWorld** — Agent world modeling
 
 ## Infrastructure
 
-- **Training hardware**: Alibaba Cloud infrastructure, custom AI chips
-- **Compute partnerships**: Alibaba Cloud (Aliyun), NVIDIA
-- **Context window**: Up to 131K tokens (Qwen 2.5)
-- **Fine-tuning**: Supports LoRA, QLoRA fine-tuning
-- **Safety**: Built-in content moderation, Chinese regulatory compliance
-
-## Business Model
-
-Alibaba operates Qwen within its cloud ecosystem:
-- **Open-weight**: Qwen models freely available for commercial use
-- **API access**: Qwen API via Alibaba Cloud
-- **Enterprise**: Custom deployments for businesses
-- **Cloud integration**: Qwen integrated into Alibaba Cloud services
-- **Competitive strategy**: Open-weight to drive cloud adoption and ecosystem
+- **Training hardware**: Alibaba Cloud GPU clusters
+- **Context window**: Up to 1M+ tokens (Qwen3 series)
+- **Fine-tuning**: Supports custom fine-tuning via Model Studio API
+- **API compatibility**: OpenAI-compatible, Anthropic-compatible
+- **Deployment**: HuggingFace, ModelScope, Alibaba Cloud
 
 ## Open Source Policy
 
-Qwen is **strongly committed to open-weight**:
-- **Llama-style licensing**: Free for commercial use
-- **All models open-weight**: Weights publicly available on Hugging Face
-- **Chinese focus**: Strong multilingual (Chinese + English + 100+ languages)
-- **Community ecosystem**: Strong Chinese and global community support
-- **Competes with**: Llama (Meta), Mistral, GPT (OpenAI), Claude (Anthropic)
+Qwen is **open-weight** (most models):
+- **Open weights**: All Qwen models released on HuggingFace and ModelScope
+- **Code**: Training code and infrastructure released
+- **API**: Commercial API via Alibaba Cloud Model Studio
+- **Competes with**: Llama (Meta), DeepSeek, Kimi, GLM (Zhipu)
+- **Philosophy**: "Open weights accelerate AI adoption globally"
+
+## GitHub Repositories (monitored)
+
+| Repo | Description |
+|---|---|
+| `QwenLM/Qwen3.6` | Qwen3.6 model family |
+| `QwenLM/Qwen3-VL` | Qwen3 vision-language models |
+| `QwenLM/qwen-code` | Qwen Code — AI coding assistant (active releases) |
+| `QwenLM/qwen-code-action` | GitHub Action for Qwen Code |
+| `QwenLM/FlashQLA` | FlashQLA — quantization acceleration |
+| `QwenLM/Confident-Decoding` | Confident decoding methods |
+| `QwenLM/Qwen-RobotNav` | Robot navigation |
+| `QwenLM/Qwen-RobotManip` | Robot manipulation |
+| `QwenLM/Qwen3-ASR` | Speech recognition |
+| `QwenLM/Qwen-AgentWorld` | Agent world modeling |
+
+## HuggingFace Models (monitored)
+
+| Model ID | Description |
+|---|---|
+| `Qwen/Qwen3.6-35B-A3B` | Qwen3.6 MoE 35B/3B active — agentic coding |
+| `Qwen/Qwen3.6-27B` | Qwen3.6 Dense 27B |
+| `Qwen/Qwen3.5-397B-A17B` | Qwen3.5 massive MoE |
+| `Qwen/Qwen3.5-122B-A10B` | Qwen3.5 large MoE |
 
 ## Relationships
 
-- **Alibaba Cloud**: Primary cloud provider and distribution platform
-- **NVIDIA**: GPU supplier, co-developer
-- **Meta**: Competitor and collaborator (both open-weight)
-- **OpenAI**: Competitor (competing with GPT)
-- **Google**: Competitor (competing with Gemini)
-- **Hugging Face**: Model hosting and community platform
+- **Alibaba Group**: Parent company, primary funder
+- **Alibaba Cloud**: Distribution platform (Model Studio)
+- **HuggingFace**: Primary open-weight distribution
+- **ModelScope**: Chinese model distribution platform
+- **OpenAI**: Competitor — Qwen targets GPT-5 territory
+- **Anthropic**: Competitor — Qwen vs Claude
+- **DeepSeek**: Peer competitor in China
+- **Zhipu AI (Z.ai)**: Peer competitor in China (GLM series)
+- **Moonshot AI**: Peer competitor in China (Kimi series)
 
 ## Recent Developments (2024-2026)
 
-1. **Qwen 2 launch** (Mar 2024) — 0.5B to 72B models
-2. **Qwen 2.5** (Sep 2024) — Coding and math specialized variants
-3. **Qwen VL** — Vision-language model release
-4. **Qwen Coder** — Code generation model
-5. **Qwen 3** (2025) — Next-gen reasoning models
-6. **Qwen 3** (2026) — Latest generation, multimodal
-7. **Alibaba Cloud integration** — Qwen integrated into all Alibaba services
-8. **Global expansion** — Growing international community and adoption
+1. **Qwen2.5** (Sep 2024) — 100+ open-weight models, 0.5B to 72B
+2. **Qwen2** series (2024) — Major architectural improvements
+3. **Qwen3** (2025) — Next-generation series
+4. **Qwen3-VL** (2025) — Vision-language expansion
+5. **Qwen-Image** (Aug 2025) — 20B image foundation model
+6. **Qwen3Guard** (Sep 2025) — Safety guardrail model
+7. **Qwen3.5** (Feb 2026) — 397B-A17B flagship, agentic capabilities
+8. **Qwen3.6-35B-A3B** (Apr 2026) — Most popular MoE size
+9. **Qwen Code** — Active CLI coding assistant with nightly releases
 
 ## Controversies
 
-- **Chinese regulatory compliance** — Content moderation requirements
 - **Data scraping** — Training on copyrighted content
-- **Geopolitical tensions** — US-China AI competition
+- **Geopolitical tension** — Chinese AI under US restrictions
 - **Open-weight safety** — Debate on open-weight model safety implications
+- **US Entity List** — Alibaba Cloud subject to US restrictions
 
 ## See Also
+
 - [[openai]]
 - [[anthropic]]
-- ]
-- [[deepmind]]
-- ]
+- [[deepseek]]
+- [[kimi]]
+- [[glm]]
 - [[hugging-face]]
-- [[llm-quantization]]
-- [[llm-fine-tuning]]
-- ]
+- [[modelscope]]
