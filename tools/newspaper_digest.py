@@ -744,13 +744,15 @@ def select_top_stories(sections: list) -> list:
 # Compact formatter (Telegram-friendly)
 # ---------------------------------------------------------------------------
 def format_compact(sections: list, total: int, date_str: str) -> str:
-    """Форматує дайджест у компактному стилі (Telegram-friendly).
+    """Форматує дайджест у новому стилі (Telegram-friendly).
     
-    Структура:
-    - Заголовок категорії як header
-    - Топ-5 новин з переказом (5 речень)
-    - Тематична іконка + заголовок + переказ + посилання
-    - Компактний стиль без зайвих символів
+    Структура на категорію:
+    ### 🤖 AI / ML
+    🧠 **Заголовок новини**
+    Стислий переказ українською (макс 5 речень).
+    📎 [Джерело](url)
+    
+    ---
     """
     lines = []
     
@@ -758,13 +760,13 @@ def format_compact(sections: list, total: int, date_str: str) -> str:
     lines.append(f"📰 *{date_str}*")
     lines.append("")
     
-    # === SECTIONS BY CATEGORY (top 5 each with summaries) ===
+    # === SECTIONS BY CATEGORY (5 top per category) ===
     for category, articles in sections:
         lines.append(f"### {category}")
+        lines.append("")
         
-        # Top 5 from this category with summaries
         for art in articles[:5]:
-            # Add thematic icon based on category
+            # Тематична іконка
             icon_map = {
                 "🤖 AI / ML": "🧠",
                 "💻 Programming": "⌨️",
@@ -781,13 +783,18 @@ def format_compact(sections: list, total: int, date_str: str) -> str:
             }
             icon = icon_map.get(category, "📌")
             
-            lines.append(f"- {icon} **{art.title}**")
+            # Заголовок
+            lines.append(f"{icon} **{art.title}**")
+            
+            # Переказ (якщо є)
             if art.summary_uk:
-                lines.append(f"  {art.summary_uk}")
+                lines.append(art.summary_uk)
+            
+            # Посилання на джерело
             if art.url:
-                lines.append(f"  {art.url}")
-        
-        lines.append("")
+                lines.append(f"📎 {art.url}")
+            
+            lines.append("")
     
     # === FOOTER ===
     lines.append("---")
