@@ -62,6 +62,7 @@ FEEDS = {
     "Meta AI Blog": "https://ai.meta.com/blog/rss/",
     "Hacker News": "https://hnrss.org/frontpage",
     # === AI Startups ===
+    "DeepSeek Blog": "https://api-docs.deepseek.com/rss.xml",
     "TechCrunch AI": "https://techcrunch.com/category/artificial-intelligence/feed/",
     "TechCrunch Startups": "https://techcrunch.com/category/startups/feed/",
     "TechCrunch Venture": "https://techcrunch.com/category/venture/feed/",
