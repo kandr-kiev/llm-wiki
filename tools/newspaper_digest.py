@@ -116,8 +116,9 @@ class Article:
     url: str
     ingested: str
     is_top: bool = False
-    # поле для згенерованого переказу
+    # поля для згенерованого переказу
     summary_uk: str = ""
+    title_uk: str = ""
 
 
 # ---------------------------------------------------------------------------
@@ -141,24 +142,26 @@ def translate_text(text: str, dest_lang: str = "uk") -> str:
 
 
 def clean_title_suffix(title: str) -> str:
-    """Видаляє суфікс ' | SourceName' з заголовка."""
-    if " | " in title:
-        parts = title.rsplit(" | ", 1)
-        source = parts[-1].strip()
-        known_sources = [
-            "TechCrunch", "MIT Technology Review", "The Verge", "JetBrains Blog",
-            "The Gradient", "Hacker News", "MarkTechPost", "Laravel News",
-            "Rust Blog", "Python Insider", "Microsoft Dev Blog",
-            "DEV Community", "FreeCodeCamp", "GitHub Blog",
-            "Smashing Magazine", "VentureBeat AI", "OpenAI News",
-            "Google DeepMind", "Distill AI", "Papers With Code",
-            "Hugging Face Blog", "r/MachineLearning", "Cloudflare Blog",
-            "Andrej Karpathy", "Chip Huyen", "Lilian Weng", "Jay Alammar",
-            "Hacker News AI", "OpenAI Blog", "Meta AI Blog",
-            "The Verge AI", "TechCrunch AI", "MIT Tech Review AI",
-        ]
-        if source in known_sources:
-            return parts[0].strip()
+    """Видаляє суфікс ' | SourceName' або ' - SourceName' з заголовка."""
+    for delimiter in [" | ", " - "]:
+        if delimiter in title:
+            parts = title.rsplit(delimiter, 1)
+            source = parts[-1].strip()
+            known_sources = [
+                "TechCrunch", "MIT Technology Review", "The Verge", "JetBrains Blog",
+                "The Gradient", "Hacker News", "MarkTechPost", "Laravel News",
+                "Rust Blog", "Python Insider", "Microsoft Dev Blog",
+                "DEV Community", "FreeCodeCamp", "GitHub Blog",
+                "Smashing Magazine", "VentureBeat AI", "OpenAI News",
+                "Google DeepMind", "Distill AI", "Papers With Code",
+                "Hugging Face Blog", "r/MachineLearning", "Cloudflare Blog",
+                "Andrej Karpathy", "Chip Huyen", "Lilian Weng", "Jay Alammar",
+                "Hacker News AI", "OpenAI Blog", "Meta AI Blog",
+                "The Verge AI", "TechCrunch AI", "MIT Tech Review AI",
+                "Cloudflare Blog", "Samuel Sutch", "Cloudflare", "The Cloudflare Blog",
+            ]
+            if source in known_sources:
+                return parts[0].strip()
     return title
 
 
@@ -254,7 +257,17 @@ def extract_title_from_content(content: str) -> str:
 
 
 def extract_title_from_markdown(content: str) -> str:
-    """Витягує заголовок з Markdown-файлу."""
+    """Витягує заголовок з Markdown-файлу.
+    
+    Порядок: H1 > summary > URL fallback.
+    H1 має пріоритет над summary — summary використовується лише як fallback.
+    """
+    # Спочатку H1 — це реальний заголовок статті
+    h1_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+    if h1_match:
+        return h1_match.group(1).strip()[:100]
+    
+    # Потім summary з frontmatter
     summary_match = re.search(r'summary:\s*(.+)', content)
     if summary_match:
         summary = summary_match.group(1).strip()
@@ -277,10 +290,6 @@ def extract_title_from_markdown(content: str) -> str:
         elif "/blog/" in url:
             parts = url.strip("/").split("/")
             return parts[-1].replace("-", " ").title() if parts else url
-    
-    h1_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
-    if h1_match:
-        return h1_match.group(1).strip()[:100]
     
     return "Unknown"
 
@@ -783,8 +792,9 @@ def format_compact(sections: list, total: int, date_str: str) -> str:
             }
             icon = icon_map.get(category, "📌")
             
-            # Заголовок
-            lines.append(f"{icon} **{art.title}**")
+            # Заголовок (український, якщо є переклад)
+            display_title = art.title_uk if art.title_uk else art.title
+            lines.append(f"{icon} **{display_title}**")
             
             # Переказ (якщо є)
             if art.summary_uk:
@@ -927,6 +937,9 @@ def main():
             art.summary_uk = summarize_and_translate(
                 html_content, art.title, max_sentences=5
             )
+            # Переклад заголовка (якщо англійський)
+            if not art.title_uk and art.title and art.title not in ("Unknown", ""):
+                art.title_uk = translate_text(art.title)
         except Exception as e:
             debug(f"    ERROR: {e}")
             art.summary_uk = ""
