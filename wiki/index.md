@@ -1367,6 +1367,7 @@ links: [llm-wiki, architecture]
 | 76 | збірка rtx 5070 ti фінальна оцінка | `wiki/comparisons/збірка-rtx-5070-ti-фінальна-оцінка.md` |
 | 77 | збірка rtx фінальна оцінка | `wiki/comparisons/збірка-rtx-фінальна-оцінка.md` |
 | 78 | інтеграція graphify з llm wiki стратегія теорія техніка рекомендації | `wiki/comparisons/інтеграція-graphify-з-llm-wiki-стратегія-теорія-техніка-рекомендації.md` |
+| 79 | LangGraph vs CrewAI vs AutoGen vs MAF 2026 | `wiki/comparisons/langgraph-vs-crewai-vs-autogen-vs-maf-2026.md` |
 
 ## wiki/concepts/
 
@@ -1512,6 +1513,7 @@ links: [llm-wiki, architecture]
 | 12 | How To Integrate Mcp | `wiki/playbooks/how-to-integrate-mcp.md` |
 | 13 | How To Maintain Wiki Integrity | `wiki/playbooks/how-to-maintain-wiki-integrity.md` |
 | 14 | How To Use Cloudflare Workers Ai | `wiki/playbooks/how-to-use-cloudflare-workers-ai.md` |
+| 15 | How to Choose and Implement an AI Agent Orchestration Framework | `wiki/playbooks/how-to-choose-agent-orchestration-framework-2026.md` |
 
 ## wiki/queries/
 

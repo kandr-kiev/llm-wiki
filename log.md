@@ -269,3 +269,5 @@
 ## [2026-07-21 05:43 UTC] source_monitor | RSS: 4010, GH: 42, HF: 17, Local: 0 | new: 52 (33 articles, 2 releases, 17 HF, 0 local)
 
 ## [2026-07-18 16:00 UTC] wiki_create | Created LangGraph entity page from LangChain official site — raw + wiki entity + index update
+
+## [2026-07-18 16:30 UTC] wiki_create | LangGraph orchestration frameworks deep dive — comparison page + playbook + 2 raw articles
