@@ -346,9 +346,9 @@
       </div>
       <p class="subtitle">4-layer knowledge base: Raw Sources → .processed/ → Synthesized Wiki → Schema &amp; Operations</p>
       <div class="stats-bar">
-        <span class="stat-item"><span class="stat-dot" style="background:#fbbf24"></span> <span class="stat-num">707</span> raw files</span>
-        <span class="stat-item"><span class="stat-dot" style="background:#34d399"></span> <span class="stat-num">421</span> wiki pages</span>
-        <span class="stat-item"><span class="stat-dot" style="background:#06b6d4"></span> <span class="stat-num">15</span> tools</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#fbbf24"></span> <span class="stat-num">1774</span> raw files</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#34d399"></span> <span class="stat-num">1204</span> wiki pages</span>
+        <span class="stat-item"><span class="stat-dot" style="background:#06b6d4"></span> <span class="stat-num">23</span> tools</span>
         <span class="stat-item"><span class="stat-dot" style="background:#06b6d4"></span> <span class="stat-num">3</span> cron jobs (50% reduction)</span>
         <span class="stat-item"><span class="stat-dot" style="background:#a78bfa"></span> <span class="stat-num">16</span> .processed</span>
         <span class="stat-item"><span class="stat-dot" style="background:#a855f7"></span> <span class="stat-num">14</span> Obsidian files</span>
@@ -370,7 +370,7 @@
             <div class="raw-item">
               <div class="raw-name">📄 Raw Articles</div>
               <div class="raw-path">raw/articles/</div>
-              <div class="raw-count">704 files</div>
+              <div class="raw-count">1771 files</div>
             </div>
             <div class="raw-item">
               <div class="raw-name">📑 Raw Papers</div>
@@ -459,17 +459,17 @@
             <div class="wiki-item">
               <div class="wiki-name">🏢 Entity</div>
               <div class="wiki-path">wiki/entities/</div>
-              <div class="wiki-count">44 pages</div>
+              <div class="wiki-count">48 pages</div>
             </div>
             <div class="wiki-item comparison">
               <div class="wiki-name">⚖️ Comparison</div>
               <div class="wiki-path">wiki/comparisons/</div>
-              <div class="wiki-count">281 pages ★</div>
+              <div class="wiki-count">1060 pages ★</div>
             </div>
             <div class="wiki-item">
               <div class="wiki-name">📋 Playbook</div>
               <div class="wiki-path">wiki/playbooks/</div>
-              <div class="wiki-count">14 pages</div>
+              <div class="wiki-count">15 pages</div>
             </div>
             <div class="wiki-item synthesis">
               <div class="wiki-name">🔮 Synthesis</div>
@@ -551,7 +551,7 @@
           <div class="layer-title">
             <span>▣</span> TOOLS &amp; CRON JOBS (Automation Layer)
           </div>
-          <div class="layer-subtitle">15 Python scripts • 3 scheduled jobs • GitHub MCP integration</div>
+          <div class="layer-subtitle">23 Python scripts • 3 scheduled jobs • GitHub MCP integration</div>
 
           <!-- Cron → Tool Mapping (3 jobs) -->
           <div class="cron-map">
@@ -635,6 +635,38 @@
             <div class="tool-item">
               <span class="tool-name">🗺️ verify_full_map.py</span>
               <span class="tool-desc">raw → wiki mapping completeness</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">⏰ source_monitor.py</span>
+              <span class="tool-desc">RSS + GitHub + Local unified</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">📰 newspaper_digest.py</span>
+              <span class="tool-desc">daily digest generation</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">📥 inbox_router.py</span>
+              <span class="tool-desc">inbox message routing</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🐙 github_repos.py</span>
+              <span class="tool-desc">GitHub repo monitoring</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🔗 git_sync.py</span>
+              <span class="tool-desc">git sync with wiki</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">🧪 test_inbox_router.py</span>
+              <span class="tool-desc">inbox_router tests</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">📨 test_telegram_links.py</span>
+              <span class="tool-desc">telegram link tests</span>
+            </div>
+            <div class="tool-item">
+              <span class="tool-name">💬 wiki_slash_commands.py</span>
+              <span class="tool-desc">wiki slash commands</span>
             </div>
           </div>
         </div>
@@ -791,7 +823,7 @@
             <h3>Raw Sources</h3>
           </div>
           <ul>
-            <li>• 707 immutable source files</li>
+            <li>• 1774 immutable source files</li>
             <li>• SHA256 on ingest</li>
             <li>• Never modified after save</li>
             <li>• Sources: URL, PDF, RSS, GitHub</li>
@@ -804,7 +836,7 @@
             <h3>Wiki Knowledge</h3>
           </div>
           <ul>
-            <li>• 421 synthesized pages</li>
+            <li>• 1204 synthesized pages</li>
             <li>• 9 categories (concepts, entities...)</li>
             <li>• Cross-linked with wikilinks</li>
             <li>• Open Knowledge Format v0.1</li>
@@ -827,7 +859,7 @@
     </div>
 
     <!-- Footer -->
-    <p class="footer">Local LLM Wiki • Architecture Diagram v7.0.0 • 2026-07-14 • 1148 total artifacts • 3 cron jobs (50% reduction) • 8 connection types</p>
+    <p class="footer">Local LLM Wiki • Architecture Diagram v7.0.0 • 2026-07-21 • 2978 total artifacts • 3 cron jobs (50% reduction) • 8 connection types</p>
   </div>
 </body>
 </html>

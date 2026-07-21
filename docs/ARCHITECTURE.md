@@ -703,13 +703,13 @@
 │   └── assets/                      ← 1 файл — ассети
 │
 ├── wiki/                            ← ШАР 2: Синтез (mutable)
-│   ├── concepts/                    ← 68 файлів — концепції, ідеї
-│   ├── entities/                    ← 44 файли — продукти, системи
-│   ├── comparisons/                 ← 78 файлів — порівняння
-│   ├── playbooks/                   ← 14 файлів — інструкції
-│   ├── synthesis/                   ← 7 файлів — мультиджерельний аналіз
+│   ├── concepts/                    ← 61 файлів — концепції, ідеї
+│   ├── entities/                    ← 48 файлів — продукти, системи
+│   ├── comparisons/                 ← 1060 файлів — порівняння
+│   ├── playbooks/                   ← 15 файлів — інструкції
+│   ├── synthesis/                   ← 8 файлів — мультиджерельний аналіз
 │   ├── queries/                     ← 2 файли — Q&A
-│   ├── references/                  ← 1 файл — довідкові дані
+│   ├── references/                  ← 2 файли — довідкові дані
 │   └── templates/                   ← 8 файлів — шаблони сторінок
 │
 ├── tools/                           ← ШАР 3: Інструменти (central utilities)
@@ -784,19 +784,19 @@
 ### 4.3 Граф зв'язків між директоріями вікі
 
 ```
-    concepts/ (68)        entities/ (44)       comparisons/ (78)
+    concepts/ (61)        entities/ (48)       comparisons/ (1060)
          │                    │                    │
          │  [[wikilinks]]     │  [[wikilinks]]     │  [[wikilinks]]
          ▼                    ▼                    ▼
     ┌──────────────────────────────────────────────────────┐
-    │                    wiki/ (222 total)                  │
+    │                    wiki/ (1204 total)                  │
     │                                                       │
-    │  playbooks/ (14)  synthesis/ (7)  queries/ (2)       │
+    │  playbooks/ (15)  synthesis/ (8)  queries/ (2)       │
     │       │                │               │              │
     │       │                │               │              │
     │       └────────────────┴───────────────┘              │
     │                                                       │
-    │  references/ (1)  templates/ (8)                      │
+    │  references/ (2)  templates/ (8)                      │
     └──────────────────────────────────────────────────────┘
                            │
                            ▼
@@ -859,31 +859,28 @@
 
 | Директорія | Кількість файлів | Тип |
 |------------|-----------------|-----|
-| `raw/articles/` | 704 | Сирі статті |
+| `raw/articles/` | 1771 | Сирі статті |
 | `raw/papers/` | 1 | Академічні папери |
 | `raw/transcripts/` | 1 | Транскрипти |
 | `raw/assets/` | 1 | Ассети |
-| `raw/configs/` | 0 | Конфіги (поки пусто) |
-| **Raw total** | **707** | |
+| **Raw total** | **1774** | |
 | `.processed/` | 16 | Проміжний кеш HTML→MD (НЕ в git) |
-| `wiki/comparisons/` | 280 | Порівняння |
-| `wiki/concepts/` | 60 | Концепції |
-| `wiki/entities/` | 44 | Сутності |
-| `wiki/playbooks/` | 14 | Інструкції |
-| `wiki/synthesis/` | 7 | Синтез |
+| `wiki/comparisons/` | 1060 | Порівняння |
+| `wiki/concepts/` | 61 | Концепції |
+| `wiki/entities/` | 48 | Сутності |
+| `wiki/playbooks/` | 15 | Інструкції |
+| `wiki/synthesis/` | 8 | Синтез |
 | `wiki/queries/` | 2 | Q&A |
 | `wiki/references/` | 2 | Довідкові |
 | `wiki/templates/` | 8 | Шаблони |
-| `wiki/sources/` | 0 | Пусто |
-| **Wiki total** | **421** | |
-| **Grand total** | **1148** | |
-
+| **Wiki total** | **1204** | |
+| **Grand total** | **2978** | |
 ### 6.2 Індекси та журнали
 
 | Елемент | Статус |
 |---------|--------|
-| `wiki/index.md` | 417 сторінок, 357 рядків, 8+ категорій |
-| `log.md` | 169 записів, append-only |
+| `wiki/index.md` | 20 категорій, 40 рядків |
+| `log.md` | 116 записів, 279 рядків, append-only |
 
 ### 6.3 Бази даних трекингу
 
@@ -911,6 +908,13 @@
 | `fix_sha256.py` | Оновлення хешів (вручну) |
 | `source_monitor.py` | Об'єднаний моніторинг (RSS + GitHub + Local) |
 | `standard_report.py` | Форматування звітів для cron |
+| `newspaper_digest.py` | Щоденний звіт |
+| `inbox_router.py` | Маршрутизація inbox |
+| `github_repos.py` | Моніторинг GitHub репозиторіїв |
+| `test_inbox_router.py` | Тести для inbox_router |
+| `test_telegram_links.py` | Тести для telegram-посилань |
+| `wiki_slash_commands.py` | Slash-команди для wiki |
+| **Всього** | **23 скрипти** | |
 
 ### 6.5 Obsidian Vault
 
@@ -965,14 +969,14 @@
 - **Підстави частоти:** 6 годин — оптимальний баланс між свіжістю даних та навантаженням на LLM
 
 #### 6.7.2 Wiki Integrator
-- **Частота:** `every 12h` (щодві години)
+- **Частота:** `every 12h` (щодвінадцять годин)
 - **Toolsets:** `terminal`, `file`
 - **Виконує:** `python3 tools/integrator.py`
 - **Що робить:** raw → wiki-сторінки (класифікація, синтез, index.md, log.md)
 - **Підстави частоти:** 12 годин — інтеграція після накопичення raw-файлів
 
 #### 6.7.3 Wiki Doctor
-- **Частота:** `every 12h` (щодві години)
+- **Частота:** `every 12h` (щодвінадцять годин)
 - **Toolsets:** `terminal`, `file`
 - **Виконує:** `python3 tools/wiki_doctor.py cure --dry-run`
 - **Що робить:** 6-layer діагностика + auto-cure + re-diagnosis → outputs/doctor-report.json
