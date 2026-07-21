@@ -233,3 +233,39 @@
 ## [2026-07-16 07:39 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, після: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, виправлень: 0
 
 ## [2026-07-16 07:42 UTC] source_monitor | RSS: 1398, GH: 31, HF: 2, Local: 0 | new: 14 (11 articles, 1 releases, 2 HF, 0 local)
+
+## [2026-07-16 13:44 UTC] source_monitor | RSS: 1397, GH: 31, HF: 2, Local: 0 | new: 4 (0 articles, 2 releases, 2 HF, 0 local)
+
+## [2026-07-16 19:43 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, після: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, виправлень: 0
+
+## [2026-07-16 19:46 UTC] source_monitor | RSS: 1401, GH: 31, HF: 2, Local: 0 | new: 11 (7 articles, 2 releases, 2 HF, 0 local)
+
+## [2026-07-17 01:51 UTC] source_monitor | RSS: 3718, GH: 36, HF: 2, Local: 0 | new: 266 (258 articles, 6 releases, 2 HF, 0 local)
+
+## [2026-07-17 07:49 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, після: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, виправлень: 0
+
+## [2026-07-17 07:53 UTC] source_monitor | RSS: 3783, GH: 36, HF: 2, Local: 0 | new: 31 (29 articles, 0 releases, 2 HF, 0 local)
+
+## [2026-07-17 14:07 UTC] source_monitor | RSS: 3781, GH: 36, HF: 2, Local: 0 | new: 32 (28 articles, 2 releases, 2 HF, 0 local)
+
+## [2026-07-17 19:50 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 1 | **WARN:** 27 | **INFO:** 2 | **Auto-fixable:** 1, після: **ERROR:** 0 | **WARN:** 27 | **INFO:** 2 | **Auto-fixable:** 1, виправлень: 2
+
+## [2026-07-17 20:19 UTC] source_monitor | RSS: 3780, GH: 36, HF: 2, Local: 0 | new: 38 (35 articles, 1 releases, 2 HF, 0 local)
+
+## [2026-07-18 02:23 UTC] source_monitor | RSS: 3780, GH: 42, HF: 17, Local: 0 | new: 60 (36 articles, 7 releases, 17 HF, 0 local)
+
+## [2026-07-18 07:52 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 5 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 5, після: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, виправлень: 8
+
+## [2026-07-18 08:27 UTC] source_monitor | RSS: 3779, GH: 42, HF: 17, Local: 0 | new: 35 (18 articles, 0 releases, 17 HF, 0 local)
+
+## [2026-07-18 14:31 UTC] source_monitor | RSS: 3779, GH: 42, HF: 17, Local: 0 | new: 39 (21 articles, 1 releases, 17 HF, 0 local)
+
+## [2026-07-20 10:30 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, після: **ERROR:** 0 | **WARN:** 26 | **INFO:** 2 | **Auto-fixable:** 0, виправлень: 0
+
+## [2026-07-20 10:34 UTC] source_monitor | RSS: 3685, GH: 42, HF: 17, Local: 0 | new: 77 (56 articles, 4 releases, 17 HF, 0 local)
+
+## [2026-07-20 23:39 UTC] source_monitor | RSS: 3691, GH: 42, HF: 17, Local: 177 | new: 255 (58 articles, 3 releases, 17 HF, 177 local)
+
+## [2026-07-21 05:43 UTC] source_monitor | RSS: 4010, GH: 42, HF: 17, Local: 0 | new: 52 (33 articles, 2 releases, 17 HF, 0 local)
+
+## [2026-07-18 16:00 UTC] wiki_create | Created LangGraph entity page from LangChain official site — raw + wiki entity + index update

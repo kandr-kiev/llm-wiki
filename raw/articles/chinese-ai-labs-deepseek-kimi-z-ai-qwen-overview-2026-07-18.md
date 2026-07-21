@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/kandr-kiev/llm-wiki/wiki/entities
 ingested: 2026-07-18
-sha256: a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2
+sha256: 4c33e32316f973a118cadbaf50ec2ae4edbfbd3ce2e270624da895ed2ff1f098
 summary: "Chinese AI Labs Overview — DeepSeek, Kimi (Moonshot AI), Z.ai (Zhipu AI), Qwen (Alibaba): the four major Chinese open-weight model providers challenging US dominance"
 ---
 # 🇨🇳 Chinese AI Labs Overview — DeepSeek, Kimi, Z.ai, Qwen

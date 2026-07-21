@@ -1,1 +1,5 @@
-{}
+{
+  "interfaceFont": "Inter",
+  "textFont": "Inter",
+  "monospaceFont": "JetBrains Mono"
+}

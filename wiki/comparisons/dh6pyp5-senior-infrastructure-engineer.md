@@ -1,0 +1,359 @@
+---
+title: "Dh6PYP5 senior infrastructure engineer"
+type: comparison
+tags:
+  - llm-wiki
+  - knowledge-base
+    - agent
+  - ai
+  - api
+  - application
+  - async
+  - best-practice
+  - claude
+  - cloud
+  - data
+  - edge
+  - framework
+  - image-generation
+  - kubernetes
+  - multi-agent
+  - news
+  - nlp
+  - open-source
+  - pipeline
+  - real-time
+  - search
+  - security
+  - system-design
+  - tool
+  - use-case
+---
+
+# Dh6PYP5 senior infrastructure engineer
+
+> **Source:** manufact-yc-s25-is-hiring-a-senior-infra-engineer-to-build-the-mcp-cloud-2026-07-17.md
+> **Type:** comparison
+> **Created:** 2026-07-17
+> **Updated:** 2026-07-17
+> **Confidence:** high
+> **Description:** --- source_url: https://www.ycombinator.com/companies/manufact/jobs/Dh6PYP5-senior-infrastructure-engineer ingested: 2026-07-17 sha256: f76a60f5812be2dc0c09d008b4cbb66b25b38d690a974ecf7a6e51417b9b23cc...
+> **Sources:**
+>   - manufact-yc-s25-is-hiring-a-senior-infra-engineer-to-build-the-mcp-cloud-2026-07-17.md
+> **Links:**
+- [[20769574401]]
+- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
+- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
+- [[i owe my life to the commodore 64]]
+- [[item]]
+
+## Key Findings
+
+---
+source_url: https://www.ycombinator.com/companies/manufact/jobs/Dh6PYP5-senior-infrastructure-engineer
+ingested: 2026-07-17
+sha256: f76a60f5812be2dc0c09d008b4cbb66b25b38d690a974ecf7a6e51417b9b23cc
+blog_source: Hacker News
+---
+Senior Infrastructure Engineer at Manufact | Y Combinator
+- - - - - - - - - - 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+<link rel="modulepreload" href="http
+
+## Summary
+
+See Key Findings for full content.
+
+## Related Articles
+
+- [[20769574401]]
+- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
+- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
+- [[i owe my life to the commodore 64]]
+- [[item]]

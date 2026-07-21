@@ -1,0 +1,374 @@
+---
+title: "w45QcNV product engineer assignment mandatory"
+type: comparison
+tags:
+  - llm-wiki
+  - knowledge-base
+    - agent
+  - api
+  - application
+  - async
+  - distributed
+  - edge
+  - energy
+  - image-generation
+  - news
+  - nlp
+  - open-source
+  - search
+---
+
+# w45QcNV product engineer assignment mandatory
+
+> **Source:** drdroid-yc-w23-is-hiring-2026-07-18.md
+> **Type:** comparison
+> **Created:** 2026-07-18
+> **Updated:** 2026-07-18
+> **Confidence:** high
+> **Description:** --- source_url: https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory ingested: 2026-07-18 sha256: 2181f5510e6fd885ea99c7425a6f701174e9981900ac0f5fbfa6e8818c...
+> **Sources:**
+>   - drdroid-yc-w23-is-hiring-2026-07-18.md
+> **Links:**
+- [[Dh6PYP5 senior infrastructure engineer]]
+- [[20769574401]]
+- [[ai driven memory crunch jolts indias smartphone market]]
+- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
+- [[item]]
+
+## Key Findings
+
+---
+source_url: https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory
+ingested: 2026-07-18
+sha256: 2181f5510e6fd885ea99c7425a6f701174e9981900ac0f5fbfa6e8818ca52e26
+blog_source: Hacker News
+---
+Product Engineer [Assignment mandatory] at DrDroid | Y Combinator
+- - - - - - - - - - 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+<link rel="modulepreload" href="https://bookface-static.ycombinator.com
+
+## Summary
+
+See Key Findings for full content.
+
+## Related Articles
+
+- [[Dh6PYP5 senior infrastructure engineer]]
+- [[20769574401]]
+- [[ai driven memory crunch jolts indias smartphone market]]
+- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
+- [[item]]

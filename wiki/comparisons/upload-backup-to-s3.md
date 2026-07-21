@@ -1,0 +1,167 @@
+---
+title: "Upload backup to S3"
+type: comparison
+tags:
+  - llm-wiki
+  - knowledge-base
+    - application
+  - async
+  - best-practice
+  - data
+  - few-shot
+  - fine-tuning
+  - guide
+  - machine-learning
+  - news
+  - performance
+  - real-time
+  - search
+  - use-case
+  - vector-database
+  - workflow
+---
+
+# Upload backup to S3
+
+> **Source:** learning-a-few-things-about-running-sqlite-2026-07-17.md
+> **Type:** comparison
+> **Created:** 2026-07-18
+> **Updated:** 2026-07-18
+> **Confidence:** high
+> **Description:** [Skip to main content](#main) # [Julia Evans](/) - [About](/about) - [Talks](/talks) - [Projects](/projects/) - Mastodon - [Bluesky](https://bsky.app/profile/b0rk.jvns.ca) - [Github](https://github.co...
+> **Sources:**
+>   - learning-a-few-things-about-running-sqlite-2026-07-17.md
+> **Links:**
+- [[i started a dirt notebook]]
+- [[Automating Ai Away]]
+- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[Automating away]]
+- [[5 Agent Skills I Use Every Day]]
+
+## Key Findings
+
+[Skip to main content](#main)
+# [Julia Evans](/)
+- [About](/about)
+- [Talks](/talks)
+- [Projects](/projects/)
+- Mastodon
+- [Bluesky](https://bsky.app/profile/b0rk.jvns.ca)
+- [Github](https://github.com/jvns)
+- [Favorites](/categories/favorite/)
+- [TIL](/til/)
+- [Zines](https://wizardzines.com)
+- [RSS](/atom.xml)
+# Learning a few things about running SQLite
+•
+[sqlite](/categories/sqlite) •
+July 17, 2026
+Hello! I’ve been working on a Django site recently, and I decided to use SQLite
+as the database.
+When I was getting started with using SQLite as database for a website I read a [bunch](https://alldjango.com/articles/definitive-guide-to-using-django-sqlite-in-production)
+of blog posts about how it is totally fine to use SQLite in production for a
+small site and I think it *is* totally fine, but what I did not fully appreciate
+is that SQLite is still a database, databases are complicated, and I do not know
+a lot about operating databases.
+So here are a couple of small things I’ve been learning about running SQLite. This
+is the 4th website I’ve used SQLite for, and I think this one is harder because
+with the power of the Django ORM I’ve been making the database do more work than
+I was previously without Django.
+I started by turning on WAL mode like all the blog posts said to do and hoping for the best.
+### 
+[
+`ANALYZE` is apparently important
+](#analyze-is-apparently-important)
+Today I was running a query (using [SQLite’s FTS5](https://www.sqlite.org/fts5.html) for
+full-text search) on a table with 4000 rows and it took 5 seconds. That seemed
+wrong to me: computers are fast!
+It turned out that what I needed to do was to run [`ANALYZE`](https://sqlite.org/lang_analyze.html)!
+Immediately the problem query went from taking 5 seconds to like 0.05 seconds
+(or some other number small enough that I didn’t care to investigate further).
+I still don’t know exactly what went wrong in the query plan,
+but my best guess is that it was some sort of [accidentally quadratic](https://accidentallyquadratic.tumblr.com/) thing.
+`ANALYZE` generates “statistics” (I guess about the number of rows in each table? and presumably other things?)
+so that the query planner can make better choices.
+Maybe one day I’ll learn to read a query plan.
+### 
+[
+cleaning up the database is tricky
+](#cleaning-up-the-database-is-tricky)
+Occasionally I’ve run into situations where I accidentally put a bunch of rows
+in my database that I don’t want to be there (for example completed tasks from
+[django-tasks-db](https://github.com/RealOrangeOne/django-tasks-db)), and I want to clean them up.
+What’s happened to me a few times in this case is:
+- I run some kind of command to clean up the rows
+- The command takes more than 5 seconds, since there are a lot of rows (though I still have some questions about why these DELETE statements are so slow honestly, maybe there’s a bunch of Python code running inside a transaction, I’m not sure)
+- One of the other workers tries to write the database while this is 
+
+## Summary
+
+happening, and times out after 5 seconds (I have a timeout of 5 seconds set)
+- The worker crashes because it couldn’t write to the database and the VM shuts down
+My approach so far has been to just do these cleanup operations in small batches
+so that I don’t need to do database queries that take more than 5 seconds to
+run. This whole experience has given me more of an appreciation for why someone
+might want to use a “real” database like Postgres which can have more than one
+writer at the same time though.
+Maybe in the future I’ll just take the site down for scheduled maintenance
+instead when I need to do this kind of thing, but I haven’t figured out a
+workflow for that yet.
+### 
+[
+no notes on performance of ORM queries yet
+](#no-notes-on-performance-of-orm-queries-yet)
+So far I’ve been using Django’s ORM to make any query I want without paying any
+attention at all to query performance and it’s mostly been going okay other
+than the `ANALYZE` thing. The database is pretty small (maybe 10000 rows?) and
+I expect it to stay pretty small forever, so I’m hoping that that plan will
+keep working.
+### 
+[
+backing up sqlite
+](#backing-up-sqlite)
+I’ve done SQLite backups a couple of ways. I don’t think I’ve actually tested
+restoring from my backups but I do usually try to monitor them with a dead man’s
+switch.
+**way 1: restic**
+```
+sqlite3 /data/calendar.db "VACUUM INTO '/tmp/calendar.sqlite'"
+gzip /tmp/calendar.sqlite
+# Upload backup to S3
+# Sometimes the backup gets OOM killed and so it stays locked, do an unlock
+restic -r s3://s3.amazonaws.com/some_bucket/ unlock
+# Do the backup & prune old backups
+restic -r s3://s3.amazonaws.com/some_bucket/ backup /tmp/calendar.sqlite.gz
+restic -r s3://s3.amazonaws.com/some_bucket/ snapshots
+restic -r s3://s3.amazonaws.com/some_bucket/ forget -l 1 -H 6 -d 2 -w 2 -m 2 -y 2
+restic -r s3://s3.amazonaws.com/some_bucket/ prune
+```
+**way 2: [litestream](https://litestream.io/)**
+I started trying out Litestream recently because I felt like doing incremental backups might
+be more efficient: my restic backups were sometimes getting OOM killed, and I
+was a bit tired of it. Basically I just write a config file and run:
+```
+litestream replicate -config litestream.yml
+```
+I set `retention: 400h` in my config file in an attempt to
+retain some amount of history of the database but I have no idea if it works.
+I’ve been backing up to AWS, which is always a pain because it’s annoying to
+navigate the AWS console to generate credentials. Maybe one day I’ll move away
+to some other S3-compatible alternative.
+### 
+[
+you can use multiple databases
+](#you-can-use-multiple-databases)
+My current project only has one database, but one trick I used with
+[Mess with DNS](https://messwithdns.net/) was to split the tables into three separate
+database files because I didn’t actually need my tables to be in the same db. I think it was helpful.
+Mess with DNS has been running on SQLite for 4 years now (since 2022) and it’s
+been great, I think the move from 
+
+## Related Articles
+
+- [[i started a dirt notebook]]
+- [[Automating Ai Away]]
+- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[Automating away]]
+- [[5 Agent Skills I Use Every Day]]

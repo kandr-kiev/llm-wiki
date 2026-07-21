@@ -1,0 +1,80 @@
+---
+title: "Release v0.9.0"
+type: comparison
+tags:
+  - llm-wiki
+  - knowledge-base
+    - backend
+  - cuda
+  - distributed
+  - docker
+  - foundation-model
+  - mistral
+  - multi-agent
+  - performance
+  - system-design
+  - tool
+---
+
+# Release v0.9.0
+
+> **Source:** gh-v090-2026-07-14.md
+> **Type:** comparison
+> **Created:** 2026-07-15
+> **Updated:** 2026-07-15
+> **Confidence:** high
+> **Description:** --- source_url: https://github.com/ericlbuehler/mistral.rs/releases/tag/v0.9.0 ingested: 2026-07-14 sha256: 9c4ee1ce5e42c416888ca96b295b791d47ecf5ac4326692af7a95c7410186208 blog_source: github:ericlbu...
+> **Sources:**
+>   - gh-v090-2026-07-14.md
+> **Links:**
+- [[Release Notes: Ollama vv0.31.2]]
+- [[v0.22.1]]
+- [[Release v0.17.0]]
+- [[v0.23.0]]
+- [[Release python-v0.7.5]]
+
+## Key Findings
+
+---
+source_url: https://github.com/ericlbuehler/mistral.rs/releases/tag/v0.9.0
+ingested: 2026-07-14
+sha256: 9c4ee1ce5e42c416888ca96b295b791d47ecf5ac4326692af7a95c7410186208
+blog_source: github:ericlbuehler/mistral.rs
+---
+# Release v0.9.0
+## What's Changed
+* Fix CUDA version extraction in install.sh by @zaqxsw-dev in https://github.com/EricLBuehler/mistral.rs/pull/2287
+* feat(metal): improve runtime and aot compilation system by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2288
+* feat(release): split cuda workers for docker release by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2289
+* feat(install): cleanup install system for updating by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2290
+* feat(distributed): more sophisticated TP fallback and resolution system by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2291
+* chore(mistralrs-core): cap tojson indent and remove chat template panic paths by @eharris128 in https://github.com/EricLBuehler/mistral.rs/pull/2286
+* feat(quant): improve uqff resolution per model ids by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2293
+* Fix agentic loop not starting for registered tool callbacks by @aeiklorvy in https://github.com/EricLBuehler/mistral.rs/pull/2279
+* feat(models): Support LFM 2.5 (dense + MoE) and LFM 2.5 VL! by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2295
+* feat(cuda): preload cuda ptx modules by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2296
+* refactor(core): move code exec shims from lib.rs to proper location by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2297
+* docs(models): improve supported models readability by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2298
+* feat(multi-model): support planning for loading multi-model by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2299
+* feat(cuda): update cutlass git revision by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2300
+* feat(cpu): aarch64 cpu repacking kernels and performance improvements by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2304
+* feat(cpu): optimize decode and prefill performance on x86 and aarch64 by @EricLBuehler in https://github.com/EricLBuehler/mistral.rs/pull/2311
+* fix(tune): detect CUDA backend on Windows by @matt-minev in https://github.com/EricLBuehler/mistral.rs/pull/2312
+* fix(server): keep Responses output item IDs stable by @matt-minev in https://github.com/EricLBuehler/mistral.rs/pull/2309
+## New Contributors
+* @zaqxsw-dev made their first contribution in https://github.com/EricLBuehler/mistral.rs/pull/2287
+* @eharris128 made their first contribution in https://github.com/EricLBuehler/mistral.rs/pull/2286
+* @aeiklorvy made their first contribution in https://github.com/EricLBuehler/mistral.rs/pull/2279
+* @matt-minev made their first contribution in https://github.com/EricLBue
+
+## Summary
+
+See Key Findings for full content.
+
+## Related Articles
+
+- [[Release Notes: Ollama vv0.31.2]]
+- [[v0.22.1]]
+- [[Release v0.17.0]]
+- [[v0.23.0]]
+- [[Release python-v0.7.5]]

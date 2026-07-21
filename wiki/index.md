@@ -12,6 +12,378 @@ contested: false
 links: [llm-wiki, architecture]
 ---
 
+### [your clients schema doesnt belong in your cloud account e5g](wiki/comparisons/your-clients-schema-doesnt-belong-in-your-cloud-account-e5g.md)
+
+
+### [you cannot judge coupling and cohesion from the same view 4djc](wiki/comparisons/you-cannot-judge-coupling-and-cohesion-from-the-same-view-4djc.md)
+
+
+### [ai company logos that look like buttholes](wiki/comparisons/ai-company-logos-that-look-like-buttholes.md)
+
+
+### [whisper on mobile is better than i expected so i built an offline notes app 41d7](wiki/comparisons/whisper-on-mobile-is-better-than-i-expected-so-i-built-an-offline-notes-app-41d7.md)
+
+
+### [what if github stopped tracking code and started tracking thought g6n](wiki/comparisons/what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n.md)
+
+
+### [transforming your first repo prompt with ai config kits 4ope](wiki/comparisons/transforming-your-first-repo-prompt-with-ai-config-kits-4ope.md)
+
+
+### [Kasa EC71](wiki/comparisons/kasa-ec71.md)
+
+
+### [the pixel math behind seamless instagram carousels 533l](wiki/comparisons/the-pixel-math-behind-seamless-instagram-carousels-533l.md)
+
+
+### [the computer at the bottom of a canal](wiki/comparisons/the-computer-at-the-bottom-of-a-canal.md)
+
+
+### [best apps gadgets reading installer](wiki/comparisons/best-apps-gadgets-reading-installer.md)
+
+
+### [tabfm studio pointandclick predictions on](wiki/comparisons/tabfm-studio-pointandclick-predictions-on.md)
+
+
+### [stop hand translating between sql and your erd 4ohm](wiki/comparisons/stop-hand-translating-between-sql-and-your-erd-4ohm.md)
+
+
+### [steam machine between 10k and 15k sold per week](wiki/comparisons/steam-machine-between-10k-and-15k-sold-per-week.md)
+
+
+### [sosumi la micro rivincita piu longeva della storia del software e cosa insegna a chi scrive 20ma](wiki/comparisons/sosumi-la-micro-rivincita-piu-longeva-della-storia-del-software-e-cosa-insegna-a-chi-scrive-20ma.md)
+
+
+### [sakana ais error diffusion trains dale compliant dual stream networks reaching 96 7 mnist and 61 7 cifar 10 without backpropagation](wiki/comparisons/sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation.md)
+
+
+### [reviving a 20 year old basic and getting it to run in the browser 4mi7](wiki/comparisons/reviving-a-20-year-old-basic-and-getting-it-to-run-in-the-browser-4mi7.md)
+
+
+### [and nothing else</h-v>](wiki/comparisons/and-nothing-elseh-v.md)
+
+
+### [arXiv:2607.14587](wiki/comparisons/arxiv260714587.md)
+
+
+### [python 3150 beta 4](wiki/comparisons/python-3150-beta-4.md)
+
+
+### [open book touch](wiki/comparisons/open-book-touch.md)
+
+
+### [neil rimer thinks the ai money is coming back out](wiki/comparisons/neil-rimer-thinks-the-ai-money-is-coming-back-out.md)
+
+
+### [my insights on what working at big tech is actually like kgd](wiki/comparisons/my-insights-on-what-working-at-big-tech-is-actually-like-kgd.md)
+
+
+### [i built a claude code plugin that tells you to slow down or push before your quota runs out 52kc](wiki/comparisons/i-built-a-claude-code-plugin-that-tells-you-to-slow-down-or-push-before-your-quota-runs-out-52kc.md)
+
+
+### [how we beat hotspot performance by cheating but not like that](wiki/comparisons/how-we-beat-hotspot-performance-by-cheating-but-not-like-that.md)
+
+
+### [how to build plasmid engineering workbench with circular mapping restriction analysis virtual gels and primer design](wiki/comparisons/how-to-build-plasmid-engineering-workbench-with-circular-mapping-restriction-analysis-virtual-gels-and-primer-design.md)
+
+
+### [after openais cdc proof announcement gpt56 used a](wiki/comparisons/after-openais-cdc-proof-announcement-gpt56-used-a.md)
+
+
+### [Release b10068](wiki/comparisons/release-b10068.md)
+
+
+### [fake it till you make it ma con metodo come insegnare senza sentirsi pronti e diventare 56n7](wiki/comparisons/fake-it-till-you-make-it-ma-con-metodo-come-insegnare-senza-sentirsi-pronti-e-diventare-56n7.md)
+
+
+### [fable 5 gpt 5 6 sol goal](wiki/comparisons/fable-5-gpt-5-6-sol-goal.md)
+
+
+### [death by amnesia your agent said got it and forgot everything until a lawsuit arrived 4nfa](wiki/comparisons/death-by-amnesia-your-agent-said-got-it-and-forgot-everything-until-a-lawsuit-arrived-4nfa.md)
+
+
+### [cleaning up repository bloat removing redundant requirementstxt 3akk](wiki/comparisons/cleaning-up-repository-bloat-removing-redundant-requirementstxt-3akk.md)
+
+
+### [claude code forgets everything between sessions i built a fix 59n5](wiki/comparisons/claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5.md)
+
+
+### [ai help with your database design without the cloud 32l4](wiki/comparisons/ai-help-with-your-database-design-without-the-cloud-32l4.md)
+
+
+### [adding an ai chatbot to echostats 290m](wiki/comparisons/adding-an-ai-chatbot-to-echostats-290m.md)
+
+
+### [5 things i learned doing ai evaluation for 2 years 3kgh](wiki/comparisons/5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh.md)
+
+
+### [17 none of it was for me a year of building with ai 32kf](wiki/comparisons/17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf.md)
+
+
+### [wardrobe revolutionizing fashion management with ai powered image extraction](wiki/comparisons/wardrobe-revolutionizing-fashion-management-with-ai-powered-image-extraction.md)
+
+
+### [vertu wants executives to pay 6880 for an ai agent heres how it actually performs](wiki/comparisons/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs.md)
+
+
+### [tried testing qwen 35b moe model on s26 ultra](wiki/comparisons/tried-testing-qwen-35b-moe-model-on-s26-ultra.md)
+
+
+### [title why i gave my coding agent a memory and how cortex works 4nnm](wiki/comparisons/title-why-i-gave-my-coding-agent-a-memory-and-how-cortex-works-4nnm.md)
+
+
+### [tiktok ai likeness detection tool](wiki/comparisons/tiktok-ai-likeness-detection-tool.md)
+
+
+### [theres no standard status page and other lessons from tracking 96 providers 56k6](wiki/comparisons/theres-no-standard-status-page-and-other-lessons-from-tracking-96-providers-56k6.md)
+
+
+### [the zoom hack that says dont record me](wiki/comparisons/the-zoom-hack-that-says-dont-record-me.md)
+
+
+### [z80](wiki/comparisons/z80.md)
+
+
+### [the web emergence 1996 1998 obscured streams in the browser age 404b](wiki/comparisons/the-web-emergence-1996-1998-obscured-streams-in-the-browser-age-404b.md)
+
+
+### [https://stateofopensource.ai/](wiki/comparisons/httpsstateofopensourceai.md)
+
+
+### [the signal nobody heard fixing a silent abortsignal bug in openclaw 3ko7](wiki/comparisons/the-signal-nobody-heard-fixing-a-silent-abortsignal-bug-in-openclaw-3ko7.md)
+
+
+### [the isomorphic labs drug design engine unlocks a new frontier](wiki/comparisons/the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier.md)
+
+
+### [the cost of saying yes has changed](wiki/comparisons/the-cost-of-saying-yes-has-changed.md)
+
+
+### [the ai era democratizing the ivory tower and reclaiming the latin american mind 2jge](wiki/comparisons/the-ai-era-democratizing-the-ivory-tower-and-reclaiming-the-latin-american-mind-2jge.md)
+
+
+### [the 10 best remote job boardsand how to choose the right one 3p63](wiki/comparisons/the-10-best-remote-job-boardsand-how-to-choose-the-right-one-3p63.md)
+
+
+### [stratagems 17 alex set an ai bait the catch wasnt code it was someone who shouldnt have been](wiki/comparisons/stratagems-17-alex-set-an-ai-bait-the-catch-wasnt-code-it-was-someone-who-shouldnt-have-been.md)
+
+
+### [stereo2spatial convert stereo music tracks to](wiki/comparisons/stereo2spatial-convert-stereo-music-tracks-to.md)
+
+
+### [en](wiki/comparisons/en.md)
+
+
+### [spacex stock drops new low ipo price starship launch scrubbed 2026 7](wiki/comparisons/spacex-stock-drops-new-low-ipo-price-starship-launch-scrubbed-2026-7.md)
+
+
+### [https://workspaces.xyz/](wiki/comparisons/httpsworkspacesxyz.md)
+
+
+### [shortpaper at aclemnlpeacl r](wiki/comparisons/shortpaper-at-aclemnlpeacl-r.md)
+
+
+### [repeating tasks without repeating code 4fak](wiki/comparisons/repeating-tasks-without-repeating-code-4fak.md)
+
+
+### [https://www.abuseofcats.com](wiki/comparisons/httpswwwabuseofcatscom.md)
+
+
+### [prose in the control plane why ai agent frameworks are not engineering yet](wiki/comparisons/prose-in-the-control-plane-why-ai-agent-frameworks-are-not-engineering-yet.md)
+
+
+### [prism accidentally leaked d](wiki/comparisons/prism-accidentally-leaked-d.md)
+
+
+### [pixels to predictions building high performance edge ai pipelines with camerax and tflite 1aji](wiki/comparisons/pixels-to-predictions-building-high-performance-edge-ai-pipelines-with-camerax-and-tflite-1aji.md)
+
+
+### [patreon stops asking ai bots not to scrape and starts blocking them](wiki/comparisons/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them.md)
+
+
+### [oracle fscm rest api what transfers from hcm and what doesnt 4c4p](wiki/comparisons/oracle-fscm-rest-api-what-transfers-from-hcm-and-what-doesnt-4c4p.md)
+
+
+### [open source monopoly](wiki/comparisons/open-source-monopoly.md)
+
+
+### [nuclear startup valar atomics in talks to raise new funding at 6b valuation](wiki/comparisons/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation.md)
+
+
+### [no product no problem this disrupt 2026 session shows how to get pre seed funding with conviction storytelling](wiki/comparisons/no-product-no-problem-this-disrupt-2026-session-shows-how-to-get-pre-seed-funding-with-conviction-storytelling.md)
+
+
+### [https://moonstone.sh/](wiki/comparisons/httpsmoonstonesh.md)
+
+
+### [managing sshrdpand vnc on macoswhy developers need a unified remote access workflow 3fjl](wiki/comparisons/managing-sshrdpand-vnc-on-macoswhy-developers-need-a-unified-remote-access-workflow-3fjl.md)
+
+
+### [Upload backup to S3](wiki/comparisons/upload-backup-to-s3.md)
+
+
+### [kotlin turns 15 celebrate the kotlin effect](wiki/comparisons/kotlin-turns-15-celebrate-the-kotlin-effect.md)
+
+
+### [kimi k3](wiki/comparisons/kimi-k3.md)
+
+
+### [keep your ai agent traces on your machine a local first approach 5b9l](wiki/comparisons/keep-your-ai-agent-traces-on-your-machine-a-local-first-approach-5b9l.md)
+
+
+### [kaiser nurses say ai workplace surveillance are making their jobs and patient care worse](wiki/comparisons/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse.md)
+
+
+### [its a post 4hi8](wiki/comparisons/its-a-post-4hi8.md)
+
+
+### [introducing schemd a small text to svg compiler for circuits and uml 1i6p](wiki/comparisons/introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p.md)
+
+
+### [in house llm serving at netflix a5a8e799ea2c](wiki/comparisons/in-house-llm-serving-at-netflix-a5a8e799ea2c.md)
+
+
+### [i started a dirt notebook](wiki/comparisons/i-started-a-dirt-notebook.md)
+
+
+### [-----------------------------](wiki/comparisons/.md)
+
+
+### [how to create accessible modals and pop ups using html css and minimal javascript](wiki/comparisons/how-to-create-accessible-modals-and-pop-ups-using-html-css-and-minimal-javascript.md)
+
+
+### [ArgoCD applies it, Crossplane reconciles it, AWS creates the bucket](wiki/comparisons/argocd-applies-it-crossplane-reconciles-it-aws-creates-the-bucket.md)
+
+
+### [build pdf redaction tool javascript](wiki/comparisons/build-pdf-redaction-tool-javascript.md)
+
+
+### [how neural machine translation works build your own translation app with react native and qvac](wiki/comparisons/how-neural-machine-translation-works-build-your-own-translation-app-with-react-native-and-qvac.md)
+
+
+### [how apples big lawsuit could disrupt openais ipo plans](wiki/comparisons/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans.md)
+
+
+### [Model: Qwen/Qwen3.5-397B-A17B](wiki/comparisons/model-qwenqwen35-397b-a17b.md)
+
+
+### [Model: Qwen/Qwen3.5-122B-A10B](wiki/comparisons/model-qwenqwen35-122b-a10b.md)
+
+
+### [Model: moonshotai/Moonlight-16B-A3B-Instruct](wiki/comparisons/model-moonshotaimoonlight-16b-a3b-instruct.md)
+
+
+### [Model: moonshotai/Moonlight-16B-A3B](wiki/comparisons/model-moonshotaimoonlight-16b-a3b.md)
+
+
+### [Model: moonshotai/Kimi-VL-A3B-Thinking-2506](wiki/comparisons/model-moonshotaikimi-vl-a3b-thinking-2506.md)
+
+
+### [Model: moonshotai/Kimi-K2.7-Code](wiki/comparisons/model-moonshotaikimi-k27-code.md)
+
+
+### [Model: moonshotai/Kimi-K2.6](wiki/comparisons/model-moonshotaikimi-k26.md)
+
+
+### [Model: moonshotai/Kimi-K2.5](wiki/comparisons/model-moonshotaikimi-k25.md)
+
+
+### [Model: zai-org/GLM-5.2](wiki/comparisons/model-zai-orgglm-52.md)
+
+
+### [Model: zai-org/GLM-5.1](wiki/comparisons/model-zai-orgglm-51.md)
+
+
+### [Model: zai-org/GLM-5](wiki/comparisons/model-zai-orgglm-5.md)
+
+
+### [Model: deepseek-ai/DeepSeek-V4-Pro](wiki/comparisons/model-deepseek-aideepseek-v4-pro.md)
+
+
+### [Model: deepseek-ai/DeepSeek-V4-Flash](wiki/comparisons/model-deepseek-aideepseek-v4-flash.md)
+
+
+### [Model: deepseek-ai/DeepSeek-V3.2](wiki/comparisons/model-deepseek-aideepseek-v32.md)
+
+
+### [Model: deepseek-ai/DeepSeek-R1](wiki/comparisons/model-deepseek-aideepseek-r1.md)
+
+
+### [Release v0.2.3](wiki/comparisons/release-v023.md)
+
+
+### [Release v0.19.11](wiki/comparisons/release-v01911.md)
+
+
+### [Release @moonshot-ai/kimi-code@0.27.0](wiki/comparisons/release-moonshot-aikimi-code0270.md)
+
+
+### [Release b10066](wiki/comparisons/release-b10066.md)
+
+
+### [Release b10064](wiki/comparisons/release-b10064.md)
+
+
+### [Release 0.3.5](wiki/comparisons/release-035.md)
+
+
+### [Frame](wiki/comparisons/frame.md)
+
+
+### [scale diffusers finetuning nemo automodel](wiki/comparisons/scale-diffusers-finetuning-nemo-automodel.md)
+
+
+### [w45QcNV product engineer assignment mandatory](wiki/comparisons/w45qcnv-product-engineer-assignment-mandatory.md)
+
+
+### [databricks hits 188b valuation extending its run as ais favorite second act](wiki/comparisons/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act.md)
+
+
+### [wordpress vulnerabilities](wiki/comparisons/wordpress-vulnerabilities.md)
+
+
+### [🇨🇳 Chinese AI Labs Overview — DeepSeek, Kimi, Z.ai, Qwen](wiki/comparisons/chinese-ai-labs-overview-deepseek-kimi-zai-qwen.md)
+
+
+### [building high converting niche e commerce stores a developers guide 3cdi](wiki/comparisons/building-high-converting-niche-e-commerce-stores-a-developers-guide-3cdi.md)
+
+
+### [building ai agents in php tool calling with laravel 4fji](wiki/comparisons/building-ai-agents-in-php-tool-calling-with-laravel-4fji.md)
+
+
+### [building a real time browser mmorpg with threejs rustwasm and durable objects 1ia2](wiki/comparisons/building-a-real-time-browser-mmorpg-with-threejs-rustwasm-and-durable-objects-1ia2.md)
+
+
+### [build an agentic event venue operator with mongodb atlas voyage and langgraph](wiki/comparisons/build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph.md)
+
+
+### [bmvc rebuttals update d](wiki/comparisons/bmvc-rebuttals-update-d.md)
+
+
+### [applications close in 48 hours heres everything australian founders need to know about stripe x startup battlefield](wiki/comparisons/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield.md)
+
+
+### [apple openai lawsuit vergecast](wiki/comparisons/apple-openai-lawsuit-vergecast.md)
+
+
+### [apples lawsuit couldnt come at a worse time for openai](wiki/comparisons/apples-lawsuit-couldnt-come-at-a-worse-time-for-openai.md)
+
+
+### [openvm bugs](wiki/comparisons/openvm-bugs.md)
+
+
+### [ai driven memory crunch jolts indias smartphone market](wiki/comparisons/ai-driven-memory-crunch-jolts-indias-smartphone-market.md)
+
+
+### [agility robotics plants its flag in teslas backyard](wiki/comparisons/agility-robotics-plants-its-flag-in-teslas-backyard.md)
+
+
+### [a grumpy ai screed](wiki/comparisons/a-grumpy-ai-screed.md)
+
+
+### [i combined 3 ai models using hermes agents mixture of agents heres what happened 14c1](wiki/comparisons/i-combined-3-ai-models-using-hermes-agents-mixture-of-agents-heres-what-happened-14c1.md)
+
+
 ### [from human hands](wiki/comparisons/from-human-hands.md)
 
 
@@ -1120,6 +1492,7 @@ links: [llm-wiki, architecture]
 | 45 | DeepSeek | `wiki/entities/deepseek.md` |
 | 46 | Kimi (Moonshot AI) | `wiki/entities/kimi.md` |
 | 47 | Z.ai (Zhipu AI) | `wiki/entities/z-ai.md` |
+| 48 | LangGraph | `wiki/entities/langgraph.md` |
 
 ## wiki/playbooks/
 

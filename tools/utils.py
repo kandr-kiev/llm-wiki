@@ -120,8 +120,7 @@ def slugify(title: str) -> str:
 # Approved tags — SINGLE SOURCE OF TRUTH
 # ---------------------------------------------------------------------------
 
-APPROVED_TAGS = {
-    "active-learning",
+APPROVED_TAGS = {    "active-learning",
     "adoption",
     "advanced-rag",
     "agent",
@@ -176,9 +175,9 @@ APPROVED_TAGS = {
     "configuration",
     "consistency-regularization",
     "constitutional-ai",
+    "context-window",
     "contrastive-loss",
     "controllability",
-    "context-window",
     "cost",
     "cost-economics",
     "cot",
@@ -377,9 +376,9 @@ APPROVED_TAGS = {
     "toxicity-reduction",
     "training",
     "transfer-learning",
+    "trends",
     "trust",
     "truthfulqa",
-    "trends",
     "uncertainty",
     "use-case",
     "user-metrics",

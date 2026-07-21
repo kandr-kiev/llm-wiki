@@ -1,0 +1,147 @@
+---
+title: "LangGraph"
+type: entity
+description: Agent orchestration framework from LangChain for building reliable, stateful multi-actor AI agents with low-level control
+created: 2026-07-18
+updated: 2026-07-18
+tags: [llm-wiki, framework, agent, orchestration, open-source, langchain]
+sources: [raw/articles/langgraph-agent-orchestration-framework-2026-07-18.md]
+confidence: high
+links: [langchain, langsmith, deep-agents, ai-agents]
+---
+
+# LangGraph
+
+## Overview
+
+LangGraph is an agent runtime and low-level orchestration framework from LangChain, designed to build reliable agents that handle complex tasks. It provides fine-grained control over agent state and decision-making workflows through graph-based agent design.
+
+## Key Facts
+
+| Field | Details |
+|---|---|
+| **Developer** | LangChain |
+| **License** | MIT (open source) |
+| **Language** | Python (Node.js support) |
+| **Type** | Agent orchestration framework |
+| **Part of** | LangChain ecosystem |
+| **GitHub** | `langchain-ai/langgraph` |
+| **Docs** | docs.langchain.com/oss/python/langgraph/overview |
+
+## Core Architecture
+
+### Graph-Based Agent Design
+Agents are modeled as directed graphs where:
+
+- **Nodes** represent actions — LLM calls, tool invocations, human-in-the-loop checkpoints
+- **Edges** represent conditional routing logic between nodes
+- **State** flows through the graph, enabling memory and context persistence
+
+This design enables:
+- Cyclic workflows (loops, retries, self-correction)
+- Parallel execution paths
+- Human-in-the-loop decision points
+- Deterministic conditional routing
+
+### State Management
+LangGraph maintains explicit agent state that persists across graph steps:
+
+| State Type | Purpose |
+|---|---|
+| Conversation history | Full message context |
+| Tool outputs | Results from external API calls |
+| Intermediate reasoning | Step-by-step thought process |
+| External data | Information fetched during execution |
+
+### Conditional Routing
+Edges can be conditional, enabling agents to:
+
+- Choose different execution paths based on LLM outputs
+- Implement decision trees and branching logic
+- Handle errors and retries gracefully
+- Branch into parallel sub-tasks
+
+## Use Cases
+
+### Production Deployments
+LangGraph is used in production by major companies:
+
+| Company | Use Case |
+|---|---|
+| **Klarna** | AI shopping assistant |
+| **LinkedIn** | Agent-based solutions |
+| **Coinbase** | Financial AI workflows |
+| **Nvidia** | AI agent orchestration |
+| **Cloudflare** | Agent infrastructure |
+| **Elastic** | Multi-actor AI workflows |
+| **Workday** | Enterprise AI solutions |
+| **Uber** | Complex agent tasks |
+
+### Complex Task Patterns
+LangGraph excels at:
+
+1. **Multi-step reasoning chains** — sequential LLM calls with intermediate validation
+2. **Tool use with conditional branching** — select tools based on context
+3. **Human review checkpoints** — pause for approval before critical actions
+4. **Long-running persistent agents** — agents that maintain state across sessions
+5. **Parallel task decomposition** — split complex tasks into parallel sub-tasks
+
+## LangChain Ecosystem
+
+LangGraph is one of three open-source frameworks in the LangChain family:
+
+| Project | Purpose | Positioning |
+|---|---|---|
+| **LangChain** | Quick-start agents with any model provider | High-level abstraction |
+| **LangGraph** | Low-level control for reliable orchestration | Graph-based state machine |
+| **Deep Agents** | Long-running agents for complex tasks | Persistent agent runtime |
+
+### LangSmith — Commercial Platform
+LangGraph pairs with LangSmith, LangChain's commercial agent engineering platform:
+
+| LangSmith Feature | Purpose |
+|---|---|
+| **Engine** | Autonomous agent improvement |
+| **Observability** | Real-time agent behavior monitoring |
+| **Evaluation** | Score and improve agent performance |
+| **Deployment** | Ship and scale agents in production |
+| **Sandboxes** | Safe execution of agent-generated code |
+| **Fleet** | Deploy agents across the organization |
+
+## Technical Details
+
+- **Runtime**: Any Python environment (no special infrastructure required)
+- **Streaming**: Native support for streaming agent outputs with zero overhead
+- **Persistence**: Built-in state checkpointing and recovery
+- **Model Agnostic**: Works with any LLM provider (OpenAI, Anthropic, local models, etc.)
+- **Deterministic Routing**: Conditional edges provide predictable execution paths
+- **Production-Ready**: Used by Fortune 500 companies at scale
+
+## Why LangGraph vs Other Agent Frameworks
+
+Other agentic frameworks work for simple, generic tasks but fall short for complex tasks bespoke to a company's needs. LangGraph provides:
+
+1. **Expressiveness** — Model any agent architecture (not limited to a single cognitive pattern)
+2. **Control** — Full visibility and control over agent state and decisions
+3. **Reliability** — Checkpointing and deterministic routing for production stability
+4. **Flexibility** — Compatible with any LLM provider or model architecture
+5. **No Overhead** — Designed with streaming workflows, adds zero runtime overhead
+
+## Relationships
+
+| Entity | Relationship |
+|---|---|
+| **LangChain** | Parent framework — LangGraph extends LangChain's abstractions |
+| **LangSmith** | Commercial platform — debugging, evaluation, deployment for LangGraph agents |
+| **Deep Agents** | Sibling project — long-running agents for complex tasks |
+| **OpenAI/Anthropic/Google** | LLM providers — LangGraph works with any provider |
+| **Kimi/DeepSeek/Qwen** | Peer frameworks — alternative agent orchestration approaches |
+
+## See Also
+
+- [[langchain]]
+- [[langsmith]]
+- [[deep-agents]]
+- [[ai-agents]]
+- [[agent-workflow]]
+- [[multi-agent]]

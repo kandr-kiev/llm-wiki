@@ -2,9 +2,6 @@
   "accentColor": "#7aa2f7",
   "baseFontSize": 16,
   "cssTheme": "llm-wiki-dark",
-  "interfaceFont": "Inter",
-  "textFont": "Inter",
-  "monospaceFont": "JetBrains Mono",
   "translucency": false,
   "theme": "obsidian"
 }
