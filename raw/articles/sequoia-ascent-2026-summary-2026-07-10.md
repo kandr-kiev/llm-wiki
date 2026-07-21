@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/sequoia-ascent-2026/
 ingested: 2026-07-10
-sha256: 05869abfd01af1d55a6637d5a80025f82b0da8e84d2e9b3a40a789a7af77f5e6
+sha256: a15d20ff038b1a65c2cb877cb274be960c48ac97cec3d058fbabcfd3406a2a13
 blog_source: Andrej Karpathy
 ---
 

@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/generative-ai-to-quantify-uncertainty.html
 ingested: 2026-07-17
-sha256: c9986ba6df910e0bc00fa91355b8d490f27769d62a52b35622d414b02d427b67
+sha256: 6638e0b57bb91c08697f365f032e6253b44dd14e4b5f635abf2f623ccfa3549c
 blog_source: Google Research Blog
 ---
 

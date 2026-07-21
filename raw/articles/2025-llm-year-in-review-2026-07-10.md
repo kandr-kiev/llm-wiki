@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/year-in-review-2025/
 ingested: 2026-07-10
-sha256: 649cde175f0a85eadb917559693285234a9d3bbf26d734ce5064829fba18d18f
+sha256: 054e8b9b1828ff7d3548aee85176d7ca93882ba47e9c4c50242f8e176caaab30
 blog_source: Andrej Karpathy
 ---
 

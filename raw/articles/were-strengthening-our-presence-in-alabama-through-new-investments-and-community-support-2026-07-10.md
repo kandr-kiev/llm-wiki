@@ -2,7 +2,7 @@
 
 source_url: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/
 ingested: 2026-07-10
-sha256: ae0c272b7ba67d3c7e1eca803d11ab50cc2e73ea18d13aacdee27dc380a4bd11
+sha256: 9d321c3add58e909e4ef2de9980e0eefa2a56c3463f12e343f2880dea8b766a8
 blog_source: Google DeepMind
 ---
 

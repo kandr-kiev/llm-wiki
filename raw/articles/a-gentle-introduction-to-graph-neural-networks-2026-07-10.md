@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/2021/gnn-intro
 ingested: 2026-07-10
-sha256: ffc2dabc60bba8442dea2dcbbcb99a64661db4841cfb0896663175855e8e1c95
+sha256: 3d9afb349cf648e9e9e3cf1d3aae5261ac60966875633446d6e3c2c6f707aedd
 blog_source: Distill AI
 ---
 

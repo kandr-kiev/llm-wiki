@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2023/08/16/llm-research-open-challenges.html
 ingested: 2026-07-10
-sha256: a13452ca95da5046c3cf1148e8d39f4460b6b5c43b5a492287ffcaed784d33e3
+sha256: c8ffbfe3890bd062fcf68e3aac8b16cc9dc9ce6866b8998aee3df63ffb20a203
 blog_source: Chip Huyen
 ---
 

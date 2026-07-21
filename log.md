@@ -271,3 +271,9 @@
 ## [2026-07-18 16:00 UTC] wiki_create | Created LangGraph entity page from LangChain official site — raw + wiki entity + index update
 
 ## [2026-07-18 16:30 UTC] wiki_create | LangGraph orchestration frameworks deep dive — comparison page + playbook + 2 raw articles
+
+## [2026-07-21 10:36 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 15 | **WARN:** 29 | **INFO:** 2 | **Auto-fixable:** 17, після: **ERROR:** 3 | **WARN:** 27 | **INFO:** 2 | **Auto-fixable:** 3, виправлень: 14
+
+## [2026-07-21 10:41 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 282 | **WARN:** 27 | **INFO:** 2 | **Auto-fixable:** 282, після: **ERROR:** 0 | **WARN:** 27 | **INFO:** 2 | **Auto-fixable:** 0, виправлень: 282
+
+## [2026-07-21 11:47 UTC] source_monitor | RSS: 4009, GH: 42, HF: 17, Local: 1 | new: 42 (24 articles, 0 releases, 17 HF, 1 local)

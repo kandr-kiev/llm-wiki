@@ -2,7 +2,7 @@
 
 source_url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/
 ingested: 2026-07-10
-sha256: 50c09e841f8952e0cb93272d4d2bf7705ddbc36e3db895c4139215e1b1f524ad
+sha256: 6711c4712ab83a733c60a74572c5d2e41c5dac8557e24029a56ce4ef0bc6efa6
 blog_source: Google DeepMind
 ---
 

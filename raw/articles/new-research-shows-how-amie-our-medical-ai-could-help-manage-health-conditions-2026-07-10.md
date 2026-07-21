@@ -2,7 +2,7 @@
 
 source_url: https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/
 ingested: 2026-07-10
-sha256: 0514bf8daf9b97a91dd184d57bfa586ea5bbcdc14a80d5dbc09cbc14e4cf16b3
+sha256: 01994880c0d93c84006f7261e438d26fc2ce7ea9da83c451db868ab950a9692b
 blog_source: Google DeepMind
 ---
 

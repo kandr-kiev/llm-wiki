@@ -1,7 +1,7 @@
 ---
 source_url: https://css-tricks.com/almanac/functions/t/translatez/
 ingested: 2026-07-17
-sha256: c584525f607c6cff7693761c0db3be6148e7fd4bae26e4c4b667901e8beb8b92
+sha256: 58bb9dd39597b403774429d5eb9a25dce1b61b421d309343707781e77f3ffa3b
 blog_source: CSS Tricks
 ---
 

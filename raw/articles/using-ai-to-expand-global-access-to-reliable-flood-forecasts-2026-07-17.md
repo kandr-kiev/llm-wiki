@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/using-ai-to-expand-global-access-to.html
 ingested: 2026-07-17
-sha256: eecdb241c2b10b57d041902feb352874aa485431b65b4525c0f78da49390b9b8
+sha256: d17851e1fa26b7000b7a7cfc34416e842753557072da50dfdde86bf204eff5f7
 blog_source: Google Research Blog
 ---
 

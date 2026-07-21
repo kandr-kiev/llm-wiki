@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/
 ingested: 2026-07-10
-sha256: d4b2dcadf6c0062c926e83e638ac050246aa4b66461a88f9232b45b2bced178b
+sha256: 7ff3df5fcf95545c2c96c4977cdd71c273eca45a6af3ea28b18ef70c86520d33
 blog_source: Cloudflare Blog
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/animals-vs-ghosts/
 ingested: 2026-07-10
-sha256: 0f7bde93305af6cc47752ff796514204f6222cc3ed374f59beb4e3aa4a4ecb43
+sha256: 11ae1e789257526ad8c1066962029a17543a7e2d7e253c9e3c253b2515dc7b8d
 blog_source: Andrej Karpathy
 ---
 

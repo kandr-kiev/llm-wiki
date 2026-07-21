@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/introducing-gpt-live
 ingested: 2026-07-10
-sha256: 49ffcd5b65f9ba21940bf139c46243c37f2eb2ad2bc1bb48f2401d6d20b228f8
+sha256: d432402a0d7936adcebaa63679a6f18860c14e1f0d391776824119cbf9b4bc4f
 blog_source: OpenAI Blog
 ---
 

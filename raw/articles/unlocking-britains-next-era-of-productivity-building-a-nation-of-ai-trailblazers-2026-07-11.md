@@ -1,7 +1,7 @@
 ---
 source_url: https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/
 ingested: 2026-07-11
-sha256: 3f618495bd1b8b83c8063ff9fe6d626e59fe3cc986fd4ec84888bf759386e0ad
+sha256: 398cf577836db8d4571173132567ac18d2ee56428de4149007576c109e0e7bd1
 blog_source: Google DeepMind
 ---
 

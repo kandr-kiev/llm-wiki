@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/2020/circuits/weight-banding
 ingested: 2026-07-10
-sha256: 074ff44860d6e9b39d27240ad0429cee919642a9a246bf6a4ec0293d4584c399
+sha256: 07d54a400c4867946fc55241b6c6709fabbccd72ee380a815192b3b17c26b8fc
 blog_source: Distill AI
 ---
 

@@ -23,7 +23,7 @@ links:
 ---
 source_url: https://openai.com/index/mufg
 ingested: 2026-07-09
-sha256: PLACEHOLDER
+sha256: 4432c7967c71a25fa89e6ced63e4ee3b31203952e5f9704d5ca340fa7eb7bf0d
 blog_source: OpenAI Blog
 ---
 - - - - - - - - - - - - - - - - - - - - MUFG aims to become AI-native with OpenAI | OpenAI- - - - - - - - - [Skip to main content](#main)

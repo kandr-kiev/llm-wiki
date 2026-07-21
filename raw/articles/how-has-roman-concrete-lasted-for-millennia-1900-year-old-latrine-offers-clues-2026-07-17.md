@@ -1,7 +1,7 @@
 ---
 source_url: https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/
 ingested: 2026-07-17
-sha256: 146c505b3a0dbc9c30b1fd3ab86c047516d4a53208d39b14a91f5f729d197e27
+sha256: 8dd2a0f813f2786a3a79ca2ec2e544cd0f5c5d2fee1f418ea9ce33fdbd00c60f
 blog_source: Hacker News
 ---
 

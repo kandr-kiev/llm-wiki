@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2020/10/29/open-domain-question-answering.html
 ingested: 2026-07-07
-sha256: 51e855b3b0b6489d42a5f4c112677733e127eb41b427c2b9bc401e83d3e0d909
+sha256: 9e699f10fa1b69d22be68329e959b592587996393826f1f8acef47560b014ff0
 blog_source: Lilian Weng
 ---
 

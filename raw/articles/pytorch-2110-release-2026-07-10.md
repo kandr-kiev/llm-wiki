@@ -2,7 +2,7 @@
 
 source_url: https://github.com/pytorch/pytorch/releases/tag/v2.11.0
 ingested: 2026-07-10
-sha256: a1b844717a4500eec8fc558c1c73b53eb7547bb3d39c70b083566101b251a073
+sha256: 6f5cdf52fbba9dee7a9900f5e5c4edf60801d9895e65948fb8cdd5a55e82f779
 blog_source: github
 ---
 

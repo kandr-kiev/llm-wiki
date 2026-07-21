@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2024/07/25/genai-platform.html
 ingested: 2026-07-10
-sha256: a8c3af6327ac07c17d8a607d6d501d4e29daa646d7a1d71f73eb7fa134c45dcd
+sha256: 3110f8ba485bbce59dbf026ef465a5d411b1072bedf0dbb1d8527229f7a2c764
 blog_source: Chip Huyen
 ---
 

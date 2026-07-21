@@ -2,7 +2,7 @@
 
 source_url: local:///workspace/llm-wiki/outputs/lint-report.md
 ingested: 2026-07-10
-sha256: e17e71b146f004115068f7b799144b6ca757791415a75b81f900e7b46231d618
+sha256: f15cbcd41d33ecbee38ef66b719e5105631cb5c99ef9f24f85e9e30aac1fb42a
 blog_source: local
 ---
 

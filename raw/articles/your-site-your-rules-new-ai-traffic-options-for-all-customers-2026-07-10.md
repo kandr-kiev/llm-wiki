@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/content-independence-day-ai-options/
 ingested: 2026-07-10
-sha256: 38a7d59fc001381f1e04955a5a1543d0fb521461c585832e02e35ed6b0c49c25
+sha256: fece57a1f0b6e97dbecaa7b396074b77a748766e45bc5dcbfeec9ff72b3da345
 blog_source: Cloudflare Blog
 ---
 

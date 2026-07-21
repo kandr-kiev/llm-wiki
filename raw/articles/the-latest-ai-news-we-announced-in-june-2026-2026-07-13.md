@@ -1,7 +1,7 @@
 ---
 source_url: https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/
 ingested: 2026-07-13
-sha256: e7f29b8389303a6816fdbbf68266f93475bc218a570d6a7daec097d9f9080169
+sha256: 656b947d86ac333047bedf585cdc3fec8731acbb65f71ff346074484827a482c
 blog_source: Google DeepMind
 ---
 

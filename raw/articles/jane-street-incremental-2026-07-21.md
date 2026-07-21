@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/janestreet/incremental
 ingested: 2026-07-21
-sha256: 0670a3ab38124992fad2479aade3cf6efee8d0de46378cb6532ab5e4da446395
+sha256: 20b2a3c8f31a73c1fb6d3a439f687a6fd0345bf95408fa4a5bceb4a6804a4acd
 blog_source: Hacker News
 ---
 

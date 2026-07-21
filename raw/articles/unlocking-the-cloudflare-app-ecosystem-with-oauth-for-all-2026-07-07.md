@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/oauth-for-all/
 ingested: 2026-07-07
-sha256: 1adc6f4d3acd2ced2dc971b19df8a140d3e55abbd3015fe75c83366d52b3c627
+sha256: 4714e6d10b0167fe946ae68265fedf2e24f33546219d7d108bd08b17827175d6
 blog_source: Cloudflare Blog
 ---
 

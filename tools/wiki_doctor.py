@@ -211,8 +211,9 @@ def diagnose_raw_sources(report):
         if expected is None:
             continue
 
-        actual = hashlib.sha256(body.encode("utf-8")).hexdigest()
-        if expected != actual:
+        # strip leading newline that split_frontmatter includes
+        body_hash = hashlib.sha256(body.lstrip("\n").encode("utf-8")).hexdigest()
+        if expected != body_hash:
             report.add("raw_sources", "ERROR", rel, "sha256 drift", auto_fixable=True)
 
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/NousResearch/hermes-agent-self-evolution
 ingested: 2026-07-08
-sha256: 91af2b988a0a72ffaed2fba79e7b99a13c4aa582601a6295ff1d3173e1512629
+sha256: 0045c7b63aa1b4bdf75ac838035e5d2d2279e3fa8574ca64139c5a923b3ed55e
 ---
 
 Принцип роботи hermes-agent-self-evolution (DSPy + GEPA):

@@ -2,7 +2,7 @@
 title: "How to Choose and Implement an AI Agent Orchestration Framework — 2026 Playbook"
 source_url: https://zylos.ai/research/2026-01-12-ai-agent-orchestration-frameworks
 ingested: 2026-07-18
-sha256: PLACEHOLDER
+sha256: c03cf472167471750ce63e120ba9e29f97ca11db9a3c03521497223917ae7d45
 ---
 
 # How to Choose and Implement an AI Agent Orchestration Framework — 2026 Playbook

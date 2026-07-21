@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/selforg/2021/adversarial
 ingested: 2026-07-10
-sha256: 446dfd476f6ad199a8b486e3384a8764d3b68f6a2c1f795fd1be676fa6bf9b5f
+sha256: 03449c8761b6631c58b7022082e6396de5a8268eeedfe51cdeaf4453d1095d81
 blog_source: Distill AI
 ---
 

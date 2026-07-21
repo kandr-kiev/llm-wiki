@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/Saivineeth147/lora-speedrun
 ingested: 2026-07-20
-sha256: 792e9d66184d0a27103423ffc9b9dbe404a13c5ddea53e5acd09403cf6a15927
+sha256: ecd4427404df8fbfc7ae933457789369f77ba96f1eba4cf43d3320b8ac2c68a7
 blog_source: Hacker News
 ---
 

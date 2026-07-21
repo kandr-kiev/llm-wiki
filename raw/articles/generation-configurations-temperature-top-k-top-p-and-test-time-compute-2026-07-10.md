@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2024/01/16/sampling.html
 ingested: 2026-07-10
-sha256: 2ea3fc9cb1f7c679cbc50dd761458c7f7f3bc0a32cc4b6a80a0717b3420bb496
+sha256: 843b40467ec2a411706245d4f10d870a7c499c9efd22dac7d366db277efbcd88
 blog_source: Chip Huyen
 ---
 

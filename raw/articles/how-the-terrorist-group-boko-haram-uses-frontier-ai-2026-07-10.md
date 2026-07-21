@@ -2,7 +2,7 @@
 
 source_url: https://casp.ac/reports/ai-enabled-terrorism
 ingested: 2026-07-10
-sha256: 8d20192bef6f93a54d7d6615e7082e75fa9ec0973572c472f387cf140a66649d
+sha256: fe5859f8f984f3039be3e12f2486ce440ef7952bd7c9e3875bbccfe09e9ddf06
 blog_source: Hacker News AI
 ---
 

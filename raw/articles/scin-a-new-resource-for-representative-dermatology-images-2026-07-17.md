@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/scin-new-resource-for-representative.html
 ingested: 2026-07-17
-sha256: f9951e33cf13583a7247455b01065695d2e2c68e87b7bd8dd23472b97b6e9781
+sha256: 3738254e28c7597103ef20bc485c7f68ce875731201772eb4ab9a0d4fac9502e
 blog_source: Google Research Blog
 ---
 

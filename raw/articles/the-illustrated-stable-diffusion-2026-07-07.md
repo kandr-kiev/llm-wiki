@@ -2,7 +2,7 @@
 
 source_url: http://jalammar.github.io/illustrated-stable-diffusion/
 ingested: 2026-07-07
-sha256: da68268430441e33afb7830f9c81e4173cf760d3483eee6643e7175fa76a1349
+sha256: cc5d7436db76ab4e96fb7cbb70c6db7cb3a98eccc5258b3753ab76712e303706
 blog_source: Jay Alammar
 ---
 

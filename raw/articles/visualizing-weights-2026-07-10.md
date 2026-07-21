@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/2020/circuits/visualizing-weights
 ingested: 2026-07-10
-sha256: c2c3f01bfd6db0f21471388a000fd3a7e94940bd2dfc1d4bab64746c87103919
+sha256: 4859650e076697d203caefebbc588ee20a7ec78ed4a9cc6e69a914bbd17c2c79
 blog_source: Distill AI
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: local:///workspace/llm-wiki/INSTRUCTIONS_FOR_MASTER.md
 ingested: 2026-07-10
-sha256: a6b4a50b826774981555f6633c4c7996cb67f2c5868bb42c1908062cd60ce145
+sha256: 6e14064d7917b0851bd6b3de1e470c9ded27dc22b93df0e23d9425edfdb47fe7
 blog_source: local
 ---
 

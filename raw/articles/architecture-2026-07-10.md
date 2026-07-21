@@ -2,7 +2,7 @@
 
 source_url: local:///workspace/llm-wiki/docs/ARCHITECTURE.md
 ingested: 2026-07-10
-sha256: 4857bd2bc8041d1a7b683dc17d187474a7b111115f1c39f7168dbafc8725afb9
+sha256: 19a92a9818531df76eb6243e8d4a31e8d9726a5252b04aa9f8f50fa10cd1b534
 blog_source: local
 ---
 

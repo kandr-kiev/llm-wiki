@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/
 ingested: 2026-07-10
-sha256: 2df7b64ccd1c6295e9d429539acf42ed8f3f7f8f98aa6faf8f4e65910acf9d98
+sha256: 59c84d1387ee848018bc7d12ee0e6b151847fd0ba50557573f5ac0c3e6003793
 blog_source: Cloudflare Blog
 ---
 

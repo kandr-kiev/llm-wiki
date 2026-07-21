@@ -2,7 +2,7 @@
 title: "AI Agent Orchestration Frameworks: LangGraph vs CrewAI vs AutoGen vs Microsoft Agent Framework (2026)"
 source_url: https://zylos.ai/research/2026-01-12-ai-agent-orchestration-frameworks
 ingested: 2026-07-18
-sha256: PLACEHOLDER
+sha256: 5bb52a2a4afab7e393277b9eb0b9767a50bf23e76cfe23ffa3416d86cc493c6e
 ---
 
 # AI Agent Orchestration Frameworks: LangGraph vs CrewAI vs AutoGen vs Microsoft Agent Framework (2026)

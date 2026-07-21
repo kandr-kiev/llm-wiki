@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/auto-grade-hn/
 ingested: 2026-07-10
-sha256: cb12b4e04625ca44ff12ba983ee25c896732398f8d360238786742fc38a39a53
+sha256: ec4d921ee664da2fa18a373dab8a251ac6338a59b22d1a43c92ee1bd3f401743
 blog_source: Andrej Karpathy
 ---
 

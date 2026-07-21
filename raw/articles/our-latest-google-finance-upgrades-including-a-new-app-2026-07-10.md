@@ -2,7 +2,7 @@
 
 source_url: https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/
 ingested: 2026-07-10
-sha256: 09120a2da0d9601292d4bbca59ef79cf77ec927f142c9b599e89ba16e3c6360f
+sha256: 60aae666a5fc517cbd4096e37432e5213a19b4be6f6931d9533f32d5735c8820
 blog_source: Google DeepMind
 ---
 

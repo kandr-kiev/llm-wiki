@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc
 ingested: 2026-07-17
-sha256: 7726b9b9090a78ad6a5d5a97ec3785e3eb7418492efdba31c7214b59a7edfc3b
+sha256: 4da0095d3ff547d96cc84dcb4acdbc6dffe6bf6076200b6fb20bbd786e75701a
 blog_source: Hacker News AI
 ---
 

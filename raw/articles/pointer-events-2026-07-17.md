@@ -1,7 +1,7 @@
 ---
 source_url: https://css-tricks.com/almanac/properties/p/pointer-events/
 ingested: 2026-07-17
-sha256: cc1137030c1dbdc9c0bf6329b2ff8911bd072eafb46830ac915d20881cc32006
+sha256: d435ddd914f65d98038d92b40ee64d58a0a1e950f04023de5bb67bb1685d1a56
 blog_source: CSS Tricks
 ---
 

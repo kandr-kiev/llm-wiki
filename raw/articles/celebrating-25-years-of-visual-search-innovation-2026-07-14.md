@@ -1,7 +1,7 @@
 ---
 source_url: https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/
 ingested: 2026-07-14
-sha256: aaee0f8ce14f26fadba71ed734286a64063f6928608517f78905dcaaab9ba455
+sha256: c94516afdeb55a30d16c680bcc484231a1fbb28730f383e562ba0322a1672f27
 blog_source: Google DeepMind
 ---
 

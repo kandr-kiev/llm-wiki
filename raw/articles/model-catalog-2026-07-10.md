@@ -2,7 +2,7 @@
 
 source_url: https://github.com/mlflow/mlflow/releases/tag/model-catalog/latest
 ingested: 2026-07-10
-sha256: d995d3025fdc92f2109f5e6d529e2ef6f49a1c4519312d73c6886e54a09d5aac
+sha256: 70667fc171c978ec1ff594e8b5ca640f41030c5ac093354bcb98606f70f53d8d
 blog_source: github
 ---
 

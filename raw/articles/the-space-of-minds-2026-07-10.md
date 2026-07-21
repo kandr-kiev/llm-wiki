@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/the-space-of-minds/
 ingested: 2026-07-10
-sha256: 968427bef28972183d5ed3bcc1aacdfabbfc95f19d61db563987436f901e0bf5
+sha256: 683b1fb9a537339b1032ed9be26881c042eae363f3484fa7fbd1b03a1f62d105
 blog_source: Andrej Karpathy
 ---
 

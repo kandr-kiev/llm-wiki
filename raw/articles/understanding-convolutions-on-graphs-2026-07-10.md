@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/2021/understanding-gnns
 ingested: 2026-07-10
-sha256: 0ce9f6677ebdad8240d6350501c37b49f13eb8b657f03b9bafba2532aae7d0ee
+sha256: 065df483908d68e55a98c89c2a00efe76bebd8fccdf629f20b83d1410b82f9e0
 blog_source: Distill AI
 ---
 

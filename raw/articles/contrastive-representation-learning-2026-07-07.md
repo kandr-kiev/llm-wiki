@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2021/05/31/contrastive-representation-learning.html
 ingested: 2026-07-07
-sha256: 317cf5709abef7827e8218dc66259d3d0657d143a47869c14534d68e417246b3
+sha256: f92fde1a29782f2e565d2592abdf9fa8e3edf55505fd4ddb5497aff75c439d0e
 blog_source: Lilian Weng
 ---
 

@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/talk-like-graph-encoding-graphs-for.html
 ingested: 2026-07-17
-sha256: b2e9f74705b55606d8a82002f5942cb8cc3621d6041296d15fe5e612b3e3278c
+sha256: a7138ff084d30f9a7cd1f89624b83092e0d3cd7ee4c80bced25f26e7663dbad0
 blog_source: Google Research Blog
 ---
 

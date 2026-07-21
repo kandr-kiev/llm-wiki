@@ -5,7 +5,7 @@ category: articles
 tags: [hermes-agent, moe, context-window, local-llm, trends]
 created: 2026-07-12
 updated: 2026-07-12
-sha256: 38e28c084dc883a4e0e35477f6d559b621bf799dccebe4dde782871d2f376c2f
+sha256: 8e7f48152ee23d6b9d3f04cabd6881510a6c96da715b058ea22b8eb94c39eee6
 ---
 
 # Hermes Agent v0.18.0 Deep Dive & 2026 Trends (MoE, Context)

@@ -1,7 +1,7 @@
 ---
 source_url: https://developers.cloudflare.com/workers-ai/get-started/rest-api/
 ingested: 2026-07-07
-sha256: 7ae82d0c892366d0f445ab8904329350b6e88a90297e06c6bdf5d66408e4d743
+sha256: fa0d83257d779ebb436ece370896fc78963051eb3b5770a59c8008b7c2fe45e8
 ---
 
 # REST API

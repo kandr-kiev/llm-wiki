@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/attribution-business-insights/
 ingested: 2026-07-10
-sha256: b2126d82f9b4cfad1d4d469e7deb054ce5a991009f56549b9554cdd055d860c7
+sha256: e25ea7e87f272be8ad7c0edb8c4196d79b4a88aa7a51113b3746713e8473f006
 blog_source: Cloudflare Blog
 ---
 

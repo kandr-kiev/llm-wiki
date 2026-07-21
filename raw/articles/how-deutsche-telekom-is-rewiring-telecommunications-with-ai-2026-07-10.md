@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/deutsche-telekom
 ingested: 2026-07-10
-sha256: 47b79c1f6bc9261113fdb9466a4946aa52388467d0619f85876a20149360e692
+sha256: 7c0fac45aad7b74ae1b3f710a25eb474b0d973a8ee2456ec761dc546e7c8f9f3
 blog_source: OpenAI Blog
 ---
 

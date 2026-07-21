@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/2020/circuits/branch-specialization
 ingested: 2026-07-10
-sha256: 2b5a03a7865f580bb8eb215790d3c5a36bf8ea014f7206c8ede4959534140b90
+sha256: dcf01e20364fc716025a99760ffa16acacb0003728425ed6c51594c2f14b90b9
 blog_source: Distill AI
 ---
 

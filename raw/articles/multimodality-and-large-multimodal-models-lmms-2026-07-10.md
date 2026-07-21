@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2023/10/10/multimodal.html
 ingested: 2026-07-10
-sha256: 6cd29537a72654c122e6ca4d8ee567f4aa636d180a4d867e24eef13f617a6699
+sha256: 192691bfce58383820119da90c99cf612bb1fb10ffe736ef64905a233ce70213
 blog_source: Chip Huyen
 ---
 

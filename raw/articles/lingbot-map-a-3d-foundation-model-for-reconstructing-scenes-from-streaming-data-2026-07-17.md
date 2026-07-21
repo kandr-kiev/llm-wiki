@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/Robbyant/lingbot-map
 ingested: 2026-07-17
-sha256: 85e27da9acf43dea1bd28a52378f8d08db18f5bb79681681d3e2b0eb463658b1
+sha256: 4c35a9407ec731957df4eea7575415f03081b1426a6d1d97d1506badba0670d5
 blog_source: Hacker News
 ---
 

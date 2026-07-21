@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/melon-reconstructing-3d-objects-from.html
 ingested: 2026-07-17
-sha256: b8ea4441e7394ec9dbad1ed371eceec2fb1c55101b9f5befeeaeb78b32154d38
+sha256: 347ca0395ff8a65e6d475390e4a53b83f15f4458eb4a4f6cdaf16308ed12026c
 blog_source: Google Research Blog
 ---
 

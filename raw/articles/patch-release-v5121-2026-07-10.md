@@ -2,7 +2,7 @@
 
 source_url: https://github.com/huggingface/transformers/releases/tag/v5.12.1
 ingested: 2026-07-10
-sha256: 0e958e8c9e21637b600d6bf6edd644ecaa123689f8ff68a8be776b676245b614
+sha256: b8b260adf28efa0a59fe216d0a8967149e098b836fb9c2536b2b757e8b985e13
 blog_source: github
 ---
 

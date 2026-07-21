@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/alxndrTL/little-book-rl/
 ingested: 2026-07-17
-sha256: 41de6fa94af16feb6185d7abf9391402c4ea4d423e588f9e55594b4eab2f6047
+sha256: b24c7e8a0bdfa647863d83fb9605f7a4c79c786180dd7be29992585c376a0237
 blog_source: Hacker News
 ---
 

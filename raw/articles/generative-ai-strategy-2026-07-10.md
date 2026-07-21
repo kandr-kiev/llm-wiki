@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2023/06/07/generative-ai-strategy.html
 ingested: 2026-07-10
-sha256: 2956c3174494b7250010ee0a1f7b6a71b2c46e16b38034526bbddebad49b6bc7
+sha256: 86ad21e62f8ab842e2c7cf6fc0b587da3290ce849b4d19711e0e12b048f7da2f
 blog_source: Chip Huyen
 ---
 

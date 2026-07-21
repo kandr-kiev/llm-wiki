@@ -2,7 +2,7 @@
 
 source_url: https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/
 ingested: 2026-07-10
-sha256: e63c597bcd0807188d11634202ebaf8d97b71b46247866a86981d9f620d0452c
+sha256: 87c304b3d55f153985a1ece6f739be5740286bc84b96971d585ade207e727411
 blog_source: Google DeepMind
 ---
 

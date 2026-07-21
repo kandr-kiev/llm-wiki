@@ -1,7 +1,7 @@
 ---
 source_url: https://blog.google/products-and-platforms/products/search/connected-apps/
 ingested: 2026-07-16
-sha256: ad44ca68e4da5ad719bdbcdf59593436cbf24f3b35be258fa8a62b9d3fdb6ca4
+sha256: 2ce36a17103409a4e1015af60a8ec30f2f3c0fbe9db56259feee75ff5d0b2844
 blog_source: Google DeepMind
 ---
 

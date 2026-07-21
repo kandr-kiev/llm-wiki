@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/k-12-educators-practical-skills
 ingested: 2026-07-10
-sha256: 0dfb219ed3d47a6d2ad4e8e09d9fa09e398caab85fd6812668c916fdb76b3194
+sha256: c8576c43bb4f579caf5a1c817ac58ea61c678d5c16ee6bc21bbf84fd755ece61
 blog_source: OpenAI Blog
 ---
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/jbwinters/jacquard-lang
 ingested: 2026-07-13
-sha256: 035f4f3ba4fe67057300eeb55a49bcfdc367aa3f787481d1f116179815c9598e
+sha256: 3255e061b4649dcc1e4d6cee5911a02a85194170b02bf43926aff77ca3a5fb67
 blog_source: Hacker News AI
 ---
 

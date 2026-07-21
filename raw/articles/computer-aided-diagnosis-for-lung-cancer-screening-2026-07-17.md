@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/computer-aided-diagnosis-for-lung.html
 ingested: 2026-07-17
-sha256: 1bbd21c2acbce6e5c63ac3fe73060308d9eb3f28ce3bff9742000696516f2f28
+sha256: 71a893ccaa05d5dad3622f56459218bbb66d089e9754c7d030b5b0a5bbb1614b
 blog_source: Google Research Blog
 ---
 

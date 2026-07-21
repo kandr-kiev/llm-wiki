@@ -2,7 +2,7 @@
 
 source_url: http://jalammar.github.io/moving_to_substack/
 ingested: 2026-07-10
-sha256: 55f3254cbd756a8b6339b1f85c27a64225f50d7ab15b18148157cfd8c13e66c7
+sha256: 010f337ec02cd925b6d8bafe724d0ea82a22ccb5843f5960e33013a54951b972
 blog_source: Jay Alammar
 ---
 

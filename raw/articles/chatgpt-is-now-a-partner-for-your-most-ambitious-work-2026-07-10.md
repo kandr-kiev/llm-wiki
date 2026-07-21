@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/chatgpt-for-your-most-ambitious-work
 ingested: 2026-07-10
-sha256: 8fe2c742a802232f017c039ac28989e72673c0d14eb5196ffb4e8092b62de042
+sha256: dd04a8d56579c8a276c28c630ff984bcda1308287c885655aae9b67c8c2390c3
 blog_source: OpenAI Blog
 ---
 

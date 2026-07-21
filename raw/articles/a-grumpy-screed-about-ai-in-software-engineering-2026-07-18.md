@@ -1,7 +1,7 @@
 ---
 source_url: https://sam.sutch.net/posts/a-grumpy-ai-screed
 ingested: 2026-07-18
-sha256: 7d30804fe6231a140b21a47cf8a97049ad10002805c1267a32211760dbab60b4
+sha256: 13b0365196142b794dd198ceb8ad206ca8a6bde0882e726dd95d98e99b9aed89
 blog_source: Hacker News AI
 ---
 

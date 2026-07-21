@@ -2,7 +2,7 @@
 
 source_url: local:///workspace/llm-wiki/.obsidian/core-plugins.json
 ingested: 2026-07-10
-sha256: c29ca39a0946f4eaf216e0cd79ecca7f9af52866ef272dea0cd48ec13c9a3c41
+sha256: 763cf20a921fd9955735b278006820b90b207b2fc04d9e79ca648279c7c14276
 blog_source: local
 ---
 

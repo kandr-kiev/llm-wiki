@@ -1,7 +1,7 @@
 ---
 source_url: https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/
 ingested: 2026-07-11
-sha256: ec8d59cb3b66314fafdec9b32487805aff34ebeb2daf754d3f965b2c1c54cbaf
+sha256: 37f4289fa8a6d224f23a53acdddc8f7f7d1a9c5ae121dee281d6db460f2be068
 blog_source: Google DeepMind
 ---
 

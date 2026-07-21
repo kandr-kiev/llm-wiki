@@ -2,7 +2,7 @@
 
 source_url: https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.4.4
 ingested: 2026-07-10
-sha256: 80d68a804cedb1045a508ac62ba4e0b7f24e4d89a575c5dbf5f46c01293c4c7e
+sha256: 706787350a86ca17c9c26bb4581a75424c489915c1e197270f6ffac717511942
 blog_source: github
 ---
 

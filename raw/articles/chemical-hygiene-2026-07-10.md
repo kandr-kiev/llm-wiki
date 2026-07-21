@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/chemical-hygiene/
 ingested: 2026-07-10
-sha256: 83f7dd92a073a2635573e1f84abe12180909675174f4c74eac99b765fea09fa9
+sha256: b5e6742024bbe603bc1e565ef2ed34c229e5078cac78dac5f14397f0b99a9beb
 blog_source: Andrej Karpathy
 ---
 

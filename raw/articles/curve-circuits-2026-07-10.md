@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/2020/circuits/curve-circuits
 ingested: 2026-07-10
-sha256: e53602fbdbeda144b0ef4260b89a752f49cf87c525970e78c1a85c6ceac3afcd
+sha256: f843a35e79715fdf30887114bbf0bc1da4c137bf2aa7de3bdd53df786c8cba61
 blog_source: Distill AI
 ---
 

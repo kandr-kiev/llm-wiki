@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/cappy-outperforming-and-boosting-large.html
 ingested: 2026-07-17
-sha256: f7fdcf9485314682f5e18b31020f3df9adaf57978ea01ef8df8c3a43ab862c08
+sha256: 1b97916b80f9b328d6142efb937a86bc5b7911dbae58426748f1a9b2dfa4a182
 blog_source: Google Research Blog
 ---
 

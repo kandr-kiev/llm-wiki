@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/finding-the-best-sleep-tracker/
 ingested: 2026-07-10
-sha256: 0c6a6b3184b1732bf6cfc6d48115c125fb412aca824752449fc4e7f4e23d9a3d
+sha256: 70d713261393e6aede745a5c533729f705c2609c8c1f29158e8afbc32649d232
 blog_source: Andrej Karpathy
 ---
 

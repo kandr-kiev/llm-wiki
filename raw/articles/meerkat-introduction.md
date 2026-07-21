@@ -23,7 +23,7 @@ links:
 ---
 source_url: https://blog.cloudflare.com/meerkat-introduction/
 ingested: 2026-07-09
-sha256: PLACEHOLDER
+sha256: ce4bc5c1f4acea3839fdf44ee4509219f0489a295119397263ab0126df297e24
 blog_source: Cloudflare Blog
 ---
 Introducing Meerkat: an experiment in global consensus- - - - - - - - - 

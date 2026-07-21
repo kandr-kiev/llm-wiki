@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2025/01/16/ai-engineering-pitfalls.html
 ingested: 2026-07-10
-sha256: c41dd1af60fc9de4348562987562168395c5e7da6a2480c4301beee71189be16
+sha256: f11cbd74cbe4ec9a5e8acea1214625978ab6496766f59035a9e23e65963ae75a
 blog_source: Chip Huyen
 ---
 

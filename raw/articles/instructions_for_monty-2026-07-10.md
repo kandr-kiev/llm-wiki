@@ -2,7 +2,7 @@
 
 source_url: local:///workspace/llm-wiki/docs/INSTRUCTIONS_FOR_MONTY.md
 ingested: 2026-07-10
-sha256: 9f74aa17eef32c3b307261a710ef937cb749baa869f3de99172440bbf5af1494
+sha256: bb286c81ac5dba6fa4cbf506974f6e6f264034a44fbb16c28f4ca2f397257e50
 blog_source: local
 ---
 

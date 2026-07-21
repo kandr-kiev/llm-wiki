@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/agentic-internet-bot-report/
 ingested: 2026-07-07
-sha256: 9e88589ec62954e438f23864a881a95cc98c0e7ee0e707efaf290efdbb1a695b
+sha256: d6f3493870603c0ddd275359dc832c71739544c5cd6b3b73f295ffa0ecea9325
 blog_source: Cloudflare Blog
 ---
 

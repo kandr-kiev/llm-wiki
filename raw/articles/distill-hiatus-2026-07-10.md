@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/2021/distill-hiatus
 ingested: 2026-07-10
-sha256: 752af12801297fba4c8825946a2afc42fab78c111876ecd26208dbd5ca9e7187
+sha256: 4c0b2a830d48fabf13b4b6a48cff8c6581505a5bf23d245b85feeb9926c64663
 blog_source: Distill AI
 ---
 

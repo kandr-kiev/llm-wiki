@@ -1,7 +1,7 @@
 ---
 source_url: https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423
 ingested: 2026-07-17
-sha256: 3ce7ce2b94a0d8618c6d21290d6d3beda44d550fd9289aa42a5cf10f228a5fc7
+sha256: 7b9e74ec69c43e0efb98488ab540d10b8012acbd5f684d19f2568f9114ff4a80
 blog_source: Hacker News AI
 ---
 

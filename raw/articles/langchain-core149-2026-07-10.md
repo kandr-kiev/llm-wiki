@@ -2,7 +2,7 @@
 
 source_url: https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.9
 ingested: 2026-07-10
-sha256: 3ec35411c7e5cfdda02224eb1792fa5c5e51f1f1a570be2d1525e467187c71fb
+sha256: 79e905d3823edb698f3ea6e5259f534ba9947d3bd075f0c9c165c893aaa05c24
 blog_source: github
 ---
 

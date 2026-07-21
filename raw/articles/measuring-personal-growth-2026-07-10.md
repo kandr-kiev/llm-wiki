@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2024/04/17/personal-growth.html
 ingested: 2026-07-10
-sha256: 57a5021d194146c2cab64c82ae04d4e3b7c1c5a6ed8ae67a5653e3ce3aa078dc
+sha256: c660b1951f3cdc610c394b468fc669d07f8ed2e95abd1e4180d815a38d2bbcac
 blog_source: Chip Huyen
 ---
 

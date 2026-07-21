@@ -2,7 +2,7 @@
 
 source_url: https://blog.cloudflare.com/rollbacks-for-workflows/
 ingested: 2026-07-07
-sha256: 4a8158b2334bc26b0dd11924efecb9e7b3a18989d881eb535e2e06cea2efbb26
+sha256: 3f2db30e5541cd80bcf4e0af8ad72bc8611521cca81198e8f955e8143fb7a0a8
 blog_source: Cloudflare Blog
 ---
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/
 ingested: 2026-07-16
-sha256: 7631d3f3340838ca618ef14b5d1ea5923132ab22ca8f310474f09c024f1860e8
+sha256: cf2e6a6d3242c5a5ff4a4bd6627fed45ea3e12aa2b36af5c7fcd82471ebf40a0
 blog_source: Google DeepMind
 ---
 

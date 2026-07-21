@@ -538,7 +538,8 @@ def fix_file_hash(filepath: Path) -> bool:
     if m is None:
         return False  # No existing hash to fix
     
-    computed = compute_sha256(body)
+    # strip leading newline that split_frontmatter includes
+    computed = compute_sha256(body.lstrip("\n"))
     stored = m.group(1)
     
     if stored == computed:

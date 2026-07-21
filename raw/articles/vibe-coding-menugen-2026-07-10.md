@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/vibe-coding-menugen/
 ingested: 2026-07-10
-sha256: 3123d10ddb3c481296b0f68ed101cd1d19b0c881b4bd12e1a85e6125b3e06843
+sha256: 54875c7080c20351f7f34582c4508f8c9a7f3f63b52ab98c3d0b5b8291cc618e
 blog_source: Andrej Karpathy
 ---
 

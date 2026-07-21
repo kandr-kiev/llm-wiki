@@ -2,7 +2,7 @@
 
 source_url: local:///workspace/llm-wiki/docs/ALGORITHM.md
 ingested: 2026-07-10
-sha256: d4e0f95bc2bb83957e03055b1d714476ec99156495eac11f926bfcc5979dc849
+sha256: e05de1b1aa51876e42f826030bb8b33c4dfe0ba796575764b3d224230437fc30
 blog_source: local
 ---
 

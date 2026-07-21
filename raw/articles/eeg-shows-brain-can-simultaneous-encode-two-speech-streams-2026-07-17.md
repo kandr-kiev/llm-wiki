@@ -1,7 +1,7 @@
 ---
 source_url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876
 ingested: 2026-07-17
-sha256: dc9d8923db7ca60c044a837b88991a834979ee43813caf62857996e943921faf
+sha256: dfdc3269720962d7f211114e969c2d32ca363a6290de223008f3c44f861ea9d0
 blog_source: Hacker News
 ---
 

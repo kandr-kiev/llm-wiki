@@ -4,7 +4,7 @@ source_url: "https://www.aihero.dev/5-agent-skills-i-use-every-day"
 blog_source: "aihero.dev"
 author: "Matt Pocock"
 ingested: "2026-07-13"
-sha256: 5e8edab67b2f8c0dbb581d681e9cd402b0efdc3045ed3484a8cae6d3996e7a78
+sha256: 082c76f06abd0ca8ce12e74ada1304a59533b5cc80e003c53301ba868e8e0526
 ---
 
 # 5 Agent Skills I Use Every Day

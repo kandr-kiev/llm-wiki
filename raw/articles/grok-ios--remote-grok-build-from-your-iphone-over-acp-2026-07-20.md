@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/Pedroshakoor/grok-build-ios
 ingested: 2026-07-20
-sha256: 16f19f9ffe50423a6c15f7587838f725b58175b69ed3d9304fdfc72a983d317a
+sha256: e451616f41c034aa00ddb965a272240e586fa34c46a1cc19ef8b6a03dc779840
 blog_source: Hacker News
 ---
 

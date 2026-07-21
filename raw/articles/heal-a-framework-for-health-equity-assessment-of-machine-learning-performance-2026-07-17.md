@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/heal-framework-for-health-equity.html
 ingested: 2026-07-17
-sha256: 810dff92ac0cd1e7dbd84e00c62eb70b65806d67876edd571b43c19bd0575b02
+sha256: 9ef4b8d9c42848d4b26105de42e64af9de85483fcef36e512b50f3d6e093d8f6
 blog_source: Google Research Blog
 ---
 

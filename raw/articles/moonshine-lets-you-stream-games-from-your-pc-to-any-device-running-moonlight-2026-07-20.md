@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/hgaiser/moonshine
 ingested: 2026-07-20
-sha256: 08e0e40039b0a752bbe1e0f4fc0778ff05d203aeec7026dd9b48168574991b00
+sha256: 04f4e166baf0b67cfcf15c991e5f6f8cd2df3baca7407182f168a14965fade81
 blog_source: Hacker News
 ---
 

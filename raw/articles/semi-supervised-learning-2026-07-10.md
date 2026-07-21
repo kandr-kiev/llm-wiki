@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2021/12/05/semi-supervised-learning.html
 ingested: 2026-07-10
-sha256: fb81db140cc563ff894c8131db9165ee6d7e5d10e82e0ec02b40395b84f5f55f
+sha256: ba46d4a2b7a87ccd6d2933dce7104b7165a1140c5eb292bb1d1e990fe7afab31
 blog_source: Lilian Weng
 ---
 

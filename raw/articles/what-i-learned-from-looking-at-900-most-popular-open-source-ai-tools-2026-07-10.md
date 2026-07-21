@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2024/03/14/ai-oss.html
 ingested: 2026-07-10
-sha256: e2592cfa41ca5af098932de0e7933823185db7d5f66149032d7eef9684d04c4b
+sha256: 4d8773c7c87bfa872c1c4d828cade24ddab9fb226a376c109b7e6bbe57238b67
 blog_source: Chip Huyen
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/mapping-ai-jobs-transition-eu
 ingested: 2026-07-07
-sha256: 8536a48943ce32cfb5df680a539ec356fc2cbab9a15ac856cfd687e83d19ebd1
+sha256: 33a16f064b5c329d27d55eb8c1a4d4250992573a0f26cf122ff31e244a1a7f80
 blog_source: OpenAI Blog
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot
 ingested: 2026-07-10
-sha256: c61da275b6d8aa635b6c484886e8bd39391ec4ae1044adbb05d40ef18f7b6e4b
+sha256: 3de7df8b6496587c30fafeb6ffc6b3dd35f28b9cbf4ae207d8fd47550d651023
 blog_source: OpenAI Blog
 ---
 

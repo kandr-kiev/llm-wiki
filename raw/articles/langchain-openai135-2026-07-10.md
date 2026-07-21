@@ -2,7 +2,7 @@
 
 source_url: https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.3.5
 ingested: 2026-07-10
-sha256: e79bfd7c2b26c356fc43e7fa310b2ddba7324993835472637b8456f9d3908c4c
+sha256: 36802bfcb3ff12838b09b8edb0b18a325e8290f692dd7451bec796cfde15e246
 blog_source: github
 ---
 

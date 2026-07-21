@@ -2,7 +2,7 @@
 
 source_url: https://www.fadingmaize.com
 ingested: 2026-07-10
-sha256: b8f8473099765919689c8142cf1c1a9da8923e3c53195286b433d6b00186c5a3
+sha256: fa774ffc08eb3282180fb833c1e6522d1bc64a8f7f0fd2f1311386ea8050d5a3
 blog_source: Hacker News AI
 ---
 

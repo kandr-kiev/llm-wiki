@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/verifiability/
 ingested: 2026-07-10
-sha256: e9e9e8eed8f8b0acf948c82b5025a1830ddf9a67d3782f12915052c0882a6418
+sha256: 5670cb208f8c446f84ea4379f929abbba2c5afad544ed1100024016605c64b39
 blog_source: Andrej Karpathy
 ---
 

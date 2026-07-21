@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md
 ingested: 2026-07-18
-sha256: cbfac6fcf97199357fbc94d61b056b672c2b7aa80187a89031a0a013340621fe
+sha256: 69cdbd7670a340031622ff1f834e51b77b259f47adee17955176868f191512b5
 blog_source: Hacker News
 ---
 

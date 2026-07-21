@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/2021/multimodal-neurons
 ingested: 2026-07-10
-sha256: 3c1a33065305607ebc78ca5991c68b240f2e9e154205e7b96e174166bdaa37f4
+sha256: 28c15674d26550f1ca66624649781987b257d714a3ed99e84bb2d27913a4c10f
 blog_source: Distill AI
 ---
 

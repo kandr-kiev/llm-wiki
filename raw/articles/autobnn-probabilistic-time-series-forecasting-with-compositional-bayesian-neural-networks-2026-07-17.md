@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/autobnn-probabilistic-time-series.html
 ingested: 2026-07-17
-sha256: 952e0dc25474409affdcbaeda55b9fd4f19f688a059aa04c63d822da6b587b48
+sha256: ad4f5683b5d04ab15d857c0d078c73aaeab2aa64ce139ca09dd89f22209a62a8
 blog_source: Google Research Blog
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: https://github.com/ronak-create/FableCut
 ingested: 2026-07-09
-sha256: c9d714cbd9e468e484c050c058f069b3f79ac8ecdf73ae56bb1c8c07635f509f
+sha256: ece0e685ff86b256d38b16f317ab34ec5b45f0e238d1d006ee1e60f952a49461
 blog_source: Hacker News AI
 ---
 

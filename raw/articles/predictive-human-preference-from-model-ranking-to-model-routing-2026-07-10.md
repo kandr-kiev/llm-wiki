@@ -2,7 +2,7 @@
 
 source_url: https://huyenchip.com//2024/02/28/predictive-human-preference.html
 ingested: 2026-07-10
-sha256: 60ae74035aa042a0503169d80de3736fb13102187305738ce2f052d699bec251
+sha256: cc2b2677863219a8660ae4618c7a7fbb7ea1d3a6250adaa6ef89677d6627747e
 blog_source: Chip Huyen
 ---
 

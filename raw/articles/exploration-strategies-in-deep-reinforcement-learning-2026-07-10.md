@@ -2,7 +2,7 @@
 
 source_url: https://lilianweng.github.io/lil-log/2020/06/07/exploration-strategies-in-deep-reinforcement-learning.html
 ingested: 2026-07-10
-sha256: 09853b5649740ab7595e7563846579e5ef68cf9232720c6b2ca8a996273066b6
+sha256: f7944dda504589a06873a22a28bc808d631abc06a61165a2ebd4e89753a1ec1a
 blog_source: Lilian Weng
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/previewing-gpt-5-6-sol
 ingested: 2026-07-07
-sha256: 3a4271fc9b1e05e565deb58cf3295622aebf090d271abb996e9c1798c07dd071
+sha256: ac199c0e708d422086863e9e9728f784300a4e7f5488587d9a8dad5f6e0d4d75
 blog_source: OpenAI Blog
 ---
 

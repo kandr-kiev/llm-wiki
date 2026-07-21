@@ -1,7 +1,7 @@
 ---
 source_url: http://blog.research.google/2024/03/screenai-visual-language-model-for-ui.html
 ingested: 2026-07-17
-sha256: 7ed2b98a4b33ef3395affee1ff7fc1c11dfa22f697f5f89b09cb37c2091fd99e
+sha256: c100e33e74d197b0a8956707b116e80bcc7895554ba318eec4dc0d6e72fea9bb
 blog_source: Google Research Blog
 ---
 

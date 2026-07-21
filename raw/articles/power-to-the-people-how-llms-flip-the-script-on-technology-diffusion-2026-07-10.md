@@ -2,7 +2,7 @@
 
 source_url: https://karpathy.bearblog.dev/power-to-the-people/
 ingested: 2026-07-10
-sha256: 2a0f92bdeb2080c529d9fdabc78dc7cd37d18f7d83ed9166d47fd8fee368bfc8
+sha256: 4bd576ff32221f0b7bed287bcf3bc750cda87a483ec2d8ec1f85098a78648f5b
 blog_source: Andrej Karpathy
 ---
 

@@ -2,7 +2,7 @@
 
 source_url: https://openai.com/index/mufg
 ingested: 2026-07-10
-sha256: 12048e5ca394dae5ad83df239dacfc8964058739e5ee46151d93f69610fc1784
+sha256: 931777fbbd86e77a1f5101ad1445697c0f18980b270dd4ce01eac56dad441c06
 blog_source: OpenAI Blog
 ---
 

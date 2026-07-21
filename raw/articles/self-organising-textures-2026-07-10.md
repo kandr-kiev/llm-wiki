@@ -2,7 +2,7 @@
 
 source_url: https://distill.pub/selforg/2021/textures
 ingested: 2026-07-10
-sha256: 09183f79a81dd370e26df8eeab39b224c4be779395e2b28adaef1dd292c43422
+sha256: 0363bb0656be3bd010eb09a7d17f8adde6455bdf166220cede5fa93efa66179e
 blog_source: Distill AI
 ---
 
