@@ -1,0 +1,75 @@
+---
+title: "doom"
+type: comparison
+tags:
+  - llm-wiki
+  - knowledge-base
+    - data
+  - few-shot
+  - framework
+  - image-generation
+  - instruction-tuning
+  - integration
+  - machine-learning
+  - mobile
+  - news
+  - nlp
+  - open-source
+  - pipeline
+  - real-time
+  - software
+  - standards
+  - use-case
+  - video-generation
+  - web
+---
+
+# doom
+
+> **Source:** running-doom-on-our-custom-cpu-and-going-viral-2026-07-21.md
+> **Type:** comparison
+> **Created:** 2026-07-21
+> **Updated:** 2026-07-21
+> **Confidence:** high
+> **Description:** [Home](/)[Blog](/blog)[Projects](/projects)[Graph](/graph)[Now](/now)[Experience](/experience)[Contact](/contact)![](/agi-hero.svg)Armaan Gomes, Infrastructure ↻☀AGI-INDEXREV A# Running DOOM on our Cu...
+> **Sources:**
+>   - running-doom-on-our-custom-cpu-and-going-viral-2026-07-21.md
+> **Links:**
+- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[Automating Ai Away]]
+- [[i started a dirt notebook]]
+- [[Mesh LLM: distributed AI computing on iroh]]
+- [[Automating away]]
+
+## Key Findings
+
+[Home](/)[Blog](/blog)[Projects](/projects)[Graph](/graph)[Now](/now)[Experience](/experience)[Contact](/contact)![](/agi-hero.svg)Armaan Gomes, Infrastructure ↻☀AGI-INDEXREV A# Running DOOM on our Custom CPU and Going Viral
+### July 20, 2026
+[← Blog](/blog)![](/assets/image-2.DHwMb3K0.png)
+DOOM # DOOM Doom is a video game made by id Software that released in 1993. It was a revolution in gaming that spread across the world and defined the modern FPS. Its popularity has given rise to the saying "Doom can run on anything". To prove this point Doom ha been ported to almost everything, from microcontrollers, to toasters, and even bacteria. Two weeks ago we successfully ran(crawled) Doom on a CPU we built from scratch (and then posted a video that got a few million views). To be honest, I still can't believe it. What did we really do though? Well, we designed a custom CPU at the logic gate level, connected it to peripherals, adapted the DOOM source code to run on our machine, and deployed it onto an FPGA to run in real time. Before running Doom, we had only run simple programs that we had written, like Pong and Mandelbrot sets. Now we can run full published games, but getting here was a rather rocky road.
+## The Requirements [​](#the-requirements)
+Starting off with our pipelined design in this [post](https://www.outercloud.dev/blogs/riscv-2/), we set our sights on more complex programs. Pong was great, but it was from the 70s. We wanted to jump into the 90s. However, there were two big problems in our way: memory and speed. Larger programs need larger memory and our design could only utilize the FPGA's BRAM, which was less than a megabyte. The basic shareware for Doom (`doom1.wad`) is 14 megabytes. That doesn't even include the memory required to run the program, just to store it. The second barrier is speed. While Doom is a breeze for modern PCs, it's a slog for our CPU. We simply need to go faster.
+Thus, Liam and I decided to pursue each problem individually. Liam is currently laying the groundwork for out-of-order processing which will enable far greater parallelism and pipeline fulfillment tricks. I took on memory integration. While it may sound simple: just hook up an extra memory chip, the reality is far more complicated.
+## Memory Integration [​](#memory-integration)
+In our original CPU design, memory was very clean. FPGA BRAM has 1 cycle latency and is very simple to interface with. This consistency meant that our pipelined processor never needed to stall for memory because the consistent delay was directly incorporated into our pipeline. Furthermore BRAM is granular, we can read and edit the memory word by word.
+DDR3 memory on the other hand is slow, has variable latency, and wide bus widths. This makes memory operations more complicated and less predictable. It also is a lot slower. If every memory operation was sent to the DDR3 memory, the CPU would slow to a crawl. This is where cache comes in. Programs don't use all of the memory at all t
+
+## Summary
+
+imes, so the cache stores active regions of memory in BRAM to increase access speed. A well optimized cache can almost eliminate the added latency due to DDR3.
+## The Design [​](#the-design)
+This version of the CPU uses a relatively standard 5 stage pipeline: Instruction Fetch, Decode, Register Read, Execute, Writeback. Furthermore, this design abstracts memory operations away into a unified interface to simplify the core pipeline stages.
+### Core Pipeline [​](#core-pipeline)
+The instruction `Fetch` stage tracks the program pointer and fetches the correct instruction from memory via the instruction Cache (ICache). Unlike the previous design, it internally handles redirection and stalling. With the addition of DDR memory, redirection becomes far more complicated. Previously memory had one cycle latency, so you could fetch an instruction every cycle and switch the memory request address the cycle a redirection request comes in.
+However, with the new design, if the fetch stage receives a redirection request, the memory might already have a request in flight. We now need to track that the next response from memory is invalid and then request the correct address. After resolving this issue the fetch stage works flawlessly.
+The `Decode` stage is simple. It takes the 32-bit instruction, breaks it up into constituent parts and saves it to an instruction bundle that is sent forward through the pipeline. Now, there were some unique issues with this stage as well, but I'll save that for the later sections
+The `Read` stage was significantly modified. One issue with our previous register file was that it used combinational reads that slowed down our CPU. This version pipelined reads, which adds a cycle of latency but shaves down the critical path delay. Another change was `Read-After-Write`(`RAW`) hazard handling. `RAW` hazards are where you read from a register before a pending write goes through, giving you incorrect data. The previous read stage internally tracked the last few register writes that had passed through it. This was logically efficient but fragile and didn't always work. More rigorous testing showed that special cases made it fail to detect hazards. The new version relies on a `Register Usage Map` (`RUM`) computed by the surrounding core and fed into the stage. The `RUM` is a 32-bit map that tracks if a register is in use or not. This naturally scales to variable pipeline lengths without requiring any magic numbers. Using the `RUM`, the Read stage decides if it must raise a hazard flag and stall the previous stages or let the instruction through.
+The `Execute` stage decides what to do with each instruction. It routes parts of the instruction to various components, calling the ALU for arithmetic, resolving branches, and talking to memory. When it resolves jumps, it sends a flush signal backwards through the pipeline to wipe incorrect stages. When it sees memory instructions, it drops into a specific memory wait stage that stalls until the memor
+
+## Related Articles
+
+- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[Automating Ai Away]]
+- [[i started a dirt notebook]]
+- [[Mesh LLM: distributed AI computing on iroh]]
+- [[Automating away]]
