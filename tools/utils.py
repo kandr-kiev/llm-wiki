@@ -253,6 +253,7 @@ APPROVED_TAGS = {    "active-learning",
     "integrity",
     "interpretability",
     "knowledge-base",
+    "knowledge-storage",
     "labor-market",
     "language-action",
     "language-model",
@@ -352,6 +353,7 @@ APPROVED_TAGS = {    "active-learning",
     "semi-supervised",
     "serverless",
     "serving",
+    "setup",
     "sft",
     "skills-gap",
     "software-engineering",
@@ -379,6 +381,7 @@ APPROVED_TAGS = {    "active-learning",
     "trends",
     "trust",
     "truthfulqa",
+    "tutorial",
     "uncertainty",
     "use-case",
     "user-metrics",
@@ -530,26 +533,35 @@ def fix_file_hash(filepath: Path) -> bool:
     """Fix SHA256 in a file's frontmatter. Returns True if file was updated."""
     content = filepath.read_text(encoding='utf-8')
     fm, body = split_frontmatter(content)
-    
+
     if fm is None:
         return False
-    
+
+    # Try to find a valid 64-char hex hash first
     m = re.search(r'sha256:\s*([a-f0-9]{64})', fm)
-    if m is None:
-        return False  # No existing hash to fix
-    
-    # strip leading newline that split_frontmatter includes
-    computed = compute_sha256(body.lstrip("\n"))
-    stored = m.group(1)
-    
-    if stored == computed:
-        return False  # Already correct
-    
-    # Replace stored hash with computed
-    new_fm = fm.replace(f'sha256: {stored}', f'sha256: {computed}')
-    new_content = f"---\n{new_fm}\n---\n{body}"
-    filepath.write_text(new_content, encoding='utf-8')
-    return True
+    if m is not None:
+        stored = m.group(1)
+        computed = compute_sha256(body.lstrip("\n"))
+        if stored == computed:
+            return False  # Already correct
+        new_fm = fm.replace(f'sha256: {stored}', f'sha256: {computed}')
+        new_content = f"---\n{new_fm}\n---\n{body}"
+        filepath.write_text(new_content, encoding='utf-8')
+        return True
+
+    # No valid hex hash found — check for non-hex placeholders (e.g. "auto", "PLACEHOLDER")
+    m2 = re.search(r'sha256:\s*(\S+)', fm)
+    if m2 is not None:
+        non_hex_val = m2.group(1)
+        if not re.match(r'^[a-f0-9]{64}$', non_hex_val):
+            # Replace non-hex value with computed hash
+            computed = compute_sha256(body.lstrip("\n"))
+            new_fm = re.sub(r'sha256:\s*\S+', f'sha256: {computed}', fm)
+            new_content = f"---\n{new_fm}\n---\n{body}"
+            filepath.write_text(new_content, encoding='utf-8')
+            return True
+
+    return False
 
 
 def retry_for_status(url: str, headers: dict, max_retries: int = 3,

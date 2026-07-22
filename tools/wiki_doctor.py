@@ -675,12 +675,16 @@ def cure_missing_index_entries(report):
     if not INDEX_FILE.exists():
         return 0
 
-    index_text = INDEX_FILE.read_text(encoding="utf-8")
     wiki_pages = [
         p for p in WIKI_DIR.rglob("*.md")
         if p.name not in RESERVED_NAMES and p.parent.name not in ("templates", "comparisons")
     ]
     fixes = 0
+
+    # Read index ONCE, then collect ALL entries to add before writing
+    # Bug fix: previously read index_text once but wrote N times, each overwriting previous
+    index_text = INDEX_FILE.read_text(encoding="utf-8")
+    entries_to_add = []
 
     for page in wiki_pages:
         rel = page.relative_to(ROOT)
@@ -716,20 +720,25 @@ def cure_missing_index_entries(report):
                     insert_idx = len(lines)
                 break
 
-        # Build entry line
-        entry = f"| {title} | `{rel}` |\n"
-        lines.insert(insert_idx, entry)
+        entries_to_add.append((insert_idx, title, rel))
+
+    # Now apply all entries in reverse order so indices stay valid
+    if entries_to_add:
+        fixes = len(entries_to_add)
+        lines = index_text.split('\n')
+        for insert_idx, title, rel in reversed(entries_to_add):
+            entry = f"| {title} | `{rel}` |\n"
+            lines.insert(insert_idx, entry)
+
         new_index = '\n'.join(lines)
 
-        # Update total count
+        # Update total count: add all fixes at once
         total_match = re.search(r'Total pages:\s*(\d+)', new_index)
         if total_match:
-            new_total = int(total_match.group(1)) + 1
+            new_total = int(total_match.group(1)) + fixes
             new_index = re.sub(r'(Total pages:\s*)\d+', rf'\g<1>{new_total}', new_index)
 
         _write_if_not_dry(INDEX_FILE, new_index)
-        if not _DRY_RUN:
-            fixes += 1
 
     return fixes
 
