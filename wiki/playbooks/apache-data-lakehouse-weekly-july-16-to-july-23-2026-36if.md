@@ -1,0 +1,130 @@
+---
+title: "apache data lakehouse weekly july 16 to july 23 2026 36if"
+type: playbook
+tags:
+  - llm-wiki
+  - knowledge-base
+    - application
+  - data
+  - image-generation
+  - mobile
+  - open-source
+  - prompt-engineering
+  - search
+  - software
+  - standards
+  - video-generation
+  - web
+---
+
+# apache data lakehouse weekly july 16 to july 23 2026 36if
+
+> **Source:** apache-data-lakehouse-weekly-july-16-to-july-23-2026-2026-07-23.md
+> **Type:** playbook
+> **Created:** 2026-07-23
+> **Updated:** 2026-07-23
+> **Confidence:** high
+> **Description:** --- source_url: https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-july-16-to-july-23-2026-36if ingested: 2026-07-23 sha256: ae468eba9356eb7214224782cf219e954dbe54580eed70f90390ed1ba1885fdf b...
+> **Sources:**
+>   - apache-data-lakehouse-weekly-july-16-to-july-23-2026-2026-07-23.md
+> **Links:**
+- [[its ok to get lucky 1laf]]
+- [[adding an ai chatbot to echostats 290m]]
+- [[perl weekly 782 perl v544 186n]]
+- [[the gitbook migration trap 4gp2]]
+- [[deadstop 2025 vs crossfit games 2024 1okg]]
+
+## Key Findings
+
+---
+source_url: https://dev.to/alexmercedcoder/apache-data-lakehouse-weekly-july-16-to-july-23-2026-36if
+ingested: 2026-07-23
+sha256: ae468eba9356eb7214224782cf219e954dbe54580eed70f90390ed1ba1885fdf
+blog_source: Dev Community
+---
+Apache Data Lakehouse Weekly: July 16 to July 23, 2026 - DEV Community
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+[Skip to content](#main-content)
+Navigation menu
+[
+![DEV Community](https://media2.dev.to/dynamic/image/quality=100/https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png)
+](/)
+Search
+[
+Powered by Algolia
+Search
+](https://www.algolia.com/developers/?utm_source=devto&utm_medium=referral)
+[
+Log in
+](https://dev.to/enter?signup_subforem=1)
+[
+Create account
+](https://dev.to/enter?signup_subforem=1&state=new-user)
+## DEV Community
+Close
+![](https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg)
+Add reaction
+![](https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg)
+Like
+![](https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg)
+Unicorn
+![](https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg)
+Exploding Head
+![](https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg)
+Raised Hands
+![](https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg)
+Fire
+Jump to Comments
+Save
+Boost
+More...
+Copy link
+Copy link
+Copied to Clipboard
+Share to X
+Share to LinkedIn
+Share to Facebook
+Share to Mastodon
+[Share Post via...](#)
+[Report Abuse](/report-abuse)
+[
+![Cover image for Apache Data Lakehouse Weekly: July 16 to July 23, 2026](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8tw8q3htk3fmlcdhoc8o.png)
+](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Farticles%2F8tw8q3htk3fmlcdhoc8o.png)
+[![Alex Merced](https://media2.dev.to/dynamic/image/width=50,height=50,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F288069%2Fb20116a9-b178-4ab1-bcb0-8aa28ed732b0.png)](/alexmercedcoder)
+[Alex Merced](/alexmercedcoder)
+Posted on Jul 23
+# 
+Apache Data Lakehouse Weekly: July 16 to July 23, 2026
+The lakehouse community spent this week deciding what belongs in the format and what belongs outside it. Iceberg contributors pushed to retire equality deletes in V4, Parquet voted on a new floating point encoding, and Arrow shipped its 25.0.0 release across every language it supports. Polaris debated the persistence layer that everything else sits on, DataFusion welcomed a new
+
+## Summary
+
+ committer alongside a fresh release, and the incubating Ossie project fielded hard questions about maturity and identity. Read together, the dev lists tell a story about a stack that is growing up. The debates are less about whether features exist and more about what guarantees each layer owes the ones above it.
+By the numbers, this was a heavy week. Polaris led with 89 messages, Iceberg posted 70, Parquet 65, Ossie 47, Arrow 36, and DataFusion 20. That is 327 messages across the six lists in seven days, spanning release votes, format proposals, persistence design, and governance. Every thread referenced below links to the full conversation on lists.apache.org, so treat this newsletter as a map and go read the primary sources on anything that touches your stack.
+## 
+Apache Iceberg
+The biggest structural conversation on the Iceberg list this week centered on the future of equality deletes. Huaxin Gao revived the long-running proposal to [deprecate equality deletes in Iceberg V4](https://lists.apache.org/thread/2gt23z7soc459d3l2tfg0snl07x87s15), and the thread drew nine messages of substantive engagement. Maximilian Michels gave the streaming perspective that many practitioners will recognize. He called equality deletes the number one pain for streaming use cases and noted that many users give up when they see merge-on-read costs, or they build custom solutions that pull them away from core Iceberg. Michels also shared concrete progress from the Flink side. The index that powers ConvertEqualityDeletes persists in Flink's managed RocksDB state, updates as new data arrives, and checkpoints on a schedule. The conversion works for data written by any engine, but the conversion itself still requires Flink. Storing that index in Iceberg and opening it to all engines is the next step toward an engine-agnostic answer. Michels closed with a +1 for deprecation in V4, and he framed the plan as realistic given the progress since the first conversation in 2024. Watch this one. Removing equality deletes reshapes how every streaming writer targets the format.
+Release energy stayed high on the Rust side. The community [voted on Iceberg Rust 0.10.0 RC4](https://lists.apache.org/thread/221q2qconm1zyxtor0fs86yt3st0xmo6) across a twelve message thread, passed it, and [announced the 0.10.0 release](https://lists.apache.org/thread/ohgwhy8x2cw4coons0kb000s0f8lv7jk) within the week. The Rust implementation keeps shipping at a steady pace, and each release makes it a more credible option for teams that want Iceberg without a JVM. The ecosystem also grew sideways this week. A [vote on the Apache Iceberg Terraform provider v0.1.0 RC1](https://lists.apache.org/thread/krophr3htb39xhxr3ldbcn7ghqm82ohj) followed an earlier RC0 round, which signals that infrastructure-as-code management of Iceberg resources is close to its first official release. Catalog and table management through Terraform closes a gap that platform teams have filled with custom scripts for years. Think about
+
+## Related Articles
+
+- [[its ok to get lucky 1laf]]
+- [[adding an ai chatbot to echostats 290m]]
+- [[perl weekly 782 perl v544 186n]]
+- [[the gitbook migration trap 4gp2]]
+- [[deadstop 2025 vs crossfit games 2024 1okg]]

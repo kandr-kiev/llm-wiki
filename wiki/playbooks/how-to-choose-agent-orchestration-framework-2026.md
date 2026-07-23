@@ -226,8 +226,8 @@ After (LangGraph):
 
 - `[[langgraph]]` — LangGraph entity page
 - `]` — CrewAI entity page
-- `[[how-to-choose-agent-orchestration-framework-2026]]]` — Microsoft Agent Framework entity page
+- `[[how-to-choose-agent-orchestration-framework-2026]]` — Microsoft Agent Framework entity page
 - `]` — AutoGen entity page
-- `[[how-to-build-ai-agents]]]` — AI Agents concept
+- `[[how-to-build-ai-agents]]` — AI Agents concept
 - `]` — Agent Workflow concept
 - `]` — Multi-Agent Systems concept

@@ -1,0 +1,191 @@
+---
+title: "third party ai assistants on whatsapp in the eu what changed in 2026 3gec"
+type: playbook
+tags:
+  - llm-wiki
+  - knowledge-base
+    - ai
+  - api
+  - application
+  - image-generation
+  - mobile
+  - open-source
+  - prompt-engineering
+  - search
+  - software
+  - standards
+  - video-generation
+  - web
+---
+
+# third party ai assistants on whatsapp in the eu what changed in 2026 3gec
+
+> **Source:** third-party-ai-assistants-on-whatsapp-in-the-eu-what-changed-in-2026-2026-07-23.md
+> **Type:** playbook
+> **Created:** 2026-07-23
+> **Updated:** 2026-07-23
+> **Confidence:** high
+> **Description:** --- source_url: https://dev.to/unifyport/third-party-ai-assistants-on-whatsapp-in-the-eu-what-changed-in-2026-3gec ingested: 2026-07-23 sha256: 3aff36490638d0402b14cb23dad7f1efa9f820910f6dd3dbb234ce1d...
+> **Sources:**
+>   - third-party-ai-assistants-on-whatsapp-in-the-eu-what-changed-in-2026-2026-07-23.md
+> **Links:**
+- [[its ok to get lucky 1laf]]
+- [[class vs object who is the big boss 32nj]]
+- [[starting my developer journey bh8]]
+- [[adding an ai chatbot to echostats 290m]]
+- [[perl weekly 782 perl v544 186n]]
+
+## Key Findings
+
+---
+source_url: https://dev.to/unifyport/third-party-ai-assistants-on-whatsapp-in-the-eu-what-changed-in-2026-3gec
+ingested: 2026-07-23
+sha256: 3aff36490638d0402b14cb23dad7f1efa9f820910f6dd3dbb234ce1d3f23683d
+blog_source: Dev Community
+---
+Third-Party AI Assistants on WhatsApp in the EU: What Changed in 2026 - DEV Community
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+[Skip to content](#main-content)
+Navigation menu
+[
+![DEV Community](https://media2.dev.to/dynamic/image/quality=100/https://dev-to-uploads.s3.amazonaws.com/uploads/logos/resized_logo_UQww2soKuUsjaOGNB38o.png)
+](/)
+Search
+[
+Powered by Algolia
+Search
+](https://www.algolia.com/developers/?utm_source=devto&utm_medium=referral)
+[
+Log in
+](https://dev.to/enter?signup_subforem=1)
+[
+Create account
+](https://dev.to/enter?signup_subforem=1&state=new-user)
+## DEV Community
+Close
+![](https://assets.dev.to/assets/heart-plus-active-9ea3b22f2bc311281db911d416166c5f430636e76b15cd5df6b3b841d830eefa.svg)
+Add reaction
+![](https://assets.dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg)
+Like
+![](https://assets.dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg)
+Unicorn
+![](https://assets.dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg)
+Exploding Head
+![](https://assets.dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg)
+Raised Hands
+![](https://assets.dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg)
+Fire
+Jump to Comments
+Save
+Boost
+More...
+Copy link
+Copy link
+Copied to Clipboard
+Share to X
+Share to LinkedIn
+Share to Facebook
+Share to Mastodon
+[Share Post via...](#)
+[Report Abuse](/report-abuse)
+[![UnifyPort profile image](https://media2.dev.to/dynamic/image/width=50,height=50,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F14080%2F2a631ff9-0438-4d46-95a9-84c1854130b1.jpeg)](/unifyport)
+[
+![unifyport](https://media2.dev.to/dynamic/image/width=50,height=50,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F4037236%2F4426e4ea-496c-49b5-a563-62d96b167f66.png)
+](/unifyport_cool)
+[unifyport](/unifyport_cool)
+for [UnifyPort](/unifyport)
+Posted on Jul 23
+• Originally published at [unifyport.ai](https://www.unifyport.ai/blog/whatsapp-third-party-ai-eu-interim-measures-2026/) 
+# 
+Third-Party AI Assistants on WhatsApp in the EU: What Changed in 2026
+[#ai](/t/ai)
+[#whatsapp](/t/whatsapp)
+[#api](/t/api)
+[#webdev](/t/webdev)
+On June 9, 2026, the European Commission ordered Meta to restore free WhatsApp access for competing general-purpose AI assistants while its antitrust investigation continues.
+That sounds simple, but the headline is easy to overread.
+The measure does not mean that every third-party assistant is automatically av
+
+## Summary
+
+ailable on every WhatsApp account. It is regional, temporary, and focused on a specific distribution path: competing general-purpose AI assistants using the WhatsApp Business API.
+## 
+The short answer
+Can third-party AI assistants use WhatsApp in Europe again?
+**Yes, under the interim conditions ordered by the European Commission—but actual availability still depends on the provider, region, onboarding status, and account eligibility.**
+The order requires Meta to restore the access conditions that applied before October 15, 2025, including free access, and to maintain them until the Commission reaches a final decision.
+It does not:
+- Create Business API credentials for a provider
+- Complete Meta app review
+- Approve individual WhatsApp accounts
+- Guarantee worldwide access
+- Apply automatically to every type of business chatbot
+- Represent a final finding that Meta violated competition law
+## 
+The timeline
+The distinction between policy, access, fees, and interim enforcement becomes clearer when viewed as a timeline.
+Date
+Event
+Practical meaning
+October 15, 2025
+Meta adopted a policy restricting competing general-purpose AI assistants from using the WhatsApp Business API
+Rival assistants lost the previous distribution path
+December 2025
+The European Commission opened an antitrust investigation
+Meta's policy entered formal competition review
+March 4, 2026
+Meta readmitted third-party general-purpose assistants but introduced a fee
+Access returned, but the Commission preliminarily considered the fee equivalent to the earlier restriction
+June 9, 2026
+The Commission imposed interim measures
+Meta was ordered to restore the previous free-access conditions
+Five working days later
+Compliance deadline specified by the Commission
+Meta was required to implement the temporary remedy
+Final decision
+Still pending
+The underlying antitrust investigation remains open
+An interim measure protects competition while an investigation continues. It changes what Meta must do now, but it does not predetermine the final legal outcome.
+## 
+Which type of “WhatsApp AI” are we discussing?
+The phrase “WhatsApp AI” can describe several unrelated products and architectures.
+Product or integration
+Covered directly by the EU measure?
+A competing general-purpose AI assistant distributed through the WhatsApp Business API
+Yes—this is the core subject
+A business-specific support bot answering questions about one company
+Not necessarily; its terms and permissions may be different
+Meta AI
+No; this is Meta's own assistant
+Meta Business Agent
+No; this is another Meta product
+An internal workflow that sends inbound customer messages to an AI model
+This is a separate integration decision
+A third-party assistant outside the European market
+No automatic conclusion should be drawn
+This distinction matters because the legal measure concerns access to a distribution channel. It does not define the technical availability of every chatbot, account, or region.
+## 
+Why might an assistant still be una
+
+## Related Articles
+
+- [[its ok to get lucky 1laf]]
+- [[class vs object who is the big boss 32nj]]
+- [[starting my developer journey bh8]]
+- [[adding an ai chatbot to echostats 290m]]
+- [[perl weekly 782 perl v544 186n]]

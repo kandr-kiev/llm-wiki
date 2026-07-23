@@ -1,0 +1,159 @@
+---
+title: "how to run an ai extractability audit"
+type: playbook
+tags:
+  - llm-wiki
+  - knowledge-base
+    - ai
+  - async
+  - container
+  - cost
+  - edge
+  - gpt
+  - news
+  - search
+---
+
+# how to run an ai extractability audit
+
+> **Source:** how-to-run-an-ai-extractability-audit-on-your-site-i-found-6-heading-tags-that-cost-me-citations-2026-07-23.md
+> **Type:** playbook
+> **Created:** 2026-07-23
+> **Updated:** 2026-07-23
+> **Confidence:** high
+> **Description:** --- source_url: https://www.freecodecamp.org/news/how-to-run-an-ai-extractability-audit/ ingested: 2026-07-23 sha256: ca44181de358d599ad95236cc4d2ca4ea9b6ef413238bca9d8064c351988d52a blog_source: Free...
+> **Sources:**
+>   - how-to-run-an-ai-extractability-audit-on-your-site-i-found-6-heading-tags-that-cost-me-citations-2026-07-23.md
+> **Links:**
+- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[5 Agent Skills I Use Every Day]]
+- [[robots txt 2023 war memorial]]
+- [[understanding dijkstra s algorithm]]
+- [[ai music video arena claude vs gpt 5.6]]
+
+## Key Findings
+
+---
+source_url: https://www.freecodecamp.org/news/how-to-run-an-ai-extractability-audit/
+ingested: 2026-07-23
+sha256: ca44181de358d599ad95236cc4d2ca4ea9b6ef413238bca9d8064c351988d52a
+blog_source: FreeCodeCamp Blog
+---
+How to Run an AI Extractability Audit on Your Site (I Found 6 Heading Tags That Cost Me Citations)
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+[![freeCodeCamp.org](https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg)](https://www.freecodecamp.org/news/)
+- 
+English
+- 
+Español
+- 
+中文（简体字）
+- 
+Italiano
+- 
+Português
+- 
+Українська
+- 
+日本語
+- 
+한국어
+Menu
+- 
+- Forum
+- Curriculum
+- 
+Night Mode
+Donate
+July 22, 2026
+/
+#SEO
+# How to Run an AI Extractability Audit on Your Site (I Found 6 Heading Tags That Cost Me Citations)
+![Chudi Nnorukam](https://cdn.hashnode.com/uploads/avatars/69d995ffc8e5007ddb1e81bb/457cd6e3-cc78-47d3-a70f-a1d2b20042fa.png)
+[
+Chudi Nnorukam
+](/news/author/chudinnorukam/)
+![How to Run an AI Extractability Audit on Your Site (I Found 6 Heading Tags That Cost Me Citations)](https://cdn.hashnode.com/uploads/covers/5e1e335a7a1d3fcc59028c64/9c86b8bb-fdda-4f95-9175-623de49c584c.png)
+When an AI assistant answers a question, it lifts sentences from a handful of pages and cites them. Whether your page is liftable is not a mystery or a vibe. It's a set of mechanical properties of your HTML that you can measure, score, and fix.
+This tutorial walks through the exact audit I ran on my own site, the six invisible heading tags it caught, the one-commit fix, and the CI gate that keeps the problem from coming back.
+Here is the punchline up front: my homepage scored 65 out of 100 on extractability. The cause was five UI card components that rendered their titles as `<h2>` and `<h3>` tags. Demoting those six headings to ARIA-preserving paragraphs, without changing a single visible pixel or removing one word of content, took the page to 100.
+Over the last 90 days, Microsoft's Bing Webmaster Tools reports 1,600 AI citations across 33 of my pages. Extraction is the stage of that pipeline this tutorial teaches you to audit.
+## Table of Contents
+- [What an Extractability Audit Actually Tests](#heading-what-an-extractability-audit-actually-tests)
+- [Prerequisites](#heading-prerequisites)
+- [Step 1: Pick the Pages Worth Auditing](#heading-step-1-pick-the-pages-worth-auditing)
+- [Step 2: Run the Five Checks](#heading-step-2-run-the-five-checks)
+- [Step 3: Read Your Failure Classes](#heading-step-3-read-your-failure-classes)
+- [Step 4: Find the Components Emitting Fake Headings](#heading-step-4-find-the-components-emitting-fake-headings)
+- [Step 5: Demote the Headings Without Breaking Accessibility](#heading-step-5-demote-the-headings-without-breaking-accessibility)
+- [Step 6: Gate the Fix in CI](#heading-step-6-gate-the-fix-in-ci)
+- [What Actually Moved](#heading-what-actually-moved)
+- [What I Rejected, and Why](#heading-what-i-rejected-and-why)
+- [FAQ](#heading-faq)
+- [What You Accomplished](#heading-what-you-accomplished)
+## Wh
+
+## Summary
+
+at an Extractability Audit Actually Tests
+A citation from an AI engine is the last step of a three-stage machine pipeline, and your page has to pass every stage:
+- **Retrieve**: the engine's crawler is allowed to fetch your page, and does.
+- **Extract**: the model finds a clean, self-contained answer in your markup.
+- **Attribute**: the engine is confident enough about who said it to put your name next to it.
+![Three-stage pipeline diagram labeled Retrieve, Extract, Attribute, showing that an AI engine must fetch a page, lift a clean answer from its markup, and identify the author before a citation appears.](https://cdn.hashnode.com/uploads/covers/69d995ffc8e5007ddb1e81bb/793015f2-359e-497a-b18b-4238999aa83e.png)
+Most AI-visibility advice concentrates on stage 1 (robots.txt, sitemaps, llms.txt) and stage 3 (schema, entity signals). Stage 2 is where I've found the cheapest wins, because it's pure HTML engineering, and because it fails silently: a page that retrieves fine and attributes fine but extracts poorly simply never appears in answers, and nothing tells you why.
+**Extractability** is the measurable version of stage 2: can a parser walking your rendered HTML find self-contained answer blocks under clearly scoped headings? The audit in this tutorial scores that on a 0 to 100 scale using five checks, each of which you can verify by hand:
+Check
+What it tests
+Weight
+F1
+The first sentence under every H2 stands alone as an answer
+30
+F2
+The first 200 tokens of the page contain a direct answer
+20
+F3
+Each H2 section opens with an answer in the 40 to 60 word band
+20
+F4
+Share of H2/H3 headings phrased as questions a user would type
+20
+F5
+An FAQ section exists at the article footer
+10
+A score of 75 or above lands in the EXTRACTABLE band. 40 to 74 is PARTIALLY-EXTRACTABLE. Below 40 is NOT-EXTRACTABLE. The bands come from the AI Visibility Readiness framework I maintain, but the five checks themselves are engine-agnostic: they encode how retrieval-augmented systems chunk pages by heading, embed the chunks, and lift the opening sentences of whichever chunk matches the query.
+The critical detail for this tutorial: **the audit counts every** `<h1>`**,** `<h2>`**, and** `<h3>` **in your rendered DOM.** Not the headings you wrote in your CMS. The headings your component library emits. That gap is where my six invisible failures lived.
+## Prerequisites
+- A live website you can measure and deploy (Any stack. My examples are SvelteKit, and every fix translates to React, Vue, or plain HTML.)
+- Python 3.10+ with `requests` and `beautifulsoup4` (`pip install requests beautifulsoup4`)
+- Access to your search console data (Google Search Console or Bing Webmaster Tools) to pick pages
+- A CI system (the example uses GitHub Actions)
+- About 90 minutes: 20 for the audit, 40 for the fix, 30 for the CI gate
+## Step 1: Pick the Pages Worth Auditing
+Don't audit your whole sitemap. Audit the pages that already have distribution, because extraction fixes multiply whatever retri
+
+## Related Articles
+
+- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[5 Agent Skills I Use Every Day]]
+- [[robots txt 2023 war memorial]]
+- [[understanding dijkstra s algorithm]]
+- [[ai music video arena claude vs gpt 5.6]]
