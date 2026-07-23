@@ -1,7 +1,7 @@
 ---
 source_url: https://qwen.ai/blog?id=qwen-image-3.0
 ingested: 2026-07-21
-sha256: 3d49811b981dc7e4d8477b9f2e3fe5fd7db3a56ccae57e06893aa359163203d6
+sha256: 0cb15ffef95b8b4a6c2522b86d03ba060b3aede0a494d86a3308bbcc9447e3c4
 blog_source: Hacker News
 ---
 

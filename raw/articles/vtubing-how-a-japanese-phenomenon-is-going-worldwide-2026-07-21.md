@@ -1,7 +1,7 @@
 ---
 source_url: https://www.tokyodev.com/articles/vtubing-how-a-japanese-phenomenon-is-going-worldwide
 ingested: 2026-07-21
-sha256: 9fcce0f7b6814cc242fefd8eacccf6e8172e47f1f697afe69eec8552fe3785c6
+sha256: 9de2b8ff303cda3ed37f07d93991536c0ae3e553afaf00808138ed5e31bdceb9
 blog_source: Hacker News
 ---
 

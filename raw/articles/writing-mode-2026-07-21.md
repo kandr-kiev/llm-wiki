@@ -1,7 +1,7 @@
 ---
 source_url: https://css-tricks.com/almanac/properties/w/writing-mode/
 ingested: 2026-07-21
-sha256: 7b07f1179d6a8d229e755ced5cbfe8b2d4e45dd0fabcc63818b353efea81f41f
+sha256: a35f7b9b9e8e135b74464525527bc11b0d888fed10249528ad9d312e87340fd9
 blog_source: CSS Tricks
 ---
 

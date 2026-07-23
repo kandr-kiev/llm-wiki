@@ -6,13 +6,14 @@
 
 Це твоя **персистентна база знань** про AI/LLM, побудована за патерном Karpathy. На відміну від RAG (який щоразу шукає знання з нуля), wiki компілює знання один раз і тримає їх актуальними. Кожна нова стаття розширює всю базу — це compounding effect.
 
-**Архітектура з 4 шарів:**
+**Архітектура з 5 шарів:**
 
 ```
 Шар 0: raw/          — незмінні джерела (сирці)
 Шар 1: .processed/   — проміжний кеш HTML→MD (не в git)
 Шар 2: wiki/         — синтезовані сторінки (concept, entity, comparison...)
-Шар 3: SCHEMA.md     — правила та конвенції
+Шар 3: graphify-out/ — структурний граф (nodes/edges/communities)
+Шар 4: SCHEMA.md     — правила та конвенції
 ```
 
 ## Ролі
@@ -22,6 +23,48 @@
 
 Ти — **куратор**. Агент — **збирач**.
 
+## Архітектура
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                    ШАР 3: Graphify-OUT (Структурний граф)            │
+│  graph.json  graph.html  GRAPH_REPORT.md  (1365 nodes, 6289 edges) │
+│  wiki_graph_generator.py → з wikilinks [[slug]]                    │
+└──────────────────┬──────────────────────────────────────────────────┘
+                   │ wikilinks → edges
+┌──────────────────▼──────────────────────────────────────────────────┐
+│                    ШАР 2: WIKI (Синтезовані сторінки)                 │
+│  wiki/  (1366 .md файлів)                                           │
+│  concepts/ entities/ comparisons/ synthesis/ digests/               │
+│  Index: index.md  |  Lint: wiki_lint.py  |  Cure: wiki_doctor.py   │
+└──────────────────┬──────────────────────────────────────────────────┘
+                   │ content extraction
+┌──────────────────▼──────────────────────────────────────────────────┐
+│                    ШАР 1: .PROCESSED (Проміжний кеш)                 │
+│  .processed/  (HTML→MD конвертація, не в git)                       │
+└──────────────────┬──────────────────────────────────────────────────┘
+                   │ raw source
+┌──────────────────▼──────────────────────────────────────────────────┐
+│                    ШАР 0: RAW (Незмінні джерела)                     │
+│  raw/articles/  raw/papers/  raw/transcripts/  (1961 файли)         │
+│  RSS feeds  •  GitHub repos  •  Local files  •  Telegram            │
+└─────────────────────────────────────────────────────────────────────┘
+
+              ШАР 4: SCHEMA.md (правила, конвенції, APPROVED_TAGS)
+```
+
+### Pipeline автоматизації
+
+```
+RSS/GitHub/Local → raw/ (immutable) → integrator → wiki/ (mutable)
+                        │                                      │
+                        ▼                                      ▼
+                  .processed/                    wiki_graph_generator → graph.json
+                  (HTML→MD)                                           │
+                                                                      ▼
+                                                              graphify_bridge.py → cross-references
+```
+
 ## Швидкий старт
 
 | Документ | Мова | Призначення |
@@ -30,37 +73,55 @@
 | [Алгоритм](docs/ALGORITHM.md) | EN | Ingest / Query / Lint workflows |
 | [Agent Contract](AGENTS.md) | EN | Операцийний контракт агента |
 | [Schema](SCHEMA.md) | EN | Теги, типи, валідація |
+| [Roadmap](docs/ROADMAP.md) | EN | План розвитку системи |
+| [Wiki Doctor](docs/wiki-doctor.md) | EN | 6-layer diagnostic & auto-cure |
 | [Інструкція для Монті](docs/INSTRUCTIONS_FOR_MONTY.md) | UA | Як збирати сирі джерела |
 | [Інструкція для Master](docs/MASTER_INSTRUCTIONS.md) | UA | Як керувати wiki |
-| [Wiki Doctor](docs/wiki-doctor.md) | EN | 6-layer diagnostic & auto-cure |
-| [Roadmap](docs/ROADMAP.md) | EN | План розвитку системи |
 
 ## Структура
 
-|| Шлях | Призначення |
-|------|-------------|-------------|
-|| `raw/` | Сирі джерела (immutable, 707 файли) |
-|| `wiki/` | Синтезовані сторінки (mutable, 421 файлів) |
-|| `.processed/` | Проміжний кеш HTML→MD (не в git) |
-|| `tools/` | Скрипти інфраструктури (15 шт.) |
-|| `docs/` | Документація |
-|| `architecture/` | SVG/HTML діаграми архітектури |
-|| `outputs/` | Згенеровані звіти (не в git) |
-|| `.obsidian/` | Obsidian vault конфігурація |
-|| `SCHEMA.md` | Структурний контракт (ядро) |
-|| `AGENT.md` | Контракт агента |
+| Шлях | Призначення |
+|------|-------------|
+| `raw/` | Сирі джерела (immutable, 1961 файли) |
+| `wiki/` | Синтезовані сторінки (mutable, 1366 файлів) |
+| `.processed/` | Проміжний кеш HTML→MD (не в git) |
+| `graphify-out/` | Структурний граф (graph.json, 1365 nodes) |
+| `tools/` | Скрипти інфраструктури (24 шт.) |
+| `docs/` | Документація |
+| `architecture/` | SVG/HTML діаграми архітектури |
+| `outputs/` | Згенеровані звіти (не в git) |
+| `.obsidian/` | Obsidian vault конфігурація |
+| `SCHEMA.md` | Структурний контракт (ядро) |
+| `AGENTS.md` | Контракт агента |
 
 ## Статистика
 
-|| Показник | Значення |
-|----------|----------|
-|| Сторінки wiki | **421** |
-|| Сирі джерела | **707** |
-|| Інструменти | **15** |
-|| Тегів (taxonomy) | **~184** |
-|| Всього в git | **1148** |
-|| Obsidian плагінів | **3** (dataview, git, templater) |
-|| Крон-задач | **3** (Source Monitor, Wiki Integrator, Wiki Doctor) |
+| Показник | Значення |
+|----------|---------|
+| Сторінки wiki | **1366** |
+| Сирі джерела | **1961** |
+| Скрипти | **24** |
+| Nodes графа | **1365** |
+| Edges графа | **6289** |
+| Communities | **16** |
+| Тегів (taxonomy) | **262** |
+| ERROR лінтингу | **0** [CLEAN] |
+| Obsidian плагінів | **3** (dataview, git, templater) |
+| Крон-задач | **3** (Source Monitor, Wiki Integrator, Wiki Doctor) |
+
+## Граф знань
+
+Граф згенеровано з реальних wikilinks між wiki-сторінками.
+
+| Метрика | Значення |
+|---------|---------|
+| Avg edges/node | 4.61 |
+| Top tag | `llm-wiki` (136) |
+| Top type | `comparison` (1129) |
+| Most linked | "Automating Ai Away" (91 inbound) |
+
+**Генератор:** `python3 tools/wiki_graph_generator.py`
+**Bridge:** `python3 tools/graphify_bridge.py --auto-fix`
 
 ## Команди
 
@@ -74,6 +135,8 @@
 | `"Що wiki знає про [тема]?"` | Пошук та синтез з існуючих сторінок |
 | `"Запусти лінт"` | `python3 tools/wiki_lint.py` |
 | `"Запусти doctor"` | `python3 tools/wiki_doctor.py` |
+| `"Перевір граф"` | `python3 tools/wiki_graph_generator.py` |
+| `"Онови bridge"` | `python3 tools/graphify_bridge.py --auto-fix` |
 
 ## Важливі правила
 
@@ -90,6 +153,8 @@
 
 - **Obsidian** — відкриває папку як vault, `[[wikilinks]]` працюють як клікабельні посилання
 - **GitHub** — версіонування, історія змін, спільна робота
+- **Graphify CLI** — `graphify extract`, `graphify query`, `graphify cluster-only`
+- **Hermes Agent** — autonomous knowledge management agent
 
 ---
 
