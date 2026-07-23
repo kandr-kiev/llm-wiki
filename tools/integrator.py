@@ -1781,8 +1781,185 @@ def extract_tags(raw_content: str, title: str) -> List[str]:
 # ---------------------------------------------------------------------------
 
 
+def _structural_depth(content: str) -> int:
+    """Score how structurally rich the content is."""
+    score = 0
+    # Headings indicate structure
+    h_count = len(re.findall(r"^#{1,3}\s+", content, re.MULTILINE))
+    score += min(h_count // 3, 5)
+
+    # Lists indicate organized information
+    list_count = len(re.findall(r"^\s*[-*•]\s+", content, re.MULTILINE))
+    score += min(list_count // 5, 3)
+
+    # Code blocks indicate technical depth
+    code_count = len(re.findall(r"```", content))
+    score += min(code_count // 2, 3)
+
+    # Tables indicate structured data
+    table_count = len(re.findall(r"^\|", content, re.MULTILINE))
+    score += min(table_count // 3, 3)
+
+    # References/sources
+    ref_count = len(re.findall(r"https?://|arxiv\.org|github\.com", content))
+    score += min(ref_count, 2)
+
+    # Citations
+    cite_count = len(re.findall(r"\[\d+\]|\(Author.*?\)", content))
+    score += min(cite_count, 2)
+
+    return min(score, 18)
+
+
+def _semantic_density(content: str, title: str) -> int:
+    """Score how information-dense the content is."""
+    score = 0
+    words = re.findall(r"\b\w+\b", content.lower())
+    if not words:
+        return 0
+
+    # Content-word ratio (vs filler)
+    fillers = {"the", "a", "an", "is", "are", "was", "were", "be", "been",
+               "being", "have", "has", "had", "do", "does", "did", "will",
+               "would", "could", "should", "may", "might", "can", "shall",
+               "to", "of", "in", "for", "on", "with", "at", "by", "from",
+               "as", "into", "through", "during", "before", "after", "above",
+               "below", "between", "out", "off", "over", "under", "again",
+               "further", "then", "once", "and", "but", "or", "nor", "not",
+               "so", "yet", "both", "either", "neither", "each", "every",
+               "all", "any", "few", "more", "most", "other", "some", "such",
+               "no", "only", "own", "same", "than", "too", "very", "just",
+               "because", "if", "when", "where", "how", "what", "which",
+               "who", "whom", "this", "that", "these", "those", "it", "its"}
+    content_words = [w for w in words if w not in fillers]
+    density = len(content_words) / max(len(words), 1)
+    score += int(density * 10)  # up to 10 points for density
+
+    # Unique word ratio (lexical diversity)
+    unique_ratio = len(set(content_words)) / max(len(content_words), 1)
+    score += int(unique_ratio * 5)  # up to 5 points for diversity
+
+    return min(score, 15)
+
+
+def _tag_precision(content: str, title: str, extracted_tags: List[str]) -> int:
+    """Score how well extracted tags match the actual content."""
+    if not extracted_tags:
+        return 0
+
+    score = 0
+    content_lower = (content + " " + title).lower()
+
+    # Map tags back to expected content signals
+    tag_signal_map = {
+        "llm": {"language model", "large language", "llm", "gpt", "claude", "gemini"},
+        "rag": {"retrieval augmented", "retrieval-augmented", "vector store", "vector database", "knowledge base"},
+        "fine-tuning": {"fine-tun", "finetun", "lora", "qlora", "adapter", "sft", "instruction tun"},
+        "transformers": {"transformer", "attention mechanism", "self-attention", "multi-head attention", "encoder", "decoder"},
+        "computer-vision": {"image", "vision", "conv", "cnn", "resnet", "detection", "segmentation", "classification"},
+        "nlp": {"natural language", "token", "tokenization", "nlp", "text processing", "sentiment"},
+        "deep-learning": {"neural network", "backpropagation", "gradient", "loss function", "activation function"},
+        "security": {"security", "privacy", "adversarial", "vulnerability", "attack", "defense", "encryption", "authentication"},
+        "deployment": {"deploy", "inference", "serving", "latency", "throughput", "production", "api", "endpoint"},
+    }
+
+    for tag, signals in tag_signal_map.items():
+        if tag in extracted_tags:
+            matches = sum(1 for s in signals if s in content_lower)
+            if matches >= 2:
+                score += 2  # strong confirmation
+            elif matches >= 1:
+                score += 1  # weak confirmation
+
+    return min(score, 10)
+
+
+def _content_type_markers(content: str) -> Dict[str, float]:
+    """Analyze content structure to determine type probabilities."""
+    content_lower = content.lower()
+    title_lower = (content.split("---")[0] if "---" in content else content).lower()
+    full_lower = content_lower + " " + title_lower
+
+    markers = {
+        "comparison": 0.0,
+        "playbook": 0.0,
+        "synthesis": 0.0,
+        "concept": 0.0,
+    }
+
+    # Comparison signals
+    comparison_patterns = [
+        r"\b(vs\.?|versus)\b",
+        r"\bcompared?\s+(?:to|with|against)\b",
+        r"\b(?:(?:pros|cons|advantages?|disadvantages?|trade\s*offs?)\b.*?(?:vs|versus|compared))",
+        r"\bwhich.*?(?:is|are|should)\b.*?(?:better|worse|preferred)\b",
+        r"\bdifferen(?:t|ces?)\s+(?:between|in\s+(?:\w+\s+and|\w+\s+/))",
+        r"\balternatives?\s*(?:to|for)\b",
+        r"\bside\s*[-_]?by\s*[-_]?side\b",
+        r"\bhead\s*[-_]?to\s*[-_]?head\b",
+    ]
+    markers["comparison"] += sum(1 for p in comparison_patterns if re.search(p, full_lower))
+
+    # Playbook signals
+    playbook_patterns = [
+        r"\bhow\s+to\b",
+        r"\bstep\s*[-_]?by\s*[-_]?step\b",
+        r"\bguide\b",
+        r"\btutorial\b",
+        r"\bwant\s+to\b",
+        r"\bimplement(?:ing|ation)?\b",
+        r"\bsetup\b",
+        r"\bconfig(?:uration)?\b",
+        r"\bbest\s+practices?\b",
+        r"\bworkflow\b",
+        r"\bprocedure\b",
+        r"\brecipe\b",
+        r"\bplaybook\b",
+    ]
+    markers["playbook"] += sum(1 for p in playbook_patterns if re.search(p, full_lower))
+
+    # Synthesis signals
+    synthesis_patterns = [
+        r"\boverview\b",
+        r"\bstate\s+of\b",
+        r"\btrends?\b",
+        r"\blandscape\b",
+        r"\bsurvey\b",
+        r"\breview\b",
+        r"\banalysis\b",
+        r"\bfuture\b",
+        r"\bemerging\b",
+        r"\bcomprehensive\b",
+        r"\bcomplete\s+guide\b",
+        r"\bultimate\b",
+        r"\bdefinitive\b",
+        r"\broadmap\b",
+    ]
+    markers["synthesis"] += sum(1 for p in synthesis_patterns if re.search(p, full_lower))
+
+    # Concept signals (default — present if no strong other signals)
+    concept_patterns = [
+        r"\bconcept\b",
+        r"\bdef(?:inition|ine)\b",
+        r"\bwhat\s+is\b",
+        r"\bexplain\b",
+        r"\bintroduc(?:e|tion)\b",
+        r"\bbasic\b",
+        r"\bfundamental\b",
+        r"\bcore\b",
+    ]
+    markers["concept"] += sum(1 for p in concept_patterns if re.search(p, full_lower))
+
+    # Boost concept if it's a technical term (no action verbs)
+    # Short, noun-heavy titles with no how-to/compare/survey markers
+    if markers["playbook"] < 2 and markers["comparison"] < 2 and markers["synthesis"] < 2:
+        markers["concept"] += 2
+
+    return markers
+
+
 def score_relevance(raw_content: str, title: str = "") -> Tuple[int, str]:
-    """Score content relevance and determine page type.
+    """Score content relevance using semantic-aware analysis.
 
     Returns:
         (score, page_type)
@@ -1791,37 +1968,47 @@ def score_relevance(raw_content: str, title: str = "") -> Tuple[int, str]:
     content_lower = raw_content.lower()
     title_lower = title.lower()
 
-    # Length bonus
+    # === Structural Depth (0-18) ===
+    score += _structural_depth(raw_content)
+
+    # === Semantic Density (0-15) ===
+    score += _semantic_density(raw_content, title)
+
+    # Extract tags for precision scoring
+    tags = extract_tags(raw_content, title)
+    score += _tag_precision(raw_content, title, tags)
+
+    # === Content Type Analysis ===
+    type_markers = _content_type_markers(raw_content)
+    page_type = max(type_markers, key=type_markers.get)
+
+    # Type confirmation bonus: if content type aligns with title signals
+    # e.g., "vs" in title → comparison confirmed
+    title_type_boost = 0
+    if "vs" in title_lower or "versus" in title_lower:
+        title_type_boost = type_markers["comparison"]
+    elif "how to" in title_lower or "guide" in title_lower:
+        title_type_boost = type_markers["playbook"]
+    elif "overview" in title_lower or "landscape" in title_lower:
+        title_type_boost = type_markers["synthesis"]
+    score += min(title_type_boost, 3)
+
+    # === Length bonus (diminishing returns) ===
     length = len(raw_content)
-    if length > 5000:
-        score += 5
-    elif length > 2000:
+    if length > 10000:
         score += 3
-    elif length > 500:
+    elif length > 5000:
+        score += 2
+    elif length > 2000:
         score += 1
 
-    # Keyword density
-    keywords = [
-        "model", "training", "data", "algorithm", "neural",
-        "learning", "ai", "machine", "deep", "language",
-        "transformer", "attention", "embedding", "token",
-        "inference", "deployment", "architecture",
+    # === Source quality bonus ===
+    source_indicators = [
+        "arxiv.org", "research", "paper", "study", "experiment",
+        "benchmark", "evaluation", "results", "methodology",
     ]
-    for kw in keywords:
-        count = content_lower.count(kw)
-        score += min(count, 3)
-
-    # Technical depth
-    technical_terms = [
-        "parameter", "weight", "gradient", "loss", "optimizer",
-        "hyperparameter", "batch", "epoch", "layer", "activation",
-        "convolution", "recurrent", "attention", "transformer",
-    ]
-    tech_count = sum(1 for term in technical_terms if term in content_lower)
-    score += min(tech_count, 5)
-
-    # Determine page type
-    page_type = classify_page_type(raw_content, title)
+    source_score = sum(1 for s in source_indicators if s in content_lower)
+    score += min(source_score, 3)
 
     return score, page_type
 

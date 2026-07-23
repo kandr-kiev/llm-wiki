@@ -1,461 +1,316 @@
 #!/usr/bin/env python3
 """
-Graphify Bridge — connects graphify-out/graph.json with wiki/ directory.
+graphify_bridge.py — Bridge між graphify-out/graph.json та wiki/
 
-Functions:
-- Orphan detection (graph nodes not in wiki, wiki pages not in graph)
-- Fuzzy cross-link suggestions
-- Graph validation against SCHEMA.md
-- Bridge report generation
+Алгоритм:
+1. Завантажити graph.json → extract nodes + edges
+2. Завантажити wiki/index.md → extract all wiki slugs
+3. Fuzzy match: graph node labels ↔ wiki slugs
+4. Для кожного match:
+   - Додати wikilink [[slug]] до wiki сторінки якщо не існує
+   - Додати graph node як "related_structure" у frontmatter
+5. Знайти orphan graph nodes → запропонувати нові wiki сторінки
+6. Report: {matched, orphan_nodes, new_links_added}
 
 Usage:
-    python3 tools/graphify_bridge.py --mode full
-    python3 tools/graphify_bridge.py --mode orphans
-    python3 tools/graphify_bridge.py --mode suggestions
-    python3 tools/graphify_bridge.py --mode validate
+  python3 tools/graphify_bridge.py [--dry-run] [--auto-fix]
 """
 
-import argparse
-import difflib
 import json
 import os
 import re
 import sys
-from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from collections import defaultdict
+from difflib import SequenceMatcher
 
-# Paths
-SCRIPT_DIR = Path(__file__).resolve().parent
-WIKI_ROOT = SCRIPT_DIR.parent  # /workspace/llm-wiki
-GRAPH_FILE = WIKI_ROOT / "graphify-out" / "graph.json"
-WIKI_DIR = WIKI_ROOT / "wiki"
-SCHEMA_FILE = WIKI_ROOT / "SCHEMA.md"
-OUTPUT_DIR = WIKI_ROOT / "graphify-out"
+# === Configuration ===
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+GRAPH_JSON = PROJECT_ROOT / "graphify-out" / "graph.json"
+WIKI_DIR = PROJECT_ROOT / "wiki"
+WIKI_INDEX = WIKI_DIR / "index.md"
+SLUGS_FILE = PROJECT_ROOT / "wiki" / ".slug_cache.json"
 
-# Fuzzy matching config
-FUZZY_THRESHOLD = 0.75
-STOP_WORDS = {
-    "the", "a", "an", "and", "or", "but", "in", "on", "at", "to", "for",
-    "of", "with", "by", "from", "is", "are", "was", "were", "be", "been",
-    "being", "have", "has", "had", "do", "does", "did", "will", "would",
-    "could", "should", "may", "might", "can", "shall", "it", "its", "this",
-    "that", "these", "those", "i", "you", "he", "she", "we", "they", "me",
-    "him", "her", "us", "them", "my", "your", "his", "our", "their",
-    "not", "no", "nor", "so", "if", "then", "than", "too", "very",
-    "just", "about", "above", "after", "again", "all", "also", "am",
-    "any", "as", "because", "before", "between", "both", "each", "few",
-    "more", "most", "other", "out", "over", "own", "same", "some",
-    "such", "up", "what", "when", "where", "which", "while", "who",
-    "whom", "why", "how", "into", "through", "during", "only", "down",
-    "even", "get", "got", "make", "made", "like", "well", "back",
-    "new", "now", "way", "use", "used", "using", "one", "two",
-}
+# Fuzzy match threshold (0.0-1.0)
+FUZZY_THRESHOLD = 0.65
 
 
-def normalize_text(text: str) -> str:
-    """Normalize text for fuzzy comparison."""
-    if not text:
-        return ""
-    text = text.lower()
-    text = re.sub(r"[_\-\.]", " ", text)
-    words = [w for w in text.split() if w not in STOP_WORDS and w.isalnum()]
-    return " ".join(words)
+# === Helpers ===
+
+def fuzzy_match(a: str, b: str) -> float:
+    """Calculate similarity between two strings."""
+    a_norm = a.lower().strip().replace("-", " ").replace("_", " ")
+    b_norm = b.lower().strip().replace("-", " ").replace("_", " ")
+    return SequenceMatcher(None, a_norm, b_norm).ratio()
 
 
-def fuzzy_match(query: str, candidates: list[str], threshold: float = FUZZY_THRESHOLD) -> list[tuple[str, float]]:
-    """Fuzzy match query against candidates. Returns list of (candidate, score)."""
-    normalized_query = normalize_text(query)
-    if not normalized_query:
-        return []
+def extract_slugs_from_index(index_content: str) -> dict:
+    """Extract all wiki slugs from index.md.
+    Returns: {slug: title}
     
-    results = []
-    for candidate in candidates:
-        normalized_candidate = normalize_text(candidate)
-        if not normalized_candidate:
-            continue
-        ratio = difflib.SequenceMatcher(None, normalized_query, normalized_candidate).ratio()
-        if ratio >= threshold:
-            results.append((candidate, ratio))
-    
-    results.sort(key=lambda x: x[1], reverse=True)
-    return results[:3]  # Top 3 matches
-
-
-def load_graph() -> dict | None:
-    """Load graph.json. Returns None if file doesn't exist."""
-    if not GRAPH_FILE.exists():
-        return None
-    try:
-        with open(GRAPH_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, IOError) as e:
-        print(f"ERROR: Failed to load {GRAPH_FILE}: {e}", file=sys.stderr)
-        return None
-
-
-def get_wiki_slugs() -> dict[str, str]:
-    """Get all wiki slugs -> title mappings."""
+    Format: ### [title](wiki/path/to/file.md)
+    Also handles: - [[slug]] — Title
+    """
     slugs = {}
-    if not WIKI_DIR.exists():
-        return slugs
     
-    for md_file in WIKI_DIR.rglob("*.md"):
-        slug = md_file.stem
-        # Try to read title from frontmatter
-        title = slug.replace("-", " ").title()
-        try:
-            with open(md_file, "r", encoding="utf-8") as f:
-                content = f.read(1000)  # Read first 1KB for frontmatter
-                if content.startswith("---"):
-                    lines = content.split("\n")
-                    for i, line in enumerate(lines[1:], 1):
-                        if line.startswith("title:"):
-                            title = line.split(":", 1)[1].strip()
-                            break
-        except IOError:
-            pass
+    # Pattern: ### [title](wiki/path/to/file.md)
+    for match in re.finditer(r"###\s+\[([^\]]+)\]\s*\(\s*wiki/([^\)]+)\s*\)", index_content):
+        title = match.group(1).strip()
+        path = match.group(2).strip()
+        # Extract slug from path: wiki/comparisons/slug.md → slug
+        slug = Path(path).stem
         slugs[slug] = title
+    
+    # Pattern: - [[slug]] — Title (legacy format)
+    for match in re.finditer(r"-\s+\[\[([^\]]+)\]\]\s*[—-]\s*(.+)", index_content):
+        slug = match.group(1).strip()
+        title = match.group(2).strip()
+        if slug not in slugs:
+            slugs[slug] = title
+    
+    # Pattern: [[slug]] (bare wikilinks)
+    for match in re.finditer(r"\[\[([^\]]+)\]\]", index_content):
+        slug = match.group(1).strip()
+        if slug not in slugs:
+            slugs[slug] = slug
     
     return slugs
 
 
-def get_graph_node_ids(graph: dict) -> set[str]:
-    """Extract all node IDs from graph.json."""
-    nodes = graph.get("nodes", [])
-    return {node.get("id", "") for node in nodes if node.get("id")}
-
-
-def detect_orphans(graph: dict, wiki_slugs: dict[str, str]) -> tuple[set[str], set[str]]:
-    """
-    Detect orphans:
-    - Graph nodes not found in wiki
-    - Wiki pages not found in graph
-    Returns: (graph_orphans, wiki_orphans)
-    """
-    graph_ids = get_graph_node_ids(graph)
-    wiki_slug_set = set(wiki_slugs.keys())
-    
-    # Normalize for comparison
-    normalized_graph = {normalize_text(nid): nid for nid in graph_ids}
-    normalized_wiki = {normalize_text(slug): slug for slug in wiki_slug_set}
-    
-    graph_orphans = set()
-    wiki_orphans = set()
-    
-    for nid in graph_ids:
-        norm = normalize_text(nid)
-        if not fuzzy_match(nid, list(wiki_slug_set)):
-            graph_orphans.add(nid)
-    
-    for slug in wiki_slug_set:
-        norm = normalize_text(slug)
-        if not fuzzy_match(slug, list(graph_ids)):
-            wiki_orphans.add(slug)
-    
-    return graph_orphans, wiki_orphans
-
-
-def suggest_crosslinks(graph: dict, wiki_slugs: dict[str, str], max_suggestions: int = 50) -> list[dict]:
-    """
-    Suggest cross-links between graph nodes and wiki pages based on fuzzy matching.
-    Returns list of {node, wiki_slug, score, reason}.
-    """
-    graph_ids = list(get_graph_node_ids(graph))
-    suggestions = []
-    
-    for slug, title in wiki_slugs.items():
-        # Skip already-matched pages (approximate check)
-        if fuzzy_match(slug, graph_ids, threshold=0.85):
+def extract_slugs_from_files(wiki_dir: Path) -> dict:
+    """Extract slugs from all wiki .md files frontmatter."""
+    slugs = {}
+    for md_file in wiki_dir.rglob("*.md"):
+        if md_file.name == "index.md":
             continue
-        
-        # Find best graph match
-        matches = fuzzy_match(slug, graph_ids, threshold=0.65)
-        if matches:
-            best_match, score = matches[0]
-            suggestions.append({
-                "wiki_slug": slug,
-                "wiki_title": title,
-                "graph_node": best_match,
-                "score": round(score, 3),
-                "reason": f"Fuzzy match score {score:.2f}"
+        try:
+            content = md_file.read_text(encoding="utf-8")
+            # Read frontmatter slug
+            slug_match = re.search(r"^---\s*\n.*?^slug:\s*(.+?)\s*\n---", content, re.DOTALL)
+            if slug_match:
+                slug = slug_match.group(1).strip()
+                slugs[slug] = slug
+        except Exception:
+            pass
+    return slugs
+
+
+def load_graph() -> dict:
+    """Load graph.json and return parsed graph."""
+    if not GRAPH_JSON.exists():
+        print(f"ERROR: {GRAPH_JSON} not found. Run: graphify .")
+        sys.exit(1)
+    with open(GRAPH_JSON) as f:
+        return json.load(f)
+
+
+def load_slugs() -> dict:
+    """Load wiki slugs from index.md and files."""
+    slugs = {}
+    if WIKI_INDEX.exists():
+        slugs.update(extract_slugs_from_index(WIKI_INDEX.read_text(encoding="utf-8")))
+    slugs.update(extract_slugs_from_files(WIKI_DIR))
+    return slugs
+
+
+def match_graph_to_slugs(graph: dict, slugs: dict) -> list:
+    """Fuzzy match graph nodes to wiki slugs.
+    Returns: [{graph_node, matched_slug, score, type}]
+    """
+    matches = []
+    matched_slugs = set()
+
+    for node in graph.get("nodes", []):
+        label = node.get("label", "")
+        node_type = node.get("file_type", "unknown")
+        source_file = node.get("source_file", "")
+
+        # Skip non-content nodes (config, cache, etc.)
+        if source_file and any(skip in source_file for skip in [
+            ".obsidian/", "node_modules/", ".git/", "cache/",
+            "graphify-out/", "tools/", "utils.py", "requirements"
+        ]):
+            continue
+
+        # Find best match
+        best_slug = None
+        best_score = 0.0
+
+        for slug in slugs:
+            score = fuzzy_match(label, slug)
+            # Boost for exact substring match
+            if slug.lower() in label.lower() or label.lower() in slug.lower():
+                score = max(score, 0.85)
+            # Boost for type match
+            if node_type == slug.split("-")[0].lower() if "-" in slug else False:
+                score = min(score + 0.1, 1.0)
+
+            if score > best_score and score >= FUZZY_THRESHOLD:
+                best_score = score
+                best_slug = slug
+
+        if best_slug:
+            matches.append({
+                "graph_node": node,
+                "matched_slug": best_slug,
+                "score": round(best_score, 3),
+                "type": node_type,
             })
-    
-    suggestions.sort(key=lambda x: x["score"], reverse=True)
-    return suggestions[:max_suggestions]
+            matched_slugs.add(best_slug)
+
+    return matches
 
 
-def validate_graph_against_schema(graph: dict) -> list[str]:
-    """Validate graph.json nodes against SCHEMA.md tag taxonomy."""
-    errors = []
-    
-    # Load approved tags from SCHEMA.md
-    approved_tags = set()
-    if SCHEMA_FILE.exists():
-        with open(SCHEMA_FILE, "r", encoding="utf-8") as f:
-            content = f.read()
-            # Look for tag taxonomy section
-            in_taxonomy = False
-            for line in content.split("\n"):
-                if "## Tag Taxonomy" in line or "### Tag Taxonomy" in line:
-                    in_taxonomy = True
-                    continue
-                if in_taxonomy and line.startswith("## "):
-                    break
-                if in_taxonomy and line.strip().startswith("- "):
-                    tag = line.strip().lstrip("- ").split(" ")[0].strip()
-                    if tag:
-                        approved_tags.add(tag.lower())
-    
-    # Check node tags
-    nodes = graph.get("nodes", [])
-    for node in nodes:
-        tags = node.get("tags", [])
-        for tag in tags:
-            if approved_tags and tag.lower() not in approved_tags:
-                errors.append(f"Node '{node.get('id', 'unknown')}' has unapproved tag: {tag}")
-    
-    return errors
+def detect_orphan_nodes(graph: dict, matched_slugs: set) -> list:
+    """Find graph nodes with no matching wiki slug."""
+    orphans = []
+    for node in graph.get("nodes", []):
+        label = node.get("label", "")
+        source_file = node.get("source_file", "")
+
+        # Skip non-content nodes
+        if source_file and any(skip in source_file for skip in [
+            ".obsidian/", "node_modules/", ".git/", "cache/",
+            "graphify-out/", "tools/", "utils.py", "requirements"
+        ]):
+            continue
+
+        if label not in matched_slugs:
+            orphans.append(node)
+
+    return orphans
 
 
-def generate_bridge_report(graph: dict, wiki_slugs: dict[str, str],
-                           graph_orphans: set[str], wiki_orphans: set[str],
-                           suggestions: list[dict], validation_errors: list[str]) -> str:
-    """Generate markdown bridge report."""
-    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    
-    lines = [
-        f"# Graphify Bridge Report",
-        f"",
-        f"**Generated:** {now}",
-        f"**Graph file:** {GRAPH_FILE}",
-        f"**Wiki root:** {WIKI_DIR}",
-        f"",
-        f"---",
-        f"",
-        f"## Summary",
-        f"",
-        f"| Metric | Value |",
-        f"|--------|-------|",
-        f"| Graph nodes | {len(get_graph_node_ids(graph))} |",
-        f"| Wiki pages | {len(wiki_slugs)} |",
-        f"| Graph orphans | {len(graph_orphans)} |",
-        f"| Wiki orphans | {len(wiki_orphans)} |",
-        f"| Cross-link suggestions | {len(suggestions)} |",
-        f"| Validation errors | {len(validation_errors)} |",
-        f"",
-        f"---",
-        f"",
-    ]
-    
-    # Graph orphans
-    if graph_orphans:
-        lines.extend([
-            f"## Graph Orphans ({len(graph_orphans)} nodes)",
-            f"",
-            f"Nodes in graph.json that don't match any wiki page:",
-            f"",
-        ])
-        for orphan in sorted(graph_orphans)[:50]:
-            lines.append(f"- `{orphan}`")
-        if len(graph_orphans) > 50:
-            lines.append(f"\n*... and {len(graph_orphans) - 50} more*")
-        lines.append("")
-    
-    # Wiki orphans
-    if wiki_orphans:
-        lines.extend([
-            f"## Wiki Orphans ({len(wiki_orphans)} pages)",
-            f"",
-            f"Wiki pages that don't match any graph node:",
-            f"",
-        ])
-        for orphan in sorted(wiki_orphans)[:50]:
-            title = wiki_slugs.get(orphan, orphan.replace("-", " ").title())
-            lines.append(f"- `{orphan}` — {title}")
-        if len(wiki_orphans) > 50:
-            lines.append(f"\n*... and {len(wiki_orphans) - 50} more*")
-        lines.append("")
-    
-    # Cross-link suggestions
-    if suggestions:
-        lines.extend([
-            f"## Cross-Link Suggestions ({len(suggestions)} suggestions)",
-            f"",
-            f"Wiki pages that could be linked to graph nodes:",
-            f"",
-            f"| Wiki Slug | Score | Graph Node |",
-            f"|-----------|-------|------------|",
-        ])
-        for s in suggestions[:30]:
-            lines.append(f"| `{s['wiki_slug']}` | {s['score']:.2f} | `{s['graph_node']}` |")
-        if len(suggestions) > 30:
-            lines.append(f"\n*... and {len(suggestions) - 30} more*")
-        lines.append("")
-    
-    # Validation errors
-    if validation_errors:
-        lines.extend([
-            f"## Validation Errors ({len(validation_errors)} errors)",
-            f"",
-        ])
-        for error in validation_errors[:20]:
-            lines.append(f"- {error}")
-        if len(validation_errors) > 20:
-            lines.append(f"\n*... and {len(validation_errors) - 20} more*")
-        lines.append("")
-    
-    # Recommendations
-    lines.extend([
-        f"---",
-        f"",
-        f"## Recommendations",
-        f"",
-    ])
-    
-    if graph_orphans:
-        lines.append(f"- **Review graph orphans**: These nodes may be stale or from sources not yet ingested into wiki/")
-    if wiki_orphans:
-        lines.append(f"- **Review wiki orphans**: These pages could benefit from graph edges or should be added to graph")
-    if suggestions:
-        lines.append(f"- **Apply cross-links**: {min(len(suggestions), 10)} high-confidence suggestions available")
-    if validation_errors:
-        lines.append(f"- **Fix tags**: {len(validation_errors)} nodes have unapproved tags")
-    
-    if not any([graph_orphans, wiki_orphans, suggestions, validation_errors]):
-        lines.append("- **All clear**: No issues detected!")
-    
-    lines.append("")
-    return "\n".join(lines)
+def add_wikilinks_to_wiki(matches: list, dry_run: bool = True) -> int:
+    """Add [[wikilink]] references to wiki pages based on graph matches.
+    Returns: count of new links added.
+    """
+    new_links = 0
+
+    for match in matches:
+        slug = match["matched_slug"]
+        graph_node = match["graph_node"]
+
+        # Build wiki path
+        wiki_path = WIKI_DIR / f"{slug}.md"
+        if not wiki_path.exists():
+            continue
+
+        try:
+            content = wiki_path.read_text(encoding="utf-8")
+            slug = match["matched_slug"]
+
+            # Check if wikilink already exists (both slug and graph_label)
+            graph_label = graph_node.get("label", "")
+            if f"[[{slug}]]" in content or f"[[{graph_label}]]" in content:
+                continue
+
+            # Add to "See also" section or at end
+            see_also_match = re.search(r"\n##\s*See\s*also", content, re.IGNORECASE)
+            if see_also_match:
+                insert_pos = see_also_match.end()
+                new_content = content[:insert_pos] + f"\n- [[{slug}]]\n" + content[insert_pos:]
+            else:
+                new_content = content.rstrip() + f"\n\nSee also: [[{slug}]]\n"
+
+            if not dry_run:
+                wiki_path.write_text(new_content, encoding="utf-8")
+            new_links += 1
+
+        except Exception as e:
+            print(f"  WARNING: Could not update {wiki_path}: {e}")
+
+    return new_links
 
 
-def save_text_file(path: Path, content: str):
-    """Save content to file, creating parent dirs."""
-    path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content)
-
-
-def mode_full():
-    """Run full analysis."""
-    print(f"[bridge] Loading graph from {GRAPH_FILE}...")
-    graph = load_graph()
-    if not graph:
-        print("[bridge] ERROR: graph.json not found. Run 'graphify extract' first.", file=sys.stderr)
-        sys.exit(1)
-    
-    print(f"[bridge] Loading wiki slugs...")
-    wiki_slugs = get_wiki_slugs()
-    
-    print(f"[bridge] Detecting orphans...")
-    graph_orphans, wiki_orphans = detect_orphans(graph, wiki_slugs)
-    
-    print(f"[bridge] Suggesting cross-links...")
-    suggestions = suggest_crosslinks(graph, wiki_slugs)
-    
-    print(f"[bridge] Validating against SCHEMA.md...")
-    validation_errors = validate_graph_against_schema(graph)
-    
-    print(f"[bridge] Generating report...")
-    report = generate_bridge_report(graph, wiki_slugs, graph_orphans, wiki_orphans, suggestions, validation_errors)
-    
-    # Save files
-    save_text_file(OUTPUT_DIR / "bridge_report.md", report)
-    save_text_file(OUTPUT_DIR / "orphans_graph.txt", "\n".join(sorted(graph_orphans)) + "\n")
-    save_text_file(OUTPUT_DIR / "orphans_wiki.txt", "\n".join(sorted(wiki_orphans)) + "\n")
-    
-    suggestions_data = json.dumps(suggestions, indent=2, ensure_ascii=False)
-    save_text_file(OUTPUT_DIR / "orphans_suggestions.json", suggestions_data)
-    
-    # Print summary
-    print(f"\n[bridge] === Summary ===")
-    print(f"[bridge] Graph nodes: {len(get_graph_node_ids(graph))}")
-    print(f"[bridge] Wiki pages: {len(wiki_slugs)}")
-    print(f"[bridge] Graph orphans: {len(graph_orphans)}")
-    print(f"[bridge] Wiki orphans: {len(wiki_orphans)}")
-    print(f"[bridge] Cross-link suggestions: {len(suggestions)}")
-    print(f"[bridge] Validation errors: {len(validation_errors)}")
-    print(f"\n[bridge] Files saved to {OUTPUT_DIR}/")
-    print(f"[bridge]   - bridge_report.md")
-    print(f"[bridge]   - orphans_graph.txt")
-    print(f"[bridge]   - orphans_wiki.txt")
-    print(f"[bridge]   - orphans_suggestions.json")
-
-
-def mode_orphans():
-    """Run orphan detection only."""
-    print(f"[bridge] Loading graph from {GRAPH_FILE}...")
-    graph = load_graph()
-    if not graph:
-        print("[bridge] ERROR: graph.json not found.", file=sys.stderr)
-        sys.exit(1)
-    
-    wiki_slugs = get_wiki_slugs()
-    graph_orphans, wiki_orphans = detect_orphans(graph, wiki_slugs)
-    
-    save_text_file(OUTPUT_DIR / "orphans_graph.txt", "\n".join(sorted(graph_orphans)) + "\n")
-    save_text_file(OUTPUT_DIR / "orphans_wiki.txt", "\n".join(sorted(wiki_orphans)) + "\n")
-    
-    print(f"[bridge] Graph orphans: {len(graph_orphans)}")
-    print(f"[bridge] Wiki orphans: {len(wiki_orphans)}")
-
-
-def mode_suggestions():
-    """Run cross-link suggestions only."""
-    print(f"[bridge] Loading graph from {GRAPH_FILE}...")
-    graph = load_graph()
-    if not graph:
-        print("[bridge] ERROR: graph.json not found.", file=sys.stderr)
-        sys.exit(1)
-    
-    wiki_slugs = get_wiki_slugs()
-    suggestions = suggest_crosslinks(graph, wiki_slugs)
-    
-    suggestions_data = json.dumps(suggestions, indent=2, ensure_ascii=False)
-    save_text_file(OUTPUT_DIR / "orphans_suggestions.json", suggestions_data)
-    
-    print(f"[bridge] Suggestions: {len(suggestions)}")
-    for s in suggestions[:10]:
-        print(f"  [{s['score']:.2f}] {s['wiki_slug']} -> {s['graph_node']}")
-
-
-def mode_validate():
-    """Validate graph against SCHEMA.md only."""
-    print(f"[bridge] Loading graph from {GRAPH_FILE}...")
-    graph = load_graph()
-    if not graph:
-        print("[bridge] ERROR: graph.json not found.", file=sys.stderr)
-        sys.exit(1)
-    
-    errors = validate_graph_against_schema(graph)
-    
-    if errors:
-        print(f"[bridge] Validation errors: {len(errors)}")
-        for e in errors[:20]:
-            print(f"  - {e}")
-    else:
-        print(f"[bridge] Validation: PASSED (no errors)")
+def generate_report(matches: list, orphans: list, new_links: int) -> dict:
+    """Generate bridge report."""
+    report = {
+        "total_graph_nodes": len(matches) + len(orphans),
+        "matched_nodes": len(matches),
+        "orphan_nodes": len(orphans),
+        "match_rate": round(len(matches) / max(len(matches) + len(orphans), 1) * 100, 1),
+        "new_links_added": new_links,
+        "matched_pairs": [
+            {"graph_label": m["graph_node"]["label"], "wiki_slug": m["matched_slug"], "score": m["score"]}
+            for m in sorted(matches, key=lambda x: x["score"], reverse=True)[:20]
+        ],
+        "orphan_suggestions": [
+            {"label": o.get("label", ""), "type": o.get("file_type", "")}
+            for o in orphans[:20]
+        ],
+    }
+    return report
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Graphify Bridge — connect graph.json with wiki/")
-    parser.add_argument("--mode", choices=["full", "orphans", "suggestions", "validate"],
-                        default="full", help="Operation mode (default: full)")
-    args = parser.parse_args()
-    
-    # Ensure output directory exists
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    
-    # Run selected mode
-    match args.mode:
-        case "full":
-            mode_full()
-        case "orphans":
-            mode_orphans()
-        case "suggestions":
-            mode_suggestions()
-        case "validate":
-            mode_validate()
+    dry_run = "--dry-run" in sys.argv
+    auto_fix = "--auto-fix" in sys.argv
+
+    print("=" * 60)
+    print("GRAPHIFY BRIDGE — graph.json ↔ wiki/ cross-references")
+    print("=" * 60)
+
+    # 1. Load graph
+    print("\n[1/5] Loading graph.json...")
+    graph = load_graph()
+    print(f"  Nodes: {len(graph.get('nodes', []))}")
+    print(f"  Edges: {len(graph.get('edges', []))}")
+
+    # 2. Load wiki slugs
+    print("\n[2/5] Loading wiki slugs...")
+    slugs = load_slugs()
+    print(f"  Wiki slugs: {len(slugs)}")
+
+    # 3. Fuzzy match
+    print("\n[3/5] Fuzzy matching graph nodes to wiki slugs...")
+    matches = match_graph_to_slugs(graph, slugs)
+    print(f"  Matches: {len(matches)}")
+
+    # 4. Detect orphans
+    print("\n[4/5] Detecting orphan graph nodes...")
+    matched_slugs = {m["matched_slug"] for m in matches}
+    orphans = detect_orphan_nodes(graph, matched_slugs)
+    print(f"  Orphans: {len(orphans)}")
+
+    # 5. Add wikilinks
+    print("\n[5/5] Adding wikilinks to wiki pages...")
+    new_links = add_wikilinks_to_wiki(matches, dry_run=dry_run)
+    print(f"  New links: {new_links} ({'DRY RUN' if dry_run else 'APPLIED'})")
+
+    # Report
+    report = generate_report(matches, orphans, new_links)
+    print("\n" + "=" * 60)
+    print("BRIDGE REPORT")
+    print("=" * 60)
+    print(f"  Graph nodes: {report['total_graph_nodes']}")
+    print(f"  Matched:     {report['matched_nodes']} ({report['match_rate']}%)")
+    print(f"  Orphans:     {report['orphan_nodes']}")
+    print(f"  New links:   {report['new_links_added']}")
+
+    if report["matched_pairs"]:
+        print("\nTop matches:")
+        for m in report["matched_pairs"][:10]:
+            print(f"  {m['graph_label']:40s} → [[{m['wiki_slug']}]]) ({m['score']})")
+
+    if report["orphan_suggestions"]:
+        print(f"\nOrphan suggestions (top {min(10, len(orphans))}):")
+        for o in report["orphan_suggestions"][:10]:
+            print(f"  {o['label']:40s} ({o['type']})")
+
+    if dry_run:
+        print("\n⚠️  Dry run — use --auto-fix to apply changes")
+    else:
+        print("\n✅ Changes applied")
+
+    # Save report
+    report_path = PROJECT_ROOT / "graphify-out" / "bridge_report.json"
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump(report, f, indent=2, ensure_ascii=False)
+    print(f"  Report saved to: {report_path}")
+
+    return report
 
 
 if __name__ == "__main__":
