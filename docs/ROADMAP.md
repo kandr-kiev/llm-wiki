@@ -9,13 +9,16 @@
 
 | Параметр | Значення | Коментар |
 |----------|---------|----------|
-| Сторінок wiki | 1204 | Зростання з 407 до 1204 (×3) |
-| Сирців (raw/) | 1774 | Зростання з 591 до 1774 (×3) |
-| Скриптів | 23 | Зросло з 15 до 23 |
+| Сторінок wiki | 1366 | Зростання з 407 до 1366 (×3.4) |
+| Сирців (raw/) | 1961 | Зростання з 591 до 1961 (×3.3) |
+| Скриптів | 24 | Додано wiki_graph_generator.py |
 | Cron задач | 3 | Зменшено з 6 до 3 (50% economy) |
-| Тегів taxonomy | 262 | Зросло з 184 до 262 (APPROVED_TAGS) |
-| ERROR лінтингу | 0 | Виправлено wiki_doctor — [CLEAN] статус |
+| Тегів taxonomy | 262 | APPROVED_TAGS у utils.py |
+| ERROR лінтингу | 0 | wiki_doctor [CLEAN] статус |
 | WARN лінтингу | 0 | Tag drift виправлено |
+| Nodes графа | 1365 | graphify-out/graph.json (wikilinks) |
+| Edges графа | 6289 | Wikilinks між wiki-сторінками |
+| Communities | 16 | Tag-based communities |
 
 ### 🔴 Критичні проблеми (Blockers)
 
@@ -133,6 +136,45 @@ score = llm_score(prompt)
 ### Phase 4: Advanced Automation 📋 ЗАПЛАНИВАНА
 
 **Мета:** Розділити ролі, зменшити моноліт.
+
+#### 4.0 Graphify Integration ✅ ЗАВЕРШЕНА (частково)
+
+**Мета:** Інтегрувати структурний граф знань з Graphify + wiki-graph.
+
+**Результати (2026-07-22):**
+- ✅ Навичка `graphify-integration` створена (skills/graphify-integration/)
+- ✅ README оновлено до 5-шарової архітектури
+- ✅ `tools/wiki_graph_generator.py` — генерація graph.json з wikilinks (1365 nodes, 6289 edges)
+- ✅ `tools/graphify_bridge.py` — bridge між graph.json та wiki/ (360 matches, 20.9% match rate)
+- ✅ Cron-job `graphify-scan` — періодичний скан графа (every 6h)
+- ✅ Cron-job `llm-wiki graphify weekly scan` — тижневий оновлення (every 10080m)
+
+**Архітектура графа:**
+```
+wiki/ (wikilinks [[slug]])  →  wiki_graph_generator.py  →  graph.json
+                                                              ↓
+graphify-out/graph.json  →  nodes/edges/communities (структура)
+wiki/index.md            →  wikilinks (навігація)
+        ↓ merge
+graphify_bridge.py       →  cross-references, orphan detection
+```
+
+**Метрики (2026-07-22):**
+| Метрика | Значення |
+|---------|---------|
+| `graph_nodes_count` | 1365 |
+| `graph_edges_count` | 6289 |
+| `graph_communities` | 16 |
+| `avg_edges_per_node` | 4.61 |
+| `top_inbound` | "Automating Ai Away" (91) |
+| `top_tag` | "llm-wiki" (136) |
+
+**Критерій успіху:** ✅ Досягнуто — graph.json з 1365 nodes, 6289 edges з реальних wikilinks.
+
+**Залишається:**
+- ⏳ Semantic extraction з LLM (qwen3.6-35b-a3b повертає invalid JSON для graphify)
+- ⏳ Match rate ≥80% (зараз 20.9% — bridge фільтрує non-content nodes)
+- ⏳ Community detection (зараз tag-based, треба NetworkX algorithm)
 
 #### 4.1 Multi-Agent Collection Pattern
 **Розділення:**
