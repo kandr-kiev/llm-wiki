@@ -298,10 +298,10 @@ def diagnose_infrastructure(report):
         missing_from_linter = schema_tags - APPROVED_TAGS
         extra_in_linter = APPROVED_TAGS - schema_tags
         if missing_from_linter:
-            report.add("infrastructure", "WARN", "tools/utils.py",
+            report.add("infrastructure", "WARN", "tools/approved_tags.json",
                        f"APPROVED_TAGS missing {len(missing_from_linter)} tags from SCHEMA.md", auto_fixable=True)
         if extra_in_linter and len(extra_in_linter) < 50:
-            report.add("infrastructure", "WARN", "tools/utils.py",
+            report.add("infrastructure", "WARN", "tools/approved_tags.json",
                        f"APPROVED_TAGS has {len(extra_in_linter)} tags not in SCHEMA.md", auto_fixable=False)
 
     # 4d. Truncated files (Astro JSON truncation)
@@ -598,54 +598,19 @@ def cure_sha256_drift(report):
 
 
 def cure_approved_tags_drift(report):
-    """Sync APPROVED_TAGS in utils.py with SCHEMA.md + actual wiki usage."""
-    if _DRY_RUN:
-        # Dry-run: check what would change without writing
-        schema_tags = extract_schema_tags()
-        if not schema_tags:
-            return 0
-        utils_path = TOOLS_DIR / "utils.py"
-        content = utils_path.read_text(encoding="utf-8")
-        fm_match = re.search(r'(APPROVED_TAGS\s*=\s*\{)(.*?)(\})', content, re.DOTALL)
-        if not fm_match:
-            return 0
-        current_tags_str = fm_match.group(2)
-        current_tags = set()
-        for m in re.finditer(r'"([^"]+)"', current_tags_str):
-            current_tags.add(m.group(1))
-        used_tags = set()
-        for page in WIKI_DIR.rglob("*.md"):
-            if page.name in RESERVED_NAMES or page.parent.name in ("templates", "comparisons"):
-                continue
-            text = page.read_text(encoding="utf-8")
-            fm, _ = split_frontmatter(text)
-            if fm:
-                data = parse_simple_yaml(fm)
-                for tag in data.get("tags", []):
-                    used_tags.add(tag)
-        all_tags = schema_tags | used_tags | current_tags
-        # Dry-run: report what would change but don't count as a fix
-        return 0
-
+    """Sync APPROVED_TAGS in approved_tags.json with SCHEMA.md + actual wiki usage."""
+    approved_path = TOOLS_DIR / "approved_tags.json"
     schema_tags = extract_schema_tags()
     if not schema_tags:
         return 0
 
-    utils_path = TOOLS_DIR / "utils.py"
-    content = utils_path.read_text(encoding="utf-8")
+    # Load current approved tags from JSON
+    if approved_path.exists():
+        current_tags = set(json.loads(approved_path.read_text(encoding="utf-8")))
+    else:
+        current_tags = set()
 
-    # Find APPROVED_TAGS block
-    fm_match = re.search(r'(APPROVED_TAGS\s*=\s*\{)(.*?)(\})', content, re.DOTALL)
-    if not fm_match:
-        return 0
-
-    # Extract current tags from the set
-    current_tags_str = fm_match.group(2)
-    current_tags = set()
-    for m in re.finditer(r'"([^"]+)"', current_tags_str):
-        current_tags.add(m.group(1))
-
-    # Merge: schema tags + actual wiki usage
+    # Collect all tags actually used in wiki pages
     used_tags = set()
     for page in WIKI_DIR.rglob("*.md"):
         if page.name in RESERVED_NAMES or page.parent.name in ("templates", "comparisons"):
@@ -657,16 +622,12 @@ def cure_approved_tags_drift(report):
             for tag in data.get("tags", []):
                 used_tags.add(tag)
 
+    # Merge: schema + actual usage + current approved
     all_tags = schema_tags | used_tags | current_tags
 
-    # Sort alphabetically
+    # Sort alphabetically and write to JSON
     sorted_tags = sorted(all_tags)
-    new_set_str = "\n".join(f'    "{t}",' for t in sorted_tags)
-
-    new_block = f"APPROVED_TAGS = {{{new_set_str}\n}}"
-    new_content = content[:fm_match.start()] + new_block + content[fm_match.end():]
-
-    utils_path.write_text(new_content, encoding="utf-8")
+    approved_path.write_text(json.dumps(sorted_tags, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     return len(all_tags) - len(current_tags) if current_tags else len(all_tags)
 
 
