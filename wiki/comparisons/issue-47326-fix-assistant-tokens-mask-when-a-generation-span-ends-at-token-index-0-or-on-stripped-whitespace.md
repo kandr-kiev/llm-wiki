@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetransformers-issue-47326-2026-07-14.md
 > **Links:**
-- [[Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #47323: Fix deepgemm on multiple devices]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
+- [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #47323: Fix deepgemm on multiple devices]
+- [Issue #14167: FlashPack support for transformers pipeline components]
 
 ## Key Findings
 
@@ -93,8 +93,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #47323: Fix deepgemm on multiple devices]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
+- [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #47323: Fix deepgemm on multiple devices]
+- [Issue #14167: FlashPack support for transformers pipeline components]

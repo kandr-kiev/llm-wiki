@@ -34,7 +34,7 @@ tags:
 > **Links:**
 - [[Release 5.0.0]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Issue #2197: perf: reduce BPE tokenizer load-time memory]]
+- [Issue #2197: perf: reduce BPE tokenizer load-time memory]
 - [[Release v1.8.0]]
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
 
@@ -104,6 +104,6 @@ Note: with a large `token_budget` the epoch stop is coarse (checked per step, ea
 
 - [[Release 5.0.0]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Issue #2197: perf: reduce BPE tokenizer load-time memory]]
+- [Issue #2197: perf: reduce BPE tokenizer load-time memory]
 - [[Release v1.8.0]]
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]

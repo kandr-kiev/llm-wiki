@@ -20,11 +20,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacepeft-issue-3427-2026-07-14.md
 > **Links:**
-- [[Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]]
-- [[Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]]
+- [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]
+- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
 - [[Issue #47256: [serge] integration failure triage -]]
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
-- [[Issue #8329: fix: replace list/List with Sequence in function parameter annotations]]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
+- [Issue #8329: fix: replace list/List with Sequence in function parameter annotations]
 
 ## Key Findings
 
@@ -59,8 +59,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]]
-- [[Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]]
+- [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]
+- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
 - [[Issue #47256: [serge] integration failure triage -]]
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
-- [[Issue #8329: fix: replace list/List with Sequence in function parameter annotations]]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
+- [Issue #8329: fix: replace list/List with Sequence in function parameter annotations]

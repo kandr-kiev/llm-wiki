@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacepeft-issue-3425-2026-07-14.md
 > **Links:**
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]

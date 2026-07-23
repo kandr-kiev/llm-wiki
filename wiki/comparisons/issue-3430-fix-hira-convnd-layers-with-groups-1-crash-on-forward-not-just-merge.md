@@ -34,11 +34,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacepeft-issue-3430-2026-07-14.md
 > **Links:**
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
-- [[Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]]
-- [[Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing]]
-- [[Issue #3421: Fix X-LoRA adapter name mismatch and delete_adapter desync]]
-- [[Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
+- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
+- [Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing]
+- [Issue #3421: Fix X-LoRA adapter name mismatch and delete_adapter desync]
+- [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]
 
 ## Key Findings
 
@@ -89,8 +89,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
-- [[Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]]
-- [[Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing]]
-- [[Issue #3421: Fix X-LoRA adapter name mismatch and delete_adapter desync]]
-- [[Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
+- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
+- [Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing]
+- [Issue #3421: Fix X-LoRA adapter name mismatch and delete_adapter desync]
+- [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]

@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetransformers-issue-47325-2026-07-14.md
 > **Links:**
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #8330: Dataset Studio and Viewer down]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern]
 
 ## Key Findings
 
@@ -103,8 +103,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #8330: Dataset Studio and Viewer down]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern]

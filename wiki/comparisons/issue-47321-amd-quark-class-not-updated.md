@@ -28,10 +28,10 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetransformers-issue-47321-2026-07-14.md
 > **Links:**
-- [[Issue #47254: `CheckpointError` with PEFT + DeepSpeed ZeRO-3 + gradient checkpointing]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #47254: `CheckpointError` with PEFT + DeepSpeed ZeRO-3 + gradient checkpointing]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #8330: Dataset Studio and Viewer down]
 - [[Release 5.0.0]]
 
 ## Key Findings
@@ -104,8 +104,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #47254: `CheckpointError` with PEFT + DeepSpeed ZeRO-3 + gradient checkpointing]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #47254: `CheckpointError` with PEFT + DeepSpeed ZeRO-3 + gradient checkpointing]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #8330: Dataset Studio and Viewer down]
 - [[Release 5.0.0]]

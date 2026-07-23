@@ -18,11 +18,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfaceaccelerate-issue-4113-2026-07-14.md
 > **Links:**
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #394: .git/hooks/sendemail-validate.sample: Contains several "TODO" comments on lines 22, 27, 35, and 41, instructing the user to replace placeholders with appropriate checks]]
-- [[Issue #14169: Remove JAX/Flax]]
-- [[Issue #2803: Accept common CLI boolean values]]
-- [[Issue #2808: docs: add community health files (CONTRIBUTING.md, CODE_OF_CONDUCT.md)]]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #394: .git/hooks/sendemail-validate.sample: Contains several "TODO" comments on lines 22, 27, 35, and 41, instructing the user to replace placeholders with appropriate checks]
+- [Issue #14169: Remove JAX/Flax]
+- [Issue #2803: Accept common CLI boolean values]
+- [Issue #2808: docs: add community health files (CONTRIBUTING.md, CODE_OF_CONDUCT.md)]
 
 ## Key Findings
 
@@ -55,8 +55,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #394: .git/hooks/sendemail-validate.sample: Contains several "TODO" comments on lines 22, 27, 35, and 41, instructing the user to replace placeholders with appropriate checks]]
-- [[Issue #14169: Remove JAX/Flax]]
-- [[Issue #2803: Accept common CLI boolean values]]
-- [[Issue #2808: docs: add community health files (CONTRIBUTING.md, CODE_OF_CONDUCT.md)]]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #394: .git/hooks/sendemail-validate.sample: Contains several "TODO" comments on lines 22, 27, 35, and 41, instructing the user to replace placeholders with appropriate checks]
+- [Issue #14169: Remove JAX/Flax]
+- [Issue #2803: Accept common CLI boolean values]
+- [Issue #2808: docs: add community health files (CONTRIBUTING.md, CODE_OF_CONDUCT.md)]

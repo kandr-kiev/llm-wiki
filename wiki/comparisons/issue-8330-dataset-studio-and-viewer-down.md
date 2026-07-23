@@ -24,8 +24,8 @@ tags:
 > **Links:**
 - [[Release 5.0.0]]
 - [[5 Agent Skills I Use Every Day]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 - [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
 
 ## Key Findings
@@ -61,6 +61,6 @@ See Key Findings for full content.
 
 - [[Release 5.0.0]]
 - [[5 Agent Skills I Use Every Day]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 - [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]

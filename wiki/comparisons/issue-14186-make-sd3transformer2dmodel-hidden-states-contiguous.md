@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacediffusers-issue-14186-2026-07-14.md
 > **Links:**
-- [[Issue #14185: ask to share self-review notes]]
-- [[Issue #14169: Remove JAX/Flax]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #14185: ask to share self-review notes]
+- [Issue #14169: Remove JAX/Flax]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 
 ## Key Findings
 
@@ -78,8 +78,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14185: ask to share self-review notes]]
-- [[Issue #14169: Remove JAX/Flax]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #14185: ask to share self-review notes]
+- [Issue #14169: Remove JAX/Flax]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]

@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetrl-issue-6388-2026-07-14.md
 > **Links:**
-- [[Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
-- [[Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine]]
-- [[Issue #2195: Clarify byte-level pretokenizer behavior]]
-- [[Issue #2198: BPE `build()` panics on load for a crafted `tokenizer.json` (merge concatenation exceeds the scratch buffer)]]
+- [Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting]
+- [Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine]
+- [Issue #2195: Clarify byte-level pretokenizer behavior]
+- [Issue #2198: BPE `build()` panics on load for a crafted `tokenizer.json` (merge concatenation exceeds the scratch buffer)]
 
 ## Key Findings
 
@@ -52,8 +52,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
-- [[Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine]]
-- [[Issue #2195: Clarify byte-level pretokenizer behavior]]
-- [[Issue #2198: BPE `build()` panics on load for a crafted `tokenizer.json` (merge concatenation exceeds the scratch buffer)]]
+- [Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting]
+- [Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine]
+- [Issue #2195: Clarify byte-level pretokenizer behavior]
+- [Issue #2198: BPE `build()` panics on load for a crafted `tokenizer.json` (merge concatenation exceeds the scratch buffer)]

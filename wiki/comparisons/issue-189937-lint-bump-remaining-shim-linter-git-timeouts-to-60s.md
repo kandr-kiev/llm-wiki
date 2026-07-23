@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - gh-pytorchpytorch-issue-189937-2026-07-14.md
 > **Links:**
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
-- [[Issue #8138: Add governance process page to deepspeed.ai]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting]
+- [Issue #8138: Add governance process page to deepspeed.ai]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
 
 ## Key Findings
 
@@ -58,8 +58,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
-- [[Issue #8138: Add governance process page to deepspeed.ai]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting]
+- [Issue #8138: Add governance process page to deepspeed.ai]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]

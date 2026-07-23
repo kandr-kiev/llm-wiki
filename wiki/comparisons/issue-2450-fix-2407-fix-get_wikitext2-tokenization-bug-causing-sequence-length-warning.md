@@ -22,10 +22,10 @@ tags:
 > **Sources:**
 >   - gh-huggingfaceoptimum-issue-2450-2026-07-14.md
 > **Links:**
-- [[Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
+- [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
 - [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
 
 ## Key Findings
@@ -50,8 +50,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
+- [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
 - [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]

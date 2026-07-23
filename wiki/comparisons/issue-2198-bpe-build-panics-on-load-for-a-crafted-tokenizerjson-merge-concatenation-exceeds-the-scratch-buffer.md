@@ -19,11 +19,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetokenizers-issue-2198-2026-07-14.md
 > **Links:**
-- [[Issue #2197: perf: reduce BPE tokenizer load-time memory]]
-- [[Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]]
-- [[Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
+- [Issue #2197: perf: reduce BPE tokenizer load-time memory]
+- [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
+- [Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #2197: perf: reduce BPE tokenizer load-time memory]]
-- [[Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]]
-- [[Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
+- [Issue #2197: perf: reduce BPE tokenizer load-time memory]
+- [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
+- [Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]

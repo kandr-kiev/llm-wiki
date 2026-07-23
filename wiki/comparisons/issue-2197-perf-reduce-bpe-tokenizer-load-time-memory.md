@@ -29,7 +29,7 @@ tags:
 - [[Automating Ai Away]]
 - [[Automating away]]
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 - [[sequoia ascent]]
 
 ## Key Findings
@@ -68,5 +68,5 @@ See Key Findings for full content.
 - [[Automating Ai Away]]
 - [[Automating away]]
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 - [[sequoia ascent]]

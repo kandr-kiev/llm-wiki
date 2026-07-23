@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - gh-microsoftdeepspeed-issue-8138-2026-07-14.md
 > **Links:**
-- [[Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #2846: Add recipe: parse any document with the Unstructured Transform MCP server]]
+- [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #2846: Add recipe: parse any document with the Unstructured Transform MCP server]
 - [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
-- [[Issue #2196: Upgrade hf-hub to 1.0]]
+- [Issue #2196: Upgrade hf-hub to 1.0]
 
 ## Key Findings
 
@@ -52,8 +52,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #2846: Add recipe: parse any document with the Unstructured Transform MCP server]]
+- [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #2846: Add recipe: parse any document with the Unstructured Transform MCP server]
 - [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
-- [[Issue #2196: Upgrade hf-hub to 1.0]]
+- [Issue #2196: Upgrade hf-hub to 1.0]

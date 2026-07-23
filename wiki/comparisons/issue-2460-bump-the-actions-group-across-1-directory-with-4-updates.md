@@ -20,8 +20,8 @@ tags:
 > **Sources:**
 >   - gh-huggingfaceoptimum-issue-2460-2026-07-14.md
 > **Links:**
-- [[Issue #4114: Bump the actions group across 1 directory with 5 updates]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
+- [Issue #4114: Bump the actions group across 1 directory with 5 updates]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
 - [[v0.27.0]]
 - [[Release Notes: Ollama vv0.31.2]]
 - [[v0.22.1]]
@@ -87,8 +87,8 @@ Commits
 
 ## Related Articles
 
-- [[Issue #4114: Bump the actions group across 1 directory with 5 updates]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
+- [Issue #4114: Bump the actions group across 1 directory with 5 updates]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
 - [[v0.27.0]]
 - [[Release Notes: Ollama vv0.31.2]]
 - [[v0.22.1]]

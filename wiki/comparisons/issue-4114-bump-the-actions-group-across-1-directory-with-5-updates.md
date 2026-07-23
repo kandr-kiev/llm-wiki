@@ -23,7 +23,7 @@ tags:
 - [[Release 5.0.0]]
 - [[Release v1.8.0]]
 - [[v0.27.0]]
-- [[Issue #6360: Bump the actions group with 9 updates]]
+- [Issue #6360: Bump the actions group with 9 updates]
 - [[Release Notes: Ollama vv0.31.2]]
 
 ## Key Findings
@@ -95,5 +95,5 @@ Commits
 - [[Release 5.0.0]]
 - [[Release v1.8.0]]
 - [[v0.27.0]]
-- [[Issue #6360: Bump the actions group with 9 updates]]
+- [Issue #6360: Bump the actions group with 9 updates]
 - [[Release Notes: Ollama vv0.31.2]]

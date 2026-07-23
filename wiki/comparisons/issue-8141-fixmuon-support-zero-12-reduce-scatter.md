@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - gh-microsoftdeepspeed-issue-8141-2026-07-14.md
 > **Links:**
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #3427: FIX grouped Conv2d LoRA rank padding for hotswapping (#3416)]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #3427: FIX grouped Conv2d LoRA rank padding for hotswapping (#3416)]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
 
 ## Key Findings
 
@@ -65,8 +65,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #3427: FIX grouped Conv2d LoRA rank padding for hotswapping (#3416)]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #3427: FIX grouped Conv2d LoRA rank padding for hotswapping (#3416)]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]

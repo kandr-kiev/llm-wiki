@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacediffusers-issue-14187-2026-07-14.md
 > **Links:**
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14169: Remove JAX/Flax]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14169: Remove JAX/Flax]
 
 ## Key Findings
 
@@ -93,8 +93,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14169: Remove JAX/Flax]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14169: Remove JAX/Flax]

@@ -20,10 +20,10 @@ tags:
 >   - gh-microsoftdeepspeed-issue-8140-2026-07-14.md
 > **Links:**
 - [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #8138: Add governance process page to deepspeed.ai]]
-- [[Issue #47322: adding amd quark config class changes]]
-- [[Issue #47323: Fix deepgemm on multiple devices]]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #8138: Add governance process page to deepspeed.ai]
+- [Issue #47322: adding amd quark config class changes]
+- [Issue #47323: Fix deepgemm on multiple devices]
 
 ## Key Findings
 
@@ -62,7 +62,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #8138: Add governance process page to deepspeed.ai]]
-- [[Issue #47322: adding amd quark config class changes]]
-- [[Issue #47323: Fix deepgemm on multiple devices]]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #8138: Add governance process page to deepspeed.ai]
+- [Issue #47322: adding amd quark config class changes]
+- [Issue #47323: Fix deepgemm on multiple devices]

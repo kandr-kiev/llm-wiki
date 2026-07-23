@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - gh-microsoftdeepspeed-issue-8139-2026-07-14.md
 > **Links:**
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #2797: feat: add progress_callback parameter to transcribe()]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #2797: feat: add progress_callback parameter to transcribe()]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]
+- [Issue #8330: Dataset Studio and Viewer down]
 
 ## Key Findings
 
@@ -61,8 +61,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #2797: feat: add progress_callback parameter to transcribe()]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
-- [[Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #2797: feat: add progress_callback parameter to transcribe()]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
+- [Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]
+- [Issue #8330: Dataset Studio and Viewer down]

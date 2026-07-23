@@ -27,10 +27,10 @@ tags:
 > **Sources:**
 >   - gh-huggingfacepeft-issue-3429-2026-07-14.md
 > **Links:**
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
 - [[Automating away]]
 
 ## Key Findings
@@ -99,8 +99,8 @@ This PR was prepared with AI assistance (Claude Code). The bug and the requested
 
 ## Related Articles
 
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
 - [[Automating away]]

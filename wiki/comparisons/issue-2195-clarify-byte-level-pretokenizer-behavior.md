@@ -19,11 +19,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetokenizers-issue-2195-2026-07-14.md
 > **Links:**
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #8332: Raise on length mismatch in batched IterableDataset.map]]
-- [[Issue #1452: Strengthen prompt injection protection in chat_completion]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
+- [Issue #1452: Strengthen prompt injection protection in chat_completion]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #8332: Raise on length mismatch in batched IterableDataset.map]]
-- [[Issue #1452: Strengthen prompt injection protection in chat_completion]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
+- [Issue #1452: Strengthen prompt injection protection in chat_completion]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]

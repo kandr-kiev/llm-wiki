@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfaceaccelerate-issue-4116-2026-07-14.md
 > **Links:**
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
 
 ## Key Findings
 
@@ -106,8 +106,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]

@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacediffusers-issue-14184-2026-07-14.md
 > **Links:**
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14169: Remove JAX/Flax]]
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
-- [[Issue #14170: fix wan i2v num_videos batching, vace latent trim, config scale factors, processor config, modular dtype]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14169: Remove JAX/Flax]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
+- [Issue #14170: fix wan i2v num_videos batching, vace latent trim, config scale factors, processor config, modular dtype]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
 
 ## Key Findings
 
@@ -77,8 +77,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14169: Remove JAX/Flax]]
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
-- [[Issue #14170: fix wan i2v num_videos batching, vace latent trim, config scale factors, processor config, modular dtype]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14169: Remove JAX/Flax]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
+- [Issue #14170: fix wan i2v num_videos batching, vace latent trim, config scale factors, processor config, modular dtype]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]

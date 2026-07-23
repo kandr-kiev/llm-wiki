@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetrl-issue-6387-2026-07-14.md
 > **Links:**
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting]
 - [[Release v1.8.0]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
-- [[Issue #6384: Fix SDPO/SDFT use_liger_kernel under DeepSpeed ZeRO-3 during evaluation]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
+- [Issue #6384: Fix SDPO/SDFT use_liger_kernel under DeepSpeed ZeRO-3 during evaluation]
 
 ## Key Findings
 
@@ -72,8 +72,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting]
 - [[Release v1.8.0]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
-- [[Issue #6384: Fix SDPO/SDFT use_liger_kernel under DeepSpeed ZeRO-3 during evaluation]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
+- [Issue #6384: Fix SDPO/SDFT use_liger_kernel under DeepSpeed ZeRO-3 during evaluation]

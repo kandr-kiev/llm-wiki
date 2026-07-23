@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfaceoptimum-issue-2455-2026-07-14.md
 > **Links:**
-- [[Issue #14169: Remove JAX/Flax]]
-- [[Issue #14185: ask to share self-review notes]]
-- [[Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]]
-- [[Issue #8332: Raise on length mismatch in batched IterableDataset.map]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #14169: Remove JAX/Flax]
+- [Issue #14185: ask to share self-review notes]
+- [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
+- [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 
 ## Key Findings
 
@@ -57,8 +57,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14169: Remove JAX/Flax]]
-- [[Issue #14185: ask to share self-review notes]]
-- [[Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]]
-- [[Issue #8332: Raise on length mismatch in batched IterableDataset.map]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #14169: Remove JAX/Flax]
+- [Issue #14185: ask to share self-review notes]
+- [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
+- [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]

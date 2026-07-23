@@ -20,11 +20,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacedatasets-issue-8333-2026-07-14.md
 > **Links:**
-- [[Issue #8332: Raise on length mismatch in batched IterableDataset.map]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #8329: fix: replace list/List with Sequence in function parameter annotations]]
+- [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #8329: fix: replace list/List with Sequence in function parameter annotations]
 
 ## Key Findings
 
@@ -63,8 +63,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #8332: Raise on length mismatch in batched IterableDataset.map]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #8329: fix: replace list/List with Sequence in function parameter annotations]]
+- [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #8329: fix: replace list/List with Sequence in function parameter annotations]

@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetrl-issue-6383-2026-07-14.md
 > **Links:**
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]
+- [Issue #14167: FlashPack support for transformers pipeline components]
 
 ## Key Findings
 
@@ -66,8 +66,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]
+- [Issue #14167: FlashPack support for transformers pipeline components]

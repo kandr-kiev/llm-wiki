@@ -37,11 +37,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetransformers-issue-47322-2026-07-14.md
 > **Links:**
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #14185: ask to share self-review notes]]
-- [[Issue #14169: Remove JAX/Flax]]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #14185: ask to share self-review notes]
+- [Issue #14169: Remove JAX/Flax]
 
 ## Key Findings
 
@@ -85,8 +85,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #2848: Implement multi-domain intake architecture and related specs]]
-- [[Issue #14185: ask to share self-review notes]]
-- [[Issue #14169: Remove JAX/Flax]]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #2848: Implement multi-domain intake architecture and related specs]
+- [Issue #14185: ask to share self-review notes]
+- [Issue #14169: Remove JAX/Flax]

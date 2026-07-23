@@ -25,10 +25,10 @@ tags:
 > **Sources:**
 >   - gh-huggingfacediffusers-issue-14188-2026-07-14.md
 > **Links:**
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
 - [[Automating away]]
 
 ## Key Findings
@@ -78,8 +78,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #8333: Support batched=True in Dataset.to_dict]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #8333: Support batched=True in Dataset.to_dict]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
 - [[Automating away]]

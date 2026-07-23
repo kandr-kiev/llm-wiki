@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetrl-issue-6384-2026-07-14.md
 > **Links:**
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
-- [[Issue #8332: Raise on length mismatch in batched IterableDataset.map]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
+- [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 
 ## Key Findings
 
@@ -98,8 +98,8 @@ So the control-flow gap itself (train enters the gather, eval doesn't) is fully 
 
 ## Related Articles
 
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]]
-- [[Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]]
-- [[Issue #8332: Raise on length mismatch in batched IterableDataset.map]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #6383: Return HTTP 400 with diagnostic detail for get_sequence_logprobs errors]
+- [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
+- [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]

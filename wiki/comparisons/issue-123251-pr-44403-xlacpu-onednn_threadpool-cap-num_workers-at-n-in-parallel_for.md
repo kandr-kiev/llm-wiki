@@ -20,11 +20,11 @@ tags:
 > **Sources:**
 >   - gh-tensorflowtensorflow-issue-123251-2026-07-14.md
 > **Links:**
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
-- [[Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
-- [[Issue #3419: FIX Bug in forgetting metric in MetaMathQA]]
-- [[Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing]]
+- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+- [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
+- [Issue #3429: FIX C3ALinear.forward chaining multiple active adapters instead of summing]

@@ -18,11 +18,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacedatasets-issue-8329-2026-07-14.md
 > **Links:**
-- [[Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]]
-- [[Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]]
+- [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]
+- [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]]
-- [[Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]]
+- [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]
+- [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]

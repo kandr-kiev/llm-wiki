@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacepeft-issue-3431-2026-07-14.md
 > **Links:**
-- [[Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]]
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
+- [Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
+- [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
+- [Issue #14167: FlashPack support for transformers pipeline components]
 
 ## Key Findings
 
@@ -87,8 +87,8 @@ target.delete_adapter(ad
 
 ## Related Articles
 
-- [[Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]]
-- [[Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]]
+- [Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]
+- [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
+- [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
+- [Issue #14167: FlashPack support for transformers pipeline components]

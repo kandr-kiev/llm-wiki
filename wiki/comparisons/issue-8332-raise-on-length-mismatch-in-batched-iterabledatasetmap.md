@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacedatasets-issue-8332-2026-07-14.md
 > **Links:**
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down]
 - [[Release 5.0.0]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #14167: FlashPack support for transformers pipeline components]
 
 ## Key Findings
 
@@ -74,8 +74,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down]
 - [[Release 5.0.0]]
-- [[Issue #14166: Fix Hub download filtering for FlashPack pipelines]]
-- [[Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]]
-- [[Issue #14167: FlashPack support for transformers pipeline components]]
+- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
+- [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
+- [Issue #14167: FlashPack support for transformers pipeline components]
