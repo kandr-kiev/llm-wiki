@@ -136,7 +136,7 @@ As of April 2026, GLM-5.1 leads SWE-Bench Pro at 58.4%.
 ## Related Wiki Pages
 
 - [[llm-fine-tuning]] — Evaluate fine-tuned models
-- [[llm-landscape-2026-synthesis]]] — Model landscape overview
+- [[llm-landscape-2026-synthesis]] — Model landscape overview
 
 ---
 

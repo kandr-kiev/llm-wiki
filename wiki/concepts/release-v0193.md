@@ -1,0 +1,108 @@
+---
+title: "Release v0.19.3"
+type: concept
+tags:
+  - llm-wiki
+  - knowledge-base
+    - ai
+  - api
+  - backend
+  - ci-cd
+  - cuda
+  - data
+  - foundation-model
+  - open-source
+  - optimization
+  - parallel
+  - pipeline
+  - policy
+  - real-time
+  - use-case
+  - workflow
+  - zero-shot
+---
+
+# Release v0.19.3
+
+> **Source:** gh-v0193-2026-07-23.md
+> **Type:** concept
+> **Created:** 2026-07-23
+> **Updated:** 2026-07-23
+> **Confidence:** high
+> **Description:** --- source_url: https://github.com/microsoft/DeepSpeed/releases/tag/v0.19.3 ingested: 2026-07-23 sha256: 940a6b51602a8e7563089a4bd2de675597b53c3b3602d94bd8333059fdf4a79b blog_source: github:microsoft/...
+> **Sources:**
+>   - gh-v0193-2026-07-23.md
+> **Links:**
+- [[Release v0.19.2]]
+- [[Release v0.25.1]]
+- [[Release v0.23.1]]
+- [[v0.22.1]]
+- [[Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter]]
+
+## Key Findings
+
+---
+source_url: https://github.com/microsoft/DeepSpeed/releases/tag/v0.19.3
+ingested: 2026-07-23
+sha256: 940a6b51602a8e7563089a4bd2de675597b53c3b3602d94bd8333059fdf4a79b
+blog_source: github:microsoft/DeepSpeed
+---
+# Release v0.19.3
+## What's Changed
+* Update version post release by @loadams in https://github.com/deepspeedai/DeepSpeed/pull/8070
+* Validate fp16 dynamic loss scaling parameters are positive by @aryanputta in https://github.com/deepspeedai/DeepSpeed/pull/8050
+* Add merge queue DCO workflow by @tohtana in https://github.com/deepspeedai/DeepSpeed/pull/8086
+* Stop obsolete CI jobs on workflow cancellation by @tohtana in https://github.com/deepspeedai/DeepSpeed/pull/8034
+* Fix ZeRO-3: Use per-param dtype for output buffers in _allgather_params_coalesced by @albertvillanova in https://github.com/deepspeedai/DeepSpeed/pull/8073
+* fix: close file descriptor in deepspeed_io_handle_t::wait() to prevent fd leak by @MarkCLChang in https://github.com/deepspeedai/DeepSpeed/pull/8075
+* Add type hints to top-level public API functions by @arunshar in https://github.com/deepspeedai/DeepSpeed/pull/8079
+* Default gradient_clipping to 1.0 by @sfc-gh-truwase in https://github.com/deepspeedai/DeepSpeed/pull/8068
+* activation_checkpointing: default num_layers to None so configure() assert fires by @Kymi808 in https://github.com/deepspeedai/DeepSpeed/pull/8041
+* Add configurable engine log level by @sfc-gh-truwase in https://github.com/deepspeedai/DeepSpeed/pull/8067
+* [CI] diff driven test selection by @stas00 in https://github.com/deepspeedai/DeepSpeed/pull/8077
+* Enable bf16 check_grad_overflow by default (matching fp16) by @yongzhe-wang in https://github.com/deepspeedai/DeepSpeed/pull/8035
+* Support AutoEP with ZeRO-3 zero.Init source modules by @tohtana in https://github.com/deepspeedai/DeepSpeed/pull/8060
+* Update publication list in README.md by @PKUWZP in https://github.com/deepspeedai/DeepSpeed/pull/8095
+* fix: AutoTP partition_config uses full hierarchical module path by @delock in https://github.com/deepspeedai/DeepSpeed/pull/8088
+* Reject Muon optimizer with reduce_scatter in ZeRO-1/2 by @whycoming in https://github.com/deepspeedai/DeepSpeed/pull/8090
+* Fix DeepCompile profile metadata backfill by @tohtana in https://github.com/deepspeedai/DeepSpeed/pull/8094
+* Add numerical-correctness test for Muon under ZeRO-1/2 by @whycoming in https://github.com/deepspeedai/DeepSpeed/pull/8091
+* Don't swallow KeyboardInterrupt/SystemExit in NPUOpBuilder by @ajinkyajawale14499 in https://github.com/deepspeedai/DeepSpeed/pull/8096
+* Avoid CUDA context initialization during op compatibility checks at import by @Achyuthan-S in https://github.com/deepspeedai/DeepSpeed/pull/8078
+* [DeepCompile] fix gather params in dynamo skipped frames for ZeRO3 by @XAheli in https://github.com/deepspeedai/DeepSpeed/pull/8059
+* Feat: zero3 deprecate elastic checkpoint by @nathon-lee in https://github.com/deepspeedai/DeepSpeed/pull/8099
+* Fix eigenvalue parsing for compression-on
+
+## Summary
+
+ly quantize configs by @sowndappan5 in https://github.com/deepspeedai/DeepSpeed/pull/8057
+* fix: log eigenvalue monitor values by @he-yufeng in https://github.com/deepspeedai/DeepSpeed/pull/8049
+* Fix DeepCompile profiling memory cleanup by @tohtana in https://github.com/deepspeedai/DeepSpeed/pull/8106
+* Add optional torchembed RoPE backend to apply_rotary_pos_emb by @py-ai-dev in https://github.com/deepspeedai/DeepSpeed/pull/8052
+* Fix minor comment/docstring typos in runtime and inference modules by @nathon-lee in https://github.com/deepspeedai/DeepSpeed/pull/8046
+* feat(zenflow): run the overlapped CPU optimizer in a native process by @Antlera in https://github.com/deepspeedai/DeepSpeed/pull/8058
+* fix: add buffer-length check in shm.cpp by @orbisai0security in https://github.com/deepspeedai/DeepSpeed/pull/8082
+* Fix FlopsProfiler crash when dp_world_size is None under sequence parallelism by @vineethsaivs in https://github.com/deepspeedai/DeepSpeed/pull/8122
+* Fix Python 3.9 import-time TypeError in AutoEP ep_router by @vineethsaivs in https://github.com/deepspeedai/DeepSpeed/pull/8119
+* Add input validation for save_checkpoint and warmup LR schedulers by @jahnavi-yelamanchi in https://github.com/deepspeedai/DeepSpeed/pull/8126
+* Fix ZeRO-3: use per-param dtype for quantize-scale buffer in _allgather_params_coalesced by @roycho96 in https://github.com/deepspeedai/DeepSpeed/pull/8128
+* Fix ZeRO-3 autocast gather with mixed parameter dtypes by @tohtana in https://github.com/deepspeedai/DeepSpeed/pull/8113
+* doc: Remove suggestion to build extensions in parallel by @Flamefire in https://github.com/deepspeedai/DeepSpeed/pull/7899
+* feat(types): add type hints to public comm API functions by @NovusEdge in https://github.com/deepspeedai/DeepSpeed/pull/8118
+* Add Hybrid Engine rollout in DeepSpeed to support On-Policy Distillation (OPSD) Trainer by @PKUWZP in https://github.com/deepspeedai/DeepSpeed/pull/8027
+* Add AutoEP + AutoTP parallel folding by @tohtana in https://github.com/deepspeedai/DeepSpeed/pull/8064
+* Make DCO workflow Probot compatible by @tohtana in https://github.com/deepspeedai/DeepSpeed/pull/8110
+* ZeRO 1/2: wait on all IPG-bucket producer streams in average_tensor (#8061) by @arunshar in https://github.com/deepspeedai/DeepSpeed/pull/8080
+* Fix CommsLogger.stop_profiling_comms not disabling global profiling by @vineethsaivs in https://github.com/deepspeedai/DeepSpeed/pull/8137
+* Guard WarmupCosineLR against total_num_steps == warmup_num_steps (ZeroDivisionError) by @vineethsaivs in https://github.com/deepspeedai/DeepSpeed/pull/8142
+* Add EXAONE 4.5 model support for Inference V2 by @Bias92 in https://github.com/deepspeedai/DeepSpeed/pull/8121
+* fix(autotp): when using autotp, ignore the consistency of certain data within the tp_group. by @1787648106 in https://github.com/deepspeedai/DeepSpeed/pull/8125
+* Reduce blockDim in fake_quantize_kernel for improved SM occupancy by @flutist in https://github.com/deepspeedai/DeepSpeed/pull/81
+
+## Related Articles
+
+- [[Release v0.19.2]]
+- [[Release v0.25.1]]
+- [[Release v0.23.1]]
+- [[v0.22.1]]
+- [[Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter]]
