@@ -151,6 +151,6 @@ Other agentic frameworks work for simple, generic tasks but fall short for compl
 - ]
 - ]
 - ]
-- [[how-to-build-ai-agents]]]
+- [[how-to-build-ai-agents]]
 - ]
 - ]
