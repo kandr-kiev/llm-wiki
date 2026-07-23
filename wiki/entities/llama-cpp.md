@@ -1,0 +1,64 @@
+---
+title: Llama.cpp
+type: entity
+tags: [llama-cpp, inference, gguf, local-llm, gpt-llama]
+sources: [raw/articles/lukesdevlab-youtube-model-configs.ini]
+confidence: high
+links: [qwen-models, gemma-models, llm-inference]
+created: 2026-07-24
+updated: 2026-07-24
+---
+
+# Llama.cpp
+
+> **Репозиторій:** [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
+> **Опис:** High-performance inference engine for GGUF models
+
+## Визначення
+
+llama.cpp — це інференс-енджин для локального запуску LLM у форматі GGUF. Підтримує CPU/GPU hybrid inference, speculative decoding (MTP), та quantization.
+
+## Ключові параметри конфігурації
+
+| Параметр | Опис | Значення за замовчуванням |
+|---|---|---|
+| `t` | Temperature | 12 |
+| `b` | Batch size | 2048 |
+| `flash-attn` | Flash attention | on |
+| `cache-type-k` | KV cache type K | q8_0 |
+| `cache-type-v` | KV cache type V | q8_0 |
+| `mlock` | Memory lock | true |
+| `jinja` | Jinja templating | true |
+| `host` | Bind address | 0.0.0.0 |
+| `port` | Port | 8080 |
+| `seed` | Random seed | 42 |
+
+## Speculative Decoding (MTP)
+
+Multi-Token Prediction для прискорення генерації:
+
+```ini
+spec-type = draft-mtp
+spec-draft-n-max = 6    # max draft tokens
+np = 1                  # parallel prompt processing
+```
+
+## VRAM Management
+
+Для GPU з обмеженою пам'яттю:
+
+```ini
+fit = on
+fit-target = 256        # split layers across VRAM/RAM
+```
+
+## Зв'язки
+
+- [[qwen-models]] — Qwen models for llama.cpp
+- [[gemma-models]] — Gemma models for llama.cpp
+- [[llm-inference]] — Local LLM inference
+
+## Джерела
+
+- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [model-configs.ini](raw/articles/lukesdevlab-youtube-model-configs.ini)

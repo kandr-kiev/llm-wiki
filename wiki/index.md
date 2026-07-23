@@ -10,6 +10,36 @@ created: 2026-07-23
 updated: 2026-07-23
 ---
 
+### [andrew ng just released openworker an open source local first desktop ai coworker that returns finished deliverables instead of chat](wiki/concepts/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat.md)
+
+
+### [an mcp workflow for implementing deeplearning](wiki/playbooks/an-mcp-workflow-for-implementing-deeplearning.md)
+
+
+### [amd takes on nvidia with its helios ai rack scale system](wiki/concepts/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system.md)
+
+
+### [amazon alexa plus ai update smart home devices](wiki/concepts/amazon-alexa-plus-ai-update-smart-home-devices.md)
+
+
+### [ai companies hide debt off balance sheet](wiki/synthesis/ai-companies-hide-debt-off-balance-sheet.md)
+
+
+### [ai chip startup etched defies skeptics hits 10 3b valuation from big name investors](wiki/concepts/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors.md)
+
+
+### [aegisai founded by former google security execs lands 36m to stop ai driven spear phishing](wiki/concepts/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing.md)
+
+
+### [cleaner route purifying rare earth elements](wiki/concepts/cleaner-route-purifying-rare-earth-elements.md)
+
+
+### [a practical guide to laravels first party image processing](wiki/playbooks/a-practical-guide-to-laravels-first-party-image-processing.md)
+
+
+### [tanstack query core concepts summary 23e9](wiki/concepts/tanstack-query-core-concepts-summary-23e9.md)
+
+
 ### [third party ai assistants on whatsapp in the eu what changed in 2026 3gec](wiki/playbooks/third-party-ai-assistants-on-whatsapp-in-the-eu-what-changed-in-2026-3gec.md)
 
 
@@ -365,6 +395,16 @@ updated: 2026-07-23
 
 
 ### [after shocking quarter ibm insists that ai isnt killing the mainframe](wiki/concepts/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe.md)
+
+### [lukesdevlab youtube repo](wiki/concepts/lukesdevlab-youtube-repo.md) — Промпти та конфіги моделей для YouTube-відео
+
+### [mattpocock skills repo](wiki/concepts/mattpocock-skills-repo.md) — 183k⭐ agent skills для реальних інженерів
+
+### [llama cpp](wiki/entities/llama-cpp.md) — Інференс-енджин для GGUF моделей
+
+### [qwen models](wiki/entities/qwen-models.md) — Сімейство Qwen моделей
+
+### [gemma models](wiki/entities/gemma-models.md) — Сімейство Gemma моделей
 
 type: concept
 title: Index
@@ -1157,3 +1197,57 @@ updated: 2026-07-21
 | Llm Inference Deployment 2026 Synthesis | `wiki/synthesis/llm-inference-deployment-2026-synthesis.md` |
 
 | Llm Landscape 2026 Synthesis | `wiki/synthesis/llm-landscape-2026-synthesis.md` |
+
+| amiga 1000 ten years ahead of its time | `wiki/concepts/amiga-1000-ten-years-ahead-of-its-time.md` |
+
+| anthropic releases claude security plugin for claude code in beta a multi agent vulnerability scanner that runs in your terminal | `wiki/concepts/anthropic-releases-claude-security-plugin-for-claude-code-in-beta-a-multi-agent-vulnerability-scanner-that-runs-in-your-terminal.md` |
+
+| axum support in rustrover | `wiki/concepts/axum-support-in-rustrover.md` |
+
+| best open speech recognition asr models in 2026 wer languages latency and license compared | `wiki/concepts/best-open-speech-recognition-asr-models-in-2026-wer-languages-latency-and-license-compared.md` |
+
+| build an accessible optimistic toggle that can admit it was wrong 49gm | `wiki/concepts/build-an-accessible-optimistic-toggle-that-can-admit-it-was-wrong-49gm.md` |
+
+| code coverage tests | `wiki/concepts/code-coverage-tests.md` |
+
+| eu fines google for competition breaches over search and apps | `wiki/concepts/eu-fines-google-for-competition-breaches-over-search-and-apps.md` |
+
+| experts say exploiting anthropics fable isnt how kimi k3 got so good | `wiki/concepts/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good.md` |
+
+| expire ai approval when the evidence changes not when the screen closes 2dg9 | `wiki/concepts/expire-ai-approval-when-the-evidence-changes-not-when-the-screen-closes-2dg9.md` |
+
+| give every feature flag exception an owner expiry and removal cost 1bak | `wiki/concepts/give-every-feature-flag-exception-an-owner-expiry-and-removal-cost-1bak.md` |
+
+| https://www.worseonpurpose.com/ | `wiki/concepts/httpswwwworseonpurposecom.md` |
+
+| learn topological sort by making a build graph explain its cycle 2d79 | `wiki/concepts/learn-topological-sort-by-making-a-build-graph-explain-its-cycle-2d79.md` |
+
+| make an outbox relay lease expire without violating delivery invariants 30dh | `wiki/concepts/make-an-outbox-relay-lease-expire-without-violating-delivery-invariants-30dh.md` |
+
+| make csv export idempotent from browser click to worker completion 31e8 | `wiki/concepts/make-csv-export-idempotent-from-browser-click-to-worker-completion-31e8.md` |
+
+| meet gigatoken a rust bpe tokenizer that encodes text at 24 53 gb s up to 989x faster than huggingface tokenizers | `wiki/concepts/meet-gigatoken-a-rust-bpe-tokenizer-that-encodes-text-at-24-53-gb-s-up-to-989x-faster-than-huggingface-tokenizers.md` |
+
+| nunchaku diffusers | `wiki/concepts/nunchaku-diffusers.md` |
+
+| reject queue work by deadline slack before utilization looks dangerous 3dfp | `wiki/concepts/reject-queue-work-by-deadline-slack-before-utilization-looks-dangerous-3dfp.md` |
+
+| servicenow bets 40m on indian firm businessnext at 700m valuation to deepen banking ai push | `wiki/concepts/servicenow-bets-40m-on-indian-firm-businessnext-at-700m-valuation-to-deepen-banking-ai-push.md` |
+
+| test whether mobile backup restores data without restoring its key 412k | `wiki/concepts/test-whether-mobile-backup-restores-data-without-restoring-its-key-412k.md` |
+
+| humans first data center protest hernando county florida republicans | `wiki/playbooks/humans-first-data-center-protest-hernando-county-florida-republicans.md` |
+
+| make your cli config write survive ctrl c without leaving truncated json 22m9 | `wiki/playbooks/make-your-cli-config-write-survive-ctrl-c-without-leaving-truncated-json-22m9.md` |
+
+| Release v0.1.501-beta | `wiki/playbooks/release-v01501-beta.md` |
+
+| route nylas notifications to google pubsub 4h6g | `wiki/playbooks/route-nylas-notifications-to-google-pubsub-4h6g.md` |
+
+| what is the criteria for an oral in a conference | `wiki/playbooks/what-is-the-criteria-for-an-oral-in-a-conference.md` |
+
+| Graphify та Knowledge Graph у LLM-WIKI: Аналіз Архітектури | `wiki/research/graphify-knowledge-graph-analysis.md` |
+
+| detecting ansi escape sequence injection in mcp servers with dast | `wiki/synthesis/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast.md` |
+
+| protecting our floss commons from llms | `wiki/synthesis/protecting-our-floss-commons-from-llms.md` |

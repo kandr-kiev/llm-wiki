@@ -1,0 +1,84 @@
+---
+title: Qwen Models
+type: entity
+tags: [qwen, qwen3.5, qwen3.6, moe, thinking-models, local-llm]
+sources: [raw/articles/lukesdevlab-youtube-model-configs.ini]
+confidence: high
+links: [llama-cpp, gemma-models, agentic-coding]
+created: 2026-07-24
+updated: 2026-07-24
+---
+
+# Qwen Models
+
+> **Опис:** Сімейство моделей Qwen (Alibaba) для локального інференсу
+
+## Визначення
+
+Qwen — це сімейство open-weight LLM від Alibaba. Включає dense та MoE моделі, thinking-моделі, agentic-coding моделі, та спеціалізовані варіанти.
+
+## Ключові моделі
+
+| Модель | Розмір | Тип | Контекст | Примітки |
+|---|---|---|---|---|
+| **Qwen3.5-9B** | 9B | Dense | 262k | Thinking model |
+| **Qwen3.5-9B MTP** | 9B | MoE + MTP | 262k | Speculative decoding |
+| **Qwen3.6-35B-A3B** | 35B (A3B) | MoE | 262k | Agentic coding |
+| **Qwen3.6-35B-A3B MTP** | 35B (A3B) | MoE + MTP | 262k | 1.5-2× faster |
+| **Qwen-AgentWorld** | 35B (A3B) | MoE | 262k | Agentic simulation |
+| **Qwable-3.6-27b** | 27B | Dense | 262k | Fable-style reasoning |
+| **FableVibes-14B** | 14B (A3B) | MoE | 262k | CoT traces pruned from 35B |
+| **Qwopus3.6-35B** | 35B (A3B) | MoE | 262k | — |
+| **ThinkingCap-27B** | 27B | Dense + MTP | 262k | 50% fewer thinking tokens |
+| **Qwythos-9B** | 9B | Dense | 1M YaRN | Claude-Mythos reasoning |
+| **Ornith-1.0-9B** | 9B | Dense | 262k | Agentic coding |
+| **Ornith-1.0-35B** | 35B (A3B) | MoE | 262k | Agentic coding |
+| **Ternary Bonsai-27B** | 27B | Ternary Q2_0 | 262k | Requires PrismML fork |
+
+## Thinking Models
+
+Thinking models генерують reasoning tokens перед відповіддю:
+
+```ini
+temp = 1.0
+top-p = 0.95
+top-k = 20
+min-p = 0.0
+presence-penalty = 1.5
+```
+
+## Agentic Coding Models
+
+Моделі для агентного кодингу:
+
+- **Qwen3.6-35B-A3B** — базовий agentic
+- **Ornith-1.0** — reasoning + agentic
+- **Qwythos-9B** — Claude-Mythos reasoning
+- **Agents-A1** — agentic model
+
+```ini
+temp = 0.85
+top-p = 0.95
+top-k = 20
+presence-penalty = 1.1
+```
+
+## MTP (Multi-Token Prediction)
+
+Speculative decoding для прискорення:
+
+```ini
+spec-type = draft-mtp
+spec-draft-n-max = 6    # max draft tokens
+np = 1                  # required for MTP
+```
+
+## Зв'язки
+
+- [[llama-cpp]] — Inference engine
+- [[gemma-models]] — Alternative model family
+- [[agentic-coding]] — Agentic coding patterns
+
+## Джерела
+
+- [model-configs.ini](raw/articles/lukesdevlab-youtube-model-configs.ini)

@@ -1,0 +1,1038 @@
+Summarise the article below into exactly 3 markdown bullet points and nothing else.
+
+Rules
+
+No title, preamble, reasoning, draft labels, or nested bullets.
+Each bullet: one sentence, max 28 words, active voice.
+Do not quote anyone. Do not use profanity or vulgar examples from the source.
+Do not mention: strawberry, kindergarten, Image Credits.
+Structure (mandatory)
+
+Failures: Google’s AI Overview letter-count and spelling mistakes — include at least two concrete examples from the text.
+Pattern: Why this fits prior AI Overview failures; mention at least one earlier incident (e.g. The Onion, rocks, glue).
+Cause: Why LLMs fail at spelling — explain tokenization/transformers, not human-like letter reading.
+Required terms (use each once somewhere in the bullets): AI Overview, token, transformer.
+
+Start each bullet with the bold label shown above (**Failures:**, **Pattern:**, **Cause:**).
+
+Article:
+
+How many Ps are in Google? According to Google, there are two.
+
+There’s also is also “exactly 1 ‘r’ in the word ‘poop’,” Google’s AI Overview says, as well as two ‘d’s in the word journalism, yet spelled it: j-o-u-r-n-a-d-i-s-m. Google did at least identify that there is one P in the last name of the U.S. president, but spelled it as t-r-p-u-m.
+
+You didn’t need to be a prophet to predict that Google’s AI-forward Search overhaul was going to go over poorly. We’ve done this before. The first time Google added AI Overviews to Search, the feature ended up citing satirical posts from The Onion and Reddit, advising people to eat rocks and put glue on their pizza.
+
+This time around, as Google doubles down on its commitment to make generative AI the centerpiece of its 29-year-old flagship product, it’s not surprising to see it stumble.
+
+“Counting within words has been a known challenge for LLMs, and we’re working to fix this particular issue,” Google told TechCrunch in an emailed statement.
+
+These basic spelling errors may seem familiar. LLMs, the kind of artificial intelligence that powers chatbots and other text-generators, are not built to understand spelling. It’s been a running joke for years that whenever a company unveils a new AI model, you should ask it how many ‘r’s are in the word strawberry. These AI models — which can code an app in seconds, or solve problems that have stumped mathematicians for decades — are about as good as a kindergartener at spelling.
+
+Google’s AI overview woes reach beyond silly spelling mistakes though. Google already patched an issue from last week in which searching the word “disregard” would yield what looked like a dictionary definition of the word, only the definition was shown as, “Understood. Let me know whenever you have a new prompt or question!” But these spelling errors have remained amusing because they’re so difficult to quash.
+
+As researchers have previously explained when we’ve asked about these spelling conundrums, AI doesn’t perceive sentences as units of language made up of words and letters. Many LLMs are built on transformers models, which break down text into tokens, which can be full words, syllables, or letters, depending on the model. Instead of “reading” like a human would, the AI converts the text into numerical representations of itself, which are then contextualized to help the AI come up with a logical response.
+Image Credits:TechCrunch
+
+“LLMs are based on this transformer architecture, which notably is not actually reading text. What happens when you input a prompt is that it’s translated into an encoding,” Matthew Guzdial, an AI researcher and assistant professor at the University of Alberta, told TechCrunch. “When it sees the word ‘the,’ it has this one encoding of what ‘the’ means, but it does not know about ‘T,’ ‘H,’ ‘E.’”
+
+The token-based architecture that powers LLMs like Google’s AI overview is inherently limiting, and researchers haven’t been optimistic that they can solve the spelling problem.
+
+“It’s kind of hard to get around the question of what exactly a ‘word’ should be for a language model, and even if we got human experts to agree on a perfect token vocabulary, models would probably still find it useful to ‘chunk’ things even further,” Sheridan Feucht, a PhD student studying large language model interpretability at Northeastern University, told TechCrunch. “My guess would be that there’s no such thing as a perfect tokenizer due to this kind of fuzziness.”Act as an expert software engineer specializing in simulation algorithms and 2D grid graphics.
+
+Your task is to build a self-contained "Slime Mold Pathfinding" simulation inside a single, beautifully styled HTML file. The entire application must be written in vanilla HTML, CSS, and JavaScript with NO external libraries or dependencies.
+
+Do not reuse a tutorial layout or repo you already know. Implement from the rules below.
+
+Goal:
+Agents explore a maze from a fixed start tile toward a fixed goal tile. Over time, scent trails should reinforce a visible path through the maze — similar to how slime mold finds efficient routes. Prioritize correct simulation rules and readable code first — that is what this test measures. Also make it presentable on screen using CSS only (dark dashboard, styled control panel, vivid scent heat overlay). Do not add extra effects or features just for visuals. The emergent trail should be easy to see, not a bare debug grid.
+
+### Visual & UI Requirements:
+1. UI Layout: A clean, cohesive dark-themed dashboard with styled buttons and readable stats. Center the simulation canvas. Include a control panel with:
+   - "Regenerate Maze" — builds a new maze and resets the simulation
+   - "Reset Agents" — clears scent and respawns agents at the start without changing the maze
+   - A readout showing: agent count, simulation tick count, and whether any agent has reached the goal this run
+2. Canvas: Fixed at 500×500 pixels. Use `image-rendering: pixelated` in CSS. Internal grid: exactly 50×50 cells (10×10 pixels per cell on canvas).
+3. Colors:
+   - Background / unexplored floor: #1a1a2e
+   - Walls: #4a4e69
+   - Start tile: #2a9d8f (label or "S" optional)
+   - Goal tile: #e76f51 (label or "G" optional)
+   - Agents: #55ff33 (bright green dots or 1-cell sprites)
+   - Scent heat: render as a translucent warm overlay (yellow → orange → red by intensity); higher scent = brighter. The trail must be clearly visible against the floor as it forms — this is required simulation feedback, not optional decoration.
+
+### Grid & Maze:
+1. Represent the world as a 2D grid with cell types: Wall, Floor, Start, Goal.
+2. Start and Goal must always be Floor tiles on opposite sides of the maze (e.g. start near top-left region, goal near bottom-right region).
+3. Maze generation: use recursive backtracker (or an equivalent perfect-maze algorithm) on an odd-sized cell grid so walls form coherent corridors. Ensure a valid path exists from Start to Goal.
+4. "Regenerate Maze" must produce a different layout each time (use randomness in the generator).
+
+### Simulation Rules (implement exactly):
+Maintain two 2D arrays: `grid` (walls/floor/start/goal) and `scent` (non-negative floats, same dimensions).
+
+1. Agents:
+   - Run exactly 40 agents per simulation.
+   - All agents spawn on the Start tile when the maze loads or resets.
+   - Each tick, each agent moves exactly one cell to an adjacent orthogonal neighbor (up/down/left/right). No diagonal moves. Cannot enter Wall cells.
+   - If an agent reaches the Goal tile, remove it from the active set (it "arrived") and increment an arrived counter.
+
+2. Scent deposit:
+   - After each agent moves, add 0.8 scent only to the cell it **left** (trail behind). Do not deposit on the cell the agent enters.
+   - Cap scent on the Start tile at 2.0 (clamp after deposit) so spawn point does not become an immovable attractor.
+
+3. Scent decay:
+   - At the start of every tick, multiply every cell's scent value by 0.90 (10% decay per tick). Apply decay before agent movement and deposit.
+
+4. Movement choice (the core algorithm):
+   Each agent stores the grid coordinates of the cell it occupied on the previous tick (`previousX`, `previousY`; `null` on first move after spawn).
+
+   a) Build candidates: all valid orthogonal neighbors (in bounds, not Wall).
+
+   b) Anti-backtracking: if there are 2 or more candidates, remove the `previous` cell from candidates. If that leaves zero candidates, allow all valid neighbors (dead-end exception).
+
+   c) Exploration (15%): with probability 0.15, pick uniformly at random among candidates and move there — skip steps (d)–(e) for this agent this tick.
+
+   d) Gradient weights: for each candidate, compute
+      `weight = max(0, scent[candidate] - scent[current]) + 0.05`
+      This follows the scent **gradient**, not absolute scent — agents move toward stronger signal ahead, not back and forth between two hot neighbors.
+
+   e) Weighted choice: pick a candidate by weighted random using the weights from (d). If every weight is identical, break ties uniformly at random.
+
+5. Anti-oscillation (required):
+   - Agents must spread through the maze over time; bouncing between two adjacent tiles is a bug.
+   - The combination of gradient weights, anti-backtracking, one-sided deposit, and 15% exploration must prevent 2-cell loops. Do not implement movement that only compares raw `scent[neighbor]` values without subtracting `scent[current]`.
+
+6. Loop:
+   - Drive the simulation with `requestAnimationFrame` (or a fixed-interval timer at ~30 fps).
+   - Simulation should run continuously until paused or reset; pausing is optional but not required.
+
+### Critical Implementation Rules:
+- Do not read or write scent on Wall cells for movement (agents never occupy walls).
+- Decay must run on the full scent grid every tick — not only on visited cells.
+- Do not use pathfinding libraries or precomputed shortest path; the path must emerge from agent behavior only.
+- Keep agent update order randomized each tick (shuffle agent array before processing) to avoid directional bias artifacts.
+- Each agent must update `previousX`/`previousY` after every move.
+- When 40 agents share the Start tile, they will disperse via random exploration and anti-backtracking — do not special-case Start beyond the scent cap.
+
+### Deliverable:
+Provide the complete, production-ready code inside a single code block containing the full HTML, CSS, and JavaScript. Do not omit logic, do not use placeholders, and do not use comments like "// implement here". The file must be runnable when saved as `.html` and opened locally in a browser.
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the simulation for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- Maze generation produces walls with a valid start-to-goal route
+- Scent decays by ×0.90 at the start of each tick before deposits
+- Scent is deposited only on the departed cell (0.8), not the entered cell; Start scent is capped at 2.0
+- Agents cannot pass through walls; movement is orthogonal only
+- Movement uses gradient weights `max(0, scent[neighbor] - scent[current]) + 0.05`, not raw neighbor scent alone
+- Anti-backtracking excludes the previous cell when 2+ candidates exist
+- 15% exploration picks a random valid neighbor before gradient weighting runs
+- Agent processing order is shuffled each tick; previous position is tracked per agent
+- Regenerate and Reset controls are wired to the correct state resets
+- No empty functions or stubbed logic remain
+Act as an expert Blender 3D artist and technical game artist specializing in low-poly stylized assets, PBR materials, and glTF export for Godot 4.
+
+Your task is to model, shade, and export two game-ready hero assets for a marble-run game:
+1. **MarbleBall** — a distinctive rolling marble (not a default UV sphere)
+2. **FinishGate** — a triumph arch the ball passes through at the end of the track
+
+Use Blender only in this phase. Do not open Godot yet. These assets will be imported into a separate Godot marble-run project — follow the export contract exactly so the next step works without rescaling guesswork.
+
+Do not reuse a tutorial model or kitbash you already know. Build from the rules below.
+
+Goal:
+Create visually striking, low-poly hero props that look great in viewport screenshots and survive a clean GLB import into Godot. Prioritize correct scale, applied transforms, clean topology, readable silhouette, and PBR materials first — that is what this test measures. The YouTube moment is the stylized marble catching light and the glowing finish gate framing the win.
+
+### Environment & Official Blender Lab MCP (required):
+You are connected to a live Blender **5.1+** session via the [official Blender Lab MCP server](https://www.blender.org/lab/mcp-server/) ([source](https://projects.blender.org/lab/blender_mcp)). The Blender add-on must be enabled and showing **Server is running** (default: `localhost:9876`).
+
+This MCP does **not** expose dedicated modeling or export buttons — it provides inspection tools plus **`execute_blender_code`**, which runs arbitrary `bpy` Python inside Blender. You MUST use MCP tools to build, inspect, and export — do not only describe steps in chat.
+
+**Security:** `execute_blender_code` runs LLM-generated Python with no sandbox. **Save the `.blend` file** before destructive operations.
+
+**Workflow loop:**
+1. **Build** — send modeling/material scripts via `execute_blender_code`.
+2. **Inspect** — call `get_objects_summary` for hierarchy; `get_object_detail_summary` on `MarbleBall` and `FinishGate` to verify dimensions, transforms, and face counts.
+3. **Frame & screenshot** — call `jump_to_view3d_object_by_name`, then `get_screenshot_of_area_as_image` (3D viewport) or `get_screenshot_of_window_as_image` after each major step.
+4. **Look up API** — if unsure about a `bpy` operator, call `get_python_api_docs` before guessing.
+5. **Export** — export GLBs via `execute_blender_code` calling `bpy.ops.export_scene.gltf()` (see Export Script below). There is no separate export MCP tool.
+6. **Verify export** — confirm files exist on disk and re-import sanity-check with `get_object_detail_summary` or a fresh `execute_blender_code` file-size check.
+
+If an export script times out in the interactive session, retry with `execute_blender_code_for_cli` against a saved `.blend` file.
+
+### Export Contract (Godot handoff — follow exactly):
+Export directory (create if missing):
+```
+exports/marble_run/
+```
+
+Files to produce:
+| File | Root object name | Purpose |
+|------|------------------|---------|
+| `exports/marble_run/marble_ball.glb` | `MarbleBall` | RigidBody3D rolling mesh |
+| `exports/marble_run/finish_gate.glb` | `FinishGate` | Static finish-line prop + trigger frame |
+
+**Scale convention:** 1 Blender unit = 1 Godot unit.
+- **MarbleBall** bounding sphere diameter = **0.5** units (radius 0.25 in Godot)
+- **FinishGate** outer arch width = **3.0** units, total height = **2.5** units, depth = **0.6** units
+- Gate passage opening must be ≥ **1.2** units wide and **1.0** unit tall (ball must fit through)
+
+**Transform rules before export:**
+- Apply all transforms (Ctrl+A → All Transforms) on each root object
+- Origin: MarbleBall at geometric center; FinishGate at base-center (sits on ground at y = 0)
+- Forward axis: gate opening faces **+Z** in Blender (Godot forward)
+- No cameras, lights, or empties in exported files — mesh data only (unless your exporter strips them automatically)
+
+**Format:** GLB (binary glTF), Y-up, +Z forward. Include materials. Apply modifiers before export.
+
+### Export Script (run via `execute_blender_code`):
+Use absolute paths on the host machine. Example pattern — adapt `EXPORT_ROOT` to your project:
+
+```python
+import bpy
+import os
+
+EXPORT_ROOT = "/absolute/path/to/exports/marble_run"  # must exist or be created
+os.makedirs(EXPORT_ROOT, exist_ok=True)
+
+def export_selected_glb(obj_name: str, filename: str):
+    obj = bpy.data.objects.get(obj_name)
+    if obj is None:
+        raise RuntimeError(f"Missing object: {obj_name}")
+    bpy.ops.object.select_all(action='DESELECT')
+    obj.select_set(True)
+    bpy.context.view_layer.objects.active = obj
+    filepath = os.path.join(EXPORT_ROOT, filename)
+    bpy.ops.export_scene.gltf(
+        filepath=filepath,
+        export_format='GLB',
+        use_selection=True,
+        export_apply=True,
+        export_materials='EXPORT',
+    )
+    return filepath
+
+export_selected_glb("MarbleBall", "marble_ball.glb")
+export_selected_glb("FinishGate", "finish_gate.glb")
+```
+
+After export, verify both files exist and report their byte sizes.
+
+---
+
+### Asset 1: MarbleBall
+
+**Silhouette:** Low-poly **faceted gem marble** — icosphere or manually beveled polyhedron, **≤ 80 faces**. Must NOT look like a smooth default sphere.
+
+**Surface detail (choose one approach):**
+- **Option A:** Faceted faces with flat-shaded slight color variation per face (via vertex colors or material)
+- **Option B:** Subtle swirl using a procedural noise ramp in the base color (no external image textures)
+
+**Material (PBR):**
+- Base color: gold `#e9c46a` with slight hue variation
+- Metallic: 0.35
+- Roughness: 0.25
+- Optional clearcoat/sheen if available in your Blender version
+- Slight emission (strength ≤ 0.15) for video readability — not blown out
+
+**Validation (use MCP, not guesswork):**
+- `jump_to_view3d_object_by_name("MarbleBall")` then `get_screenshot_of_area_as_image` — faceting visible from 3/4 angle
+- `get_object_detail_summary` — bounding box ≈ 0.5 × 0.5 × 0.5 (±0.02 tolerance)
+
+---
+
+### Asset 2: FinishGate
+
+**Silhouette:** Triumph **arch portal** — two pillars + curved top beam forming a readable frame. Low-poly stylized, **≤ 400 faces** total.
+
+**Design requirements:**
+- Distinct inner opening (void) where the ball passes through
+- Top beam or ring element with **emissive accent** `#55ff33` (Godot finish color family)
+- Side pillars in stone `#457b9d` with darker `#2a9d8f` inset panels or caps
+- Optional: 2–4 small floating crystal shards near the arch (keep total face budget)
+
+**Material (PBR):**
+- Stone parts: metallic 0.0, roughness 0.75
+- Emissive trim: emission color `#55ff33`, strength 1.5–3.0 (should glow in viewport)
+- No external image textures — procedural or flat colors only
+
+**Validation (use MCP, not guesswork):**
+- `jump_to_view3d_object_by_name("FinishGate")` then front + side viewport screenshots
+- `get_object_detail_summary` — bounding box roughly 3.0 wide × 2.5 tall × 0.6 deep (±0.1 tolerance); opening fits 1.2 × 1.0 minimum
+
+---
+
+### Scene Setup for Review:
+- Clear default cube/light if starting fresh
+- Neutral dark world background `#1a1a2e` (Viewport shading or World surface)
+- One **Area** or **Sun** light so PBR reads in screenshots
+- Ground grid or shadow-catcher plane optional for presentation
+
+### Critical Implementation Rules (coding traps):
+- **Unapplied scale** is the #1 Godot import failure — always apply transforms before export.
+- **Wrong origin on FinishGate** causes it to float or sink — base must be at y = 0.
+- **Double-sided emissive** on thin trim may disappear at grazing angles — give emissive geometry slight thickness (≥ 0.02 units).
+- **Too many triangles** on the marble defeats the low-poly look — keep ≤ 80 faces.
+- **Exporting the whole scene** instead of selected roots may include junk — always `use_selection=True` per asset (see Export Script).
+- **Guessing `bpy` operators** causes silent failures — use `get_python_api_docs` when uncertain.
+
+### Deliverable:
+Two GLB files at the exact paths above, plus a saved `.blend` containing both objects. Viewport screenshots showing both assets from at least two angles each.
+
+Before finishing, use MCP to verify and confirm:
+- `get_objects_summary` lists `MarbleBall` and `FinishGate` with expected materials
+- `get_object_detail_summary` confirms dimensions and applied transforms (scale 1,1,1)
+- Viewport screenshots (`get_screenshot_of_area_as_image`) show faceted marble and glowing gate arch
+- `marble_ball.glb` and `finish_gate.glb` exist on disk with size > 0
+- Materials are embedded in GLB (metallic/roughness/emission present)
+- `.blend` file saved; no placeholder geometry (default cubes left unmodified)
+
+### Handoff note:
+Exports go to `exports/marble_run/`. The next prompt (`godot-marble-run-3d.txt`) will auto-detect these files if present.
+Build a playable Breakout-style game that runs locally in the browser using HTML Canvas and vanilla JavaScript.
+
+Goal:
+Classic brick-breaker gameplay with a clear game loop and separated modules. Prioritize a working game loop, readable module boundaries, and correct collision/state handling over visual polish.
+
+Required gameplay:
+
+1. Paddle at the bottom, moved with keyboard (arrow keys or A/D — document in README).
+2. Ball bounces off walls, paddle, and bricks; starts on paddle or after reset.
+3. Bricks — at least 3 rows × 6 columns of destroyable bricks; different row colours optional.
+4. Lives — player starts with 3 lives; losing the ball (falls below paddle) costs one life and resets ball/paddle; at 0 lives, game over.
+5. Score — points per brick destroyed; show score on screen.
+6. Win — all bricks cleared shows a win message and stops or freezes play.
+7. Start / restart — press a key or button to start from game-over or win screen.
+
+Technical requirements:
+- HTML Canvas + vanilla JavaScript (no Phaser, Three.js, Unity, etc.).
+- Run locally via index.html or minimal dev setup (Vite/npm run dev is fine).
+- README: how to run, controls, module layout explanation.
+
+Architecture expectations:
+Split code into clear modules/files, not one monolithic script. At minimum separate:
+- game state (score, lives, playing / won / lost)
+- input / paddle movement
+- ball physics and wall bounce
+- brick grid and collision (ball vs bricks, ball vs paddle)
+- render loop (draw frame from state)
+- main bootstrap / game loop
+
+Example layout: src/state.js, src/input.js, src/ball.js, src/bricks.js, src/render.js, src/main.js — names are flexible if responsibilities are obvious.
+
+Collision:
+- Axis-aligned bounding box or circle-vs-rect checks are fine.
+- Ball should not pass through bricks or paddle at normal speed (basic tunneling prevention optional, not required).
+
+Scope guidance:
+- Simple flat graphics (rectangles) are expected.
+- Do NOT add: sound, levels editor, mobile touch controls, particle effects, or power-ups unless core gameplay is already complete.
+- Fixed canvas size (e.g. 800×600) is fine.
+
+Deliverables:
+- All source files to run the game
+- README with run instructions
+- Playable without manual code edits
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the game for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- Paddle movement and ball bounce/brick collision logic is implemented and wired to input
+- Score increases on brick destroy; lives decrease when the ball is lost
+- Win state triggers when all bricks are cleared; game over at 0 lives
+- Restart flow is wired for both win and game over states
+- README includes run instructions, controls, and module layout
+Build a simple top-down 2D driving game I can run locally in a browser.
+
+Goal:
+Create a playable driving experience where the player steers a car along a track, avoids obstacles, and reaches a finish line. This is a functional prototype — prioritize a working game loop, clear module structure, and the required features below over visual polish.
+
+Required features:
+1. Top-down view with a viewport/camera that keeps the car centered (or smoothly follows it).
+2. A single continuous drivable track from start to finish.
+3. The track must pass through, in order, visually distinct sections (different colors, labels, or simple scenery is enough — no 3D geometry required):
+   - an open section
+   - a tunnel section (e.g. darker/narrower)
+   - a bridge section (e.g. over water or a different surface color)
+   - a finish line
+4. At least 3 obstacles placed on or near the track that the player must avoid.
+5. Collision detection between the car and obstacles (simple distance or axis-aligned box checks are fine).
+6. Clear win condition when the player reaches the finish line.
+7. On collision, reset the car to the start (checkpoint resets are optional).
+8. On-screen instructions for controls and a simple UI message for collision / win states.
+
+Technical requirements:
+- Use HTML Canvas with vanilla JavaScript (preferred), or a minimal dev setup (e.g. Vite serving plain JS modules).
+- Do not use Three.js, Unity, Godot, or other game engines — keep it 2D and lightweight.
+- Provide a simple way to run it locally (for example: npm install && npm run dev, or a single HTML file if that is truly sufficient).
+- Include a short README with:
+  - how to run the game
+  - controls
+  - brief explanation of the project structure and main modules
+
+Architecture expectations (this is the main thing being tested):
+Organize the code into clear, separated modules rather than one monolithic script. At minimum, separate:
+- track/world setup (sections, obstacles, finish line)
+- car movement / input handling
+- camera / viewport logic
+- collision detection
+- game state (playing, crashed/reset, finished)
+
+A sensible layout might look like src/world.js, src/car.js, src/camera.js, src/collision.js, src/gameState.js, and src/main.js — but use whatever names fit your design as long as concerns are clearly split.
+
+Keep the scope realistic:
+- Simple flat graphics (rectangles, circles, colored paths) are expected.
+- Arcade-style movement is fine; realistic physics is not required.
+- Do not spend time on menus, multiplayer, sound, sprite art, or advanced graphics unless core gameplay is already complete.
+
+Deliverables:
+- All source files needed to run the game
+- README with run instructions
+- The game should be playable end-to-end without manual code edits
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the game for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- Car movement and steering logic is implemented and wired to input
+- The viewport/camera follows the car
+- The track defines open → tunnel → bridge → finish sections in order
+- At least 3 obstacles are placed and collision detection resets or penalizes the car
+- Reaching the finish line updates game state to a win condition
+- README includes run instructions, controls, and a brief module overview
+Act as an expert game engineer specializing in retro rogue-like mechanics and 2D graphics math.
+
+Your task is to build a complete, self-contained "Procedural Dungeon Generator with Dynamic Fog of War" inside a single, beautifully styled HTML file. Use vanilla HTML, CSS, and JavaScript with NO external libraries or dependencies.
+
+### Visual & UI Requirements:
+1. UI Layout: A clean, dark cyber-grid theme. Center the canvas. Include a control panel with:
+   - A button to "Regenerate Map"
+   - Text display showing current player coordinates
+   - A button to toggle "God Mode" (revealing the entire map layout completely for debugging/demonstration).
+2. Canvas Dimensions: Fixed at 600x600 pixels. Use `image-rendering: pixelated;` in CSS. The internal simulation grid should map to exactly 60x60 cells (meaning each map tile is a 10x10 pixel square on the canvas).
+3. Theme Colors:
+   - Unexplored/Hidden (Fog of War): Absolute pitch black (#000000)
+   - Visible Walls: Deep stone gray (#4a4e69)
+   - Visible Floor: Soft slate gray (#9a8c98)
+   - Player Character: A bright, distinct green square or sprite (#55ff33)
+
+### Core Mechanics & Algorithmic Rules:
+You must implement a 2D grid array representing the map states (0 = Floor, 1 = Wall) and a secondary 2D array tracking visibility (0 = Hidden, 1 = Revealed/Visible).
+
+1. Map Generation (Choose One Engine):
+   - Option A: Binary Space Partitioning (BSP) to split the grid recursively into rectangular rooms, then carving straight hallway connections between them.
+   - Option B: Cellular Automata (Fill grid randomly with ~45% walls, then run 4-5 simulation steps of Conway's-like rules to create organic cave layouts). Ensure there is an algorithm to connect isolated cavern pockets.
+2. Player Movement: Spawn the player on a valid Floor tile. Implement standard keyboard controls (Arrow keys or WASD) to move the player exactly 1 grid tile per keypress. Prevent walking through Wall tiles.
+3. Raycasting Line of Sight (The Core Math Challenge):
+   - You must calculate the player's real-time visibility radius (limited to 8-10 tiles away).
+   - To do this, cast virtual rays from the player's tile out to every single grid tile along the perimeter of their visibility radius.
+   - For EACH ray, you MUST implement a generalized Bresenham's Line Algorithm to trace the line of grid cells step-by-step from the player to the destination tile.
+   - Trace rules: Mark cells along the line as "Revealed". If the line hits a cell marked as a Wall, immediately stop tracing that ray further (blocking vision behind the wall).
+
+### Deliverable:
+Provide the complete, working code inside a single code block containing the HTML, CSS, and JavaScript. Do not leave any functions empty, do not use comments like "// implement logic here", and do not omit edge cases. It must run immediately when opened in a web browser.
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the game for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- Map generation (BSP or cellular automata) produces valid floor tiles with connectivity between areas
+- Player moves one tile per keypress and cannot walk through walls
+- Bresenham raycasting marks revealed cells along each ray and stops at walls
+- God mode toggle reveals the full map; regenerate resets the map
+- Complete single HTML file with no empty functions or placeholder logicBuild a personal expense tracker as a single-page web app using vanilla HTML, CSS, and JavaScript only (no React, Vue, Svelte, etc.).
+
+Goal:
+Create a small but complete expense tracker someone could use daily. Prioritize working features and clear UX over visual flair.
+
+Technical requirements:
+- Vanilla HTML, CSS, and JavaScript only.
+- Runs locally without a backend: open index.html directly or use a minimal dev server (e.g. npx serve . or Vite).
+- Persist all expenses in localStorage so refresh does not lose data.
+- Include a README with: how to run, feature list, brief file/structure notes.
+
+Core features:
+
+1. Add expense
+   - Fields: amount (required, positive number), category (required, chosen from a fixed list you define), date (required, defaults to today), note (optional short text).
+   - Validate input: reject empty amount, non-numeric amount, and missing category/date with visible error feedback.
+
+2. List expenses
+   - Show all expenses newest-first (or clearest alternative — document in README).
+   - Each row shows amount, category, date, and note (or "—" if empty).
+
+3. Edit and delete
+   - Edit any expense in place (modal or inline — your choice).
+   - Delete with confirmation (browser confirm or custom dialog).
+
+4. Summary
+   - Display total spent and per-category totals that update when expenses change.
+
+5. Filters
+   - Filter the list by category (dropdown or buttons).
+   - Filter by date range (from / to inputs).
+   - Filters combine: category + date range applied together.
+
+6. Theme
+   - Dark/light mode toggle.
+   - Persist theme choice across reloads.
+
+UX expectations:
+- Clear empty state when no expenses exist.
+- Currency formatting for amounts (symbol or label is fine; be consistent).
+- Layout readable on a desktop browser; mobile-perfect responsive design is not required.
+
+Code quality expectations:
+- Split logic across multiple JS files or clear sections (e.g. storage, render, filters) — not one 400-line script with everything inline.
+- No dead UI: every visible control must work.
+
+Scope guidance:
+- Do NOT build: user accounts, backend API, charts/graphs library, export to CSV, or multi-currency conversion.
+- Do NOT add npm dependencies unless you use them only for a dev server; runtime must stay vanilla.
+
+Deliverables:
+- All source files to run the app
+- README with run instructions
+- App works end-to-end without manual code edits
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the app for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- Add expense validates amount, category, and date with visible error handling
+- List displays expenses with required fields; edit and delete (with confirmation) are wired
+- Summary totals derive from expense data; category and date-range filters combine in the filtering logic
+- Dark/light mode persists to localStorage
+- README includes run instructions and feature list
+Build a toy desktop environment as a single-page web app using vanilla HTML, CSS, and JavaScript only (no React, Vue, Svelte, etc.).
+
+Do not reuse a tutorial layout or repo you already know. Implement from the rules below.
+
+Goal:
+A playful fake OS desktop in the browser — draggable windows, a taskbar, and two working applets. Prioritize correct window stacking, focus, and interaction first — that is what this test measures. Also give it a cohesive, presentable look using CSS only (dark theme, gradient wallpaper, styled title bars/taskbar, subtle borders or shadows on windows). Do not add extra features or assets just for visuals. It should feel interactive and good on screen, not a wireframe or a feature-heavy OS clone.
+
+Technical requirements:
+- Vanilla HTML, CSS, and JavaScript only.
+- Runs locally without a backend: open index.html directly or use a minimal dev server (e.g. npx serve . or Vite).
+- No external UI frameworks or window-manager libraries.
+- Persist Notepad document text and desktop icon positions in localStorage so refresh does not lose them.
+- Include a README with: how to run, feature list, brief file/structure notes.
+
+Desktop shell:
+
+1. Wallpaper & icons
+   - Full-viewport desktop area with an attractive gradient wallpaper (CSS only — no image files required).
+   - Two desktop icons: "Notepad" and "Calculator" (labels + clickable icons — emoji or simple SVG/CSS shapes are fine).
+   - Double-click an icon to open its window (single-click may select/highlight if you want; opening must work reliably).
+   - Icons are draggable on the desktop; positions persist after reload.
+
+2. Windows (shared behavior)
+   - Each app opens in its own window with: title bar, minimize button, close button.
+   - Windows are draggable by the title bar only (not by clicking content inside).
+   - Clicking a window brings it to the front (highest z-index). The focused window has a visibly distinct title bar style.
+   - Only the focused window receives keyboard input for its app.
+   - Minimize hides the window but keeps it in the taskbar; clicking the taskbar button restores it.
+   - Close removes the window; reopening from the desktop icon creates a fresh instance (Notepad restores saved text from localStorage; Calculator starts cleared).
+   - New windows open slightly offset so they do not perfectly stack on first launch.
+   - Title text longer than 18 characters must ellipsize in the title bar (e.g. "Untitled — Notep…").
+
+3. Taskbar
+   - Fixed bar at the bottom of the screen.
+   - Shows a button for each open (including minimized) window; label matches the window title (ellipsized if needed).
+   - Clicking a taskbar button: restores if minimized; otherwise brings that window to the front.
+   - Optional clock display is fine; not required.
+
+Notepad app:
+
+1. Multi-line text area filling the client area below the title bar.
+2. Auto-save content to localStorage on input (debounced up to 500 ms is fine).
+3. On open, load the last saved document from localStorage.
+4. Window title reflects document state: default "Untitled — Notepad"; append a " •" or "*" when there are unsaved changes since last save, if you track that — otherwise static title is acceptable if auto-save runs on every input.
+
+Calculator app:
+
+1. Basic four-function calculator: +, −, ×, ÷.
+2. Number buttons 0–9, decimal point, equals, and clear (C).
+3. Display shows the current input or result; divide-by-zero shows "Error" and does not crash the app.
+4. Keyboard support when the Calculator window is focused: digits, operators, Enter (=), Escape (clear).
+5. Chain calculations are not required; each equals press evaluates the current expression is enough.
+
+UX expectations:
+- Visual style should be consistent across desktop, windows, taskbar, and apps (readable fonts, clear button states).
+- Cursor changes on draggable regions (title bar, desktop icons).
+- Minimized windows cannot be interacted with until restored.
+- Clicking the desktop (not on a window) does not break window state.
+- Layout works on a desktop browser; mobile-perfect design is not required.
+
+Code quality expectations:
+- Split logic across multiple JS files or clear modules (e.g. window manager, taskbar, notepad, calculator, storage) — not one unmaintainable script.
+- Central window manager owns: open windows list, z-index, focus, minimize/restore/close.
+- No dead UI: every button and icon must do something.
+
+Scope guidance:
+- Do NOT build: file system, multiple desktops, networking, themes, or more than the two apps above.
+- Do NOT add npm runtime dependencies.
+- Do NOT use iframes for app windows.
+
+Deliverables:
+- All source files to run the app
+- README with run instructions
+- App should be complete without manual code edits
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the app for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- Window manager assigns incrementing z-index on focus; focused window style is applied
+- Dragging uses title-bar hit target only; content area drag does not move the window
+- Minimize hides window and taskbar restore works; minimized windows are not focusable
+- Close removes window and taskbar entry; reopen from icon works
+- Only the focused window's app handles keyboard events
+- Notepad loads/saves via localStorage; Calculator handles divide-by-zero safely
+- Desktop icon positions persist via localStorage
+- Title ellipsizes after 18 characters
+- No empty functions, stubbed handlers, or placeholder "// TODO" logic remain
+Act as an expert Godot 4 game engineer specializing in procedural track generation, RigidBody3D tuning, glTF import, and cinematic cameras in GDScript.
+
+Your task is to build a complete, playable "Procedural Marble Run" in a Godot 4 project. A ball launches onto a procedurally assembled track of ramps, curves, jumps, and boosters, racing toward a finish gate while the camera follows the action. Use GDScript only — no C#, no external game engines, no third-party addons beyond the Godot AI MCP plugin already enabled in the project.
+
+Do not reuse a tutorial layout or repo you already know. Implement from the rules below.
+
+Goal:
+A visually satisfying physics toy — the YouTube moment is the ball carving through a colorful track, launching off ramps, and either nailing the finish or spectacularly flying off. Prioritize procedural track assembly, aligned collision meshes, tuned RigidBody3D ball physics, and a smooth follow camera first — that is what this test measures. Do not add combat, inventory, or open-world exploration.
+
+### Step 0 — Hero assets (auto-detect, do not ask the user):
+
+At the start, check whether Blender-exported GLBs already exist. Look in this order:
+1. `res://assets/marble_run/marble_ball.glb` and `res://assets/marble_run/finish_gate.glb` (already in project)
+2. `exports/marble_run/marble_ball.glb` and `exports/marble_run/finish_gate.glb` (on disk — copy into `res://assets/marble_run/` and reimport)
+
+**If both files exist and import cleanly:** use them for the ball mesh and finish gate prop. Set `asset_mode = "blender"`. HUD badge: `Assets: Blender`.
+
+**If either file is missing, import fails, or scale is unusable** (ball diameter outside 0.4–0.6, gate width outside 2.5–3.5): build procedural substitutes below. Set `asset_mode = "fallback"`. HUD badge: `Assets: Fallback`. Log the reason once in a message label — then continue; do not stop or retry Blender.
+
+Expected export names (from `blender-marble-assets.txt` when that prompt was run separately):
+- `marble_ball.glb` → object `MarbleBall`, diameter 0.5 units
+- `finish_gate.glb` → object `FinishGate`, ~3.0 × 2.5 × 0.6 units
+
+Track segments are always built in Godot. Only ball + finish gate come from GLBs when available.
+
+#### Procedural substitutes (when GLBs not available):
+
+**MarbleBall:** `RigidBody3D` + `MeshInstance3D` with `IcosphereMesh` (radius 0.25, subdivisions 1) + `StandardMaterial3D` (albedo `#e9c46a`, metallic 0.35, roughness 0.25). Collision: `SphereShape3D` radius 0.25.
+
+**FinishGate:** procedural arch at track end — two stone pillars `#457b9d`, top beam, emissive trim `#55ff33` (emission strength 2.0), outer size ~3.0 × 2.5 × 0.6. Same `Area3D` win trigger either way (~1.2 × 1.0 × 0.8 box).
+
+### Environment & MCP Workflow (required):
+You are connected to a live Godot editor via the Godot AI MCP server. You MUST use MCP tools to build, run, and verify the game — do not only output code in chat.
+
+1. Use MCP tools to create scenes, scripts, materials, and Input Map actions directly in the editor.
+2. After meaningful changes, run with `project_run` and inspect via `editor_screenshot` and `logs_read(source="editor", include_details=true)`.
+3. Use `game_manage` input tools to trigger launches and observe ball behavior when possible.
+4. Iterate until generation, launch, camera follow, checkpoint/finish detection, and reset all work reliably.
+
+### Visual & UI Requirements:
+1. **World:** Outdoor-sky vibe — `WorldEnvironment` with sky blue gradient or `#87CEEB` ambient; optional light fog. **DirectionalLight3D** (sun) + fill light so track reads clearly.
+2. **Track pieces:** Modular segments snapped end-to-end. Each segment is a visible mesh + matching `StaticBody3D` collision (same transform — misaligned collision is a common failure).
+3. **Segment color palette (material albedo):**
+   - Straight chute: `#457b9d`
+   - Curved turn: `#2a9d8f`
+   - Jump ramp: `#e76f51`
+   - Booster pad: `#ffd60a` (emissive glow optional)
+   - Finish gate prop: **FinishGate** GLB when `asset_mode == "blender"`, else procedural arch (see Fallback); track-end segment color `#55ff33`
+4. **Ball:** `RigidBody3D` — imported **MarbleBall** GLB when available, else faceted icosphere fallback. Collision: `SphereShape3D` radius **0.25**. Preserve imported PBR when using Blender assets. Trail optional.
+5. **HUD (`CanvasLayer`):**
+   - Speed readout (units/s)
+   - Segment count / distance traveled
+   - Asset badge: `Assets: Blender` or `Assets: Fallback`
+   - Buttons: **New Track**, **Launch Ball**
+   - Status: `READY` / `RUNNING` / `FINISHED` / `FELL OFF`
+   - Timer since launch
+6. **Camera:** Third-person follow behind and above the ball, smooth lerp (not rigid parenting — damped chase cam). Look-ahead in ball velocity direction. Press **C** to toggle cinematic (lower, closer) vs overview angle.
+
+### Procedural Track Generation (core algorithm):
+
+Generate a track of **14–18 connected segments** along a forward curve in the XZ plane. Start at origin `(0, 2, 0)`; overall run ends roughly 80–120 units forward with total elevation change between -5 and +15 units.
+
+**Segment types** (weighted random with rules):
+| Type | Weight | Description |
+|------|--------|-------------|
+| `Straight` | 30% | 6-unit flat or slight downhill (-2°) chute |
+| `CurveLeft` / `CurveRight` | 25% each | 90° arc over 6 units, banked outer edge +3° |
+| `Drop` | 10% | 4-unit steep drop (-25°) into straight |
+| `Jump` | 10% | Upward ramp (+20°) launching to next segment with **1–2 unit gap** |
+| `Booster` | 5% | Flat pad that applies forward impulse when ball contacts |
+
+**Placement rules (coding traps):**
+1. Each segment exposes **entry socket** and **exit socket** (position + forward direction + up vector). Next segment's entry must snap to previous exit within **0.05 units** position and **5°** rotation error — regenerate segment if snap fails.
+2. **No segment may place more than 12 units below y = -10** (kill plane). Regenerate track if violated.
+3. **Max consecutive Jumps: 1** — never place two Jump segments back-to-back.
+4. **Curve segments must alternate bias** — no more than 2 same-direction curves in a row (prevents impossible spirals).
+5. After assembly, run a **validation pass:** raycast down from each segment midpoint — track must be continuous (no orphan pieces).
+
+**Booster behavior:** `Area3D` on booster segment; on ball enter, apply `impulse = forward * 8` along track tangent.
+
+**Kill plane:** y < -15 → status `FELL OFF`, freeze ball, show restart.
+
+**Finish gate:** At the final segment exit socket, instance either `finish_gate.glb` (Blender) or `procedural_finish_gate` (fallback). Base flush with track surface, opening aligned with track forward (+Z). Attach an `Area3D` child (box shape ~1.2 × 1.0 × 0.8 units) for win detection — ball entering sets `FINISHED`, freeze ball, log time. Mesh is visual only; the Area3D is authoritative for wins.
+
+### Ball Physics (tuned for spectacle, not realism):
+- Mass: 0.5
+- Physics material: friction 0.15, bounce 0.4
+- `linear_damp = 0.1`, `angular_damp = 0.3`
+- Continuous CD: `COLLISION_MODE_CONTINUOUS` (or Godot 4 equivalent) to reduce tunneling at high speed
+- Launch: on **Launch Ball**, teleport to track start, zero velocities, then apply small delay (0.3 s) before applying initial impulse `forward * 3`
+
+### Camera Follow:
+- Target position: ball position - velocity.normalized() * 4 + Vector3(0, 3, 0) (behind and above)
+- Lerp factor: ~5.0 * delta
+- Never clip below y = 0.5 (minimum camera height)
+- On `FELL OFF`, hold camera 2 s then offer reset
+
+### Controls:
+| Input | Action |
+| Space / Launch button | Launch ball from start |
+| N | Generate new track |
+| R | Reset ball to start (during RUNNING or after finish/fail) |
+| C | Toggle camera mode |
+
+### Scene Structure (minimum):
+- `main.tscn` — track container, ball, camera rig, HUD, kill plane
+- `track_generator.gd` — procedural assembly + validation
+- `track_segment_*.tscn` or factory-built segments (at least 5 distinct types)
+- `ball.gd`, `follow_camera.gd`, `game_state.gd`
+- Main Scene set in Project Settings
+
+### Deliverable:
+A runnable Godot 4 project where clicking Launch sends a ball through a freshly generated marble run with visible jumps, curves, and a finish gate. Works with **either** Blender imports **or** procedural fallbacks. All generation, collision alignment, and physics tuning implemented — no empty functions or placeholder stubs.
+
+Before finishing, use MCP to verify and confirm:
+- `asset_mode` is set correctly (`blender` or `fallback`) and HUD badge matches
+- If Blender path: GLBs visible in-game; if fallback: icosphere marble + procedural arch visible
+- New Track generates 14–18 valid connected segments with no gaps at sockets
+- Launch places ball at start; ball rolls without falling through track collision
+- Boosters impart forward impulse; Jump segments produce visible air time
+- Finish gate at track end; Area3D trigger fires FINISHED; kill plane triggers FELL OFF
+- Follow camera tracks smoothly; C toggles camera mode
+- `project_run` succeeds; `editor_screenshot` shows ball + finish gate mid-run
+- No empty functions; fallback assets are fully implemented, not TODO stubs
+Act as an expert Godot 4 game engineer specializing in 2D Verlet physics, constraint solvers, and GDScript.
+
+Your task is to build a complete, playable "Rope Bridge Builder" in a Godot 4 project. The player places anchor pins and rope segments between them, then releases a heavy boulder to roll across the bridge toward a goal flag. Use GDScript only — no C#, no external game engines, no third-party addons beyond the Godot AI MCP plugin already enabled in the project.
+
+Do not reuse a tutorial layout or repo you already know. Implement from the rules below.
+
+Goal:
+A satisfying build-then-test physics toy where bridges sway, snap, or succeed under load. Prioritize correct Verlet integration, distance constraints, pin constraints, and stable boulder interaction first — that is what this test measures. The moment the boulder rolls (or plummets) across the bridge should be the visual payoff. Give it a clean workshop aesthetic with readable rope rendering and a dramatic slow-motion option.
+
+### Environment & MCP Workflow (required):
+You are connected to a live Godot editor via the Godot AI MCP server. You MUST use MCP tools to build, run, and verify the game — do not only output code in chat.
+
+1. Use MCP tools to create scenes, scripts, Input Map actions, and UI directly in the editor.
+2. After meaningful changes, run with `project_run` and inspect via `editor_screenshot` and `logs_read(source="editor", include_details=true)`.
+3. Use `game_manage` input tools to smoke-test placing pins and releasing the boulder when possible.
+4. Iterate until build mode, test mode, and win/lose states all work without errors.
+
+### Visual & UI Requirements:
+1. **Viewport:** 1280×720 world space. Side-view 2D (gravity pulls down). Dark workshop background `#1a1a2e`, subtle grid lines every 64 px.
+2. **Fixed landmarks (always visible):**
+   - Left cliff platform at x ≈ 120 (solid `#4a4e69`)
+   - Right cliff platform at x ≈ 1160 with **Goal Flag** (`#55ff33`) — win zone
+   - Gap between cliffs: ~920 px wide, ~400 px deep void below (`#0d0d14`)
+3. **Rope:** Render as a polyline or chained `Line2D` / small circles per particle, color `#e9c46a`, thickness 3 px. Under tension (stretch > 5%), tint `#ff6b35`.
+4. **Pins:** Small metallic circles `#adb5bd` where player placed anchors (max 6 pins total per bridge).
+5. **Boulder:** `RigidBody2D` circle, radius 28 px, fill `#6c757d`, outline `#dee2e6`. Should visibly deform the bridge when rolling.
+6. **HUD (`CanvasLayer`):**
+   - Mode label: `BUILD` or `TEST`
+   - Pin count: `Pins: 2/6`
+   - Buttons: **Clear Bridge**, **Release Boulder** (enabled only in TEST), **Reset Level**
+   - Toggle: **Slow-Mo** (0.25× time scale during TEST)
+   - Result banner: "Bridge Held!" / "The boulder fell!" with restart hint
+
+### Game Phases:
+
+**BUILD phase (default on load / after Reset):**
+- Click (or tap) in the gap to place a **pin** (fixed anchor constraint). Pins must be:
+  - Inside the gap bounds (not on cliff solids)
+  - At least 80 px apart from any other pin
+  - Maximum **6 pins** per attempt
+- After placing 2+ pins, click pin A then pin B to spawn a **rope** between them:
+  - Rope = chain of **12 Verlet particles** connected by distance constraints
+  - End particles are pinned to the two anchor positions each frame
+- Right-click a pin to remove it (and any ropes attached). Cannot remove cliff anchors (optional: provide 2 pre-placed cliff-edge pins that are always fixed).
+- **Release Boulder** button switches to TEST phase (or press Enter).
+
+**TEST phase:**
+- Spawn boulder on left cliff at `(160, cliff_top - 40)`.
+- Apply initial horizontal velocity `vx = 180` px/s toward the gap (or let gravity + bridge slope do the work — document choice).
+- Physics runs until: boulder center enters goal zone (win), boulder falls below y = 750 (lose), or 15 seconds elapse (lose).
+- During TEST, pins and rope structure are frozen (no editing). Boulder collides with rope particles via physics layers or manual collision response.
+
+### Verlet Physics (core implementation — no built-in soft-body plugin):
+
+Each rope particle `i` has `pos`, `prev_pos`, and optional `pinned: bool`.
+
+1. **Integration (per sub-step):**
+   ```
+   velocity = pos - prev_pos
+   prev_pos = pos
+   pos += velocity + gravity * dt * dt
+   ```
+   Gravity: `(0, 980)` px/s². Use **8 sub-steps** per frame (`dt / 8`).
+
+2. **Distance constraints** between consecutive particles on the same rope:
+   - Rest length = total rope length / (particle_count - 1)
+   - Relax each constraint **5 iterations** per sub-step using symmetric correction (move both particles unless pinned).
+
+3. **Pin constraints:** Pinned particles have `pos` and `prev_pos` locked to anchor each sub-step.
+
+4. **Cliff collision:** Particles and boulder cannot penetrate cliff `StaticBody2D` rectangles. Use Godot physics for boulder-cliff; rope particles may use simple AABB clamp against cliff edges.
+
+5. **Boulder ↔ rope interaction (required):**
+   - Each frame, for each rope particle within boulder radius + margin: push particle outward along normal from boulder center, and apply equal-and-opposite impulse to boulder velocity (approximate point collision).
+   - Without this, the boulder will ghost through ropes — that is a failure.
+
+### Critical Implementation Rules (coding traps):
+- **Sub-stepping is mandatory.** Single-step Verlet with large dt will explode constraints.
+- **Constraint iteration count matters.** Fewer than 3 iterations produces rubber-band bridges; document your iteration count.
+- **Do not use `RigidBody2D` joints for the rope itself** — the rope must be custom Verlet + constraints (joints optional only for boulder if needed).
+- **Anti-tunneling:** If boulder speed × dt > rope particle spacing, do 2 boulder collision passes per sub-step.
+- **BUILD/TEST state machine** must fully reset particle velocities when entering TEST (zero initial rope wobble except gravity).
+
+### Controls:
+| Input | Action |
+| Left click (BUILD) | Place pin / connect two pins with rope |
+| Right click (BUILD) | Remove pin |
+| Enter / Release button | Start TEST |
+| R | Reset to BUILD |
+| S | Toggle slow-mo (TEST only) |
+
+### Scene Structure (minimum):
+- `main.tscn` — cliffs, camera, HUD, spawners
+- Scripts: `verlet_rope.gd`, `bridge_builder.gd`, `boulder.gd`, `game_state.gd` (or equivalent separation)
+- Main Scene set in Project Settings
+
+### Deliverable:
+A runnable Godot 4 project where the player builds a rope bridge, releases a boulder, and either reaches the goal or falls into the void. All Verlet and constraint logic implemented — no empty functions or placeholder stubs.
+
+Before finishing, use MCP to verify and confirm:
+- BUILD: place pins, connect ropes, clear, pin limit enforced
+- TEST: boulder spawns, interacts with rope particles, does not ghost through
+- Win when boulder reaches goal zone; lose on fall or timeout
+- Slow-mo toggle works; Reset returns to BUILD cleanly
+- `project_run` succeeds; `editor_screenshot` shows bridge + boulder in action
+- No placeholder logic in any script
+Build a Kanban web app using vanilla HTML, CSS, and JavaScript.
+
+Goal:
+Create a polished, usable Kanban board for personal task management. Prioritize working features, clear UX, and maintainable code over unnecessary complexity. This should feel like a real small product, not a demo with placeholder behavior.
+
+Technical requirements:
+- Use only vanilla HTML, CSS, and JavaScript (no React, Vue, Svelte, etc.).
+- You may use small third-party libraries where they add clear value (for example, a drag-and-drop helper), but the app logic should remain in your own JS.
+- The app must run locally without a backend:
+  - either by opening a single HTML file, or
+  - via a simple dev setup (for example: npm run dev with Vite or similar).
+- Persist all board data in localStorage so refresh/reload does not lose work.
+- Include a README with:
+  - how to run the app
+  - feature overview
+  - brief notes on code structure
+
+Core features:
+
+1. Board & columns
+   - Default columns: "To Do", "In Progress", "Done".
+   - Add, rename, reorder, and delete columns.
+   - Reorder columns via drag-and-drop on column headers.
+   - Deleting a column should not silently destroy its cards (move them to archive or prompt the user — explain behavior in the README).
+
+2. Cards
+   - Create, edit, and delete cards within columns.
+   - Each card must include:
+     - title (required)
+     - description (plain textarea — no Markdown rendering required)
+     - one or more colour-coded labels
+     - optional assignee name
+   - Cards in the "Done" column should show a visible completion indicator (for example, a checkmark on the card).
+   - Drag and drop cards:
+     - between columns
+     - reorder within a column
+
+3. Archiving
+   - Soft-delete cards and/or columns to an archive area.
+   - Archived items can be viewed and restored.
+   - Permanent delete is optional but archive must exist.
+
+4. Search & filtering
+   - Search bar filters cards by title and description.
+   - Filter by label (colour/category).
+   - Filter by assignee.
+   - Filters should combine sensibly (search + label + assignee together).
+
+5. Theme
+   - Dark/light mode toggle.
+   - Consistent styling across the whole app.
+   - Persist theme preference across reloads.
+
+UX expectations:
+- The app should be understandable without instructions.
+- Use clear empty states (empty board, empty column, no search results).
+- Card editing should be easy (modal, slide-over, or inline — your choice, but keep it usable).
+- Provide visible feedback for actions (add, archive, delete, save).
+- Keyboard and mouse should both work for normal use; full accessibility compliance is not required.
+
+Code quality expectations:
+- Organize code into clear modules/files rather than one giant script.
+- Separate concerns where reasonable (state, DOM/rendering, persistence, drag-and-drop, filters).
+- Use readable names and avoid hard-coded magic values scattered everywhere.
+- No dead features: if assignee filtering exists, assignee must be editable on cards.
+
+Scope guidance:
+- Do NOT build: user accounts, backend API, real-time collaboration, notifications, or mobile apps.
+- Do NOT spend time on auth, deployment, or CI unless core features are complete.
+- Simple, clean UI is preferred over flashy but fragile UI.
+
+Deliverables:
+- All source files needed to run the app
+- README with run instructions
+- App works end-to-end without manual code edits
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the app for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- Drag-and-drop handlers are wired for cards (between and within columns) and column header reorder
+- Column add/rename/reorder/delete is implemented (including safe handling when deleting columns with cards)
+- Cards include title, plain description, labels, and assignee; Done column shows a completion indicator
+- Archive and restore flow is implemented
+- Search and filters (label, assignee) combine correctly in the filtering logic
+- Dark/light mode and board data persist to localStorage
+- README includes run instructions and feature overview
+Build a memory card matching game as a single-page web app using vanilla HTML, CSS, and JavaScript only (no React, Vue, Svelte, etc.).
+
+Goal:
+A playable "concentration" game: flip cards, find matching pairs, finish the board. Prioritize correct game rules and responsive interaction.
+
+Technical requirements:
+- Vanilla HTML, CSS, and JavaScript only.
+- Runs locally without a backend: open index.html directly or use a minimal dev server (e.g. npx serve . or Vite).
+- Include a README with: how to run, rules, brief file/structure notes.
+
+Board setup:
+- 4×4 grid (16 cards, 8 pairs).
+- Each pair shares the same face value (emoji, letter, or colour block — your choice; faces must be distinguishable).
+- Shuffle card positions on New game.
+
+Gameplay:
+
+1. Flip
+   - Cards start face-down.
+   - Click a face-down card to reveal it.
+   - At most two cards face-up at once (ignore extra clicks while two are showing).
+
+2. Match
+   - If two revealed cards match, leave them face-up (visually "locked").
+   - If they do not match, flip both back face-down after a short delay (300–800 ms — pick one value and use it consistently).
+
+3. Win
+   - When all pairs are matched, show a clear win message with total moves (one move = one pair of flips, i.e. each attempt to match two cards counts as 1 move).
+
+4. New game
+   - Button reshuffles the board, resets moves to 0, hides the win message, and returns all cards face-down.
+
+5. Best score
+   - Persist the lowest move count for a completed game in localStorage.
+   - Show "Best: N moves" (or "No best yet" before the first win).
+   - Only update best when the player wins with fewer moves than the stored best (or on first win).
+
+UX expectations:
+- Face-down vs face-up states obvious.
+- Locked matched pairs cannot be flipped again.
+- Empty or confusing click feedback is not required, but the board should feel responsive.
+- Desktop layout is enough.
+
+Code quality expectations:
+- Separate game state, shuffle/deck logic, and rendering (multiple JS files or clear modules).
+- No dead UI.
+
+Scope guidance:
+- Do NOT build: multiplayer, accounts, leaderboards, timers, sound packs, or grid sizes beyond 4×4.
+- Do NOT add npm runtime dependencies.
+
+Deliverables:
+- All source files to run the app in a browser
+- README with run instructions
+- Game works end-to-end without manual code edits
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the game for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- Deck shuffles on load and on New game; 4×4 grid with 8 pairs
+- Two-card flip limit and mismatch flip-back delay are implemented
+- Matched pairs lock and cannot be flipped again; win triggers when all pairs are matched
+- Move count and best score (localStorage) logic is correct
+- README includes run instructions and rules
+Question 1. (answer = 1)
+
+A group of four people needs to cross a bridge at night. The bridge is very old and rickety. They have only one torch and because it's night-time, the torch is necessary to cross the bridge. Each person walks at a different speed: - A takes 1 minute to cross, - B takes 2 minutes, - C takes 5 minutes, and - D takes 10 minutes. What is the fastest time they can all get across the bridge?
+
+1. 10 minutes
+2. 14 minutes
+3. 17 minutes
+4. There is not enough information to determine the fastest time.
+
+=========================
+
+Question 2. (answer = 1)
+The Poisoned Wine - A king has 1000 sweet bottles of wine, and one contains a very bitter poison. The poison takes effect exactly 24 hours after consumption. The king needs to find the poisoned bottle in 24 hours for an event. He has 10 prisoners to test the wine. What is the fastest way for him to identify the poisoned bottle?
+
+1. Divide the bottles of wine amongst the prisoners and get them to note which one tastes bitter.
+
+2. Using a binary search strategy with the 10 prisoners, leveraging the concept of binary numbers to minimize the number of tests needed. The king will know results in 24 hours
+
+3. Get all of the prisoners to sample each of the bottles of wine and see who dies in 24 hours.
+
+4. Divide the bottles of wine amongst the prisoners and get them to take a sip and note which one dies in 24 hours.
+
+=========================
+
+Question 3. (answer = 1)
+
+How many pairs of twins do you need in a room for there to be at least a 50% chance that two people have the same birthday?
+
+1. 1 pair
+2. 12 pairs
+3. 23 pairs
+4. 46 pairsAct as an expert software engineer specializing in low-level graphics and simulation algorithms. 
+
+Your task is to build a self-contained "Falling Sand Physics Simulation" (cellular automata) inside a single, beautifully styled HTML file. The entire application must be written in vanilla HTML, CSS, and JavaScript with NO external libraries or dependencies. 
+
+### Visual & UI Requirements:
+1. UI Layout: A clean, modern, dark-themed dashboard. Center the simulation canvas. Provide a control panel on the side or top with styled buttons to select the active material, a "Clear Canvas" button, and a slider to adjust brush/drop size.
+2. Canvas Dimensions: Fixed at 400x400 pixels, but stylized via CSS to look crisp and sharp (use `image-rendering: pixelated;`). The internal simulation grid should map to a resolution that ensures high performance (e.g., 100x100 or 150x150 grid cells mapped onto the 400x400 canvas).
+3. Visuals: Elements must have distinct, vibrant colors:
+   - Empty Space: Deep charcoal/black (#1e1e24)
+   - Sand: Rich gold/yellow (#e9c46a)
+   - Water: Vibrant blue (#457b9d)
+   - Wall (Impassable): Solid slate gray (#6c757d)
+   - Acid: Glowing neon green (#55ff33)
+
+### Simulation Mechanics & Physics Rules:
+You must implement a discrete 2D grid array state and update it using a strict frame-by-frame loop via `requestAnimationFrame`. The physics elements must interact according to these exact rules:
+1. Wall: Static. Cannot move, fall, or be displaced.
+2. Sand: Falls straight down into empty space. If the space directly below is blocked by Sand or Wall, it must attempt to slide diagonally down-left or down-right at random if those spaces are empty. If it falls into Water or Acid, it should sink through it (displace it upward).
+3. Water: Falls straight down. If blocked below, it flows diagonally down-left or down-right. If those are blocked, it must spread out horizontally left or right into empty space until it hits a wall or another element.
+4. Acid: Falls down and flows horizontally exactly like Water, but with a unique property: if it comes into direct contact with Sand or Wall (top, bottom, or sides), it "dissolves" both itself and one pixel of that material, turning both cells back into Empty Space.
+
+### Critical Implementation Rules (The Coding Trap):
+- Multi-Pass / Directional Processing: To prevent a single particle from "teleporting" from the top of the screen to the bottom in a single frame, you must iterate through the grid from the BOTTOM row up to the top row when processing movement rules.
+- Horizontal Shuffling: When processing diagonal or horizontal movement, randomize whether the engine checks left or right first. If you do not randomize this, the liquids and sand will unnaturally pile up or skew heavily toward one side of the screen.
+- Interaction: Implement smooth mouse dragging on the canvas so the user can "paint" streams of elements into the sandbox in real-time.
+
+### Deliverable:
+Provide the complete, production-ready code inside a single code block containing the full HTML, CSS, and JavaScript. Do not omit any logic, do not use placeholders, and do not use "code shortcuts". It must work immediately when saved as an .html file and opened in a browser.
+
+Note: You may not have access to a browser, dev server, or vision tools — do not rely on running or visually inspecting the simulation for verification. Validate by reading and reasoning about the code instead.
+
+Before finishing, review the code to confirm:
+- UI control panel (material select, clear canvas, brush size) is wired to the simulation
+- Grid processes bottom-to-top; horizontal/diagonal checks randomize left vs right first
+- Sand, water, and acid follow the stated movement and interaction rules (including acid dissolve)
+- Mouse dragging paints the selected material onto the grid
+- Complete single HTML file with no placeholders or omitted logic
