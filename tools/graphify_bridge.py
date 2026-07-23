@@ -26,7 +26,8 @@ from difflib import SequenceMatcher
 
 # === Configuration ===
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-GRAPH_JSON = PROJECT_ROOT / "graphify-out" / "graph.json"
+# graphify-out is at /workspace/graphify-out (one level above llm-wiki/)
+GRAPH_JSON = PROJECT_ROOT.parent / "graphify-out" / "graph.json"
 WIKI_DIR = PROJECT_ROOT / "wiki"
 WIKI_INDEX = WIKI_DIR / "index.md"
 SLUGS_FILE = PROJECT_ROOT / "wiki" / ".slug_cache.json"
@@ -304,7 +305,7 @@ def main():
         print("\n✅ Changes applied")
 
     # Save report
-    report_path = PROJECT_ROOT / "graphify-out" / "bridge_report.json"
+    report_path = PROJECT_ROOT.parent / "graphify-out" / "bridge_report.json"
     report_path.parent.mkdir(parents=True, exist_ok=True)
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)

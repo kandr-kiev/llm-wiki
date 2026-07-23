@@ -26,7 +26,9 @@ from datetime import datetime
 # === Configuration ===
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 WIKI_DIR = PROJECT_ROOT / "wiki"
-OUTPUT_DIR = PROJECT_ROOT / "graphify-out"
+# graphify-out moved to /workspace/graphify-out (one level above llm-wiki/)
+OUTPUT_DIR = PROJECT_ROOT.parent / "graphify-out"
+WIKI_GRAPH_JSON = OUTPUT_DIR / "graph-from-wiki.json"
 
 
 def extract_wikilinks(content: str) -> list:
@@ -284,10 +286,10 @@ def main():
     print(f"  Top inbound: {report['top_inbound'][0] if report['top_inbound'] else 'N/A'}")
     
     # 4. Save
-    print("\n[4/4] Saving graph.json...")
+    print("\n[4/4] Saving graph-from-wiki.json...")
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
-    graph_path = output_path or OUTPUT_DIR / "graph.json"
+    graph_path = output_path or WIKI_GRAPH_JSON
     with open(graph_path, "w", encoding="utf-8") as f:
         json.dump(graph, f, indent=2, ensure_ascii=False)
     print(f"  Saved to: {graph_path}")
