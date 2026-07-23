@@ -197,6 +197,10 @@ status: draft | completed | archived
 | `source-management` | `storage` | `supervised` | `system-design` |
 | `training` | `transfer-learning` | `use-case` | `vector-database` |
 | `web` | | | |
+| `api` | `dataset` | `interoperability` | `knowledge-storage` |
+| `monitoring` | `review` | `setup` | `software` |
+| `standards` | `streaming` | `tensorflow` | `tool` |
+| `tutorial` | `video-generation` | | |
 
 ### Page Thresholds
 

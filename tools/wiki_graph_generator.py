@@ -99,8 +99,8 @@ def scan_wiki_files(wiki_dir: Path) -> list:
         except Exception:
             continue
         
-        # Skip if no wikilinks and no meaningful content
-        if len(content) < 100:
+        # Skip if no meaningful content at all
+        if len(content) < 50:
             continue
         
         frontmatter = extract_frontmatter(content)

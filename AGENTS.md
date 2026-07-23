@@ -5,9 +5,9 @@ Maintain `/workspace/llm-wiki` as a persistent, markdown-first, agent-readable k
 
 ## Mandatory Orientation
 Before writing or answering:
-1. Read `SCHEMA.md`.
-2. Read `index.md`.
-3. Read recent `log.md`.
+1. Read `SCHEMA.md` (root — tag taxonomy & conventions).
+2. Read `wiki/index.md` (wiki page index).
+3. Read recent `log.md` (root — action log).
 4. Search for existing relevant pages.
 
 ## Ground Truth

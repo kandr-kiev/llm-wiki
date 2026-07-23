@@ -301,3 +301,5 @@
 ## [2026-07-23 06:04 UTC] source_monitor | RSS: 3735, GH: 42, HF: 17, Local: 0 | new: 44 (25 articles, 2 releases, 17 HF, 0 local)
 
 ## [2026-07-23 06:05 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 976 | **WARN:** 88 | **INFO:** 2 | **Auto-fixable:** 1028, після: **ERROR:** 20 | **WARN:** 44 | **INFO:** 2 | **Auto-fixable:** 23, виправлень: 957
+
+## [2026-07-23 12:08 UTC] source_monitor | RSS: 3759, GH: 42, HF: 17, Local: 0 | new: 46 (28 articles, 1 releases, 17 HF, 0 local)
