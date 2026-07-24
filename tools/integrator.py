@@ -529,7 +529,6 @@ def extract_tags(raw_content: str, title: str) -> List[str]:
         "agent": "agent",
         "agents": "agent",
         "multi": "multi-agent",
-        "agent": "agent",
         "security": "security",
         "privacy": "privacy",
         "ethics": "ethics",
@@ -643,10 +642,8 @@ def extract_tags(raw_content: str, title: str) -> List[str]:
         "backend": "backend",
         "mobile": "mobile",
         "web": "web",
-        "api": "api",
         "database": "vector-database",
         "search": "search",
-        "retrieval": "retrieval",
         "embedding": "embedding",
         "vector": "vector-database",
         "gpt": "gpt",
@@ -662,8 +659,6 @@ def extract_tags(raw_content: str, title: str) -> List[str]:
         "video": "video-generation",
         "multimodal": "multimodal",
         "foundation": "foundation-model",
-        "open": "open-source",
-        "open": "open-source",
     }
 
     for word in title_words | content_words:
@@ -1068,7 +1063,7 @@ def update_index(wiki_path: str, content_type: str, title: str):
         return
 
     # Add new entry at the top (after frontmatter if exists)
-    new_entry = f"### [{title}]({wiki_path})\n"
+    new_entry = f"### [[{wiki_path}]]\n"
 
     if "---" in index_content:
         fm_end = index_content.find("---", 3)

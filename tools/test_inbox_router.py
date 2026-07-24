@@ -11,6 +11,9 @@ import pytest
 # We need to patch INBOX_DIR before importing the module
 import inbox_router
 
+# Canonical utils — used by tests (functions moved to utils)
+from utils import build_frontmatter, compute_sha256, split_frontmatter, slugify
+
 # ---------------------------------------------------------------------------
 # Fixtures
 # ---------------------------------------------------------------------------
@@ -174,11 +177,11 @@ class TestClassifyFile:
 
 
 # ---------------------------------------------------------------------------
-# Tests: _build_frontmatter
+# Tests: build_frontmatter (canonical from utils)
 # ---------------------------------------------------------------------------
 class TestBuildFrontmatter:
     def test_contains_required_fields(self):
-        fm = inbox_router._build_frontmatter(
+        fm = build_frontmatter(
             source_url="https://example.com",
             blog_source="inbox:local"
         )
@@ -188,7 +191,7 @@ class TestBuildFrontmatter:
         assert "ingested:" in fm
 
     def test_ingested_date_format(self):
-        fm = inbox_router._build_frontmatter(
+        fm = build_frontmatter(
             source_url="https://example.com",
             blog_source="inbox:local"
         )
@@ -200,7 +203,7 @@ class TestBuildFrontmatter:
                 break
 
     def test_placeholder_sha(self):
-        fm = inbox_router._build_frontmatter(
+        fm = build_frontmatter(
             source_url="https://example.com",
             blog_source="inbox:local"
         )
@@ -208,69 +211,75 @@ class TestBuildFrontmatter:
 
 
 # ---------------------------------------------------------------------------
-# Tests: _compute_sha256
+# Tests: compute_sha256 (canonical from utils)
 # ---------------------------------------------------------------------------
 class TestComputeSHA256:
     def test_deterministic(self):
-        h1 = inbox_router._compute_sha256("hello")
-        h2 = inbox_router._compute_sha256("hello")
+        h1 = compute_sha256("hello")
+        h2 = compute_sha256("hello")
         assert h1 == h2
 
     def test_different_content_different_hash(self):
-        h1 = inbox_router._compute_sha256("hello")
-        h2 = inbox_router._compute_sha256("world")
+        h1 = compute_sha256("hello")
+        h2 = compute_sha256("world")
         assert h1 != h2
 
     def test_returns_64_char_hex(self):
-        h = inbox_router._compute_sha256("test")
+        h = compute_sha256("test")
         assert len(h) == 64
         assert all(c in '0123456789abcdef' for c in h)
 
+    def test_lstrip_newlines(self):
+        """verify canonical lstrip behavior."""
+        h1 = compute_sha256("hello")
+        h2 = compute_sha256("\n\nhello")
+        assert h1 == h2  # lstrip removes leading newlines
+
 
 # ---------------------------------------------------------------------------
-# Tests: _split_frontmatter
+# Tests: split_frontmatter (canonical from utils)
 # ---------------------------------------------------------------------------
 class TestSplitFrontmatter:
     def test_with_frontmatter(self):
         text = "---\nkey: value\n---\nbody content"
-        fm, body = inbox_router._split_frontmatter(text)
+        fm, body = split_frontmatter(text)
         assert fm == "key: value"
         assert body == "body content"
 
     def test_without_frontmatter(self):
         text = "just some text"
-        fm, body = inbox_router._split_frontmatter(text)
+        fm, body = split_frontmatter(text)
         assert fm is None
         assert body == text
 
     def test_empty_body(self):
         text = "---\nkey: value\n---\n"
-        fm, body = inbox_router._split_frontmatter(text)
+        fm, body = split_frontmatter(text)
         assert fm == "key: value"
         assert body == ""
 
 
 # ---------------------------------------------------------------------------
-# Tests: _slugify
+# Tests: slugify (canonical from utils)
 # ---------------------------------------------------------------------------
 class TestSlugify:
     def test_basic(self):
-        assert inbox_router._slugify("Hello World") == "hello-world"
+        assert slugify("Hello World") == "hello-world"
 
     def test_special_chars_removed(self):
-        slug = inbox_router._slugify("Test: A/B, C.D")
-        assert "/" not in slug
-        assert "." not in slug
-        assert "," not in slug
-        assert ":" not in slug
+        s = slugify("Test: A/B, C.D")
+        assert "/" not in s
+        assert "." not in s
+        assert "," not in s
+        assert ":" not in s
 
     def test_uppercase_lowercased(self):
-        assert inbox_router._slugify("UPPERCASE") == "uppercase"
+        assert slugify("UPPERCASE") == "uppercase"
 
     def test_long_slug_truncated(self):
         long_name = "A" * 200
-        slug = inbox_router._slugify(long_name)
-        assert len(slug) == 100
+        s = slugify(long_name)
+        assert len(s) == 100
 
 
 # ---------------------------------------------------------------------------

@@ -43,8 +43,13 @@ def split_frontmatter(text: str):
 # ---------------------------------------------------------------------------
 
 def compute_sha256(content: str) -> str:
-    """Compute SHA256 of content body. NO .strip() — canonical."""
-    return hashlib.sha256(content.encode('utf-8')).hexdigest()
+    """Compute SHA256 of content body — canonical: body.lstrip("\\n").
+
+    MUST strip leading newlines to match split_frontmatter output,
+    where the separator '\\n---\\n' leaves a leading '\\n' if there
+    is a blank line between the closing '---' and the first body line.
+    """
+    return hashlib.sha256(content.lstrip("\n").encode("utf-8")).hexdigest()
 
 
 def compute_body_sha256(filepath: Path) -> str:

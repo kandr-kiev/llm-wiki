@@ -1,22 +1,13 @@
 #!/usr/bin/env python3
 """Fix SHA256 drift in raw files — recompute body hash using split_frontmatter logic."""
 from pathlib import Path
-import hashlib
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from utils import split_frontmatter, compute_sha256
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw" / "articles"
-
-def split_frontmatter(text):
-    """Same logic as wiki_lint.py — find '\\n---\\n' boundary."""
-    if not text.startswith("---\n"):
-        return None, text
-    end = text.find("\n---\n", 4)
-    if end == -1:
-        return None, text
-    return text[4:end], text[end+5:]
-
-def compute_sha256(content):
-    return hashlib.sha256(content.encode('utf-8')).hexdigest()
 
 def fix_file(filepath):
     """Recompute sha256 for a single file."""

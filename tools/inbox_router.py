@@ -14,10 +14,13 @@ Usage:
 import os
 import sys
 import shutil
-import hashlib
 import re
 from pathlib import Path
 from datetime import datetime, timezone
+
+# Canonical utils — single source of truth
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from utils import split_frontmatter, compute_sha256, slugify, build_frontmatter
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -66,30 +69,8 @@ def _mark_processed(filepath: Path):
 # ---------------------------------------------------------------------------
 # Frontmatter generation
 # ---------------------------------------------------------------------------
-def _build_frontmatter(source_url: str, blog_source: str, sha256: str = 'PLACEHOLDER') -> str:
-    ingested = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-    return f"---\nsource_url: {source_url}\ningested: {ingested}\nsha256: {sha256}\nblog_source: {blog_source}\n---\n"
-
-
-def _compute_sha256(content: str) -> str:
-    return hashlib.sha256(content.encode('utf-8')).hexdigest()
-
-
-def _split_frontmatter(text: str):
-    """Split markdown into (frontmatter, body)."""
-    if not text.startswith("---\n"):
-        return None, text
-    end = text.find("\n---\n", 4)
-    if end == -1:
-        return None, text
-    return text[4:end], text[end + 5:]
-
-
-def _slugify(title: str) -> str:
-    slug = title.lower().replace(' ', '-').replace('.', '').replace(',', '').replace(':', '').replace('—', '-')
-    slug = ''.join(c for c in slug if c.isalnum() or c in '-_')
-    slug = slug[:100]
-    return slug
+# Canonical functions imported from utils:
+#   split_frontmatter, compute_sha256, slugify, build_frontmatter
 
 
 def _classify_file(filepath: Path) -> str:
@@ -146,12 +127,12 @@ def _process_text_file(filepath: Path, target_dir: Path, subdir: str) -> dict:
     # Generate filename
     stem = filepath.stem
     date_str = datetime.now(timezone.utc).strftime('%Y-%m-%d')
-    slug = _slugify(stem)
+    slug = slugify(stem)
     filename = f"inbox-{slug}-{date_str}.md"
     target_path = target_dir / filename
 
     # Build frontmatter
-    frontmatter = _build_frontmatter(
+    frontmatter = build_frontmatter(
         source_url=f"file://{filepath}",
         blog_source=blog_source_map.get(subdir, "inbox:local"),
     )
@@ -162,9 +143,9 @@ def _process_text_file(filepath: Path, target_dir: Path, subdir: str) -> dict:
 
     # Fix SHA256
     file_content = target_path.read_text(encoding='utf-8')
-    fm, body = _split_frontmatter(file_content)
+    fm, body = split_frontmatter(file_content)
     if fm is not None:
-        sha = _compute_sha256(body)
+        sha = compute_sha256(body)
         new_fm = fm.replace('sha256: PLACEHOLDER', f'sha256: {sha}')
         new_content = '---\n' + new_fm + '\n---\n' + body
         with open(target_path, 'w', encoding='utf-8') as f:
