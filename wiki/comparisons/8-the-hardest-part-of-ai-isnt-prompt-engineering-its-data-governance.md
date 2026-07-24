@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - the-hardest-part-of-ai-isnt-prompt-engineering-its-data-governance-2026-07-17.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[hackthebox void whispers writeup bh5]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[most engineers use ai few engineer with it are you one of them 4oeg]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-4oeg]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
 
 ## Key Findings
 
@@ -155,8 +155,8 @@ An employee uploads a confidential spreadsh
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[hackthebox void whispers writeup bh5]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[most engineers use ai few engineer with it are you one of them 4oeg]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-4oeg]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]

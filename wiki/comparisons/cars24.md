@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - how-cars24-scales-conversations-and-builds-faster-with-openai-2026-07-16.md
 > **Links:**
-- [[deutsche telekom]]
-- [[managing ai investments in agentic era]]
+- [[deutsche-telekom]]
+- [[managing-ai-investments-in-agentic-era]]
 - [[mufg]]
-- [[introducing gpt live]]
-- [[separating signal from noise coding evaluations]]
+- [[introducing-gpt-live]]
+- [[separating-signal-from-noise-coding-evaluations]]
 
 ## Key Findings
 
@@ -60,8 +60,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[deutsche telekom]]
-- [[managing ai investments in agentic era]]
+- [[deutsche-telekom]]
+- [[managing-ai-investments-in-agentic-era]]
 - [[mufg]]
-- [[introducing gpt live]]
-- [[separating signal from noise coding evaluations]]
+- [[introducing-gpt-live]]
+- [[separating-signal-from-noise-coding-evaluations]]

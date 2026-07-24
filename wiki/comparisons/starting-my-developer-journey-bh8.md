@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - starting-my-developer-journey--2026-07-21.md
 > **Links:**
-- [[perl weekly 782 perl v544 186n]]
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -135,11 +135,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[perl weekly 782 perl v544 186n]]
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 ## Backlinks
 
 ```dataview

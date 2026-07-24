@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - how-to-manage-ai-investments-in-the-agentic-era-2026-07-14.md
 > **Links:**
-- [[introducing gpt live]]
-- [[separating signal from noise coding evaluations]]
-- [[deutsche telekom]]
-- [[government national security partnerships]]
-- [[k 12 educators practical skills]]
+- [[introducing-gpt-live]]
+- [[separating-signal-from-noise-coding-evaluations]]
+- [[deutsche-telekom]]
+- [[government-national-security-partnerships]]
+- [[k-12-educators-practical-skills]]
 
 ## Key Findings
 
@@ -60,8 +60,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[introducing gpt live]]
-- [[separating signal from noise coding evaluations]]
-- [[deutsche telekom]]
-- [[government national security partnerships]]
-- [[k 12 educators practical skills]]
+- [[introducing-gpt-live]]
+- [[separating-signal-from-noise-coding-evaluations]]
+- [[deutsche-telekom]]
+- [[government-national-security-partnerships]]
+- [[k-12-educators-practical-skills]]

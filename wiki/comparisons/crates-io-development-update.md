@@ -35,11 +35,11 @@ tags:
 > **Sources:**
 >   - cratesio-development-update-2026-07-17.md
 > **Links:**
-- [[Rust 1.96.0]]
-- [[Rust 1.97.0]]
-- [[Rust 1.97.1]]
-- [[The Illustrated Stable Diffusion]]
-- [[Rust 1.96.1]]
+- [[rust-1960]]
+- [[rust-1970]]
+- [[rust-1971]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[rust-1961]]
 
 ## Key Findings
 
@@ -95,8 +95,8 @@ We designed this change to be invisible for our users, since the new frontend is
 
 ## Related Articles
 
-- [[Rust 1.96.0]]
-- [[Rust 1.97.0]]
-- [[Rust 1.97.1]]
-- [[The Illustrated Stable Diffusion]]
-- [[Rust 1.96.1]]
+- [[rust-1960]]
+- [[rust-1970]]
+- [[rust-1971]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[rust-1961]]

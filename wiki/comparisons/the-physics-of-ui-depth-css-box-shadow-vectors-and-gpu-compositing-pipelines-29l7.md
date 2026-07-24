@@ -34,11 +34,11 @@ backlinks:
 > **Sources:**
 >   - the-physics-of-ui-depth-css-box-shadow-vectors-and-gpu-compositing-pipelines-2026-07-21.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[its a post 4hi8]]
-- [[class vs object who is the big boss 32nj]]
-- [[starting my developer journey bh8]]
-- [[the gitbook migration trap 4gp2]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[its-a-post-4hi8]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[starting-my-developer-journey-bh8]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -129,11 +129,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[its a post 4hi8]]
-- [[class vs object who is the big boss 32nj]]
-- [[starting my developer journey bh8]]
-- [[the gitbook migration trap 4gp2]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[its-a-post-4hi8]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[starting-my-developer-journey-bh8]]
+- [[the-gitbook-migration-trap-4gp2]]
 ## Backlinks
 
 ```dataview

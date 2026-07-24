@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - genpage-towards-end-to-end-generative-homepage-construction-at-netflix-2026-07-17.md
 > **Links:**
-- [[a human augmenting agentic workflow for causal inference 4623f0a9c5af]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[data projects managing data assets at netflix scale 7ca25888591e]]
+- [[a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[data-projects-managing-data-assets-at-netflix-scale-7ca25888591e]]
 
 ## Key Findings
 
@@ -48,8 +48,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[a human augmenting agentic workflow for causal inference 4623f0a9c5af]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[data projects managing data assets at netflix scale 7ca25888591e]]
+- [[a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[data-projects-managing-data-assets-at-netflix-scale-7ca25888591e]]

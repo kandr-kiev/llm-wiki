@@ -24,8 +24,8 @@ tags:
 - [[php-file-iterator]]
 - [[phpunit/php-invoker]]
 - [[phpunit/php-code-coverage]]
-- [[Version]]
-- [[Manifest]]
+- [[version]]
+- [[manifest]]
 
 ## Key Findings
 
@@ -55,5 +55,5 @@ See Key Findings for full content.
 - [[php-file-iterator]]
 - [[phpunit/php-invoker]]
 - [[phpunit/php-code-coverage]]
-- [[Version]]
-- [[Manifest]]
+- [[version]]
+- [[manifest]]

@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - lora-speedrun--a-public-wall-clock-leaderboard-for-fine-tuning-techniques-2026-07-20.md
 > **Links:**
-- [[ai teaching assistant uiuc]]
-- [[grok build ios]]
-- [[lingbot map]]
-- [[little book rl]]
-- [[Kasa EC71]]
+- [[ai-teaching-assistant-uiuc]]
+- [[grok-build-ios]]
+- [[lingbot-map]]
+- [[little-book-rl]]
+- [[kasa-ec71]]
 
 ## Key Findings
 
@@ -96,8 +96,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai teaching assistant uiuc]]
-- [[grok build ios]]
-- [[lingbot map]]
-- [[little book rl]]
-- [[Kasa EC71]]
+- [[ai-teaching-assistant-uiuc]]
+- [[grok-build-ios]]
+- [[lingbot-map]]
+- [[little-book-rl]]
+- [[kasa-ec71]]

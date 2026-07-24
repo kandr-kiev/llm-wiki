@@ -24,7 +24,7 @@ tags:
 > **Links:**
 - [[v0.23.0]]
 - [[v0.22.1]]
-- [[Release v0.1.49-beta]]
+- [[release-v0149-beta]]
 - [[v3.13.0]]
 - [[v3.14.0]]
 
@@ -53,6 +53,6 @@ See Key Findings for full content.
 
 - [[v0.23.0]]
 - [[v0.22.1]]
-- [[Release v0.1.49-beta]]
+- [[release-v0149-beta]]
 - [[v3.13.0]]
 - [[v3.14.0]]

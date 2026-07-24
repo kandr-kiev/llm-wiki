@@ -30,11 +30,11 @@ backlinks:
 > **Sources:**
 >   - long-presumed-dead-a-thriving-coral-reef-is-discovered-in-west-africa-2026-07-21.md
 > **Links:**
-- [[Automating away]]
-- [[open source monopoly]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[away]]
+- [[open-source-monopoly]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[ai]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -86,11 +86,11 @@ Bridging the gap between shallow reefs and deeper benthic habitats, MCEs are hom
 
 ## Related Articles
 
-- [[Automating away]]
-- [[open source monopoly]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[away]]
+- [[open-source-monopoly]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[ai]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 ## Backlinks
 
 ```dataview

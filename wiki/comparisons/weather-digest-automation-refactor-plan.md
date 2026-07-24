@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digestdocsautomation-refactor-planmd-2026-07-20.md
 > **Links:**
-- [[Local LLM Wiki — Agent Contract]]
-- [[Local LLM Wiki — Agent Contract (Legacy)]]
-- [[Local LLM Wiki Algorithm]]
-- [[Version]]
-- [[Manifest]]
+- [[local-llm-wiki-agent-contract]]
+- [[local-llm-wiki-agent-contract-legacy]]
+- [[local-llm-wiki-algorithm]]
+- [[version]]
+- [[manifest]]
 
 ## Key Findings
 
@@ -101,8 +101,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Local LLM Wiki — Agent Contract]]
-- [[Local LLM Wiki — Agent Contract (Legacy)]]
-- [[Local LLM Wiki Algorithm]]
-- [[Version]]
-- [[Manifest]]
+- [[local-llm-wiki-agent-contract]]
+- [[local-llm-wiki-agent-contract-legacy]]
+- [[local-llm-wiki-algorithm]]
+- [[version]]
+- [[manifest]]

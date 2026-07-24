@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - death-by-amnesia-your-agent-said-got-it-and-forgot-everything---until-a-lawsuit-arrived-2026-07-18.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[ai help with your database design without the cloud 32l4]]
-- [[claude code forgets everything between sessions i built a fix 59n5]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[ai-help-with-your-database-design-without-the-cloud-32l4]]
+- [[claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5]]
 
 ## Key Findings
 
@@ -136,8 +136,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[ai help with your database design without the cloud 32l4]]
-- [[claude code forgets everything between sessions i built a fix 59n5]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[ai-help-with-your-database-design-without-the-cloud-32l4]]
+- [[claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5]]

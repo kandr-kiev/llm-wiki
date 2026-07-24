@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - heal-a-framework-for-health-equity-assessment-of-machine-learning-performance-2026-07-17.md
 > **Links:**
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[generative ai to quantify uncertainty]]
-- [[computer aided diagnosis for lung]]
-- [[Computer Science > Artificial Intelligence]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[generative-ai-to-quantify-uncertainty]]
+- [[computer-aided-diagnosis-for-lung]]
+- [[arxiv260707858]]
 
 ## Key Findings
 
@@ -201,8 +201,8 @@ Earth AI
 
 ## Related Articles
 
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[generative ai to quantify uncertainty]]
-- [[computer aided diagnosis for lung]]
-- [[Computer Science > Artificial Intelligence]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[generative-ai-to-quantify-uncertainty]]
+- [[computer-aided-diagnosis-for-lung]]
+- [[arxiv260707858]]

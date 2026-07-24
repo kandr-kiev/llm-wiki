@@ -29,10 +29,10 @@ tags:
 > **Sources:**
 >   - api-first-or-browser-automation-lessons-from-shipping-content-autoposting-2026-07-17.md
 > **Links:**
-- [[workers cache]]
-- [[sequoia ascent]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
+- [[workers-cache]]
+- [[sequoia-ascent]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -125,8 +125,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[workers cache]]
-- [[sequoia ascent]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
+- [[workers-cache]]
+- [[sequoia-ascent]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

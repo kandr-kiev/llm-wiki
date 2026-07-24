@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-2026-07-16.md
 > **Links:**
-- [[fortune david siegel open source ai.pdf]]
-- [[ai police cops]]
-- [[speculative growth AI public.pdf]]
-- [[Release langchain-core==1.4.9]]
-- [[sequoia ascent]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[ai-police-cops]]
+- [[speculative-growth-ai-publicpdf]]
+- [[release-langchain-core149]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -92,8 +92,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[fortune david siegel open source ai.pdf]]
-- [[ai police cops]]
-- [[speculative growth AI public.pdf]]
-- [[Release langchain-core==1.4.9]]
-- [[sequoia ascent]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[ai-police-cops]]
+- [[speculative-growth-ai-publicpdf]]
+- [[release-langchain-core149]]
+- [[sequoia-ascent]]

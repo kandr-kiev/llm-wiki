@@ -29,10 +29,10 @@ tags:
 > **Sources:**
 >   - drdroid-yc-w23-is-hiring-2026-07-18.md
 > **Links:**
-- [[Dh6PYP5 senior infrastructure engineer]]
+- [[dh6pyp5-senior-infrastructure-engineer]]
 - [[20769574401]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
 - [[item]]
 
 ## Key Findings
@@ -367,8 +367,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Dh6PYP5 senior infrastructure engineer]]
+- [[dh6pyp5-senior-infrastructure-engineer]]
 - [[20769574401]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
 - [[item]]

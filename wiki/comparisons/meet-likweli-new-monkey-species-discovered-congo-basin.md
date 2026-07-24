@@ -21,10 +21,10 @@ tags:
 >   - likweli-a-new-monkey-species-discovered-in-the-congo-basin-2026-07-17.md
 > **Links:**
 - [[item]]
-- [[5 Agent Skills I Use Every Day]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[managing ai investments in agentic era]]
+- [[5-agent-skills-i-use-every-day]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[managing-ai-investments-in-agentic-era]]
 
 ## Key Findings
 
@@ -190,7 +190,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[item]]
-- [[5 Agent Skills I Use Every Day]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[managing ai investments in agentic era]]
+- [[5-agent-skills-i-use-every-day]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[managing-ai-investments-in-agentic-era]]

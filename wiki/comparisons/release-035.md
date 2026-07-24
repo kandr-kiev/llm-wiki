@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - gh-035-2026-07-18.md
 > **Links:**
-- [[Release v1.6.0]]
+- [[release-v160]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.86.0]]
-- [[Release 1.7.2]]
-- [[Release langchain-core==1.4.9]]
+- [[release-v0860]]
+- [[release-172]]
+- [[release-langchain-core149]]
 
 ## Key Findings
 
@@ -64,8 +64,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v1.6.0]]
+- [[release-v160]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.86.0]]
-- [[Release 1.7.2]]
-- [[Release langchain-core==1.4.9]]
+- [[release-v0860]]
+- [[release-172]]
+- [[release-langchain-core149]]

@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - packaging-and-package-identity-for-net-apps-with-winapp-cli-on-windows-2026-07-17.md
 > **Links:**
-- [[dotnet 8 9 end of support]]
-- [[msbuild binlog mcp server]]
-- [[announcing dotnet modernization for beginners]]
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 6 0 beta]]
+- [[dotnet-8-9-end-of-support]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-6-0-beta]]
 
 ## Key Findings
 
@@ -84,8 +84,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[dotnet 8 9 end of support]]
-- [[msbuild binlog mcp server]]
-- [[announcing dotnet modernization for beginners]]
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 6 0 beta]]
+- [[dotnet-8-9-end-of-support]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-6-0-beta]]

@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - title-why-i-gave-my-coding-agent-a-memory-and-how-cortex-works-2026-07-18.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[repeating tasks without repeating code 4fak]]
-- [[hackthebox void whispers writeup bh5]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
 
 ## Key Findings
 
@@ -132,8 +132,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[repeating tasks without repeating code 4fak]]
-- [[hackthebox void whispers writeup bh5]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]

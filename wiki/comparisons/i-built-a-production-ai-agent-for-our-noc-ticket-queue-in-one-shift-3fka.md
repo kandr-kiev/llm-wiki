@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - i-built-a-production-ai-agent-for-our-noc-ticket-queue-in-one-shift-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[5 Agent Skills I Use Every Day]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -125,8 +125,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[5 Agent Skills I Use Every Day]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[5-agent-skills-i-use-every-day]]

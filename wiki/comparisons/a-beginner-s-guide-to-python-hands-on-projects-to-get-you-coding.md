@@ -24,8 +24,8 @@ tags:
 > **Sources:**
 >   - a-beginners-guide-to-python-hands-on-projects-to-get-you-coding-2026-07-17.md
 > **Links:**
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[The Illustrated Stable Diffusion]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[v3.14.0]]
 - [[[Jay Alammar](/)]]
@@ -186,8 +186,8 @@ Mobile App
 
 ## Related Articles
 
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[The Illustrated Stable Diffusion]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[v3.14.0]]
 - [[[Jay Alammar](/)]]

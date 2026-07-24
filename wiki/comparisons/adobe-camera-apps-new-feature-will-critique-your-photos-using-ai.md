@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - adobe-camera-apps-new-feature-will-critique-your-photos-using-ai-2026-07-20.md
 > **Links:**
-- [[neil rimer thinks the ai money is coming back out]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[databricks hits 188b valuation extending its run as ais favorite second act]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[neil rimer thinks the ai money is coming back out]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[databricks hits 188b valuation extending its run as ais favorite second act]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]

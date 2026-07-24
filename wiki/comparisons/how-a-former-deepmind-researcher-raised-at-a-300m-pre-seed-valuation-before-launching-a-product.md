@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product-2026-07-17.md
 > **Links:**
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]

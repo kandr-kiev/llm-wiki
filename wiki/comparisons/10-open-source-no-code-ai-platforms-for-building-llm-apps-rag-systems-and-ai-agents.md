@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - 10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents-2026-07-20.md
 > **Links:**
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[sakana ais error diffusion trains dale compliant dual stream networks reaching 96 7 mnist and 61 7 cifar 10 without backpropagation]]
-- [[sequoia ascent]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -75,8 +75,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[sakana ais error diffusion trains dale compliant dual stream networks reaching 96 7 mnist and 61 7 cifar 10 without backpropagation]]
-- [[sequoia ascent]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation]]
+- [[sequoia-ascent]]

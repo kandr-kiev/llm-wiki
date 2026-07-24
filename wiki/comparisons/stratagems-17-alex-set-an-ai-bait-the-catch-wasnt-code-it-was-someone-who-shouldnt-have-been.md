@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - stratagems-17-alex-set-an-ai-bait-the-catch-wasnt-code---it-was-someone-who-shouldnt-have-been-watch-2026-07-18.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[hackthebox void whispers writeup bh5]]
-- [[the gitbook migration trap 4gp2]]
-- [[oracle fscm rest api what transfers from hcm and what doesnt 4c4p]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[oracle-fscm-rest-api-what-transfers-from-hcm-and-what-doesnt-4c4p]]
 
 ## Key Findings
 
@@ -119,8 +119,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[hackthebox void whispers writeup bh5]]
-- [[the gitbook migration trap 4gp2]]
-- [[oracle fscm rest api what transfers from hcm and what doesnt 4c4p]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[oracle-fscm-rest-api-what-transfers-from-hcm-and-what-doesnt-4c4p]]

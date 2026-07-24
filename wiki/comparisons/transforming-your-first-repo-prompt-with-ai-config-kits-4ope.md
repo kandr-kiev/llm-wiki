@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - transforming-your-first-repo-prompt-with-ai-config-kits-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
 
 ## Key Findings
 
@@ -151,8 +151,8 @@ A kit ships three things that change the math on that first prompt:
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]

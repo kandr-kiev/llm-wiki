@@ -34,10 +34,10 @@ backlinks:
 >   - grabette-an-open-system-to-record-robot-manipulation-data-2026-07-21.md
 > **Links:**
 - [[cosmos3edge]]
-- [[newer models same advantages]]
-- [[thinkingmachines inkling]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
+- [[newer-models-same-advantages]]
+- [[thinkingmachines-inkling]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
 
 ## Key Findings
 
@@ -99,10 +99,10 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[cosmos3edge]]
-- [[newer models same advantages]]
-- [[thinkingmachines inkling]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
+- [[newer-models-same-advantages]]
+- [[thinkingmachines-inkling]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
 ## Backlinks
 
 ```dataview

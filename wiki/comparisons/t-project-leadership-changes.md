@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - jellyfin-founder-andrew-leaves-team-2026-07-21.md
 > **Links:**
-- [[Automating away]]
+- [[away]]
 - [[update55]]
-- [[auto grade hn]]
-- [[Automating Ai Away]]
-- [[Generative AI Strategy]]
+- [[auto-grade-hn]]
+- [[automating-ai-away-2026-07-07]]
+- [[generative-ai-strategy]]
 
 ## Key Findings
 
@@ -194,8 +194,8 @@ Reputation:
 
 ## Related Articles
 
-- [[Automating away]]
+- [[away]]
 - [[update55]]
-- [[auto grade hn]]
-- [[Automating Ai Away]]
-- [[Generative AI Strategy]]
+- [[auto-grade-hn]]
+- [[automating-ai-away-2026-07-07]]
+- [[generative-ai-strategy]]

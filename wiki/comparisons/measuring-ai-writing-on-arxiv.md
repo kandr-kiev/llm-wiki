@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - how-we-measured-ai-writing-across-arxiv-and-where-the-measurement-breaks-2026-07-20.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[robots txt 2023 war memorial]]
-- [[The Illustrated Stable Diffusion]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[and nothing else</h-v>]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[robots-txt-2023-war-memorial]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[and-nothing-elseh-v]]
 
 ## Key Findings
 
@@ -63,8 +63,8 @@ Computer science leads at about 65%. Mathematics is lowest, near 0.7%, and the l
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[robots txt 2023 war memorial]]
-- [[The Illustrated Stable Diffusion]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[and nothing else</h-v>]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[robots-txt-2023-war-memorial]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[and-nothing-elseh-v]]

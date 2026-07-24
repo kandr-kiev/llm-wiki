@@ -292,6 +292,23 @@ def find_wikilinks(
     for slug, score, source in candidates:
         if slug not in seen:
             seen.add(slug)
+            # CRITICAL: only include if slug exists as actual wiki file
+            # This prevents broken wikilinks for external articles or non-existent pages
+            slug_lower = slug.lower()
+            found = False
+            for subdir in WIKI_DIR.glob("*"):
+                if subdir.is_dir():
+                    if (subdir / f"{slug_lower}.md").exists():
+                        found = True
+                        break
+                    # Also check suffixed versions (e.g., slug_2026-07-24.md)
+                    for existing in subdir.glob(f"{slug_lower}_*.md"):
+                        found = True
+                        break
+                if found:
+                    break
+            if not found:
+                continue  # Skip this wikilink — file doesn't exist
             result.append(slug)
             if len(result) >= max_links:
                 break

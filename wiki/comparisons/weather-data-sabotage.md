@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - the-risk-of-weather-data-sabotage-is-rising-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
+- [[achieving-operational-excellence-with-ai]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ as/nhaasgroteskdsstd-55rg.ttf) format("truetype")}@font-face{font-family:NeueHaa
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
+- [[achieving-operational-excellence-with-ai]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]

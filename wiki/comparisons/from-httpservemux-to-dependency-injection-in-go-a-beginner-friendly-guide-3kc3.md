@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - from-httpservemux-to-dependency-injection-in-go-a-beginner-friendly-guide-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[kubernetes network policies lessons from production incidents 193g]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[kubernetes-network-policies-lessons-from-production-incidents-193g]]
 
 ## Key Findings
 
@@ -124,8 +124,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[kubernetes network policies lessons from production incidents 193g]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[kubernetes-network-policies-lessons-from-production-incidents-193g]]

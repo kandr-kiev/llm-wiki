@@ -29,9 +29,9 @@ tags:
 > **Links:**
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -68,6 +68,6 @@ See Key Findings for full content.
 
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]

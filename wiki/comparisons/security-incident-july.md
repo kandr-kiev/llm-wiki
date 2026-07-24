@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - security-incident-disclosure---july-2026-2026-07-17.md
 > **Links:**
-- [[newer models same advantages]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[torch attention profile]]
-- [[native speed vllm transformers backend]]
+- [[newer-models-same-advantages]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[torch-attention-profile]]
+- [[native-speed-vllm-transformers-backend]]
 
 ## Key Findings
 
@@ -95,8 +95,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[newer models same advantages]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[torch attention profile]]
-- [[native speed vllm transformers backend]]
+- [[newer-models-same-advantages]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[torch-attention-profile]]
+- [[native-speed-vllm-transformers-backend]]

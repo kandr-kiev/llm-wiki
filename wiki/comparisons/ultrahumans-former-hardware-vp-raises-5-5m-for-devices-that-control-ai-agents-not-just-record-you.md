@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - ultrahumans-former-hardware-vp-raises-55m-for-devices-that-control-ai-agents-not-just-record-you-2026-07-17.md
 > **Links:**
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[roblox launches an ai powered game creation feature in its mobile app]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[roblox launches an ai powered game creation feature in its mobile app]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]

@@ -19,7 +19,7 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digestsrcservicesspacepy-2026-07-20.md
 > **Links:**
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[news.py]]
 - [[airraid.py]]
 - [[wiki.py]]
@@ -183,7 +183,7 @@ ration
 
 ## Related Articles
 
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[news.py]]
 - [[airraid.py]]
 - [[wiki.py]]

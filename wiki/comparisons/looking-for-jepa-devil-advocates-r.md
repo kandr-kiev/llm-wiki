@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - looking-for-jepa-devil-advocates-r-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 - [[ai]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
 
 ## Key Findings
 
@@ -75,8 +75,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 - [[ai]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]

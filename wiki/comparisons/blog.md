@@ -63,11 +63,11 @@ backlinks:
 > **Sources:**
 >   - qwen-image-30-rich-content-authentic-details-deep-knowledge-2026-07-21.md
 > **Links:**
-- [[kimi k3]]
-- [[Release v0.1.481-beta]]
-- [[Qwen (Alibaba)]]
-- [[LLM Deployment Q&A — Common Questions]]
-- [[perplexity ai releases wandr an open benchmark evaluating research agents that must search wide and deep]]
+- [[kimi-k3]]
+- [[release-v01481-beta]]
+- [[qwen-alibaba]]
+- [[llm-deployment-qa-common-questions]]
+- [[perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep]]
 
 ## Key Findings
 
@@ -85,11 +85,11 @@ hat openai, qwen 2.5 app, chatgpt gratis, google bard ai, free chat gpt, generad
 
 ## Related Articles
 
-- [[kimi k3]]
-- [[Release v0.1.481-beta]]
-- [[Qwen (Alibaba)]]
-- [[LLM Deployment Q&A — Common Questions]]
-- [[perplexity ai releases wandr an open benchmark evaluating research agents that must search wide and deep]]
+- [[kimi-k3]]
+- [[release-v01481-beta]]
+- [[qwen-alibaba]]
+- [[llm-deployment-qa-common-questions]]
+- [[perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep]]
 ## Backlinks
 
 ```dataview

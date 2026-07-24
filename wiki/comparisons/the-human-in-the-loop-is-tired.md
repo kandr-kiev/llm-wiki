@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - the-human-in-the-loop-is-tired-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[5-agent-skills-i-use-every-day]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ en you've earned your opinions about architecture and code quality the hard way,
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[5-agent-skills-i-use-every-day]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

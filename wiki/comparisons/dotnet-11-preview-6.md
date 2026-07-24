@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - net-11-preview-6-is-now-available-2026-07-17.md
 > **Links:**
-- [[mcp build diagnostics workflows]]
-- [[announcing dotnet modernization for beginners]]
-- [[announcing typescript 5 9 beta]]
-- [[announcing typescript 5 9]]
-- [[announcing typescript 6 0 beta]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[announcing-typescript-5-9-beta]]
+- [[announcing-typescript-5-9]]
+- [[announcing-typescript-6-0-beta]]
 
 ## Key Findings
 
@@ -87,8 +87,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[mcp build diagnostics workflows]]
-- [[announcing dotnet modernization for beginners]]
-- [[announcing typescript 5 9 beta]]
-- [[announcing typescript 5 9]]
-- [[announcing typescript 6 0 beta]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[announcing-typescript-5-9-beta]]
+- [[announcing-typescript-5-9]]
+- [[announcing-typescript-6-0-beta]]

@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - seo-is-dead-long-live-evolutionary-seo-how-ai-coding-and-content-value-models-change-the-web-archite-2026-07-20.md
 > **Links:**
-- [[class vs object who is the big boss 32nj]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[can you beat an llm building humans vs humanitys last exam]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
 
 ## Key Findings
 
@@ -145,11 +145,11 @@ Instead of writing text for old-school bots or building artificial link networks
 
 ## Related Articles
 
-- [[class vs object who is the big boss 32nj]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[can you beat an llm building humans vs humanitys last exam]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
 ## Backlinks
 
 ```dataview

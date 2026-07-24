@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - i-just-read-lecuns-recent-thoughts-on-world-models-thoughts-on-jepa-as-a-path-forward-d-2026-07-20.md
 > **Links:**
-- [[exploring continual learning without replay]]
-- [[sequoia ascent]]
-- [[arr 2026 meta review score d]]
-- [[are there some textbooks that take a primarily]]
-- [[open source monopoly]]
+- [[exploring-continual-learning-without-replay]]
+- [[sequoia-ascent]]
+- [[arr-2026-meta-review-score-d]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[open-source-monopoly]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[exploring continual learning without replay]]
-- [[sequoia ascent]]
-- [[arr 2026 meta review score d]]
-- [[are there some textbooks that take a primarily]]
-- [[open source monopoly]]
+- [[exploring-continual-learning-without-replay]]
+- [[sequoia-ascent]]
+- [[arr-2026-meta-review-score-d]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[open-source-monopoly]]

@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - chinas-open-weights-ai-strategy-is-winning-2026-07-20.md
 > **Links:**
-- [[kimi k3]]
+- [[kimi-k3]]
 - [[ai]]
-- [[open source monopoly]]
+- [[open-source-monopoly]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -77,8 +77,8 @@ I care about having open technology that can be run in the public interest, alig
 
 ## Related Articles
 
-- [[kimi k3]]
+- [[kimi-k3]]
 - [[ai]]
-- [[open source monopoly]]
+- [[open-source-monopoly]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

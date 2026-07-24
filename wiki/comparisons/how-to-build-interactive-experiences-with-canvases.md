@@ -27,11 +27,11 @@ backlinks:
 > **Sources:**
 >   - how-to-build-interactive-experiences-with-canvases-2026-07-21.md
 > **Links:**
-- [[connected apps]]
-- [[gemini 3 6 flash 3 5 flash lite 3 5 flash cyber]]
-- [[gemini omni personal avatars]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[people dont want more ai]]
+- [[connected-apps]]
+- [[gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber]]
+- [[gemini-omni-personal-avatars]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[people-dont-want-more-ai]]
 
 ## Key Findings
 
@@ -62,11 +62,11 @@ ne-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-l
 
 ## Related Articles
 
-- [[connected apps]]
-- [[gemini 3 6 flash 3 5 flash lite 3 5 flash cyber]]
-- [[gemini omni personal avatars]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[people dont want more ai]]
+- [[connected-apps]]
+- [[gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber]]
+- [[gemini-omni-personal-avatars]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[people-dont-want-more-ai]]
 ## Backlinks
 
 ```dataview

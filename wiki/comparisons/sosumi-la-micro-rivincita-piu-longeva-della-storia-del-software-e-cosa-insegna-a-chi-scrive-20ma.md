@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - sosumi-la-micro-rivincita-più-longeva-della-storia-del-software-e-cosa-insegna-a-chi-scrive-frontend-2026-07-18.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[the gitbook migration trap 4gp2]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -153,8 +153,8 @@ Il nome “Sosumi” resta lì per anni. Non come easter egg urlato, ma come det
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[the gitbook migration trap 4gp2]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[the-gitbook-migration-trap-4gp2]]

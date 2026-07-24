@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-proagentworkflowsdeploymd-2026-07-20.md
 > **Links:**
-- [[database setup]]
-- [[add lesson]]
-- [[Local LLM Wiki — Повна архітектурна документація]]
+- [[database-setup]]
+- [[add-lesson]]
+- [[local-llm-wiki-повна-архітектурна-документація]]
 - [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
-- [[Agent Skills Patterns]]
+- [[agent-skills-patterns]]
 
 ## Key Findings
 
@@ -60,8 +60,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[database setup]]
-- [[add lesson]]
-- [[Local LLM Wiki — Повна архітектурна документація]]
+- [[database-setup]]
+- [[add-lesson]]
+- [[local-llm-wiki-повна-архітектурна-документація]]
 - [[Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації]]
-- [[Agent Skills Patterns]]
+- [[agent-skills-patterns]]

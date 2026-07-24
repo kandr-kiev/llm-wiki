@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - i-built-a-claude-code-plugin-that-tells-you-to-slow-down-or-push-before-your-quota-runs-out-2026-07-18.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -126,8 +126,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

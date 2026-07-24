@@ -23,10 +23,10 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorphpunitphpunitdeprecationsmd-2026-07-20.md
 > **Links:**
-- [[Change Log]]
-- [[Security Policy]]
-- [[Changelog]]
-- [[Changes in PHPUnit 10.5]]
+- [[change-log]]
+- [[security-policy]]
+- [[changelog]]
+- [[changes-in-phpunit-105]]
 - [[bootstrap.min.js]]
 
 ## Key Findings
@@ -92,8 +92,8 @@ bastianbergmann/phpunit/issues/5315) | `MockBuilder::enableArgumentCloning()` | 
 
 ## Related Articles
 
-- [[Change Log]]
-- [[Security Policy]]
-- [[Changelog]]
-- [[Changes in PHPUnit 10.5]]
+- [[change-log]]
+- [[security-policy]]
+- [[changelog]]
+- [[changes-in-phpunit-105]]
 - [[bootstrap.min.js]]

@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - perl--weekly-782---perl-v544-2026-07-20.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[i tried kimi k3 for a week heres what happened]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
 
 ## Key Findings
 
@@ -155,8 +155,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[i tried kimi k3 for a week heres what happened]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]

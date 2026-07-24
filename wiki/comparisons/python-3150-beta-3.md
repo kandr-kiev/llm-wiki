@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - python-3150-beta-3-is-here-2026-07-17.md
 > **Links:**
-- [[python 3150 beta 2]]
-- [[python 3150 beta 1]]
-- [[python 3145 is out]]
-- [[python 3146 31314]]
-- [[python 3145rc1]]
+- [[python-3150-beta-2]]
+- [[python-3150-beta-1]]
+- [[python-3145-is-out]]
+- [[python-3146-31314]]
+- [[python-3145rc1]]
 
 ## Key Findings
 
@@ -87,8 +87,8 @@ Thanks to all of the many volunteers who help make Python development and these 
 
 ## Related Articles
 
-- [[python 3150 beta 2]]
-- [[python 3150 beta 1]]
-- [[python 3145 is out]]
-- [[python 3146 31314]]
-- [[python 3145rc1]]
+- [[python-3150-beta-2]]
+- [[python-3150-beta-1]]
+- [[python-3145-is-out]]
+- [[python-3146-31314]]
+- [[python-3145rc1]]

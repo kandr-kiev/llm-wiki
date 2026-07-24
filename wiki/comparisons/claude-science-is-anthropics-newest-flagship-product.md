@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - claude-science-is-anthropics-newest-flagship-product-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
 
 ## Key Findings
 
@@ -50,8 +50,8 @@ f) format("woff"),url(/cdn/_/fonts/NeueHaas/nhaasgroteskdsstd-55rg.ttf) format("
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]

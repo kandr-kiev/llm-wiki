@@ -18,9 +18,9 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digestteststest_contentpy-2026-07-20.md
 > **Links:**
-- [[test adapters.py]]
+- [[test-adapterspy]]
 - [[wiki.py]]
-- [[health advice.py]]
+- [[health-advicepy]]
 - [[digest.py]]
 - [[news.py]]
 
@@ -109,8 +109,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[test adapters.py]]
+- [[test-adapterspy]]
 - [[wiki.py]]
-- [[health advice.py]]
+- [[health-advicepy]]
 - [[digest.py]]
 - [[news.py]]

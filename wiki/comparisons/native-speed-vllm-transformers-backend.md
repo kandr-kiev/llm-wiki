@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - native-speed-vllm-transformers-modeling-backend-2026-07-17.md
 > **Links:**
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[real world voiceeq]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[real-world-voiceeq]]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)
-- [[Patch release v5.10.4]]
+- [[patch-release-v5104]]
 
 ## Key Findings
 
@@ -96,6 +96,6 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[model routing is simple until it isnt]]
+- [[model-routing-is-simple-until-it-isnt]]
 - [[one click to [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)onments` submodule with `SandboxEnvironment`]]
-- [[Patch release v5.10.4]]
+- [[patch-release-v5104]]

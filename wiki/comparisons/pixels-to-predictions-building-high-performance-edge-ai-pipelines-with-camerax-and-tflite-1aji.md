@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - pixels-to-predictions-building-high-performance-edge-ai-pipelines-with-camerax-and-tflite-2026-07-17.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[oracle fscm rest api what transfers from hcm and what doesnt 4c4p]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[oracle-fscm-rest-api-what-transfers-from-hcm-and-what-doesnt-4c4p]]
 
 ## Key Findings
 
@@ -137,8 +137,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[oracle fscm rest api what transfers from hcm and what doesnt 4c4p]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[oracle-fscm-rest-api-what-transfers-from-hcm-and-what-doesnt-4c4p]]

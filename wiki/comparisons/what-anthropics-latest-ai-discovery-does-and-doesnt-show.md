@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - what-anthropics-latest-ai-discovery-does-and-doesnt-show-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ What Anthropic’s latest AI discovery does—and doesn’t—show | MIT Technol
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]

@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - 200-tested-ai-prompts-i-use-to-run-my-saas-and-how-i-tested-them-2026-07-20.md
 > **Links:**
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[the gitbook migration trap 4gp2]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
 
 ## Key Findings
 
@@ -126,8 +126,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[the gitbook migration trap 4gp2]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]

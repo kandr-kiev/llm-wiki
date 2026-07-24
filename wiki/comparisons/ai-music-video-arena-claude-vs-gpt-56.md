@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - 100-ai-music-video-claude-fable-5-vs-gpt-56-sol-2026-07-17.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[ai]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -84,8 +84,8 @@ RunInput tokensOutput tokensReasoningCached inputFable 5 · $251,476,90044,341n/
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[ai]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]

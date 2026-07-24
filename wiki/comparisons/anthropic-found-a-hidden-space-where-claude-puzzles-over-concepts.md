@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 - [[textures]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[google ai updates may]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[google-ai-updates-may]]
 
 ## Key Findings
 
@@ -51,8 +51,8 @@ haasgroteskdsstd-55rg.woff) format("woff"),url(/cdn/_/fonts/NeueHaas/nhaasgrotes
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 - [[textures]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[google ai updates may]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[google-ai-updates-may]]

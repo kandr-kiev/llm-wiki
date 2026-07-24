@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - jane-street-incremental-2026-07-21.md
 > **Links:**
-- [[grok build ios]]
-- [[lingbot map]]
-- [[ai teaching assistant uiuc]]
-- [[jacquard lang]]
-- [[Kasa EC71]]
+- [[grok-build-ios]]
+- [[lingbot-map]]
+- [[ai-teaching-assistant-uiuc]]
+- [[jacquard-lang]]
+- [[kasa-ec71]]
 
 ## Key Findings
 
@@ -172,8 +172,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[grok build ios]]
-- [[lingbot map]]
-- [[ai teaching assistant uiuc]]
-- [[jacquard lang]]
-- [[Kasa EC71]]
+- [[grok-build-ios]]
+- [[lingbot-map]]
+- [[ai-teaching-assistant-uiuc]]
+- [[jacquard-lang]]
+- [[kasa-ec71]]

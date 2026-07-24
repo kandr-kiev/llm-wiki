@@ -24,10 +24,10 @@ tags:
 > **Sources:**
 >   - acl-arr-2026---cant-seem-to-find-the-review-issue-report-button-anywhere-d-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[arXiv:2607.06757]]
-- [[Automating away]]
-- [[sequoia ascent]]
+- [[away]]
+- [[sequoia-ascent]]
 - [[arXiv:2607.11977]]
 
 ## Key Findings
@@ -72,8 +72,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[arXiv:2607.06757]]
-- [[Automating away]]
-- [[sequoia ascent]]
+- [[away]]
+- [[sequoia-ascent]]
 - [[arXiv:2607.11977]]

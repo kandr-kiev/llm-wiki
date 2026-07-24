@@ -30,11 +30,11 @@ backlinks:
 > **Sources:**
 >   - trumps-latest-ai-czar-has-already-resigned-2026-07-20.md
 > **Links:**
-- [[agility robotics plants its flag in teslas backyard]]
-- [[anthropics landmark 1 5b copyright settlement is approved]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[colossal biosciences reportedly in talks to raise new capital at 20b 30b valuation]]
-- [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[anthropics-landmark-1-5b-copyright-settlement-is-approved]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation]]
+- [[vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs]]
 
 ## Key Findings
 
@@ -74,11 +74,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[agility robotics plants its flag in teslas backyard]]
-- [[anthropics landmark 1 5b copyright settlement is approved]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[colossal biosciences reportedly in talks to raise new capital at 20b 30b valuation]]
-- [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[anthropics-landmark-1-5b-copyright-settlement-is-approved]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation]]
+- [[vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs]]
 ## Backlinks
 
 ```dataview

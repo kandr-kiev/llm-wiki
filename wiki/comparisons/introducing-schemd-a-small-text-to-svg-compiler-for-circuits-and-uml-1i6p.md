@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[most engineers use ai few engineer with it are you one of them 4oeg]]
-- [[privacy by design at the binary level no ghost sdk in your build 1bl0]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-4oeg]]
+- [[privacy-by-design-at-the-binary-level-no-ghost-sdk-in-your-build-1bl0]]
 
 ## Key Findings
 
@@ -122,8 +122,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[most engineers use ai few engineer with it are you one of them 4oeg]]
-- [[privacy by design at the binary level no ghost sdk in your build 1bl0]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-4oeg]]
+- [[privacy-by-design-at-the-binary-level-no-ghost-sdk-in-your-build-1bl0]]

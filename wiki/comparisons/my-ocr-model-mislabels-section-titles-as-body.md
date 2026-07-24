@@ -27,11 +27,11 @@ backlinks:
 > **Sources:**
 >   - my-ocr-model-mislabels-section-titles-as-body-text-is-a-crf-the-right-fix-or-am-i-overcomplicating-i-2026-07-21.md
 > **Links:**
-- [[sequoia ascent]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[i started a dirt notebook]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i just read lecuns recent thoughts on world]]
+- [[sequoia-ascent]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[i-started-a-dirt-notebook]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
 
 ## Key Findings
 
@@ -75,11 +75,11 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[sequoia ascent]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[i started a dirt notebook]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i just read lecuns recent thoughts on world]]
+- [[sequoia-ascent]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[i-started-a-dirt-notebook]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
 ## Backlinks
 
 ```dataview

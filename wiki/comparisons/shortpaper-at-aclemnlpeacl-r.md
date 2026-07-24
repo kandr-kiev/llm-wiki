@@ -25,8 +25,8 @@ tags:
 - [[arXiv:2607.11977]]
 - [[arXiv:2607.06757]]
 - [[[Jay Alammar](/)]]
-- [[kimi k3]]
-- [[Rust 1.96.0]]
+- [[kimi-k3]]
+- [[rust-1960]]
 
 ## Key Findings
 
@@ -76,5 +76,5 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[arXiv:2607.11977]]
 - [[arXiv:2607.06757]]
 - [[[Jay Alammar](/)]]
-- [[kimi k3]]
-- [[Rust 1.96.0]]
+- [[kimi-k3]]
+- [[rust-1960]]

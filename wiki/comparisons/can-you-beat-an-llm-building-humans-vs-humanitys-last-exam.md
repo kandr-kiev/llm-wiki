@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - can-you-beat-an-llm-building-humans-vs-humanitys-last-exam-2026-07-20.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
-- [[my insights on what working at big tech is actually like kgd]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
 
 ## Key Findings
 
@@ -123,8 +123,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
-- [[my insights on what working at big tech is actually like kgd]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]

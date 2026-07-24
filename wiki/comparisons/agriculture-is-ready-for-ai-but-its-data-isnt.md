@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - agriculture-is-ready-for-ai-but-its-data-isnt-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
+- [[achieving-operational-excellence-with-ai]]
 - [[textures]]
-- [[google finance updates june]]
-- [[google ai updates may]]
-- [[6 security settings every github maintainer should enable this week]]
+- [[google-finance-updates-june]]
+- [[google-ai-updates-may]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
 
 ## Key Findings
 
@@ -53,8 +53,8 @@ ff"),url(/cdn/_/fonts/NeueHaas/nhaasgroteskdsstd-55rg.ttf) format("truetype")}@f
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
+- [[achieving-operational-excellence-with-ai]]
 - [[textures]]
-- [[google finance updates june]]
-- [[google ai updates may]]
-- [[6 security settings every github maintainer should enable this week]]
+- [[google-finance-updates-june]]
+- [[google-ai-updates-may]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]

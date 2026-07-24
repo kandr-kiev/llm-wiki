@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient-2026-07-20.md
 > **Links:**
-- [[connected apps]]
-- [[gemini omni personal avatars]]
-- [[when makes sense block main thread]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[impact humanoid robots humanity]]
+- [[connected-apps]]
+- [[gemini-omni-personal-avatars]]
+- [[when-makes-sense-block-main-thread]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[impact-humanoid-robots-humanity]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[connected apps]]
-- [[gemini omni personal avatars]]
-- [[when makes sense block main thread]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[impact humanoid robots humanity]]
+- [[connected-apps]]
+- [[gemini-omni-personal-avatars]]
+- [[when-makes-sense-block-main-thread]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[impact-humanoid-robots-humanity]]

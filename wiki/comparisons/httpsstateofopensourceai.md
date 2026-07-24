@@ -42,11 +42,11 @@ tags:
 > **Sources:**
 >   - the-state-of-open-source-ai-2026-07-17.md
 > **Links:**
-- [[kimi k3]]
+- [[kimi-k3]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[robots txt 2023 war memorial]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[robots-txt-2023-war-memorial]]
 
 ## Key Findings
 
@@ -116,8 +116,8 @@ Same survey, by developer region. In South America and West
 
 ## Related Articles
 
-- [[kimi k3]]
+- [[kimi-k3]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[robots txt 2023 war memorial]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[robots-txt-2023-war-memorial]]

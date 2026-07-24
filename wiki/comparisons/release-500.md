@@ -32,10 +32,10 @@ tags:
 > **Sources:**
 >   - gh-500-2026-07-14.md
 > **Links:**
-- [[Release v1.8.0]]
+- [[release-v180]]
 - [[v0.22.1]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.1.481-beta]]
+- [[release-v01481-beta]]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)
 
 ## Key Findings
@@ -146,6 +146,6 @@ print(x)
 
 ## Related Articles
 
-- [[Release v1.8.0]]
+- [[release-v180]]
 - [[v0.22.1]]
 - [[Release Notes: Ol[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)onments` submodule with `SandboxEnvironment`]]

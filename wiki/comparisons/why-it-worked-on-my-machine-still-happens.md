@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - why-it-worked-on-my-machine-still-happens-in-2026-2026-07-17.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Automating away]]
-- [[the great software regress how move fast and break things broke our lives]]
-- [[master full stack mobile development with react native]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[away]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
+- [[master-full-stack-mobile-development-with-react-native]]
 
 ## Key Findings
 
@@ -132,8 +132,8 @@ When dependency versions aren't locked correctly, two developers installing the 
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Automating away]]
-- [[the great software regress how move fast and break things broke our lives]]
-- [[master full stack mobile development with react native]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[away]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
+- [[master-full-stack-mobile-development-with-react-native]]

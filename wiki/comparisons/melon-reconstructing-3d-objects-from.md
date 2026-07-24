@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - melon-reconstructing-3d-objects-from-images-with-unknown-poses-2026-07-17.md
 > **Links:**
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[heal framework for health equity]]
-- [[generative ai to quantify uncertainty]]
-- [[computer aided diagnosis for lung]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[heal-framework-for-health-equity]]
+- [[generative-ai-to-quantify-uncertainty]]
+- [[computer-aided-diagnosis-for-lung]]
 
 ## Key Findings
 
@@ -198,8 +198,8 @@ Earth AI
 
 ## Related Articles
 
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[heal framework for health equity]]
-- [[generative ai to quantify uncertainty]]
-- [[computer aided diagnosis for lung]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[heal-framework-for-health-equity]]
+- [[generative-ai-to-quantify-uncertainty]]
+- [[computer-aided-diagnosis-for-lung]]

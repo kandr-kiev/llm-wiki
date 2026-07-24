@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - fine-tune-video-and-image-models-at-scale-with-nvidia-nemo-automodel-and--diffusers-2026-07-17.md
 > **Links:**
-- [[newer models same advantages]]
-- [[model routing is simple until it isnt]]
-- [[thinkingmachines inkling]]
-- [[one click to sagemaker studio]]
-- [[security incident july]]
+- [[newer-models-same-advantages]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[thinkingmachines-inkling]]
+- [[one-click-to-sagemaker-studio]]
+- [[security-incident-july]]
 
 ## Key Findings
 
@@ -94,8 +94,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[newer models same advantages]]
-- [[model routing is simple until it isnt]]
-- [[thinkingmachines inkling]]
-- [[one click to sagemaker studio]]
-- [[security incident july]]
+- [[newer-models-same-advantages]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[thinkingmachines-inkling]]
+- [[one-click-to-sagemaker-studio]]
+- [[security-incident-july]]

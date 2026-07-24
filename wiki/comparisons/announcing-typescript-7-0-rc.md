@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - announcing-typescript-70-rc-2026-07-17.md
 > **Links:**
-- [[announcing typescript 7 0 beta]]
-- [[announcing typescript 7 0]]
-- [[announcing typescript 6 0 rc]]
-- [[announcing typescript 6 0]]
-- [[announcing typescript 5 9 rc]]
+- [[announcing-typescript-7-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[announcing-typescript-6-0-rc]]
+- [[announcing-typescript-6-0]]
+- [[announcing-typescript-5-9-rc]]
 
 ## Key Findings
 
@@ -83,8 +83,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[announcing typescript 7 0 beta]]
-- [[announcing typescript 7 0]]
-- [[announcing typescript 6 0 rc]]
-- [[announcing typescript 6 0]]
-- [[announcing typescript 5 9 rc]]
+- [[announcing-typescript-7-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[announcing-typescript-6-0-rc]]
+- [[announcing-typescript-6-0]]
+- [[announcing-typescript-5-9-rc]]

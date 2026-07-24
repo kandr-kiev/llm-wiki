@@ -24,10 +24,10 @@ tags:
 > **Sources:**
 >   - how-to-build-a-browser-based-pdf-redaction-tool-using-javascript-2026-07-18.md
 > **Links:**
-- [[why it worked on my machine still happens]]
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[The Illustrated Retrieval Transformer 2026 07 07]]
-- [[The Illustrated Stable Diffusion]]
+- [[why-it-worked-on-my-machine-still-happens]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[the-illustrated-retrieval-transformer-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -152,8 +152,8 @@ The redaction coordinates are then converted from preview coordinates to actual 
 
 ## Related Articles
 
-- [[why it worked on my machine still happens]]
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[The Illustrated Retrieval Transformer 2026 07 07]]
-- [[The Illustrated Stable Diffusion]]
+- [[why-it-worked-on-my-machine-still-happens]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[the-illustrated-retrieval-transformer-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

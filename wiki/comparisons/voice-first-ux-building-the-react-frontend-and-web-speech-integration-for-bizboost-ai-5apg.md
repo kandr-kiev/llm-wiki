@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - voice-first-ux-building-the-react-frontend-and-web-speech-integration-for-bizboost-ai-2026-07-17.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[most engineers use ai few engineer with it are you one of them 4oeg]]
-- [[stop prompting llms to do legal math its broken 27e0]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-4oeg]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
 
 ## Key Findings
 
@@ -123,8 +123,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[most engineers use ai few engineer with it are you one of them 4oeg]]
-- [[stop prompting llms to do legal math its broken 27e0]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-4oeg]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]

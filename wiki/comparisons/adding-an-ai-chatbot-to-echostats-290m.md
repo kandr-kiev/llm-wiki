@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - adding-an-ai-chatbot-to-echostats-2026-07-18.md
 > **Links:**
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -138,8 +138,8 @@ Subscribe
 
 ## Related Articles
 
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

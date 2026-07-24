@@ -22,10 +22,10 @@ tags:
 > **Sources:**
 >   - tacl-journal-doubts-d-2026-07-17.md
 > **Links:**
-- [[Generative AI Strategy]]
-- [[Automating Ai Away]]
+- [[generative-ai-strategy]]
+- [[automating-ai-away-2026-07-07]]
 - [[arXiv:2607.11977]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 - [[arXiv:2607.06757]]
 
 ## Key Findings
@@ -73,8 +73,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Generative AI Strategy]]
-- [[Automating Ai Away]]
+- [[generative-ai-strategy]]
+- [[automating-ai-away-2026-07-07]]
 - [[arXiv:2607.11977]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 - [[arXiv:2607.06757]]

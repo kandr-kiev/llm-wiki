@@ -33,11 +33,11 @@ backlinks:
 > **Sources:**
 >   - gemini-36-flash-35-flash-lite-and-35-flash-cyber-2026-07-21.md
 > **Links:**
-- [[connected apps]]
-- [[gemini omni personal avatars]]
-- [[weather data sabotage]]
-- [[achieving operational excellence with ai]]
-- [[ai biases hiring humans]]
+- [[connected-apps]]
+- [[gemini-omni-personal-avatars]]
+- [[weather-data-sabotage]]
+- [[achieving-operational-excellence-with-ai]]
+- [[ai-biases-hiring-humans]]
 
 ## Key Findings
 
@@ -56,11 +56,11 @@ blog_source: Hacker News
 
 ## Related Articles
 
-- [[connected apps]]
-- [[gemini omni personal avatars]]
-- [[weather data sabotage]]
-- [[achieving operational excellence with ai]]
-- [[ai biases hiring humans]]
+- [[connected-apps]]
+- [[gemini-omni-personal-avatars]]
+- [[weather-data-sabotage]]
+- [[achieving-operational-excellence-with-ai]]
+- [[ai-biases-hiring-humans]]
 ## Backlinks
 
 ```dataview

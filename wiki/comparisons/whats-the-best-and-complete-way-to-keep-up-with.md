@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - whats-the-best-and-complete-way-to-keep-up-with-aiml-news-d-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 - [[ai]]
 - [[[Jay Alammar](/)]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -76,8 +76,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 - [[ai]]
 - [[[Jay Alammar](/)]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]

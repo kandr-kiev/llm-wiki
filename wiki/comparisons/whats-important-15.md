@@ -28,9 +28,9 @@ tags:
 > **Links:**
 - [[translatex]]
 - [[translatez]]
-- [[whats important 14]]
-- [[get ready for the powerful css border shape property]]
-- [[pointer events]]
+- [[whats-important-14]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[pointer-events]]
 
 ## Key Findings
 
@@ -93,6 +93,6 @@ See Key Findings for full content.
 
 - [[translatex]]
 - [[translatez]]
-- [[whats important 14]]
-- [[get ready for the powerful css border shape property]]
-- [[pointer events]]
+- [[whats-important-14]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[pointer-events]]

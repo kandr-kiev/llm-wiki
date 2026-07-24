@@ -25,11 +25,11 @@ backlinks:
 > **Sources:**
 >   - claude-is-not-a-compiler-2026-07-21.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 
 ## Key Findings
 
@@ -78,11 +78,11 @@ We hashed out the highe
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 ## Backlinks
 
 ```dataview

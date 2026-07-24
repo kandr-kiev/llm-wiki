@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digestsrcformattersdigestpy-2026-07-20.md
 > **Links:**
-- [[Air raid comments]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[air-raid-comments]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[airraid.py]]
-- [[health advice.py]]
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
+- [[health-advicepy]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
 
 ## Key Findings
 
@@ -201,8 +201,8 @@ if len(parts)
 
 ## Related Articles
 
-- [[Air raid comments]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[air-raid-comments]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[airraid.py]]
-- [[health advice.py]]
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
+- [[health-advicepy]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]

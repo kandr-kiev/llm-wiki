@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - created-calio---instantly-extract-key-information-from-insurance-sec-filings-2026-07-21.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -130,11 +130,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
 ## Backlinks
 
 ```dataview

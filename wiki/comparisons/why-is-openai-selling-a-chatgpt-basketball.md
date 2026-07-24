@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - why-is-openai-selling-a-chatgpt-basketball-2026-07-17.md
 > **Links:**
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[mercor is in talks for a 20b valuation]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[google vids now lets you star in your own ai videos]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[mercor is in talks for a 20b valuation]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[google vids now lets you star in your own ai videos]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]

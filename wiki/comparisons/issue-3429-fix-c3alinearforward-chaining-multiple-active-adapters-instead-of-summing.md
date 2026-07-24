@@ -31,7 +31,7 @@ tags:
 - [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
 - [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
 - [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
-- [[Automating away]]
+- [[away]]
 
 ## Key Findings
 
@@ -103,4 +103,4 @@ This PR was prepared with AI assistance (Claude Code). The bug and the requested
 - [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
 - [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
 - [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
-- [[Automating away]]
+- [[away]]

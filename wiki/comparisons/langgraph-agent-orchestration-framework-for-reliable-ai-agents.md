@@ -38,11 +38,11 @@ tags:
 > **Sources:**
 >   - langgraph-agent-orchestration-framework-2026-07-18.md
 > **Links:**
-- [[LangGraph]]
-- [[LangGraph vs CrewAI vs AutoGen vs Microsoft Agent Framework — 2026 Comparison]]
-- [[AI Agent Frameworks 2026 - LangGraph vs CrewAI vs AutoGen Compared]]
-- [[AI Agent Frameworks LangGraph vs CrewAI vs AutoGen Compared]]
-- [[Best AI Coding Assistants as of March 2026]]
+- [[langgraph]]
+- [[langgraph-vs-crewai-vs-autogen-vs-maf-2026]]
+- [[ai-agent-frameworks-2026]]
+- [[ai-agent-frameworks-langgraph-vs-crewai-vs-autogen-compared]]
+- [[ai-coding-assistants-2026]]
 
 ## Key Findings
 
@@ -114,8 +114,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[LangGraph]]
-- [[LangGraph vs CrewAI vs AutoGen vs Microsoft Agent Framework — 2026 Comparison]]
-- [[AI Agent Frameworks 2026 - LangGraph vs CrewAI vs AutoGen Compared]]
-- [[AI Agent Frameworks LangGraph vs CrewAI vs AutoGen Compared]]
-- [[Best AI Coding Assistants as of March 2026]]
+- [[langgraph]]
+- [[langgraph-vs-crewai-vs-autogen-vs-maf-2026]]
+- [[ai-agent-frameworks-2026]]
+- [[ai-agent-frameworks-langgraph-vs-crewai-vs-autogen-compared]]
+- [[ai-coding-assistants-2026]]

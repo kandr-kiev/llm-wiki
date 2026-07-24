@@ -23,10 +23,10 @@ tags:
 >   - eccv-2026-malmö-looking-for-3-4-people-to-share-an-airbnb---sept-71314-splitting-costs-across-7-8-pe-2026-07-20.md
 > **Links:**
 - [[arXiv:2607.11977]]
-- [[are there some textbooks that take a primarily]]
-- [[arr 2026 meta review score d]]
-- [[sequoia ascent]]
-- [[did blatant ai slop just win a 25k usd deepmind]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[arr-2026-meta-review-score-d]]
+- [[sequoia-ascent]]
+- [[did-blatant-ai-slop-just-win-a-25k-usd-deepmind]]
 
 ## Key Findings
 
@@ -71,7 +71,7 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 ## Related Articles
 
 - [[arXiv:2607.11977]]
-- [[are there some textbooks that take a primarily]]
-- [[arr 2026 meta review score d]]
-- [[sequoia ascent]]
-- [[did blatant ai slop just win a 25k usd deepmind]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[arr-2026-meta-review-score-d]]
+- [[sequoia-ascent]]
+- [[did-blatant-ai-slop-just-win-a-25k-usd-deepmind]]

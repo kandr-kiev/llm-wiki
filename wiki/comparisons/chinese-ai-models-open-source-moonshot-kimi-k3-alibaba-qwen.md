@@ -39,11 +39,11 @@ tags:
 > **Sources:**
 >   - china-delivers-a-one-two-punch-to-americas-ai-dominance-2026-07-20.md
 > **Links:**
-- [[apple openai lawsuit vergecast]]
-- [[adobe indigo camera app ai playground update]]
-- [[tiktok ai likeness detection tool]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[best apps gadgets reading installer]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[best-apps-gadgets-reading-installer]]
 
 ## Key Findings
 
@@ -94,8 +94,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple openai lawsuit vergecast]]
-- [[adobe indigo camera app ai playground update]]
-- [[tiktok ai likeness detection tool]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[best apps gadgets reading installer]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[best-apps-gadgets-reading-installer]]

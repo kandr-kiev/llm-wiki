@@ -24,9 +24,9 @@ tags:
 > **Sources:**
 >   - orion-browser-by-kagi-2026-07-20.md
 > **Links:**
-- [[python 3150 beta 4]]
-- [[kimi k3]]
-- [[python 3150 beta 3]]
+- [[python-3150-beta-4]]
+- [[kimi-k3]]
+- [[python-3150-beta-3]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[[Jay Alammar](/)]]
 
@@ -74,8 +74,8 @@ As a self-funded enterprise, our primary source of revenue comes directly from o
 
 ## Related Articles
 
-- [[python 3150 beta 4]]
-- [[kimi k3]]
-- [[python 3150 beta 3]]
+- [[python-3150-beta-4]]
+- [[kimi-k3]]
+- [[python-3150-beta-3]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[[Jay Alammar](/)]]

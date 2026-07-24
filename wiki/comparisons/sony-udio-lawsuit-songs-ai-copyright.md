@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - here-are-the-30000-songs-sony-is-suing-udio8217s-ai-music-generator-over-2026-07-20.md
 > **Links:**
-- [[apple openai lawsuit vergecast]]
-- [[tiktok ai likeness detection tool]]
-- [[adobe indigo camera app ai playground update]]
-- [[best apps gadgets reading installer]]
-- [[openai chatgpt ai smart speaker hardware device]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[best-apps-gadgets-reading-installer]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
 
 ## Key Findings
 
@@ -97,8 +97,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple openai lawsuit vergecast]]
-- [[tiktok ai likeness detection tool]]
-- [[adobe indigo camera app ai playground update]]
-- [[best apps gadgets reading installer]]
-- [[openai chatgpt ai smart speaker hardware device]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[best-apps-gadgets-reading-installer]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]

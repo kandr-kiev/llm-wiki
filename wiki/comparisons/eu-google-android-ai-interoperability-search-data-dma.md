@@ -37,10 +37,10 @@ tags:
 > **Sources:**
 >   - google-ordered-to-open-android-and-search-to-rivals-in-europe-2026-07-17.md
 > **Links:**
-- [[google gemini notebook notebooklm]]
-- [[ai police cops]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[1password anthropic claude browser integration]]
+- [[google-gemini-notebook-notebooklm]]
+- [[ai-police-cops]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[1password-anthropic-claude-browser-integration]]
 - [[arXiv:2607.11959]]
 
 ## Key Findings
@@ -89,8 +89,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[google gemini notebook notebooklm]]
-- [[ai police cops]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[1password anthropic claude browser integration]]
+- [[google-gemini-notebook-notebooklm]]
+- [[ai-police-cops]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[1password-anthropic-claude-browser-integration]]
 - [[arXiv:2607.11959]]

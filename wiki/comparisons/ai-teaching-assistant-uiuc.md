@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - uiuc-ai-teaching-assistant-2026-07-17.md
 > **Links:**
-- [[little book rl]]
-- [[lingbot map]]
-- [[billai bass]]
-- [[jacquard lang]]
-- [[FableCut]]
+- [[little-book-rl]]
+- [[lingbot-map]]
+- [[billai-bass]]
+- [[jacquard-lang]]
+- [[fablecut]]
 
 ## Key Findings
 
@@ -96,8 +96,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[little book rl]]
-- [[lingbot map]]
-- [[billai bass]]
-- [[jacquard lang]]
-- [[FableCut]]
+- [[little-book-rl]]
+- [[lingbot-map]]
+- [[billai-bass]]
+- [[jacquard-lang]]
+- [[fablecut]]

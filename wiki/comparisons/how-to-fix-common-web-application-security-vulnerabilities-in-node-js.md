@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - how-to-fix-common-web-application-security-vulnerabilities-in-nodejs-2026-07-17.md
 > **Links:**
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -181,8 +181,8 @@ const user = await db.query(
 
 ## Related Articles
 
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]

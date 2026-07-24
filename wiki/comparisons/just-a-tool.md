@@ -36,11 +36,11 @@ tags:
 > **Sources:**
 >   - stop-saying-that-ai-is-just-a-tool-and-it-only-matters-how-it-is-used-2026-07-16.md
 > **Links:**
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[Automating away]]
-- [[Generative AI Strategy]]
-- [[5 Agent Skills I Use Every Day]]
+- [[away]]
+- [[generative-ai-strategy]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -75,8 +75,8 @@ Even a hammer, made of wood and iron, requires trees to be cut down and earth to
 
 ## Related Articles
 
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[Automating away]]
-- [[Generative AI Strategy]]
-- [[5 Agent Skills I Use Every Day]]
+- [[away]]
+- [[generative-ai-strategy]]
+- [[5-agent-skills-i-use-every-day]]

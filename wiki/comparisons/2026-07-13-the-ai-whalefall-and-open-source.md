@@ -29,10 +29,10 @@ tags:
 > **Sources:**
 >   - the-ai-whale-fall-and-open-source-2026-07-14.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[5 Agent Skills I Use Every Day]]
-- [[The Illustrated Stable Diffusion]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[5-agent-skills-i-use-every-day]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -112,8 +112,8 @@ It isn’t done uncritically–[Valim himself commented on this during a confere
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[5 Agent Skills I Use Every Day]]
-- [[The Illustrated Stable Diffusion]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[5-agent-skills-i-use-every-day]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

@@ -17,10 +17,10 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digesttemplatesdigest-templatemd-2026-07-20.md
 > **Links:**
-- [[Air raid comments]]
-- [[health advice.py]]
+- [[air-raid-comments]]
+- [[health-advicepy]]
 - [[space.py]]
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
 - [[anecdotes.py]]
 
 ## Key Findings
@@ -107,8 +107,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Air raid comments]]
-- [[health advice.py]]
+- [[air-raid-comments]]
+- [[health-advicepy]]
 - [[space.py]]
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
 - [[anecdotes.py]]

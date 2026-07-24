@@ -22,7 +22,7 @@ tags:
 >   - gh-microsoftdeepspeed-issue-8142-2026-07-14.md
 > **Links:**
 - [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]
-- [[Release v1.8.0]]
+- [[release-v180]]
 - [Issue #8333: Support batched=True in Dataset.to_dict]
 - [Issue #14167: FlashPack support for transformers pipeline components]
 - [Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern]
@@ -60,7 +60,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]
-- [[Release v1.8.0]]
+- [[release-v180]]
 - [Issue #8333: Support batched=True in Dataset.to_dict]
 - [Issue #14167: FlashPack support for transformers pipeline components]
 - [Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern]

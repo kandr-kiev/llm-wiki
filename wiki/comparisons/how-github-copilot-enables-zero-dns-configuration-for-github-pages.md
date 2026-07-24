@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - how-github-copilot-enables-zero-dns-configuration-for-github-pages-2026-07-17.md
 > **Links:**
-- [[get ready for the powerful css border shape property]]
-- [[ai police cops]]
-- [[migrating a production ai agent to gpt 5 6]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[github for beginners your roadmap to mastering the github essentials]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[ai-police-cops]]
+- [[migrating-a-production-ai-agent-to-gpt-5-6]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
 
 ## Key Findings
 
@@ -71,8 +71,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[get ready for the powerful css border shape property]]
-- [[ai police cops]]
-- [[migrating a production ai agent to gpt 5 6]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[github for beginners your roadmap to mastering the github essentials]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[ai-police-cops]]
+- [[migrating-a-production-ai-agent-to-gpt-5-6]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]

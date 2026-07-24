@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - spacex-stock-drops-to-a-new-low-and-loses-1t-in-value-in-a-month-2026-07-17.md
 > **Links:**
-- [[fortune david siegel open source ai.pdf]]
-- [[announcing vulnhunter]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[announcing-vulnhunter]]
 - [[article]]
-- [[speculative growth AI public.pdf]]
-- [[agility robotics plants its flag in teslas backyard]]
+- [[speculative-growth-ai-publicpdf]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
 
 ## Key Findings
 
@@ -66,8 +66,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[fortune david siegel open source ai.pdf]]
-- [[announcing vulnhunter]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[announcing-vulnhunter]]
 - [[article]]
-- [[speculative growth AI public.pdf]]
-- [[agility robotics plants its flag in teslas backyard]]
+- [[speculative-growth-ai-publicpdf]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]

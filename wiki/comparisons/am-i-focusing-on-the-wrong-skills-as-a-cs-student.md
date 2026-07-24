@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - am-i-focusing-on-the-wrong-skills-as-a-cs-student-in-the-ai-era-need-brutally-honest-advice-d-2026-07-20.md
 > **Links:**
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating Ai Away]]
-- [[5 Agent Skills I Use Every Day]]
-- [[open source monopoly]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[open-source-monopoly]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -71,8 +71,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating Ai Away]]
-- [[5 Agent Skills I Use Every Day]]
-- [[open source monopoly]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[open-source-monopoly]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

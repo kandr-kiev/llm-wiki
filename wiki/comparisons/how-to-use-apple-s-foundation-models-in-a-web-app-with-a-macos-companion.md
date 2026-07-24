@@ -26,10 +26,10 @@ tags:
 > **Sources:**
 >   - how-to-use-apples-foundation-models-in-a-web-app-with-a-macos-companion-2026-07-20.md
 > **Links:**
-- [[why it worked on my machine still happens]]
-- [[build pdf signature tool javascript]]
-- [[kimi k3]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[why-it-worked-on-my-machine-still-happens]]
+- [[build-pdf-signature-tool-javascript]]
+- [[kimi-k3]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -202,8 +202,8 @@ The public Foundation Models framework is a lan
 
 ## Related Articles
 
-- [[why it worked on my machine still happens]]
-- [[build pdf signature tool javascript]]
-- [[kimi k3]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[why-it-worked-on-my-machine-still-happens]]
+- [[build-pdf-signature-tool-javascript]]
+- [[kimi-k3]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

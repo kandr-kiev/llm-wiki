@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - the-computer-at-the-bottom-of-a-canal-2026-07-18.md
 > **Links:**
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[keep your ai agent traces on your machine a local first approach 5b9l]]
-- [[oracle fscm rest api what transfers from hcm and what doesnt 4c4p]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[keep-your-ai-agent-traces-on-your-machine-a-local-first-approach-5b9l]]
+- [[oracle-fscm-rest-api-what-transfers-from-hcm-and-what-doesnt-4c4p]]
 
 ## Key Findings
 
@@ -62,8 +62,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[keep your ai agent traces on your machine a local first approach 5b9l]]
-- [[oracle fscm rest api what transfers from hcm and what doesnt 4c4p]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[keep-your-ai-agent-traces-on-your-machine-a-local-first-approach-5b9l]]
+- [[oracle-fscm-rest-api-what-transfers-from-hcm-and-what-doesnt-4c4p]]

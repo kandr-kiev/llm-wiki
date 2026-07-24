@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills-2026-07-17.md
 > **Links:**
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[connected apps]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[gemini omni personal avatars]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[connected-apps]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[gemini-omni-personal-avatars]]
 
 ## Key Findings
 
@@ -66,8 +66,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[connected apps]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[gemini omni personal avatars]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[connected-apps]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[gemini-omni-personal-avatars]]

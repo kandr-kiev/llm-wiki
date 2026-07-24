@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - java-annotated-monthly--june-2026-2026-07-17.md
 > **Links:**
-- [[agriculture is ready for ai but its data isnt]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[claude science is anthropics newest flagship product]]
-- [[intellij idea 2026 1 3]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[intellij-idea-2026-1-3]]
 
 ## Key Findings
 
@@ -186,8 +186,8 @@ color: #888;
 
 ## Related Articles
 
-- [[agriculture is ready for ai but its data isnt]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[claude science is anthropics newest flagship product]]
-- [[intellij idea 2026 1 3]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[intellij-idea-2026-1-3]]

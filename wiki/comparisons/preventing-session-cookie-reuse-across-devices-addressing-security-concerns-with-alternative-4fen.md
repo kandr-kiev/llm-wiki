@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - preventing-session-cookie-reuse-across-devices-addressing-security-concerns-with-alternative-solutio-2026-07-21.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[starting my developer journey bh8]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[perl weekly 782 perl v544 186n]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[starting-my-developer-journey-bh8]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[perl-weekly-782-perl-v544-186n]]
 
 ## Key Findings
 
@@ -155,11 +155,11 @@ Organizations that prioritize restricting cookie reuse without addressing deeper
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[starting my developer journey bh8]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[perl weekly 782 perl v544 186n]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[starting-my-developer-journey-bh8]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[perl-weekly-782-perl-v544-186n]]
 ## Backlinks
 
 ```dataview

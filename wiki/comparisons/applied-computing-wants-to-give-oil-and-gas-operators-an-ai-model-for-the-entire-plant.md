@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant-2026-07-17.md
 > **Links:**
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 - [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)
-- [[Release v0.25.1]]
-- [[5 Agent Skills I Use Every Day]]
+- [[release-v0251]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -69,7 +69,7 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
 - [[ai powered travel a[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)5: AsyncGRPO fork-independent epoch counting]]
-- [[Release v0.25.1]]
-- [[5 Agent Skills I Use Every Day]]
+- [[release-v0251]]
+- [[5-agent-skills-i-use-every-day]]

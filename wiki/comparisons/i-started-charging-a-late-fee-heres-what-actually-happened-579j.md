@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - i-started-charging-a-late-fee-heres-what-actually-happened-2026-07-20.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
-- [[how we beat hotspot performance by cheating but not like that]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
 
 ## Key Findings
 
@@ -127,8 +127,8 @@ Would I recommend it? Mostly yes, with a caveat I didn't expec
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
-- [[how we beat hotspot performance by cheating but not like that]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]

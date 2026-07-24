@@ -20,7 +20,7 @@ tags:
 >   - gh-huggingfacetokenizers-issue-2196-2026-07-14.md
 > **Links:**
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
-- [[Release v1.8.0]]
+- [[release-v180]]
 - [Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)
 - [Issue #2460: Bump the actions group across 1 directory with 4 updates]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]

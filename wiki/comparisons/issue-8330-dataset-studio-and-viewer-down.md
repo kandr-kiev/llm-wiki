@@ -22,8 +22,8 @@ tags:
 > **Sources:**
 >   - gh-huggingfacedatasets-issue-8330-2026-07-14.md
 > **Links:**
-- [[Release 5.0.0]]
-- [[5 Agent Skills I Use Every Day]]
+- [[release-500]]
+- [[5-agent-skills-i-use-every-day]]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 - [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)
@@ -59,7 +59,7 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release 5.0.0]]
-- [[5 Agent Skills I Use Every Day]]
+- [[release-500]]
+- [[5-agent-skills-i-use-every-day]]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
 - [Issue #14166: Fix Hub [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)/ DB_ERROR on POST /api/execute?action=claim]]

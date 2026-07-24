@@ -29,8 +29,8 @@ tags:
 > **Sources:**
 >   - corpus-scrub-010-detecta-y-redacta-pii-y-secretos-en-corpus-de-entrenamiento-antes-del-entrenamiento-2026-07-17.md
 > **Links:**
-- [[api first or browser automation lessons from shipping content autoposting 55pl]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
+- [[api-first-or-browser-automation-lessons-from-shipping-content-autoposting-55pl]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
 - [[arXiv:2607.09059]]
 - [[arXiv:2607.09076]]
 - [[arXiv:2607.09153]]
@@ -121,8 +121,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[api first or browser automation lessons from shipping content autoposting 55pl]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
+- [[api-first-or-browser-automation-lessons-from-shipping-content-autoposting-55pl]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
 - [[arXiv:2607.09059]]
 - [[arXiv:2607.09076]]
 - [[arXiv:2607.09153]]

@@ -28,11 +28,11 @@ backlinks:
 > **Sources:**
 >   - the-worlds-2400-castles-2026-07-21.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[i started a dirt notebook]]
-- [[Automating away]]
-- [[open source monopoly]]
+- [[i-started-a-dirt-notebook]]
+- [[away]]
+- [[open-source-monopoly]]
 
 ## Key Findings
 
@@ -104,11 +104,11 @@ foundin
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[i started a dirt notebook]]
-- [[Automating away]]
-- [[open source monopoly]]
+- [[i-started-a-dirt-notebook]]
+- [[away]]
+- [[open-source-monopoly]]
 ## Backlinks
 
 ```dataview

@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - google-kills-custom-search-api-on-jan-1-2027-2026-07-17.md
 > **Links:**
-- [[github availability report june]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[how turn brand strategy into visual direction]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[designing distressed users mental health apps ui]]
+- [[github-availability-report-june]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[how-turn-brand-strategy-into-visual-direction]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[designing-distressed-users-mental-health-apps-ui]]
 
 ## Key Findings
 
@@ -51,8 +51,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[github availability report june]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[how turn brand strategy into visual direction]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[designing distressed users mental health apps ui]]
+- [[github-availability-report-june]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[how-turn-brand-strategy-into-visual-direction]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[designing-distressed-users-mental-health-apps-ui]]

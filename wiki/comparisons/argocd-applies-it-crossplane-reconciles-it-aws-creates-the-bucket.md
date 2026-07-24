@@ -26,9 +26,9 @@ tags:
 > **Links:**
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[intro to shaders javascript and p5 js course for beginners]]
+- [[5-agent-skills-i-use-every-day]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
 
 ## Key Findings
 
@@ -153,6 +153,6 @@ The distinction matters be
 
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[intro to shaders javascript and p5 js course for beginners]]
+- [[5-agent-skills-i-use-every-day]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]

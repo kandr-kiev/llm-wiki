@@ -35,11 +35,11 @@ tags:
 > **Sources:**
 >   - ai-help-with-your-database-design-without-the-cloud-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -143,8 +143,8 @@ That honesty matters, so let's be precise: when you ask the AI for help, your pr
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

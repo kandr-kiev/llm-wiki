@@ -25,10 +25,10 @@ tags:
 >   - externd-expanded-rank-ternary-decomposition-ternary-llm-ptq-with-accuracy-approaching-any-quantizati-2026-07-17.md
 > **Links:**
 - [[ai]]
-- [[Automating Ai Away]]
-- [[auto grade hn]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[auto-grade-hn]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[away]]
 
 ## Key Findings
 
@@ -73,7 +73,7 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 ## Related Articles
 
 - [[ai]]
-- [[Automating Ai Away]]
-- [[auto grade hn]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[auto-grade-hn]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[away]]

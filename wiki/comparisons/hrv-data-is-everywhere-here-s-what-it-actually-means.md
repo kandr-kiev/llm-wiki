@@ -24,10 +24,10 @@ tags:
 > **Sources:**
 >   - hrv-data-is-everywhere-heres-what-it-actually-means-2026-07-20.md
 > **Links:**
-- [[Automating away]]
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i started a dirt notebook]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -86,8 +86,8 @@ The most successful consumer HRV applications boil everything down to a readines
 
 ## Related Articles
 
-- [[Automating away]]
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i started a dirt notebook]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

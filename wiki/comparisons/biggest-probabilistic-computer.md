@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - biggest-probabilistic-computer-turns-noise-into-answers-2026-07-20.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[weather data sabotage]]
-- [[ai biases hiring humans]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[weather-data-sabotage]]
+- [[ai-biases-hiring-humans]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ blog_source: Hacker News
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[weather data sabotage]]
-- [[ai biases hiring humans]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[weather-data-sabotage]]
+- [[ai-biases-hiring-humans]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]

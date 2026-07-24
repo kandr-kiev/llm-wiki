@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - generative-ai-to-quantify-uncertainty-in-weather-forecasting-2026-07-17.md
 > **Links:**
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[computer aided diagnosis for lung]]
-- [[genai platform]]
-- [[gnn intro]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[computer-aided-diagnosis-for-lung]]
+- [[genai-platform]]
+- [[gnn-intro]]
 
 ## Key Findings
 
@@ -198,8 +198,8 @@ Earth AI
 
 ## Related Articles
 
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[computer aided diagnosis for lung]]
-- [[genai platform]]
-- [[gnn intro]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[computer-aided-diagnosis-for-lung]]
+- [[genai-platform]]
+- [[gnn-intro]]

@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - seeking-collaborators-for-scaling-and-independent-evaluation-of-a-new-recurrent-language-model-archi-2026-07-17.md
 > **Links:**
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[Automating Ai Away]]
-- [[rust for cpython 2026 04]]
-- [[The Illustrated Retrieval Transformer 2026 07 07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[rust-for-cpython-2026-04]]
+- [[the-illustrated-retrieval-transformer-2026-07-07]]
 
 ## Key Findings
 
@@ -73,8 +73,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[Automating Ai Away]]
-- [[rust for cpython 2026 04]]
-- [[The Illustrated Retrieval Transformer 2026 07 07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[rust-for-cpython-2026-04]]
+- [[the-illustrated-retrieval-transformer-2026-07-07]]

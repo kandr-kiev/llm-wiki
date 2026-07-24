@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - the-zoom-hack-that-says-dont-record-me-2026-07-18.md
 > **Links:**
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[why is openai selling a chatgpt basketball]]
-- [[yes you can now order doordash from the command line]]
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[mercor is in talks for a 20b valuation]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[why-is-openai-selling-a-chatgpt-basketball]]
+- [[yes-you-can-now-order-doordash-from-the-command-line]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
 
 ## Key Findings
 
@@ -64,8 +64,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[why is openai selling a chatgpt basketball]]
-- [[yes you can now order doordash from the command line]]
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[mercor is in talks for a 20b valuation]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[why-is-openai-selling-a-chatgpt-basketball]]
+- [[yes-you-can-now-order-doordash-from-the-command-line]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]

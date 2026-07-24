@@ -26,10 +26,10 @@ tags:
 >   - show-hn-explore-the-workspaces-of-modern-creators-2026-07-17.md
 > **Links:**
 - [[[Jay Alammar](/)]]
-- [[kimi k3]]
-- [[auto grade hn]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
-- [[the gitbook migration trap 4gp2]]
+- [[kimi-k3]]
+- [[auto-grade-hn]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -71,7 +71,7 @@ ple](/tags/apple)[Standing Desk](/tags/standing-desk)[Mechanical Keyboard](/tags
 ## Related Articles
 
 - [[[Jay Alammar](/)]]
-- [[kimi k3]]
-- [[auto grade hn]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
-- [[the gitbook migration trap 4gp2]]
+- [[kimi-k3]]
+- [[auto-grade-hn]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]

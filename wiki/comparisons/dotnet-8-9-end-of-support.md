@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - net-8-and-net-9-will-reach-end-of-support-on-november-10-2026-2026-07-17.md
 > **Links:**
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing typescript 7 0]]
-- [[msbuild binlog mcp server]]
-- [[announcing dotnet modernization for beginners]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-dotnet-modernization-for-beginners]]
 
 ## Key Findings
 
@@ -82,8 +82,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing typescript 7 0]]
-- [[msbuild binlog mcp server]]
-- [[announcing dotnet modernization for beginners]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-dotnet-modernization-for-beginners]]

@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - apples-lawsuit-couldnt-come-at-a-worse-time-for-openai-2026-07-17.md
 > **Links:**
-- [[why is openai selling a chatgpt basketball]]
-- [[mercor is in talks for a 20b valuation]]
-- [[yes you can now order doordash from the command line]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[why-is-openai-selling-a-chatgpt-basketball]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[yes-you-can-now-order-doordash-from-the-command-line]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[why is openai selling a chatgpt basketball]]
-- [[mercor is in talks for a 20b valuation]]
-- [[yes you can now order doordash from the command line]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[why-is-openai-selling-a-chatgpt-basketball]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[yes-you-can-now-order-doordash-from-the-command-line]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]

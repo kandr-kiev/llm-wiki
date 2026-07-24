@@ -25,10 +25,10 @@ tags:
 > **Sources:**
 >   - how-github-used-secret-scanning-to-reach-inbox-zero-2026-07-17.md
 > **Links:**
-- [[github for beginners your roadmap to mastering the github essentials]]
-- [[how github copilot enables zero dns configuration for github pages]]
-- [[how github gave every repository a durable owner]]
-- [[managing ai investments in agentic era]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
+- [[how-github-copilot-enables-zero-dns-configuration-for-github-pages]]
+- [[how-github-gave-every-repository-a-durable-owner]]
+- [[managing-ai-investments-in-agentic-era]]
 - [[cars24]]
 
 ## Key Findings
@@ -86,8 +86,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[github for beginners your roadmap to mastering the github essentials]]
-- [[how github copilot enables zero dns configuration for github pages]]
-- [[how github gave every repository a durable owner]]
-- [[managing ai investments in agentic era]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
+- [[how-github-copilot-enables-zero-dns-configuration-for-github-pages]]
+- [[how-github-gave-every-repository-a-durable-owner]]
+- [[managing-ai-investments-in-agentic-era]]
 - [[cars24]]

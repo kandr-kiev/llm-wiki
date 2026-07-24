@@ -20,10 +20,10 @@ tags:
 > **Sources:**
 >   - gh-b10034-2026-07-15.md
 > **Links:**
-- [[Release b10007]]
-- [[Release b10020]]
-- [[Release b10015]]
-- [[Release b10031]]
+- [[release-b10007]]
+- [[release-b10020]]
+- [[release-b10015]]
+- [[release-b10031]]
 - [[Release Notes: Llama.cpp vb9956]]
 
 ## Key Findings
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release b10007]]
-- [[Release b10020]]
-- [[Release b10015]]
-- [[Release b10031]]
+- [[release-b10007]]
+- [[release-b10020]]
+- [[release-b10015]]
+- [[release-b10031]]
 - [[Release Notes: Llama.cpp vb9956]]

@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation-2026-07-17.md
 > **Links:**
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[databricks hits 188b valuation extending its run as ais favorite second act]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[databricks hits 188b valuation extending its run as ais favorite second act]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]

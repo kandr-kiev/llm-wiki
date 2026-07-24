@@ -42,8 +42,8 @@ tags:
 > **Sources:**
 >   - gh-v0180-2026-07-17.md
 > **Links:**
-- [[Release v0.17.0]]
-- [[Release v0.25.1]]
+- [[release-v0170]]
+- [[release-v0251]]
 - [[v0.23.0]]
 - [[v0.22.1]]
 - [[v0.24.0]]
@@ -106,8 +106,8 @@ ext where plain gradient checkpointing OOMs, and the memory advantage widens wit
 
 ## Related Articles
 
-- [[Release v0.17.0]]
-- [[Release v0.25.1]]
+- [[release-v0170]]
+- [[release-v0251]]
 - [[v0.23.0]]
 - [[v0.22.1]]
 - [[v0.24.0]]

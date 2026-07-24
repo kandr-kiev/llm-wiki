@@ -29,7 +29,7 @@ tags:
 > **Links:**
 - [Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]
 - [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
 - [Issue #14167: FlashPack support for transformers pipeline components]
 
@@ -89,6 +89,6 @@ target.delete_adapter(ad
 
 - [Issue #3430: FIX HiRA ConvNd layers with groups > 1 crash on forward, not just merge]
 - [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
 - [Issue #14167: FlashPack support for transformers pipeline components]

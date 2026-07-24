@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - the-isomorphic-labs-drug-design-engine-unlocks-a-new-frontier-beyond-alphafold-2026-07-18.md
 > **Links:**
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[Automating away]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [[ai]]
-- [[kimi k3]]
+- [[kimi-k3]]
 
 ## Key Findings
 
@@ -74,8 +74,8 @@ On the 'Runs N' Poses' benchmark ([Škrinjar et al. 2025](https://www.biorxiv.or
 
 ## Related Articles
 
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[Automating away]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [[ai]]
-- [[kimi k3]]
+- [[kimi-k3]]

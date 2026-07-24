@@ -34,11 +34,11 @@ backlinks:
 > **Sources:**
 >   - when-can-a-power-company-take-your-land-for-data-center-infrastructure-2026-07-20.md
 > **Links:**
-- [[weather data sabotage]]
-- [[ai biases hiring humans]]
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[weather-data-sabotage]]
+- [[ai-biases-hiring-humans]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 
 ## Key Findings
 
@@ -58,11 +58,11 @@ n-"].icon-globe:before,[class^=icon-].icon-globe:before{content:""}[class*=" 
 
 ## Related Articles
 
-- [[weather data sabotage]]
-- [[ai biases hiring humans]]
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[weather-data-sabotage]]
+- [[ai-biases-hiring-humans]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 ## Backlinks
 
 ```dataview

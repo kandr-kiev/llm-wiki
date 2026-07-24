@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - chinas-ai-models-have-trumps-ai-world-at-war-with-itself-2026-07-20.md
 > **Links:**
-- [[weather data sabotage]]
-- [[achieving operational excellence with ai]]
-- [[ai biases hiring humans]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[weather-data-sabotage]]
+- [[achieving-operational-excellence-with-ai]]
+- [[ai-biases-hiring-humans]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ China’s AI models have Trump’s AI world at war with itself | MIT Technology 
 
 ## Related Articles
 
-- [[weather data sabotage]]
-- [[achieving operational excellence with ai]]
-- [[ai biases hiring humans]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[weather-data-sabotage]]
+- [[achieving-operational-excellence-with-ai]]
+- [[ai-biases-hiring-humans]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]

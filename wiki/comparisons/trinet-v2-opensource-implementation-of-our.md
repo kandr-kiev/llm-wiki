@@ -26,11 +26,11 @@ backlinks:
 > **Sources:**
 >   - tri-net-v2-open-source-implementation-of-our-scientific-reports-paper-on-unified-skin-lesion-and-sym-2026-07-21.md
 > **Links:**
-- [[i just read lecuns recent thoughts on world]]
-- [[mldl engineer looking for opensource repos to]]
-- [[training a harness for modelagnostic and]]
-- [[follow up gpt2s vocabulary as a hyperbolic tree]]
-- [[introducing asciitermdraw bench testing the]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[mldl-engineer-looking-for-opensource-repos-to]]
+- [[training-a-harness-for-modelagnostic-and]]
+- [[follow-up-gpt2s-vocabulary-as-a-hyperbolic-tree]]
+- [[introducing-asciitermdraw-bench-testing-the]]
 
 ## Key Findings
 
@@ -73,11 +73,11 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[i just read lecuns recent thoughts on world]]
-- [[mldl engineer looking for opensource repos to]]
-- [[training a harness for modelagnostic and]]
-- [[follow up gpt2s vocabulary as a hyperbolic tree]]
-- [[introducing asciitermdraw bench testing the]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[mldl-engineer-looking-for-opensource-repos-to]]
+- [[training-a-harness-for-modelagnostic-and]]
+- [[follow-up-gpt2s-vocabulary-as-a-hyperbolic-tree]]
+- [[introducing-asciitermdraw-bench-testing-the]]
 ## Backlinks
 
 ```dataview

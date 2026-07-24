@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetrl-issue-6385-2026-07-14.md
 > **Links:**
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [Issue #2197: perf: reduce BPE tokenizer load-time memory]
-- [[Release v1.8.0]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[release-v180]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -102,8 +102,8 @@ Note: with a large `token_budget` the epoch stop is coarse (checked per step, ea
 
 ## Related Articles
 
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [Issue #2197: perf: reduce BPE tokenizer load-time memory]
-- [[Release v1.8.0]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[release-v180]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

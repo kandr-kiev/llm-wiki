@@ -29,9 +29,9 @@ tags:
 > **Links:**
 - [[Release Notes: Ollama vv0.31.2]]
 - [[v0.22.1]]
-- [[Release v0.17.0]]
+- [[release-v0170]]
 - [[v0.23.0]]
-- [[Release python-v0.7.5]]
+- [[release-python-v075]]
 
 ## Key Findings
 
@@ -75,6 +75,6 @@ See Key Findings for full content.
 
 - [[Release Notes: Ollama vv0.31.2]]
 - [[v0.22.1]]
-- [[Release v0.17.0]]
+- [[release-v0170]]
 - [[v0.23.0]]
-- [[Release python-v0.7.5]]
+- [[release-python-v075]]

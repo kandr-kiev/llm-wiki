@@ -26,11 +26,11 @@ backlinks:
 > **Sources:**
 >   - weaponizing-and-defending-the-react-flight-protocol-deserialization-sinks-in-rscs-2026-07-21.md
 > **Links:**
-- [[impact humanoid robots humanity]]
-- [[when makes sense block main thread]]
-- [[people dont want more ai]]
-- [[desktop wallpaper calendars july]]
-- [[why accessibility operational capability not feature]]
+- [[impact-humanoid-robots-humanity]]
+- [[when-makes-sense-block-main-thread]]
+- [[people-dont-want-more-ai]]
+- [[desktop-wallpaper-calendars-july]]
+- [[why-accessibility-operational-capability-not-feature]]
 
 ## Key Findings
 
@@ -48,11 +48,11 @@ eader__search-results h2,.wf-loaded-stage2 .nav-item,.wf-loaded-stage2 .search .
 
 ## Related Articles
 
-- [[impact humanoid robots humanity]]
-- [[when makes sense block main thread]]
-- [[people dont want more ai]]
-- [[desktop wallpaper calendars july]]
-- [[why accessibility operational capability not feature]]
+- [[impact-humanoid-robots-humanity]]
+- [[when-makes-sense-block-main-thread]]
+- [[people-dont-want-more-ai]]
+- [[desktop-wallpaper-calendars-july]]
+- [[why-accessibility-operational-capability-not-feature]]
 ## Backlinks
 
 ```dataview

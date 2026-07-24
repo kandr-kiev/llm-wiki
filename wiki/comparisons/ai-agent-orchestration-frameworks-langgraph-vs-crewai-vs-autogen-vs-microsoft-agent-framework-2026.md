@@ -41,11 +41,11 @@ tags:
 > **Sources:**
 >   - ai-agent-orchestration-frameworks-comparison-2026-07-18.md
 > **Links:**
-- [[LangGraph vs CrewAI vs AutoGen vs Microsoft Agent Framework — 2026 Comparison]]
-- [[AI Agent Frameworks 2026 - LangGraph vs CrewAI vs AutoGen Compared]]
-- [[LangGraph]]
-- [[AI Agent Frameworks LangGraph vs CrewAI vs AutoGen Compared]]
-- [[How to Build AI Agents — Framework Comparison & Setup]]
+- [[langgraph-vs-crewai-vs-autogen-vs-maf-2026]]
+- [[ai-agent-frameworks-2026]]
+- [[langgraph]]
+- [[ai-agent-frameworks-langgraph-vs-crewai-vs-autogen-compared]]
+- [[how-to-build-ai-agents-framework-comparison-setup]]
 
 ## Key Findings
 
@@ -153,8 +153,8 @@ Google's A2A (Agent-to-Agent) protocol is gaining momentum across 1
 
 ## Related Articles
 
-- [[LangGraph vs CrewAI vs AutoGen vs Microsoft Agent Framework — 2026 Comparison]]
-- [[AI Agent Frameworks 2026 - LangGraph vs CrewAI vs AutoGen Compared]]
-- [[LangGraph]]
-- [[AI Agent Frameworks LangGraph vs CrewAI vs AutoGen Compared]]
-- [[How to Build AI Agents — Framework Comparison & Setup]]
+- [[langgraph-vs-crewai-vs-autogen-vs-maf-2026]]
+- [[ai-agent-frameworks-2026]]
+- [[langgraph]]
+- [[ai-agent-frameworks-langgraph-vs-crewai-vs-autogen-compared]]
+- [[how-to-build-ai-agents-framework-comparison-setup]]

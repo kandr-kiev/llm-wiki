@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - show-hn-jacquard-a-programming-language-for-ai-written-human-reviewed-code-2026-07-13.md
 > **Links:**
-- [[billai bass]]
-- [[FableCut]]
-- [[Release 1.7.2]]
-- [[deutsche telekom]]
-- [[Release v1.8.0]]
+- [[billai-bass]]
+- [[fablecut]]
+- [[release-172]]
+- [[deutsche-telekom]]
+- [[release-v180]]
 
 ## Key Findings
 
@@ -96,8 +96,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[billai bass]]
-- [[FableCut]]
-- [[Release 1.7.2]]
-- [[deutsche telekom]]
-- [[Release v1.8.0]]
+- [[billai-bass]]
+- [[fablecut]]
+- [[release-172]]
+- [[deutsche-telekom]]
+- [[release-v180]]

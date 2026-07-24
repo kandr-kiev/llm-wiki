@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - looking-to-collaborate-on-ml-research-r-2026-07-21.md
 > **Links:**
-- [[i just read lecuns recent thoughts on world]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
 - [[arXiv:2607.11977]]
-- [[exploring continual learning without replay]]
-- [[sequoia ascent]]
-- [[follow up gpt2s vocabulary as a hyperbolic tree]]
+- [[exploring-continual-learning-without-replay]]
+- [[sequoia-ascent]]
+- [[follow-up-gpt2s-vocabulary-as-a-hyperbolic-tree]]
 
 ## Key Findings
 
@@ -76,8 +76,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[i just read lecuns recent thoughts on world]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
 - [[arXiv:2607.11977]]
-- [[exploring continual learning without replay]]
-- [[sequoia ascent]]
-- [[follow up gpt2s vocabulary as a hyperbolic tree]]
+- [[exploring-continual-learning-without-replay]]
+- [[sequoia-ascent]]
+- [[follow-up-gpt2s-vocabulary-as-a-hyperbolic-tree]]

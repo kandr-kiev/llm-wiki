@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - theres-no-standard-status-page-and-other-lessons-from-tracking-96-providers-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[hackthebox void whispers writeup bh5]]
-- [[repeating tasks without repeating code 4fak]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[repeating-tasks-without-repeating-code-4fak]]
 
 ## Key Findings
 
@@ -141,8 +141,8 @@ A few providers technically have a machine-readable status endpoint that you sti
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[hackthebox void whispers writeup bh5]]
-- [[repeating tasks without repeating code 4fak]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[repeating-tasks-without-repeating-code-4fak]]

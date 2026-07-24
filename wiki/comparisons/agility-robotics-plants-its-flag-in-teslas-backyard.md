@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - agility-robotics-plants-its-flag-in-teslas-backyard-2026-07-18.md
 > **Links:**
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[google vids now lets you star in your own ai videos]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[google vids now lets you star in your own ai videos]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]

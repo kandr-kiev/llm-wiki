@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - whisper-on-mobile-is-better-than-i-expected-so-i-built-an-offline-notes-app-2026-07-18.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
 
 ## Key Findings
 
@@ -221,8 +221,8 @@ Good fits:
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]

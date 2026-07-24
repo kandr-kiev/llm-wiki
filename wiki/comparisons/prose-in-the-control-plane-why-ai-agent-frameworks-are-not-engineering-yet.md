@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - prose-in-the-control-plane-why-ai-agent-frameworks-are-not-engineering-yet-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
 
 ## Key Findings
 
@@ -142,8 +142,8 @@ Agents expand scope. You ask f
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]

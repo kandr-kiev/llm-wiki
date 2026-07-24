@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m-2026-07-17.md
 > **Links:**
-- [[6 security settings every github maintainer should enable this week]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
 - [[textures]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[achieving operational excellence with ai]]
-- [[ai science research flattens discovery]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[ai-science-research-flattens-discovery]]
 
 ## Key Findings
 
@@ -63,8 +63,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[6 security settings every github maintainer should enable this week]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
 - [[textures]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[achieving operational excellence with ai]]
-- [[ai science research flattens discovery]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[ai-science-research-flattens-discovery]]

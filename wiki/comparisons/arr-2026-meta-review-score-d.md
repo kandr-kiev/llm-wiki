@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - arr-2026-meta-review-score-d-2026-07-20.md
 > **Links:**
-- [[are there some textbooks that take a primarily]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
 - [[arXiv:2607.11977]]
-- [[sequoia ascent]]
-- [[am i focusing on the wrong skills as a cs student]]
-- [[kimi k3]]
+- [[sequoia-ascent]]
+- [[am-i-focusing-on-the-wrong-skills-as-a-cs-student]]
+- [[kimi-k3]]
 
 ## Key Findings
 
@@ -74,8 +74,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[are there some textbooks that take a primarily]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
 - [[arXiv:2607.11977]]
-- [[sequoia ascent]]
-- [[am i focusing on the wrong skills as a cs student]]
-- [[kimi k3]]
+- [[sequoia-ascent]]
+- [[am-i-focusing-on-the-wrong-skills-as-a-cs-student]]
+- [[kimi-k3]]

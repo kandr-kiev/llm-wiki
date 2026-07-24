@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - professional-digital-forensics-in-osint-a-comprehensive-guide-osint-series-part-7-2026-07-20.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[my insights on what working at big tech is actually like kgd]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
 
 ## Key Findings
 
@@ -136,8 +136,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[my insights on what working at big tech is actually like kgd]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]

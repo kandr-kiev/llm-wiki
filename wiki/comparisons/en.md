@@ -34,11 +34,11 @@ tags:
 > **Sources:**
 >   - stenchill-3d-printable-solder-paste-stencil-generator-2026-07-18.md
 > **Links:**
-- [[agility robotics plants its flag in teslas backyard]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[connected apps]]
-- [[people dont want more ai]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[connected-apps]]
+- [[people-dont-want-more-ai]]
 
 ## Key Findings
 
@@ -65,8 +65,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[agility robotics plants its flag in teslas backyard]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[connected apps]]
-- [[people dont want more ai]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[connected-apps]]
+- [[people-dont-want-more-ai]]

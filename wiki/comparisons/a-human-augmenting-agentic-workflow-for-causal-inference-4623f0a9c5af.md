@@ -29,10 +29,10 @@ tags:
 >   - a-human-augmenting-agentic-workflow-for-causal-inference-2026-07-17.md
 > **Links:**
 - [[textures]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[ai science research flattens discovery]]
-- [[introducing gpt live]]
-- [[sequoia ascent]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[ai-science-research-flattens-discovery]]
+- [[introducing-gpt-live]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -51,7 +51,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[textures]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[ai science research flattens discovery]]
-- [[introducing gpt live]]
-- [[sequoia ascent]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[ai-science-research-flattens-discovery]]
+- [[introducing-gpt-live]]
+- [[sequoia-ascent]]

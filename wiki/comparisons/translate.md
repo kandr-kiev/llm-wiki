@@ -24,10 +24,10 @@ tags:
 > **Sources:**
 >   - translate-2026-07-17.md
 > **Links:**
-- [[pointer events]]
-- [[css states and javascript events]]
-- [[ai and xr future]]
-- [[get ready for the powerful css border shape property]]
+- [[pointer-events]]
+- [[css-states-and-javascript-events]]
+- [[ai-and-xr-future]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -115,8 +115,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[pointer events]]
-- [[css states and javascript events]]
-- [[ai and xr future]]
-- [[get ready for the powerful css border shape property]]
+- [[pointer-events]]
+- [[css-states-and-javascript-events]]
+- [[ai-and-xr-future]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - whats-new-in-intellij-idea-20262-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
-- [[what anthropics latest ai discovery does and doesnt show]]
-- [[whats fixed intellij idea 2026 2]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
+- [[what-anthropics-latest-ai-discovery-does-and-doesnt-show]]
+- [[whats-fixed-intellij-idea-2026-2]]
 
 ## Key Findings
 
@@ -186,8 +186,8 @@ color: #888;
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
-- [[what anthropics latest ai discovery does and doesnt show]]
-- [[whats fixed intellij idea 2026 2]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
+- [[what-anthropics-latest-ai-discovery-does-and-doesnt-show]]
+- [[whats-fixed-intellij-idea-2026-2]]

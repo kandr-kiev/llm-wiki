@@ -20,8 +20,8 @@ tags:
 > **Sources:**
 >   - gh-huggingfaceaccelerate-issue-4114-2026-07-14.md
 > **Links:**
-- [[Release 5.0.0]]
-- [[Release v1.8.0]]
+- [[release-500]]
+- [[release-v180]]
 - [[v0.27.0]]
 - [Issue #6360: Bump the actions group with 9 updates]
 - [[Release Notes: Ollama vv0.31.2]]
@@ -92,8 +92,8 @@ Commits
 
 ## Related Articles
 
-- [[Release 5.0.0]]
-- [[Release v1.8.0]]
+- [[release-500]]
+- [[release-v180]]
 - [[v0.27.0]]
 - [Issue #6360: Bump the actions group with 9 updates]
 - [[Release Notes: Ollama vv0.31.2]]

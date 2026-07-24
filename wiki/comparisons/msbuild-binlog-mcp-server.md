@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - ai-powered-msbuild-investigation-with-the-microsoft-binlog-mcp-server-2026-07-17.md
 > **Links:**
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[deutsche telekom]]
-- [[billai bass]]
-- [[managing ai investments in agentic era]]
-- [[k 12 educators practical skills]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[deutsche-telekom]]
+- [[billai-bass]]
+- [[managing-ai-investments-in-agentic-era]]
+- [[k-12-educators-practical-skills]]
 
 ## Key Findings
 
@@ -86,8 +86,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[deutsche telekom]]
-- [[billai bass]]
-- [[managing ai investments in agentic era]]
-- [[k 12 educators practical skills]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[deutsche-telekom]]
+- [[billai-bass]]
+- [[managing-ai-investments-in-agentic-era]]
+- [[k-12-educators-practical-skills]]

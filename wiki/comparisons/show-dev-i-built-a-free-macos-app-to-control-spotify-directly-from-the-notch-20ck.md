@@ -30,11 +30,11 @@ backlinks:
 > **Sources:**
 >   - show-dev-i-built-a-free-macos-app-to-control-spotify-web-player-directly-from-the-notch-2026-07-21.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[its ok to get lucky 1laf]]
-- [[perl weekly 782 perl v544 186n]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[its-a-post-4hi8]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 
 ## Key Findings
 
@@ -124,11 +124,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[its ok to get lucky 1laf]]
-- [[perl weekly 782 perl v544 186n]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[its-a-post-4hi8]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 ## Backlinks
 
 ```dataview

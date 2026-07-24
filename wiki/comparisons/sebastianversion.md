@@ -24,7 +24,7 @@ tags:
 - [[sebastian/code-unit]]
 - [[sebastian/type]]
 - [[sebastian/complexity]]
-- [[Version]]
+- [[version]]
 - [[phpunit/php-timer]]
 
 ## Key Findings
@@ -75,5 +75,5 @@ See Key Findings for full content.
 - [[sebastian/code-unit]]
 - [[sebastian/type]]
 - [[sebastian/complexity]]
-- [[Version]]
+- [[version]]
 - [[phpunit/php-timer]]

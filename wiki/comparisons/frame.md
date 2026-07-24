@@ -31,9 +31,9 @@ tags:
 >   - frame--linux-x-server-in-assembly-2026-07-17.md
 > **Links:**
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[Automating away]]
+- [[away]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -61,7 +61,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[Automating away]]
+- [[away]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - scin-a-new-resource-for-representative-dermatology-images-2026-07-17.md
 > **Links:**
-- [[cappy outperforming and boosting large]]
-- [[heal framework for health equity]]
-- [[melon reconstructing 3d objects from]]
-- [[autobnn probabilistic time series]]
-- [[generative ai to quantify uncertainty]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[heal-framework-for-health-equity]]
+- [[melon-reconstructing-3d-objects-from]]
+- [[autobnn-probabilistic-time-series]]
+- [[generative-ai-to-quantify-uncertainty]]
 
 ## Key Findings
 
@@ -198,8 +198,8 @@ Earth AI
 
 ## Related Articles
 
-- [[cappy outperforming and boosting large]]
-- [[heal framework for health equity]]
-- [[melon reconstructing 3d objects from]]
-- [[autobnn probabilistic time series]]
-- [[generative ai to quantify uncertainty]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[heal-framework-for-health-equity]]
+- [[melon-reconstructing-3d-objects-from]]
+- [[autobnn-probabilistic-time-series]]
+- [[generative-ai-to-quantify-uncertainty]]

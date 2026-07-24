@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - my-cars-ota-update-broke-android-auto-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[The Illustrated Stable Diffusion]]
-- [[Automating away]]
-- [[5 Agent Skills I Use Every Day]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[away]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -92,8 +92,8 @@ So when I say "fuck you," I don't just mean a faceless manage
 
 ## Related Articles
 
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[The Illustrated Stable Diffusion]]
-- [[Automating away]]
-- [[5 Agent Skills I Use Every Day]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[away]]
+- [[5-agent-skills-i-use-every-day]]

@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - model-routing-is-simple-until-it-isnt-2026-07-17.md
 > **Links:**
-- [[one click to sagemaker studio]]
-- [[real world voiceeq]]
-- [[ai in your feed]]
+- [[one-click-to-sagemaker-studio]]
+- [[real-world-voiceeq]]
+- [[ai-in-your-feed]]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)
-- [[Release v5.12.0]]
+- [[release-v5120]]
 
 ## Key Findings
 
@@ -95,6 +95,6 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[one click to sagemaker studio]]
+- [[one-click-to-sagemaker-studio]]
 - [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)onments` submodule with `SandboxEnvironment`]]
-- [[Release v5.12.0]]
+- [[release-v5120]]

@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - using-ai-to-expand-global-access-to-reliable-flood-forecasts-2026-07-17.md
 > **Links:**
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[heal framework for health equity]]
-- [[talk like graph encoding graphs for]]
-- [[generative ai to quantify uncertainty]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[heal-framework-for-health-equity]]
+- [[talk-like-graph-encoding-graphs-for]]
+- [[generative-ai-to-quantify-uncertainty]]
 
 ## Key Findings
 
@@ -198,8 +198,8 @@ Earth AI
 
 ## Related Articles
 
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[heal framework for health equity]]
-- [[talk like graph encoding graphs for]]
-- [[generative ai to quantify uncertainty]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[heal-framework-for-health-equity]]
+- [[talk-like-graph-encoding-graphs-for]]
+- [[generative-ai-to-quantify-uncertainty]]

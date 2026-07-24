@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - vanilla-css-quietly-caught-up-and-tailwind-fans-havent-noticed-2026-07-20.md
 > **Links:**
-- [[class vs object who is the big boss 32nj]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[can you beat an llm building humans vs humanitys last exam]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
 
 ## Key Findings
 
@@ -161,11 +161,11 @@ If you believe this rule only applies to small project
 
 ## Related Articles
 
-- [[class vs object who is the big boss 32nj]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[can you beat an llm building humans vs humanitys last exam]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
 ## Backlinks
 
 ```dataview

@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - yes-you-can-now-order-doordash-from-the-command-line-2026-07-17.md
 > **Links:**
-- [[mercor is in talks for a 20b valuation]]
-- [[why is openai selling a chatgpt basketball]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[google vids now lets you star in your own ai videos]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[why-is-openai-selling-a-chatgpt-basketball]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[mercor is in talks for a 20b valuation]]
-- [[why is openai selling a chatgpt basketball]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[google vids now lets you star in your own ai videos]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[why-is-openai-selling-a-chatgpt-basketball]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]

@@ -106,11 +106,11 @@ backlinks:
 > **Sources:**
 >   - gh-v0201-2026-07-21.md
 > **Links:**
-- [[Release v0.20.0]]
-- [[Release v0.19.11]]
-- [[Hermes Agent v0.18.0 → v0.22.1 Deep Dive & 2026 Trends]]
-- [[Release 5.0.0]]
-- [[Release v0.23.1]]
+- [[release-v0200]]
+- [[release-v01911]]
+- [[hermes-agent-v0180-deep-dive-2026-trends-moe-context]]
+- [[release-500]]
+- [[release-v0231]]
 
 ## Key Findings
 
@@ -177,11 +177,11 @@ No known breaking changes.
 
 ## Related Articles
 
-- [[Release v0.20.0]]
-- [[Release v0.19.11]]
-- [[Hermes Agent v0.18.0 → v0.22.1 Deep Dive & 2026 Trends]]
-- [[Release 5.0.0]]
-- [[Release v0.23.1]]
+- [[release-v0200]]
+- [[release-v01911]]
+- [[hermes-agent-v0180-deep-dive-2026-trends-moe-context]]
+- [[release-500]]
+- [[release-v0231]]
 ## Backlinks
 
 ```dataview

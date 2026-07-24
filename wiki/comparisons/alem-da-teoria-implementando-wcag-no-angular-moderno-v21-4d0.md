@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - além-da-teoria-implementando-wcag-no-angular-moderno-v21-2026-07-21.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[starting my developer journey bh8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[its-a-post-4hi8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[starting-my-developer-journey-bh8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 
 ## Key Findings
 
@@ -161,11 +161,11 @@ Em formulários de login, por exemplo, a ação de alternar a visibilidade da se
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[starting my developer journey bh8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[its-a-post-4hi8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[starting-my-developer-journey-bh8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 ## Backlinks
 
 ```dataview

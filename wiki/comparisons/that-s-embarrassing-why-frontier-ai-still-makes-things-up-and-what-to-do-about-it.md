@@ -28,10 +28,10 @@ backlinks:
 > **Sources:**
 >   - thats-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it-2026-07-20.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating away]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 
 ## Key Findings
@@ -151,10 +151,10 @@ Plausible! Except it’s completely false. There's no such policy. “Support”
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating away]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 ## Backlinks
 

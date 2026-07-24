@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - students-explain-grad-school-from-3-levels-of-experience-2026-07-17.md
 > **Links:**
-- [[coming soon]]
-- [[how do i get started with my research]]
-- [[how to be an effective mentor]]
-- [[academic conference survival guide]]
-- [[end the job search start with research]]
+- [[coming-soon]]
+- [[how-do-i-get-started-with-my-research]]
+- [[how-to-be-an-effective-mentor]]
+- [[academic-conference-survival-guide]]
+- [[end-the-job-search-start-with-research]]
 
 ## Key Findings
 
@@ -106,8 +106,8 @@ ue and I genuinely just enjoy being a student. [I] don’t really see myself gra
 
 ## Related Articles
 
-- [[coming soon]]
-- [[how do i get started with my research]]
-- [[how to be an effective mentor]]
-- [[academic conference survival guide]]
-- [[end the job search start with research]]
+- [[coming-soon]]
+- [[how-do-i-get-started-with-my-research]]
+- [[how-to-be-an-effective-mentor]]
+- [[academic-conference-survival-guide]]
+- [[end-the-job-search-start-with-research]]

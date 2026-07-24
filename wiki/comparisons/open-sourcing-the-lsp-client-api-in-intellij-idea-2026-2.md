@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - open-sourcing-the-lsp-client-api-in-intellij-idea-20262-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
-- [[claude science is anthropics newest flagship product]]
-- [[intellij idea 2026 1 3]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[intellij-idea-2026-1-3]]
 
 ## Key Findings
 
@@ -187,8 +187,8 @@ color: #888;
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
-- [[claude science is anthropics newest flagship product]]
-- [[intellij idea 2026 1 3]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[intellij-idea-2026-1-3]]

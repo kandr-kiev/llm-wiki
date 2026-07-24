@@ -38,11 +38,11 @@ backlinks:
 > **Sources:**
 >   - local-bezmezhzhiasourcesbezmezhiya-qa-analysismd-2026-07-21.md
 > **Links:**
-- [[Hermes Agent v0.18.0 → v0.22.1 Deep Dive & 2026 Trends]]
+- [[hermes-agent-v0180-deep-dive-2026-trends-moe-context]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Local LLM Wiki Algorithm]]
-- [[Hermes Agent vs OpenClaw — Comparison 2026]]
-- [[Honcho]]
+- [[local-llm-wiki-algorithm]]
+- [[hermes-agent-vs-openclaw-2026-07-21]]
+- [[honcho]]
 
 ## Key Findings
 
@@ -175,11 +175,11 @@ Initial analysis of "Bezmezhiya" v6.0 reveals significant mathematical balance i
 
 ## Related Articles
 
-- [[Hermes Agent v0.18.0 → v0.22.1 Deep Dive & 2026 Trends]]
+- [[hermes-agent-v0180-deep-dive-2026-trends-moe-context]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Local LLM Wiki Algorithm]]
-- [[Hermes Agent vs OpenClaw — Comparison 2026]]
-- [[Honcho]]
+- [[local-llm-wiki-algorithm]]
+- [[hermes-agent-vs-openclaw-2026-07-21]]
+- [[honcho]]
 ## Backlinks
 
 ```dataview

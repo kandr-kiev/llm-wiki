@@ -78,11 +78,11 @@ backlinks:
 > **Sources:**
 >   - hermes-agent-vs-openclaw-comparison-2026-07-21.md
 > **Links:**
-- [[Hermes Agent vs OpenClaw — Comparison 2026]]
-- [[Honcho]]
+- [[hermes-agent-vs-openclaw-2026-07-21]]
+- [[honcho]]
 - [[agentskills.io]]
-- [[How to Use Hermes Agent]]
-- [[Hermes Agent]]
+- [[how-to-use-hermes-agent]]
+- [[hermes-agent]]
 
 ## Key Findings
 
@@ -145,11 +145,11 @@ Each profile maintains a distinct `HERMES_HOME` directory, isolating its unique 
 
 ## Related Articles
 
-- [[Hermes Agent vs OpenClaw — Comparison 2026]]
-- [[Honcho]]
+- [[hermes-agent-vs-openclaw-2026-07-21]]
+- [[honcho]]
 - [[agentskills.io]]
-- [[How to Use Hermes Agent]]
-- [[Hermes Agent]]
+- [[how-to-use-hermes-agent]]
+- [[hermes-agent]]
 ## Backlinks
 
 ```dataview

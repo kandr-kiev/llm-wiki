@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - stop-hand-translating-between-sql-and-your-erd-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -140,8 +140,8 @@ Schemity treats SQL as an input format, not just an export button. Paste CREATE 
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

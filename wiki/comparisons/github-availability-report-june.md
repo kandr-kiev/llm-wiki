@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - github-availability-report-june-2026-2026-07-17.md
 > **Links:**
-- [[get ready for the powerful css border shape property]]
-- [[connected apps]]
-- [[just a tool]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[connected-apps]]
+- [[just-a-tool]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 
 ## Key Findings
 
@@ -58,8 +58,8 @@ g--70: 3.38rem;--wp--preset--spacing--80: var(--base-size-80, 5rem);--wp--preset
 
 ## Related Articles
 
-- [[get ready for the powerful css border shape property]]
-- [[connected apps]]
-- [[just a tool]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[connected-apps]]
+- [[just-a-tool]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]

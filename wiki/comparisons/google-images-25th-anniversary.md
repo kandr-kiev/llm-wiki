@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - celebrating-25-years-of-visual-search-innovation-2026-07-14.md
 > **Links:**
-- [[google finance updates june]]
-- [[google ai updates may]]
-- [[google ai updates june]]
-- [[nyc ai summit]]
-- [[full stack ai explainer]]
+- [[google-finance-updates-june]]
+- [[google-ai-updates-may]]
+- [[google-ai-updates-june]]
+- [[nyc-ai-summit]]
+- [[full-stack-ai-explainer]]
 
 ## Key Findings
 
@@ -51,8 +51,8 @@ gin-top:12px}@media(min-width:600px){.h-c-copy,.rich-text,p{font-size:14px;lette
 
 ## Related Articles
 
-- [[google finance updates june]]
-- [[google ai updates may]]
-- [[google ai updates june]]
-- [[nyc ai summit]]
-- [[full stack ai explainer]]
+- [[google-finance-updates-june]]
+- [[google-ai-updates-may]]
+- [[google-ai-updates-june]]
+- [[nyc-ai-summit]]
+- [[full-stack-ai-explainer]]

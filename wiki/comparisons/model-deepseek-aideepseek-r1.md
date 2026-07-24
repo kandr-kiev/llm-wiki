@@ -25,8 +25,8 @@ tags:
 > **Links:**
 - [[Model: Qwen/Qwen3.6-27B]]
 - [[Model: Qwen/Qwen3.6-35B-A3B]]
-- [[Release v5.11.0]]
-- [[Release v0.39.0]]
+- [[release-v5110]]
+- [[release-v0390]]
 - [Issue #47326: Fix assistant tokens mask when a generation span ends at token index 0 or on stripped whitespace](https://github.com/pytorch/pytorch/issues/47326)
 
 ## Key Findings

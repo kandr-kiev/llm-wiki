@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - the-pixel-math-behind-seamless-instagram-carousels-2026-07-18.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[the gitbook migration trap 4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -144,8 +144,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[the gitbook migration trap 4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[the-gitbook-migration-trap-4gp2]]

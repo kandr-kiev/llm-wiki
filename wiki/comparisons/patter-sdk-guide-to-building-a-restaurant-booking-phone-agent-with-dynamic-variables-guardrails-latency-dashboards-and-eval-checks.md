@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-late-2026-07-17.md
 > **Links:**
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[meerkat introduction]]
-- [[oauth for all]]
-- [[5 Agent Skills I Use Every Day]]
-- [[changing oracle applications user]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[meerkat-introduction]]
+- [[oauth-for-all]]
+- [[5-agent-skills-i-use-every-day]]
+- [[changing-oracle-applications-user]]
 
 ## Key Findings
 
@@ -130,8 +130,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[meerkat introduction]]
-- [[oauth for all]]
-- [[5 Agent Skills I Use Every Day]]
-- [[changing oracle applications user]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[meerkat-introduction]]
+- [[oauth-for-all]]
+- [[5-agent-skills-i-use-every-day]]
+- [[changing-oracle-applications-user]]

@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorphpunitphp-code-coveragereadmemd-2026-07-20.md
 > **Links:**
-- [[Version]]
-- [[Manifest]]
-- [[DeepCopy]]
+- [[version]]
+- [[manifest]]
+- [[deepcopy]]
 - [[installed.json]]
-- [[Changelog]]
+- [[changelog]]
 
 ## Key Findings
 
@@ -76,8 +76,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Version]]
-- [[Manifest]]
-- [[DeepCopy]]
+- [[version]]
+- [[manifest]]
+- [[deepcopy]]
 - [[installed.json]]
-- [[Changelog]]
+- [[changelog]]

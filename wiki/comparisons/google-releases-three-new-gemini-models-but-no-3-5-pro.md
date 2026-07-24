@@ -30,11 +30,11 @@ backlinks:
 > **Sources:**
 >   - google-releases-three-new-gemini-models---but-no-35-pro-2026-07-21.md
 > **Links:**
-- [[what to watch for after jensen huangs japan visit]]
-- [[neil rimer thinks the ai money is coming back out]]
-- [[openai is scared of open weight models should the us be]]
-- [[adobe camera apps new feature will critique your photos using ai]]
-- [[ai science research flattens discovery]]
+- [[what-to-watch-for-after-jensen-huangs-japan-visit]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[openai-is-scared-of-open-weight-models-should-the-us-be]]
+- [[adobe-camera-apps-new-feature-will-critique-your-photos-using-ai]]
+- [[ai-science-research-flattens-discovery]]
 
 ## Key Findings
 
@@ -74,11 +74,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[what to watch for after jensen huangs japan visit]]
-- [[neil rimer thinks the ai money is coming back out]]
-- [[openai is scared of open weight models should the us be]]
-- [[adobe camera apps new feature will critique your photos using ai]]
-- [[ai science research flattens discovery]]
+- [[what-to-watch-for-after-jensen-huangs-japan-visit]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[openai-is-scared-of-open-weight-models-should-the-us-be]]
+- [[adobe-camera-apps-new-feature-will-critique-your-photos-using-ai]]
+- [[ai-science-research-flattens-discovery]]
 ## Backlinks
 
 ```dataview

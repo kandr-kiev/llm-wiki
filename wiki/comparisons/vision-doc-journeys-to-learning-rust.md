@@ -38,10 +38,10 @@ tags:
 > **Sources:**
 >   - the-many-journeys-of-learning-rust-2026-07-17.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[away]]
 - [[ai]]
 
 ## Key Findings
@@ -112,8 +112,8 @@ Rust's diagnostics did the teaching on their own, especially around lifetimes.
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[away]]
 - [[ai]]

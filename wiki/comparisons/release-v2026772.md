@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - gh-v2026772-2026-07-17.md
 > **Links:**
-- [[Release v0.1.49-beta]]
-- [[Release 5.0.0]]
-- [[Release v0.8.0]]
+- [[release-v0149-beta]]
+- [[release-500]]
+- [[release-v080]]
 - [[v0.22.1]]
-- [[Release v0.0.5]]
+- [[release-v005]]
 
 ## Key Findings
 
@@ -56,8 +56,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v0.1.49-beta]]
-- [[Release 5.0.0]]
-- [[Release v0.8.0]]
+- [[release-v0149-beta]]
+- [[release-500]]
+- [[release-v080]]
 - [[v0.22.1]]
-- [[Release v0.0.5]]
+- [[release-v005]]

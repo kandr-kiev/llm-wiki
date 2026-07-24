@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - introducing-real-world-voiceeq-measuring-the-human-quality-of-voice-ai-2026-07-17.md
 > **Links:**
-- [[one click to sagemaker studio]]
-- [[ai in your feed]]
+- [[one-click-to-sagemaker-studio]]
+- [[ai-in-your-feed]]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)
-- [[Release v0.39.0]]
-- [[Release v5.11.0]]
+- [[release-v0390]]
+- [[release-v5110]]
 
 ## Key Findings
 
@@ -99,5 +99,5 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[one click [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)onments` submodule with `SandboxEnvironment`]]
-- [[Release v0.39.0]]
-- [[Release v5.11.0]]
+- [[release-v0390]]
+- [[release-v5110]]

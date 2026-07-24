@@ -37,11 +37,11 @@ backlinks:
 > **Sources:**
 >   - google-launches-a-cheaper-alternative-to-large-ai-security-models-like-mythos-2026-07-21.md
 > **Links:**
-- [[spacex in your index fund explained]]
-- [[apple openai lawsuit vergecast]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[tiktok ai likeness detection tool]]
-- [[1010benja semiramis dream suno ai music]]
+- [[spacex-in-your-index-fund-explained]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
 
 ## Key Findings
 
@@ -99,11 +99,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[spacex in your index fund explained]]
-- [[apple openai lawsuit vergecast]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[tiktok ai likeness detection tool]]
-- [[1010benja semiramis dream suno ai music]]
+- [[spacex-in-your-index-fund-explained]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
 ## Backlinks
 
 ```dataview

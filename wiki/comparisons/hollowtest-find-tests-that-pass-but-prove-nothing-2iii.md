@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - hollowtest-find-tests-that-pass-but-prove-nothing-2026-07-21.md
 > **Links:**
-- [[class vs object who is the big boss 32nj]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -124,8 +124,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[class vs object who is the big boss 32nj]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

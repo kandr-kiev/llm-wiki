@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - your-clients-schema-doesnt-belong-in-your-cloud-account-2026-07-18.md
 > **Links:**
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[ai help with your database design without the cloud 32l4]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[ai-help-with-your-database-design-without-the-cloud-32l4]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -140,8 +140,8 @@ Schemity is a local ERD tool, and its unit of organization matches the consultan
 
 ## Related Articles
 
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[ai help with your database design without the cloud 32l4]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[ai-help-with-your-database-design-without-the-cloud-32l4]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

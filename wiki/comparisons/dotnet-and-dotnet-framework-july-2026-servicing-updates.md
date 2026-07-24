@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - net-and-net-framework-july-2026-servicing-releases-updates-2026-07-17.md
 > **Links:**
-- [[modernize dotnet in github copilot app]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing typescript 7 0]]
-- [[mcp build diagnostics workflows]]
-- [[msbuild binlog mcp server]]
+- [[modernize-dotnet-in-github-copilot-app]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[mcp-build-diagnostics-workflows]]
+- [[msbuild-binlog-mcp-server]]
 
 ## Key Findings
 
@@ -80,8 +80,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[modernize dotnet in github copilot app]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing typescript 7 0]]
-- [[mcp build diagnostics workflows]]
-- [[msbuild binlog mcp server]]
+- [[modernize-dotnet-in-github-copilot-app]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[mcp-build-diagnostics-workflows]]
+- [[msbuild-binlog-mcp-server]]

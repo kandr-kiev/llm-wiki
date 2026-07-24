@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - my-insights-on-what-working-at-big-tech-is-actually-like-2026-07-18.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -139,8 +139,8 @@ When a project
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]

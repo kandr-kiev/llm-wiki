@@ -34,11 +34,11 @@ backlinks:
 > **Sources:**
 >   - how-two-computers-create-a-secret-without-ever-sharing-it-2026-07-21.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[starting my developer journey bh8]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[class vs object who is the big boss 32nj]]
-- [[build a basic ai agent from scratch security ii 2m2c]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[starting-my-developer-journey-bh8]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[build-a-basic-ai-agent-from-scratch-security-ii-2m2c]]
 
 ## Key Findings
 
@@ -128,11 +128,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[starting my developer journey bh8]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[class vs object who is the big boss 32nj]]
-- [[build a basic ai agent from scratch security ii 2m2c]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[starting-my-developer-journey-bh8]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[build-a-basic-ai-agent-from-scratch-security-ii-2m2c]]
 ## Backlinks
 
 ```dataview

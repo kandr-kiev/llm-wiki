@@ -26,7 +26,7 @@ tags:
 - [[php-text-template]]
 - [[phpunit/php-invoker]]
 - [[phpunit/php-code-coverage]]
-- [[Manifest]]
+- [[manifest]]
 
 ## Key Findings
 
@@ -119,4 +119,4 @@ See Key Findings for full content.
 - [[php-text-template]]
 - [[phpunit/php-invoker]]
 - [[phpunit/php-code-coverage]]
-- [[Manifest]]
+- [[manifest]]

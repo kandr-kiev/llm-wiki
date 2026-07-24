@@ -33,11 +33,11 @@ backlinks:
 > **Sources:**
 >   - ruby-shipped-the-fix-for-sleepergem-45-days-before-it-happened-2026-07-21.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
 
 ## Key Findings
 
@@ -166,11 +166,11 @@ Cooldown makes Bundler refuse to resolve to a release younger than N days. The f
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
 ## Backlinks
 
 ```dataview

@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - apples-plot-to-crush-openai-2026-07-17.md
 > **Links:**
-- [[xai grok user lawsuit csam]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[openai hardware codex micro launch]]
-- [[google gemini notebook notebooklm]]
+- [[xai-grok-user-lawsuit-csam]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[openai-hardware-codex-micro-launch]]
+- [[google-gemini-notebook-notebooklm]]
 
 ## Key Findings
 
@@ -106,8 +106,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[xai grok user lawsuit csam]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[openai hardware codex micro launch]]
-- [[google gemini notebook notebooklm]]
+- [[xai-grok-user-lawsuit-csam]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[openai-hardware-codex-micro-launch]]
+- [[google-gemini-notebook-notebooklm]]

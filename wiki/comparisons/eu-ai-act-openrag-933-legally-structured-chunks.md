@@ -27,10 +27,10 @@ tags:
 >   - eu-ai-act-openrag-933-legally-structured-chunks-and-bge-m3-embeddings-in-one-sqlite-file-p-2026-07-17.md
 > **Links:**
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
-- [[sequoia ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[sequoia-ascent]]
 - [[arXiv:2607.11977]]
-- [[Automating away]]
+- [[away]]
 
 ## Key Findings
 
@@ -75,7 +75,7 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 ## Related Articles
 
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
-- [[sequoia ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[sequoia-ascent]]
 - [[arXiv:2607.11977]]
-- [[Automating away]]
+- [[away]]

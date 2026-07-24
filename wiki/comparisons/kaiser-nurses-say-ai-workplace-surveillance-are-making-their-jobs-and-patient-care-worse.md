@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-care-worse-2026-07-18.md
 > **Links:**
-- [[fortune david siegel open source ai.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 - [[20769574401]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[dv safe phone australia]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[dv-safe-phone-australia]]
 
 ## Key Findings
 
@@ -77,8 +77,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[fortune david siegel open source ai.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 - [[20769574401]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[dv safe phone australia]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[dv-safe-phone-australia]]

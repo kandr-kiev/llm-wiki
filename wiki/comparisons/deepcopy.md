@@ -27,10 +27,10 @@ tags:
 >   - local-ai-education-provendormyclabsdeep-copyreadmemd-2026-07-20.md
 > **Links:**
 - [[composer.json]]
-- [[5 Agent Skills I Use Every Day]]
+- [[5-agent-skills-i-use-every-day]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating away]]
-- [[i started a dirt notebook]]
+- [[away]]
+- [[i-started-a-dirt-notebook]]
 
 ## Key Findings
 
@@ -197,7 +197,7 @@ the next ones m
 ## Related Articles
 
 - [[composer.json]]
-- [[5 Agent Skills I Use Every Day]]
+- [[5-agent-skills-i-use-every-day]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating away]]
-- [[i started a dirt notebook]]
+- [[away]]
+- [[i-started-a-dirt-notebook]]

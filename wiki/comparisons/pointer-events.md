@@ -25,9 +25,9 @@ tags:
 >   - pointer-events-2026-07-17.md
 > **Links:**
 - [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning](http[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]
-- [[The Illustrated Retrieval Transformer 2026 07 07]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Release v0.25.1]]
+- [[the-illustrated-retrieval-transformer-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[release-v0251]]
 
 ## Key Findings
 
@@ -107,6 +107,6 @@ Normally, the browser chooses the topmost element under the pointer. But if that
 Once you think about `pointer-events` this way, most of its behavior starts to make sense. Rather than disabling events, it simply changes which element (or, in the case of SVG, which part of an element) becomes the event target in the first place.
 <svg aria-hidden="true" height="16" version="1.1" viewBox[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning](http[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)ssue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
 - [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
-- [[The Illustrated Retrieval Transformer 2026 07 07]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Release v0.25.1]]
+- [[the-illustrated-retrieval-transformer-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[release-v0251]]

@@ -24,10 +24,10 @@ tags:
 >   - 6-security-settings-every-github-maintainer-should-enable-this-week-2026-07-17.md
 > **Links:**
 - [[textures]]
-- [[ai science research flattens discovery]]
-- [[expanding managed agents gemini api]]
-- [[full stack ai explainer]]
-- [[google ai updates june]]
+- [[ai-science-research-flattens-discovery]]
+- [[expanding-managed-agents-gemini-api]]
+- [[full-stack-ai-explainer]]
+- [[google-ai-updates-june]]
 
 ## Key Findings
 
@@ -59,7 +59,7 @@ s-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:point
 ## Related Articles
 
 - [[textures]]
-- [[ai science research flattens discovery]]
-- [[expanding managed agents gemini api]]
-- [[full stack ai explainer]]
-- [[google ai updates june]]
+- [[ai-science-research-flattens-discovery]]
+- [[expanding-managed-agents-gemini-api]]
+- [[full-stack-ai-explainer]]
+- [[google-ai-updates-june]]

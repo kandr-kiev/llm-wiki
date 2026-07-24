@@ -24,9 +24,9 @@ tags:
 > **Links:**
 - [[v0.22.1]]
 - [[v0.22.0]]
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.23.1]]
+- [[release-v0231]]
 
 ## Key Findings
 
@@ -57,6 +57,6 @@ See Key Findings for full content.
 
 - [[v0.22.1]]
 - [[v0.22.0]]
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.23.1]]
+- [[release-v0231]]

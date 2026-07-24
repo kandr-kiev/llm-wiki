@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - i-generated-50-sales-reports-with-one-cli-command---heres-how-2026-07-20.md
 > **Links:**
-- [[class vs object who is the big boss 32nj]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[my insights on what working at big tech is actually like kgd]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
 
 ## Key Findings
 
@@ -128,8 +128,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[class vs object who is the big boss 32nj]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[my insights on what working at big tech is actually like kgd]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]

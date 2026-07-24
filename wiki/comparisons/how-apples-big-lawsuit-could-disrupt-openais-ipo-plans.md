@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - how-apples-big-lawsuit-could-disrupt-openais-ipo-plans-2026-07-17.md
 > **Links:**
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[inside ode with anthropic the startup betting ai services are the future of enterprise]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[google vids now lets you star in your own ai videos]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[inside ode with anthropic the startup betting ai services are the future of enterprise]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[google vids now lets you star in your own ai videos]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]

@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - the-ai-era-democratizing-the-ivory-tower-and-reclaiming-the-latin-american-mind-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[hackthebox void whispers writeup bh5]]
-- [[repeating tasks without repeating code 4fak]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
 
 ## Key Findings
 
@@ -130,8 +130,8 @@ Consider the tragic case of **Dr. Sérgio Henrique Ferreira**. In the 1960s, wor
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[hackthebox void whispers writeup bh5]]
-- [[repeating tasks without repeating code 4fak]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]

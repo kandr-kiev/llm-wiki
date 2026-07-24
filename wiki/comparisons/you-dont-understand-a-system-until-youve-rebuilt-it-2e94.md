@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - you-dont-understand-a-system-until-youve-rebuilt-it-2026-07-22.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 
 ## Key Findings
 
@@ -137,11 +137,11 @@ I found this out concretely. I have written before about [rebuilding a TCP serve
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 ## Backlinks
 
 ```dataview

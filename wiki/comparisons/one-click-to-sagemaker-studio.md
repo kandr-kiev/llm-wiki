@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - from-hugging-face-to-amazon-sagemaker-studio-in-one-click-2026-07-17.md
 > **Links:**
-- [[Release v0.1.49-beta]]
-- [[Release v0.8.0]]
-- [[Rust 1.97.1]]
-- [[Best AI Coding Assistants as of March 2026]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[release-v0149-beta]]
+- [[release-v080]]
+- [[rust-1971]]
+- [[ai-coding-assistants-2026]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
 
 ## Key Findings
 
@@ -93,8 +93,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v0.1.49-beta]]
-- [[Release v0.8.0]]
-- [[Rust 1.97.1]]
-- [[Best AI Coding Assistants as of March 2026]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[release-v0149-beta]]
+- [[release-v080]]
+- [[rust-1971]]
+- [[ai-coding-assistants-2026]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]

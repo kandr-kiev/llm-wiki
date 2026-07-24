@@ -28,11 +28,11 @@ backlinks:
 > **Sources:**
 >   - bluecore-energy-raises-10m-to-build-portable-nuclear-reactors-on-barges-2026-07-21.md
 > **Links:**
-- [[trumps latest ai czar has already resigned]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[anthropics landmark 1 5b copyright settlement is approved]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[colossal biosciences reportedly in talks to raise new capital at 20b 30b valuation]]
+- [[trumps-latest-ai-czar-has-already-resigned]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[anthropics-landmark-1-5b-copyright-settlement-is-approved]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation]]
 
 ## Key Findings
 
@@ -71,11 +71,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[trumps latest ai czar has already resigned]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[anthropics landmark 1 5b copyright settlement is approved]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[colossal biosciences reportedly in talks to raise new capital at 20b 30b valuation]]
+- [[trumps-latest-ai-czar-has-already-resigned]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[anthropics-landmark-1-5b-copyright-settlement-is-approved]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation]]
 ## Backlinks
 
 ```dataview

@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - bootstrap-5-grid-system-the-complete-guide-for-2026-2026-07-21.md
 > **Links:**
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
-- [[the gitbook migration trap 4gp2]]
-- [[your clients schema doesnt belong in your cloud account e5g]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[your-clients-schema-doesnt-belong-in-your-cloud-account-e5g]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
 
 ## Key Findings
 
@@ -87,8 +87,8 @@ u003e\n \u003ca name=\"the-container-options-nobody-explains-properly\" href=\"#
 
 ## Related Articles
 
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
-- [[the gitbook migration trap 4gp2]]
-- [[your clients schema doesnt belong in your cloud account e5g]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[your-clients-schema-doesnt-belong-in-your-cloud-account-e5g]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]

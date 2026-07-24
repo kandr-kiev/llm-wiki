@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - fake-it-till-you-make-it-ma-con-metodo-come-insegnare-senza-sentirsi-pronti-e-diventare-davvero-cred-2026-07-18.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -171,8 +171,8 @@ Se ti trovi a dire sì a qualcosa che ti spaventa, prova questa mini-checklist:
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

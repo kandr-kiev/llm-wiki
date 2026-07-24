@@ -39,11 +39,11 @@ backlinks:
 > **Sources:**
 >   - hermes-agent-architecture-deep-dive-2026.md
 > **Links:**
-- [[Nous Research]]
-- [[kimi k3]]
-- [[LLM Deployment Q&A — Common Questions]]
-- [[Databricks]]
-- [[Atropos]]
+- [[nous-research]]
+- [[kimi-k3]]
+- [[llm-deployment-qa-common-questions]]
+- [[databricks]]
+- [[atropos]]
 
 ## Key Findings
 
@@ -69,11 +69,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Nous Research]]
-- [[kimi k3]]
-- [[LLM Deployment Q&A — Common Questions]]
-- [[Databricks]]
-- [[Atropos]]
+- [[nous-research]]
+- [[kimi-k3]]
+- [[llm-deployment-qa-common-questions]]
+- [[databricks]]
+- [[atropos]]
 ## Backlinks
 
 ```dataview

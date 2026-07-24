@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - bmvc-rebuttals-update-d-2026-07-17.md
 > **Links:**
-- [[whats important 14]]
+- [[whats-important-14]]
 - [[arXiv:2607.11977]]
-- [[get ready for the powerful css border shape property]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[item]]
-- [[Rust 1.97.0]]
+- [[rust-1970]]
 
 ## Key Findings
 
@@ -73,8 +73,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[whats important 14]]
+- [[whats-important-14]]
 - [[arXiv:2607.11977]]
-- [[get ready for the powerful css border shape property]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[item]]
-- [[Rust 1.97.0]]
+- [[rust-1970]]

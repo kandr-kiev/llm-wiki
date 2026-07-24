@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - i-hate-that-i-dont-hate-this-song-made-with-suno-2026-07-20.md
 > **Links:**
-- [[tiktok ai likeness detection tool]]
-- [[apple openai lawsuit vergecast]]
-- [[adobe indigo camera app ai playground update]]
-- [[best apps gadgets reading installer]]
-- [[openai chatgpt ai smart speaker hardware device]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[best-apps-gadgets-reading-installer]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
 
 ## Key Findings
 
@@ -82,8 +82,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[tiktok ai likeness detection tool]]
-- [[apple openai lawsuit vergecast]]
-- [[adobe indigo camera app ai playground update]]
-- [[best apps gadgets reading installer]]
-- [[openai chatgpt ai smart speaker hardware device]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[best-apps-gadgets-reading-installer]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]

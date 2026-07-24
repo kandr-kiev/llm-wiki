@@ -18,11 +18,11 @@ tags:
 > **Sources:**
 >   - cloudflare-internal-dns-is-now-generally-available-2026-07-20.md
 > **Links:**
-- [[wordpress vulnerabilities]]
-- [[meerkat introduction]]
-- [[rollbacks for workflows]]
-- [[monetization gateway]]
-- [[agentic internet bot report]]
+- [[wordpress-vulnerabilities]]
+- [[meerkat-introduction]]
+- [[rollbacks-for-workflows]]
+- [[monetization-gateway]]
+- [[agentic-internet-bot-report]]
 
 ## Key Findings
 
@@ -41,8 +41,8 @@ blog_source: Cloudflare Blog
 
 ## Related Articles
 
-- [[wordpress vulnerabilities]]
-- [[meerkat introduction]]
-- [[rollbacks for workflows]]
-- [[monetization gateway]]
-- [[agentic internet bot report]]
+- [[wordpress-vulnerabilities]]
+- [[meerkat-introduction]]
+- [[rollbacks-for-workflows]]
+- [[monetization-gateway]]
+- [[agentic-internet-bot-report]]

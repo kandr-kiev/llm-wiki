@@ -19,10 +19,10 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorsebastianenvironmentchangelogmd-2026-07-20.md
 > **Links:**
-- [[Changelog]]
-- [[Change Log]]
-- [[Changes in PHPUnit 10.5]]
-- [[Version]]
+- [[changelog]]
+- [[change-log]]
+- [[changes-in-phpunit-105]]
+- [[version]]
 - [[ci.yml]]
 
 ## Key Findings
@@ -146,8 +146,8 @@ an issue in `Runtime::getCurrentSettings()`
 
 ## Related Articles
 
-- [[Changelog]]
-- [[Change Log]]
-- [[Changes in PHPUnit 10.5]]
-- [[Version]]
+- [[changelog]]
+- [[change-log]]
+- [[changes-in-phpunit-105]]
+- [[version]]
 - [[ci.yml]]

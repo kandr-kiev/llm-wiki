@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - how-github-gave-every-repository-a-durable-owner-2026-07-17.md
 > **Links:**
-- [[how github copilot enables zero dns configuration for github pages]]
-- [[github for beginners your roadmap to mastering the github essentials]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[connected apps]]
-- [[managing ai investments in agentic era]]
+- [[how-github-copilot-enables-zero-dns-configuration-for-github-pages]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[connected-apps]]
+- [[managing-ai-investments-in-agentic-era]]
 
 ## Key Findings
 
@@ -74,8 +74,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[how github copilot enables zero dns configuration for github pages]]
-- [[github for beginners your roadmap to mastering the github essentials]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[connected apps]]
-- [[managing ai investments in agentic era]]
+- [[how-github-copilot-enables-zero-dns-configuration-for-github-pages]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[connected-apps]]
+- [[managing-ai-investments-in-agentic-era]]

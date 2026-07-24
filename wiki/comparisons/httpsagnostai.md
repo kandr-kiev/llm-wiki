@@ -35,11 +35,11 @@ tags:
 > **Sources:**
 >   - launch-hn-agnost-ai-yc-s26--extract-user-feedback-from-agent-conversations-2026-07-14.md
 > **Links:**
-- [[billai bass]]
-- [[auto grade hn]]
-- [[5 Agent Skills I Use Every Day]]
+- [[billai-bass]]
+- [[auto-grade-hn]]
+- [[5-agent-skills-i-use-every-day]]
 - [Issue #8140: Add logging support for better observability](https://github.com/pytorch/pytorch/issues/8140)
-- [[jacquard lang]]
+- [[jacquard-lang]]
 
 ## Key Findings
 
@@ -62,6 +62,6 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[billai bass]]
+- [[billai-bass]]
 - [[auto grad[Issue #8140: Add logging support for better observability](https://github.com/pytorch/pytorch/issues/8140)Add logging support for better observability]]
-- [[jacquard lang]]
+- [[jacquard-lang]]

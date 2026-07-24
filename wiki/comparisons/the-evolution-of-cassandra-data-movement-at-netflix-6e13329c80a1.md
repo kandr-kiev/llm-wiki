@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - the-evolution-of-cassandra-data-movement-at-netflix-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[reed jobs would rather talk about curing cancer than his last name]]
-- [[building the foundation for an autonomous enterprise]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
 
 ## Key Findings
 
@@ -48,8 +48,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[reed jobs would rather talk about curing cancer than his last name]]
-- [[building the foundation for an autonomous enterprise]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]

@@ -27,10 +27,10 @@ tags:
 > **Sources:**
 >   - gh-v0320-2026-07-14.md
 > **Links:**
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.25.1]]
-- [[Release v0.1.481-beta]]
+- [[release-v0251]]
+- [[release-v01481-beta]]
 - [[v3.14.0]]
 
 ## Key Findings
@@ -61,8 +61,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.25.1]]
-- [[Release v0.1.481-beta]]
+- [[release-v0251]]
+- [[release-v01481-beta]]
 - [[v3.14.0]]

@@ -32,10 +32,10 @@ tags:
 >   - vulnhunter-capital-ones-agentic-ai-code-security-tool-2026-07-17.md
 > **Links:**
 - [[article]]
-- [[speculative growth AI public.pdf]]
-- [[fortune david siegel open source ai.pdf]]
+- [[speculative-growth-ai-publicpdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 - [[bisbull120.pdf]]
-- [[whats important 14]]
+- [[whats-important-14]]
 
 ## Key Findings
 
@@ -138,7 +138,7 @@ tion s(e){try{const t=c(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicatio
 ## Related Articles
 
 - [[article]]
-- [[speculative growth AI public.pdf]]
-- [[fortune david siegel open source ai.pdf]]
+- [[speculative-growth-ai-publicpdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 - [[bisbull120.pdf]]
-- [[whats important 14]]
+- [[whats-important-14]]

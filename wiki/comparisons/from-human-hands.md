@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - we-dont-use-ai-in-any-of-our-design-or-production-processes-2026-07-15.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Generative AI Strategy]]
-- [[5 Agent Skills I Use Every Day]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[generative-ai-strategy]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -140,8 +140,8 @@ Mass-Driver
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Generative AI Strategy]]
-- [[5 Agent Skills I Use Every Day]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[generative-ai-strategy]]
+- [[5-agent-skills-i-use-every-day]]

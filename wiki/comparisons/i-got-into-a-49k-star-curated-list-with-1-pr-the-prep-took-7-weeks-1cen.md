@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - i-got-into-a-49k-star-curated-list-with-1-pr-the-prep-took-7-weeks-2026-07-21.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[the gitbook migration trap 4gp2]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -120,8 +120,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[the gitbook migration trap 4gp2]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[the-gitbook-migration-trap-4gp2]]

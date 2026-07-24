@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - no-people-dont-want-more-ai-in-their-life-2026-07-17.md
 > **Links:**
-- [[kirki wordpress visual builder infinite canvas]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[matching ai modality user intent designing right interface]]
-- [[how turn brand strategy into visual direction]]
+- [[kirki-wordpress-visual-builder-infinite-canvas]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[matching-ai-modality-user-intent-designing-right-interface]]
+- [[how-turn-brand-strategy-into-visual-direction]]
 
 ## Key Findings
 
@@ -45,8 +45,8 @@ oaded-stage2 .search .search-input,.wf-loaded-stage2 .subnav a,.wf-loaded-stage2
 
 ## Related Articles
 
-- [[kirki wordpress visual builder infinite canvas]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[matching ai modality user intent designing right interface]]
-- [[how turn brand strategy into visual direction]]
+- [[kirki-wordpress-visual-builder-infinite-canvas]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[matching-ai-modality-user-intent-designing-right-interface]]
+- [[how-turn-brand-strategy-into-visual-direction]]

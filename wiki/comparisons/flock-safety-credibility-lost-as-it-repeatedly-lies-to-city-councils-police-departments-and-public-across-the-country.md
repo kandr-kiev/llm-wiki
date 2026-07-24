@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - flock-credibility-lost-as-it-repeatedly-lies-to-city-councils-police--public-2026-07-21.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[robots txt 2023 war memorial]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[robots-txt-2023-war-memorial]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -110,8 +110,8 @@ This is far from the first time Flock has misled the public and elected official
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[robots txt 2023 war memorial]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[robots-txt-2023-war-memorial]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]

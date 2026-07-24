@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - repeating-tasks-without-repeating-code-2026-07-17.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[hackthebox void whispers writeup bh5]]
-- [[using sqlite in go and its importance 3de1]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[using-sqlite-in-go-and-its-importance-3de1]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
 
 ## Key Findings
 
@@ -135,8 +135,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[hackthebox void whispers writeup bh5]]
-- [[using sqlite in go and its importance 3de1]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[using-sqlite-in-go-and-its-importance-3de1]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]

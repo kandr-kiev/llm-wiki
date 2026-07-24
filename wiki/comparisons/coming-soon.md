@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - demystifying-the-secrets-of-grad-school-for-current-and-future-students-2026-07-17.md
 > **Links:**
-- [[academic conference survival guide]]
-- [[Automating Ai Away]]
-- [[offloading thinking to ai]]
-- [[Generative AI Strategy]]
-- [[Automating away]]
+- [[academic-conference-survival-guide]]
+- [[automating-ai-away-2026-07-07]]
+- [[offloading-thinking-to-ai]]
+- [[generative-ai-strategy]]
+- [[away]]
 
 ## Key Findings
 
@@ -54,8 +54,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[academic conference survival guide]]
-- [[Automating Ai Away]]
-- [[offloading thinking to ai]]
-- [[Generative AI Strategy]]
-- [[Automating away]]
+- [[academic-conference-survival-guide]]
+- [[automating-ai-away-2026-07-07]]
+- [[offloading-thinking-to-ai]]
+- [[generative-ai-strategy]]
+- [[away]]

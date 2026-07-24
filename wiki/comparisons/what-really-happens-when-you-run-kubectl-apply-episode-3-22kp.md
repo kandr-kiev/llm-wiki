@@ -36,11 +36,11 @@ backlinks:
 > **Sources:**
 >   - -what-really-happens-when-you-run-kubectl-apply-episode-3-2026-07-21.md
 > **Links:**
-- [[starting my developer journey bh8]]
-- [[its a post 4hi8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[the gitbook migration trap 4gp2]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[starting-my-developer-journey-bh8]]
+- [[its-a-post-4hi8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 
 ## Key Findings
 
@@ -129,11 +129,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[starting my developer journey bh8]]
-- [[its a post 4hi8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[the gitbook migration trap 4gp2]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[starting-my-developer-journey-bh8]]
+- [[its-a-post-4hi8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 ## Backlinks
 
 ```dataview

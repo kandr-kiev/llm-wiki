@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - exploring-continual-learning-without-replay-buffers-our-findings-using-dynamic-task-similarity-routi-2026-07-20.md
 > **Links:**
-- [[ai music video arena claude vs gpt 5.6]]
-- [[kimi k3]]
-- [[sequoia ascent]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[am i focusing on the wrong skills as a cs student]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[am-i-focusing-on-the-wrong-skills-as-a-cs-student]]
 
 ## Key Findings
 
@@ -73,8 +73,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[ai music video arena claude vs gpt 5.6]]
-- [[kimi k3]]
-- [[sequoia ascent]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[am i focusing on the wrong skills as a cs student]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[am-i-focusing-on-the-wrong-skills-as-a-cs-student]]

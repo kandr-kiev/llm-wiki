@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - learning-a-few-things-about-running-sqlite-2026-07-17.md
 > **Links:**
-- [[i started a dirt notebook]]
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating away]]
-- [[5 Agent Skills I Use Every Day]]
+- [[i-started-a-dirt-notebook]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[away]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -160,8 +160,8 @@ been great, I think the move from
 
 ## Related Articles
 
-- [[i started a dirt notebook]]
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating away]]
-- [[5 Agent Skills I Use Every Day]]
+- [[i-started-a-dirt-notebook]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[away]]
+- [[5-agent-skills-i-use-every-day]]

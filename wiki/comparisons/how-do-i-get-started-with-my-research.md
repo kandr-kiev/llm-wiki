@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - how-do-i-get-started-with-my-research-project-2026-07-17.md
 > **Links:**
-- [[coming soon]]
-- [[academic conference survival guide]]
-- [[end the job search start with research]]
-- [[offloading thinking to ai]]
-- [[5 Agent Skills I Use Every Day]]
+- [[coming-soon]]
+- [[academic-conference-survival-guide]]
+- [[end-the-job-search-start-with-research]]
+- [[offloading-thinking-to-ai]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -100,8 +100,8 @@ Everyone has a different style of reading that works best for them, these are a 
 
 ## Related Articles
 
-- [[coming soon]]
-- [[academic conference survival guide]]
-- [[end the job search start with research]]
-- [[offloading thinking to ai]]
-- [[5 Agent Skills I Use Every Day]]
+- [[coming-soon]]
+- [[academic-conference-survival-guide]]
+- [[end-the-job-search-start-with-research]]
+- [[offloading-thinking-to-ai]]
+- [[5-agent-skills-i-use-every-day]]

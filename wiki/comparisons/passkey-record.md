@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - opaque-interoperable-passkey-records-and-a-go-api-2026-07-21.md
 > **Links:**
-- [[open source monopoly]]
-- [[The Illustrated Stable Diffusion]]
-- [[Automating away]]
-- [[i started a dirt notebook]]
-- [[kimi k3]]
+- [[open-source-monopoly]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[away]]
+- [[i-started-a-dirt-notebook]]
+- [[kimi-k3]]
 
 ## Key Findings
 
@@ -75,8 +75,8 @@ The application is in charge of
 
 ## Related Articles
 
-- [[open source monopoly]]
-- [[The Illustrated Stable Diffusion]]
-- [[Automating away]]
-- [[i started a dirt notebook]]
-- [[kimi k3]]
+- [[open-source-monopoly]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[away]]
+- [[i-started-a-dirt-notebook]]
+- [[kimi-k3]]

@@ -39,10 +39,10 @@ tags:
 > **Sources:**
 >   - show-hn-sx-20--share-ai-skills-with-your-team-through-a-dropbox-folder-2026-07-14.md
 > **Links:**
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -79,8 +79,8 @@ The premise behind sx hasn’t changed since the first release: AI gains are tra
 
 ## Related Articles
 
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

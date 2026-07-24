@@ -39,11 +39,11 @@ backlinks:
 > **Sources:**
 >   - hermes-agent-architecture-survey-2026-07-21.md
 > **Links:**
-- [[Hermes Agent Architecture Deep Dive]]
-- [[Hermes Agent]]
-- [[Hermes Agent vs OpenClaw — Comparison 2026]]
-- [[Nous Research]]
-- [[LLM Deployment Q&A — Common Questions]]
+- [[hermes-agent-architecture-deep-dive]]
+- [[hermes-agent]]
+- [[hermes-agent-vs-openclaw-2026-07-21]]
+- [[nous-research]]
+- [[llm-deployment-qa-common-questions]]
 
 ## Key Findings
 
@@ -74,11 +74,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Hermes Agent Architecture Deep Dive]]
-- [[Hermes Agent]]
-- [[Hermes Agent vs OpenClaw — Comparison 2026]]
-- [[Nous Research]]
-- [[LLM Deployment Q&A — Common Questions]]
+- [[hermes-agent-architecture-deep-dive]]
+- [[hermes-agent]]
+- [[hermes-agent-vs-openclaw-2026-07-21]]
+- [[nous-research]]
+- [[llm-deployment-qa-common-questions]]
 ## Backlinks
 
 ```dataview

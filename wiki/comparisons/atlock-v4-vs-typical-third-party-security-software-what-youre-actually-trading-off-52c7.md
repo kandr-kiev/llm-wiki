@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - atlock-v4-vs-typical-third-party-security-software-what-youre-actually-trading-off-2026-07-17.md
 > **Links:**
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[Automating away]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[away]]
 
 ## Key Findings
 
@@ -142,8 +142,8 @@ Security software subscriptions are a real, recurring cost most people don't thi
 
 ## Related Articles
 
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[Automating away]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[away]]

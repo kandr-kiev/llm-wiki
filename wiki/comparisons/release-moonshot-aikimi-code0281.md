@@ -20,9 +20,9 @@ tags:
 > **Sources:**
 >   - gh-moonshot-aikimi-code0281-2026-07-20.md
 > **Links:**
-- [[Release @moonshot-ai/kimi-code@0.28.0]]
-- [[Release @moonshot-ai/kimi-code@0.27.0]]
-- [[Release v0.86.0]]
+- [[release-moonshot-aikimi-code0280]]
+- [[release-moonshot-aikimi-code0270]]
+- [[release-v0860]]
 - [[v0.28.0]]
 - [[v0.22.1]]
 
@@ -46,8 +46,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release @moonshot-ai/kimi-code@0.28.0]]
-- [[Release @moonshot-ai/kimi-code@0.27.0]]
-- [[Release v0.86.0]]
+- [[release-moonshot-aikimi-code0280]]
+- [[release-moonshot-aikimi-code0270]]
+- [[release-v0860]]
 - [[v0.28.0]]
 - [[v0.22.1]]

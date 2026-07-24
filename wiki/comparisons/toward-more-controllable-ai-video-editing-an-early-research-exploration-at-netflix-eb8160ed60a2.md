@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - toward-more-controllable-ai-video-editing-an-early-research-exploration-at-netflix-2026-07-17.md
 > **Links:**
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[achieving operational excellence with ai]]
-- [[reed jobs would rather talk about curing cancer than his last name]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[achieving-operational-excellence-with-ai]]
+- [[reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 
 ## Key Findings
 
@@ -51,8 +51,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[achieving operational excellence with ai]]
-- [[reed jobs would rather talk about curing cancer than his last name]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[achieving-operational-excellence-with-ai]]
+- [[reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]

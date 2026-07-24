@@ -27,11 +27,11 @@ backlinks:
 > **Sources:**
 >   - vtubing-how-a-japanese-phenomenon-is-going-worldwide-2026-07-21.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i started a dirt notebook]]
-- [[The Illustrated Stable Diffusion]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[open source monopoly]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[open-source-monopoly]]
 
 ## Key Findings
 
@@ -162,11 +162,11 @@ I like the freedom of expression that yo
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i started a dirt notebook]]
-- [[The Illustrated Stable Diffusion]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[open source monopoly]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[open-source-monopoly]]
 ## Backlinks
 
 ```dataview

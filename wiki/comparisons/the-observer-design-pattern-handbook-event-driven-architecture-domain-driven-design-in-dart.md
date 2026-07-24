@@ -27,9 +27,9 @@ tags:
 > **Links:**
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[ai]]
-- [[Automating away]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[understanding dijkstra s algorithm]]
+- [[understanding-dijkstra-s-algorithm]]
 
 ## Key Findings
 
@@ -154,6 +154,6 @@ This looks fine at first glance. But count how many reasons this single function
 
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[ai]]
-- [[Automating away]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[understanding dijkstra s algorithm]]
+- [[understanding-dijkstra-s-algorithm]]

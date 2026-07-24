@@ -20,11 +20,11 @@ tags:
 > **Sources:**
 >   - grapheneos-recommended-for-domestic-abuse-victims-2026-07-17.md
 > **Links:**
-- [[github availability report june]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[fortune david siegel open source ai.pdf]]
-- [[get ready for the powerful css border shape property]]
-- [[google vids now lets you star in your own ai videos]]
+- [[github-availability-report-june]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
 
 ## Key Findings
 
@@ -51,8 +51,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[github availability report june]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[fortune david siegel open source ai.pdf]]
-- [[get ready for the powerful css border shape property]]
-- [[google vids now lets you star in your own ai videos]]
+- [[github-availability-report-june]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]

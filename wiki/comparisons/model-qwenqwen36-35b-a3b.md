@@ -23,9 +23,9 @@ tags:
 >   - hf-qwen36-35b-a3b-2026-07-14.md
 > **Links:**
 - [[Model: Qwen/Qwen3.6-27B]]
-- [[Release v0.39.0]]
-- [[Release v0.8.0]]
-- [[Release v5.11.0]]
+- [[release-v0390]]
+- [[release-v080]]
+- [[release-v5110]]
 - [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer](https://github.com/pytorch/pytorch/issues/47325)
 
 ## Key Findings

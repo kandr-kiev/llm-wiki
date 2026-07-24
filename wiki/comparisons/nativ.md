@@ -41,9 +41,9 @@ tags:
 >   - nativ-run-frontier-open-models-locally-on-your-mac-2026-07-20.md
 > **Links:**
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Release v2026.7.20]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[kimi k3]]
+- [[release-v2026720]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[kimi-k3]]
 - [[https://stateofopensource.ai/]]
 
 ## Key Findings
@@ -139,7 +139,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Release v2026.7.20]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[kimi k3]]
+- [[release-v2026720]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[kimi-k3]]
 - [[https://stateofopensource.ai/]]

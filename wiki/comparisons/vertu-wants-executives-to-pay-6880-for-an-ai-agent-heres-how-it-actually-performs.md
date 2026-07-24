@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - vertu-wants-executives-to-pay-6880-for-an-ai-agent---heres-how-it-actually-performs-2026-07-18.md
 > **Links:**
-- [[agility robotics plants its flag in teslas backyard]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[charles hudson shares the common mistakes hes seen after investing in 500 startups]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[agility robotics plants its flag in teslas backyard]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[charles hudson shares the common mistakes hes seen after investing in 500 startups]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]

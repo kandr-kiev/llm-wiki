@@ -28,10 +28,10 @@ tags:
 > **Sources:**
 >   - how-proprietary-formats-have-become-microsofts-main-tool-for-lock-in-2026-07-20.md
 > **Links:**
-- [[sequoia ascent]]
-- [[The Illustrated Stable Diffusion]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
+- [[sequoia-ascent]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -102,8 +102,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[sequoia ascent]]
-- [[The Illustrated Stable Diffusion]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
+- [[sequoia-ascent]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

@@ -27,10 +27,10 @@ tags:
 >   - achieving-operational-excellence-with-ai-2026-07-17.md
 > **Links:**
 - [[textures]]
-- [[google ai updates may]]
-- [[google finance updates june]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[expanding managed agents gemini api]]
+- [[google-ai-updates-may]]
+- [[google-finance-updates-june]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[expanding-managed-agents-gemini-api]]
 
 ## Key Findings
 
@@ -51,7 +51,7 @@ n/_/fonts/NeueHaas/nhaasgroteskdsstd-55rg.ttf) format("truetype")}@font-face{fon
 ## Related Articles
 
 - [[textures]]
-- [[google ai updates may]]
-- [[google finance updates june]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[expanding managed agents gemini api]]
+- [[google-ai-updates-may]]
+- [[google-finance-updates-june]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[expanding-managed-agents-gemini-api]]

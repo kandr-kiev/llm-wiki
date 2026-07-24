@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - why-greylock-capped-its-new-fund-at-15b-when-it-says-it-could-have-raised-more-2026-07-17.md
 > **Links:**
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[mercor is in talks for a 20b valuation]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 
 ## Key Findings
 
@@ -66,8 +66,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[mercor is in talks for a 20b valuation]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]

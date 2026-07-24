@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - project-goals-update---april-2026-end-of-2025h2-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Rust 1.96.0]]
-- [[Automating away]]
-- [[Rust 1.97.0]]
-- [[crates io development update]]
+- [[automating-ai-away-2026-07-07]]
+- [[rust-1960]]
+- [[away]]
+- [[rust-1970]]
+- [[crates-io-development-update]]
 
 ## Key Findings
 
@@ -119,8 +119,8 @@ Table of contents
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Rust 1.96.0]]
-- [[Automating away]]
-- [[Rust 1.97.0]]
-- [[crates io development update]]
+- [[automating-ai-away-2026-07-07]]
+- [[rust-1960]]
+- [[away]]
+- [[rust-1970]]
+- [[crates-io-development-update]]

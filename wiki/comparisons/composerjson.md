@@ -22,9 +22,9 @@ tags:
 > **Links:**
 - [[installed.json]]
 - [[package.json]]
-- [[Local LLM Wiki Algorithm]]
-- [[add lesson]]
-- [[database setup]]
+- [[local-llm-wiki-algorithm]]
+- [[add-lesson]]
+- [[database-setup]]
 
 ## Key Findings
 
@@ -85,6 +85,6 @@ See Key Findings for full content.
 
 - [[installed.json]]
 - [[package.json]]
-- [[Local LLM Wiki Algorithm]]
-- [[add lesson]]
-- [[database setup]]
+- [[local-llm-wiki-algorithm]]
+- [[add-lesson]]
+- [[database-setup]]

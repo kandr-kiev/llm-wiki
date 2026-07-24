@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - hyprland-055-announced-the-switch-to-lua-for-its-config-files-2026-07-20.md
 > **Links:**
-- [[kimi k3]]
-- [[python 3150 beta 3]]
-- [[python 3150 beta 4]]
-- [[Release v2026.7.20]]
-- [[Release v2.21.0]]
+- [[kimi-k3]]
+- [[python-3150-beta-3]]
+- [[python-3150-beta-4]]
+- [[release-v2026720]]
+- [[release-v2210]]
 
 ## Key Findings
 
@@ -89,8 +89,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[kimi k3]]
-- [[python 3150 beta 3]]
-- [[python 3150 beta 4]]
-- [[Release v2026.7.20]]
-- [[Release v2.21.0]]
+- [[kimi-k3]]
+- [[python-3150-beta-3]]
+- [[python-3150-beta-4]]
+- [[release-v2026720]]
+- [[release-v2210]]

@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - the-shifting-line-between-css-states-and-javascript-events-2026-07-17.md
 > **Links:**
-- [[pointer events]]
-- [[get ready for the powerful css border shape property]]
-- [[meet likweli new monkey species discovered congo basin]]
-- [[new york governor kathy hochul ai policies]]
-- [[stop prompting llms to do legal math its broken 27e0]]
+- [[pointer-events]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[meet-likweli-new-monkey-species-discovered-congo-basin]]
+- [[new-york-governor-kathy-hochul-ai-policies]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
 
 ## Key Findings
 
@@ -109,8 +109,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[pointer events]]
-- [[get ready for the powerful css border shape property]]
-- [[meet likweli new monkey species discovered congo basin]]
-- [[new york governor kathy hochul ai policies]]
-- [[stop prompting llms to do legal math its broken 27e0]]
+- [[pointer-events]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[meet-likweli-new-monkey-species-discovered-congo-basin]]
+- [[new-york-governor-kathy-hochul-ai-policies]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]

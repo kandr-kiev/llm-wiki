@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - google-is-renaming-notebooklm-to-gemini-notebook-2026-07-17.md
 > **Links:**
-- [[ai police cops]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[1password anthropic claude browser integration]]
-- [[building the foundation for an autonomous enterprise]]
-- [[claude science is anthropics newest flagship product]]
+- [[ai-police-cops]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[1password-anthropic-claude-browser-integration]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
 
 ## Key Findings
 
@@ -97,8 +97,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai police cops]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[1password anthropic claude browser integration]]
-- [[building the foundation for an autonomous enterprise]]
-- [[claude science is anthropics newest flagship product]]
+- [[ai-police-cops]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[1password-anthropic-claude-browser-integration]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[claude-science-is-anthropics-newest-flagship-product]]

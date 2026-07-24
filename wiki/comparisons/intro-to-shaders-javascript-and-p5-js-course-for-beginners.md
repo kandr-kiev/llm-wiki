@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - intro-to-shaders-javascript-and-p5js-course-for-beginners-2026-07-17.md
 > **Links:**
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[Windows PowerShell]]
-- [[ai paper review deep unsupervised learning using nonequilibrium thermodynamics]]
-- [[how to fix common web application security vulnerabilities in node js]]
-- [[The Illustrated Stable Diffusion]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[windows-powershell]]
+- [[ai-paper-review-deep-unsupervised-learning-using-nonequilibrium-thermodynamics]]
+- [[how-to-fix-common-web-application-security-vulnerabilities-in-node-js]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 
 ## Key Findings
 
@@ -186,8 +186,8 @@ Mobile App
 
 ## Related Articles
 
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[Windows PowerShell]]
-- [[ai paper review deep unsupervised learning using nonequilibrium thermodynamics]]
-- [[how to fix common web application security vulnerabilities in node js]]
-- [[The Illustrated Stable Diffusion]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[windows-powershell]]
+- [[ai-paper-review-deep-unsupervised-learning-using-nonequilibrium-thermodynamics]]
+- [[how-to-fix-common-web-application-security-vulnerabilities-in-node-js]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]

@@ -25,7 +25,7 @@ tags:
 - [[airraid.py]]
 - [[digest.py]]
 - [[wiki.py]]
-- [[Weather Digest Automation Refactor Plan]]
+- [[weather-digest-automation-refactor-plan]]
 
 ## Key Findings
 
@@ -124,4 +124,4 @@ See Key Findings for full content.
 - [[airraid.py]]
 - [[digest.py]]
 - [[wiki.py]]
-- [[Weather Digest Automation Refactor Plan]]
+- [[weather-digest-automation-refactor-plan]]

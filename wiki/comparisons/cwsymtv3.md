@@ -28,10 +28,10 @@ tags:
 > **Sources:**
 >   - samsung-health-app-threatens-data-deletion-if-users-opt-out-ai-training-2026-07-13.md
 > **Links:**
-- [[vulgar thatcherism]]
-- [[hidden states]]
+- [[vulgar-thatcherism]]
+- [[hidden-states]]
 - [[item]]
-- [[ai in your feed]]
+- [[ai-in-your-feed]]
 - [[[Jay Alammar](/)]]
 
 ## Key Findings
@@ -93,8 +93,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[vulgar thatcherism]]
-- [[hidden states]]
+- [[vulgar-thatcherism]]
+- [[hidden-states]]
 - [[item]]
-- [[ai in your feed]]
+- [[ai-in-your-feed]]
 - [[[Jay Alammar](/)]]

@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - m-39-experimental-explosion--147-km-ene-of-ponce-inlet-florida-2026-07-17.md
 > **Links:**
-- [[connected apps]]
-- [[gemini omni personal avatars]]
-- [[designing distressed users mental health apps ui]]
-- [[designing uncertainty how ai supercharges probabilistic thinking]]
-- [[how turn brand strategy into visual direction]]
+- [[connected-apps]]
+- [[gemini-omni-personal-avatars]]
+- [[designing-distressed-users-mental-health-apps-ui]]
+- [[designing-uncertainty-how-ai-supercharges-probabilistic-thinking]]
+- [[how-turn-brand-strategy-into-visual-direction]]
 
 ## Key Findings
 
@@ -45,8 +45,8 @@ px rgba(0, 0, 0, .2), 0px 0px 0px 0px rgba(0, 0, 0, .14), 0px 0px 0px 0px rgba(0
 
 ## Related Articles
 
-- [[connected apps]]
-- [[gemini omni personal avatars]]
-- [[designing distressed users mental health apps ui]]
-- [[designing uncertainty how ai supercharges probabilistic thinking]]
-- [[how turn brand strategy into visual direction]]
+- [[connected-apps]]
+- [[gemini-omni-personal-avatars]]
+- [[designing-distressed-users-mental-health-apps-ui]]
+- [[designing-uncertainty-how-ai-supercharges-probabilistic-thinking]]
+- [[how-turn-brand-strategy-into-visual-direction]]

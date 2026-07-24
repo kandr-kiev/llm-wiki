@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - eeg-shows-brain-can-simultaneous-encode-two-speech-streams-2026-07-17.md
 > **Links:**
-- [[fortune david siegel open source ai.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 - [[bisbull120.pdf]]
-- [[speculative growth AI public.pdf]]
-- [[Release v0.25.1]]
-- [[Release 5.0.0]]
+- [[speculative-growth-ai-publicpdf]]
+- [[release-v0251]]
+- [[release-500]]
 
 ## Key Findings
 
@@ -58,8 +58,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[fortune david siegel open source ai.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 - [[bisbull120.pdf]]
-- [[speculative growth AI public.pdf]]
-- [[Release v0.25.1]]
-- [[Release 5.0.0]]
+- [[speculative-growth-ai-publicpdf]]
+- [[release-v0251]]
+- [[release-500]]

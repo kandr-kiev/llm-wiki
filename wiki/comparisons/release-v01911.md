@@ -35,8 +35,8 @@ tags:
 >   - gh-v01911-2026-07-18.md
 > **Links:**
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release python-v0.7.5]]
-- [[Release v0.25.1]]
+- [[release-python-v075]]
+- [[release-v0251]]
 - [[v0.22.1]]
 - [[v3.13.0]]
 
@@ -108,7 +108,7 @@ ttps://github.com/QwenLM/qwen-code/pull/6911)) by @doudouOUC
 ## Related Articles
 
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release python-v0.7.5]]
-- [[Release v0.25.1]]
+- [[release-python-v075]]
+- [[release-v0251]]
 - [[v0.22.1]]
 - [[v3.13.0]]

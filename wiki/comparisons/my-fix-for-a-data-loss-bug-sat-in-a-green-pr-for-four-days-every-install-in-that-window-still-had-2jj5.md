@@ -33,11 +33,11 @@ backlinks:
 > **Sources:**
 >   - my-fix-for-a-data-loss-bug-sat-in-a-green-pr-for-four-days-every-install-in-that-window-still-had-th-2026-07-21.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[its ok to get lucky 1laf]]
-- [[starting my developer journey bh8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[repeating tasks without repeating code 4fak]]
+- [[its-a-post-4hi8]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[starting-my-developer-journey-bh8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[repeating-tasks-without-repeating-code-4fak]]
 
 ## Key Findings
 
@@ -105,11 +105,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[its ok to get lucky 1laf]]
-- [[starting my developer journey bh8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[repeating tasks without repeating code 4fak]]
+- [[its-a-post-4hi8]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[starting-my-developer-journey-bh8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[repeating-tasks-without-repeating-code-4fak]]
 ## Backlinks
 
 ```dataview

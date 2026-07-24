@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - godot-4-hitbox-and-hurtbox-the-easy-way-damage-teams-i-frames-knockback-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[generator internals why they are lazy and what that actually means 1eh1]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[generator-internals-why-they-are-lazy-and-what-that-actually-means-1eh1]]
 
 ## Key Findings
 
@@ -129,8 +129,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[generator internals why they are lazy and what that actually means 1eh1]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[generator-internals-why-they-are-lazy-and-what-that-actually-means-1eh1]]

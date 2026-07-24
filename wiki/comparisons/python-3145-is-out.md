@@ -24,9 +24,9 @@ tags:
 > **Sources:**
 >   - python-3145-is-out-2026-07-17.md
 > **Links:**
-- [[Release 5.0.0]]
+- [[release-500]]
 - [Issue #8330: Dataset Studio and Viewer down](https://github.com[Issue #8140: Add logging support for better observability](https://github.com/pytorch/pytorch/issues/8140)Add logging support for better observability]]
-- [[Release v0.25.1]]
+- [[release-v0251]]
 
 ## Key Findings
 
@@ -81,4 +81,4 @@ For more details on the changes to Python 3.14, see [What’s new in Python 3.14
 ## Python install manager
 The installer we offer for Windows is being replaced by our new install manager, which can be installed from [the Windows Store](https://apps.microsoft.com/detail/9NQ7512CXL7T) or from its [download page](https://www.python.org/downloads/latest/pymanager/). See [our documentation](https://docs.python.org/3/using/windows.html) for more information. The JSON file available for download contains t[Issue #8330: Dataset Studio and Viewer down](https://github.com[Issue #8140: Add logging support for better observability](https://github.com/pytorch/pytorch/issues/8140)se 5.0.0]]
 - [Issue #8330: Dataset Studio and Viewer down](https://github.com[Issue #8140: Add logging support for better observability](https://github.com/pytorch/pytorch/issues/8140)Add logging support for better observability]]
-- [[Release v0.25.1]]
+- [[release-v0251]]

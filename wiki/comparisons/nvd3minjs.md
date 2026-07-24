@@ -24,8 +24,8 @@ tags:
 - [[jquery.min.js]]
 - [[d3.min.js]]
 - [[bootstrap.min.js]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[fortune david siegel open source ai.pdf]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[fortune-david-siegel-open-source-aipdf]]
 
 ## Key Findings
 
@@ -47,5 +47,5 @@ useout({mouseX:d,mouseY:e}),b.renderGuideLine(null),void c.hidden(!0)}c.hidden(!
 - [[jquery.min.js]]
 - [[d3.min.js]]
 - [[bootstrap.min.js]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[fortune david siegel open source ai.pdf]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[fortune-david-siegel-open-source-aipdf]]

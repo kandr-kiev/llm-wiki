@@ -39,10 +39,10 @@ tags:
 > **Sources:**
 >   - gh-v2130-2026-07-14.md
 > **Links:**
-- [[Release v0.25.1]]
-- [[PyTorch 2.13.0 Release]]
-- [[Release v0.23.1]]
-- [[Release v0.8.0]]
+- [[release-v0251]]
+- [[pytorch-2130-release]]
+- [[release-v0231]]
+- [[release-v080]]
 - [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
 
 ## Key Findings
@@ -156,8 +156,8 @@ PyTorch 2.13:
 
 ## Related Articles
 
-- [[Release v0.25.1]]
-- [[PyTorch 2.13.0 Release]]
-- [[Release v0.23.1]]
-- [[Release v0.8.0]]
+- [[release-v0251]]
+- [[pytorch-2130-release]]
+- [[release-v0231]]
+- [[release-v080]]
 - [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]

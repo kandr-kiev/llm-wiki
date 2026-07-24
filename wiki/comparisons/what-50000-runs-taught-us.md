@@ -34,9 +34,9 @@ tags:
 > **Sources:**
 >   - what-50000-runs-of-a-5-line-eval-taught-us-2026-07-17.md
 > **Links:**
-- [[optimizing vscode coding harness model providers]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[optimizing-vscode-coding-harness-model-providers]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 
@@ -156,8 +156,8 @@ To establish a base
 
 ## Related Articles
 
-- [[optimizing vscode coding harness model providers]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[optimizing-vscode-coding-harness-model-providers]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[Mesh LLM: distributed AI computing on iroh]]

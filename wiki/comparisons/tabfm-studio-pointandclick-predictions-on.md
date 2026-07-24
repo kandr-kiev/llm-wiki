@@ -26,9 +26,9 @@ tags:
 > **Links:**
 - [[arXiv:2607.06757]]
 - [[arXiv:2607.11977]]
-- [[kimi k3]]
-- [[sequoia ascent]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 
 ## Key Findings
 
@@ -74,6 +74,6 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 - [[arXiv:2607.06757]]
 - [[arXiv:2607.11977]]
-- [[kimi k3]]
-- [[sequoia ascent]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]

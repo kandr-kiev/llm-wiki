@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - the-data-canary-how-netflix-validates-catalog-metadata-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[people dont want more ai]]
-- [[building the foundation for an autonomous enterprise]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[people-dont-want-more-ai]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
 
 ## Key Findings
 
@@ -48,8 +48,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[people dont want more ai]]
-- [[building the foundation for an autonomous enterprise]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[people-dont-want-more-ai]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]

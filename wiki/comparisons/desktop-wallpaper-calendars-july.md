@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - snapshots-of-summer-july-2026-wallpapers-edition-2026-07-17.md
 > **Links:**
-- [[people dont want more ai]]
-- [[kirki wordpress visual builder infinite canvas]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[matching ai modality user intent designing right interface]]
+- [[people-dont-want-more-ai]]
+- [[kirki-wordpress-visual-builder-infinite-canvas]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[matching-ai-modality-user-intent-designing-right-interface]]
 
 ## Key Findings
 
@@ -44,8 +44,8 @@ age2 .nav-item,.wf-loaded-stage2 .search .search-input,.wf-loaded-stage2 .subnav
 
 ## Related Articles
 
-- [[people dont want more ai]]
-- [[kirki wordpress visual builder infinite canvas]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[matching ai modality user intent designing right interface]]
+- [[people-dont-want-more-ai]]
+- [[kirki-wordpress-visual-builder-infinite-canvas]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[matching-ai-modality-user-intent-designing-right-interface]]

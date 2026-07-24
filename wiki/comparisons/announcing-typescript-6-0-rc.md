@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - announcing-typescript-60-rc-2026-07-17.md
 > **Links:**
-- [[announcing typescript 6 0]]
-- [[announcing typescript 5 9]]
-- [[announcing typescript 5 9 beta]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing dotnet modernization for beginners]]
+- [[announcing-typescript-6-0]]
+- [[announcing-typescript-5-9]]
+- [[announcing-typescript-5-9-beta]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-dotnet-modernization-for-beginners]]
 
 ## Key Findings
 
@@ -86,8 +86,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[announcing typescript 6 0]]
-- [[announcing typescript 5 9]]
-- [[announcing typescript 5 9 beta]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing dotnet modernization for beginners]]
+- [[announcing-typescript-6-0]]
+- [[announcing-typescript-5-9]]
+- [[announcing-typescript-5-9-beta]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-dotnet-modernization-for-beginners]]

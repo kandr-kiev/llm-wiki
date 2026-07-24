@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - cleaning-up-repository-bloat-removing-redundant-requirementstxt-2026-07-18.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
 
 ## Key Findings
 
@@ -126,8 +126,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]

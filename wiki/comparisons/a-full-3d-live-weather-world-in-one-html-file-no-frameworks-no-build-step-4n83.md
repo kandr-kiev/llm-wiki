@@ -28,10 +28,10 @@ tags:
 >   - a-full-3d-live-weather-world-in-one-html-file---no-frameworks-no-build-step-2026-07-17.md
 > **Links:**
 - [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
-- [[Remaking Old Computer Graphics With Ai Image Generation 2026 07 07]]
+- [[remaking-old-computer-graphics-with-ai-image-generation-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[5 Agent Skills I Use Every Day]]
-- [[sequoia ascent]]
+- [[5-agent-skills-i-use-every-day]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -119,7 +119,7 @@ The Source Code: [https://github.com/bruvic62/weather-dio
 ## Summary
 
 See Key Findi[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]
-- [[Remaking Old Computer Graphics With Ai Image Generation 2026 07 07]]
+- [[remaking-old-computer-graphics-with-ai-image-generation-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[5 Agent Skills I Use Every Day]]
-- [[sequoia ascent]]
+- [[5-agent-skills-i-use-every-day]]
+- [[sequoia-ascent]]

@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - use-your-own-language-model-key-in-vs-code-2026-07-17.md
 > **Links:**
-- [[iterating faster with ts 7]]
-- [[optimizing vscode coding harness model providers]]
-- [[Automating Ai Away]]
+- [[iterating-faster-with-ts-7]]
+- [[optimizing-vscode-coding-harness-model-providers]]
+- [[automating-ai-away-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating away]]
+- [[away]]
 
 ## Key Findings
 
@@ -178,8 +178,8 @@ There are a few important details to keep in mind:
 
 ## Related Articles
 
-- [[iterating faster with ts 7]]
-- [[optimizing vscode coding harness model providers]]
-- [[Automating Ai Away]]
+- [[iterating-faster-with-ts-7]]
+- [[optimizing-vscode-coding-harness-model-providers]]
+- [[automating-ai-away-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating away]]
+- [[away]]

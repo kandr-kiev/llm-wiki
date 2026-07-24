@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - keep-your-ai-agent-traces-on-your-machine-a-local-first-approach-2026-07-17.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
-- [[hackthebox void whispers writeup bh5]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
+- [[hackthebox-void-whispers-writeup-bh5]]
 
 ## Key Findings
 
@@ -184,8 +184,8 @@ Full-fidelity capture should require a deliberate configuration change, produce 
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
-- [[hackthebox void whispers writeup bh5]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
+- [[hackthebox-void-whispers-writeup-bh5]]

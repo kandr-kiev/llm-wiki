@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
 
 ## Key Findings
 
@@ -53,8 +53,8 @@ _/fonts/NeueHaas/nhaasgroteskdsstd-55rg.woff) format("woff"),url(/cdn/_/fonts/Ne
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]

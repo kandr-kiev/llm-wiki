@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - skiasharp-40-is-here-announcing-the-first-stable-release-2026-07-17.md
 > **Links:**
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing typescript 7 0]]
-- [[msbuild binlog mcp server]]
-- [[modernize dotnet in github copilot app]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[msbuild-binlog-mcp-server]]
+- [[modernize-dotnet-in-github-copilot-app]]
 
 ## Key Findings
 
@@ -84,8 +84,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing typescript 7 0]]
-- [[msbuild binlog mcp server]]
-- [[modernize dotnet in github copilot app]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[msbuild-binlog-mcp-server]]
+- [[modernize-dotnet-in-github-copilot-app]]

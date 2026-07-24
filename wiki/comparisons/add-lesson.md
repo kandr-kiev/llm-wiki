@@ -20,11 +20,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-proagentworkflowsadd-lessonmd-2026-07-20.md
 > **Links:**
-- [[Local LLM Wiki — Повна архітектурна документація]]
-- [[grok build ios]]
-- [[Local LLM Wiki Algorithm]]
-- [[Аудит крон-завдань LLM Wiki — Детальний звіт]]
-- [[Agent Skills Patterns]]
+- [[local-llm-wiki-повна-архітектурна-документація]]
+- [[grok-build-ios]]
+- [[local-llm-wiki-algorithm]]
+- [[аудит-крон-завдань-llm-wiki-детальний-звіт]]
+- [[agent-skills-patterns]]
 
 ## Key Findings
 
@@ -64,8 +64,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Local LLM Wiki — Повна архітектурна документація]]
-- [[grok build ios]]
-- [[Local LLM Wiki Algorithm]]
-- [[Аудит крон-завдань LLM Wiki — Детальний звіт]]
-- [[Agent Skills Patterns]]
+- [[local-llm-wiki-повна-архітектурна-документація]]
+- [[grok-build-ios]]
+- [[local-llm-wiki-algorithm]]
+- [[аудит-крон-завдань-llm-wiki-детальний-звіт]]
+- [[agent-skills-patterns]]

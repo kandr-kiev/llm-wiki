@@ -47,10 +47,10 @@ tags:
 > **Sources:**
 >   - gh-v0150-beta-2026-07-20.md
 > **Links:**
-- [[Release v0.1.481-beta]]
-- [[Release v0.1.49-beta]]
-- [[Release 5.0.0]]
-- [[Release v0.25.1]]
+- [[release-v01481-beta]]
+- [[release-v0149-beta]]
+- [[release-500]]
+- [[release-v0251]]
 - [[Release Notes: Ollama vv0.31.2]]
 
 ## Key Findings
@@ -132,8 +132,8 @@ irm https://unsloth.ai/install.ps1 | iex
 
 ## Related Articles
 
-- [[Release v0.1.481-beta]]
-- [[Release v0.1.49-beta]]
-- [[Release 5.0.0]]
-- [[Release v0.25.1]]
+- [[release-v01481-beta]]
+- [[release-v0149-beta]]
+- [[release-500]]
+- [[release-v0251]]
 - [[Release Notes: Ollama vv0.31.2]]

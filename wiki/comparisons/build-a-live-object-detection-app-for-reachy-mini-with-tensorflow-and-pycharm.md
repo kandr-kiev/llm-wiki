@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - build-a-live-object-detection-app-for-the-reachy-mini-with-tensorflow-and-pycharm-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[best python ai frameworks]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
-- [[best object detection models for machine learning]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[best-python-ai-frameworks]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
+- [[best-object-detection-models-for-machine-learning]]
 
 ## Key Findings
 
@@ -187,8 +187,8 @@ color: #888;
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[best python ai frameworks]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
-- [[best object detection models for machine learning]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[best-python-ai-frameworks]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
+- [[best-object-detection-models-for-machine-learning]]

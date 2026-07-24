@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - end-the-job-search-start-with-research-2026-07-17.md
 > **Links:**
-- [[academic conference survival guide]]
-- [[coming soon]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[academic-conference-survival-guide]]
+- [[coming-soon]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -96,8 +96,8 @@ Despite even the best intentions to end early, research wil
 
 ## Related Articles
 
-- [[academic conference survival guide]]
-- [[coming soon]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[academic-conference-survival-guide]]
+- [[coming-soon]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]

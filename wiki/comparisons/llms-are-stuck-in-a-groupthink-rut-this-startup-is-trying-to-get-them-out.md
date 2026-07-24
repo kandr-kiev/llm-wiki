@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - llms-are-stuck-in-a-groupthink-groove-this-startup-is-trying-to-get-them-out-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
 
 ## Key Findings
 
@@ -54,8 +54,8 @@ dn/_/fonts/NeueHaas/nhaasgroteskdsstd-55rg.woff) format("woff"),url(/cdn/_/fonts
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]

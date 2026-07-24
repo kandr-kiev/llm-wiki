@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - tiktok-is-testing-an-ai-likeness-detection-tool-2026-07-17.md
 > **Links:**
-- [[apple openai lawsuit vergecast]]
-- [[google gemini notebook notebooklm]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[xai grok user lawsuit csam]]
-- [[openai hardware codex micro launch]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[google-gemini-notebook-notebooklm]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[xai-grok-user-lawsuit-csam]]
+- [[openai-hardware-codex-micro-launch]]
 
 ## Key Findings
 
@@ -92,8 +92,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple openai lawsuit vergecast]]
-- [[google gemini notebook notebooklm]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[xai grok user lawsuit csam]]
-- [[openai hardware codex micro launch]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[google-gemini-notebook-notebooklm]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[xai-grok-user-lawsuit-csam]]
+- [[openai-hardware-codex-micro-launch]]

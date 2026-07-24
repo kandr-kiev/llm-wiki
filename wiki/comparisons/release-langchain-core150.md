@@ -20,10 +20,10 @@ tags:
 > **Sources:**
 >   - gh-langchain-core150-2026-07-21.md
 > **Links:**
-- [[Release langchain-core==1.4.9]]
+- [[release-langchain-core149]]
 - [[langchain-core==1.4.9]]
 - [[langchain-fireworks==1.4.4]]
-- [[Release 0.3.5]]
+- [[release-035]]
 - [[langchain-openai==1.3.4]]
 
 ## Key Findings
@@ -47,8 +47,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release langchain-core==1.4.9]]
+- [[release-langchain-core149]]
 - [[langchain-core==1.4.9]]
 - [[langchain-fireworks==1.4.4]]
-- [[Release 0.3.5]]
+- [[release-035]]
 - [[langchain-openai==1.3.4]]

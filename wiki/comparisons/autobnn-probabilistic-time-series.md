@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - autobnn-probabilistic-time-series-forecasting-with-compositional-bayesian-neural-networks-2026-07-17.md
 > **Links:**
-- [[gnn intro]]
-- [[post quantum eo]]
-- [[Release v0.1.481-beta]]
-- [[sequoia ascent]]
-- [[agentic internet bot report]]
+- [[gnn-intro]]
+- [[post-quantum-eo]]
+- [[release-v01481-beta]]
+- [[sequoia-ascent]]
+- [[agentic-internet-bot-report]]
 
 ## Key Findings
 
@@ -198,8 +198,8 @@ Applied AI & sciences
 
 ## Related Articles
 
-- [[gnn intro]]
-- [[post quantum eo]]
-- [[Release v0.1.481-beta]]
-- [[sequoia ascent]]
-- [[agentic internet bot report]]
+- [[gnn-intro]]
+- [[post-quantum-eo]]
+- [[release-v01481-beta]]
+- [[sequoia-ascent]]
+- [[agentic-internet-bot-report]]

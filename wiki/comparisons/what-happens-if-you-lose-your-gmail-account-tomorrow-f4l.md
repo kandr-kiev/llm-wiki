@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - what-happens-if-you-lose-your-gmail-account-tomorrow-2026-07-23.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
 
 ## Key Findings
 
@@ -143,8 +143,8 @@ SPF, DKIM, DMARC — the DNS alphabet soup that tells the world your mail is leg
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]

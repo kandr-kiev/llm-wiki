@@ -42,9 +42,9 @@ tags:
 >   - manufact-yc-s25-is-hiring-a-senior-infra-engineer-to-build-the-mcp-cloud-2026-07-17.md
 > **Links:**
 - [[20769574401]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
-- [[i owe my life to the commodore 64]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
+- [[i-owe-my-life-to-the-commodore-64]]
 - [[item]]
 
 ## Key Findings
@@ -353,7 +353,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[20769574401]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
-- [[i owe my life to the commodore 64]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
+- [[i-owe-my-life-to-the-commodore-64]]
 - [[item]]

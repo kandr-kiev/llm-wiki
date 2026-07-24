@@ -23,9 +23,9 @@ tags:
 >   - gh-huggingfacedatasets-issue-8331-2026-07-14.md
 > **Links:**
 - [Issue #8330: Dataset Studio and Viewer down]
-- [[Release 5.0.0]]
+- [[release-500]]
 - [Issue #2848: Implement multi-domain intake architecture and related specs]
-- [[workers cache]]
+- [[workers-cache]]
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 
 ## Key Findings
@@ -95,7 +95,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [Issue #8330: Dataset Studio and Viewer down]
-- [[Release 5.0.0]]
+- [[release-500]]
 - [Issue #2848: Implement multi-domain intake architecture and related specs]
-- [[workers cache]]
+- [[workers-cache]]
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]

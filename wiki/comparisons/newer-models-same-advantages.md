@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - newer-models-same-advantage-2026-07-17.md
 > **Links:**
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[real world voiceeq]]
-- [[native speed vllm transformers backend]]
-- [[ai in your feed]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[real-world-voiceeq]]
+- [[native-speed-vllm-transformers-backend]]
+- [[ai-in-your-feed]]
 
 ## Key Findings
 
@@ -94,8 +94,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[real world voiceeq]]
-- [[native speed vllm transformers backend]]
-- [[ai in your feed]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[real-world-voiceeq]]
+- [[native-speed-vllm-transformers-backend]]
+- [[ai-in-your-feed]]

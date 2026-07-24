@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - can-an-apple-lawsuit-derail-openais-hardware-plans-2026-07-20.md
 > **Links:**
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[neil rimer thinks the ai money is coming back out]]
-- [[dv safe phone australia]]
-- [[get ready for the powerful css border shape property]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[dv-safe-phone-australia]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[neil rimer thinks the ai money is coming back out]]
-- [[dv safe phone australia]]
-- [[get ready for the powerful css border shape property]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[dv-safe-phone-australia]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]

@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - create-edit-and-star-in-videos-with-two-google-vids-updates-2026-07-16.md
 > **Links:**
-- [[connected apps]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[connected-apps]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
 
 ## Key Findings
 
@@ -50,8 +50,8 @@ Google Vids gets powerful upgrades with Gemini Omni
 
 ## Related Articles
 
-- [[connected apps]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[connected-apps]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]

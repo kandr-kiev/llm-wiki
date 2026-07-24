@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - users-dont-need-more-tools-they-need-seamless-integrations-2026-07-17.md
 > **Links:**
-- [[impact humanoid robots humanity]]
-- [[people dont want more ai]]
-- [[desktop wallpaper calendars july]]
-- [[kirki wordpress visual builder infinite canvas]]
-- [[matching ai modality user intent designing right interface]]
+- [[impact-humanoid-robots-humanity]]
+- [[people-dont-want-more-ai]]
+- [[desktop-wallpaper-calendars-july]]
+- [[kirki-wordpress-visual-builder-infinite-canvas]]
+- [[matching-ai-modality-user-intent-designing-right-interface]]
 
 ## Key Findings
 
@@ -44,8 +44,8 @@ h-results h2,.wf-loaded-stage2 .nav-item,.wf-loaded-stage2 .search .search-input
 
 ## Related Articles
 
-- [[impact humanoid robots humanity]]
-- [[people dont want more ai]]
-- [[desktop wallpaper calendars july]]
-- [[kirki wordpress visual builder infinite canvas]]
-- [[matching ai modality user intent designing right interface]]
+- [[impact-humanoid-robots-humanity]]
+- [[people-dont-want-more-ai]]
+- [[desktop-wallpaper-calendars-july]]
+- [[kirki-wordpress-visual-builder-infinite-canvas]]
+- [[matching-ai-modality-user-intent-designing-right-interface]]

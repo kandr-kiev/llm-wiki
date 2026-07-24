@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - from-manufacturing-to-microservices-universal-lessons-about-reliability-2026-07-20.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[the great software regress how move fast and break things broke our lives]]
-- [[open source monopoly]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
+- [[open-source-monopoly]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -91,8 +91,8 @@ Blameless postmortems encourage engineers to report problems early because they 
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[the great software regress how move fast and break things broke our lives]]
-- [[open source monopoly]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
+- [[open-source-monopoly]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]

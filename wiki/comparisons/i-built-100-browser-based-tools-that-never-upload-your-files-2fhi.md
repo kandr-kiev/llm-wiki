@@ -33,11 +33,11 @@ backlinks:
 > **Sources:**
 >   - i-built-100-browser-based-tools-that-never-upload-your-files-2026-07-21.md
 > **Links:**
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[build a basic ai agent from scratch security ii 2m2c]]
-- [[class vs object who is the big boss 32nj]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[build-a-basic-ai-agent-from-scratch-security-ii-2m2c]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
 
 ## Key Findings
 
@@ -131,11 +131,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[build a basic ai agent from scratch security ii 2m2c]]
-- [[class vs object who is the big boss 32nj]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[build-a-basic-ai-agent-from-scratch-security-ii-2m2c]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
 ## Backlinks
 
 ```dataview

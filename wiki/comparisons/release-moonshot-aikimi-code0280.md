@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - gh-moonshot-aikimi-code0280-2026-07-20.md
 > **Links:**
-- [[Release @moonshot-ai/kimi-code@0.27.0]]
-- [[Release v0.86.0]]
-- [[kimi k3]]
+- [[release-moonshot-aikimi-code0270]]
+- [[release-v0860]]
+- [[kimi-k3]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.1.49-beta]]
+- [[release-v0149-beta]]
 
 ## Key Findings
 
@@ -57,8 +57,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release @moonshot-ai/kimi-code@0.27.0]]
-- [[Release v0.86.0]]
-- [[kimi k3]]
+- [[release-moonshot-aikimi-code0270]]
+- [[release-v0860]]
+- [[kimi-k3]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.1.49-beta]]
+- [[release-v0149-beta]]

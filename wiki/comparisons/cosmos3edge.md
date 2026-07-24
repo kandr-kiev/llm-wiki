@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - introducing-cosmos-3-edge-2026-07-20.md
 > **Links:**
-- [[newer models same advantages]]
-- [[one click to sagemaker studio]]
-- [[thinkingmachines inkling]]
-- [[torch attention profile]]
-- [[model routing is simple until it isnt]]
+- [[newer-models-same-advantages]]
+- [[one-click-to-sagemaker-studio]]
+- [[thinkingmachines-inkling]]
+- [[torch-attention-profile]]
+- [[model-routing-is-simple-until-it-isnt]]
 
 ## Key Findings
 
@@ -94,8 +94,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[newer models same advantages]]
-- [[one click to sagemaker studio]]
-- [[thinkingmachines inkling]]
-- [[torch attention profile]]
-- [[model routing is simple until it isnt]]
+- [[newer-models-same-advantages]]
+- [[one-click-to-sagemaker-studio]]
+- [[thinkingmachines-inkling]]
+- [[torch-attention-profile]]
+- [[model-routing-is-simple-until-it-isnt]]

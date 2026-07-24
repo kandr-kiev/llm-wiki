@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - laravel-legacy-bridge-carry-authenticated-sessions-from-a-legacy-app-into-laravel-2026-07-17.md
 > **Links:**
-- [[enforce per action waiting periods in laravel with cooldown]]
+- [[enforce-per-action-waiting-periods-in-laravel-with-cooldown]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[workers cache]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[workers-cache]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 
 ## Key Findings
 
@@ -91,8 +91,8 @@ The source code and a full use
 
 ## Related Articles
 
-- [[enforce per action waiting periods in laravel with cooldown]]
+- [[enforce-per-action-waiting-periods-in-laravel-with-cooldown]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[workers cache]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[workers-cache]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]

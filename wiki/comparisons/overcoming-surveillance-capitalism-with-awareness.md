@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - the-power-of-awareness-overcoming-surveillance-capitalism-2026-07-20.md
 > **Links:**
-- [[i started a dirt notebook]]
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[i-started-a-dirt-notebook]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[open source monopoly]]
+- [[open-source-monopoly]]
 
 ## Key Findings
 
@@ -169,11 +169,11 @@ The author of the letter was thrown out of the meeting for expressing hostility 
 
 ## Related Articles
 
-- [[i started a dirt notebook]]
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[i-started-a-dirt-notebook]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[open source monopoly]]
+- [[open-source-monopoly]]
 ## Backlinks
 
 ```dataview

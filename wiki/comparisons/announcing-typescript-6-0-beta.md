@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - announcing-typescript-60-beta-2026-07-17.md
 > **Links:**
-- [[msbuild binlog mcp server]]
-- [[announcing dotnet modernization for beginners]]
-- [[announcing typescript 6 0]]
-- [[announcing typescript 5 9 beta]]
-- [[announcing typescript 5 9]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[announcing-typescript-6-0]]
+- [[announcing-typescript-5-9-beta]]
+- [[announcing-typescript-5-9]]
 
 ## Key Findings
 
@@ -81,8 +81,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[msbuild binlog mcp server]]
-- [[announcing dotnet modernization for beginners]]
-- [[announcing typescript 6 0]]
-- [[announcing typescript 5 9 beta]]
-- [[announcing typescript 5 9]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[announcing-typescript-6-0]]
+- [[announcing-typescript-5-9-beta]]
+- [[announcing-typescript-5-9]]

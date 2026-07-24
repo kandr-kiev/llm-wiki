@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - 100-million-for-open-source-a-milestone-built-by-the-community-2026-07-20.md
 > **Links:**
-- [[how github used secret scanning to reach inbox zero]]
-- [[the cost of saying yes has changed]]
-- [[github for beginners your roadmap to mastering the github essentials]]
-- [[claude code forgets everything between sessions i built a fix 59n5]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[how-github-used-secret-scanning-to-reach-inbox-zero]]
+- [[the-cost-of-saying-yes-has-changed]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
+- [[claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -84,8 +84,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[how github used secret scanning to reach inbox zero]]
-- [[the cost of saying yes has changed]]
-- [[github for beginners your roadmap to mastering the github essentials]]
-- [[claude code forgets everything between sessions i built a fix 59n5]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[how-github-used-secret-scanning-to-reach-inbox-zero]]
+- [[the-cost-of-saying-yes-has-changed]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
+- [[claude-code-forgets-everything-between-sessions-i-built-a-fix-59n5]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

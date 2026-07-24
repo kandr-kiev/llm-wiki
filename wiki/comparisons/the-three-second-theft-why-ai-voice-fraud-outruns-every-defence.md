@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - the-three-second-theft-why-ai-voice-fraud-outruns-every-defence-2026-07-15.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating Ai Away]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[away]]
 
 ## Key Findings
 
@@ -57,8 +57,8 @@ What makes the threat acute is not merely that the cloning works but that the to
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating Ai Away]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[away]]

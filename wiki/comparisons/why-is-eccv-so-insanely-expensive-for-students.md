@@ -23,10 +23,10 @@ tags:
 >   - why-is-eccv-so-insanely-expensive-for-students-presenting-papers-d-2026-07-17.md
 > **Links:**
 - [[ai]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[the qlora 2e4 default is wrong under 10k samples]]
-- [[sequoia ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[the-qlora-2e4-default-is-wrong-under-10k-samples]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -72,7 +72,7 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 ## Related Articles
 
 - [[ai]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[the qlora 2e4 default is wrong under 10k samples]]
-- [[sequoia ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[the-qlora-2e4-default-is-wrong-under-10k-samples]]
+- [[sequoia-ascent]]

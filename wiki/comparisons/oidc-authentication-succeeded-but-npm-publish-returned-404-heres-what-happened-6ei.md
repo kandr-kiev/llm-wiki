@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - oidc-authentication-succeeded-but-npm-publish-returned-404---heres-what-happened-2026-07-21.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[class vs object who is the big boss 32nj]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
 
 ## Key Findings
 
@@ -125,8 +125,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[class vs object who is the big boss 32nj]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]

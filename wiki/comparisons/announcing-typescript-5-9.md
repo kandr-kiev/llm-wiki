@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - announcing-typescript-59-2026-07-17.md
 > **Links:**
-- [[announcing dotnet modernization for beginners]]
-- [[msbuild binlog mcp server]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[gpt 5 6 preferred model microsoft 365 copilot]]
-- [[unlocking self improvement gpt red]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[msbuild-binlog-mcp-server]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[gpt-5-6-preferred-model-microsoft-365-copilot]]
+- [[unlocking-self-improvement-gpt-red]]
 
 ## Key Findings
 
@@ -89,8 +89,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[announcing dotnet modernization for beginners]]
-- [[msbuild binlog mcp server]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[gpt 5 6 preferred model microsoft 365 copilot]]
-- [[unlocking self improvement gpt red]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[msbuild-binlog-mcp-server]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[gpt-5-6-preferred-model-microsoft-365-copilot]]
+- [[unlocking-self-improvement-gpt-red]]

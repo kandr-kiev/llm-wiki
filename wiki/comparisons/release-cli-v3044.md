@@ -17,11 +17,11 @@ tags:
 > **Sources:**
 >   - gh-cli-v3044-2026-07-17.md
 > **Links:**
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.25.1]]
-- [[Release v0.32.0]]
-- [[Patch release v5.10.4]]
+- [[release-v0251]]
+- [[release-v0320]]
+- [[patch-release-v5104]]
 
 ## Key Findings
 
@@ -42,8 +42,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.25.1]]
-- [[Release v0.32.0]]
-- [[Patch release v5.10.4]]
+- [[release-v0251]]
+- [[release-v0320]]
+- [[patch-release-v5104]]

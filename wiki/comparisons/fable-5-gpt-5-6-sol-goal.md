@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - fable-5-vs-gpt-56-sol-on-an-np-hard-problem-does-goal-help-2026-07-18.md
 > **Links:**
-- [[ai music video arena claude vs gpt 5.6]]
-- [[kimi k3]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[sequoia ascent]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[kimi-k3]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -125,8 +125,8 @@ Claude Code implements `/goal` as a session-scop
 
 ## Related Articles
 
-- [[ai music video arena claude vs gpt 5.6]]
-- [[kimi k3]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[sequoia ascent]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[kimi-k3]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[sequoia-ascent]]

@@ -29,11 +29,11 @@ backlinks:
 > **Sources:**
 >   - anthropics-15-billion-book-piracy-settlement-approved-by-judge-2026-07-21.md
 > **Links:**
-- [[spacex in your index fund explained]]
-- [[apple openai lawsuit vergecast]]
-- [[1010benja semiramis dream suno ai music]]
-- [[adobe indigo camera app ai playground update]]
-- [[tiktok ai likeness detection tool]]
+- [[spacex-in-your-index-fund-explained]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[tiktok-ai-likeness-detection-tool]]
 
 ## Key Findings
 
@@ -99,11 +99,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[spacex in your index fund explained]]
-- [[apple openai lawsuit vergecast]]
-- [[1010benja semiramis dream suno ai music]]
-- [[adobe indigo camera app ai playground update]]
-- [[tiktok ai likeness detection tool]]
+- [[spacex-in-your-index-fund-explained]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[tiktok-ai-likeness-detection-tool]]
 ## Backlinks
 
 ```dataview

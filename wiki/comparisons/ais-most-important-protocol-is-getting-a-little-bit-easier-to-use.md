@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - ais-most-important-protocol-is-getting-a-little-bit-easier-to-use-2026-07-20.md
 > **Links:**
-- [[charles hudson shares the common mistakes hes seen after investing in 500 startups]]
-- [[applications close in 48 hours heres everything australian founders need to know about stripe x startup battlefield]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[ai biases hiring humans]]
-- [[how apples big lawsuit could disrupt openais ipo plans]]
+- [[charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups]]
+- [[applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[ai-biases-hiring-humans]]
+- [[how-apples-big-lawsuit-could-disrupt-openais-ipo-plans]]
 
 ## Key Findings
 
@@ -73,8 +73,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[charles hudson shares the common mistakes hes seen after investing in 500 startups]]
-- [[applications close in 48 hours heres everything australian founders need to know about stripe x startup battlefield]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[ai biases hiring humans]]
-- [[how apples big lawsuit could disrupt openais ipo plans]]
+- [[charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups]]
+- [[applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[ai-biases-hiring-humans]]
+- [[how-apples-big-lawsuit-could-disrupt-openais-ipo-plans]]

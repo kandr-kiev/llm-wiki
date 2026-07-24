@@ -26,11 +26,11 @@ backlinks:
 > **Sources:**
 >   - number-of-submissions--aaai-d-2026-07-21.md
 > **Links:**
-- [[my ocr model mislabels section titles as body]]
-- [[i just read lecuns recent thoughts on world]]
-- [[sequoia ascent]]
-- [[neurips 2026 reviews exact timingd]]
-- [[trinet v2 opensource implementation of our]]
+- [[my-ocr-model-mislabels-section-titles-as-body]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[sequoia-ascent]]
+- [[neurips-2026-reviews-exact-timingd]]
+- [[trinet-v2-opensource-implementation-of-our]]
 
 ## Key Findings
 
@@ -77,11 +77,11 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[my ocr model mislabels section titles as body]]
-- [[i just read lecuns recent thoughts on world]]
-- [[sequoia ascent]]
-- [[neurips 2026 reviews exact timingd]]
-- [[trinet v2 opensource implementation of our]]
+- [[my-ocr-model-mislabels-section-titles-as-body]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[sequoia-ascent]]
+- [[neurips-2026-reviews-exact-timingd]]
+- [[trinet-v2-opensource-implementation-of-our]]
 ## Backlinks
 
 ```dataview

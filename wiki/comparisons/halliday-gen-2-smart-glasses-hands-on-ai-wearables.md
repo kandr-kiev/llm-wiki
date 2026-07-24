@@ -34,11 +34,11 @@ backlinks:
 > **Sources:**
 >   - hallidays-latest-smart-glasses-feature-a-much-improved-display-2026-07-21.md
 > **Links:**
-- [[spacex in your index fund explained]]
-- [[apple openai lawsuit vergecast]]
-- [[adobe indigo camera app ai playground update]]
-- [[tiktok ai likeness detection tool]]
-- [[1010benja semiramis dream suno ai music]]
+- [[spacex-in-your-index-fund-explained]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
 
 ## Key Findings
 
@@ -85,11 +85,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[spacex in your index fund explained]]
-- [[apple openai lawsuit vergecast]]
-- [[adobe indigo camera app ai playground update]]
-- [[tiktok ai likeness detection tool]]
-- [[1010benja semiramis dream suno ai music]]
+- [[spacex-in-your-index-fund-explained]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
 ## Backlinks
 
 ```dataview

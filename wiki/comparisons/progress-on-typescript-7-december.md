@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - progress-on-typescript-7--december-2025-2026-07-17.md
 > **Links:**
-- [[dotnet 8 9 end of support]]
-- [[announcing typescript 7 0]]
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 6 0 beta]]
-- [[msbuild binlog mcp server]]
+- [[dotnet-8-9-end-of-support]]
+- [[announcing-typescript-7-0]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-6-0-beta]]
+- [[msbuild-binlog-mcp-server]]
 
 ## Key Findings
 
@@ -82,8 +82,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[dotnet 8 9 end of support]]
-- [[announcing typescript 7 0]]
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 6 0 beta]]
-- [[msbuild binlog mcp server]]
+- [[dotnet-8-9-end-of-support]]
+- [[announcing-typescript-7-0]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-6-0-beta]]
+- [[msbuild-binlog-mcp-server]]

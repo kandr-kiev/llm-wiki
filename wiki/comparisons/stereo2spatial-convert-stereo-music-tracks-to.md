@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - stereo2spatial-convert-stereo-music-tracks-to-spatialized-binaural-mixes-p-2026-07-18.md
 > **Links:**
-- [[sequoia ascent]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[kimi k3]]
-- [[5 Agent Skills I Use Every Day]]
+- [[sequoia-ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[kimi-k3]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -71,8 +71,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[sequoia ascent]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[kimi k3]]
-- [[5 Agent Skills I Use Every Day]]
+- [[sequoia-ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[kimi-k3]]
+- [[5-agent-skills-i-use-every-day]]

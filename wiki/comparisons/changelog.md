@@ -20,10 +20,10 @@ tags:
 >   - local-ai-education-provendorphar-iomanifestchangelogmd-2026-07-20.md
 > **Links:**
 - [[installed.json]]
-- [[REST API]]
+- [[cloudflare-workers-ai-rest-api-2026]]
 - [[v0.27.0]]
-- [[get ready for the powerful css border shape property]]
-- [[open sourcing the lsp client api in intellij idea 2026 2]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[open-sourcing-the-lsp-client-api-in-intellij-idea-2026-2]]
 
 ## Key Findings
 
@@ -70,7 +70,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[installed.json]]
-- [[REST API]]
+- [[cloudflare-workers-ai-rest-api-2026]]
 - [[v0.27.0]]
-- [[get ready for the powerful css border shape property]]
-- [[open sourcing the lsp client api in intellij idea 2026 2]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[open-sourcing-the-lsp-client-api-in-intellij-idea-2026-2]]

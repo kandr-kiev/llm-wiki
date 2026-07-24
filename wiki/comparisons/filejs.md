@@ -22,9 +22,9 @@ tags:
 > **Links:**
 - [[bootstrap.min.js]]
 - [[d3.min.js]]
-- [[Security Policy]]
+- [[security-policy]]
 - [[app.js]]
-- [[Changelog]]
+- [[changelog]]
 
 ## Key Findings
 
@@ -97,6 +97,6 @@ See Key Findings for full content.
 
 - [[bootstrap.min.js]]
 - [[d3.min.js]]
-- [[Security Policy]]
+- [[security-policy]]
 - [[app.js]]
-- [[Changelog]]
+- [[changelog]]

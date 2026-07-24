@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b-2026-07-17.md
 > **Links:**
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
-- [[david beckhams health drink startup im8 takes 1b from general catalysts unusual cvf fund]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
+- [[david-beckhams-health-drink-startup-im8-takes-1b-from-general-catalysts-unusual-cvf-fund]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
-- [[david beckhams health drink startup im8 takes 1b from general catalysts unusual cvf fund]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
+- [[david-beckhams-health-drink-startup-im8-takes-1b-from-general-catalysts-unusual-cvf-fund]]

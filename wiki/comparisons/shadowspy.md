@@ -23,7 +23,7 @@ tags:
 - [[balance.py]]
 - [[cycle.py]]
 - [[energy.py]]
-- [[Шаблони квестів (контекстні дилеми)]]
+- [[шаблони-квестів-контекстні-дилеми]]
 - [[bardo.py]]
 
 ## Key Findings
@@ -147,5 +147,5 @@ See Key Findings for full content.
 - [[balance.py]]
 - [[cycle.py]]
 - [[energy.py]]
-- [[Шаблони квестів (контекстні дилеми)]]
+- [[шаблони-квестів-контекстні-дилеми]]
 - [[bardo.py]]

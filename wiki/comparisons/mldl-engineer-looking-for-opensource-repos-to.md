@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - mldl-engineer-looking-for-open-source-repos-to-contribute-to-pytorch-experience-p-2026-07-20.md
 > **Links:**
-- [[i just read lecuns recent thoughts on world]]
-- [[exploring continual learning without replay]]
-- [[are there some textbooks that take a primarily]]
-- [[arr 2026 meta review score d]]
-- [[sequoia ascent]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[exploring-continual-learning-without-replay]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[arr-2026-meta-review-score-d]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -72,8 +72,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[i just read lecuns recent thoughts on world]]
-- [[exploring continual learning without replay]]
-- [[are there some textbooks that take a primarily]]
-- [[arr 2026 meta review score d]]
-- [[sequoia ascent]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[exploring-continual-learning-without-replay]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[arr-2026-meta-review-score-d]]
+- [[sequoia-ascent]]

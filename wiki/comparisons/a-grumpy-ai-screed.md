@@ -34,9 +34,9 @@ tags:
 > **Sources:**
 >   - a-grumpy-screed-about-ai-in-software-engineering-2026-07-18.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Generative AI Strategy]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[generative-ai-strategy]]
 - [[ai]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 
@@ -74,8 +74,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Generative AI Strategy]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[generative-ai-strategy]]
 - [[ai]]
 - [[Mesh LLM: distributed AI computing on iroh]]

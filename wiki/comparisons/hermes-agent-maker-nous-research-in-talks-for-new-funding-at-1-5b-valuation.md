@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - hermes-agent-maker-nous-research-in-talks-for-new-funding-at-15b-valuation-2026-07-17.md
 > **Links:**
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[ai science research flattens discovery]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[ai-science-research-flattens-discovery]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[ai science research flattens discovery]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[ai-science-research-flattens-discovery]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]

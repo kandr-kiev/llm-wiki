@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - modernize-net-applications-in-the-github-copilot-app-2026-07-17.md
 > **Links:**
-- [[announcing typescript 6 0 beta]]
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 7 0]]
-- [[msbuild binlog mcp server]]
-- [[announcing dotnet modernization for beginners]]
+- [[announcing-typescript-6-0-beta]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-7-0]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-dotnet-modernization-for-beginners]]
 
 ## Key Findings
 
@@ -82,8 +82,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[announcing typescript 6 0 beta]]
-- [[mcp build diagnostics workflows]]
-- [[announcing typescript 7 0]]
-- [[msbuild binlog mcp server]]
-- [[announcing dotnet modernization for beginners]]
+- [[announcing-typescript-6-0-beta]]
+- [[mcp-build-diagnostics-workflows]]
+- [[announcing-typescript-7-0]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-dotnet-modernization-for-beginners]]

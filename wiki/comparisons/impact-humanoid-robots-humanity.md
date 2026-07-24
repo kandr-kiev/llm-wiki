@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - the-impact-of-humanoid-robots-on-humanity-2026-07-17.md
 > **Links:**
-- [[people dont want more ai]]
-- [[desktop wallpaper calendars july]]
-- [[kirki wordpress visual builder infinite canvas]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
+- [[people-dont-want-more-ai]]
+- [[desktop-wallpaper-calendars-july]]
+- [[kirki-wordpress-visual-builder-infinite-canvas]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
 
 ## Key Findings
 
@@ -44,8 +44,8 @@ The Impact Of Humanoid Robots On Humanity — Smashing Magazine- - - - - @charse
 
 ## Related Articles
 
-- [[people dont want more ai]]
-- [[desktop wallpaper calendars july]]
-- [[kirki wordpress visual builder infinite canvas]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
+- [[people-dont-want-more-ai]]
+- [[desktop-wallpaper-calendars-july]]
+- [[kirki-wordpress-visual-builder-infinite-canvas]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]

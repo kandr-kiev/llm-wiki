@@ -23,10 +23,10 @@ tags:
 >   - human-mathematicians-are-being-outcounterexampled-2026-07-20.md
 > **Links:**
 - [[ai]]
-- [[Automating away]]
-- [[open source monopoly]]
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[away]]
+- [[open-source-monopoly]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -96,7 +96,7 @@ A week after Boris’ revelation, in early July, I was thinking hard about how t
 ## Related Articles
 
 - [[ai]]
-- [[Automating away]]
-- [[open source monopoly]]
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[away]]
+- [[open-source-monopoly]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

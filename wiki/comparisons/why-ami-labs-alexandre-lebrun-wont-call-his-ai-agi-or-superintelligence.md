@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence-2026-07-17.md
 > **Links:**
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[roblox launches an ai powered game creation feature in its mobile app]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[roblox launches an ai powered game creation feature in its mobile app]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]

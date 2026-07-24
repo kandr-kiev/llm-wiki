@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - packaging-council-inaugural-election-dates-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Rust 1.96.0]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[rust-1960]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -81,8 +81,8 @@ You can nominate yourself or someone else. If you’re nominating someone else, 
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Rust 1.96.0]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[rust-1960]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

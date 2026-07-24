@@ -25,9 +25,9 @@ tags:
 >   - local-ai-education-proassetsjsappjs-2026-07-20.md
 > **Links:**
 - [[deploy]]
-- [[add lesson]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[add-lesson]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
 - [[article]]
 
 ## Key Findings
@@ -246,7 +246,7 @@ function checkCour
 ## Related Articles
 
 - [[deploy]]
-- [[add lesson]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[add-lesson]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
 - [[article]]

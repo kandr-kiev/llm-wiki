@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - moonshine-lets-you-stream-games-from-your-pc-to-any-device-running-moonlight-2026-07-20.md
 > **Links:**
-- [[lingbot map]]
-- [[ai teaching assistant uiuc]]
-- [[grok build ios]]
-- [[lora speedrun]]
-- [[little book rl]]
+- [[lingbot-map]]
+- [[ai-teaching-assistant-uiuc]]
+- [[grok-build-ios]]
+- [[lora-speedrun]]
+- [[little-book-rl]]
 
 ## Key Findings
 
@@ -95,8 +95,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[lingbot map]]
-- [[ai teaching assistant uiuc]]
-- [[grok build ios]]
-- [[lora speedrun]]
-- [[little book rl]]
+- [[lingbot-map]]
+- [[ai-teaching-assistant-uiuc]]
+- [[grok-build-ios]]
+- [[lora-speedrun]]
+- [[little-book-rl]]

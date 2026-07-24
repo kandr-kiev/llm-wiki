@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - its-a-post-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[hackthebox void whispers writeup bh5]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[using sqlite in go and its importance 3de1]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[using-sqlite-in-go-and-its-importance-3de1]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]
 
 ## Key Findings
 
@@ -154,8 +154,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[hackthebox void whispers writeup bh5]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[using sqlite in go and its importance 3de1]]
-- [[introducing schemd a small text to svg compiler for circuits and uml 1i6p]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[using-sqlite-in-go-and-its-importance-3de1]]
+- [[introducing-schemd-a-small-text-to-svg-compiler-for-circuits-and-uml-1i6p]]

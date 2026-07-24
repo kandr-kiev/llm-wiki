@@ -52,11 +52,11 @@ backlinks:
 > **Sources:**
 >   - gh-v0811-2026-07-21.md
 > **Links:**
-- [[Release v0.80.10]]
-- [[Release 5.0.0]]
-- [[Release v0.86.0]]
-- [[Release @moonshot-ai/kimi-code@0.27.0]]
-- [[Release @moonshot-ai/kimi-code@0.28.1]]
+- [[release-v08010]]
+- [[release-500]]
+- [[release-v0860]]
+- [[release-moonshot-aikimi-code0270]]
+- [[release-moonshot-aikimi-code0281]]
 
 ## Key Findings
 
@@ -84,11 +84,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v0.80.10]]
-- [[Release 5.0.0]]
-- [[Release v0.86.0]]
-- [[Release @moonshot-ai/kimi-code@0.27.0]]
-- [[Release @moonshot-ai/kimi-code@0.28.1]]
+- [[release-v08010]]
+- [[release-500]]
+- [[release-v0860]]
+- [[release-moonshot-aikimi-code0270]]
+- [[release-moonshot-aikimi-code0281]]
 ## Backlinks
 
 ```dataview

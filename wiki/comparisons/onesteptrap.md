@@ -32,10 +32,10 @@ tags:
 > **Sources:**
 >   - the-one-step-trap-in-ai-research-2026-07-12.md
 > **Links:**
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 
 ## Key Findings
@@ -92,8 +92,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]

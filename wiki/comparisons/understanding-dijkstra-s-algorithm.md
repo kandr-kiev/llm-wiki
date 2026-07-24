@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - understanding-dijkstras-algorithm-2026-07-17.md
 > **Links:**
-- [[master full stack mobile development with react native]]
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[ai paper review deep unsupervised learning using nonequilibrium thermodynamics]]
-- [[Windows PowerShell]]
+- [[master-full-stack-mobile-development-with-react-native]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[ai-paper-review-deep-unsupervised-learning-using-nonequilibrium-thermodynamics]]
+- [[windows-powershell]]
 
 ## Key Findings
 
@@ -171,8 +171,8 @@ You can [make a tax-deductible donation here](https://www.freecodecamp.org/donat
 
 ## Related Articles
 
-- [[master full stack mobile development with react native]]
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[ai paper review deep unsupervised learning using nonequilibrium thermodynamics]]
-- [[Windows PowerShell]]
+- [[master-full-stack-mobile-development-with-react-native]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[ai-paper-review-deep-unsupervised-learning-using-nonequilibrium-thermodynamics]]
+- [[windows-powershell]]

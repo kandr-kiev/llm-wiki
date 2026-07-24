@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act-2026-07-18.md
 > **Links:**
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[roblox launches an ai powered game creation feature in its mobile app]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[roblox launches an ai powered game creation feature in its mobile app]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]

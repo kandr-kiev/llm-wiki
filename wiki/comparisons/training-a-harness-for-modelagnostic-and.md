@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - training-a-harness-for-model-agnostic-and-task-environment-agnostic-capability-improvements-with-pyt-2026-07-20.md
 > **Links:**
-- [[mldl engineer looking for opensource repos to]]
-- [[i just read lecuns recent thoughts on world]]
-- [[exploring continual learning without replay]]
-- [[kimi k3]]
-- [[sequoia ascent]]
+- [[mldl-engineer-looking-for-opensource-repos-to]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[exploring-continual-learning-without-replay]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -79,11 +79,11 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[mldl engineer looking for opensource repos to]]
-- [[i just read lecuns recent thoughts on world]]
-- [[exploring continual learning without replay]]
-- [[kimi k3]]
-- [[sequoia ascent]]
+- [[mldl-engineer-looking-for-opensource-repos-to]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[exploring-continual-learning-without-replay]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
 ## Backlinks
 
 ```dataview

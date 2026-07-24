@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
 
 ## Key Findings
 
@@ -51,8 +51,8 @@ Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer | MIT Te
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]

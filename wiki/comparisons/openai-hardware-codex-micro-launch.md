@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - openai-finally-launches-hardware-for-codex-2026-07-17.md
 > **Links:**
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[google gemini notebook notebooklm]]
-- [[ai police cops]]
-- [[1password anthropic claude browser integration]]
-- [[new york governor kathy hochul ai policies]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[google-gemini-notebook-notebooklm]]
+- [[ai-police-cops]]
+- [[1password-anthropic-claude-browser-integration]]
+- [[new-york-governor-kathy-hochul-ai-policies]]
 
 ## Key Findings
 
@@ -88,8 +88,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[google gemini notebook notebooklm]]
-- [[ai police cops]]
-- [[1password anthropic claude browser integration]]
-- [[new york governor kathy hochul ai policies]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[google-gemini-notebook-notebooklm]]
+- [[ai-police-cops]]
+- [[1password-anthropic-claude-browser-integration]]
+- [[new-york-governor-kathy-hochul-ai-policies]]

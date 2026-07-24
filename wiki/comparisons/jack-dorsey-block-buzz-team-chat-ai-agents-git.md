@@ -33,10 +33,10 @@ backlinks:
 > **Sources:**
 >   - jack-dorsey-launches-buzz-to-combine-team-chat-ai-agents-and-git-hosting-2026-07-21.md
 > **Links:**
-- [[ai music video arena claude vs gpt 5.6]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 - [[v3.13.0]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[kimi k3]]
+- [[kimi-k3]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -85,10 +85,10 @@ Dorsey's launch makes Block the first customer reference embedded in Buzz's docu
 
 ## Related Articles
 
-- [[ai music video arena claude vs gpt 5.6]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 - [[v3.13.0]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[kimi k3]]
+- [[kimi-k3]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 ## Backlinks
 

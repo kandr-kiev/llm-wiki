@@ -27,10 +27,10 @@ backlinks:
 >   - show-hn-i-built-a-command-palette-for-the-terminal--62mb-pure-go-no-fzf-2026-07-21.md
 > **Links:**
 - [[incremental]]
-- [[grok build ios]]
+- [[grok-build-ios]]
 - [[moonshine]]
-- [[jacquard lang]]
-- [[lora speedrun]]
+- [[jacquard-lang]]
+- [[lora-speedrun]]
 
 ## Key Findings
 
@@ -177,10 +177,10 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[incremental]]
-- [[grok build ios]]
+- [[grok-build-ios]]
 - [[moonshine]]
-- [[jacquard lang]]
-- [[lora speedrun]]
+- [[jacquard-lang]]
+- [[lora-speedrun]]
 ## Backlinks
 
 ```dataview

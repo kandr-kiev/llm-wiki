@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and--2026-07-20.md
 > **Links:**
-- [[feyn ai releases sqrl a text to sql model family that inspects the database before writing a query]]
-- [[10 open source no code ai platforms for building llm apps rag systems and ai agents]]
-- [[alibaba previews qwen3 8 max a 2 4 trillion parameter multimodal model days after moonshots kimi k3 open weight launch]]
-- [[best local llms you can run on a single 24gb gpu in 2026 qwen gemma mistral deepseek compared]]
-- [[fine tuning qwen3 with lora using nvidia nemo automodel a complete single gpu google colab workflow tutorial]]
+- [[feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query]]
+- [[10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents]]
+- [[alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch]]
+- [[best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwen-gemma-mistral-deepseek-compared]]
+- [[fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial]]
 
 ## Key Findings
 
@@ -65,8 +65,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[feyn ai releases sqrl a text to sql model family that inspects the database before writing a query]]
-- [[10 open source no code ai platforms for building llm apps rag systems and ai agents]]
-- [[alibaba previews qwen3 8 max a 2 4 trillion parameter multimodal model days after moonshots kimi k3 open weight launch]]
-- [[best local llms you can run on a single 24gb gpu in 2026 qwen gemma mistral deepseek compared]]
-- [[fine tuning qwen3 with lora using nvidia nemo automodel a complete single gpu google colab workflow tutorial]]
+- [[feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query]]
+- [[10-open-source-no-code-ai-platforms-for-building-llm-apps-rag-systems-and-ai-agents]]
+- [[alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch]]
+- [[best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwen-gemma-mistral-deepseek-compared]]
+- [[fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial]]

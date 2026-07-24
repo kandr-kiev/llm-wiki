@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - tp-link-kasa-cameras-leaked-home-gps-via-unauthenticated-udp-for-6-years-2026-07-18.md
 > **Links:**
-- [[little book rl]]
-- [[ai teaching assistant uiuc]]
-- [[lingbot map]]
-- [[billai bass]]
-- [[jacquard lang]]
+- [[little-book-rl]]
+- [[ai-teaching-assistant-uiuc]]
+- [[lingbot-map]]
+- [[billai-bass]]
+- [[jacquard-lang]]
 
 ## Key Findings
 
@@ -96,8 +96,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[little book rl]]
-- [[ai teaching assistant uiuc]]
-- [[lingbot map]]
-- [[billai bass]]
-- [[jacquard lang]]
+- [[little-book-rl]]
+- [[ai-teaching-assistant-uiuc]]
+- [[lingbot-map]]
+- [[billai-bass]]
+- [[jacquard-lang]]

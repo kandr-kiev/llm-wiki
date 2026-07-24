@@ -29,11 +29,11 @@ backlinks:
 > **Sources:**
 >   - youtube-clarifies-policies-around-ai-slop-and-upsetting-videos-2026-07-20.md
 > **Links:**
-- [[neil rimer thinks the ai money is coming back out]]
-- [[what to watch for after jensen huangs japan visit]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[natural raises 30m to reinvent payments for ai agents and take on stripe]]
-- [[nonprofit current ai is racing to build the world wide web of ai free for all]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[what-to-watch-for-after-jensen-huangs-japan-visit]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe]]
+- [[nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all]]
 
 ## Key Findings
 
@@ -73,11 +73,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[neil rimer thinks the ai money is coming back out]]
-- [[what to watch for after jensen huangs japan visit]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[natural raises 30m to reinvent payments for ai agents and take on stripe]]
-- [[nonprofit current ai is racing to build the world wide web of ai free for all]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[what-to-watch-for-after-jensen-huangs-japan-visit]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe]]
+- [[nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all]]
 ## Backlinks
 
 ```dataview

@@ -34,9 +34,9 @@ tags:
 > **Sources:**
 >   - migrating-a-production-ai-agent-to-gpt-56-22x-faster-27-cheaper-2026-07-12.md
 > **Links:**
-- [[content independence day ai options]]
+- [[content-independence-day-ai-options]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [[v0.22.1]]
 
@@ -59,8 +59,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[content independence day ai options]]
+- [[content-independence-day-ai-options]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [[v0.22.1]]

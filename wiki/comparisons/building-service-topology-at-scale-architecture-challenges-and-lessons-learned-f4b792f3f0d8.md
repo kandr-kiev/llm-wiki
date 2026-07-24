@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - building-service-topology-at-scale-architecture-challenges-and-lessons-learned-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 - [[bisbull120.pdf]]
-- [[fortune david siegel open source ai.pdf]]
-- [[speculative growth AI public.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[speculative-growth-ai-publicpdf]]
 
 ## Key Findings
 
@@ -55,8 +55,8 @@ ite-space:nowrap}.de{background-color:var(--color-bg-neutral-quaternary)}.df{wid
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 - [[bisbull120.pdf]]
-- [[fortune david siegel open source ai.pdf]]
-- [[speculative growth AI public.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[speculative-growth-ai-publicpdf]]

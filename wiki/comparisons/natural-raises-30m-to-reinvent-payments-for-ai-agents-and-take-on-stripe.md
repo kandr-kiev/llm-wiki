@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - natural-raises-30m-to-reinvent-payments-for-ai-agents---and-take-on-stripe-2026-07-20.md
 > **Links:**
-- [[patreon stops asking ai bots not to scrape and starts blocking them]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
+- [[patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[patreon stops asking ai bots not to scrape and starts blocking them]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
+- [[patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]

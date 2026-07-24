@@ -29,10 +29,10 @@ backlinks:
 > **Sources:**
 >   - metas-ai-models-are-powering-the-first-wave-of-genesis-mission-projects-2026-07-21.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[kimi k3]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[kimi-k3]]
 - [[doom]]
 
 ## Key Findings
@@ -77,10 +77,10 @@ Together, the two models form a complementary pipeline: SAM delivers precise, pi
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[kimi k3]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[kimi-k3]]
 - [[doom]]
 ## Backlinks
 

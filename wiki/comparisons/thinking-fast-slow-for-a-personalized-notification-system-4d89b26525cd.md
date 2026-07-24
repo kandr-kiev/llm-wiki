@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - thinking-fast--slow-for-a-personalized-notification-system-2026-07-17.md
 > **Links:**
-- [[agriculture is ready for ai but its data isnt]]
-- [[achieving operational excellence with ai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[building the foundation for an autonomous enterprise]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[agriculture is ready for ai but its data isnt]]
-- [[achieving operational excellence with ai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[building the foundation for an autonomous enterprise]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]

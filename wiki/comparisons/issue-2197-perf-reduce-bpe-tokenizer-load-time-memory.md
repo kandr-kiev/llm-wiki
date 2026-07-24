@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - gh-huggingfacetokenizers-issue-2197-2026-07-14.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -65,8 +65,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]

@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - grok-ios--remote-grok-build-from-your-iphone-over-acp-2026-07-20.md
 > **Links:**
-- [[ai teaching assistant uiuc]]
-- [[lingbot map]]
-- [[little book rl]]
-- [[Kasa EC71]]
-- [[jacquard lang]]
+- [[ai-teaching-assistant-uiuc]]
+- [[lingbot-map]]
+- [[little-book-rl]]
+- [[kasa-ec71]]
+- [[jacquard-lang]]
 
 ## Key Findings
 
@@ -95,8 +95,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai teaching assistant uiuc]]
-- [[lingbot map]]
-- [[little book rl]]
-- [[Kasa EC71]]
-- [[jacquard lang]]
+- [[ai-teaching-assistant-uiuc]]
+- [[lingbot-map]]
+- [[little-book-rl]]
+- [[kasa-ec71]]
+- [[jacquard-lang]]

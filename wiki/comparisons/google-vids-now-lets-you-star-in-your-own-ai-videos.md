@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - google-vids-now-lets-you-star-in-your-own-ai-videos-2026-07-17.md
 > **Links:**
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[david beckhams health drink startup im8 takes 1b from general catalysts unusual cvf fund]]
-- [[gemini omni personal avatars]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[david-beckhams-health-drink-startup-im8-takes-1b-from-general-catalysts-unusual-cvf-fund]]
+- [[gemini-omni-personal-avatars]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[david beckhams health drink startup im8 takes 1b from general catalysts unusual cvf fund]]
-- [[gemini omni personal avatars]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[david-beckhams-health-drink-startup-im8-takes-1b-from-general-catalysts-unusual-cvf-fund]]
+- [[gemini-omni-personal-avatars]]

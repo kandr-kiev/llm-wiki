@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - first-party-image-processing-in-laravel-1320-2026-07-17.md
 > **Links:**
-- [[build a laravel scout search endpoint with the http query method]]
-- [[enforce per action waiting periods in laravel with cooldown]]
-- [[The Illustrated Stable Diffusion]]
-- [[Release v0.25.1]]
-- [[workers cache]]
+- [[build-a-laravel-scout-search-endpoint-with-the-http-query-method]]
+- [[enforce-per-action-waiting-periods-in-laravel-with-cooldown]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[release-v0251]]
+- [[workers-cache]]
 
 ## Key Findings
 
@@ -211,8 +211,8 @@ use App\Http\Middleware\EnsureTokenIsValid;use Illuminate\Routing\Controllers\At
 
 ## Related Articles
 
-- [[build a laravel scout search endpoint with the http query method]]
-- [[enforce per action waiting periods in laravel with cooldown]]
-- [[The Illustrated Stable Diffusion]]
-- [[Release v0.25.1]]
-- [[workers cache]]
+- [[build-a-laravel-scout-search-endpoint-with-the-http-query-method]]
+- [[enforce-per-action-waiting-periods-in-laravel-with-cooldown]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[release-v0251]]
+- [[workers-cache]]

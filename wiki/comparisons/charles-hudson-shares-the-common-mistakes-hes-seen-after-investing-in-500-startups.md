@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 
 ## Key Findings
 
@@ -66,8 +66,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]

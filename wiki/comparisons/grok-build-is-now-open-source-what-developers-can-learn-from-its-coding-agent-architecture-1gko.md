@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - grok-build-is-now-open-source-what-developers-can-learn-from-its-coding-agent-architecture-2026-07-20.md
 > **Links:**
-- [[class vs object who is the big boss 32nj]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
 
 ## Key Findings
 
@@ -126,8 +126,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[class vs object who is the big boss 32nj]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]

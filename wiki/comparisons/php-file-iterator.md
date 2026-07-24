@@ -22,9 +22,9 @@ tags:
 >   - local-ai-education-provendorphpunitphp-file-iteratorreadmemd-2026-07-20.md
 > **Links:**
 - [[phpunit/php-code-coverage]]
-- [[Version]]
-- [[Manifest]]
-- [[DeepCopy]]
+- [[version]]
+- [[manifest]]
+- [[deepcopy]]
 - [[installed.json]]
 
 ## Key Findings
@@ -53,7 +53,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[phpunit/php-code-coverage]]
-- [[Version]]
-- [[Manifest]]
-- [[DeepCopy]]
+- [[version]]
+- [[manifest]]
+- [[deepcopy]]
 - [[installed.json]]

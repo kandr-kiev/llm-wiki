@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - dave-eggers-told-openai-staff--that-chatgpt-was-silencing-an-entire-generation-2026-07-20.md
 > **Links:**
-- [[tiktok ai likeness detection tool]]
-- [[apple openai lawsuit vergecast]]
-- [[adobe indigo camera app ai playground update]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[xai grok user lawsuit csam]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[xai-grok-user-lawsuit-csam]]
 
 ## Key Findings
 
@@ -91,8 +91,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[tiktok ai likeness detection tool]]
-- [[apple openai lawsuit vergecast]]
-- [[adobe indigo camera app ai playground update]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[xai grok user lawsuit csam]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[xai-grok-user-lawsuit-csam]]

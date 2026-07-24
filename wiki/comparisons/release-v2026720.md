@@ -36,11 +36,11 @@ tags:
 > **Sources:**
 >   - gh-v2026720-2026-07-20.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[5 Agent Skills I Use Every Day]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[5-agent-skills-i-use-every-day]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 
 ## Key Findings
 
@@ -71,8 +71,8 @@ blog_source: github:NousResearch/hermes-agent
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[5 Agent Skills I Use Every Day]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[5-agent-skills-i-use-every-day]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]

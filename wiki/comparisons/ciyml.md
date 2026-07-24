@@ -19,11 +19,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorphar-iomanifestgithubworkflowsciyml-2026-07-20.md
 > **Links:**
-- [[Changelog]]
+- [[changelog]]
 - [[composer.json]]
 - [[installed.json]]
 - [[package.json]]
-- [[DeepCopy]]
+- [[deepcopy]]
 
 ## Key Findings
 
@@ -107,8 +107,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Changelog]]
+- [[changelog]]
 - [[composer.json]]
 - [[installed.json]]
 - [[package.json]]
-- [[DeepCopy]]
+- [[deepcopy]]

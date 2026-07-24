@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - googles-ai-mode-now-lets-you-link-and-interact-with-select-apps-2026-07-17.md
 > **Links:**
-- [[google vids now lets you star in your own ai videos]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[connected apps]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[connected-apps]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[google vids now lets you star in your own ai videos]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[connected apps]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[connected-apps]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]

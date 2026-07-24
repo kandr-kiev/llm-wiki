@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise-2026-07-17.md
 > **Links:**
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[charles hudson shares the common mistakes hes seen after investing in 500 startups]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[connected apps]]
-- [[google vids now lets you star in your own ai videos]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[connected-apps]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[charles hudson shares the common mistakes hes seen after investing in 500 startups]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[connected apps]]
-- [[google vids now lets you star in your own ai videos]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[connected-apps]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]

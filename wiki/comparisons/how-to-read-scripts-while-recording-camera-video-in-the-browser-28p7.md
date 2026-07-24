@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - how-to-read-scripts-while-recording-camera-video-in-the-browser-2026-07-20.md
 > **Links:**
-- [[class vs object who is the big boss 32nj]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[my insights on what working at big tech is actually like kgd]]
-- [[the gitbook migration trap 4gp2]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -196,8 +196,8 @@ The workflow I like is:
 
 ## Related Articles
 
-- [[class vs object who is the big boss 32nj]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[my insights on what working at big tech is actually like kgd]]
-- [[the gitbook migration trap 4gp2]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
+- [[the-gitbook-migration-trap-4gp2]]

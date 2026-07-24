@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - spacex-in-your-index-fund-explained-2026-07-20.md
 > **Links:**
-- [[ai police cops]]
-- [[get ready for the powerful css border shape property]]
-- [[apple openai lawsuit vergecast]]
-- [[tiktok ai likeness detection tool]]
-- [[1010benja semiramis dream suno ai music]]
+- [[ai-police-cops]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
 
 ## Key Findings
 
@@ -62,11 +62,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai police cops]]
-- [[get ready for the powerful css border shape property]]
-- [[apple openai lawsuit vergecast]]
-- [[tiktok ai likeness detection tool]]
-- [[1010benja semiramis dream suno ai music]]
+- [[ai-police-cops]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
 ## Backlinks
 
 ```dataview

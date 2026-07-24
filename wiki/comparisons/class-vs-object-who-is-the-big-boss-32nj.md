@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - class-vs-object-who-is-the-big-boss--2026-07-20.md
 > **Links:**
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
-- [[my insights on what working at big tech is actually like kgd]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
 
 ## Key Findings
 
@@ -127,8 +127,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
-- [[my insights on what working at big tech is actually like kgd]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]

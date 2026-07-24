@@ -41,11 +41,11 @@ backlinks:
 > **Sources:**
 >   - someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-mode-2026-07-20.md
 > **Links:**
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
 - [[jquery.min.js]]
-- [[Release v2026.7.20]]
+- [[release-v2026720]]
 
 ## Key Findings
 
@@ -151,11 +151,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
 - [[jquery.min.js]]
-- [[Release v2026.7.20]]
+- [[release-v2026720]]
 ## Backlinks
 
 ```dataview

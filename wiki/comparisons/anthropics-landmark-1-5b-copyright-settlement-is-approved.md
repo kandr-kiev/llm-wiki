@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - anthropics-landmark-15b-copyright-settlement-is-approved-2026-07-21.md
 > **Links:**
-- [[agility robotics plants its flag in teslas backyard]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[agility robotics plants its flag in teslas backyard]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]

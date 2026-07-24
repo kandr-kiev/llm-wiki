@@ -39,11 +39,11 @@ backlinks:
 > **Sources:**
 >   - nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-model-that-reasons-and-generates-robot-actio-2026-07-21.md
 > **Links:**
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
 - [Issue #2197: perf: reduce BPE tokenizer load-time memory](https://github.com/pytorch/pytorch/issues/2197)
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -134,10 +134,10 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
 - [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guar[Issue #2197: perf: reduce BPE tokenizer load-time memory](https://github.com/pytorch/pytorch/issues/2197) perf: reduce BPE tokenizer load-time memory]]
-- [[sequoia ascent]]
+- [[sequoia-ascent]]
 ## Backlinks
 
 ```dataview

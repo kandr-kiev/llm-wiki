@@ -59,8 +59,8 @@ tags:
 - [[v0.22.1]]
 - [[v0.23.0]]
 - [[v0.24.0]]
-- [[Release v0.1.481-beta]]
-- [[Release 5.0.0]]
+- [[release-v01481-beta]]
+- [[release-500]]
 
 ## Key Findings
 
@@ -129,5 +129,5 @@ Adds MXFP4-quantized expert weights to ScatterMoE-LoRA for memory-efficient MoE 
 - [[v0.22.1]]
 - [[v0.23.0]]
 - [[v0.24.0]]
-- [[Release v0.1.481-beta]]
-- [[Release 5.0.0]]
+- [[release-v01481-beta]]
+- [[release-500]]

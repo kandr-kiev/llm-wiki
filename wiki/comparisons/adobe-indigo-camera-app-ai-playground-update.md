@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - adobes-natural-look-camera-app-embraces-generative-ai-2026-07-20.md
 > **Links:**
-- [[apple openai lawsuit vergecast]]
-- [[tiktok ai likeness detection tool]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[best apps gadgets reading installer]]
-- [[xai grok user lawsuit csam]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[best-apps-gadgets-reading-installer]]
+- [[xai-grok-user-lawsuit-csam]]
 
 ## Key Findings
 
@@ -82,8 +82,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple openai lawsuit vergecast]]
-- [[tiktok ai likeness detection tool]]
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[best apps gadgets reading installer]]
-- [[xai grok user lawsuit csam]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[best-apps-gadgets-reading-installer]]
+- [[xai-grok-user-lawsuit-csam]]

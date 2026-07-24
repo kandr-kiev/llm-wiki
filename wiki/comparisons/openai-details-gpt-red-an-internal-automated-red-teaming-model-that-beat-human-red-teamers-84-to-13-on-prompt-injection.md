@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13--2026-07-17.md
 > **Links:**
-- [[unlocking self improvement gpt red]]
-- [[5 Agent Skills I Use Every Day]]
-- [[meet gpt red an llm super hacker openai built to make its models safer]]
-- [[meet likweli new monkey species discovered congo basin]]
-- [[connected apps]]
+- [[unlocking-self-improvement-gpt-red]]
+- [[5-agent-skills-i-use-every-day]]
+- [[meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer]]
+- [[meet-likweli-new-monkey-species-discovered-congo-basin]]
+- [[connected-apps]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[unlocking self improvement gpt red]]
-- [[5 Agent Skills I Use Every Day]]
-- [[meet gpt red an llm super hacker openai built to make its models safer]]
-- [[meet likweli new monkey species discovered congo basin]]
-- [[connected apps]]
+- [[unlocking-self-improvement-gpt-red]]
+- [[5-agent-skills-i-use-every-day]]
+- [[meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer]]
+- [[meet-likweli-new-monkey-species-discovered-congo-basin]]
+- [[connected-apps]]

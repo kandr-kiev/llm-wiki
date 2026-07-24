@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - alibaba-previews-qwen38-max-a-24-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-op-2026-07-20.md
 > **Links:**
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[kimi k3]]
-- [[sequoia ascent]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -131,8 +131,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[kimi k3]]
-- [[sequoia ascent]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]

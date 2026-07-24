@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-2026-07-17.md
 > **Links:**
-- [[hackthebox void whispers writeup bh5]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[i am building an ai court with ai judges ai lawyers 40k0]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[i-am-building-an-ai-court-with-ai-judges-ai-lawyers-40k0]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
 
 ## Key Findings
 
@@ -123,8 +123,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[hackthebox void whispers writeup bh5]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[i am building an ai court with ai judges ai lawyers 40k0]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[i-am-building-an-ai-court-with-ai-judges-ai-lawyers-40k0]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]

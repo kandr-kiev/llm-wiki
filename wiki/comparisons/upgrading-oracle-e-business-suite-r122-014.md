@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - upgrading-oracle-e-business-suite-r122-database-from-12102-to-19c---part-v-2026-07-17.md
 > **Links:**
-- [[upgrading oracle e business suite r122 01]]
-- [[upgrading oracle e business suite r122 019]]
-- [[upgrading oracle e business suite r122]]
-- [[changing oracle applications user]]
-- [[how to patch oracle database to 1931 on]]
+- [[upgrading-oracle-e-business-suite-r122-01]]
+- [[upgrading-oracle-e-business-suite-r122-019]]
+- [[upgrading-oracle-e-business-suite-r122]]
+- [[changing-oracle-applications-user]]
+- [[how-to-patch-oracle-database-to-1931-on]]
 
 ## Key Findings
 
@@ -122,8 +122,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[upgrading oracle e business suite r122 01]]
-- [[upgrading oracle e business suite r122 019]]
-- [[upgrading oracle e business suite r122]]
-- [[changing oracle applications user]]
-- [[how to patch oracle database to 1931 on]]
+- [[upgrading-oracle-e-business-suite-r122-01]]
+- [[upgrading-oracle-e-business-suite-r122-019]]
+- [[upgrading-oracle-e-business-suite-r122]]
+- [[changing-oracle-applications-user]]
+- [[how-to-patch-oracle-database-to-1931-on]]

@@ -30,11 +30,11 @@ backlinks:
 > **Sources:**
 >   - music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated-2026-07-21.md
 > **Links:**
-- [[google is working on a new ai chip designed to make gemini more efficient]]
-- [[connected apps]]
-- [[odyssey director christopher nolan calls ai an obvious trojan horse]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[apples lawsuit couldnt come at a worse time for openai]]
+- [[google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient]]
+- [[connected-apps]]
+- [[odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
 
 ## Key Findings
 
@@ -74,11 +74,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[google is working on a new ai chip designed to make gemini more efficient]]
-- [[connected apps]]
-- [[odyssey director christopher nolan calls ai an obvious trojan horse]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[apples lawsuit couldnt come at a worse time for openai]]
+- [[google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient]]
+- [[connected-apps]]
+- [[odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
 ## Backlinks
 
 ```dataview

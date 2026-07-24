@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - less-art-more-engineering-it-wasnt-measurement-2026-07-21.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 
 ## Key Findings
 
@@ -138,11 +138,11 @@ The clearest case is architecture. I built a [procedure](https://pragmatica.dev/
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
 ## Backlinks
 
 ```dataview

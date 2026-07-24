@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - threads-url-analyzer-what-public-data-can-and-cant-do-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 
 ## Key Findings
 
@@ -136,8 +136,8 @@ I ended up treating the public preview path as the default assumption for the Th
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]

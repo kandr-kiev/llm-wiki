@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-proassetsjsdatalessonsjs-2026-07-20.md
 > **Links:**
-- [[Agent Skills Patterns]]
+- [[agent-skills-patterns]]
 - [[deploy]]
-- [[add lesson]]
-- [[Agent Skills Patterns — Критичний аналіз]]
-- [[JetBrains Air — текстова версія презентації]]
+- [[add-lesson]]
+- [[agent-skills-patterns-critical-analysis]]
+- [[jetbrains-air-текстова-версія-презентації]]
 
 ## Key Findings
 
@@ -91,8 +91,8 @@ sh
 
 ## Related Articles
 
-- [[Agent Skills Patterns]]
+- [[agent-skills-patterns]]
 - [[deploy]]
-- [[add lesson]]
-- [[Agent Skills Patterns — Критичний аналіз]]
-- [[JetBrains Air — текстова версія презентації]]
+- [[add-lesson]]
+- [[agent-skills-patterns-critical-analysis]]
+- [[jetbrains-air-текстова-версія-презентації]]

@@ -37,11 +37,11 @@ backlinks:
 > **Sources:**
 >   - gh-b10076-2026-07-21.md
 > **Links:**
-- [[Release b10007]]
-- [[Release b10066]]
-- [[Release b10020]]
-- [[Release b10034]]
-- [[Release b10038]]
+- [[release-b10007]]
+- [[release-b10066]]
+- [[release-b10020]]
+- [[release-b10034]]
+- [[release-b10038]]
 
 ## Key Findings
 
@@ -94,11 +94,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release b10007]]
-- [[Release b10066]]
-- [[Release b10020]]
-- [[Release b10034]]
-- [[Release b10038]]
+- [[release-b10007]]
+- [[release-b10066]]
+- [[release-b10020]]
+- [[release-b10034]]
+- [[release-b10038]]
 ## Backlinks
 
 ```dataview

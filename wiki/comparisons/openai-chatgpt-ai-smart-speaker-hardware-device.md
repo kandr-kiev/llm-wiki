@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - openai-may-announce-a-chatgpt-smart-speaker-this-year-2026-07-17.md
 > **Links:**
-- [[openai hardware codex micro launch]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[google gemini notebook notebooklm]]
-- [[ai police cops]]
-- [[new york governor kathy hochul ai policies]]
+- [[openai-hardware-codex-micro-launch]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[google-gemini-notebook-notebooklm]]
+- [[ai-police-cops]]
+- [[new-york-governor-kathy-hochul-ai-policies]]
 
 ## Key Findings
 
@@ -91,8 +91,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[openai hardware codex micro launch]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[google gemini notebook notebooklm]]
-- [[ai police cops]]
-- [[new york governor kathy hochul ai policies]]
+- [[openai-hardware-codex-micro-launch]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[google-gemini-notebook-notebooklm]]
+- [[ai-police-cops]]
+- [[new-york-governor-kathy-hochul-ai-policies]]

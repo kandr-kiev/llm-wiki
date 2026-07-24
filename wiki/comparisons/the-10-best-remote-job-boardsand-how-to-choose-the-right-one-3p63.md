@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - the-10-best-remote-job-boardsand-how-to-choose-the-right-one-2026-07-17.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
 
 ## Key Findings
 
@@ -122,8 +122,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]

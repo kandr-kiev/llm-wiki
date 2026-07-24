@@ -44,11 +44,11 @@ tags:
 > **Sources:**
 >   - how-to-choose-agent-orchestration-framework-2026-07-18.md
 > **Links:**
-- [[How to Choose and Implement an AI Agent Orchestration Framework — 2026 Playbook]]
-- [[LangGraph vs CrewAI vs AutoGen vs Microsoft Agent Framework — 2026 Comparison]]
-- [[LangGraph]]
-- [[How to Build AI Agents — Framework Comparison & Setup]]
-- [[AI Agent Frameworks 2026 - LangGraph vs CrewAI vs AutoGen Compared]]
+- [[how-to-choose-agent-orchestration-framework-2026]]
+- [[langgraph-vs-crewai-vs-autogen-vs-maf-2026]]
+- [[langgraph]]
+- [[how-to-build-ai-agents-framework-comparison-setup]]
+- [[ai-agent-frameworks-2026]]
 
 ## Key Findings
 
@@ -187,8 +187,8 @@ Crew → A
 
 ## Related Articles
 
-- [[How to Choose and Implement an AI Agent Orchestration Framework — 2026 Playbook]]
-- [[LangGraph vs CrewAI vs AutoGen vs Microsoft Agent Framework — 2026 Comparison]]
-- [[LangGraph]]
-- [[How to Build AI Agents — Framework Comparison & Setup]]
-- [[AI Agent Frameworks 2026 - LangGraph vs CrewAI vs AutoGen Compared]]
+- [[how-to-choose-agent-orchestration-framework-2026]]
+- [[langgraph-vs-crewai-vs-autogen-vs-maf-2026]]
+- [[langgraph]]
+- [[how-to-build-ai-agents-framework-comparison-setup]]
+- [[ai-agent-frameworks-2026]]

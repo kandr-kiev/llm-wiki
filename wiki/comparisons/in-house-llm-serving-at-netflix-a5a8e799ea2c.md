@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - in-house-llm-serving-at-netflix-2026-07-18.md
 > **Links:**
-- [[agility robotics plants its flag in teslas backyard]]
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[your familys 300 stake in openai]]
-- [[weather data sabotage]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[your-familys-300-stake-in-openai]]
+- [[weather-data-sabotage]]
 
 ## Key Findings
 
@@ -51,8 +51,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[agility robotics plants its flag in teslas backyard]]
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[your familys 300 stake in openai]]
-- [[weather data sabotage]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[your-familys-300-stake-in-openai]]
+- [[weather-data-sabotage]]

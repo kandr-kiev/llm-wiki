@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - launching-the-rust-foundation-maintainers-fund-2026-07-17.md
 > **Links:**
-- [[Rust 1.96.0]]
-- [[Rust 1.97.0]]
-- [[crates io development update]]
-- [[Rust 1.96.1]]
-- [[Rust 1.97.1]]
+- [[rust-1960]]
+- [[rust-1970]]
+- [[crates-io-development-update]]
+- [[rust-1961]]
+- [[rust-1971]]
 
 ## Key Findings
 
@@ -80,8 +80,8 @@ Note that the fact that GitHub Sponsors is currently enabled on the `rustfoundat
 
 ## Related Articles
 
-- [[Rust 1.96.0]]
-- [[Rust 1.97.0]]
-- [[crates io development update]]
-- [[Rust 1.96.1]]
-- [[Rust 1.97.1]]
+- [[rust-1960]]
+- [[rust-1970]]
+- [[crates-io-development-update]]
+- [[rust-1961]]
+- [[rust-1971]]

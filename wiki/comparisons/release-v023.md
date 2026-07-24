@@ -19,11 +19,11 @@ tags:
 > **Sources:**
 >   - gh-v023-2026-07-18.md
 > **Links:**
-- [[Release 0.3.5]]
+- [[release-035]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.1.49-beta]]
+- [[release-v0149-beta]]
 - [[Release Notes: LangChain vlangchain-openai==1.3.5]]
-- [[Release v0.32.0]]
+- [[release-v0320]]
 
 ## Key Findings
 
@@ -46,8 +46,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release 0.3.5]]
+- [[release-035]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.1.49-beta]]
+- [[release-v0149-beta]]
 - [[Release Notes: LangChain vlangchain-openai==1.3.5]]
-- [[Release v0.32.0]]
+- [[release-v0320]]

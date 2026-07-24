@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - patreon-stops-asking-ai-bots-not-to-scrape---and-starts-blocking-them-2026-07-17.md
 > **Links:**
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]

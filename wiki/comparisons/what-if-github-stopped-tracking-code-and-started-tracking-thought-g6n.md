@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - what-if-github-stopped-tracking-code-and-started-tracking-thought-2026-07-18.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[its a post 4hi8]]
-- [[my insights on what working at big tech is actually like kgd]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[its-a-post-4hi8]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
 
 ## Key Findings
 
@@ -124,8 +124,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[its a post 4hi8]]
-- [[my insights on what working at big tech is actually like kgd]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[its-a-post-4hi8]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]

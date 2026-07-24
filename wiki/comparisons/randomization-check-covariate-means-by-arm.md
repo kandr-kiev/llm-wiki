@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - product-experimentation-with-regression-based-causal-inference-estimating-llm-feature-impact-with-py-2026-07-17.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)
-- [[5 Agent Skills I Use Every Day]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -129,7 +129,7 @@ If `prompt_variant` was assigned by coin flip, then `E[epsilon | prompt_variant]
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[away]]
 - [[M[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)5: AsyncGRPO fork-independent epoch counting]]
-- [[5 Agent Skills I Use Every Day]]
+- [[5-agent-skills-i-use-every-day]]

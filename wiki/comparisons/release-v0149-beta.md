@@ -44,10 +44,10 @@ tags:
 > **Sources:**
 >   - gh-v0149-beta-2026-07-15.md
 > **Links:**
-- [[Release v0.1.481-beta]]
-- [[Release v0.25.1]]
+- [[release-v01481-beta]]
+- [[release-v0251]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[v0.22.1]]
 
 ## Key Findings
@@ -119,8 +119,8 @@ missing compute_aux_loss for TRL >= 1.7.0 by @marcandrelarochelle in https://git
 
 ## Related Articles
 
-- [[Release v0.1.481-beta]]
-- [[Release v0.25.1]]
+- [[release-v01481-beta]]
+- [[release-v0251]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[v0.22.1]]

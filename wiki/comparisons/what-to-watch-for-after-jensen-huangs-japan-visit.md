@@ -28,11 +28,11 @@ backlinks:
 > **Sources:**
 >   - what-to-watch-for-after-jensen-huangs-japan-visit-2026-07-20.md
 > **Links:**
-- [[neil rimer thinks the ai money is coming back out]]
-- [[biggest probabilistic computer]]
-- [[nonprofit current ai is racing to build the world wide web of ai free for all]]
-- [[adobe camera apps new feature will critique your photos using ai]]
-- [[ai driven memory crunch jolts indias smartphone market]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[biggest-probabilistic-computer]]
+- [[nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all]]
+- [[adobe-camera-apps-new-feature-will-critique-your-photos-using-ai]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
 
 ## Key Findings
 
@@ -71,11 +71,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[neil rimer thinks the ai money is coming back out]]
-- [[biggest probabilistic computer]]
-- [[nonprofit current ai is racing to build the world wide web of ai free for all]]
-- [[adobe camera apps new feature will critique your photos using ai]]
-- [[ai driven memory crunch jolts indias smartphone market]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[biggest-probabilistic-computer]]
+- [[nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all]]
+- [[adobe-camera-apps-new-feature-will-critique-your-photos-using-ai]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
 ## Backlinks
 
 ```dataview

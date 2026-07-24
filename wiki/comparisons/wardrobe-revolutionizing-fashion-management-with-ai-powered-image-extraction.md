@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - wardrobe-revolutionizing-fashion-management-with-ai-powered-image-extraction-2026-07-17.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[repeating tasks without repeating code 4fak]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[keep your ai agent traces on your machine a local first approach 5b9l]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[keep-your-ai-agent-traces-on-your-machine-a-local-first-approach-5b9l]]
 
 ## Key Findings
 
@@ -137,8 +137,8 @@ Wardrobe's introduction into the fashion tech space doesn't occur in isolation; 
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
-- [[repeating tasks without repeating code 4fak]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[keep your ai agent traces on your machine a local first approach 5b9l]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[keep-your-ai-agent-traces-on-your-machine-a-local-first-approach-5b9l]]

@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorphpunitphp-code-coveragesrcreporthtmlrenderertemplatejsbootstrapminjs-2026-07-20.md
 > **Links:**
-- [[agriculture is ready for ai but its data isnt]]
-- [[ai biases hiring humans]]
-- [[building the foundation for an autonomous enterprise]]
-- [[weather data sabotage]]
-- [[what anthropics latest ai discovery does and doesnt show]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[ai-biases-hiring-humans]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[weather-data-sabotage]]
+- [[what-anthropics-latest-ai-discovery-does-and-doesnt-show]]
 
 ## Key Findings
 
@@ -50,8 +50,8 @@ blog_source: local:unknown
 
 ## Related Articles
 
-- [[agriculture is ready for ai but its data isnt]]
-- [[ai biases hiring humans]]
-- [[building the foundation for an autonomous enterprise]]
-- [[weather data sabotage]]
-- [[what anthropics latest ai discovery does and doesnt show]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[ai-biases-hiring-humans]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[weather-data-sabotage]]
+- [[what-anthropics-latest-ai-discovery-does-and-doesnt-show]]

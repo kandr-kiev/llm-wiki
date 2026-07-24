@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - translatex-2026-07-17.md
 > **Links:**
-- [[get ready for the powerful css border shape property]]
-- [[q1 2026 innovation graph update open source collaboration is accelerating worldwide]]
-- [[ai police cops]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[lingbot map]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide]]
+- [[ai-police-cops]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[lingbot-map]]
 
 ## Key Findings
 
@@ -86,8 +86,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[get ready for the powerful css border shape property]]
-- [[q1 2026 innovation graph update open source collaboration is accelerating worldwide]]
-- [[ai police cops]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[lingbot map]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide]]
+- [[ai-police-cops]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[lingbot-map]]

@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - how-to-build-a-browser-based-pdf-signature-tool-using-javascript-2026-07-20.md
 > **Links:**
-- [[build pdf redaction tool javascript]]
-- [[The Illustrated Stable Diffusion]]
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[why it worked on my machine still happens]]
-- [[master full stack mobile development with react native]]
+- [[build-pdf-redaction-tool-javascript]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[why-it-worked-on-my-machine-still-happens]]
+- [[master-full-stack-mobile-development-with-react-native]]
 
 ## Key Findings
 
@@ -157,8 +157,8 @@ The goal is to provide one consistent wor
 
 ## Related Articles
 
-- [[build pdf redaction tool javascript]]
-- [[The Illustrated Stable Diffusion]]
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[why it worked on my machine still happens]]
-- [[master full stack mobile development with react native]]
+- [[build-pdf-redaction-tool-javascript]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[why-it-worked-on-my-machine-still-happens]]
+- [[master-full-stack-mobile-development-with-react-native]]

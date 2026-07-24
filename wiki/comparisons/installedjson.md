@@ -25,9 +25,9 @@ tags:
 > **Links:**
 - [[translatex]]
 - [[translatez]]
-- [[get ready for the powerful css border shape property]]
-- [[whats important 14]]
-- [[python 3145 is out]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[whats-important-14]]
+- [[python-3145-is-out]]
 
 ## Key Findings
 
@@ -305,6 +305,6 @@ l": "https://github.com/phar-io/version.git",
 
 - [[translatex]]
 - [[translatez]]
-- [[get ready for the powerful css border shape property]]
-- [[whats important 14]]
-- [[python 3145 is out]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[whats-important-14]]
+- [[python-3145-is-out]]

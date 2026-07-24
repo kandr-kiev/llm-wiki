@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - software-is-having-its-cad-moment-and-right-now-it-feels-like-drowning-2026-07-21.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[class vs object who is the big boss 32nj]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
 
 ## Key Findings
 
@@ -130,11 +130,11 @@ So the path up probably isn't "specify first." It might be the opposite. You do 
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[class vs object who is the big boss 32nj]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
 ## Backlinks
 
 ```dataview

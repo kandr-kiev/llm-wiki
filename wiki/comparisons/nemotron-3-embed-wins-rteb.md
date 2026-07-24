@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - nvidia-nemotron-3-embed-ranks-1-overall-on-rteb-advancing-agentic-retrieval-2026-07-17.md
 > **Links:**
-- [[newer models same advantages]]
-- [[one click to sagemaker studio]]
-- [[model routing is simple until it isnt]]
-- [[native speed vllm transformers backend]]
-- [[real world voiceeq]]
+- [[newer-models-same-advantages]]
+- [[one-click-to-sagemaker-studio]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[native-speed-vllm-transformers-backend]]
+- [[real-world-voiceeq]]
 
 ## Key Findings
 
@@ -87,8 +87,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[newer models same advantages]]
-- [[one click to sagemaker studio]]
-- [[model routing is simple until it isnt]]
-- [[native speed vllm transformers backend]]
-- [[real world voiceeq]]
+- [[newer-models-same-advantages]]
+- [[one-click-to-sagemaker-studio]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[native-speed-vllm-transformers-backend]]
+- [[real-world-voiceeq]]

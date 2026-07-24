@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - burnout-in-it-addressing-overwork-poor-support-and-flawed-hiring-processes-for-career-satisfaction-2026-07-21.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[how we beat hotspot performance by cheating but not like that]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
 
 ## Key Findings
 
@@ -133,11 +133,11 @@ From Passion to Burnout: A
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[how we beat hotspot performance by cheating but not like that]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
 ## Backlinks
 
 ```dataview

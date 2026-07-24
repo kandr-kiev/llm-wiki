@@ -36,11 +36,11 @@ tags:
 > **Sources:**
 >   - 5-agent-skills-matt-pocock-2026-07-13.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[The Illustrated Stable Diffusion]]
+- [[automating-ai-away-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Generative AI Strategy]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[generative-ai-strategy]]
 
 ## Key Findings
 
@@ -108,8 +108,8 @@ The [tracer bullet](https://www.aihero.dev/tracer-bullets) analogy applies here.
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[The Illustrated Stable Diffusion]]
+- [[automating-ai-away-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Generative AI Strategy]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[generative-ai-strategy]]

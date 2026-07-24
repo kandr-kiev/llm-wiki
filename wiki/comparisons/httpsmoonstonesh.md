@@ -23,10 +23,10 @@ tags:
 > **Sources:**
 >   - moonstone-modern-cross-platform-lua-runtime-and-package-manager-written-in-zig-2026-07-18.md
 > **Links:**
-- [[Release v0.1.49-beta]]
-- [[REST API]]
-- [[Save credentials]]
-- [[how github used secret scanning to reach inbox zero]]
+- [[release-v0149-beta]]
+- [[cloudflare-workers-ai-rest-api-2026]]
+- [[how-to-use-cloudflare-workers-ai]]
+- [[how-github-used-secret-scanning-to-reach-inbox-zero]]
 - [[The output an emoji sequence [1] Basic, [2] Fully-qualified of two characters U+263A U+FE0F]]
 
 ## Key Findings
@@ -43,8 +43,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v0.1.49-beta]]
-- [[REST API]]
-- [[Save credentials]]
-- [[how github used secret scanning to reach inbox zero]]
+- [[release-v0149-beta]]
+- [[cloudflare-workers-ai-rest-api-2026]]
+- [[how-to-use-cloudflare-workers-ai]]
+- [[how-github-used-secret-scanning-to-reach-inbox-zero]]
 - [[The output an emoji sequence [1] Basic, [2] Fully-qualified of two characters U+263A U+FE0F]]

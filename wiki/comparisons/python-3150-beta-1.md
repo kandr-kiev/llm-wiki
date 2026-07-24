@@ -25,9 +25,9 @@ tags:
 >   - python-3150-beta-1-is-here-2026-07-17.md
 > **Links:**
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[python 3145 is out]]
-- [[python 3146 31314]]
-- [[Automating Ai Away]]
+- [[python-3145-is-out]]
+- [[python-3146-31314]]
+- [[automating-ai-away-2026-07-07]]
 - [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 
 ## Key Findings
@@ -92,5 +92,5 @@ lefthand bit.
 ## Related Articles
 
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[python 3145 is out]]
+- [[python-3145-is-out]]
 - [[p[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]

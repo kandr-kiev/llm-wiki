@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all-2026-07-20.md
 > **Links:**
-- [[neil rimer thinks the ai money is coming back out]]
-- [[adobe camera apps new feature will critique your photos using ai]]
-- [[natural raises 30m to reinvent payments for ai agents and take on stripe]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[adobe-camera-apps-new-feature-will-critique-your-photos-using-ai]]
+- [[natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[neil rimer thinks the ai money is coming back out]]
-- [[adobe camera apps new feature will critique your photos using ai]]
-- [[natural raises 30m to reinvent payments for ai agents and take on stripe]]
-- [[ai driven memory crunch jolts indias smartphone market]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[adobe-camera-apps-new-feature-will-critique-your-photos-using-ai]]
+- [[natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]

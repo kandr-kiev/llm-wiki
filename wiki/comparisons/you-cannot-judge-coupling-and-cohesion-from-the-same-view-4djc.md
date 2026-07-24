@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - you-cannot-judge-coupling-and-cohesion-from-the-same-view-2026-07-18.md
 > **Links:**
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[my insights on what working at big tech is actually like kgd]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -135,8 +135,8 @@ If that surface were wide and tangled, no amount of clean code inside the contex
 
 ## Related Articles
 
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[my insights on what working at big tech is actually like kgd]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]

@@ -23,8 +23,8 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorphar-ioversionreadmemd-2026-07-20.md
 > **Links:**
-- [[Manifest]]
-- [[Changelog]]
+- [[manifest]]
+- [[changelog]]
 - [[installed.json]]
 - [[composer.json]]
 - [[ci.yml]]
@@ -71,8 +71,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Manifest]]
-- [[Changelog]]
+- [[manifest]]
+- [[changelog]]
 - [[installed.json]]
 - [[composer.json]]
 - [[ci.yml]]

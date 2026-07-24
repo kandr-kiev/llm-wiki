@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - iterating-faster-with-typescript-7-2026-07-17.md
 > **Links:**
-- [[optimizing vscode coding harness model providers]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[The Illustrated Stable Diffusion]]
-- [[Automating away]]
+- [[optimizing-vscode-coding-harness-model-providers]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[away]]
 
 ## Key Findings
 
@@ -164,8 +164,8 @@ Reduced risk. Each step of the adoption was relatively small, so if something we
 
 ## Related Articles
 
-- [[optimizing vscode coding harness model providers]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[The Illustrated Stable Diffusion]]
-- [[Automating away]]
+- [[optimizing-vscode-coding-harness-model-providers]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[away]]

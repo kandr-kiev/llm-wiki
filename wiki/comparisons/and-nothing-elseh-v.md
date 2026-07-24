@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - regressive-jpegs-2026-07-18.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[i started a dirt notebook]]
-- [[The Illustrated Stable Diffusion]]
-- [[open source monopoly]]
+- [[i-started-a-dirt-notebook]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[open-source-monopoly]]
 
 ## Key Findings
 
@@ -107,8 +107,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[i started a dirt notebook]]
-- [[The Illustrated Stable Diffusion]]
-- [[open source monopoly]]
+- [[i-started-a-dirt-notebook]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[open-source-monopoly]]

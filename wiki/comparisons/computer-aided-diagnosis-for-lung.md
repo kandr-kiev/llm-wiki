@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - computer-aided-diagnosis-for-lung-cancer-screening-2026-07-17.md
 > **Links:**
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[gnn intro]]
-- [[jacquard lang]]
-- [[k 12 educators practical skills]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[gnn-intro]]
+- [[jacquard-lang]]
+- [[k-12-educators-practical-skills]]
 
 ## Key Findings
 
@@ -198,8 +198,8 @@ Earth AI
 
 ## Related Articles
 
-- [[cappy outperforming and boosting large]]
-- [[autobnn probabilistic time series]]
-- [[gnn intro]]
-- [[jacquard lang]]
-- [[k 12 educators practical skills]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[autobnn-probabilistic-time-series]]
+- [[gnn-intro]]
+- [[jacquard-lang]]
+- [[k-12-educators-practical-skills]]

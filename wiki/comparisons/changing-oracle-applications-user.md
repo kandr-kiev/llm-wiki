@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - changing-oracle-applications-user-password-using-fndcpass--step-by-step-guide-2026-07-17.md
 > **Links:**
-- [[Rust 1.96.0]]
-- [[Rust 1.97.1]]
+- [[rust-1960]]
+- [[rust-1971]]
 - [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
-- [[REST API]]
-- [[Rust 1.97.0]]
+- [[cloudflare-workers-ai-rest-api-2026]]
+- [[rust-1970]]
 
 ## Key Findings
 
@@ -147,5 +147,5 @@ Click on Activate changes.
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEg1z7yoQ2YbweROld9-_GzMwhmqf7HSqnfCmW6fvjqTgKP6tYDyzFAMSnNG5Is4daNDFfUc1ULs0LZa1tDLWL3eT-khQfM2B8Be7BSt_ZxWggp3O6cvXrTNVFlGUz4XyMTV_HTQFwPLUbqlqU09ADp8I-SYG5WGdm1D2xRxgvs1Cvn6zroDHi9DKOwMQs4=w640-h444)](https://blogger.googleusercontent.com/img/a/AVvXsEg1z7yoQ2YbweROld9-_GzMwhmqf7HSqnfCmW6fvjqTgKP6tYDyzFAMSnNG5Is4daNDFfUc1ULs0LZa1tDLWL3eT-khQfM2B8Be7BSt_ZxW
 
 ## Related Ar[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]
-- [[REST API]]
-- [[Rust 1.97.0]]
+- [[cloudflare-workers-ai-rest-api-2026]]
+- [[rust-1970]]

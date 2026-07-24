@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - the-little-book-of-reinforcement-learning-2026-07-17.md
 > **Links:**
-- [[lingbot map]]
-- [[jacquard lang]]
-- [[billai bass]]
-- [[FableCut]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
+- [[lingbot-map]]
+- [[jacquard-lang]]
+- [[billai-bass]]
+- [[fablecut]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
 
 ## Key Findings
 
@@ -96,8 +96,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[lingbot map]]
-- [[jacquard lang]]
-- [[billai bass]]
-- [[FableCut]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
+- [[lingbot-map]]
+- [[jacquard-lang]]
+- [[billai-bass]]
+- [[fablecut]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]

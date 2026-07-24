@@ -35,11 +35,11 @@ tags:
 > **Sources:**
 >   - best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwen-gemma-mistral-deepseek-compared-2026-07-20.md
 > **Links:**
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[sequoia ascent]]
-- [[Release 5.0.0]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[sequoia-ascent]]
+- [[release-500]]
 
 ## Key Findings
 
@@ -145,8 +145,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[sequoia ascent]]
-- [[Release 5.0.0]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[sequoia-ascent]]
+- [[release-500]]

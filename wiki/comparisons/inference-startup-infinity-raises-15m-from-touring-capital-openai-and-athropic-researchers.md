@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - inference-startup-infinity-raises-15m-from-touring-capital-openai-and-anthropic-researchers-2026-07-20.md
 > **Links:**
-- [[anthropics landmark 1 5b copyright settlement is approved]]
-- [[colossal biosciences reportedly in talks to raise new capital at 20b 30b valuation]]
-- [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
+- [[anthropics-landmark-1-5b-copyright-settlement-is-approved]]
+- [[colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation]]
+- [[vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[anthropics landmark 1 5b copyright settlement is approved]]
-- [[colossal biosciences reportedly in talks to raise new capital at 20b 30b valuation]]
-- [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
+- [[anthropics-landmark-1-5b-copyright-settlement-is-approved]]
+- [[colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation]]
+- [[vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]

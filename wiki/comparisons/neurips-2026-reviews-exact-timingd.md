@@ -27,11 +27,11 @@ backlinks:
 > **Sources:**
 >   - neurips-2026-reviews-exact-timingd-2026-07-21.md
 > **Links:**
-- [[my ocr model mislabels section titles as body]]
-- [[i just read lecuns recent thoughts on world]]
-- [[trinet v2 opensource implementation of our]]
-- [[exploring continual learning without replay]]
-- [[sequoia ascent]]
+- [[my-ocr-model-mislabels-section-titles-as-body]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[trinet-v2-opensource-implementation-of-our]]
+- [[exploring-continual-learning-without-replay]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -78,11 +78,11 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[my ocr model mislabels section titles as body]]
-- [[i just read lecuns recent thoughts on world]]
-- [[trinet v2 opensource implementation of our]]
-- [[exploring continual learning without replay]]
-- [[sequoia ascent]]
+- [[my-ocr-model-mislabels-section-titles-as-body]]
+- [[i-just-read-lecuns-recent-thoughts-on-world]]
+- [[trinet-v2-opensource-implementation-of-our]]
+- [[exploring-continual-learning-without-replay]]
+- [[sequoia-ascent]]
 ## Backlinks
 
 ```dataview

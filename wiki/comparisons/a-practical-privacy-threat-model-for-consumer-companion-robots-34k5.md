@@ -34,11 +34,11 @@ tags:
 > **Sources:**
 >   - a-practical-privacy-threat-model-for-consumer-companion-robots-2026-07-20.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -183,8 +183,8 @@ For each case, identify prevention, detection and recovery. For example, secure 
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]

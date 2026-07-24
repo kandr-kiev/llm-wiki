@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - how-to-be-an-effective-mentor-2026-07-17.md
 > **Links:**
-- [[how do i get started with my research]]
-- [[coming soon]]
-- [[academic conference survival guide]]
-- [[end the job search start with research]]
-- [[Automating Ai Away]]
+- [[how-do-i-get-started-with-my-research]]
+- [[coming-soon]]
+- [[academic-conference-survival-guide]]
+- [[end-the-job-search-start-with-research]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -112,8 +112,8 @@ Finally, it is important to realize that knowledge transfer should be done throu
 
 ## Related Articles
 
-- [[how do i get started with my research]]
-- [[coming soon]]
-- [[academic conference survival guide]]
-- [[end the job search start with research]]
-- [[Automating Ai Away]]
+- [[how-do-i-get-started-with-my-research]]
+- [[coming-soon]]
+- [[academic-conference-survival-guide]]
+- [[end-the-job-search-start-with-research]]
+- [[automating-ai-away-2026-07-07]]

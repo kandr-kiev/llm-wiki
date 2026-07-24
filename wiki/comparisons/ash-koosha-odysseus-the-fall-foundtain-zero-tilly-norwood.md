@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - ai-slop-movies-are-the-new-direct-to-video-cash-grabs-2026-07-17.md
 > **Links:**
-- [[msbuild binlog mcp server]]
+- [[msbuild-binlog-mcp-server]]
 - [[3869]]
 - [[arXiv:2607.02686]]
-- [[cWsyMTV3]]
-- [[jacquard lang]]
+- [[cwsymtv3]]
+- [[jacquard-lang]]
 
 ## Key Findings
 
@@ -74,8 +74,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[msbuild binlog mcp server]]
+- [[msbuild-binlog-mcp-server]]
 - [[3869]]
 - [[arXiv:2607.02686]]
-- [[cWsyMTV3]]
-- [[jacquard lang]]
+- [[cwsymtv3]]
+- [[jacquard-lang]]

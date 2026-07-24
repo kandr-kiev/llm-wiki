@@ -18,11 +18,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-proclientpackagejson-2026-07-20.md
 > **Links:**
-- [[add lesson]]
-- [[database setup]]
+- [[add-lesson]]
+- [[database-setup]]
 - [[deploy]]
-- [[get ready for the powerful css border shape property]]
-- [[Local LLM Wiki Algorithm]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[local-llm-wiki-algorithm]]
 
 ## Key Findings
 
@@ -61,8 +61,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[add lesson]]
-- [[database setup]]
+- [[add-lesson]]
+- [[database-setup]]
 - [[deploy]]
-- [[get ready for the powerful css border shape property]]
-- [[Local LLM Wiki Algorithm]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[local-llm-wiki-algorithm]]

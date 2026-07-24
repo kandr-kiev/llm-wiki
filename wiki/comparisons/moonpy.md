@@ -21,8 +21,8 @@ tags:
 >   - local-weather-space-lunar-digestsrcadaptersmoonpy-2026-07-20.md
 > **Links:**
 - [[airraid.py]]
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
-- [[get ready for the powerful css border shape property]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[translatex]]
 - [[translatez]]
 
@@ -158,7 +158,7 @@ advices = {
 ## Related Articles
 
 - [[airraid.py]]
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
-- [[get ready for the powerful css border shape property]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[translatex]]
 - [[translatez]]

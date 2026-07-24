@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - advancing-next-gen-ai-with-materials-science-innovation-2026-07-21.md
 > **Links:**
-- [[weather data sabotage]]
-- [[ai biases hiring humans]]
-- [[achieving operational excellence with ai]]
-- [[your familys 300 stake in openai]]
-- [[chinas ai models have trumps ai world at war with itself]]
+- [[weather-data-sabotage]]
+- [[ai-biases-hiring-humans]]
+- [[achieving-operational-excellence-with-ai]]
+- [[your-familys-300-stake-in-openai]]
+- [[chinas-ai-models-have-trumps-ai-world-at-war-with-itself]]
 
 ## Key Findings
 
@@ -56,11 +56,11 @@ g.woff) format("woff"),url(/cdn/_/fonts/NeueHaas/nhaasgroteskdsstd-55rg.ttf) for
 
 ## Related Articles
 
-- [[weather data sabotage]]
-- [[ai biases hiring humans]]
-- [[achieving operational excellence with ai]]
-- [[your familys 300 stake in openai]]
-- [[chinas ai models have trumps ai world at war with itself]]
+- [[weather-data-sabotage]]
+- [[ai-biases-hiring-humans]]
+- [[achieving-operational-excellence-with-ai]]
+- [[your-familys-300-stake-in-openai]]
+- [[chinas-ai-models-have-trumps-ai-world-at-war-with-itself]]
 ## Backlinks
 
 ```dataview

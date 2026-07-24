@@ -38,11 +38,11 @@ backlinks:
 > **Sources:**
 >   - america-needs-to-stop-getting-shocked-by-chinese-ai-2026-07-21.md
 > **Links:**
-- [[spacex in your index fund explained]]
-- [[1010benja semiramis dream suno ai music]]
-- [[adobe indigo camera app ai playground update]]
-- [[apple openai lawsuit vergecast]]
-- [[best apps gadgets reading installer]]
+- [[spacex-in-your-index-fund-explained]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[best-apps-gadgets-reading-installer]]
 
 ## Key Findings
 
@@ -71,11 +71,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[spacex in your index fund explained]]
-- [[1010benja semiramis dream suno ai music]]
-- [[adobe indigo camera app ai playground update]]
-- [[apple openai lawsuit vergecast]]
-- [[best apps gadgets reading installer]]
+- [[spacex-in-your-index-fund-explained]]
+- [[1010benja-semiramis-dream-suno-ai-music]]
+- [[adobe-indigo-camera-app-ai-playground-update]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[best-apps-gadgets-reading-installer]]
 ## Backlinks
 
 ```dataview

@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - when-it-makes-sense-to-block-the-main-thread-2026-07-17.md
 > **Links:**
-- [[impact humanoid robots humanity]]
-- [[people dont want more ai]]
-- [[desktop wallpaper calendars july]]
-- [[why accessibility operational capability not feature]]
-- [[weather data sabotage]]
+- [[impact-humanoid-robots-humanity]]
+- [[people-dont-want-more-ai]]
+- [[desktop-wallpaper-calendars-july]]
+- [[why-accessibility-operational-capability-not-feature]]
+- [[weather-data-sabotage]]
 
 ## Key Findings
 
@@ -44,8 +44,8 @@ av-item,.wf-loaded-stage2 .search .search-input,.wf-loaded-stage2 .subnav a,.wf-
 
 ## Related Articles
 
-- [[impact humanoid robots humanity]]
-- [[people dont want more ai]]
-- [[desktop wallpaper calendars july]]
-- [[why accessibility operational capability not feature]]
-- [[weather data sabotage]]
+- [[impact-humanoid-robots-humanity]]
+- [[people-dont-want-more-ai]]
+- [[desktop-wallpaper-calendars-july]]
+- [[why-accessibility-operational-capability-not-feature]]
+- [[weather-data-sabotage]]

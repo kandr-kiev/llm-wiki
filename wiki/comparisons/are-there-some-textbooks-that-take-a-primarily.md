@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - are-there-some-textbooks-that-take-a-primarily-engineering-approach-to-machine-learning-as-opposed-t-2026-07-20.md
 > **Links:**
-- [[sequoia ascent]]
-- [[open source monopoly]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[am i focusing on the wrong skills as a cs student]]
-- [[auto grade hn]]
+- [[sequoia-ascent]]
+- [[open-source-monopoly]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[am-i-focusing-on-the-wrong-skills-as-a-cs-student]]
+- [[auto-grade-hn]]
 
 ## Key Findings
 
@@ -73,8 +73,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[sequoia ascent]]
-- [[open source monopoly]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[am i focusing on the wrong skills as a cs student]]
-- [[auto grade hn]]
+- [[sequoia-ascent]]
+- [[open-source-monopoly]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[am-i-focusing-on-the-wrong-skills-as-a-cs-student]]
+- [[auto-grade-hn]]

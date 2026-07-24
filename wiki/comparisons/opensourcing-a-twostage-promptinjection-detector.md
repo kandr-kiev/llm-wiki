@@ -28,10 +28,10 @@ tags:
 > **Sources:**
 >   - open-sourcing-a-two-stage-prompt-injection-detector-regex-gate--quantised-deberta-v3-onnx-trained-pa-2026-07-20.md
 > **Links:**
-- [[follow up gpt2s vocabulary as a hyperbolic tree]]
-- [[introducing asciitermdraw bench testing the]]
-- [[eccv 2026 malmö looking for 34 people to share an]]
-- [[sequoia ascent]]
+- [[follow-up-gpt2s-vocabulary-as-a-hyperbolic-tree]]
+- [[introducing-asciitermdraw-bench-testing-the]]
+- [[eccv-2026-malmö-looking-for-34-people-to-share-an]]
+- [[sequoia-ascent]]
 - [[arXiv:2607.11977]]
 
 ## Key Findings
@@ -76,8 +76,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[follow up gpt2s vocabulary as a hyperbolic tree]]
-- [[introducing asciitermdraw bench testing the]]
-- [[eccv 2026 malmö looking for 34 people to share an]]
-- [[sequoia ascent]]
+- [[follow-up-gpt2s-vocabulary-as-a-hyperbolic-tree]]
+- [[introducing-asciitermdraw-bench-testing-the]]
+- [[eccv-2026-malmö-looking-for-34-people-to-share-an]]
+- [[sequoia-ascent]]
 - [[arXiv:2607.11977]]

@@ -23,9 +23,9 @@ tags:
 > **Sources:**
 >   - oracle-database-26ai-installation-using-rpm-on-oracle-linux-9-oel-9--step-by-step-guide-2026-07-17.md
 > **Links:**
-- [[how to patch oracle database to 1931 on]]
-- [[changing oracle applications user]]
-- [[sequoia ascent]]
+- [[how-to-patch-oracle-database-to-1931-on]]
+- [[changing-oracle-applications-user]]
+- [[sequoia-ascent]]
 - [[v0.27.0]]
 - [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 
@@ -146,5 +146,5 @@ Dependencies resolved.
 
 ## Related Articles
 
-- [[how to patch oracle database to 1931 on]]
+- [[how-to-patch-oracle-database-to-1931-on]]
 - [[changing oracle application[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]

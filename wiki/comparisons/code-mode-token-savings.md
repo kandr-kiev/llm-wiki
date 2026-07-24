@@ -35,11 +35,11 @@ tags:
 > **Sources:**
 >   - code-mode-yields-a-992-cost-reduction-in-our-systems-2026-07-23.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[automating-ai-away-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Hermes Agent v0.18.0 → v0.22.1 Deep Dive & 2026 Trends]]
+- [[hermes-agent-v0180-deep-dive-2026-trends-moe-context]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ The wall-clock and cost of the raw path are the only estimated numbers here, and
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[automating-ai-away-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Hermes Agent v0.18.0 → v0.22.1 Deep Dive & 2026 Trends]]
+- [[hermes-agent-v0180-deep-dive-2026-trends-moe-context]]

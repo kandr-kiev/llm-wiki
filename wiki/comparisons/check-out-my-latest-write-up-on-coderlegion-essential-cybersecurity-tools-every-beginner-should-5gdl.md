@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - check-out-my-latest-write-up-on-coderlegion-essential-cybersecurity-tools-every-beginner-should-know-2026-07-20.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -122,8 +122,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[repeating tasks without repeating code 4fak]]
-- [[the gitbook migration trap 4gp2]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[its-a-post-4hi8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

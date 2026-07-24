@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - ai-driven-memory-crunch-jolts-indias-smartphone-market-2026-07-17.md
 > **Links:**
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[roblox launches an ai powered game creation feature in its mobile app]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
-- [[roblox launches an ai powered game creation feature in its mobile app]]
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
+- [[roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]

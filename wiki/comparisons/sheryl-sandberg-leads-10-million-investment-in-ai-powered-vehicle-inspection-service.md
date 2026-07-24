@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - sheryl-sandberg-leads-10-million-investment-in-ai-powered-vehicle-inspection-service-2026-07-17.md
 > **Links:**
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[google vids now lets you star in your own ai videos]]
-- [[mercor is in talks for a 20b valuation]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[google vids now lets you star in your own ai videos]]
-- [[mercor is in talks for a 20b valuation]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]

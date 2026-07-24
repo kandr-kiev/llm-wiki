@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - ask-hn-add-flag-for-ai-generated-articles-2026-07-13.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[sequoia ascent]]
-- [[auto grade hn]]
+- [[sequoia-ascent]]
+- [[auto-grade-hn]]
 
 ## Key Findings
 
@@ -55,8 +55,8 @@ Regarding 1, I think a) a sizeable fraction of voters are not able to recognize 
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[sequoia ascent]]
-- [[auto grade hn]]
+- [[sequoia-ascent]]
+- [[auto-grade-hn]]

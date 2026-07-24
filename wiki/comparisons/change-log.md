@@ -20,11 +20,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorphpunitphp-file-iteratorchangelogmd-2026-07-20.md
 > **Links:**
-- [[Changelog]]
-- [[Version]]
-- [[Manifest]]
-- [[Security Policy]]
-- [[get ready for the powerful css border shape property]]
+- [[changelog]]
+- [[version]]
+- [[manifest]]
+- [[security-policy]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 
 ## Key Findings
 
@@ -139,8 +139,8 @@ No changes
 
 ## Related Articles
 
-- [[Changelog]]
-- [[Version]]
-- [[Manifest]]
-- [[Security Policy]]
-- [[get ready for the powerful css border shape property]]
+- [[changelog]]
+- [[version]]
+- [[manifest]]
+- [[security-policy]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]

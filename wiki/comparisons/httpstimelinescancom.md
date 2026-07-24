@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - timeline-scan--ai-fixes-the-dates-on-your-scanned-photos-2026-07-17.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[robots txt 2023 war memorial]]
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[robots-txt-2023-war-memorial]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 
 ## Key Findings
 
@@ -191,8 +191,8 @@ Open your dashboard
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[robots txt 2023 war memorial]]
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[robots-txt-2023-war-memorial]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]

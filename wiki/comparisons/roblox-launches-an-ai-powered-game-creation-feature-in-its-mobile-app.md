@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app-2026-07-17.md
 > **Links:**
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[google vids now lets you star in your own ai videos]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[google vids now lets you star in your own ai videos]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]

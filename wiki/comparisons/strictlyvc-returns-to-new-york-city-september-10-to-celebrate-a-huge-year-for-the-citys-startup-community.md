@@ -27,11 +27,11 @@ backlinks:
 > **Sources:**
 >   - strictlyvc-returns-to-new-yorkcityseptember-10to-celebrate-a-huge-year-for-the-citys-startup-communi-2026-07-20.md
 > **Links:**
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[odyssey director christopher nolan calls ai an obvious trojan horse]]
-- [[mercor is in talks for a 20b valuation]]
-- [[the zoom hack that says dont record me]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[the-zoom-hack-that-says-dont-record-me]]
 
 ## Key Findings
 
@@ -69,11 +69,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[odyssey director christopher nolan calls ai an obvious trojan horse]]
-- [[mercor is in talks for a 20b valuation]]
-- [[the zoom hack that says dont record me]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[the-zoom-hack-that-says-dont-record-me]]
 ## Backlinks
 
 ```dataview

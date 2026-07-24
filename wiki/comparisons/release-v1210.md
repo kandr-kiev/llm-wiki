@@ -35,8 +35,8 @@ tags:
 > **Sources:**
 >   - gh-v1210-2026-07-14.md
 > **Links:**
-- [[Release v0.39.0]]
-- [[Release 5.0.0]]
+- [[release-v0390]]
+- [[release-500]]
 - [[v0.22.1]]
 - [Issue #47321: AMD quark class not updated](http[Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter](https://github.com/pytorch/pytorch/issues/8141)1: fix(muon): support ZeRO-1/2 reduce scatter]]
 

@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - deadstop-2025-vs-crossfit-games-2024-2026-07-17.md
 > **Links:**
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[api first or browser automation lessons from shipping content autoposting 55pl]]
-- [[corpus scrub 010 detecta y redacta pii y secretos en corpus de entrenamiento antes del 432h]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[api-first-or-browser-automation-lessons-from-shipping-content-autoposting-55pl]]
+- [[corpus-scrub-010-detecta-y-redacta-pii-y-secretos-en-corpus-de-entrenamiento-antes-del-432h]]
 - [[https://agnost.ai]]
-- [[Release 5.0.0]]
+- [[release-500]]
 
 ## Key Findings
 
@@ -156,8 +156,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[api first or browser automation lessons from shipping content autoposting 55pl]]
-- [[corpus scrub 010 detecta y redacta pii y secretos en corpus de entrenamiento antes del 432h]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[api-first-or-browser-automation-lessons-from-shipping-content-autoposting-55pl]]
+- [[corpus-scrub-010-detecta-y-redacta-pii-y-secretos-en-corpus-de-entrenamiento-antes-del-432h]]
 - [[https://agnost.ai]]
-- [[Release 5.0.0]]
+- [[release-500]]

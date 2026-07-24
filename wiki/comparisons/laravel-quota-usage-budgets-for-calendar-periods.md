@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - laravel-quota-usage-budgets-for-calendar-periods-2026-07-17.md
 > **Links:**
-- [[enforce per action waiting periods in laravel with cooldown]]
-- [[laravel legacy bridge carry authenticated sessions from a legacy app into laravel]]
+- [[enforce-per-action-waiting-periods-in-laravel-with-cooldown]]
+- [[laravel-legacy-bridge-carry-authenticated-sessions-from-a-legacy-app-into-laravel]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 
 ## Key Findings
 
@@ -88,8 +88,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[enforce per action waiting periods in laravel with cooldown]]
-- [[laravel legacy bridge carry authenticated sessions from a legacy app into laravel]]
+- [[enforce-per-action-waiting-periods-in-laravel-with-cooldown]]
+- [[laravel-legacy-bridge-carry-authenticated-sessions-from-a-legacy-app-into-laravel]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]

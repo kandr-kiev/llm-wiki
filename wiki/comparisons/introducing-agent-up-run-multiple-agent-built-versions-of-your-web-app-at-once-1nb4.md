@@ -33,11 +33,11 @@ backlinks:
 > **Sources:**
 >   - introducing-agent-up-run-multiple-agent-built-versions-of-your-web-app-at-once-2026-07-21.md
 > **Links:**
-- [[starting my developer journey bh8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[class vs object who is the big boss 32nj]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[the gitbook migration trap 4gp2]]
+- [[starting-my-developer-journey-bh8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -160,11 +160,11 @@ An agent finishes its work and starts the new version through the Agent-Up MC
 
 ## Related Articles
 
-- [[starting my developer journey bh8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[class vs object who is the big boss 32nj]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[the gitbook migration trap 4gp2]]
+- [[starting-my-developer-journey-bh8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[the-gitbook-migration-trap-4gp2]]
 ## Backlinks
 
 ```dataview

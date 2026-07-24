@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - how-to-implement-paypal-in-a-microservice-architecture-using-nestjs-grpc-and-docker-2026-07-17.md
 > **Links:**
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[master full stack mobile development with react native]]
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[understanding dijkstra s algorithm]]
-- [[How to Integrate MCP — Step-by-Step]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[master-full-stack-mobile-development-with-react-native]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[understanding-dijkstra-s-algorithm]]
+- [[how-to-integrate-mcp-step-by-step]]
 
 ## Key Findings
 
@@ -175,8 +175,8 @@ Domain services on
 
 ## Related Articles
 
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[master full stack mobile development with react native]]
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[understanding dijkstra s algorithm]]
-- [[How to Integrate MCP — Step-by-Step]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[master-full-stack-mobile-development-with-react-native]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[understanding-dijkstra-s-algorithm]]
+- [[how-to-integrate-mcp-step-by-step]]

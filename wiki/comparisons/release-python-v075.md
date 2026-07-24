@@ -23,10 +23,10 @@ tags:
 >   - gh-python-v075-2026-07-14.md
 > **Links:**
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v1.6.0]]
+- [[release-v160]]
 - [[v0.26.1]]
 - [Issue #2460: Bump the actions group across 1 directory with 4 updates](https://github.com/pytorch/pytorch/issues/2460)
-- [[Release langchain-core==1.4.9]]
+- [[release-langchain-core149]]
 
 ## Key Findings
 
@@ -70,4 +70,4 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[Release Notes: Ollama vv[Issue #2460: Bump the actions group across 1 directory with 4 updates](https://github.com/pytorch/pytorch/issues/2460)ions group across 1 directory with 4 updates]]
-- [[Release langchain-core==1.4.9]]
+- [[release-langchain-core149]]

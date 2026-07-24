@@ -29,7 +29,7 @@ tags:
 - [Issue #14167: FlashPack support for transformers pipeline components]
 - [Issue #8333: Support batched=True in Dataset.to_dict]
 - [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
-- [[Automating away]]
+- [[away]]
 
 ## Key Findings
 
@@ -82,4 +82,4 @@ See Key Findings for full content.
 - [Issue #14167: FlashPack support for transformers pipeline components]
 - [Issue #8333: Support batched=True in Dataset.to_dict]
 - [Issue #47255: Point to Gemma 4 model in Gemma4ForCausalLM docstring example]
-- [[Automating away]]
+- [[away]]

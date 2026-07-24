@@ -22,11 +22,11 @@ backlinks:
 > **Sources:**
 >   - how-the-2026-world-cup-affected-internet-traffic-2026-07-21.md
 > **Links:**
-- [[internal dns]]
-- [[wordpress vulnerabilities]]
-- [[meerkat introduction]]
-- [[rollbacks for workflows]]
-- [[agentic internet bot report]]
+- [[internal-dns]]
+- [[wordpress-vulnerabilities]]
+- [[meerkat-introduction]]
+- [[rollbacks-for-workflows]]
+- [[agentic-internet-bot-report]]
 
 ## Key Findings
 
@@ -45,11 +45,11 @@ ons"],"href":[0,"/products/access/"]}],[0,{"title":[0,"Secure Web Gateway"],"des
 
 ## Related Articles
 
-- [[internal dns]]
-- [[wordpress vulnerabilities]]
-- [[meerkat introduction]]
-- [[rollbacks for workflows]]
-- [[agentic internet bot report]]
+- [[internal-dns]]
+- [[wordpress-vulnerabilities]]
+- [[meerkat-introduction]]
+- [[rollbacks-for-workflows]]
+- [[agentic-internet-bot-report]]
 ## Backlinks
 
 ```dataview

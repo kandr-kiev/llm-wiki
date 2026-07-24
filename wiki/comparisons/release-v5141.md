@@ -19,11 +19,11 @@ tags:
 > **Sources:**
 >   - gh-v5141-2026-07-16.md
 > **Links:**
-- [[Release v5.6.0]]
+- [[release-v560]]
 - [[v0.22.1]]
-- [[Patch release v5.10.4]]
-- [[Release v0.25.1]]
-- [[Release v5.14.0]]
+- [[patch-release-v5104]]
+- [[release-v0251]]
+- [[release-v5140]]
 
 ## Key Findings
 
@@ -48,8 +48,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v5.6.0]]
+- [[release-v560]]
 - [[v0.22.1]]
-- [[Patch release v5.10.4]]
-- [[Release v0.25.1]]
-- [[Release v5.14.0]]
+- [[patch-release-v5104]]
+- [[release-v0251]]
+- [[release-v5140]]

@@ -22,10 +22,10 @@ tags:
 >   - gh-b10007-2026-07-14.md
 > **Links:**
 - [[Release Notes: Llama.cpp vb9956]]
-- [[PyTorch 2.11.0 Release]]
-- [[PyTorch 2.12.1 Release, bug fix release]]
+- [[pytorch-2110-release]]
+- [[pytorch-2121-release-bug-fix-release]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v1.14.3]]
+- [[release-v1143]]
 
 ## Key Findings
 
@@ -72,7 +72,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[Release Notes: Llama.cpp vb9956]]
-- [[PyTorch 2.11.0 Release]]
-- [[PyTorch 2.12.1 Release, bug fix release]]
+- [[pytorch-2110-release]]
+- [[pytorch-2121-release-bug-fix-release]]
 - [[Release Notes: Ollama vv0.31.2]]
-- [[Release v1.14.3]]
+- [[release-v1143]]

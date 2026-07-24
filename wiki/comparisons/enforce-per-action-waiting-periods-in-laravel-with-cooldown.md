@@ -27,10 +27,10 @@ tags:
 >   - enforce-per-action-waiting-periods-in-laravel-with-cooldown-2026-07-17.md
 > **Links:**
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[workers cache]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Release v0.25.1]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[workers-cache]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[release-v0251]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -132,7 +132,7 @@ Github
 ## Related Articles
 
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[workers cache]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Release v0.25.1]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[workers-cache]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[release-v0251]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

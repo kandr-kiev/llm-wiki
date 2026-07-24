@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - how-to-build-plasmid-engineering-workbench-with-circular-mapping-restriction-analysis-virtual-gels-a-2026-07-18.md
 > **Links:**
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[sequoia ascent]]
-- [[upgrading oracle e business suite r122 014]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[sequoia-ascent]]
+- [[upgrading-oracle-e-business-suite-r122-014]]
 
 ## Key Findings
 
@@ -139,8 +139,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[sequoia ascent]]
-- [[upgrading oracle e business suite r122 014]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[sequoia-ascent]]
+- [[upgrading-oracle-e-business-suite-r122-014]]

@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - gpt-56-used-a-prompt-to-close-a-30-year-gap-in-convex-optimization-2026-07-18.md
 > **Links:**
-- [[sequoia ascent]]
-- [[Automating Ai Away]]
-- [[The Illustrated Stable Diffusion]]
-- [[5 Agent Skills I Use Every Day]]
-- [[auto grade hn]]
+- [[sequoia-ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[auto-grade-hn]]
 
 ## Key Findings
 
@@ -72,8 +72,8 @@ Requests for calculation or estimation of real-world problems and values are bes
 
 ## Related Articles
 
-- [[sequoia ascent]]
-- [[Automating Ai Away]]
-- [[The Illustrated Stable Diffusion]]
-- [[5 Agent Skills I Use Every Day]]
-- [[auto grade hn]]
+- [[sequoia-ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[auto-grade-hn]]

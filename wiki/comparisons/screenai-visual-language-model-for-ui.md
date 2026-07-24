@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - screenai-a-visual-language-model-for-ui-and-visually-situated-language-understanding-2026-07-17.md
 > **Links:**
-- [[cappy outperforming and boosting large]]
-- [[heal framework for health equity]]
-- [[autobnn probabilistic time series]]
-- [[generative ai to quantify uncertainty]]
-- [[melon reconstructing 3d objects from]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[heal-framework-for-health-equity]]
+- [[autobnn-probabilistic-time-series]]
+- [[generative-ai-to-quantify-uncertainty]]
+- [[melon-reconstructing-3d-objects-from]]
 
 ## Key Findings
 
@@ -199,8 +199,8 @@ Applied AI & sciences
 
 ## Related Articles
 
-- [[cappy outperforming and boosting large]]
-- [[heal framework for health equity]]
-- [[autobnn probabilistic time series]]
-- [[generative ai to quantify uncertainty]]
-- [[melon reconstructing 3d objects from]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[heal-framework-for-health-equity]]
+- [[autobnn-probabilistic-time-series]]
+- [[generative-ai-to-quantify-uncertainty]]
+- [[melon-reconstructing-3d-objects-from]]

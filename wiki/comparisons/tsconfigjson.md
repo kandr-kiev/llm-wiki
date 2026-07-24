@@ -20,8 +20,8 @@ tags:
 > **Links:**
 - [[package.json]]
 - [[app.js]]
-- [[database setup]]
-- [[add lesson]]
+- [[database-setup]]
+- [[add-lesson]]
 - [[deploy]]
 
 ## Key Findings
@@ -74,6 +74,6 @@ See Key Findings for full content.
 
 - [[package.json]]
 - [[app.js]]
-- [[database setup]]
-- [[add lesson]]
+- [[database-setup]]
+- [[add-lesson]]
 - [[deploy]]

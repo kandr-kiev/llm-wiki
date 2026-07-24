@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - reviving-a-20-year-old-basic---and-getting-it-to-run-in-the-browser-2026-07-18.md
 > **Links:**
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
-- [[my insights on what working at big tech is actually like kgd]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]
 
 ## Key Findings
 
@@ -139,8 +139,8 @@ Roughly the order it happened in:
 
 ## Related Articles
 
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[the gitbook migration trap 4gp2]]
-- [[my insights on what working at big tech is actually like kgd]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[my-insights-on-what-working-at-big-tech-is-actually-like-kgd]]

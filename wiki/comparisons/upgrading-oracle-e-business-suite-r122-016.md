@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - upgrading-oracle-e-business-suite-r122-database-from-12102-to-19c---part-vi-2026-07-17.md
 > **Links:**
-- [[upgrading oracle e business suite r122 014]]
-- [[upgrading oracle e business suite r122 01]]
-- [[upgrading oracle e business suite r122 019]]
-- [[upgrading oracle e business suite r122]]
-- [[changing oracle applications user]]
+- [[upgrading-oracle-e-business-suite-r122-014]]
+- [[upgrading-oracle-e-business-suite-r122-01]]
+- [[upgrading-oracle-e-business-suite-r122-019]]
+- [[upgrading-oracle-e-business-suite-r122]]
+- [[changing-oracle-applications-user]]
 
 ## Key Findings
 
@@ -136,8 +136,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[upgrading oracle e business suite r122 014]]
-- [[upgrading oracle e business suite r122 01]]
-- [[upgrading oracle e business suite r122 019]]
-- [[upgrading oracle e business suite r122]]
-- [[changing oracle applications user]]
+- [[upgrading-oracle-e-business-suite-r122-014]]
+- [[upgrading-oracle-e-business-suite-r122-01]]
+- [[upgrading-oracle-e-business-suite-r122-019]]
+- [[upgrading-oracle-e-business-suite-r122]]
+- [[changing-oracle-applications-user]]

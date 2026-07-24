@@ -19,10 +19,10 @@ tags:
 >   - local-weather-space-lunar-digestsrccontentmonty_commentspy-2026-07-20.md
 > **Links:**
 - [[anecdotes.py]]
-- [[health advice.py]]
+- [[health-advicepy]]
 - [[airraid.py]]
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 
 ## Key Findings
 
@@ -101,7 +101,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[anecdotes.py]]
-- [[health advice.py]]
+- [[health-advicepy]]
 - [[airraid.py]]
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]

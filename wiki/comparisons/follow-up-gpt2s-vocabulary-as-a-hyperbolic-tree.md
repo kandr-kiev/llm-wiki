@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - follow-up-gpt-2s-vocabulary-as-a-hyperbolic-tree---32070-tokens-in-a-poincaré-ball-you-can-fly-throu-2026-07-20.md
 > **Links:**
-- [[eccv 2026 malmö looking for 34 people to share an]]
-- [[are there some textbooks that take a primarily]]
-- [[arr 2026 meta review score d]]
-- [[did blatant ai slop just win a 25k usd deepmind]]
-- [[sequoia ascent]]
+- [[eccv-2026-malmö-looking-for-34-people-to-share-an]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[arr-2026-meta-review-score-d]]
+- [[did-blatant-ai-slop-just-win-a-25k-usd-deepmind]]
+- [[sequoia-ascent]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[eccv 2026 malmö looking for 34 people to share an]]
-- [[are there some textbooks that take a primarily]]
-- [[arr 2026 meta review score d]]
-- [[did blatant ai slop just win a 25k usd deepmind]]
-- [[sequoia ascent]]
+- [[eccv-2026-malmö-looking-for-34-people-to-share-an]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[arr-2026-meta-review-score-d]]
+- [[did-blatant-ai-slop-just-win-a-25k-usd-deepmind]]
+- [[sequoia-ascent]]

@@ -21,10 +21,10 @@ tags:
 > **Sources:**
 >   - gh-v2210-2026-07-14.md
 > **Links:**
-- [[TensorFlow 2.21.0-rc0]]
-- [[TensorFlow 2.21.0-rc1]]
-- [[TensorFlow 2.21.0]]
-- [[TensorFlow 2.20.0]]
+- [[tensorflow-2210-rc0]]
+- [[tensorflow-2210-rc1]]
+- [[tensorflow-2210]]
+- [[tensorflow-2200]]
 - [[v0.22.1]]
 
 ## Key Findings
@@ -66,8 +66,8 @@ hong.zhuang, Haibo Huang, Hana Joo, Hariprasad Ravishankar, Harsha H S, Harshit 
 
 ## Related Articles
 
-- [[TensorFlow 2.21.0-rc0]]
-- [[TensorFlow 2.21.0-rc1]]
-- [[TensorFlow 2.21.0]]
-- [[TensorFlow 2.20.0]]
+- [[tensorflow-2210-rc0]]
+- [[tensorflow-2210-rc1]]
+- [[tensorflow-2210]]
+- [[tensorflow-2200]]
 - [[v0.22.1]]

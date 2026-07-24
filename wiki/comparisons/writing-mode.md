@@ -28,11 +28,11 @@ backlinks:
 > **Sources:**
 >   - writing-mode-2026-07-21.md
 > **Links:**
-- [[pointer events]]
+- [[pointer-events]]
 - [[translate]]
 - [[translatey]]
-- [[css states and javascript events]]
-- [[whats important 14]]
+- [[css-states-and-javascript-events]]
+- [[whats-important-14]]
 
 ## Key Findings
 
@@ -115,11 +115,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[pointer events]]
+- [[pointer-events]]
 - [[translate]]
 - [[translatey]]
-- [[css states and javascript events]]
-- [[whats important 14]]
+- [[css-states-and-javascript-events]]
+- [[whats-important-14]]
 ## Backlinks
 
 ```dataview

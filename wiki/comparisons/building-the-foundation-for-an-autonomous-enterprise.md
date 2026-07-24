@@ -29,10 +29,10 @@ tags:
 > **Sources:**
 >   - building-the-foundation-for-an-autonomous-enterprise-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
 - [[textures]]
 
 ## Key Findings
@@ -53,8 +53,8 @@ Building the foundation for an autonomous enterprise | MIT Technology Review
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
 - [[textures]]

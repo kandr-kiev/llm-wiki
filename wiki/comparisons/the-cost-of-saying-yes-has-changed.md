@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - the-cost-of-saying-yes-has-changed-2026-07-17.md
 > **Links:**
-- [[how github used secret scanning to reach inbox zero]]
-- [[github for beginners your roadmap to mastering the github essentials]]
-- [[how github copilot enables zero dns configuration for github pages]]
-- [[heal framework for health equity]]
-- [[jacquard lang]]
+- [[how-github-used-secret-scanning-to-reach-inbox-zero]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
+- [[how-github-copilot-enables-zero-dns-configuration-for-github-pages]]
+- [[heal-framework-for-health-equity]]
+- [[jacquard-lang]]
 
 ## Key Findings
 
@@ -93,8 +93,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[how github used secret scanning to reach inbox zero]]
-- [[github for beginners your roadmap to mastering the github essentials]]
-- [[how github copilot enables zero dns configuration for github pages]]
-- [[heal framework for health equity]]
-- [[jacquard lang]]
+- [[how-github-used-secret-scanning-to-reach-inbox-zero]]
+- [[github-for-beginners-your-roadmap-to-mastering-the-github-essentials]]
+- [[how-github-copilot-enables-zero-dns-configuration-for-github-pages]]
+- [[heal-framework-for-health-equity]]
+- [[jacquard-lang]]

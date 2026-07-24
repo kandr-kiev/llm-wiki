@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - claude-reflect-i-audited-how-i-actually-use-ai-2026-07-20.md
 > **Links:**
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[class vs object who is the big boss 32nj]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
 
 ## Key Findings
 
@@ -141,8 +141,8 @@ None of these are dramatic. That is the point. Reflect is
 
 ## Related Articles
 
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[class vs object who is the big boss 32nj]]
-- [[stop hand translating between sql and your erd 4ohm]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]

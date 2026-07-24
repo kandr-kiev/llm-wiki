@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - what-building-shippy-taught-us-about-building-agents-2026-07-17.md
 > **Links:**
-- [[newer models same advantages]]
-- [[thinkingmachines inkling]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[security incident july]]
+- [[newer-models-same-advantages]]
+- [[thinkingmachines-inkling]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[security-incident-july]]
 
 ## Key Findings
 
@@ -95,8 +95,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[newer models same advantages]]
-- [[thinkingmachines inkling]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[security incident july]]
+- [[newer-models-same-advantages]]
+- [[thinkingmachines-inkling]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[security-incident-july]]

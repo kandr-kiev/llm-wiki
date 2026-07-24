@@ -35,11 +35,11 @@ tags:
 > **Sources:**
 >   - suno-snatched-millions-of-songs-from-youtube-genius-and-deezer-2026-07-17.md
 > **Links:**
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[ai police cops]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[google gemini notebook notebooklm]]
-- [[openai hardware codex micro launch]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[ai-police-cops]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[google-gemini-notebook-notebooklm]]
+- [[openai-hardware-codex-micro-launch]]
 
 ## Key Findings
 
@@ -90,8 +90,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[ai police cops]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[google gemini notebook notebooklm]]
-- [[openai hardware codex micro launch]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[ai-police-cops]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[google-gemini-notebook-notebooklm]]
+- [[openai-hardware-codex-micro-launch]]

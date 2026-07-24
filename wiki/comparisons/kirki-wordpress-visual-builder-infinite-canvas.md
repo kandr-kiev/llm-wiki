@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - meet-kirki-wordpresss-first-visual-builder-with-an-infinite-canvas-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[matching ai modality user intent designing right interface]]
-- [[connected apps]]
-- [[how turn brand strategy into visual direction]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[matching-ai-modality-user-intent-designing-right-interface]]
+- [[connected-apps]]
+- [[how-turn-brand-strategy-into-visual-direction]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 
 ## Key Findings
 
@@ -44,8 +44,8 @@ ch-results h2,.wf-loaded-stage2 .nav-item,.wf-loaded-stage2 .search .search-inpu
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[matching ai modality user intent designing right interface]]
-- [[connected apps]]
-- [[how turn brand strategy into visual direction]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[matching-ai-modality-user-intent-designing-right-interface]]
+- [[connected-apps]]
+- [[how-turn-brand-strategy-into-visual-direction]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]

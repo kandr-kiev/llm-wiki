@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse-2026-07-20.md
 > **Links:**
-- [[the zoom hack that says dont record me]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[why is openai selling a chatgpt basketball]]
-- [[mercor is in talks for a 20b valuation]]
-- [[yes you can now order doordash from the command line]]
+- [[the-zoom-hack-that-says-dont-record-me]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[why-is-openai-selling-a-chatgpt-basketball]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[yes-you-can-now-order-doordash-from-the-command-line]]
 
 ## Key Findings
 
@@ -66,8 +66,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[the zoom hack that says dont record me]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[why is openai selling a chatgpt basketball]]
-- [[mercor is in talks for a 20b valuation]]
-- [[yes you can now order doordash from the command line]]
+- [[the-zoom-hack-that-says-dont-record-me]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[why-is-openai-selling-a-chatgpt-basketball]]
+- [[mercor-is-in-talks-for-a-20b-valuation]]
+- [[yes-you-can-now-order-doordash-from-the-command-line]]

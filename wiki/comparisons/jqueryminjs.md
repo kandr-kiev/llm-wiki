@@ -24,7 +24,7 @@ tags:
 > **Links:**
 - [[d3.min.js]]
 - [[bootstrap.min.js]]
-- [[fortune david siegel open source ai.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 - [[file.js]]
 - [[article]]
 
@@ -47,6 +47,6 @@ blog_source: local:unknown
 
 - [[d3.min.js]]
 - [[bootstrap.min.js]]
-- [[fortune david siegel open source ai.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 - [[file.js]]
 - [[article]]

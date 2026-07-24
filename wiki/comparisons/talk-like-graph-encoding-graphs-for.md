@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - talk-like-a-graph-encoding-graphs-for-large-language-models-2026-07-17.md
 > **Links:**
-- [[cappy outperforming and boosting large]]
-- [[heal framework for health equity]]
-- [[generative ai to quantify uncertainty]]
-- [[melon reconstructing 3d objects from]]
-- [[autobnn probabilistic time series]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[heal-framework-for-health-equity]]
+- [[generative-ai-to-quantify-uncertainty]]
+- [[melon-reconstructing-3d-objects-from]]
+- [[autobnn-probabilistic-time-series]]
 
 ## Key Findings
 
@@ -199,8 +199,8 @@ Earth AI
 
 ## Related Articles
 
-- [[cappy outperforming and boosting large]]
-- [[heal framework for health equity]]
-- [[generative ai to quantify uncertainty]]
-- [[melon reconstructing 3d objects from]]
-- [[autobnn probabilistic time series]]
+- [[cappy-outperforming-and-boosting-large]]
+- [[heal-framework-for-health-equity]]
+- [[generative-ai-to-quantify-uncertainty]]
+- [[melon-reconstructing-3d-objects-from]]
+- [[autobnn-probabilistic-time-series]]

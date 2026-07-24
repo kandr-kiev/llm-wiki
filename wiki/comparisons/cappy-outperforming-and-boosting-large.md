@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - cappy-outperforming-and-boosting-large-multi-task-language-models-with-a-small-scorer-2026-07-17.md
 > **Links:**
-- [[autobnn probabilistic time series]]
-- [[Computer Science > Artificial Intelligence]]
-- [[jacquard lang]]
-- [[gnn intro]]
-- [[k 12 educators practical skills]]
+- [[autobnn-probabilistic-time-series]]
+- [[arxiv260707858]]
+- [[jacquard-lang]]
+- [[gnn-intro]]
+- [[k-12-educators-practical-skills]]
 
 ## Key Findings
 
@@ -198,8 +198,8 @@ Applied AI & sciences
 
 ## Related Articles
 
-- [[autobnn probabilistic time series]]
-- [[Computer Science > Artificial Intelligence]]
-- [[jacquard lang]]
-- [[gnn intro]]
-- [[k 12 educators practical skills]]
+- [[autobnn-probabilistic-time-series]]
+- [[arxiv260707858]]
+- [[jacquard-lang]]
+- [[gnn-intro]]
+- [[k-12-educators-practical-skills]]

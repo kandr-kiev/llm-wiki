@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - connect-more-of-your-apps-to-search-2026-07-16.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[google images 25th anniversary]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[google-images-25th-anniversary]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ site-content{flex:1 0 0}}@layer legacy{html{--google-font-family:"Google Sans",r
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[google images 25th anniversary]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[google-images-25th-anniversary]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]

@@ -24,10 +24,10 @@ tags:
 > **Sources:**
 >   - tried-testing-qwen-35b-moe-model-on-s26-ultra--without-compromising-on-precision-r-d-2026-07-18.md
 > **Links:**
-- [[kimi k3]]
-- [[REST API]]
-- [[sequoia ascent]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[kimi-k3]]
+- [[cloudflare-workers-ai-rest-api-2026]]
+- [[sequoia-ascent]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 - [[ai]]
 
 ## Key Findings
@@ -71,8 +71,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[kimi k3]]
-- [[REST API]]
-- [[sequoia ascent]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[kimi-k3]]
+- [[cloudflare-workers-ai-rest-api-2026]]
+- [[sequoia-ascent]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 - [[ai]]

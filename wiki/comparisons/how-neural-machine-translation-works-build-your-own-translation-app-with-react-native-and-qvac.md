@@ -26,10 +26,10 @@ tags:
 >   - how-neural-machine-translation-works-build-your-own-translation-app-with-react-native-and-qvac-2026-07-18.md
 > **Links:**
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[understanding dijkstra s algorithm]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[master full stack mobile development with react native]]
-- [[Automating away]]
+- [[understanding-dijkstra-s-algorithm]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[master-full-stack-mobile-development-with-react-native]]
+- [[away]]
 
 ## Key Findings
 
@@ -142,7 +142,7 @@ The Decoder is the writer. Its only job is to translate that blueprint into the 
 ## Related Articles
 
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[understanding dijkstra s algorithm]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[master full stack mobile development with react native]]
-- [[Automating away]]
+- [[understanding-dijkstra-s-algorithm]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[master-full-stack-mobile-development-with-react-native]]
+- [[away]]

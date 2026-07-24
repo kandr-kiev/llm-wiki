@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - acl-arr-may-2026--updating-reviewer-score-post-17-july-aoe-deadline-d-2026-07-20.md
 > **Links:**
-- [[sequoia ascent]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[sequoia-ascent]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 - [[arXiv:2607.11977]]
-- [[kimi k3]]
-- [[open source monopoly]]
+- [[kimi-k3]]
+- [[open-source-monopoly]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[sequoia ascent]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[sequoia-ascent]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 - [[arXiv:2607.11977]]
-- [[kimi k3]]
-- [[open source monopoly]]
+- [[kimi-k3]]
+- [[open-source-monopoly]]

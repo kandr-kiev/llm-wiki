@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - i-tried-kimi-k3-for-a-week-heres-what-happened-2026-07-20.md
 > **Links:**
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
 
 ## Key Findings
 
@@ -161,8 +161,8 @@ dat
 
 ## Related Articles
 
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]

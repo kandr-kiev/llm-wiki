@@ -34,11 +34,11 @@ backlinks:
 > **Sources:**
 >   - build-a-basic-ai-agent-from-scratch-security-ii-2026-07-21.md
 > **Links:**
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[starting my developer journey bh8]]
-- [[class vs object who is the big boss 32nj]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[starting-my-developer-journey-bh8]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
 
 ## Key Findings
 
@@ -165,11 +165,11 @@ Even with perfect prompt-injection defense and tool gating, you still want sandb
 
 ## Related Articles
 
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[starting my developer journey bh8]]
-- [[class vs object who is the big boss 32nj]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[starting-my-developer-journey-bh8]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
 ## Backlinks
 
 ```dataview

@@ -30,11 +30,11 @@ backlinks:
 > **Sources:**
 >   - watch-flock-safety-ceo-garrett-langley-discuss-the-future-of-surveillance-at-techcrunch-disrupt-2026-2026-07-20.md
 > **Links:**
-- [[kaiser nurses say ai workplace surveillance are making their jobs and patient care worse]]
-- [[how apples big lawsuit could disrupt openais ipo plans]]
-- [[nonprofit current ai is racing to build the world wide web of ai free for all]]
-- [[ais most important protocol is getting a little bit easier to use]]
-- [[inference startup infinity raises 15m from touring capital openai and athropic researchers]]
+- [[kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse]]
+- [[how-apples-big-lawsuit-could-disrupt-openais-ipo-plans]]
+- [[nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all]]
+- [[ais-most-important-protocol-is-getting-a-little-bit-easier-to-use]]
+- [[inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers]]
 
 ## Key Findings
 
@@ -73,11 +73,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[kaiser nurses say ai workplace surveillance are making their jobs and patient care worse]]
-- [[how apples big lawsuit could disrupt openais ipo plans]]
-- [[nonprofit current ai is racing to build the world wide web of ai free for all]]
-- [[ais most important protocol is getting a little bit easier to use]]
-- [[inference startup infinity raises 15m from touring capital openai and athropic researchers]]
+- [[kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse]]
+- [[how-apples-big-lawsuit-could-disrupt-openais-ipo-plans]]
+- [[nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all]]
+- [[ais-most-important-protocol-is-getting-a-little-bit-easier-to-use]]
+- [[inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers]]
 ## Backlinks
 
 ```dataview

@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b30b-valuation-2026-07-21.md
 > **Links:**
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[anthropics landmark 1 5b copyright settlement is approved]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[anthropics-landmark-1-5b-copyright-settlement-is-approved]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]
 
 ## Key Findings
 
@@ -66,8 +66,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
-- [[anthropics landmark 1 5b copyright settlement is approved]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
-- [[applied computing wants to give oil and gas operators an ai model for the entire plant]]
+- [[why-greylock-capped-its-new-fund-at-1-5b-when-it-says-it-could-have-raised-more]]
+- [[anthropics-landmark-1-5b-copyright-settlement-is-approved]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs]]
+- [[applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant]]

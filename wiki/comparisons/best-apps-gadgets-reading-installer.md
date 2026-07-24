@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - the-apps-gadgets-and-tools-every-reader-needs-2026-07-18.md
 > **Links:**
-- [[apple openai lawsuit vergecast]]
-- [[tiktok ai likeness detection tool]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[google gemini notebook notebooklm]]
-- [[openai hardware codex micro launch]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[google-gemini-notebook-notebooklm]]
+- [[openai-hardware-codex-micro-launch]]
 
 ## Key Findings
 
@@ -64,8 +64,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apple openai lawsuit vergecast]]
-- [[tiktok ai likeness detection tool]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[google gemini notebook notebooklm]]
-- [[openai hardware codex micro launch]]
+- [[apple-openai-lawsuit-vergecast]]
+- [[tiktok-ai-likeness-detection-tool]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[google-gemini-notebook-notebooklm]]
+- [[openai-hardware-codex-micro-launch]]

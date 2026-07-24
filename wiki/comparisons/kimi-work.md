@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - kimi-work-2026-07-20.md
 > **Links:**
-- [[introducing lm studio bionic]]
-- [[kimi k3]]
+- [[introducing-lm-studio-bionic]]
+- [[kimi-k3]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
-- [[your dropbox is now a skill server]]
+- [[your-dropbox-is-now-a-skill-server]]
 
 ## Key Findings
 
@@ -44,8 +44,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[introducing lm studio bionic]]
-- [[kimi k3]]
+- [[introducing-lm-studio-bionic]]
+- [[kimi-k3]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[LLM Quantization Methods: GPTQ, AWQ, GGUF, SmoothQuant]]
-- [[your dropbox is now a skill server]]
+- [[your-dropbox-is-now-a-skill-server]]

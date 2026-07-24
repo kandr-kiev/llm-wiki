@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - psa-about-abuse-of-cat1-command-dont-abuse-cats-2026-07-18.md
 > **Links:**
-- [[auto grade hn]]
+- [[auto-grade-hn]]
 - [[[Jay Alammar](/)]]
-- [[Open challenges in LLM research]]
-- [[open source monopoly]]
-- [[Frame]]
+- [[llm-research-open-challenges]]
+- [[open-source-monopoly]]
+- [[frame]]
 
 ## Key Findings
 
@@ -57,8 +57,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[auto grade hn]]
+- [[auto-grade-hn]]
 - [[[Jay Alammar](/)]]
-- [[Open challenges in LLM research]]
-- [[open source monopoly]]
-- [[Frame]]
+- [[llm-research-open-challenges]]
+- [[open-source-monopoly]]
+- [[frame]]

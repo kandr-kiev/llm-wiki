@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - ai-paper-review-deep-unsupervised-learning-using-nonequilibrium-thermodynamics-2026-07-17.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[5 Agent Skills I Use Every Day]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -119,8 +119,8 @@ And here's a quick infographic of what we'll cover throughout this review, highl
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[5 Agent Skills I Use Every Day]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]

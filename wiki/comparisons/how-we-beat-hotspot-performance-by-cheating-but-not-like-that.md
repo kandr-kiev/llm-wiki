@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - how-we-beat-hotspot-performance-by-cheating-but-not-like-that-2026-07-18.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[its a post 4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[its-a-post-4hi8]]
 
 ## Key Findings
 
@@ -135,8 +135,8 @@ Client VMs are a different beast. The joke around here is that I built ParparVM 
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[its a post 4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[its-a-post-4hi8]]

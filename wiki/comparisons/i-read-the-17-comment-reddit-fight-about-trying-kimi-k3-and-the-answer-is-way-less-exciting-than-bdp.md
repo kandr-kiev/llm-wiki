@@ -34,11 +34,11 @@ backlinks:
 > **Sources:**
 >   - i-read-the-17-comment-reddit-fight-about-trying-kimi-k3-and-the-answer-is-way-less-exciting-than-peo-2026-07-21.md
 > **Links:**
-- [[perl weekly 782 perl v544 186n]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[class vs object who is the big boss 32nj]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[can you beat an llm building humans vs humanitys last exam]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
 
 ## Key Findings
 
@@ -124,11 +124,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[perl weekly 782 perl v544 186n]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[class vs object who is the big boss 32nj]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[can you beat an llm building humans vs humanitys last exam]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
 ## Backlinks
 
 ```dataview

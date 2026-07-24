@@ -26,7 +26,7 @@ tags:
 - [[Model: deepseek-ai/DeepSeek-R1]]
 - [[Model: Qwen/Qwen3.6-27B]]
 - [[Model: Qwen/Qwen3.6-35B-A3B]]
-- [[Release v5.11.0]]
+- [[release-v5110]]
 - [[v0.23.0]]
 
 ## Key Findings
@@ -178,5 +178,5 @@ nsors` | N/A |
 - [[Model: deepseek-ai/DeepSeek-R1]]
 - [[Model: Qwen/Qwen3.6-27B]]
 - [[Model: Qwen/Qwen3.6-35B-A3B]]
-- [[Release v5.11.0]]
+- [[release-v5110]]
 - [[v0.23.0]]

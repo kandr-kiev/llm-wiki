@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - david-beckhams-health-drink-startup-im8-takes-1b-from-general-catalysts-unusual-cvf-fund-2026-07-17.md
 > **Links:**
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[achieving operational excellence with ai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[achieving-operational-excellence-with-ai]]
 
 ## Key Findings
 
@@ -62,8 +62,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[achieving operational excellence with ai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[achieving-operational-excellence-with-ai]]

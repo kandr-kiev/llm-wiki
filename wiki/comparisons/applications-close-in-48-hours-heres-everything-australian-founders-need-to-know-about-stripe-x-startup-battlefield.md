@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - applications-close-in-48-hours---heres-everything-australian-founders-need-to-know-about-stripe-x-st-2026-07-18.md
 > **Links:**
-- [[charles hudson shares the common mistakes hes seen after investing in 500 startups]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[reed jobs would rather talk about curing cancer than his last name]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[ai driven memory crunch jolts indias smartphone market]]
+- [[charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
 
 ## Key Findings
 
@@ -64,8 +64,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[charles hudson shares the common mistakes hes seen after investing in 500 startups]]
-- [[agility robotics plants its flag in teslas backyard]]
-- [[reed jobs would rather talk about curing cancer than his last name]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[ai driven memory crunch jolts indias smartphone market]]
+- [[charles-hudson-shares-the-common-mistakes-hes-seen-after-investing-in-500-startups]]
+- [[agility-robotics-plants-its-flag-in-teslas-backyard]]
+- [[reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]

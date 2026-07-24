@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - upgrading-oracle-e-business-suite-r122-database-from-12102-to-19c---part-i-2026-07-17.md
 > **Links:**
-- [[changing oracle applications user]]
-- [[how to patch oracle database to 1931 on]]
-- [[oracle database 26ai installation using]]
-- [[sequoia ascent]]
-- [[Rust 1.96.0]]
+- [[changing-oracle-applications-user]]
+- [[how-to-patch-oracle-database-to-1931-on]]
+- [[oracle-database-26ai-installation-using]]
+- [[sequoia-ascent]]
+- [[rust-1960]]
 
 ## Key Findings
 
@@ -115,8 +115,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[changing oracle applications user]]
-- [[how to patch oracle database to 1931 on]]
-- [[oracle database 26ai installation using]]
-- [[sequoia ascent]]
-- [[Rust 1.96.0]]
+- [[changing-oracle-applications-user]]
+- [[how-to-patch-oracle-database-to-1931-on]]
+- [[oracle-database-26ai-installation-using]]
+- [[sequoia-ascent]]
+- [[rust-1960]]

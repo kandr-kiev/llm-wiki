@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - datagrip-20262-ai-agent-skills-mcp-tools-and-cli-commands-for-data-source-management-bundled-jdbc-dr-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
-- [[building the foundation for an autonomous enterprise]]
-- [[claude science is anthropics newest flagship product]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
 
 ## Key Findings
 
@@ -188,8 +188,8 @@ color: #888;
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
-- [[building the foundation for an autonomous enterprise]]
-- [[claude science is anthropics newest flagship product]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[claude-science-is-anthropics-newest-flagship-product]]

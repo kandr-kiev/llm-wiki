@@ -38,11 +38,11 @@ backlinks:
 > **Sources:**
 >   - xiaomi-robotics-1-2026-07-20.md
 > **Links:**
-- [[kimi k3]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[kimi-k3]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 - [[karpathy]]
-- [[Automating away]]
+- [[away]]
 
 ## Key Findings
 
@@ -73,11 +73,11 @@ Xiaomi-Robotics-1 can learn new tasks with high data efficiency. The model picks
 
 ## Related Articles
 
-- [[kimi k3]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[kimi-k3]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 - [[karpathy]]
-- [[Automating away]]
+- [[away]]
 ## Backlinks
 
 ```dataview

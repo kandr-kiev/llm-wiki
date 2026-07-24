@@ -38,11 +38,11 @@ backlinks:
 > **Sources:**
 >   - kimi-k3-api-guide-reasoning-tool-calling-structured-output-and-vision-2026-07-21.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[class vs object who is the big boss 32nj]]
-- [[perl weekly 782 perl v544 186n]]
-- [[the part of this year i dont put in the commit messages l6m]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
 
 ## Key Findings
 
@@ -134,11 +134,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[i tried kimi k3 for a week heres what happened]]
-- [[class vs object who is the big boss 32nj]]
-- [[perl weekly 782 perl v544 186n]]
-- [[the part of this year i dont put in the commit messages l6m]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
 ## Backlinks
 
 ```dataview

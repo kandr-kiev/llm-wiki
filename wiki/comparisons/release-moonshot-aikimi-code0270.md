@@ -29,7 +29,7 @@ tags:
 > **Sources:**
 >   - gh-moonshot-aikimi-code0270-2026-07-18.md
 > **Links:**
-- [[Release v0.86.0]]
+- [[release-v0860]]
 - [[v3.13.0]]
 - [[v0.26.1]]
 - [[v3.14.0]]
@@ -66,7 +66,7 @@ uch as a different drive-letter casing; all of the folder's sessions now list un
 
 ## Related Articles
 
-- [[Release v0.86.0]]
+- [[release-v0860]]
 - [[v3.13.0]]
 - [[v0.26.1]]
 - [[v3.14.0]]

@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - designing-for-distressed-users-why-mental-health-apps-shouldnt-follow-every-ui-fashion-2026-07-17.md
 > **Links:**
-- [[connected apps]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[gemini omni personal avatars]]
-- [[claude science is anthropics newest flagship product]]
+- [[connected-apps]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[gemini-omni-personal-avatars]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
 
 ## Key Findings
 
@@ -44,8 +44,8 @@ d-stage2 .header__search-results h2,.wf-loaded-stage2 .nav-item,.wf-loaded-stage
 
 ## Related Articles
 
-- [[connected apps]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[gemini omni personal avatars]]
-- [[claude science is anthropics newest flagship product]]
+- [[connected-apps]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[gemini-omni-personal-avatars]]
+- [[claude-science-is-anthropics-newest-flagship-product]]

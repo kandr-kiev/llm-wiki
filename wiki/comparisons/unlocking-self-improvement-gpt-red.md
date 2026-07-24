@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - gpt-red-unlocking-self-improvement-for-robustness-2026-07-15.md
 > **Links:**
-- [[separating signal from noise coding evaluations]]
-- [[government national security partnerships]]
-- [[gpt 5 6 preferred model microsoft 365 copilot]]
-- [[managing ai investments in agentic era]]
-- [[k 12 educators practical skills]]
+- [[separating-signal-from-noise-coding-evaluations]]
+- [[government-national-security-partnerships]]
+- [[gpt-5-6-preferred-model-microsoft-365-copilot]]
+- [[managing-ai-investments-in-agentic-era]]
+- [[k-12-educators-practical-skills]]
 
 ## Key Findings
 
@@ -61,8 +61,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[separating signal from noise coding evaluations]]
-- [[government national security partnerships]]
-- [[gpt 5 6 preferred model microsoft 365 copilot]]
-- [[managing ai investments in agentic era]]
-- [[k 12 educators practical skills]]
+- [[separating-signal-from-noise-coding-evaluations]]
+- [[government-national-security-partnerships]]
+- [[gpt-5-6-preferred-model-microsoft-365-copilot]]
+- [[managing-ai-investments-in-agentic-era]]
+- [[k-12-educators-practical-skills]]

@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - rust-for-cpython-progress-update-april-2026-2026-07-17.md
 > **Links:**
-- [[Rust 1.97.1]]
-- [[Generative AI Strategy]]
-- [[Rust 1.96.0]]
-- [[python 3150 beta 3]]
-- [[Rust 1.96.1]]
+- [[rust-1971]]
+- [[generative-ai-strategy]]
+- [[rust-1960]]
+- [[python-3150-beta-3]]
+- [[rust-1961]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Rust 1.97.1]]
-- [[Generative AI Strategy]]
-- [[Rust 1.96.0]]
-- [[python 3150 beta 3]]
-- [[Rust 1.96.1]]
+- [[rust-1971]]
+- [[generative-ai-strategy]]
+- [[rust-1960]]
+- [[python-3150-beta-3]]
+- [[rust-1961]]

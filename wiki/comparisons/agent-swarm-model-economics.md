@@ -31,10 +31,10 @@ tags:
 > **Sources:**
 >   - agent-swarms-and-the-new-model-economics-2026-07-20.md
 > **Links:**
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 
 ## Key Findings
@@ -110,8 +110,8 @@ W
 
 ## Related Articles
 
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[Mesh LLM: distributed AI computing on iroh]]

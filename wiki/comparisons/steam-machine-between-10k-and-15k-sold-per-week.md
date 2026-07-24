@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - steam-machine-between-12k-and-15k-units-sold-per-week-2026-07-18.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i started a dirt notebook]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
 
 ## Key Findings
 
@@ -113,8 +113,8 @@ Revenue Targe
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i started a dirt notebook]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating Ai Away]]
-- [[Automating away]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]

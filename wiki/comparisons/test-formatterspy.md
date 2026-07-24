@@ -20,8 +20,8 @@ tags:
 >   - local-weather-space-lunar-digestteststest_formatterspy-2026-07-20.md
 > **Links:**
 - [[digest.py]]
-- [[test adapters.py]]
-- [[test content.py]]
+- [[test-adapterspy]]
+- [[test-contentpy]]
 - [[airraid.py]]
 - [[news.py]]
 
@@ -191,7 +191,7 @@ print("🧪 Тестування ф
 ## Related Articles
 
 - [[digest.py]]
-- [[test adapters.py]]
-- [[test content.py]]
+- [[test-adapterspy]]
+- [[test-contentpy]]
 - [[airraid.py]]
 - [[news.py]]

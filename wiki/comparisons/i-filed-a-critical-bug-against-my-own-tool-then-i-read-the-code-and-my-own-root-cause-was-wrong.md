@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - i-filed-a-critical-bug-against-my-own-tool-then-i-read-the-code---and-my-own-root-cause-was-wrong-2026-07-17.md
 > **Links:**
-- [[hackthebox void whispers writeup bh5]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[i am building an ai court with ai judges ai lawyers 40k0]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[i-am-building-an-ai-court-with-ai-judges-ai-lawyers-40k0]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
 
 ## Key Findings
 
@@ -121,8 +121,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[hackthebox void whispers writeup bh5]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[i am building an ai court with ai judges ai lawyers 40k0]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[i-am-building-an-ai-court-with-ai-judges-ai-lawyers-40k0]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]

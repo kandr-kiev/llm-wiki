@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - hf-qwen36-27b-2026-07-14.md
 > **Links:**
-- [[Release v0.39.0]]
-- [[Release v0.8.0]]
-- [[Release v5.11.0]]
+- [[release-v0390]]
+- [[release-v080]]
+- [[release-v5110]]
 - [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
-- [[Release v1.21.0]]
+- [[release-v1210]]
 
 ## Key Findings
 
@@ -122,4 +122,4 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[Release v0.39.0][Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)- [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
-- [[Release v1.21.0]]
+- [[release-v1210]]

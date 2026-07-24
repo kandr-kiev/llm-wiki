@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - are-we-offloading-too-much-of-our-thinking-to-ai-2026-07-14.md
 > **Links:**
-- [[5 Agent Skills I Use Every Day]]
-- [[Automating away]]
+- [[5-agent-skills-i-use-every-day]]
+- [[away]]
 - [[ai]]
-- [[Automating Ai Away]]
-- [[Generative AI Strategy]]
+- [[automating-ai-away-2026-07-07]]
+- [[generative-ai-strategy]]
 
 ## Key Findings
 
@@ -103,8 +103,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[5 Agent Skills I Use Every Day]]
-- [[Automating away]]
+- [[5-agent-skills-i-use-every-day]]
+- [[away]]
 - [[ai]]
-- [[Automating Ai Away]]
-- [[Generative AI Strategy]]
+- [[automating-ai-away-2026-07-07]]
+- [[generative-ai-strategy]]

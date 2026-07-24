@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - the-signal-nobody-heard-fixing-a-silent-abortsignal-bug-in-openclaw-2026-07-17.md
 > **Links:**
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[hackthebox void whispers writeup bh5]]
-- [[repeating tasks without repeating code 4fak]]
-- [[stop prompting llms to do legal math its broken 27e0]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
 
 ## Key Findings
 
@@ -141,8 +141,8 @@ Here is the pull request with the actual change.
 
 ## Related Articles
 
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[hackthebox void whispers writeup bh5]]
-- [[repeating tasks without repeating code 4fak]]
-- [[stop prompting llms to do legal math its broken 27e0]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]

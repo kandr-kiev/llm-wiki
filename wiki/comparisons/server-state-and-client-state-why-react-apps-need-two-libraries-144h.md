@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - server-state-and-client-state-why-react-apps-need-two-libraries-2026-07-20.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[its a post 4hi8]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[its-a-post-4hi8]]
 
 ## Key Findings
 
@@ -137,11 +137,11 @@ Server state needs a library that already has the machinery. Build it by hand an
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[its a post 4hi8]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[its-a-post-4hi8]]
 ## Backlinks
 
 ```dataview

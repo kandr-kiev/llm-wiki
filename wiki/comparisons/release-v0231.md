@@ -36,7 +36,7 @@ tags:
 >   - gh-v0231-2026-07-14.md
 > **Links:**
 - [Issue #2197: perf: reduce BPE tokenizer load-time memory](https://github.com/pytorch/pytorch/issues/2197)
-- [[Release 5.0.0]]
+- [[release-500]]
 - [[v0.22.1]]
 - [[Sites That Block Ai Training Cr[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)5: AsyncGRPO fork-independent epoch counting]]
 
@@ -114,5 +114,5 @@ For the regular CPython wheel everything is unchanged.
 
 ## Related Articles
 
-- [[Issue #2197: perf: reduce BPE tokeni[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385) [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[Issue #2197: perf: reduce BPE tokeni[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385) [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)

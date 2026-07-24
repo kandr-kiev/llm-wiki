@@ -23,10 +23,10 @@ tags:
 > **Sources:**
 >   - i-started-a-dirt-notebook-2026-07-18.md
 > **Links:**
-- [[the great software regress how move fast and break things broke our lives]]
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[5 Agent Skills I Use Every Day]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
 - [[ai]]
 
 ## Key Findings
@@ -54,8 +54,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[the great software regress how move fast and break things broke our lives]]
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[5 Agent Skills I Use Every Day]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
 - [[ai]]

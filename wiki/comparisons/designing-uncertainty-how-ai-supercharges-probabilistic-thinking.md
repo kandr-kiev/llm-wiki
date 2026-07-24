@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - designing-with-uncertainty-how-ai-supercharges-probabilistic-thinking-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[designing distressed users mental health apps ui]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[gemini omni personal avatars]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[designing-distressed-users-mental-health-apps-ui]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[gemini-omni-personal-avatars]]
 
 ## Key Findings
 
@@ -45,8 +45,8 @@ stage2 .header__search-results h2,.wf-loaded-stage2 .nav-item,.wf-loaded-stage2 
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[designing distressed users mental health apps ui]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[gemini omni personal avatars]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[designing-distressed-users-mental-health-apps-ui]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[gemini-omni-personal-avatars]]

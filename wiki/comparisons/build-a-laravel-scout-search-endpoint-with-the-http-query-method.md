@@ -211,6 +211,6 @@ A request to this endpoint looks like a POST with GET semantics—the[Issue #833
 ## Related Articles
 
 - [[Issu[Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)](https://github.com/pytorch/pytorch/issues/8331)e Bots]]
-- [[REST API]]
+- [[cloudflare-workers-ai-rest-api-2026]]
 - [Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)](https://github.com/pytorch/pytorch/issues/8331)
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

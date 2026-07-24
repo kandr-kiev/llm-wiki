@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - introducing-jetbrains-context-repository-intelligence-for-coding-agents-2026-07-21.md
 > **Links:**
-- [[weather data sabotage]]
-- [[achieving operational excellence with ai]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[ai biases hiring humans]]
+- [[weather-data-sabotage]]
+- [[achieving-operational-excellence-with-ai]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[ai-biases-hiring-humans]]
 
 ## Key Findings
 
@@ -192,11 +192,11 @@ color: #888;
 
 ## Related Articles
 
-- [[weather data sabotage]]
-- [[achieving operational excellence with ai]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[ai biases hiring humans]]
+- [[weather-data-sabotage]]
+- [[achieving-operational-excellence-with-ai]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[ai-biases-hiring-humans]]
 ## Backlinks
 
 ```dataview

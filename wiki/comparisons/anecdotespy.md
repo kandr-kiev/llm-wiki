@@ -18,11 +18,11 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digestsrccontentanecdotespy-2026-07-20.md
 > **Links:**
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
 - [[bardo.py]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[airraid.py]]
-- [[add lesson]]
+- [[add-lesson]]
 
 ## Key Findings
 
@@ -73,8 +73,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
 - [[bardo.py]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[airraid.py]]
-- [[add lesson]]
+- [[add-lesson]]

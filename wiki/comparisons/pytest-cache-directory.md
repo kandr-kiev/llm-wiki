@@ -20,7 +20,7 @@ tags:
 > **Links:**
 - [[sebastian/exporter]]
 - [[sebastian/version]]
-- [[Security Policy]]
+- [[security-policy]]
 - [[phpunit/php-code-coverage]]
 - [[sebastian/comparator]]
 
@@ -46,6 +46,6 @@ See Key Findings for full content.
 
 - [[sebastian/exporter]]
 - [[sebastian/version]]
-- [[Security Policy]]
+- [[security-policy]]
 - [[phpunit/php-code-coverage]]
 - [[sebastian/comparator]]

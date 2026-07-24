@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - air_product_intro.md
 > **Links:**
-- [[Agent Skills Patterns — Критичний аналіз]]
-- [[Agent Skills Patterns]]
-- [[hermes agent self evolution]]
-- [[Citations]]
-- [[Local LLM Wiki — Повна архітектурна документація]]
+- [[agent-skills-patterns-critical-analysis]]
+- [[agent-skills-patterns]]
+- [[hermes-agent-self-evolution]]
+- [[rtx-5070-ti]]
+- [[local-llm-wiki-повна-архітектурна-документація]]
 
 ## Key Findings
 
@@ -93,8 +93,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Agent Skills Patterns — Критичний аналіз]]
-- [[Agent Skills Patterns]]
-- [[hermes agent self evolution]]
-- [[Citations]]
-- [[Local LLM Wiki — Повна архітектурна документація]]
+- [[agent-skills-patterns-critical-analysis]]
+- [[agent-skills-patterns]]
+- [[hermes-agent-self-evolution]]
+- [[rtx-5070-ti]]
+- [[local-llm-wiki-повна-архітектурна-документація]]

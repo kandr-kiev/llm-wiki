@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - matching-ai-modality-to-user-intent-designing-the-right-interface-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[how turn brand strategy into visual direction]]
-- [[designing uncertainty how ai supercharges probabilistic thinking]]
-- [[designing distressed users mental health apps ui]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[how-turn-brand-strategy-into-visual-direction]]
+- [[designing-uncertainty-how-ai-supercharges-probabilistic-thinking]]
+- [[designing-distressed-users-mental-health-apps-ui]]
 
 ## Key Findings
 
@@ -45,8 +45,8 @@ ader__search-results h2,.wf-loaded-stage2 .nav-item,.wf-loaded-stage2 .search .s
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[how turn brand strategy into visual direction]]
-- [[designing uncertainty how ai supercharges probabilistic thinking]]
-- [[designing distressed users mental health apps ui]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[how-turn-brand-strategy-into-visual-direction]]
+- [[designing-uncertainty-how-ai-supercharges-probabilistic-thinking]]
+- [[designing-distressed-users-mental-health-apps-ui]]

@@ -45,9 +45,9 @@ tags:
 > **Sources:**
 >   - gh-v5140-2026-07-15.md
 > **Links:**
-- [[Release v5.6.0]]
-- [[Release v0.25.1]]
-- [[Release v0.8.0]]
+- [[release-v560]]
+- [[release-v0251]]
+- [[release-v080]]
 - [[v0.22.1]]
 - [[v0.23.0]]
 
@@ -125,8 +125,8 @@ Cache dispatch logic was simplified by introducing explicit layer-type mappings 
 
 ## Related Articles
 
-- [[Release v5.6.0]]
-- [[Release v0.25.1]]
-- [[Release v0.8.0]]
+- [[release-v560]]
+- [[release-v0251]]
+- [[release-v080]]
 - [[v0.22.1]]
 - [[v0.23.0]]

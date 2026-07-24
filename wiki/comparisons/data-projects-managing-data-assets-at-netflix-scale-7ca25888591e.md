@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - data-projects-managing-data-assets-at-netflix-scale-2026-07-17.md
 > **Links:**
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 
 ## Key Findings
 
@@ -48,8 +48,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]

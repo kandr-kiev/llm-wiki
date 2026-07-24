@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - computer-cops-2026-07-17.md
 > **Links:**
-- [[1password anthropic claude browser integration]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[fortune david siegel open source ai.pdf]]
-- [[Release langchain-core==1.4.9]]
-- [[Release v0.17.0]]
+- [[1password-anthropic-claude-browser-integration]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[release-langchain-core149]]
+- [[release-v0170]]
 
 ## Key Findings
 
@@ -61,8 +61,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[1password anthropic claude browser integration]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[fortune david siegel open source ai.pdf]]
-- [[Release langchain-core==1.4.9]]
-- [[Release v0.17.0]]
+- [[1password-anthropic-claude-browser-integration]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[release-langchain-core149]]
+- [[release-v0170]]

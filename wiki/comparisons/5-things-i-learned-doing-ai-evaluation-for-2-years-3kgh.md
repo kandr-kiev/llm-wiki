@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - 5-things-i-learned-doing-ai-evaluation-for-2-years-2026-07-18.md
 > **Links:**
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[most engineers use ai few engineer with it are you one of them 4oeg]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-4oeg]]
 
 ## Key Findings
 
@@ -148,8 +148,8 @@ Producing a response that is accurate, complete, honest about what it does not k
 
 ## Related Articles
 
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[the gitbook migration trap 4gp2]]
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[most engineers use ai few engineer with it are you one of them 4oeg]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[most-engineers-use-ai-few-engineer-with-it-are-you-one-of-them-4oeg]]

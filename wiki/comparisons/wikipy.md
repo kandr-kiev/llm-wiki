@@ -26,9 +26,9 @@ tags:
 > **Links:**
 - [[news.py]]
 - [[airraid.py]]
-- [[Local LLM Wiki Algorithm]]
+- [[local-llm-wiki-algorithm]]
 - [[moon.py]]
-- [[Local LLM Wiki — Agent Contract]]
+- [[local-llm-wiki-agent-contract]]
 
 ## Key Findings
 
@@ -148,6 +148,6 @@ See Key Findings for full content.
 
 - [[news.py]]
 - [[airraid.py]]
-- [[Local LLM Wiki Algorithm]]
+- [[local-llm-wiki-algorithm]]
 - [[moon.py]]
-- [[Local LLM Wiki — Agent Contract]]
+- [[local-llm-wiki-agent-contract]]

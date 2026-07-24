@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - five-us-tech-giants-hidden-debts-soar-to-165t-on-opaque-ai-funding-2026-07-21.md
 > **Links:**
-- [[ai in your feed]]
-- [[building the foundation for an autonomous enterprise]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[chinas ai models have trumps ai world at war with itself]]
-- [[chinese ai models open source moonshot kimi k3 alibaba qwen]]
+- [[ai-in-your-feed]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[chinas-ai-models-have-trumps-ai-world-at-war-with-itself]]
+- [[chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen]]
 
 ## Key Findings
 
@@ -83,8 +83,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai in your feed]]
-- [[building the foundation for an autonomous enterprise]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[chinas ai models have trumps ai world at war with itself]]
-- [[chinese ai models open source moonshot kimi k3 alibaba qwen]]
+- [[ai-in-your-feed]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[chinas-ai-models-have-trumps-ai-world-at-war-with-itself]]
+- [[chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen]]

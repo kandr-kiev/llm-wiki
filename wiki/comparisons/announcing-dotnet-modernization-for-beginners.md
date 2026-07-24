@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - announcing-net-modernization-for-beginners-2026-07-17.md
 > **Links:**
-- [[msbuild binlog mcp server]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[previewing gpt 5 6 sol]]
-- [[unlocking self improvement gpt red]]
-- [[government national security partnerships]]
+- [[msbuild-binlog-mcp-server]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[previewing-gpt-5-6-sol]]
+- [[unlocking-self-improvement-gpt-red]]
+- [[government-national-security-partnerships]]
 
 ## Key Findings
 
@@ -85,8 +85,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[msbuild binlog mcp server]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[previewing gpt 5 6 sol]]
-- [[unlocking self improvement gpt red]]
-- [[government national security partnerships]]
+- [[msbuild-binlog-mcp-server]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[previewing-gpt-5-6-sol]]
+- [[unlocking-self-improvement-gpt-red]]
+- [[government-national-security-partnerships]]

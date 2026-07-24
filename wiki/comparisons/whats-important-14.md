@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - whats-important-14-gap-decorations-random-select-field-sizing-and-more-2026-07-17.md
 > **Links:**
-- [[get ready for the powerful css border shape property]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[translatex]]
 - [[translatez]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[q1 2026 innovation graph update open source collaboration is accelerating worldwide]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide]]
 
 ## Key Findings
 
@@ -91,8 +91,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[get ready for the powerful css border shape property]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[translatex]]
 - [[translatez]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[q1 2026 innovation graph update open source collaboration is accelerating worldwide]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide]]

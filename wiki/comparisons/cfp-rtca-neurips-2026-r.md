@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - cfp--rtca--neurips-2026-r-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[Automating away]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[The Illustrated Stable Diffusion]]
+- [[automating-ai-away-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[away]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 
 ## Key Findings
 
@@ -77,8 +77,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[Automating away]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[The Illustrated Stable Diffusion]]
+- [[automating-ai-away-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[away]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]

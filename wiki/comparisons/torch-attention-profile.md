@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - profiling-in-pytorch-part-3-attention-is-all-you-profile-2026-07-17.md
 > **Links:**
-- [[newer models same advantages]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[nemotron 3 embed wins rteb]]
-- [[native speed vllm transformers backend]]
+- [[newer-models-same-advantages]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[nemotron-3-embed-wins-rteb]]
+- [[native-speed-vllm-transformers-backend]]
 
 ## Key Findings
 
@@ -94,8 +94,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[newer models same advantages]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[nemotron 3 embed wins rteb]]
-- [[native speed vllm transformers backend]]
+- [[newer-models-same-advantages]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[nemotron-3-embed-wins-rteb]]
+- [[native-speed-vllm-transformers-backend]]

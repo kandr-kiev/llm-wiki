@@ -18,11 +18,11 @@ tags:
 > **Sources:**
 >   - cloudflare-waf-protects-wordpress-applications-from-two-high-severity-vulnerabilities-2026-07-18.md
 > **Links:**
-- [[meerkat introduction]]
-- [[rollbacks for workflows]]
-- [[monetization gateway]]
-- [[agentic internet bot report]]
-- [[smart tiered cache for public clouds]]
+- [[meerkat-introduction]]
+- [[rollbacks-for-workflows]]
+- [[monetization-gateway]]
+- [[agentic-internet-bot-report]]
+- [[smart-tiered-cache-for-public-clouds]]
 
 ## Key Findings
 
@@ -41,8 +41,8 @@ afe access to private applications"],"href":[0,"/products/access/"]}],[0,{"title
 
 ## Related Articles
 
-- [[meerkat introduction]]
-- [[rollbacks for workflows]]
-- [[monetization gateway]]
-- [[agentic internet bot report]]
-- [[smart tiered cache for public clouds]]
+- [[meerkat-introduction]]
+- [[rollbacks-for-workflows]]
+- [[monetization-gateway]]
+- [[agentic-internet-bot-report]]
+- [[smart-tiered-cache-for-public-clouds]]

@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph-2026-07-18.md
 > **Links:**
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[meerkat introduction]]
-- [[sequoia ascent]]
-- [[upgrading oracle e business suite r122 014]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[meerkat-introduction]]
+- [[sequoia-ascent]]
+- [[upgrading-oracle-e-business-suite-r122-014]]
 
 ## Key Findings
 
@@ -143,8 +143,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[meerkat introduction]]
-- [[sequoia ascent]]
-- [[upgrading oracle e business suite r122 014]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks]]
+- [[meerkat-introduction]]
+- [[sequoia-ascent]]
+- [[upgrading-oracle-e-business-suite-r122-014]]

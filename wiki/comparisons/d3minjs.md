@@ -19,11 +19,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorphpunitphp-code-coveragesrcreporthtmlrenderertemplatejsd3minjs-2026-07-20.md
 > **Links:**
-- [[fortune david siegel open source ai.pdf]]
-- [[speculative growth AI public.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[speculative-growth-ai-publicpdf]]
 - [[bootstrap.min.js]]
 - [[bisbull120.pdf]]
-- [[Changelog]]
+- [[changelog]]
 
 ## Key Findings
 
@@ -41,8 +41,8 @@ blog_source: local:unknown
 
 ## Related Articles
 
-- [[fortune david siegel open source ai.pdf]]
-- [[speculative growth AI public.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
+- [[speculative-growth-ai-publicpdf]]
 - [[bootstrap.min.js]]
 - [[bisbull120.pdf]]
-- [[Changelog]]
+- [[changelog]]

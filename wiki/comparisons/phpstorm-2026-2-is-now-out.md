@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - phpstorm-20262-is-now-out-2026-07-17.md
 > **Links:**
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
-- [[what anthropics latest ai discovery does and doesnt show]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
+- [[what-anthropics-latest-ai-discovery-does-and-doesnt-show]]
 
 ## Key Findings
 
@@ -186,8 +186,8 @@ color: #888;
 
 ## Related Articles
 
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
-- [[what anthropics latest ai discovery does and doesnt show]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
+- [[what-anthropics-latest-ai-discovery-does-and-doesnt-show]]

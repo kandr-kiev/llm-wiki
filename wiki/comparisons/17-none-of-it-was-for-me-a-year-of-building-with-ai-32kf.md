@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - 17-none-of-it-was-for-me-a-year-of-building-with-ai-2026-07-18.md
 > **Links:**
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[the gitbook migration trap 4gp2]]
-- [[title why i gave my coding agent a memory and how cortex works 4nnm]]
-- [[hackthebox void whispers writeup bh5]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[title-why-i-gave-my-coding-agent-a-memory-and-how-cortex-works-4nnm]]
+- [[hackthebox-void-whispers-writeup-bh5]]
 
 ## Key Findings
 
@@ -132,8 +132,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[the gitbook migration trap 4gp2]]
-- [[title why i gave my coding agent a memory and how cortex works 4nnm]]
-- [[hackthebox void whispers writeup bh5]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[title-why-i-gave-my-coding-agent-a-memory-and-how-cortex-works-4nnm]]
+- [[hackthebox-void-whispers-writeup-bh5]]

@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - building-production-grade-llm-evaluation-pipelines-from-vibes-to-metrics-2026-07-21.md
 > **Links:**
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[200 tested ai prompts i use to run my saas and how i tested them 3p23]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[200-tested-ai-prompts-i-use-to-run-my-saas-and-how-i-tested-them-3p23]]
 
 ## Key Findings
 
@@ -130,8 +130,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[stop hand translating between sql and your erd 4ohm]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[200 tested ai prompts i use to run my saas and how i tested them 3p23]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[stop-hand-translating-between-sql-and-your-erd-4ohm]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[200-tested-ai-prompts-i-use-to-run-my-saas-and-how-i-tested-them-3p23]]

@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - claude-code-forgets-everything-between-sessions-i-built-a-fix-2026-07-18.md
 > **Links:**
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]
 
 ## Key Findings
 
@@ -130,8 +130,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[its a post 4hi8]]
-- [[the gitbook migration trap 4gp2]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[its-a-post-4hi8]]
+- [[the-gitbook-migration-trap-4gp2]]

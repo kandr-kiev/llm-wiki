@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - neil-rimer-thinks-the-ai-money-is-coming-back-out-2026-07-18.md
 > **Links:**
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[the zoom hack that says dont record me]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[yes you can now order doordash from the command line]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[the-zoom-hack-that-says-dont-record-me]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[yes-you-can-now-order-doordash-from-the-command-line]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[apples lawsuit couldnt come at a worse time for openai]]
-- [[the zoom hack that says dont record me]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[yes you can now order doordash from the command line]]
+- [[apples-lawsuit-couldnt-come-at-a-worse-time-for-openai]]
+- [[the-zoom-hack-that-says-dont-record-me]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[yes-you-can-now-order-doordash-from-the-command-line]]

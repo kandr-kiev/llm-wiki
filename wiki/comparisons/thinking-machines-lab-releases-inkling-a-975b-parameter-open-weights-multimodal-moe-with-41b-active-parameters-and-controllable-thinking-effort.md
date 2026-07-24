@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active--2026-07-17.md
 > **Links:**
-- [[Release v0.1.49-beta]]
-- [[Release v5.14.0]]
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[Release v0.1.481-beta]]
-- [[meet likweli new monkey species discovered congo basin]]
+- [[release-v0149-beta]]
+- [[release-v5140]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[release-v01481-beta]]
+- [[meet-likweli-new-monkey-species-discovered-congo-basin]]
 
 ## Key Findings
 
@@ -63,8 +63,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v0.1.49-beta]]
-- [[Release v5.14.0]]
-- [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
-- [[Release v0.1.481-beta]]
-- [[meet likweli new monkey species discovered congo basin]]
+- [[release-v0149-beta]]
+- [[release-v5140]]
+- [[building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-and-runtime-parameter-overrides]]
+- [[release-v01481-beta]]
+- [[meet-likweli-new-monkey-species-discovered-congo-basin]]

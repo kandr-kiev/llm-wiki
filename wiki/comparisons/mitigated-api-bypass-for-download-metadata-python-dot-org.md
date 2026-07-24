@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - mitigated-api-authentication-bypass-for-pythonorg-download-metadata-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Release v0.23.1]]
-- [[Release v0.25.1]]
-- [[oauth for all]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[release-v0231]]
+- [[release-v0251]]
+- [[oauth-for-all]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ If your organization wants to support security at the Python Software Foundation
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Automating away]]
-- [[Release v0.23.1]]
-- [[Release v0.25.1]]
-- [[oauth for all]]
+- [[automating-ai-away-2026-07-07]]
+- [[away]]
+- [[release-v0231]]
+- [[release-v0251]]
+- [[oauth-for-all]]

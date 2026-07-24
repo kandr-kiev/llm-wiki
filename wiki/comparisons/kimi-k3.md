@@ -46,11 +46,11 @@ tags:
 > **Sources:**
 >   - kimi-k3-and-what-we-can-still-learn-from-the-pelican-benchmark-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[The Illustrated Stable Diffusion]]
-- [[Automating away]]
-- [[auto grade hn]]
+- [[automating-ai-away-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[away]]
+- [[auto-grade-hn]]
 
 ## Key Findings
 
@@ -95,8 +95,8 @@ More importantly though, even the act of a
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[The Illustrated Stable Diffusion]]
-- [[Automating away]]
-- [[auto grade hn]]
+- [[automating-ai-away-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[away]]
+- [[auto-grade-hn]]

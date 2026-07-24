@@ -27,10 +27,10 @@ tags:
 >   - pebble-mega-update--july-2026-2026-07-17.md
 > **Links:**
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating Ai Away]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[the great software regress how move fast and break things broke our lives]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 
 ## Key Findings
 
@@ -80,7 +80,7 @@ Thanks to [helpful bug reports ](https://help.repebble.com/en/articles/15403206-
 ## Related Articles
 
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating Ai Away]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[the great software regress how move fast and break things broke our lives]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]

@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - does-rtk-skill-really-cut-agent-tokens-by-6090-we-tested-it-2026-07-20.md
 > **Links:**
-- [[weather data sabotage]]
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[ai biases hiring humans]]
+- [[weather-data-sabotage]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[ai-biases-hiring-humans]]
 
 ## Key Findings
 
@@ -189,8 +189,8 @@ color: #888;
 
 ## Related Articles
 
-- [[weather data sabotage]]
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[ai biases hiring humans]]
+- [[weather-data-sabotage]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[ai-biases-hiring-humans]]

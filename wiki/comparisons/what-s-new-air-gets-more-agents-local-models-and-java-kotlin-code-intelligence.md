@@ -30,11 +30,11 @@ backlinks:
 > **Sources:**
 >   - whats-new-air-gets-more-agents-local-models-and-javakotlin-code-intelligence-2026-07-21.md
 > **Links:**
-- [[weather data sabotage]]
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[ai biases hiring humans]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[weather-data-sabotage]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[ai-biases-hiring-humans]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 
 ## Key Findings
 
@@ -191,11 +191,11 @@ color: #888;
 
 ## Related Articles
 
-- [[weather data sabotage]]
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[ai biases hiring humans]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[weather-data-sabotage]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[ai-biases-hiring-humans]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 ## Backlinks
 
 ```dataview

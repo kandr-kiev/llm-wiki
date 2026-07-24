@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - introducing-asciitermdraw-bench--testing-the-ability-of-vlms-to-generate-and-edit-ascii-p-2026-07-20.md
 > **Links:**
-- [[follow up gpt2s vocabulary as a hyperbolic tree]]
-- [[eccv 2026 malmö looking for 34 people to share an]]
-- [[are there some textbooks that take a primarily]]
-- [[arr 2026 meta review score d]]
-- [[did blatant ai slop just win a 25k usd deepmind]]
+- [[follow-up-gpt2s-vocabulary-as-a-hyperbolic-tree]]
+- [[eccv-2026-malmö-looking-for-34-people-to-share-an]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[arr-2026-meta-review-score-d]]
+- [[did-blatant-ai-slop-just-win-a-25k-usd-deepmind]]
 
 ## Key Findings
 
@@ -71,8 +71,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[follow up gpt2s vocabulary as a hyperbolic tree]]
-- [[eccv 2026 malmö looking for 34 people to share an]]
-- [[are there some textbooks that take a primarily]]
-- [[arr 2026 meta review score d]]
-- [[did blatant ai slop just win a 25k usd deepmind]]
+- [[follow-up-gpt2s-vocabulary-as-a-hyperbolic-tree]]
+- [[eccv-2026-malmö-looking-for-34-people-to-share-an]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[arr-2026-meta-review-score-d]]
+- [[did-blatant-ai-slop-just-win-a-25k-usd-deepmind]]

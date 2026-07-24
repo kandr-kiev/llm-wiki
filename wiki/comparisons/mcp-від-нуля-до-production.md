@@ -34,11 +34,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-promcp-course-uamd-2026-07-20.md
 > **Links:**
-- [[Agent Skills Patterns]]
-- [[add lesson]]
+- [[agent-skills-patterns]]
+- [[add-lesson]]
 - [[deploy]]
-- [[How to Integrate MCP — Step-by-Step]]
-- [[Save credentials]]
+- [[how-to-integrate-mcp-step-by-step]]
+- [[how-to-use-cloudflare-workers-ai]]
 
 ## Key Findings
 
@@ -235,8 +235,8 @@ def
 
 ## Related Articles
 
-- [[Agent Skills Patterns]]
-- [[add lesson]]
+- [[agent-skills-patterns]]
+- [[add-lesson]]
 - [[deploy]]
-- [[How to Integrate MCP — Step-by-Step]]
-- [[Save credentials]]
+- [[how-to-integrate-mcp-step-by-step]]
+- [[how-to-use-cloudflare-workers-ai]]

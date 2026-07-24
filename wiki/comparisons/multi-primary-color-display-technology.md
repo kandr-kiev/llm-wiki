@@ -29,10 +29,10 @@ tags:
 >   - multi-primary-color-display-emerges-as-next-gen-color-reproduction-technology-2026-07-17.md
 > **Links:**
 - [[article]]
-- [[designing distressed users mental health apps ui]]
-- [[designing uncertainty how ai supercharges probabilistic thinking]]
-- [[google kills custom search api on jan 1 2027 you have 9 months]]
-- [[how turn brand strategy into visual direction]]
+- [[designing-distressed-users-mental-health-apps-ui]]
+- [[designing-uncertainty-how-ai-supercharges-probabilistic-thinking]]
+- [[google-kills-custom-search-api-on-jan-1-2027-you-have-9-months]]
+- [[how-turn-brand-strategy-into-visual-direction]]
 
 ## Key Findings
 
@@ -111,7 +111,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[article]]
-- [[designing distressed users mental health apps ui]]
-- [[designing uncertainty how ai supercharges probabilistic thinking]]
-- [[google kills custom search api on jan 1 2027 you have 9 months]]
-- [[how turn brand strategy into visual direction]]
+- [[designing-distressed-users-mental-health-apps-ui]]
+- [[designing-uncertainty-how-ai-supercharges-probabilistic-thinking]]
+- [[google-kills-custom-search-api-on-jan-1-2027-you-have-9-months]]
+- [[how-turn-brand-strategy-into-visual-direction]]

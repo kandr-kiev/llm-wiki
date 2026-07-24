@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - academic-conference-survival-guide-2026-07-17.md
 > **Links:**
-- [[offloading thinking to ai]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Generative AI Strategy]]
-- [[sequoia ascent]]
-- [[Automating Ai Away]]
+- [[offloading-thinking-to-ai]]
+- [[5-agent-skills-i-use-every-day]]
+- [[generative-ai-strategy]]
+- [[sequoia-ascent]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -107,8 +107,8 @@ I always try to ta
 
 ## Related Articles
 
-- [[offloading thinking to ai]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Generative AI Strategy]]
-- [[sequoia ascent]]
-- [[Automating Ai Away]]
+- [[offloading-thinking-to-ai]]
+- [[5-agent-skills-i-use-every-day]]
+- [[generative-ai-strategy]]
+- [[sequoia-ascent]]
+- [[automating-ai-away-2026-07-07]]

@@ -74,10 +74,10 @@ tags:
 >   - local-weather-space-lunar-digestsrcservicesnewspy-2026-07-20.md
 > **Links:**
 - [[news.py]]
-- [[kimi k3]]
+- [[kimi-k3]]
 - [[v0.23.0]]
-- [[Qwen (Alibaba)]]
-- [[LLM Landscape Multi-Source Synthesis]]
+- [[qwen-alibaba]]
+- [[llm-landscape-multi-source-synthesis]]
 
 ## Key Findings
 
@@ -204,7 +204,7 @@ LLM_KEYWORDS = [
 ## Related Articles
 
 - [[news.py]]
-- [[kimi k3]]
+- [[kimi-k3]]
 - [[v0.23.0]]
-- [[Qwen (Alibaba)]]
-- [[LLM Landscape Multi-Source Synthesis]]
+- [[qwen-alibaba]]
+- [[llm-landscape-multi-source-synthesis]]

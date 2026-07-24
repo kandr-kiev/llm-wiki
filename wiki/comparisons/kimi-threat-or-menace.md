@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - kimi-threat-or-menace-2026-07-20.md
 > **Links:**
-- [[can an apple lawsuit derail openais hardware plans]]
-- [[reed jobs would rather talk about curing cancer than his last name]]
-- [[exploit brokers pay 500000 for a wordpress rce i found one with gpt5 6]]
-- [[filing college app fizz accuses vc of sharing confidential startup information with rival sidechat]]
-- [[the zoom hack that says dont record me]]
+- [[can-an-apple-lawsuit-derail-openais-hardware-plans]]
+- [[reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name]]
+- [[exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6]]
+- [[filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat]]
+- [[the-zoom-hack-that-says-dont-record-me]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[can an apple lawsuit derail openais hardware plans]]
-- [[reed jobs would rather talk about curing cancer than his last name]]
-- [[exploit brokers pay 500000 for a wordpress rce i found one with gpt5 6]]
-- [[filing college app fizz accuses vc of sharing confidential startup information with rival sidechat]]
-- [[the zoom hack that says dont record me]]
+- [[can-an-apple-lawsuit-derail-openais-hardware-plans]]
+- [[reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name]]
+- [[exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6]]
+- [[filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat]]
+- [[the-zoom-hack-that-says-dont-record-me]]

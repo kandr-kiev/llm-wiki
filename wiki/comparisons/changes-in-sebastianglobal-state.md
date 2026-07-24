@@ -19,11 +19,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorsebastianglobal-statechangelogmd-2026-07-20.md
 > **Links:**
-- [[Changelog]]
-- [[Changes in sebastianbergmann/environment]]
-- [[Change Log]]
-- [[Changes in PHPUnit 10.5]]
-- [[PHPUnit]]
+- [[changelog]]
+- [[changes-in-sebastianbergmannenvironment]]
+- [[change-log]]
+- [[changes-in-phpunit-105]]
+- [[phpunit]]
 
 ## Key Findings
 
@@ -92,8 +92,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Changelog]]
-- [[Changes in sebastianbergmann/environment]]
-- [[Change Log]]
-- [[Changes in PHPUnit 10.5]]
-- [[PHPUnit]]
+- [[changelog]]
+- [[changes-in-sebastianbergmannenvironment]]
+- [[change-log]]
+- [[changes-in-phpunit-105]]
+- [[phpunit]]

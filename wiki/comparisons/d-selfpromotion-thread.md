@@ -23,10 +23,10 @@ tags:
 >   - d-self-promotion-thread-2026-07-17.md
 > **Links:**
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Generative AI Strategy]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating Ai Away]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[generative-ai-strategy]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 
 ## Key Findings
 
@@ -74,7 +74,7 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 ## Related Articles
 
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Generative AI Strategy]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[Automating Ai Away]]
-- [[How Gpt3 Works Visualizations And Animations]]
+- [[generative-ai-strategy]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]

@@ -33,11 +33,11 @@ backlinks:
 > **Sources:**
 >   - three-juejin-roundups-three-scorecards-no-shared-bridge-2026-07-21.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[i tried kimi k3 for a week heres what happened]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
 
 ## Key Findings
 
@@ -126,11 +126,11 @@ The practical takeaway I want to write down is that I now read the three camps a
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[starting my developer journey bh8]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[class vs object who is the big boss 32nj]]
-- [[i tried kimi k3 for a week heres what happened]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[starting-my-developer-journey-bh8]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
 ## Backlinks
 
 ```dataview

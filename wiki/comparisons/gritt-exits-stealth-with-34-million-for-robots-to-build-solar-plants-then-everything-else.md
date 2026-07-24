@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else-2026-07-21.md
 > **Links:**
-- [[what to watch for after jensen huangs japan visit]]
-- [[neil rimer thinks the ai money is coming back out]]
-- [[google releases three new gemini models but no 3 5 pro]]
-- [[the zoom hack that says dont record me]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[what-to-watch-for-after-jensen-huangs-japan-visit]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[google-releases-three-new-gemini-models-but-no-3-5-pro]]
+- [[the-zoom-hack-that-says-dont-record-me]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 
 ## Key Findings
 
@@ -74,11 +74,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[what to watch for after jensen huangs japan visit]]
-- [[neil rimer thinks the ai money is coming back out]]
-- [[google releases three new gemini models but no 3 5 pro]]
-- [[the zoom hack that says dont record me]]
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
+- [[what-to-watch-for-after-jensen-huangs-japan-visit]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[google-releases-three-new-gemini-models-but-no-3-5-pro]]
+- [[the-zoom-hack-that-says-dont-record-me]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
 ## Backlinks
 
 ```dataview

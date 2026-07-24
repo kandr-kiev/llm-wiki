@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - reed-jobs-would-rather-talk-about-curing-cancer-than-his-last-name-2026-07-17.md
 > **Links:**
-- [[filing college app fizz accuses vc of sharing confidential startup information with rival sidechat]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[connected apps]]
-- [[google vids now lets you star in your own ai videos]]
-- [[people dont want more ai]]
+- [[filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[connected-apps]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[people-dont-want-more-ai]]
 
 ## Key Findings
 
@@ -65,8 +65,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[filing college app fizz accuses vc of sharing confidential startup information with rival sidechat]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[connected apps]]
-- [[google vids now lets you star in your own ai videos]]
-- [[people dont want more ai]]
+- [[filing-college-app-fizz-accuses-vc-of-sharing-confidential-startup-information-with-rival-sidechat]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[connected-apps]]
+- [[google-vids-now-lets-you-star-in-your-own-ai-videos]]
+- [[people-dont-want-more-ai]]

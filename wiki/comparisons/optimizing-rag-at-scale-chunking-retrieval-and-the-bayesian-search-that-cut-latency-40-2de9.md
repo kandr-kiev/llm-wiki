@@ -32,11 +32,11 @@ tags:
 > **Sources:**
 >   - optimizing-rag-at-scale-chunking-retrieval-and-the-bayesian-search-that-cut-latency-40-2026-07-20.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[class vs object who is the big boss 32nj]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[its a post 4hi8]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[its-a-post-4hi8]]
 
 ## Key Findings
 
@@ -134,8 +134,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[class vs object who is the big boss 32nj]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[how we beat hotspot performance by cheating but not like that]]
-- [[its a post 4hi8]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[how-we-beat-hotspot-performance-by-cheating-but-not-like-that]]
+- [[its-a-post-4hi8]]

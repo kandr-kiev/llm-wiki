@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - welcome-inkling-by-thinking-machines-2026-07-17.md
 > **Links:**
-- [[newer models same advantages]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[security incident july]]
-- [[torch attention profile]]
+- [[newer-models-same-advantages]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[security-incident-july]]
+- [[torch-attention-profile]]
 
 ## Key Findings
 
@@ -94,8 +94,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[newer models same advantages]]
-- [[model routing is simple until it isnt]]
-- [[one click to sagemaker studio]]
-- [[security incident july]]
-- [[torch attention profile]]
+- [[newer-models-same-advantages]]
+- [[model-routing-is-simple-until-it-isnt]]
+- [[one-click-to-sagemaker-studio]]
+- [[security-incident-july]]
+- [[torch-attention-profile]]

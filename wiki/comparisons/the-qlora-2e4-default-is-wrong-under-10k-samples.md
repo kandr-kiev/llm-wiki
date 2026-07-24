@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - the-qlora-2e-4-default-is-wrong-under-10k-samples-and-nobody-talks-about-it-d-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[auto grade hn]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[auto-grade-hn]]
 
 ## Key Findings
 
@@ -72,8 +72,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[auto grade hn]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[auto-grade-hn]]

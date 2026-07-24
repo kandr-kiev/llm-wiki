@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - i-owe-my-life-to-the-commodore-64-2026-07-17.md
 > **Links:**
-- [[offloading thinking to ai]]
-- [[how do i get started with my research]]
-- [[academic conference survival guide]]
-- [[how to be an effective mentor]]
-- [[grad students explain grad school]]
+- [[offloading-thinking-to-ai]]
+- [[how-do-i-get-started-with-my-research]]
+- [[academic-conference-survival-guide]]
+- [[how-to-be-an-effective-mentor]]
+- [[grad-students-explain-grad-school]]
 
 ## Key Findings
 
@@ -91,8 +91,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[offloading thinking to ai]]
-- [[how do i get started with my research]]
-- [[academic conference survival guide]]
-- [[how to be an effective mentor]]
-- [[grad students explain grad school]]
+- [[offloading-thinking-to-ai]]
+- [[how-do-i-get-started-with-my-research]]
+- [[academic-conference-survival-guide]]
+- [[how-to-be-an-effective-mentor]]
+- [[grad-students-explain-grad-school]]

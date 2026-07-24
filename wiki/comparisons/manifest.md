@@ -24,9 +24,9 @@ tags:
 > **Links:**
 - [[installed.json]]
 - [[composer.json]]
-- [[Changelog]]
+- [[changelog]]
 - [[ci.yml]]
-- [[Local LLM Wiki Algorithm]]
+- [[local-llm-wiki-algorithm]]
 
 ## Key Findings
 
@@ -125,6 +125,6 @@ See Key Findings for full content.
 
 - [[installed.json]]
 - [[composer.json]]
-- [[Changelog]]
+- [[changelog]]
 - [[ci.yml]]
-- [[Local LLM Wiki Algorithm]]
+- [[local-llm-wiki-algorithm]]

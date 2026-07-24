@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - xai-sues-a-man-for-using-grok-to-generate-csam-8216deepfakes8217-2026-07-17.md
 > **Links:**
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[openai hardware codex micro launch]]
-- [[google gemini notebook notebooklm]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[ai police cops]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[openai-hardware-codex-micro-launch]]
+- [[google-gemini-notebook-notebooklm]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[ai-police-cops]]
 
 ## Key Findings
 
@@ -91,8 +91,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[openai chatgpt ai smart speaker hardware device]]
-- [[openai hardware codex micro launch]]
-- [[google gemini notebook notebooklm]]
-- [[ash koosha odysseus the fall foundtain zero tilly norwood]]
-- [[ai police cops]]
+- [[openai-chatgpt-ai-smart-speaker-hardware-device]]
+- [[openai-hardware-codex-micro-launch]]
+- [[google-gemini-notebook-notebooklm]]
+- [[ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood]]
+- [[ai-police-cops]]

@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-provendorphpunitphpunitchangelog-105md-2026-07-20.md
 > **Links:**
-- [[Change Log]]
-- [[Changelog]]
-- [[Version]]
-- [[get ready for the powerful css border shape property]]
-- [[Security Policy]]
+- [[change-log]]
+- [[changelog]]
+- [[version]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[security-policy]]
 
 ## Key Findings
 
@@ -127,8 +127,8 @@ All notable changes of the PHPUnit 10.5 release series are documented in this fi
 
 ## Related Articles
 
-- [[Change Log]]
-- [[Changelog]]
-- [[Version]]
-- [[get ready for the powerful css border shape property]]
-- [[Security Policy]]
+- [[change-log]]
+- [[changelog]]
+- [[version]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
+- [[security-policy]]

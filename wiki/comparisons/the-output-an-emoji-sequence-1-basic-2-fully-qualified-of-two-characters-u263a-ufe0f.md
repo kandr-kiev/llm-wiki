@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - show-hn-mojibake--a-low-level-unicode-library-written-in-c-2026-07-17.md
 > **Links:**
-- [[Release 5.0.0]]
-- [[Automating away]]
+- [[release-500]]
+- [[away]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
-- [[Release v0.25.1]]
+- [[automating-ai-away-2026-07-07]]
+- [[release-v0251]]
 
 ## Key Findings
 
@@ -165,8 +165,8 @@ enabled
 
 ## Related Articles
 
-- [[Release 5.0.0]]
-- [[Automating away]]
+- [[release-500]]
+- [[away]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
-- [[Release v0.25.1]]
+- [[automating-ai-away-2026-07-07]]
+- [[release-v0251]]

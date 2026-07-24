@@ -25,8 +25,8 @@ tags:
 >   - translatey-2026-07-17.md
 > **Links:**
 - [[translate]]
-- [[pointer events]]
-- [[css states and javascript events]]
+- [[pointer-events]]
+- [[css-states-and-javascript-events]]
 - [[translatex]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
@@ -116,7 +116,7 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[translate]]
-- [[pointer events]]
-- [[css states and javascript events]]
+- [[pointer-events]]
+- [[css-states-and-javascript-events]]
 - [[translatex]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

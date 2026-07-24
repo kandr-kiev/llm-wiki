@@ -35,11 +35,11 @@ tags:
 > **Sources:**
 >   - running-doom-on-our-custom-cpu-and-going-viral-2026-07-21.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[i started a dirt notebook]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating away]]
+- [[away]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ The `Execute` stage decides what to do with each instruction. It routes parts of
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[Automating Ai Away]]
-- [[i started a dirt notebook]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[automating-ai-away-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Automating away]]
+- [[away]]

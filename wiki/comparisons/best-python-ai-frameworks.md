@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - best-python-ai-frameworks-in-2026-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
-- [[best object detection models for machine learning]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
+- [[best-object-detection-models-for-machine-learning]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]
 
 ## Key Findings
 
@@ -188,8 +188,8 @@ color: #888;
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
-- [[best object detection models for machine learning]]
-- [[apple intelligence approved for launch in china with alibabas qwen ai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
+- [[best-object-detection-models-for-machine-learning]]
+- [[apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai]]

@@ -30,10 +30,10 @@ tags:
 >   - stop-prompting-llms-to-do-legal-math-its-broken-2026-07-17.md
 > **Links:**
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[5 Agent Skills I Use Every Day]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[Automating away]]
+- [[5-agent-skills-i-use-every-day]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[away]]
 
 ## Key Findings
 
@@ -152,7 +152,7 @@ The MCP pattern wraps that logic in a standard protocol that any
 ## Related Articles
 
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[5 Agent Skills I Use Every Day]]
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[Automating away]]
+- [[5-agent-skills-i-use-every-day]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[away]]

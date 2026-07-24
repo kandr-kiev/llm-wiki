@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - open-source-is-not-immune-to-monopoly-2026-07-18.md
 > **Links:**
-- [[i started a dirt notebook]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[i-started-a-dirt-notebook]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[OneStepTrap]]
+- [[onesteptrap]]
 
 ## Key Findings
 
@@ -65,8 +65,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[i started a dirt notebook]]
-- [[Automating away]]
-- [[Automating Ai Away]]
+- [[i-started-a-dirt-notebook]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
 - [[ai]]
-- [[OneStepTrap]]
+- [[onesteptrap]]

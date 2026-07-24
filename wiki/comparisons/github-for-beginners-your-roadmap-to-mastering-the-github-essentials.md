@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - github-for-beginners-your-roadmap-to-mastering-the-github-essentials-2026-07-17.md
 > **Links:**
-- [[deutsche telekom]]
+- [[deutsche-telekom]]
 - [[mufg]]
-- [[FableCut]]
-- [[managing ai investments in agentic era]]
-- [[announcing typescript 5 9 rc]]
+- [[fablecut]]
+- [[managing-ai-investments-in-agentic-era]]
+- [[announcing-typescript-5-9-rc]]
 
 ## Key Findings
 
@@ -79,8 +79,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[deutsche telekom]]
+- [[deutsche-telekom]]
 - [[mufg]]
-- [[FableCut]]
-- [[managing ai investments in agentic era]]
-- [[announcing typescript 5 9 rc]]
+- [[fablecut]]
+- [[managing-ai-investments-in-agentic-era]]
+- [[announcing-typescript-5-9-rc]]

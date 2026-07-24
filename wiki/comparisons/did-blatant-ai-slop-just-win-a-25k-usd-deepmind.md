@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - did-blatant-ai-slop-just-win-a-25k-usd-deepmind--kaggle-grand-prize-d-2026-07-20.md
 > **Links:**
-- [[sequoia ascent]]
-- [[Automating Ai Away]]
-- [[are there some textbooks that take a primarily]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[arr 2026 meta review score d]]
+- [[sequoia-ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[arr-2026-meta-review-score-d]]
 
 ## Key Findings
 
@@ -71,8 +71,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[sequoia ascent]]
-- [[Automating Ai Away]]
-- [[are there some textbooks that take a primarily]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[arr 2026 meta review score d]]
+- [[sequoia-ascent]]
+- [[automating-ai-away-2026-07-07]]
+- [[are-there-some-textbooks-that-take-a-primarily]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[arr-2026-meta-review-score-d]]

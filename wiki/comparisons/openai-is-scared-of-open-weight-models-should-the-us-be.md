@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - openai-is-scared-of-open-weight-models-should-the-us-be-2026-07-20.md
 > **Links:**
-- [[neil rimer thinks the ai money is coming back out]]
-- [[nonprofit current ai is racing to build the world wide web of ai free for all]]
-- [[adobe camera apps new feature will critique your photos using ai]]
-- [[natural raises 30m to reinvent payments for ai agents and take on stripe]]
-- [[ai driven memory crunch jolts indias smartphone market]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all]]
+- [[adobe-camera-apps-new-feature-will-critique-your-photos-using-ai]]
+- [[natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]
 
 ## Key Findings
 
@@ -69,8 +69,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[neil rimer thinks the ai money is coming back out]]
-- [[nonprofit current ai is racing to build the world wide web of ai free for all]]
-- [[adobe camera apps new feature will critique your photos using ai]]
-- [[natural raises 30m to reinvent payments for ai agents and take on stripe]]
-- [[ai driven memory crunch jolts indias smartphone market]]
+- [[neil-rimer-thinks-the-ai-money-is-coming-back-out]]
+- [[nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all]]
+- [[adobe-camera-apps-new-feature-will-critique-your-photos-using-ai]]
+- [[natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe]]
+- [[ai-driven-memory-crunch-jolts-indias-smartphone-market]]

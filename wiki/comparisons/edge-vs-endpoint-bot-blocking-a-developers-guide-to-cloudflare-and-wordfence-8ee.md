@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - edge-vs-endpoint-bot-blocking-a-developers-guide-to-cloudflare-and-wordfence-2026-07-20.md
 > **Links:**
-- [[class vs object who is the big boss 32nj]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[claude reflect i audited how i actually use ai 26g4]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[claude-reflect-i-audited-how-i-actually-use-ai-26g4]]
 
 ## Key Findings
 
@@ -170,8 +170,8 @@ The pattern looks like:
 
 ## Related Articles
 
-- [[class vs object who is the big boss 32nj]]
-- [[can you beat an llm building humans vs humanitys last exam]]
-- [[adding an ai chatbot to echostats 290m]]
-- [[the gitbook migration trap 4gp2]]
-- [[claude reflect i audited how i actually use ai 26g4]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[can-you-beat-an-llm-building-humans-vs-humanitys-last-exam]]
+- [[adding-an-ai-chatbot-to-echostats-290m]]
+- [[the-gitbook-migration-trap-4gp2]]
+- [[claude-reflect-i-audited-how-i-actually-use-ai-26g4]]

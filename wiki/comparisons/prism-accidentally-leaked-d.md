@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - prism-accidentally-leaked-d-2026-07-17.md
 > **Links:**
-- [[kimi k3]]
-- [[sequoia ascent]]
-- [[Automating away]]
-- [[Automating Ai Away]]
-- [[whats important 14]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
+- [[whats-important-14]]
 
 ## Key Findings
 
@@ -74,8 +74,8 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[kimi k3]]
-- [[sequoia ascent]]
-- [[Automating away]]
-- [[Automating Ai Away]]
-- [[whats important 14]]
+- [[kimi-k3]]
+- [[sequoia-ascent]]
+- [[away]]
+- [[automating-ai-away-2026-07-07]]
+- [[whats-important-14]]

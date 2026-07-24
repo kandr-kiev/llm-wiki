@@ -22,9 +22,9 @@ tags:
 > **Sources:**
 >   - gh-v0860-2026-07-17.md
 > **Links:**
-- [[Release v0.25.1]]
-- [[Release v0.23.1]]
-- [[Release v0.1.49-beta]]
+- [[release-v0251]]
+- [[release-v0231]]
+- [[release-v0149-beta]]
 - [[Release Notes: Ollama vv0.31.2]]
 - [[v0.22.1]]
 
@@ -55,8 +55,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v0.25.1]]
-- [[Release v0.23.1]]
-- [[Release v0.1.49-beta]]
+- [[release-v0251]]
+- [[release-v0231]]
+- [[release-v0149-beta]]
 - [[Release Notes: Ollama vv0.31.2]]
 - [[v0.22.1]]

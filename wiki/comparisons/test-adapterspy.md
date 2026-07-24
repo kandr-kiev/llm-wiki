@@ -20,7 +20,7 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digestteststest_adapterspy-2026-07-20.md
 > **Links:**
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[airraid.py]]
 - [[news.py]]
 - [[digest.py]]
@@ -115,7 +115,7 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[airraid.py]]
 - [[news.py]]
 - [[digest.py]]

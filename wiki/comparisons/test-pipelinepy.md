@@ -23,10 +23,10 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digestteststest_pipelinepy-2026-07-20.md
 > **Links:**
-- [[test content.py]]
-- [[test adapters.py]]
+- [[test-contentpy]]
+- [[test-adapterspy]]
 - [[digest.py]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[wiki.py]]
 
 ## Key Findings
@@ -169,8 +169,8 @@ payload = {
 
 ## Related Articles
 
-- [[test content.py]]
-- [[test adapters.py]]
+- [[test-contentpy]]
+- [[test-adapterspy]]
 - [[digest.py]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 - [[wiki.py]]

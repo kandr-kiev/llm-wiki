@@ -36,10 +36,10 @@ backlinks:
 > **Sources:**
 >   - linux-kernel-will-support-origin-sort-of-2026-07-21.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[update55]]
-- [[i started a dirt notebook]]
+- [[i-started-a-dirt-notebook]]
 - [[ai]]
 
 ## Key Findings
@@ -119,10 +119,10 @@ This leaks in a few painful ways but the simplest are :
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[update55]]
-- [[i started a dirt notebook]]
+- [[i-started-a-dirt-notebook]]
 - [[ai]]
 ## Backlinks
 

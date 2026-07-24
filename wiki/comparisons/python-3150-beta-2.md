@@ -24,10 +24,10 @@ tags:
 > **Sources:**
 >   - python-3150-beta-2-is-here-2026-07-17.md
 > **Links:**
-- [[python 3150 beta 1]]
+- [[python-3150-beta-1]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[python 3145 is out]]
-- [[python 3146 31314]]
+- [[python-3145-is-out]]
+- [[python-3146-31314]]
 - [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 
 ## Key Findings
@@ -88,6 +88,6 @@ Thanks to all of the many volunteers who help make Python development and these 
 
 ## Related Articles
 
-- [[python 3150 beta 1]]
+- [[python-3150-beta-1]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[p[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]

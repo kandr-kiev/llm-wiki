@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - your-familys-300-stake-in-openai-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[what anthropics latest ai discovery does and doesnt show]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[what-anthropics-latest-ai-discovery-does-and-doesnt-show]]
 
 ## Key Findings
 
@@ -50,8 +50,8 @@ Haas/nhaasgroteskdsstd-55rg.ttf) format("truetype")}@font-face{font-family:NeueH
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
-- [[what anthropics latest ai discovery does and doesnt show]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[what-anthropics-latest-ai-discovery-does-and-doesnt-show]]

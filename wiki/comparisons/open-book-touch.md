@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - open-book-touch-open-source-e-reader-2026-07-18.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i started a dirt notebook]]
-- [[the great software regress how move fast and break things broke our lives]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[The Illustrated Stable Diffusion]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
 
 ## Key Findings
 
@@ -131,8 +131,8 @@ E-paper is still e-paper. The screen refreshes at a readerly pace; you’re not 
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[i started a dirt notebook]]
-- [[the great software regress how move fast and break things broke our lives]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[i-started-a-dirt-notebook]]
+- [[the-great-software-regress-how-move-fast-and-break-things-broke-our-lives]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[The Illustrated Stable Diffusion]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]

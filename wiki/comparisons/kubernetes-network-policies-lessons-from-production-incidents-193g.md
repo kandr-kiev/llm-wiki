@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - kubernetes-network-policies-lessons-from-production-incidents-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[api first or browser automation lessons from shipping content autoposting 55pl]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[corpus scrub 010 detecta y redacta pii y secretos en corpus de entrenamiento antes del 432h]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[api-first-or-browser-automation-lessons-from-shipping-content-autoposting-55pl]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[corpus-scrub-010-detecta-y-redacta-pii-y-secretos-en-corpus-de-entrenamiento-antes-del-432h]]
 
 ## Key Findings
 
@@ -131,8 +131,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
-- [[api first or browser automation lessons from shipping content autoposting 55pl]]
-- [[a full 3d live weather world in one html file no frameworks no build step 4n83]]
-- [[corpus scrub 010 detecta y redacta pii y secretos en corpus de entrenamiento antes del 432h]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
+- [[api-first-or-browser-automation-lessons-from-shipping-content-autoposting-55pl]]
+- [[a-full-3d-live-weather-world-in-one-html-file-no-frameworks-no-build-step-4n83]]
+- [[corpus-scrub-010-detecta-y-redacta-pii-y-secretos-en-corpus-de-entrenamiento-antes-del-432h]]

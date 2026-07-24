@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-967-mnist-and-617-cif-2026-07-18.md
 > **Links:**
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[get ready for the powerful css border shape property]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[langchain-core==1.4.9]]
-- [[theres no standard status page and other lessons from tracking 96 providers 56k6]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[theres-no-standard-status-page-and-other-lessons-from-tracking-96-providers-56k6]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -62,8 +62,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[get ready for the powerful css border shape property]]
+- [[build-an-agentic-event-venue-operator-with-mongodb-atlas-voyage-and-langgraph]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[langchain-core==1.4.9]]
-- [[theres no standard status page and other lessons from tracking 96 providers 56k6]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[theres-no-standard-status-page-and-other-lessons-from-tracking-96-providers-56k6]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]

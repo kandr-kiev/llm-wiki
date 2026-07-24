@@ -20,11 +20,11 @@ tags:
 > **Sources:**
 >   - gh-b10042-2026-07-16.md
 > **Links:**
-- [[Release b10007]]
-- [[Release b10020]]
-- [[Release b10015]]
-- [[Release b10034]]
-- [[Release b10038]]
+- [[release-b10007]]
+- [[release-b10020]]
+- [[release-b10015]]
+- [[release-b10034]]
+- [[release-b10038]]
 
 ## Key Findings
 
@@ -68,8 +68,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release b10007]]
-- [[Release b10020]]
-- [[Release b10015]]
-- [[Release b10034]]
-- [[Release b10038]]
+- [[release-b10007]]
+- [[release-b10020]]
+- [[release-b10015]]
+- [[release-b10034]]
+- [[release-b10038]]

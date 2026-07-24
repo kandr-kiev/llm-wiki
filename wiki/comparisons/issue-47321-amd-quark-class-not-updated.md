@@ -32,7 +32,7 @@ tags:
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
 - [Issue #8330: Dataset Studio and Viewer down]
-- [[Release 5.0.0]]
+- [[release-500]]
 
 ## Key Findings
 
@@ -108,4 +108,4 @@ See Key Findings for full content.
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
 - [Issue #8330: Dataset Studio and Viewer down]
-- [[Release 5.0.0]]
+- [[release-500]]

@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - how-has-roman-concrete-lasted-for-millennia-1900-year-old-latrine-offers-clues-2026-07-17.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[5 Agent Skills I Use Every Day]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
 
 ## Key Findings
 
@@ -67,8 +67,8 @@ Monteiro and his colleagues hope that by understanding how Roman concrete worked
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Applying Massive Language Models In The Real World With Cohere]]
-- [[5 Agent Skills I Use Every Day]]
-- [[ai music video arena claude vs gpt 5.6]]
+- [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]

@@ -21,11 +21,11 @@ tags:
 > **Sources:**
 >   - local-ai-education-proagentworkflowsdatabase-setupmd-2026-07-20.md
 > **Links:**
-- [[add lesson]]
-- [[Local LLM Wiki — Повна архітектурна документація]]
-- [[Local LLM Wiki — Agent Contract]]
-- [[Local LLM Wiki Algorithm]]
-- [[grok build ios]]
+- [[add-lesson]]
+- [[local-llm-wiki-повна-архітектурна-документація]]
+- [[local-llm-wiki-agent-contract]]
+- [[local-llm-wiki-algorithm]]
+- [[grok-build-ios]]
 
 ## Key Findings
 
@@ -59,8 +59,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[add lesson]]
-- [[Local LLM Wiki — Повна архітектурна документація]]
-- [[Local LLM Wiki — Agent Contract]]
-- [[Local LLM Wiki Algorithm]]
-- [[grok build ios]]
+- [[add-lesson]]
+- [[local-llm-wiki-повна-архітектурна-документація]]
+- [[local-llm-wiki-agent-contract]]
+- [[local-llm-wiki-algorithm]]
+- [[grok-build-ios]]

@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - apple-intelligence-approved-for-launch-in-china-with-alibaba-and-baidu-2026-07-17.md
 > **Links:**
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 - [[textures]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
 
 ## Key Findings
 
@@ -64,8 +64,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[ai powered travel agency fora hits unicorn status raises 60m]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 - [[textures]]
-- [[6 security settings every github maintainer should enable this week]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[6-security-settings-every-github-maintainer-should-enable-this-week]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]

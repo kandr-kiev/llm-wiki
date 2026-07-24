@@ -24,9 +24,9 @@ tags:
 > **Sources:**
 >   - gh-v0200-2026-07-20.md
 > **Links:**
-- [[Release v0.19.11]]
-- [[Release v0.25.1]]
-- [[Release v0.86.0]]
+- [[release-v01911]]
+- [[release-v0251]]
+- [[release-v0860]]
 - [[v0.22.1]]
 - [[Release Notes: Ollama vv0.31.2]]
 
@@ -72,8 +72,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v0.19.11]]
-- [[Release v0.25.1]]
-- [[Release v0.86.0]]
+- [[release-v01911]]
+- [[release-v0251]]
+- [[release-v0860]]
 - [[v0.22.1]]
 - [[Release Notes: Ollama vv0.31.2]]

@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - clion-20262-is-here-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[building the foundation for an autonomous enterprise]]
-- [[claude science is anthropics newest flagship product]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]
 
 ## Key Findings
 
@@ -186,8 +186,8 @@ color: #888;
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[building the foundation for an autonomous enterprise]]
-- [[claude science is anthropics newest flagship product]]
-- [[anthropic found a hidden space where claude puzzles over concepts]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts]]

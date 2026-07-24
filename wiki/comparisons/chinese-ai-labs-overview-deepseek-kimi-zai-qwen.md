@@ -33,11 +33,11 @@ tags:
 > **Sources:**
 >   - chinese-ai-labs-deepseek-kimi-z-ai-qwen-overview-2026-07-18.md
 > **Links:**
-- [[Z.ai]]
-- [[Kimi]]
-- [[DeepSeek]]
-- [[Qwen]]
-- [[Qwen (Alibaba)]]
+- [[z-ai]]
+- [[kimi]]
+- [[deepseek]]
+- [[qwen]]
+- [[qwen-alibaba]]
 
 ## Key Findings
 
@@ -97,8 +97,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Z.ai]]
-- [[Kimi]]
-- [[DeepSeek]]
-- [[Qwen]]
-- [[Qwen (Alibaba)]]
+- [[z-ai]]
+- [[kimi]]
+- [[deepseek]]
+- [[qwen]]
+- [[qwen-alibaba]]

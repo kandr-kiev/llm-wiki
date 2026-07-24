@@ -26,11 +26,11 @@ tags:
 > **Sources:**
 >   - ai-is-more-likely-than-humans-to-form-biases-when-hiring-2026-07-20.md
 > **Links:**
-- [[weather data sabotage]]
-- [[achieving operational excellence with ai]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
+- [[weather-data-sabotage]]
+- [[achieving-operational-excellence-with-ai]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
 
 ## Key Findings
 
@@ -50,8 +50,8 @@ AI is more likely than humans to form biases when hiring | MIT Technology Review
 
 ## Related Articles
 
-- [[weather data sabotage]]
-- [[achieving operational excellence with ai]]
-- [[your familys 300 stake in openai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[claude science is anthropics newest flagship product]]
+- [[weather-data-sabotage]]
+- [[achieving-operational-excellence-with-ai]]
+- [[your-familys-300-stake-in-openai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[claude-science-is-anthropics-newest-flagship-product]]

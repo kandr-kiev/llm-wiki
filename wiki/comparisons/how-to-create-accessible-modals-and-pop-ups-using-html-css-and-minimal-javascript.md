@@ -23,11 +23,11 @@ tags:
 > **Sources:**
 >   - how-to-create-accessible-modals-and-pop-ups-using-html-css-and-minimal-javascript-2026-07-18.md
 > **Links:**
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[5 Agent Skills I Use Every Day]]
-- [[master full stack mobile development with react native]]
-- [[2026 2 release]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[5-agent-skills-i-use-every-day]]
+- [[master-full-stack-mobile-development-with-react-native]]
+- [[2026-2-release]]
 
 ## Key Findings
 
@@ -154,8 +154,8 @@ The `position-anchor` property in CSS specifies a default anchor element that an
 
 ## Related Articles
 
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[5 Agent Skills I Use Every Day]]
-- [[master full stack mobile development with react native]]
-- [[2026 2 release]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[5-agent-skills-i-use-every-day]]
+- [[master-full-stack-mobile-development-with-react-native]]
+- [[2026-2-release]]

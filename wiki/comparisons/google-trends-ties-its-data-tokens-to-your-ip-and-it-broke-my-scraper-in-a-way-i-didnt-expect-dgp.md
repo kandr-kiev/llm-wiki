@@ -33,11 +33,11 @@ backlinks:
 > **Sources:**
 >   - google-trends-ties-its-data-tokens-to-your-ip-and-it-broke-my-scraper-in-a-way-i-didnt-expect-2026-07-21.md
 > **Links:**
-- [[starting my developer journey bh8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[starting-my-developer-journey-bh8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 
 ## Key Findings
 
@@ -107,11 +107,11 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[starting my developer journey bh8]]
-- [[perl weekly 782 perl v544 186n]]
-- [[its a post 4hi8]]
-- [[repeating tasks without repeating code 4fak]]
-- [[17 none of it was for me a year of building with ai 32kf]]
+- [[starting-my-developer-journey-bh8]]
+- [[perl-weekly-782-perl-v544-186n]]
+- [[its-a-post-4hi8]]
+- [[repeating-tasks-without-repeating-code-4fak]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
 ## Backlinks
 
 ```dataview

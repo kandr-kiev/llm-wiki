@@ -30,11 +30,11 @@ tags:
 > **Sources:**
 >   - ohnine-why-i-built-a-menu-bar-app-for-claude-limits-2026-07-24.md
 > **Links:**
-- [[its ok to get lucky 1laf]]
-- [[class vs object who is the big boss 32nj]]
-- [[claude reflect i audited how i actually use ai 26g4]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[claude-reflect-i-audited-how-i-actually-use-ai-26g4]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
 
 ## Key Findings
 
@@ -136,8 +136,8 @@ The core of it is a live progress bar for your current session, showing percenta
 
 ## Related Articles
 
-- [[its ok to get lucky 1laf]]
-- [[class vs object who is the big boss 32nj]]
-- [[claude reflect i audited how i actually use ai 26g4]]
-- [[5 things i learned doing ai evaluation for 2 years 3kgh]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
+- [[its-ok-to-get-lucky-1laf]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[claude-reflect-i-audited-how-i-actually-use-ai-26g4]]
+- [[5-things-i-learned-doing-ai-evaluation-for-2-years-3kgh]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]

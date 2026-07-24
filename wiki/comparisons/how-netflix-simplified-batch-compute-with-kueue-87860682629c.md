@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - how-netflix-simplified-batch-compute-with-kueue-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[genpage towards end to end generative homepage construction at netflix 77146fba8a08]]
-- [[a human augmenting agentic workflow for causal inference 4623f0a9c5af]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08]]
+- [[a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af]]
 
 ## Key Findings
 
@@ -49,8 +49,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[daniel eks body scanning startup neko health raises another 700m]]
-- [[genpage towards end to end generative homepage construction at netflix 77146fba8a08]]
-- [[a human augmenting agentic workflow for causal inference 4623f0a9c5af]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[daniel-eks-body-scanning-startup-neko-health-raises-another-700m]]
+- [[genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08]]
+- [[a-human-augmenting-agentic-workflow-for-causal-inference-4623f0a9c5af]]

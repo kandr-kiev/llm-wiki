@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - master-full-stack-mobile-development-with-react-native-2026-07-17.md
 > **Links:**
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[Windows PowerShell]]
-- [[how to fix common web application security vulnerabilities in node js]]
-- [[ai paper review deep unsupervised learning using nonequilibrium thermodynamics]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[windows-powershell]]
+- [[how-to-fix-common-web-application-security-vulnerabilities-in-node-js]]
+- [[ai-paper-review-deep-unsupervised-learning-using-nonequilibrium-thermodynamics]]
 
 ## Key Findings
 
@@ -185,8 +185,8 @@ Mobile App
 
 ## Related Articles
 
-- [[intro to shaders javascript and p5 js course for beginners]]
-- [[a beginner s guide to python hands on projects to get you coding]]
-- [[Windows PowerShell]]
-- [[how to fix common web application security vulnerabilities in node js]]
-- [[ai paper review deep unsupervised learning using nonequilibrium thermodynamics]]
+- [[intro-to-shaders-javascript-and-p5-js-course-for-beginners]]
+- [[a-beginner-s-guide-to-python-hands-on-projects-to-get-you-coding]]
+- [[windows-powershell]]
+- [[how-to-fix-common-web-application-security-vulnerabilities-in-node-js]]
+- [[ai-paper-review-deep-unsupervised-learning-using-nonequilibrium-thermodynamics]]

@@ -25,10 +25,10 @@ tags:
 >   - d-monthly-whos-hiring-and-who-wants-to-be-hired-2026-07-17.md
 > **Links:**
 - [[[Jay Alammar](/)]]
-- [[Automating Ai Away]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[sequoia ascent]]
-- [[Explainable Ai Cheat Sheet 2026 07 07]]
+- [[automating-ai-away-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[sequoia-ascent]]
+- [[explainable-ai-cheat-sheet-2026-07-07]]
 
 ## Key Findings
 
@@ -76,7 +76,7 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 ## Related Articles
 
 - [[[Jay Alammar](/)]]
-- [[Automating Ai Away]]
-- [[How Gpt3 Works Visualizations And Animations]]
-- [[sequoia ascent]]
-- [[Explainable Ai Cheat Sheet 2026 07 07]]
+- [[automating-ai-away-2026-07-07]]
+- [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
+- [[sequoia-ascent]]
+- [[explainable-ai-cheat-sheet-2026-07-07]]

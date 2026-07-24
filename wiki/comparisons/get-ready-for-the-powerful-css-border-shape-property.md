@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - get-ready-for-the-powerful-css-border-shape-property-2026-07-17.md
 > **Links:**
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[ai police cops]]
-- [[Release langchain-core==1.4.9]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[ai-police-cops]]
+- [[release-langchain-core149]]
 - [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
-- [[fortune david siegel open source ai.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]
 
 ## Key Findings
 
@@ -90,6 +90,6 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
 - [[ai polic[Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)- [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
-- [[fortune david siegel open source ai.pdf]]
+- [[fortune-david-siegel-open-source-aipdf]]

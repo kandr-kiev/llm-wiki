@@ -36,11 +36,11 @@ tags:
 > **Sources:**
 >   - ai-meets-cryptography-2-what-ai-found-in-openvms-zkvm-2026-07-17.md
 > **Links:**
-- [[Automating Ai Away]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[ai]]
-- [[Automating away]]
+- [[away]]
 
 ## Key Findings
 
@@ -140,8 +140,8 @@ This is why pairings are useful, but we will not actually need this property to 
 
 ## Related Articles
 
-- [[Automating Ai Away]]
-- [[ai music video arena claude vs gpt 5.6]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[automating-ai-away-2026-07-07]]
+- [[ai-music-video-arena-claude-vs-gpt-56]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - [[ai]]
-- [[Automating away]]
+- [[away]]

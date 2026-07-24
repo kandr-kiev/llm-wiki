@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - kotlin-turns-15-celebrate-the-kotlin-effect-2026-07-17.md
 > **Links:**
-- [[weather data sabotage]]
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
+- [[weather-data-sabotage]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]
 
 ## Key Findings
 
@@ -186,8 +186,8 @@ color: #888;
 
 ## Related Articles
 
-- [[weather data sabotage]]
-- [[your familys 300 stake in openai]]
-- [[achieving operational excellence with ai]]
-- [[agriculture is ready for ai but its data isnt]]
-- [[connected apps]]
+- [[weather-data-sabotage]]
+- [[your-familys-300-stake-in-openai]]
+- [[achieving-operational-excellence-with-ai]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[connected-apps]]

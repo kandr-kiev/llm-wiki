@@ -23,9 +23,9 @@ tags:
 > **Links:**
 - [[php-file-iterator]]
 - [[phpunit/php-code-coverage]]
-- [[Version]]
-- [[Manifest]]
-- [[DeepCopy]]
+- [[version]]
+- [[manifest]]
+- [[deepcopy]]
 
 ## Key Findings
 
@@ -58,6 +58,6 @@ See Key Findings for full content.
 
 - [[php-file-iterator]]
 - [[phpunit/php-code-coverage]]
-- [[Version]]
-- [[Manifest]]
-- [[DeepCopy]]
+- [[version]]
+- [[manifest]]
+- [[deepcopy]]

@@ -27,11 +27,11 @@ tags:
 > **Sources:**
 >   - why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal-2026-07-17.md
 > **Links:**
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]
 
 ## Key Findings
 
@@ -70,8 +70,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[why ami labs alexandre lebrun wont call his ai agi or superintelligence]]
-- [[founders fund hires former openai exec ryan beiermeister and not because of her mafia skills]]
-- [[googles ai mode now lets you link and interact with select apps]]
-- [[hermes agent maker nous research in talks for new funding at 1 5b valuation]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence]]
+- [[founders-fund-hires-former-openai-exec-ryan-beiermeister-and-not-because-of-her-mafia-skills]]
+- [[googles-ai-mode-now-lets-you-link-and-interact-with-select-apps]]
+- [[hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation]]

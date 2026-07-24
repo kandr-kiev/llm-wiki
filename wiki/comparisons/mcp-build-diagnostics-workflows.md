@@ -34,11 +34,11 @@ tags:
 > **Sources:**
 >   - mcp-beyond-the-chat-window-build-diagnostics-in-ci-2026-07-17.md
 > **Links:**
-- [[msbuild binlog mcp server]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing typescript 7 0]]
-- [[announcing dotnet modernization for beginners]]
-- [[announcing typescript 5 9]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[announcing-typescript-5-9]]
 
 ## Key Findings
 
@@ -89,8 +89,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[msbuild binlog mcp server]]
-- [[announcing typescript 6 0 beta]]
-- [[announcing typescript 7 0]]
-- [[announcing dotnet modernization for beginners]]
-- [[announcing typescript 5 9]]
+- [[msbuild-binlog-mcp-server]]
+- [[announcing-typescript-6-0-beta]]
+- [[announcing-typescript-7-0]]
+- [[announcing-dotnet-modernization-for-beginners]]
+- [[announcing-typescript-5-9]]

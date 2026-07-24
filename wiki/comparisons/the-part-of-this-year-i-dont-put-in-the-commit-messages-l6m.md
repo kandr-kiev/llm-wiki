@@ -31,11 +31,11 @@ backlinks:
 > **Sources:**
 >   - the-part-of-this-year-i-dont-put-in-the-commit-messages-2026-07-20.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[class vs object who is the big boss 32nj]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
 
 ## Key Findings
 
@@ -143,11 +143,11 @@ Subscribe
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[class vs object who is the big boss 32nj]]
-- [[17 none of it was for me a year of building with ai 32kf]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[17-none-of-it-was-for-me-a-year-of-building-with-ai-32kf]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
 ## Backlinks
 
 ```dataview

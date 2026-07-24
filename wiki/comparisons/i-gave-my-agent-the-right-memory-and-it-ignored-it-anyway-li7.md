@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Automating away]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[5-agent-skills-i-use-every-day]]
+- [[away]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]
 
 ## Key Findings
 
@@ -137,8 +137,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Automating away]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[5-agent-skills-i-use-every-day]]
+- [[away]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
+- [[automating-ai-away-2026-07-07]]

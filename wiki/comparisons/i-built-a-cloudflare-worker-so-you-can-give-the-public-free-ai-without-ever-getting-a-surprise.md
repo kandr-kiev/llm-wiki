@@ -27,10 +27,10 @@ tags:
 > **Sources:**
 >   - i-built-a-cloudflare-worker-so-you-can-give-the-public-free-ai-without-ever-getting-a-surprise-bill-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
-- [[5 Agent Skills I Use Every Day]]
+- [[automating-ai-away-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 
 ## Key Findings
@@ -140,8 +140,8 @@ This solves the opposite problem: rationing a free allowance to an untrusted pub
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Automating Ai Away]]
-- [[5 Agent Skills I Use Every Day]]
+- [[automating-ai-away-2026-07-07]]
+- [[5-agent-skills-i-use-every-day]]
 - [[Mesh LLM: distributed AI computing on iroh]]

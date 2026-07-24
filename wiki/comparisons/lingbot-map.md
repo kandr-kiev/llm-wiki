@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - lingbot-map-a-3d-foundation-model-for-reconstructing-scenes-from-streaming-data-2026-07-17.md
 > **Links:**
-- [[jacquard lang]]
-- [[billai bass]]
-- [[FableCut]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[Release v0.86.0]]
+- [[jacquard-lang]]
+- [[billai-bass]]
+- [[fablecut]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[release-v0860]]
 
 ## Key Findings
 
@@ -95,8 +95,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[jacquard lang]]
-- [[billai bass]]
-- [[FableCut]]
-- [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[Release v0.86.0]]
+- [[jacquard-lang]]
+- [[billai-bass]]
+- [[fablecut]]
+- [[german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german]]
+- [[release-v0860]]

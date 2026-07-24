@@ -22,11 +22,11 @@ tags:
 > **Sources:**
 >   - from-kickoff-to-first-concept-how-to-turn-brand-strategy-into-visual-direction-2026-07-17.md
 > **Links:**
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[designing uncertainty how ai supercharges probabilistic thinking]]
-- [[designing distressed users mental health apps ui]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[designing-uncertainty-how-ai-supercharges-probabilistic-thinking]]
+- [[designing-distressed-users-mental-health-apps-ui]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
 
 ## Key Findings
 
@@ -44,8 +44,8 @@ ader__search-results h2,.wf-loaded-stage2 .nav-item,.wf-loaded-stage2 .search .s
 
 ## Related Articles
 
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[designing uncertainty how ai supercharges probabilistic thinking]]
-- [[designing distressed users mental health apps ui]]
-- [[agriculture is ready for ai but its data isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[designing-uncertainty-how-ai-supercharges-probabilistic-thinking]]
+- [[designing-distressed-users-mental-health-apps-ui]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]

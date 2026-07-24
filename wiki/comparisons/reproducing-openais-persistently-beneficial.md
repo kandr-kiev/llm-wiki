@@ -26,11 +26,11 @@ backlinks:
 > **Sources:**
 >   - reproducing-openais-persistently-beneficial-models---grpo-trait-install-barely-moves-ideas-p-r-2026-07-21.md
 > **Links:**
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[sequoia ascent]]
-- [[The Illustrated Stable Diffusion]]
-- [[auto grade hn]]
-- [[my ocr model mislabels section titles as body]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[sequoia-ascent]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[auto-grade-hn]]
+- [[my-ocr-model-mislabels-section-titles-as-body]]
 
 ## Key Findings
 
@@ -74,11 +74,11 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 
 ## Related Articles
 
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[sequoia ascent]]
-- [[The Illustrated Stable Diffusion]]
-- [[auto grade hn]]
-- [[my ocr model mislabels section titles as body]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[sequoia-ascent]]
+- [[the-illustrated-stable-diffusion-2026-07-07]]
+- [[auto-grade-hn]]
+- [[my-ocr-model-mislabels-section-titles-as-body]]
 ## Backlinks
 
 ```dataview

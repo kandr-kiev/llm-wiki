@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - building-a-gin-config-controlled-pytorch-pipeline-with-configurable-mlp-variants-cosine-scheduling-a-2026-07-17.md
 > **Links:**
-- [[meerkat introduction]]
-- [[Release v0.25.1]]
-- [[oauth for all]]
+- [[meerkat-introduction]]
+- [[release-v0251]]
+- [[oauth-for-all]]
 - [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)
-- [[Release 5.0.0]]
+- [[release-500]]
 
 ## Key Findings
 
@@ -128,4 +128,4 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[meerkat introduction][Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)5: AsyncGRPO fork-independent epoch counting]]
-- [[Release 5.0.0]]
+- [[release-500]]

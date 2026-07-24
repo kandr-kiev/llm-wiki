@@ -25,11 +25,11 @@ tags:
 > **Sources:**
 >   - top-agentic-frameworks-for-building-applications-2026-2026-07-17.md
 > **Links:**
-- [[agriculture is ready for ai but its data isnt]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]
 
 ## Key Findings
 
@@ -186,8 +186,8 @@ color: #888;
 
 ## Related Articles
 
-- [[agriculture is ready for ai but its data isnt]]
-- [[achieving operational excellence with ai]]
-- [[connected apps]]
-- [[claude science is anthropics newest flagship product]]
-- [[building the foundation for an autonomous enterprise]]
+- [[agriculture-is-ready-for-ai-but-its-data-isnt]]
+- [[achieving-operational-excellence-with-ai]]
+- [[connected-apps]]
+- [[claude-science-is-anthropics-newest-flagship-product]]
+- [[building-the-foundation-for-an-autonomous-enterprise]]

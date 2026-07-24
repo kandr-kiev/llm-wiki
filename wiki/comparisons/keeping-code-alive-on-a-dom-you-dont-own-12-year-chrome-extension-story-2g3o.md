@@ -29,11 +29,11 @@ tags:
 > **Sources:**
 >   - keeping-code-alive-on-a-dom-you-dont-own-12-year-chrome-extension-story-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]
 
 ## Key Findings
 
@@ -153,8 +153,8 @@ I committed a hotfix at 17:54 that day: bump the shifted indices by one. Committ
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
-- [[hackthebox void whispers writeup bh5]]
-- [[stop prompting llms to do legal math its broken 27e0]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[i gave my agent the right memory and it ignored it anyway li7]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
+- [[hackthebox-void-whispers-writeup-bh5]]
+- [[stop-prompting-llms-to-do-legal-math-its-broken-27e0]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[i-gave-my-agent-the-right-memory-and-it-ignored-it-anyway-li7]]

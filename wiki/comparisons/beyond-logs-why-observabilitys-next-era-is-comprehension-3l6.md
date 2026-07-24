@@ -28,11 +28,11 @@ tags:
 > **Sources:**
 >   - beyond-logs-why-observabilitys-next-era-is-comprehension-2026-07-17.md
 > **Links:**
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[5 Agent Skills I Use Every Day]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[5-agent-skills-i-use-every-day]]
 
 ## Key Findings
 
@@ -144,8 +144,8 @@ If you're extracting a metric from a log line today, that's a signal the underly
 
 ## Related Articles
 
-- [[deadstop 2025 vs crossfit games 2024 1okg]]
+- [[deadstop-2025-vs-crossfit-games-2024-1okg]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[threads url analyzer gonggae deiteowa gyejeong seungin deiteoyi gyeonggye 2mid]]
-- [[5 Agent Skills I Use Every Day]]
+- [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
+- [[threads-url-analyzer-gonggae-deiteowa-gyejeong-seungin-deiteoyi-gyeonggye-2mid]]
+- [[5-agent-skills-i-use-every-day]]

@@ -32,11 +32,11 @@ backlinks:
 > **Sources:**
 >   - its-ok-to-get-lucky-2026-07-21.md
 > **Links:**
-- [[i tried kimi k3 for a week heres what happened]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[class vs object who is the big boss 32nj]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
 
 ## Key Findings
 
@@ -134,11 +134,11 @@ And that is exactly why the scene matters. The problem was never whether I was r
 
 ## Related Articles
 
-- [[i tried kimi k3 for a week heres what happened]]
-- [[the part of this year i dont put in the commit messages l6m]]
-- [[class vs object who is the big boss 32nj]]
-- [[hollowtest find tests that pass but prove nothing 2iii]]
-- [[what if github stopped tracking code and started tracking thought g6n]]
+- [[i-tried-kimi-k3-for-a-week-heres-what-happened]]
+- [[the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m]]
+- [[class-vs-object-who-is-the-big-boss-32nj]]
+- [[hollowtest-find-tests-that-pass-but-prove-nothing-2iii]]
+- [[what-if-github-stopped-tracking-code-and-started-tracking-thought-g6n]]
 ## Backlinks
 
 ```dataview

@@ -21,7 +21,7 @@ tags:
 - [[wiki.py]]
 - [[moon.py]]
 - [[anecdotes.py]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]
 
 ## Key Findings
 
@@ -54,4 +54,4 @@ See Key Findings for full content.
 - [[wiki.py]]
 - [[moon.py]]
 - [[anecdotes.py]]
-- [[── Translation helpers (moved from old adapters/noaa_swpc.py) ──]]
+- [[translation-helpers-moved-from-old-adaptersnoaa_swpcpy]]

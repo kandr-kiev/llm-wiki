@@ -21,10 +21,10 @@ tags:
 > **Sources:**
 >   - local-weather-space-lunar-digestsrcadaptersairraidpy-2026-07-20.md
 > **Links:**
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
-- [[Changelog]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
+- [[changelog]]
 - [[cycle.py]]
-- [[get ready for the powerful css border shape property]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[installed.json]]
 
 ## Key Findings
@@ -123,8 +123,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Дайджест Аудит — Повний чек-лист помилок (2026-07-15)]]
-- [[Changelog]]
+- [[дайджест-аудит-повний-чек-лист-помилок-2026-07-15]]
+- [[changelog]]
 - [[cycle.py]]
-- [[get ready for the powerful css border shape property]]
+- [[get-ready-for-the-powerful-css-border-shape-property]]
 - [[installed.json]]

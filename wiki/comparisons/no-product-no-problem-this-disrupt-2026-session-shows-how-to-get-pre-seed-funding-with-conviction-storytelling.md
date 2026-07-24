@@ -24,11 +24,11 @@ tags:
 > **Sources:**
 >   - no-product-no-problem-this-disrupt-2026-session-shows-how-to-get-pre-seed-funding-with-conviction-st-2026-07-17.md
 > **Links:**
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[openai researcher miles wang in talks to launch ai drug discovery startup valued at 2b]]
-- [[ultrahumans former hardware vp raises 5 5m for devices that control ai agents not just record you]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
-- [[Dh6PYP5 senior infrastructure engineer]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b]]
+- [[ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
+- [[dh6pyp5-senior-infrastructure-engineer]]
 
 ## Key Findings
 
@@ -65,8 +65,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[whatnot acquires shaped to power real time live shopping recommendations]]
-- [[openai researcher miles wang in talks to launch ai drug discovery startup valued at 2b]]
-- [[ultrahumans former hardware vp raises 5 5m for devices that control ai agents not just record you]]
-- [[how a former deepmind researcher raised at a 300m pre seed valuation before launching a product]]
-- [[Dh6PYP5 senior infrastructure engineer]]
+- [[whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations]]
+- [[openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b]]
+- [[ultrahumans-former-hardware-vp-raises-5-5m-for-devices-that-control-ai-agents-not-just-record-you]]
+- [[how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product]]
+- [[dh6pyp5-senior-infrastructure-engineer]]
