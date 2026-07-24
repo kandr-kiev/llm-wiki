@@ -501,7 +501,9 @@ def cure_broken_wikilinks(report):
 
         # Use clean_body (Astro tags stripped) — matches diagnose_wiki_pages input
         # This ensures diagnose and cure operate on the same input surface
-        new_body = re.sub(r"\[\[([^\]|#]+)\]", replace_wikilink, clean_body)
+        # NOTE: pattern allows # (for [[page#anchor]] and [[Issue #123: title]]).
+        # Non-greedy + ] exclusion handles all wikilink variants.
+        new_body = re.sub(r"\[\[([^\]]+?)\]\]", replace_wikilink, clean_body)
         if new_body != clean_body:
             new_text = fm + "\n" + new_body
             _write_if_not_dry(page, new_text)
