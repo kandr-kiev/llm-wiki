@@ -20,7 +20,7 @@ import re
 import sys
 import argparse
 from pathlib import Path
-from collections import deque
+from collections import deque, defaultdict
 from difflib import SequenceMatcher
 
 # === Configuration ===
@@ -132,9 +132,10 @@ def preprocess_query(raw_query: str, graph: dict = None) -> tuple:
     
     result = " ".join(unique_keywords)
     
-    # If preprocessing stripped everything, return original
+    # If preprocessing stripped everything, return empty (not original)
+    # so the caller knows the query has no meaningful terms
     if not result:
-        result = raw_query.strip()
+        result = ""
     
     debug_info = {
         "original": raw_query,
@@ -173,9 +174,14 @@ def _build_generic_stoplist(graph: dict) -> set:
 def fuzzy_match(query: str, target: str) -> float:
     """Calculate similarity between query and target.
     Uses word-level matching: each query word checked against target.
+    Normalizes hyphens/underscores to spaces for consistent matching.
     """
-    q_words = query.lower().strip().split()
-    t_lower = target.lower()
+    # Normalize: hyphens and underscores → spaces
+    q_norm = query.lower().strip().replace("-", " ").replace("_", " ")
+    t_norm = target.lower().replace("-", " ").replace("_", " ")
+    
+    q_words = [w for w in q_norm.split() if len(w) >= 2]
+    t_lower = t_norm
     
     if not q_words:
         return 0.0
@@ -195,69 +201,130 @@ def fuzzy_match(query: str, target: str) -> float:
     return 0.8 * word_score + 0.2 * char_score
 
 
+# Type priority multipliers — concept/playbook pages are higher quality
+TYPE_BONUS = {
+    "concept": 1.2,
+    "playbook": 1.1,
+    "entity": 1.0,
+    "comparison": 1.0,
+    "research": 0.9,
+}
+
+# Noise patterns to exclude from results
+NOISE_PATTERNS = ["vendor/", "node_modules/", "phpunit/", "composer/", "issue #", "release notes"]
+
+
+def calculate_score(query: str, label: str, slug: str, node_type: str,
+                    inbound_count: int = 0) -> float:
+    """Calculate relevance score for a node given a query.
+    
+    Multi-factor scoring:
+    1. Word match (70%) — PRIMARY signal, WORD-BOUNDARY match in label
+    2. Slug match (20%) — WORD-BOUNDARY match in slug
+    3. Both-words bonus (10%) — if ALL query words present
+    
+    Uses regex word boundaries to avoid substring false-positives
+    (e.g. "rag" inside "coverage").
+    
+    Returns: float score (0.0 to 1.0)
+    """
+    q_words = [w for w in query.lower().split() if len(w) >= 2]
+    l_lower = label.lower().replace("-", " ").replace("_", " ")
+    s_lower = slug.lower().replace("-", " ").replace("_", " ")
+    
+    if not q_words:
+        return 0.0
+    
+    # Word match with WORD BOUNDARIES — prevents "rag" matching inside "coverage"
+    word_matches = sum(
+        1 for w in q_words 
+        if re.search(r'\b' + re.escape(w) + r'\b', l_lower)
+    )
+    word_score = word_matches / len(q_words)
+    
+    # Slug match with word boundaries
+    slug_matches = sum(
+        1 for w in q_words 
+        if re.search(r'\b' + re.escape(w) + r'\b', s_lower)
+    )
+    slug_score = slug_matches / len(q_words)
+    
+    # Both-words bonus (10%) — if ALL query words in label
+    all_match = all(
+        re.search(r'\b' + re.escape(w) + r'\b', l_lower) 
+        for w in q_words
+    )
+    
+    # Base score — word match is primary
+    score = (
+        0.70 * word_score +
+        0.20 * slug_score +
+        0.10 * all_match
+    )
+    
+    # Package/version penalty (×0.1)
+    if re.search(r'==\d+\.\d+', l_lower) or re.search(r'~=?\d+\.\d+', l_lower):
+        score *= 0.1
+    
+    return round(score, 3)
+
+
 def find_relevant_nodes(graph: dict, query: str, top_k: int = 5, min_score: float = 0.3) -> list:
-    """Find nodes most relevant to the query."""
+    """Find nodes most relevant to the query using multi-factor scoring.
+    
+    Replaces old fuzzy_match with calculate_score for better relevance.
+    Uses inbound link counts as a quality signal.
+    """
     scores = []
     
-    # Build slug->node lookup for type info
-    slug_to_type = {}
+    # Build slug→node lookup + inbound count
+    slug_to_node = {}
+    inbound_counts = defaultdict(int)
+    for edge in graph.get("edges", []):
+        inbound_counts[edge.get("target", "")] += 1
+    
     for node in graph.get("nodes", []):
-        slug_to_type[node.get("id", "")] = node.get("type", "unknown")
+        slug_to_node[node.get("id", "")] = node
     
     for node in graph.get("nodes", []):
         label = node.get("label", "")
         slug = node.get("id", "")
-        node_type = slug_to_type.get(slug, "unknown")
+        node_type = node.get("type", "unknown")
         
-        # Filter out package-version nodes (e.g. langchain-core==1.4.9)
+        # Filter out package-version nodes
         label_lower = label.lower()
         if re.search(r'==\d+\.\d+', label_lower):
             continue
-        if re.search(r'~=\d+\.\d+', label_lower):
+        if re.search(r'~=?\d+\.\d+', label_lower):
             continue
         if re.search(r'\d+\.x\.x', label_lower):
             continue
         
-        # Score by label similarity
-        label_score = fuzzy_match(query, label)
+        # Get inbound link count for quality signal
+        inbound = inbound_counts.get(slug, 0)
         
-        # Score by slug similarity
-        slug_score = fuzzy_match(query, slug)
+        # Calculate multi-factor score
+        score = calculate_score(query, label, slug, node_type, inbound)
         
-        # Boost if ALL query words appear in label (exact match of all terms)
-        q_words = query.lower().strip().split()
-        if q_words and all(w in label_lower for w in q_words):
-            label_score = max(label_score, 0.85)
-        
-        # Combined score (label is more important)
-        combined = 0.7 * label_score + 0.3 * slug_score
-        
-        if combined > min_score:  # Threshold
+        if score > min_score:
             scores.append({
                 "node": node,
                 "label": label,
                 "slug": slug,
-                "score": round(combined, 3),
-                "type": node_type
+                "score": score,
+                "type": node_type,
+                "inbound": inbound,
             })
     
-    # Sort by score descending, but prioritize "concept" and "playbook" types
-    # Filter out obvious noise: composer packages, vendor files
-    type_priority = {"concept": 0, "playbook": 1, "comparison": 2, "entity": 3, "research": 4}
-    for item in scores:
-        item["type_priority"] = type_priority.get(item["type"], 5)
+    # Sort by score descending
+    scores.sort(key=lambda x: -x["score"])
     
-    scores.sort(key=lambda x: (-x["score"], x["type_priority"]))
-    
-    # Filter out noise: vendor/composer files, package comparisons
+    # Filter noise
     filtered = []
     for item in scores:
         label = item["label"].lower()
-        if any(skip in label for skip in ["vendor/", "node_modules/", "phpunit/", "composer/"]):
+        if any(skip in label for skip in NOISE_PATTERNS):
             continue
-        # Lower priority for package-version comparisons
-        if item["type"] == "comparison" and re.search(r'==\d+', item["label"]):
-            item["type_priority"] = 9  # Push to very end
         filtered.append(item)
     
     return filtered[:top_k]
@@ -336,18 +403,44 @@ def load_wiki_page(slug: str) -> str:
     return None
 
 
-def _read_wiki_content(wiki_path: Path) -> str:
-    """Read wiki content, strip frontmatter, limit length."""
+def _read_wiki_content(wiki_path: Path, limit: int = 3000) -> str:
+    """Read wiki content, strip frontmatter, limit length.
+    
+    Args:
+        wiki_path: Path to the wiki markdown file
+        limit: Max characters (default 3000, can be 500 for summaries)
+    """
     content = wiki_path.read_text(encoding="utf-8")
     if content.startswith("---"):
         end_fm = content.find("---", 3)
         if end_fm > 0:
             content = content[end_fm+3:].strip()
-    return content[:1500]
+    return content[:limit]
+
+
+def _estimate_tokens(text: str) -> int:
+    """Estimate token count: ~4 chars per token."""
+    return len(text) // 4
+
+
+def enforce_token_budget(context: str, budget_chars: int = 3000) -> str:
+    """Ensure context fits within token budget.
+    
+    Budget: ~3000 chars = ~750 tokens (default budget)
+    """
+    if _estimate_tokens(context) <= budget_chars // 4:
+        return context
+    return context[:budget_chars] + "\n\n[TRUNCATED — context exceeded budget]"
 
 
 def query(graph: dict, query_text: str, depth: int = DEFAULT_DEPTH, top_k: int = DEFAULT_TOP_K) -> dict:
-    """Main query function."""
+    """Main query function with summary-first token optimization.
+    
+    Strategy:
+    1. Load 500-char summaries for ALL top_k nodes
+    2. Load full content (3000 chars) only for top-2 most relevant
+    3. Enforce total token budget (~750 tokens = ~3000 chars)
+    """
     # Preprocess: extract keywords from natural language
     processed, debug_info = preprocess_query(query_text, graph=graph)
     
@@ -369,24 +462,90 @@ def query(graph: dict, query_text: str, depth: int = DEFAULT_DEPTH, top_k: int =
     # 3. Sort visited nodes by relevance
     sorted_nodes = sorted(visited.items(), key=lambda x: x[1]["distance_from_query"], reverse=True)
     
-    # 4. Load wiki pages for top nodes
+    # 4. Load 500-char summaries for ALL top nodes (cheap scan)
+    summaries = {}
+    for slug, info in sorted_nodes[:top_k]:
+        for dir_name in ["", "comparisons/", "entities/", "concepts/", "research/", "playbooks/"]:
+            wiki_path = WIKI_DIR / f"{slug}.md" if not dir_name else WIKI_DIR / f"{dir_name}{slug}.md"
+            if wiki_path.exists():
+                summaries[slug] = _read_wiki_content(wiki_path, limit=500)
+                break
+        else:
+            # Fallback: partial match
+            for md_file in WIKI_DIR.rglob("*.md"):
+                if md_file.name == "index.md":
+                    continue
+                file_slug = md_file.stem.lower().replace("-", "")
+                target_slug = slug.lower().replace("-", "")
+                if target_slug in file_slug or file_slug in target_slug:
+                    summaries[slug] = _read_wiki_content(md_file, limit=500)
+                    break
+    
+    # 5. Load full content (3000 chars) only for top-2 most relevant
+    #    — saves tokens when relevance is clear from summary
+    full_pages = {}
+    pages_to_load_full = sorted_nodes[:min(2, len(sorted_nodes))]
+    for slug, info in pages_to_load_full:
+        # Try to find the file through standard paths
+        found = False
+        for dir_name in ["", "comparisons/", "entities/", "concepts/", "research/", "playbooks/"]:
+            wiki_path = WIKI_DIR / f"{dir_name}{slug}.md" if dir_name else WIKI_DIR / f"{slug}.md"
+            if wiki_path.exists():
+                full_pages[slug] = _read_wiki_content(wiki_path, limit=3000)
+                found = True
+                break
+        # Fallback: partial match search
+        if not found:
+            for md_file in WIKI_DIR.rglob("*.md"):
+                if md_file.name == "index.md":
+                    continue
+                file_slug = md_file.stem.lower().replace("-", "")
+                target_slug = slug.lower().replace("-", "")
+                if target_slug in file_slug or file_slug in target_slug:
+                    full_pages[slug] = _read_wiki_content(md_file, limit=3000)
+                    break
+    
+    # 6. Build context: full content for top-2, summaries for rest
     pages = []
     for slug, info in sorted_nodes[:top_k]:
-        page_content = load_wiki_page(slug)
-        if page_content:
-            pages.append({
-                "slug": slug,
-                "title": info["node"].get("label", slug) if info["node"] else slug,
-                "depth": info["depth"],
-                "score": round(info["distance_from_query"], 3),
-                "content": page_content
-            })
+        title = info["node"].get("label", slug) if info["node"] else slug
+        depth_val = info["depth"]
+        score = round(info["distance_from_query"], 3)
+        
+        # Use full content if available, otherwise summary
+        if slug in full_pages:
+            content = full_pages[slug]
+            mode = "full"
+        elif slug in summaries:
+            content = summaries[slug]
+            mode = "summary"
+        else:
+            continue
+        
+        pages.append({
+            "slug": slug,
+            "title": title,
+            "depth": depth_val,
+            "score": score,
+            "content": content,
+            "mode": mode,
+        })
     
-    # 5. Build context
+    # 7. Build context with token budget enforcement
     context_lines = []
     for p in pages:
-        context_lines.append(f"\n## {p['title']} (slug: {p['slug']}, depth: {p['depth']}, score: {p['score']})")
+        mode_label = " [FULL]" if p["mode"] == "full" else " [SUMMARY]"
+        context_lines.append(f"\n## {p['title']}{mode_label} (slug: {p['slug']}, depth: {p['depth']}, score: {p['score']})")
         context_lines.append(p["content"])
+    
+    context = "\n".join(context_lines)
+    
+    # Enforce token budget — cap at ~3000 chars
+    context = enforce_token_budget(context, budget_chars=3000)
+    
+    # 8. Report token usage
+    total_chars = len(context)
+    estimated_tokens = _estimate_tokens(context)
     
     return {
         "query": query_text,
@@ -394,7 +553,14 @@ def query(graph: dict, query_text: str, depth: int = DEFAULT_DEPTH, top_k: int =
         "relevant_nodes": [{"label": r["label"], "slug": r["slug"], "score": r["score"]} for r in relevant],
         "bfs_nodes": len(visited),
         "pages": pages,
-        "context": "\n".join(context_lines) if context_lines else "No wiki pages found"
+        "context": context,
+        "token_stats": {
+            "total_chars": total_chars,
+            "estimated_tokens": estimated_tokens,
+            "budget_chars": 3000,
+            "budget_tokens": 750,
+            "mode": "summary-first"
+        }
     }
 
 
@@ -450,7 +616,14 @@ def main():
         if result.get("pages"):
             print(f"\nTop {len(result['pages'])} wiki pages loaded:")
             for p in result["pages"]:
-                print(f"  [{p['depth']}] {p['title']:50s} (score={p['score']})")
+                mode_label = "[FULL]" if p["mode"] == "full" else "[SUMMARY]"
+                print(f"  [{p['depth']}] {p['title']:50s} (score={p['score']}) {mode_label}")
+        
+        # Token stats
+        stats = result.get("token_stats", {})
+        if stats:
+            print(f"\n📊 Token usage: {stats['total_chars']} chars, ~{stats['estimated_tokens']} tokens")
+            print(f"   Mode: {stats['mode']} (budget: {stats['budget_chars']} chars / {stats['budget_tokens']} tokens)")
         
         print("\n" + "=" * 60)
         print("CONTEXT:")

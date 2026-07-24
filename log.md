@@ -303,3 +303,13 @@
 ## [2026-07-23 06:05 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 976 | **WARN:** 88 | **INFO:** 2 | **Auto-fixable:** 1028, після: **ERROR:** 20 | **WARN:** 44 | **INFO:** 2 | **Auto-fixable:** 23, виправлень: 957
 
 ## [2026-07-23 12:08 UTC] source_monitor | RSS: 3759, GH: 42, HF: 17, Local: 0 | new: 46 (28 articles, 1 releases, 17 HF, 0 local)
+
+## [2026-07-23 18:15 UTC] wiki_doctor | Wiki Doctor (LIVE) — до: **ERROR:** 642 | **WARN:** 86 | **INFO:** 2 | **Auto-fixable:** 687, після: **ERROR:** 24 | **WARN:** 46 | **INFO:** 2 | **Auto-fixable:** 27, виправлень: 624
+
+## [2026-07-23 21:19 UTC] source_monitor | RSS: 3756, GH: 42, HF: 17, Local: 0 | new: 47 (28 articles, 2 releases, 17 HF, 0 local)
+
+## [2026-07-24 00:18 UTC] source_monitor | RSS: 3758, GH: 42, HF: 17, Local: 0 | new: 33 (15 articles, 1 releases, 17 HF, 0 local)
+
+## [2026-07-24 00:20 UTC] source_monitor | RSS: 3758, GH: 42, HF: 17, Local: 0 | new: 17 (0 articles, 0 releases, 17 HF, 0 local)
+
+## [2026-07-24 00:23 UTC] source_monitor | RSS: 3758, GH: 42, HF: 17, Local: 0 | new: 17 (0 articles, 0 releases, 17 HF, 0 local)

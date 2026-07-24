@@ -1,7 +1,7 @@
 ---
 source_url: https://github.com/Graphify-Labs/graphify
 ingested: 2026-07-08
-sha256: 411b271d7e89ab87a7b99762ae92a73f95f45514c23986723e4533f1c841d3a8
+sha256: e0699693f786ffaf0ef0ce08c7caf3669ac8217a4490d7dbed48337977b2b759
 ---
 
 # Інтеграція Graphify з LLM-WIKI: стратегія, теорія, техніка, рекомендації
