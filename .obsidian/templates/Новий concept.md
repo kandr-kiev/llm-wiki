@@ -1,25 +1,35 @@
 ---
 title: "{{title}}"
+slug: "{{title | slugify}}"
 type: concept
-category: concepts
-tags: [llm-wiki, knowledge-base]
-created: {{date:YYYY-MM-DD}}
-updated: {{date:YYYY-MM-DD}}
-sources: []
-confidence: medium
-links: []
+tags:
+  - concept
+created: "{{date}}"
+updated: "{{date}}"
 status: draft
 ---
 
 # {{title}}
 
-> **Source:** 
-> **Type:** concept
+## Overview
 
-## Опис
+{{content}}
 
-## Ключові поняття
+## Key Points
 
-## Зв'язки
+- 
 
-[[llm-wiki]]
+## Related Concepts
+
+- [[{{related}}]]
+
+## See Also
+
+- 
+
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "{{slug}}")
+```

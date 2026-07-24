@@ -1,25 +1,50 @@
 ---
 title: "{{title}}"
+slug: "{{title | slugify}}"
 type: comparison
-category: comparisons
-tags: [llm-wiki, knowledge-base, comparison]
-created: {{date:YYYY-MM-DD}}
-updated: {{date:YYYY-MM-DD}}
-sources: []
-confidence: medium
-links: []
+tags:
+  - comparison
+  - review
+created: "{{date}}"
+updated: "{{date}}"
 status: draft
+source_url: ""
 ---
 
 # {{title}}
 
-> **Source:** 
-> **Type:** comparison
+## Overview
 
-## Порівняння
+{{content}}
 
-## Метрики
+## Comparison Matrix
 
-## Висновки
+| Feature | Option A | Option B |
+|---|---|---|
+| Feature 1 | | |
+| Feature 2 | | |
 
-[[llm-wiki]]
+## Pros & Cons
+
+### Option A
+- 
+- 
+
+### Option B
+- 
+- 
+
+## Recommendation
+
+- 
+
+## Related Tools
+
+- [[{{related}}]]
+
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "{{slug}}")
+```

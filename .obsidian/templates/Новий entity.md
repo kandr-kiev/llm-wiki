@@ -1,23 +1,52 @@
 ---
 title: "{{title}}"
+slug: "{{title | slugify}}"
 type: entity
-category: entities
-tags: [llm-wiki, knowledge-base]
-created: {{date:YYYY-MM-DD}}
-updated: {{date:YYYY-MM-DD}}
-sources: []
-confidence: medium
-links: []
+tags:
+  - entity
+  - tool
+created: "{{date}}"
+updated: "{{date}}"
 status: draft
+source_url: ""
+version: ""
 ---
 
 # {{title}}
 
-> **Source:** 
-> **Type:** entity
+## Overview
 
-## Опис
+{{content}}
 
-## Характеристики
+## Features
 
-[[llm-wiki]]
+- 
+
+## Installation
+
+```bash
+
+```
+
+## Configuration
+
+```yaml
+
+```
+
+## Usage Examples
+
+```python
+
+```
+
+## Related Tools
+
+- [[{{related}}]]
+
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "{{slug}}")
+```

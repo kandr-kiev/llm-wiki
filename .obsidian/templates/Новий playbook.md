@@ -1,23 +1,59 @@
 ---
 title: "{{title}}"
+slug: "{{title | slugify}}"
 type: playbook
-category: playbooks
-tags: [llm-wiki, knowledge-base, playbook]
-created: {{date:YYYY-MM-DD}}
-updated: {{date:YYYY-MM-DD}}
-sources: []
-confidence: medium
-links: []
+tags:
+  - playbook
+  - tutorial
+created: "{{date}}"
+updated: "{{date}}"
 status: draft
+difficulty: intermediate
 ---
 
 # {{title}}
 
-> **Source:** 
-> **Type:** playbook
+## Overview
 
-## Кроки
+{{content}}
 
-## Примітки
+## Prerequisites
 
-[[llm-wiki]]
+- 
+
+## Step 1: Setup
+
+```bash
+
+```
+
+## Step 2: Configuration
+
+```yaml
+
+```
+
+## Step 3: Implementation
+
+```python
+
+```
+
+## Verification
+
+- 
+
+## Troubleshooting
+
+- 
+
+## Related Playbooks
+
+- [[{{related}}]]
+
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "{{slug}}")
+```
