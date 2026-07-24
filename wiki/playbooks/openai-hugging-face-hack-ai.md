@@ -9,6 +9,14 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - openai-hugging-face-hack-ai
+---
+
+backlinks:
+  - how-to-deploy-local-llm
+---
+
 title: "openai hugging face hack ai"
 type: playbook
 tags:
@@ -114,3 +122,9 @@ See Key Findings for full content.
 - [[i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3]]
 - ]
 - [[ai-hardware]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "how-to-deploy-local-llm")
+```

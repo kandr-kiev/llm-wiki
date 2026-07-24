@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - typescript-60-noemit-and-type-only-builds-why-your-ci-pipeline-should-never-call-tsc-for-4jmb
+---
+
 title: "typescript 60 noemit and type only builds why your ci pipeline should never call tsc for 4jmb"
 type: synthesis
 tags:
@@ -152,3 +156,9 @@ Key Takeaways
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - ]
 - [[software-is-cheap-proof-is-not-5e3c]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "typescript-60-noemit-and-type-only-builds-why-your-ci-pipeline-should-never-call-tsc-for-4jmb")
+```

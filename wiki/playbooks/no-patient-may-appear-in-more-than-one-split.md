@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - no-patient-may-appear-in-more-than-one-split
+---
+
 title: "no patient may appear in more than one split"
 type: playbook
 tags:
@@ -36,7 +40,7 @@ tags:
 > **Links:**
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]]
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)
 - ]
 - [[ai-drawing-arena-colored-pencils-claude-gpt-grok]]]
 
@@ -154,7 +158,12 @@ This first pass is data profiling. It reads every image and mask once and answer
 ## Related Articles
 
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]]
-- [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)
 - ]
 - [[ai-drawing-arena-colored-pencils-claude-gpt-grok]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "no-patient-may-appear-in-more-than-one-split")
+```

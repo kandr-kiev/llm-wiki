@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - kimi-k3-agentic-knowledge-benchmark
+---
+
 title: "kimi k3 agentic knowledge benchmark"
 type: synthesis
 tags:
@@ -110,3 +114,9 @@ XLinkedInYouTubeRednote<path fill-rule="evenodd" clip-rule="evenodd" d="M5.07451
 - ]
 - [[content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "kimi-k3-agentic-knowledge-benchmark")
+```

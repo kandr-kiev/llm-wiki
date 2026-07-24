@@ -22,6 +22,10 @@ links: []
 sources: []
 updated: 2026-07-23
 ---
+backlinks:
+  - ai-can-write-code-faster-than-i-can-responsibly-review-it-4ig4
+---
+
 
 # ai can write code faster than i can responsibly review it 4ig4
 
@@ -187,3 +191,9 @@ It is less aware of the strange data alre
 - [17 none of it was for me a year of building with ai 32kf](https://dev.to/)
 - [adding an ai chatbot to echostats 290m](https://dev.to/)
 - [class vs object who is the big boss 32nj](https://dev.to/)
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "ai-can-write-code-faster-than-i-can-responsibly-review-it-4ig4")
+```

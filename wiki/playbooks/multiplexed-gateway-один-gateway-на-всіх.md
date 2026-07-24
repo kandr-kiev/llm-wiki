@@ -9,6 +9,14 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - multiplexed-gateway-один-gateway-на-всіх
+---
+
+backlinks:
+  - multiplexed-gateway
+---
+
 title: "Multiplexed Gateway (ОДИН GATEWAY НА ВСІХ)"
 type: playbook
 tags:
@@ -153,3 +161,9 @@ See Key Findings for full content.
 - [[how-to-use-hermes-agent]]
 - [[run-locally]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "multiplexed-gateway")
+```

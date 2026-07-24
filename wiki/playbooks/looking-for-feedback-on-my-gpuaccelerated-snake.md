@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - looking-for-feedback-on-my-gpuaccelerated-snake
+---
+
 title: "looking for feedback on my gpuaccelerated snake"
 type: playbook
 tags:
@@ -89,3 +93,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "looking-for-feedback-on-my-gpuaccelerated-snake")
+```

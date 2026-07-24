@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - how-to-build-an-ai-feature-with-gemini-a-practical-guide-to-prompt-engineering-for-developers
+---
+
 title: "how to build an ai feature with gemini a practical guide to prompt engineering for developers"
 type: playbook
 tags:
@@ -164,3 +168,9 @@ This is a practical guide, not a beginner's introduction to APIs, so it assumes 
 - [[agent-skills-patterns]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - (https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "how-to-build-an-ai-feature-with-gemini-a-practical-guide-to-prompt-engineering-for-developers")
+```

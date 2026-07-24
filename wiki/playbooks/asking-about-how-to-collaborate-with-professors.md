@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - asking-about-how-to-collaborate-with-professors
+---
+
 title: "asking about how to collaborate with professors"
 type: playbook
 tags:
@@ -87,3 +91,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - ]
 - ]
 - [[content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "asking-about-how-to-collaborate-with-professors")
+```

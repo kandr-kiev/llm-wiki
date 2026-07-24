@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - fairphone-6-wide-camera-linux
+---
+
 title: "fairphone 6 wide camera linux"
 type: playbook
 tags:
@@ -120,3 +124,9 @@ I ran into a problem at this point. The driver bound, but reading the TFE hardwa
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "fairphone-6-wide-camera-linux")
+```

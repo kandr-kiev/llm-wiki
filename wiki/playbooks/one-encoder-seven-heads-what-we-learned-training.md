@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - one-encoder-seven-heads-what-we-learned-training
+---
+
 title: "one encoder seven heads what we learned training"
 type: playbook
 tags:
@@ -88,3 +92,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - ]
 - ]
 - [[build-gcc-fibs--o-fib--no-pie]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "one-encoder-seven-heads-what-we-learned-training")
+```

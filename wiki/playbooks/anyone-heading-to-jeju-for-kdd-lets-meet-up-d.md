@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - anyone-heading-to-jeju-for-kdd-lets-meet-up-d
+---
+
 title: "anyone heading to jeju for kdd lets meet up d"
 type: playbook
 tags:
@@ -87,3 +91,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[kimi-k3-open-frontier-intelligence-geul-ilggo-4cgp]]]
 - [[content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07]]]
 - [[how-gpt3-works---visualizations-and-animations-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "anyone-heading-to-jeju-for-kdd-lets-meet-up-d")
+```

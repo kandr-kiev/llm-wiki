@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - openai-says-hugging-face-was-breached-by-its-pre-release-models
+---
+
 title: "openai says hugging face was breached by its pre release models"
 type: synthesis
 tags:
@@ -85,3 +89,9 @@ See Key Findings for full content.
 - [[the-white-houses-post-quantum-executive-order-is-an-important-milestone-its-time-to-get-to-work-2026-07-07]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "openai-says-hugging-face-was-breached-by-its-pre-release-models")
+```

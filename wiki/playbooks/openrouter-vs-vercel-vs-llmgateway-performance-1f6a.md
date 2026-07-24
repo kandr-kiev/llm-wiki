@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - openrouter-vs-vercel-vs-llmgateway-performance-1f6a
+---
+
 title: "openrouter vs vercel vs llmgateway performance 1f6a"
 type: playbook
 tags:
@@ -208,3 +212,9 @@ One honest caveat on the TTFB column: it flatters LLM Gateway for an architectur
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[court-deadlines-you-can-audit-4gph]]]
 - [[how-we-built-saga-rollbacks-for-cloudflare-workflows-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "openrouter-vs-vercel-vs-llmgateway-performance-1f6a")
+```

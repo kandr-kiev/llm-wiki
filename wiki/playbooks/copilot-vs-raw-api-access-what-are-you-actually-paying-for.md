@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - copilot-vs-raw-api-access-what-are-you-actually-paying-for
+---
+
 title: "copilot vs raw api access what are you actually paying for"
 type: playbook
 tags:
@@ -105,3 +109,9 @@ See Key Findings for full content.
 - [[arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous]]]
 - [[finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07]]]
 - [[expiring-content-put-the-deadline-in-the-data-not-the-prose-27bh]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "copilot-vs-raw-api-access-what-are-you-actually-paying-for")
+```

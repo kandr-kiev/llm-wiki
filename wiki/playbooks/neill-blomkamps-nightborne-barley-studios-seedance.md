@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - neill-blomkamps-nightborne-barley-studios-seedance
+---
+
 title: "neill blomkamps nightborne barley studios seedance"
 type: playbook
 tags:
@@ -85,3 +89,9 @@ See Key Findings for full content.
 - ]
 - [[ai-and-the-rise-of-the-universal-entertainment-app]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "neill-blomkamps-nightborne-barley-studios-seedance")
+```

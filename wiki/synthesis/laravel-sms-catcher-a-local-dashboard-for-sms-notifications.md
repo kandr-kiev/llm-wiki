@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - laravel-sms-catcher-a-local-dashboard-for-sms-notifications
+---
+
 title: "laravel sms catcher a local dashboard for sms notifications"
 type: synthesis
 tags:
@@ -92,3 +96,9 @@ See Key Findings for full content.
 - [[laravel-time-machine-a-request-lifecycle-profiler]]]
 - [[the-analytics-stack-for-laravel-traffic-revenue-and-attribution-in-one-place]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "laravel-sms-catcher-a-local-dashboard-for-sms-notifications")
+```

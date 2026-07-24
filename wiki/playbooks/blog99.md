@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - blog99
+---
+
 title: "blog:99"
 type: playbook
 tags:
@@ -129,3 +133,9 @@ Learning m
 - ]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - (https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "blog99")
+```

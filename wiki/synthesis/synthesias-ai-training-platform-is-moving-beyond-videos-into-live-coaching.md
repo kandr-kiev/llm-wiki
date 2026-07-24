@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching
+---
+
 title: "synthesias ai training platform is moving beyond videos into live coaching"
 type: synthesis
 tags:
@@ -83,3 +87,9 @@ See Key Findings for full content.
 - [[cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases]]]
 - ]
 - [[your-site-your-rules-new-ai-traffic-options-for-all-customers-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching")
+```

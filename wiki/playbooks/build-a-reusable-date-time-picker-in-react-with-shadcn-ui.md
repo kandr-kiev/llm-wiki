@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - build-a-reusable-date-time-picker-in-react-with-shadcn-ui
+---
+
 title: "build a reusable date time picker in react with shadcn ui"
 type: playbook
 tags:
@@ -231,3 +235,9 @@ className="rounded-md border-none"
 - [[content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07]]]
 - [[how-to-make-a-static-html-page-editable-in-the-browser-with-vanilla-javascript]]]
 - [[build-a-reusable-date-time-picker-in-react-with-shadcn-ui]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "build-a-reusable-date-time-picker-in-react-with-shadcn-ui")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - price-of-happiness
+---
+
 title: "price of happiness"
 type: synthesis
 tags:
@@ -90,3 +94,9 @@ Kahneman and Tversky showed that Expected Utility Theory cannot account for peop
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - [[automating-ai-away-2026-07-07]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "price-of-happiness")
+```

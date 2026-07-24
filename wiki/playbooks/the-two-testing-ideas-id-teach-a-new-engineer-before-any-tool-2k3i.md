@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - the-two-testing-ideas-id-teach-a-new-engineer-before-any-tool-2k3i
+---
+
 title: "the two testing ideas id teach a new engineer before any tool 2k3i"
 type: playbook
 tags:
@@ -150,3 +154,9 @@ And attention is the actual scarce resource. A new
 - [[learnings-from-building-an-mcp-server-32oh]]
 - ]
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "the-two-testing-ideas-id-teach-a-new-engineer-before-any-tool-2k3i")
+```

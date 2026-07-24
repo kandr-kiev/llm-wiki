@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - how-a-flaky-test-exposed-a-redis-use-after-free
+---
+
 title: "how a flaky test exposed a redis use after free"
 type: synthesis
 tags:
@@ -111,3 +115,9 @@ The following Monday, more tests were failing sporadically in the same file as t
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - ]
 - [[agent-skills-patterns]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "how-a-flaky-test-exposed-a-redis-use-after-free")
+```

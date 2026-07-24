@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - two-ai-models-that-attack-each-other-beat-one-that-agrees-with-itself-4hk2
+---
+
 title: "two ai models that attack each other beat one that agrees with itself 4hk2"
 type: playbook
 tags:
@@ -166,3 +170,9 @@ I want to be honest that this catches the problem late. The trigger fires after 
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - [[learnings-from-building-an-mcp-server-32oh]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "two-ai-models-that-attack-each-other-beat-one-that-agrees-with-itself-4hk2")
+```

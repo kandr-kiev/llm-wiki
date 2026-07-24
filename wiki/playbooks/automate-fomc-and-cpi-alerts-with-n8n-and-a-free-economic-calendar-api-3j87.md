@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - automate-fomc-and-cpi-alerts-with-n8n-and-a-free-economic-calendar-api-3j87
+---
+
 title: "automate fomc and cpi alerts with n8n and a free economic calendar api 3j87"
 type: playbook
 tags:
@@ -139,3 +143,9 @@ See Key Findings for full content.
 - ]
 - [[expiring-content-put-the-deadline-in-the-data-not-the-prose-27bh]]]
 - [[glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "automate-fomc-and-cpi-alerts-with-n8n-and-a-free-economic-calendar-api-3j87")
+```

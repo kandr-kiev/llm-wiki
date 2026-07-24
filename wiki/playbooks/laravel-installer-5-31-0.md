@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - laravel-installer-5-31-0
+---
+
 title: "laravel installer 5 31 0"
 type: playbook
 tags:
@@ -100,3 +104,9 @@ See Key Findings for full content.
 - [[kimi-k3-open-frontier-intelligence-geul-ilggo-4cgp]]]
 - ]
 - [[the-analytics-stack-for-laravel-traffic-revenue-and-attribution-in-one-place]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "laravel-installer-5-31-0")
+```

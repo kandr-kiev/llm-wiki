@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - quality-non-fiction-books-are-the
+---
+
 title: "quality non fiction books are the"
 type: playbook
 tags:
@@ -117,3 +121,9 @@ Subscribe There is really nothing
 - ]
 - [[how-to-make-a-static-html-page-editable-in-the-browser-with-vanilla-javascript]]]
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "quality-non-fiction-books-are-the")
+```

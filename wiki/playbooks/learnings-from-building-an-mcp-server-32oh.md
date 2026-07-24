@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - learnings-from-building-an-mcp-server-32oh
+---
+
 title: "learnings from building an mcp server 32oh"
 type: playbook
 tags:
@@ -165,3 +169,9 @@ I'd also make agent feedback part of the development loop earlier. Some of my be
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - ]
 - [[day-1230-streaming-agent-reasoning-2dfh]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "learnings-from-building-an-mcp-server-32oh")
+```

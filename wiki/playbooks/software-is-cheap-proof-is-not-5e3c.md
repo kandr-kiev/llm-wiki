@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - software-is-cheap-proof-is-not-5e3c
+---
+
 title: "software is cheap proof is not 5e3c"
 type: playbook
 tags:
@@ -181,3 +185,9 @@ An opportunity can fail because demand is weak, the brand is occupied, infrastru
 - ]
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "software-is-cheap-proof-is-not-5e3c")
+```

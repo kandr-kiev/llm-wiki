@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - skillmd-how-to-write-a-claude-code-skill-that-actually-triggers-format-template-27cp
+---
+
 title: "skillmd how to write a claude code skill that actually triggers format template 27cp"
 type: playbook
 tags:
@@ -138,3 +142,9 @@ See Key Findings for full content.
 - [[court-deadlines-you-can-audit-4gph]]
 - [[i-built-4-ai-products-in-6-weeks-2j29]]
 - [[html-tables-3k0i]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "skillmd-how-to-write-a-claude-code-skill-that-actually-triggers-format-template-27cp")
+```

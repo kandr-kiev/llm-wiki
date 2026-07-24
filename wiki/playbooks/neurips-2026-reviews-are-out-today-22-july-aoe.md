@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - neurips-2026-reviews-are-out-today-22-july-aoe
+---
+
 title: "neurips 2026 reviews are out today 22 july aoe"
 type: playbook
 tags:
@@ -84,3 +88,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07]]]
 - [[automating-ai-away-2026-07-07]]]
 - [[how-gpt3-works---visualizations-and-animations-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "neurips-2026-reviews-are-out-today-22-july-aoe")
+```

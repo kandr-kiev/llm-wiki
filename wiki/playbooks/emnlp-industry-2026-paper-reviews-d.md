@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - emnlp-industry-2026-paper-reviews-d
+---
+
 title: "emnlp industry 2026 paper reviews d"
 type: playbook
 tags:
@@ -88,3 +92,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - ]
 - ]
 - [[automating-ai-away-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "emnlp-industry-2026-paper-reviews-d")
+```

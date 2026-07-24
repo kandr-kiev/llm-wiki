@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - build-gcc-fibs--o-fib--no-pie
+---
+
 title: "Build: gcc fib.s -o fib -no-pie"
 type: playbook
 tags:
@@ -208,3 +212,9 @@ And when I do hav
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]]
 - [[arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous]]]
 - [[agent-skills-patterns]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "build-gcc-fibs--o-fib--no-pie")
+```

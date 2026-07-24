@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - state-of-simulation-for-physical-ai
+---
+
 title: "state of simulation for physical ai"
 type: synthesis
 tags:
@@ -108,3 +112,9 @@ See Key Findings for full content.
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "state-of-simulation-for-physical-ai")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - architecting-android-geofencing-without-draining-the-battery-baj
+---
+
 title: "architecting android geofencing without draining the battery baj"
 type: playbook
 tags:
@@ -147,3 +151,9 @@ What surprised me most during this implementation was how aggressive the Android
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "architecting-android-geofencing-without-draining-the-battery-baj")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - collection-in-production-this-is-your-vector-store
+---
+
 title: "collection. In production this is your vector store"
 type: playbook
 tags:
@@ -162,3 +166,9 @@ First, let's say that the user asks: why does my Lambda function take longer to 
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - [[build-gcc-fibs--o-fib--no-pie]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "collection-in-production-this-is-your-vector-store")
+```

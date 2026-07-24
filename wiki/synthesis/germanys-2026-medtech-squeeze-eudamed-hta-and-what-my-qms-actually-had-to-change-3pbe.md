@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - germanys-2026-medtech-squeeze-eudamed-hta-and-what-my-qms-actually-had-to-change-3pbe
+---
+
 title: "germanys 2026 medtech squeeze eudamed hta and what my qms actually had to change 3pbe"
 type: synthesis
 tags:
@@ -166,3 +170,9 @@ PMS / RWE pipeline
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - [[ai-agent-frameworks]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "germanys-2026-medtech-squeeze-eudamed-hta-and-what-my-qms-actually-had-to-change-3pbe")
+```

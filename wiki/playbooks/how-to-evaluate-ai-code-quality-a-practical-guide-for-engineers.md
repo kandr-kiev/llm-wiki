@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - how-to-evaluate-ai-code-quality-a-practical-guide-for-engineers
+---
+
 title: "how to evaluate ai code quality a practical guide for engineers"
 type: playbook
 tags:
@@ -115,3 +119,9 @@ Notice the `$ 12.99` entr
 - [[automating-ai-away-2026-07-07]]]
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]]
 - (https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "how-to-evaluate-ai-code-quality-a-practical-guide-for-engineers")
+```

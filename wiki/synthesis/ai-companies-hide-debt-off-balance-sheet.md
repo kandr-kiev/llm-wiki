@@ -1,0 +1,111 @@
+---
+title: "ai companies hide debt off balance sheet"
+type: synthesis
+tags:
+  - llm-wiki
+  - knowledge-base
+    - ai
+  - application
+  - data
+  - energy
+  - ethics
+  - image-generation
+  - industry
+  - news
+  - policy
+  - real-time
+  - regulation
+  - video-generation
+---
+
+# ai companies hide debt off balance sheet
+
+> **Source:** ai-companies-are-trying-to-hide-a-staggering-amount-of-debt-2026-07-23.md
+> **Type:** synthesis
+> **Created:** 2026-07-23
+> **Updated:** 2026-07-23
+> **Confidence:** high
+> **Description:** --- source_url: https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet ingested: 2026-07-23 sha256: ee667c3883750b7a4ad7e49a30483e3449cd013330d5e81a6c32d5b8b307b4c4 blog...
+> **Sources:**
+>   - ai-companies-are-trying-to-hide-a-staggering-amount-of-debt-2026-07-23.md
+> **Links:**
+- [[rtk claude code token savings]]
+- [[5 Agent Skills I Use Every Day]]
+- [[workers cache]]
+- [[axum support in rustrover]]
+- [[classic unbundled]]
+
+## Key Findings
+
+---
+source_url: https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet
+ingested: 2026-07-23
+sha256: ee667c3883750b7a4ad7e49a30483e3449cd013330d5e81a6c32d5b8b307b4c4
+blog_source: Hacker News AI
+---
+- 
+- 
+- 
+- 
+- 
+AI Companies Are Trying to Hide a Staggering Amount of Debt
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+**We have updated our [Privacy Policy](https://recurrent.io/privacy-policy/). Please review to learn more. By continuing to use our services, you agree to these updates.**
+×
+/* data.expires) {
+localStorage.removeItem(key);
+return false;
+}
+// Optional catch binding is ES2019 and this file ships untranspiled.
+// eslint-disable-next-line no-unused-vars
+} catch (e) {
+// Unparseable marker — treat as active rather than re-show.
+}
+return true;
+}
+function isSuppressed(base) {
+const key = base + '_' + campaign;
+return document.cookie.indexOf(key + '=') !== -1 || hasStorageMarker(key);
+}
+// Suppression must happen client-side: VIP's page cache doesn't vary on
+// custom cookies, so the server always ships the notice markup.
+if (isSuppressed('pp_notice_served') || isSuppressed('pp_notice_dismissed')) {
+// Returning visitor: hide before first paint.
+wrap.hidden = true;
+return;
+}
+// New visitor: collapse for JS-driven slide-down animation.
+wrap.classList.remove('pp-notice-wrap--visible');
+wrap.setAttribute('inert', '');
+const notice = document.getElementById('pp-notice');
+if (notice) {
+// aria-hidden mirrors inert for browsers that don't support the inert
+// attribute. Those browsers also keep descendants tabbable, so drop them
+// from the tab order explicitly; pp-notice.js restores them on show.
+notice.setAttribute('aria-hidden', 'true');
+const focusables = notice.querySelectorAll('a, b
+
+## Summary
+
+See Key Findings for full content.
+
+## Related Articles
+
+- [[rtk claude code token savings]]
+- [[5 Agent Skills I Use Every Day]]
+- [[workers cache]]
+- [[axum support in rustrover]]
+- [[classic unbundled]]

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - happy-openreview-refresh-day-to-all-those-who
+---
+
 title: "happy openreview refresh day to all those who"
 type: playbook
 tags:
@@ -34,7 +38,7 @@ tags:
 - [[content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07]]]
 - [[the-illustrated-retrieval-transformer-2026-07-07]]]
 - [[automating-ai-away-2026-07-07]]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 - ]
 
 ## Key Findings
@@ -83,7 +87,11 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 ## Related Articles
 
 - [[content-independence-day-one-year-on-building-the-business-model-for-the-agentic-internet-2026-07-07]]]
-- [[the-illustrated-retrieval-transformer-2026-07-07]]]
-- [[automating-ai-away-2026-07-07]]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "happy-openreview-refresh-day-to-all-those-who")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - html-tables-3k0i
+---
+
 title: "html tables 3k0i"
 type: playbook
 tags:
@@ -157,3 +161,9 @@ See Key Findings for full content.
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]
 - [[its-a-shame-whats-happened-to-radio-3]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "html-tables-3k0i")
+```

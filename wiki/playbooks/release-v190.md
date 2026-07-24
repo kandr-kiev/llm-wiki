@@ -9,6 +9,62 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - release-v190
+---
+
+backlinks:
+  - release-v560
+---
+
+backlinks:
+  - release-v5140
+---
+
+backlinks:
+  - release-v5130
+---
+
+backlinks:
+  - release-v5120
+---
+
+backlinks:
+  - release-v5110
+---
+
+backlinks:
+  - release-v2210
+---
+
+backlinks:
+  - release-v2130
+---
+
+backlinks:
+  - release-v180
+---
+
+backlinks:
+  - release-v160
+---
+
+backlinks:
+  - release-v1210
+---
+
+backlinks:
+  - release-v1140
+---
+
+backlinks:
+  - release-v06
+---
+
+backlinks:
+  - patch-release-v5104
+---
+
 title: "Release v1.9.0"
 type: playbook
 tags:
@@ -47,8 +103,7 @@ tags:
 >   - gh-v190-2026-07-21.md
 > **Links:**
 - ]
-- [[Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
+- [Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine](http[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)5: AsyncGRPO fork-independent epoch counting]]
 - ]
 - ]
 
@@ -138,12 +193,12 @@ iw_opd_epsilon=0.2,
 lmbda=1.0, reverse_kl_top_1_mode="sampled", # required
 )
 ```
-Now split into its own experimental trainer as part of the refactor abov
+Now split[Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine](http[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)- [Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine](http[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)5: AsyncGRPO fork-independent epoch counting]]
+- ]
+- ]
+## Backlinks
 
-## Related Articles
-
-- ]
-- [[Issue #6387: Sync GOLD weights via vLLM's native weight transfer engine]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
-- ]
-- ]
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "patch-release-v5104")
+```

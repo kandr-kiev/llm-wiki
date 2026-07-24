@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - my-federated-learning-project-just-showed-that
+---
+
 title: "my federated learning project just showed that"
 type: playbook
 tags:
@@ -86,3 +90,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "my-federated-learning-project-just-showed-that")
+```

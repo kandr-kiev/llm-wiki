@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - latest-model
+---
+
 title: "latest model"
 type: playbook
 tags:
@@ -292,3 +296,9 @@ Migration
 - ]
 - ]
 - [[how-to-use-cloudflare-workers-ai]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "latest-model")
+```

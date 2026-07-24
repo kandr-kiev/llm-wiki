@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - why-your-unit-tests-arent-enough-and-how-to-break-your-own-api-5ge
+---
+
 title: "why your unit tests arent enough and how to break your own api 5ge"
 type: playbook
 tags:
@@ -169,3 +173,9 @@ Because it bypasses
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]]
 - ]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "why-your-unit-tests-arent-enough-and-how-to-break-your-own-api-5ge")
+```

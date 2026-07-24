@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - ai-data-centers-opposition-education-benefit
+---
+
 title: "ai data centers opposition education benefit"
 type: synthesis
 tags:
@@ -75,3 +79,9 @@ See Key Findings for full content.
 - [[google-justifies-its-massive-ai-spending-with-a-booming-cloud-business]]]
 - [[meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination]]]
 - [[monday-com-lays-off-hundreds-to-focuses-on-ai]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "ai-data-centers-opposition-education-benefit")
+```

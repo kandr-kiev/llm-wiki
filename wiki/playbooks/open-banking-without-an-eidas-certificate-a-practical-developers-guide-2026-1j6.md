@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - open-banking-without-an-eidas-certificate-a-practical-developers-guide-2026-1j6
+---
+
 title: "open banking without an eidas certificate a practical developers guide 2026 1j6"
 type: playbook
 tags:
@@ -196,3 +200,9 @@ The GDPR row is the one people underestimate. A good aggregator gives you **EU-o
 - [[html-tables-3k0i]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "open-banking-without-an-eidas-certificate-a-practical-developers-guide-2026-1j6")
+```

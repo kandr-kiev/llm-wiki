@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - i-built-4-ai-products-in-6-weeks-2j29
+---
+
 title: "i built 4 ai products in 6 weeks 2j29"
 type: playbook
 tags:
@@ -189,3 +193,9 @@ Built as a single HTML file with vanil
 - [[day-1230-streaming-agent-reasoning-2dfh]]
 - ]
 - [[a-digestion-of-the-jacobian-conjecture-counterexample]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "i-built-4-ai-products-in-6-weeks-2j29")
+```
