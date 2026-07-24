@@ -30,8 +30,8 @@ tags:
 > **Sources:**
 >   - gh-pytorchpytorch-issue-189935-2026-07-14.md
 > **Links:**
-- [[Issue #189934: c10 intrusive_ptr: add ] to raw::weak_intrusive_ptr helpers]]
-- [[Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s]]
+- [Issue #189934: c10 intrusive_ptr: add [nodiscard] to raw::weak_intrusive_ptr helpers](https://github.com/pytorch/pytorch/issues/189934)
+- [Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s](https://github.com/pytorch/pytorch/issues/189937)
 - [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL]
 - [Issue #6385: AsyncGRPO fork-independent epoch counting]
 - [Issue #8138: Add governance process page to deepspeed.ai]
@@ -58,8 +58,7 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #189934: c10 intrusive_ptr: add ] to raw::weak_intrusive_ptr helpers]]
-- [[Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s]]
+- [Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s](https://github.com/pytorch/pytorch/issues/189937)
 - [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL]
 - [Issue #6385: AsyncGRPO fork-independent epoch counting]
 - [Issue #8138: Add governance process page to deepspeed.ai]

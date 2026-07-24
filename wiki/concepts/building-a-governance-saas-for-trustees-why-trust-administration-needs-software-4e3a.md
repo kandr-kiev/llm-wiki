@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - building-a-governance-saas-for-trustees-why-trust-administration-needs-software-4e3a
+---
+
 title: "building a governance saas for trustees why trust administration needs software 4e3a"
 type: concept
 tags:
@@ -169,3 +173,9 @@ What I Learned
 - ]
 - [[a-digestion-of-the-jacobian-conjecture-counterexample]]
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "building-a-governance-saas-for-trustees-why-trust-administration-needs-software-4e3a")
+```

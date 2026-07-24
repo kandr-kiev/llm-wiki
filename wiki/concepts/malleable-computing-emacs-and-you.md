@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - malleable-computing-emacs-and-you
+---
+
 title: "malleable computing emacs and you"
 type: concept
 tags:
@@ -155,3 +159,9 @@ Provided high abstractions, the amount of code needed to be written for desired 
 - (https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]]
 - [[the-illustrated-stable-diffusion-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "malleable-computing-emacs-and-you")
+```

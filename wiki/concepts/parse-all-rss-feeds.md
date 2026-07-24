@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - parse-all-rss-feeds
+---
+
 title: "Parse all RSS feeds"
 type: concept
 tags:
@@ -102,3 +106,9 @@ See Key Findings for full content.
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "parse-all-rss-feeds")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - архітектура-weather-space-lunar-digest
+---
+
 title: "Архітектура Weather-Space-Lunar-Digest"
 type: concept
 tags:
@@ -66,3 +70,9 @@ See Key Findings for full content.
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "архітектура-weather-space-lunar-digest")
+```

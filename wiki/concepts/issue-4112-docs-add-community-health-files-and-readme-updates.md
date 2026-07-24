@@ -13,6 +13,18 @@ links: []
 sources: []
 updated: 2026-07-23
 ---
+backlinks:
+  - issue-4112-docs-add-community-health-files-and-readme-updates
+---
+
+backlinks:
+  - issue-724-docs-add-community-health-files-and-readme-updates
+---
+
+backlinks:
+  - issue-2808-docs-add-community-health-files-contributingmd-code_of_conductmd
+---
+
 
 # Issue #4112: docs: add community health files and README updates
 
@@ -61,3 +73,9 @@ See Key Findings for full content.
 - [Issue #4113: Fix typos in comments, docs, and examples]
 - [Issue #2195: Clarify byte-level pretokenizer behavior]
 - [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "issue-2808-docs-add-community-health-files-contributingmd-code_of_conductmd")
+```

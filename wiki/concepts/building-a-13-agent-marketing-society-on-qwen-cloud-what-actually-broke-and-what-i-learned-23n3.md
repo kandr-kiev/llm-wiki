@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3
+---
+
 title: "building a 13 agent marketing society on qwen cloud what actually broke and what i learned 23n3"
 type: concept
 tags:
@@ -135,3 +139,9 @@ See Key Findings for full content.
 - ]
 - [[i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - embedding-a-talking-ai-avatar-with-one-script-tag-tried-nemynai-heres-whats-under-the-hood-54k6
+---
+
 title: "embedding a talking ai avatar with one script tag tried nemynai heres whats under the hood 54k6"
 type: concept
 tags:
@@ -142,3 +146,9 @@ See Key Findings for full content.
 - [[a-digestion-of-the-jacobian-conjecture-counterexample]]
 - [[ai-agent-frameworks]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "embedding-a-talking-ai-avatar-with-one-script-tag-tried-nemynai-heres-whats-under-the-hood-54k6")
+```

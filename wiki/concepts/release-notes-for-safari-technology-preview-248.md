@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - release-notes-for-safari-technology-preview-248
+---
+
 title: "release notes for safari technology preview 248"
 type: concept
 tags:
@@ -103,3 +107,9 @@ Fixed inserting a CSS rule while a view transition is active causing the group a
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]]
 - ]
 - [[automating-ai-away-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "release-notes-for-safari-technology-preview-248")
+```

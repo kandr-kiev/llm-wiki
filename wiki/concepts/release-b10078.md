@@ -9,6 +9,18 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - release-b10078
+---
+
+backlinks:
+  - release-b10075
+---
+
+backlinks:
+  - release-b10007
+---
+
 title: "Release b10078"
 type: concept
 tags:
@@ -132,3 +144,9 @@ Intel (x64)](https://github.com/ggml-org/llama.cpp/releases/download/b10078/llam
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "release-b10007")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently
+---
+
 title: "menlo ventures matt murphy explains what ai startups founders must do differently"
 type: concept
 tags:
@@ -82,3 +86,9 @@ See Key Findings for full content.
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]]
 - [[building-a-governance-saas-for-trustees-why-trust-administration-needs-software-4e3a]]]
 - [[court-deadlines-you-can-audit-4gph]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "menlo-ventures-matt-murphy-explains-what-ai-startups-founders-must-do-differently")
+```

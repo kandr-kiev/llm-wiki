@@ -9,6 +9,10 @@ links: []
 created: 2026-07-22
 updated: 2026-07-22
 ---
+backlinks:
+  - a-digestion-of-the-jacobian-conjecture-counterexample
+---
+
 title: "a digestion of the jacobian conjecture counterexample"
 type: concept
 tags:
@@ -112,3 +116,9 @@ While this is an extremely quick verification, the construction presented in thi
 - [[open-source-llm-models]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "a-digestion-of-the-jacobian-conjecture-counterexample")
+```

@@ -1,0 +1,84 @@
+---
+title: "cleaner route purifying rare earth elements"
+type: concept
+tags:
+  - llm-wiki
+  - knowledge-base
+    - async
+  - container
+  - data
+  - design-pattern
+  - image-generation
+  - machine-learning
+  - news
+  - system-design
+  - use-case
+---
+
+# cleaner route purifying rare earth elements
+
+> **Source:** a-solid-state-atomic-channel-for-separating-rare-earth-elements-2026-07-23.md
+> **Type:** concept
+> **Created:** 2026-07-23
+> **Updated:** 2026-07-23
+> **Confidence:** high
+> **Description:** --- source_url: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements ingested: 2026-07-23 sha256: 8f2aaa4a9e5f5ce2aefdfd27f875686c647806ce3913884a82261ed02897682f blog...
+> **Sources:**
+>   - a-solid-state-atomic-channel-for-separating-rare-earth-elements-2026-07-23.md
+> **Links:**
+- [[speculative growth AI public.pdf]]
+- [[fortune david siegel open source ai.pdf]]
+- [[bisbull120.pdf]]
+- [[article]]
+- [[whats important 14]]
+
+## Key Findings
+
+---
+source_url: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements
+ingested: 2026-07-23
+sha256: 8f2aaa4a9e5f5ce2aefdfd27f875686c647806ce3913884a82261ed02897682f
+blog_source: Hacker News
+---
+- 
+- 
+- 
+A cleaner route to purifying rare earth elements | PME | The University of Chicago
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+[
+Skip to main content
+](#main-content)
+<image id="image0_6934_816" width="620" height="518" preserveAspectRatio="none" xlink:href="data:image/png;base64,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
+
+## Summary
+
+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
+
+## Related Articles
+
+- [[speculative growth AI public.pdf]]
+- [[fortune david siegel open source ai.pdf]]
+- [[bisbull120.pdf]]
+- [[article]]
+- [[whats important 14]]

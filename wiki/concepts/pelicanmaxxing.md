@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - pelicanmaxxing
+---
+
 title: "pelicanmaxxing"
 type: concept
 tags:
@@ -134,3 +138,9 @@ The pelican is 6th of 8, behind cat, whale, raccoon, heron, and antelope. If AI 
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]]
 - [[ai-drawing-arena-colored-pencils-claude-gpt-grok]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "pelicanmaxxing")
+```

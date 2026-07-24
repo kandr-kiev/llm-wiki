@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases
+---
+
 title: "cisco foundation ai releases antares 350m and 1b open weight models that localize known vulnerabilities inside real codebases"
 type: concept
 tags:
@@ -79,3 +83,9 @@ See Key Findings for full content.
 - [[kimi-k3-open-frontier-intelligence-geul-ilggo-4cgp]]]
 - [[after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe]]]
 - [[data-centers-expected-to-use-4x-more-electricity-by]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases")
+```

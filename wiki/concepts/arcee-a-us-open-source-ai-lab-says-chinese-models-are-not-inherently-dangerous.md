@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous
+---
+
 title: "arcee a us open source ai lab says chinese models are not inherently dangerous"
 type: concept
 tags:
@@ -83,3 +87,9 @@ See Key Findings for full content.
 - [[finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07]]]
 - [[arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous]]]
 - [[how-to-build-an-ai-feature-with-gemini-a-practical-guide-to-prompt-engineering-for-developers]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous")
+```

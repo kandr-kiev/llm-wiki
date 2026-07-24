@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - galaxy-unpacked
+---
+
 title: "galaxy unpacked"
 type: concept
 tags:
@@ -65,3 +69,9 @@ ut-8{grid-column:3/span 8}}.site-content{flex:1 0 0}}@layer legacy{html{--google
 - ]
 - ]
 - [[embedding-a-talking-ai-avatar-with-one-script-tag-tried-nemynai-heres-whats-under-the-hood-54k6]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "galaxy-unpacked")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - expiring-content-put-the-deadline-in-the-data-not-the-prose-27bh
+---
+
 title: "expiring content put the deadline in the data not the prose 27bh"
 type: concept
 tags:
@@ -142,3 +146,9 @@ See Key Findings for full content.
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[implementing-uuid-v7-by-hand-time-sortable-primary-keys-and-the-same-millisecond-trap-1l71]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "expiring-content-put-the-deadline-in-the-data-not-the-prose-27bh")
+```

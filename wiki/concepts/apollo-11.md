@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - apollo-11
+---
+
 title: "Apollo 11"
 type: concept
 tags:
@@ -184,3 +188,9 @@ See Key Findings for full content.
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "apollo-11")
+```

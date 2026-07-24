@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - release-0492
+---
+
 title: "Release 0.49.2"
 type: concept
 tags:
@@ -73,3 +77,9 @@ See Key Findings for full content.
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "release-0492")
+```

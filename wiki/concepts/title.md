@@ -9,6 +9,14 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - title-why-i-gave-my-coding-agent-a-memory-and-how-cortex-works-4nnm
+---
+
+backlinks:
+  - item
+---
+
 title: "{{title}}"
 type: concept
 tags:
@@ -80,3 +88,9 @@ See Key Findings for full content.
 - ]
 - [[hermes-agent]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "item")
+```

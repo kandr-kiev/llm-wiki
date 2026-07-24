@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - slides
+---
+
 title: "slides"
 type: concept
 tags:
@@ -71,3 +75,9 @@ BypSA5ufGGCWLhS1Fpd0qGhWdOKKg2KAYiVSKwqixi0TsaoDE2OsgIGq10NneoWY8BDMewhkPRTPuL3j
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "slides")
+```

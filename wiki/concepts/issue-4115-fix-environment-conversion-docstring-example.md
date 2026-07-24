@@ -13,6 +13,14 @@ links: []
 sources: []
 updated: 2026-07-23
 ---
+backlinks:
+  - issue-4115-fix-environment-conversion-docstring-example
+---
+
+backlinks:
+  - version
+---
+
 
 # Issue #4115: Fix environment conversion docstring example
 
@@ -59,3 +67,9 @@ See Key Findings for full content.
 - [Issue #8332: Raise on length mismatch in batched IterableDataset.map]
 - [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
 - [Issue #2803: Accept common CLI boolean values]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "version")
+```

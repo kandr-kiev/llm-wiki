@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - the-anthropic-physical-intelligence-rumor-roiling-ai-twitter
+---
+
 title: "the anthropic physical intelligence rumor roiling ai twitter"
 type: concept
 tags:
@@ -81,3 +85,9 @@ See Key Findings for full content.
 - ]
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]
 - [[i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "the-anthropic-physical-intelligence-rumor-roiling-ai-twitter")
+```

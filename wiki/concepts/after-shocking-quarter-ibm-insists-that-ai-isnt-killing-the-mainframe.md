@@ -19,6 +19,10 @@ links: []
 sources: []
 updated: 2026-07-23
 ---
+backlinks:
+  - after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe
+---
+
 
 # after shocking quarter ibm insists that ai isnt killing the mainframe
 
@@ -79,3 +83,9 @@ See Key Findings for full content.
 - [us threatens sanctions against chinese ai models over ip theft]()
 - [anthropics landmark 1 5b copyright settlement is approved]()
 - [why greylock capped its new fund at 1 5b when it says it could have raised more]()
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe")
+```

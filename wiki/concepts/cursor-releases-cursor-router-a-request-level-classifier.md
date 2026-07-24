@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - cursor-releases-cursor-router-a-request-level-classifier
+---
+
 title: "cursor releases cursor router a request level classifier"
 type: concept
 tags:
@@ -88,3 +92,9 @@ See Key Findings for full content.
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - [[i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3]]]
 - [[after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "cursor-releases-cursor-router-a-request-level-classifier")
+```

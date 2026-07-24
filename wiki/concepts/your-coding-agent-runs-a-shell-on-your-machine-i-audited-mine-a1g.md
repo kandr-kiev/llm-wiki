@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - your-coding-agent-runs-a-shell-on-your-machine-i-audited-mine-a1g
+---
+
 title: "your coding agent runs a shell on your machine i audited mine a1g"
 type: concept
 tags:
@@ -193,3 +197,9 @@ A page at `evil.com` se
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - [[learnings-from-building-an-mcp-server-32oh]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "your-coding-agent-runs-a-shell-on-your-machine-i-audited-mine-a1g")
+```

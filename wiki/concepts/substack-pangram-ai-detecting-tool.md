@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - substack-pangram-ai-detecting-tool
+---
+
 title: "substack pangram ai detecting tool"
 type: concept
 tags:
@@ -107,3 +111,9 @@ See Key Findings for full content.
 - [[i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3]]
 - [[the-anthropic-physical-intelligence-rumor-roiling-ai-twitter]]
 - [[ai-and-the-rise-of-the-universal-entertainment-app]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "substack-pangram-ai-detecting-tool")
+```

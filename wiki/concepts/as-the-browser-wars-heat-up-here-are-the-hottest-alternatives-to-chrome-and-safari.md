@@ -9,6 +9,14 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari
+---
+
+backlinks:
+  - nativ
+---
+
 title: "as the browser wars heat up here are the hottest alternatives to chrome and safari"
 type: concept
 tags:
@@ -85,3 +93,9 @@ See Key Findings for full content.
 - [[the-white-houses-post-quantum-executive-order-is-an-important-milestone-its-time-to-get-to-work-2026-07-07]]]
 - [[why-ai-apps-fail-in-production-and-how-google-solved-it-5a3m]]]
 - [[how-to-make-a-static-html-page-editable-in-the-browser-with-vanilla-javascript]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "nativ")
+```

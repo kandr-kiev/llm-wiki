@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - enforcing-content-tone-with-a-lint-that-fails-the-build-19jf
+---
+
 title: "enforcing content tone with a lint that fails the build 19jf"
 type: concept
 tags:
@@ -141,3 +145,9 @@ See Key Findings for full content.
 - [[implementing-uuid-v7-by-hand-time-sortable-primary-keys-and-the-same-millisecond-trap-1l71]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "enforcing-content-tone-with-a-lint-that-fails-the-build-19jf")
+```

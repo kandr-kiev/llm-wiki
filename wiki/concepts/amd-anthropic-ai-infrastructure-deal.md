@@ -25,6 +25,10 @@ links: []
 sources: []
 updated: 2026-07-23
 ---
+backlinks:
+  - amd-anthropic-ai-infrastructure-deal
+---
+
 
 # amd anthropic ai infrastructure deal
 
@@ -112,3 +116,9 @@ See Key Findings for full content.
 - [apple openai lawsuit vergecast]()
 - [tiktok ai likeness detection tool]()
 - [1010benja semiramis dream suno ai music]()
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "amd-anthropic-ai-infrastructure-deal")
+```

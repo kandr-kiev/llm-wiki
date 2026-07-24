@@ -9,6 +9,14 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - unsloth-vs-axolotl-vs-trl-vs-llama-factory-a-fine-tuning-framework-comparison-on-speed-vram-and-multi-gpu
+---
+
+backlinks:
+  - frame
+---
+
 title: "unsloth vs axolotl vs trl vs llama factory a fine tuning framework comparison on speed vram and multi gpu"
 type: concept
 tags:
@@ -81,3 +89,9 @@ See Key Findings for full content.
 - ]
 - [[cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "frame")
+```

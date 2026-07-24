@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - kimi-k3-open-frontier-intelligence-geul-ilggo-4cgp
+---
+
 title: "kimi k3 open frontier intelligence geul ilggo 4cgp"
 type: concept
 tags:
@@ -143,3 +147,9 @@ See Key Findings for full content.
 - [[the-white-houses-post-quantum-executive-order-is-an-important-milestone-its-time-to-get-to-work-2026-07-07]]]
 - ]
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "kimi-k3-open-frontier-intelligence-geul-ilggo-4cgp")
+```

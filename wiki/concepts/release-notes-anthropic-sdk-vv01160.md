@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - release-notes-anthropic-sdk-vv01160
+---
+
 title: "Release Notes: Anthropic SDK vv0.116.0"
 type: concept
 tags:
@@ -68,3 +72,9 @@ See Key Findings for full content.
 - ]
 - ]
 - [[openai-says-hugging-face-was-breached-by-its-pre-release-models]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "release-notes-anthropic-sdk-vv01160")
+```

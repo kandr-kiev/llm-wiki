@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - incident-retrospectives-without-blame-29e
+---
+
 title: "incident retrospectives without blame 29e"
 type: concept
 tags:
@@ -148,3 +152,9 @@ See Key Findings for full content.
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - ]
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "incident-retrospectives-without-blame-29e")
+```

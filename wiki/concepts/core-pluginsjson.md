@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - core-pluginsjson
+---
+
 title: "core plugins.json"
 type: concept
 tags:
@@ -88,3 +92,9 @@ See Key Findings for full content.
 - [[karpathy-llm-wiki-2026]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "core-pluginsjson")
+```

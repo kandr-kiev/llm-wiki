@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - day-1230-streaming-agent-reasoning-2dfh
+---
+
 title: "day 1230 streaming agent reasoning 2dfh"
 type: concept
 tags:
@@ -137,3 +141,9 @@ See Key Findings for full content.
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - [[court-deadlines-you-can-audit-4gph]]
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "day-1230-streaming-agent-reasoning-2dfh")
+```

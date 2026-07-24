@@ -9,6 +9,26 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - release-moonshot-aikimi-code0290
+---
+
+backlinks:
+  - release-moonshot-aikimi-code0281
+---
+
+backlinks:
+  - release-moonshot-aikimi-code0280
+---
+
+backlinks:
+  - release-moonshot-aikimi-code0270
+---
+
+backlinks:
+  - model-moonshotaikimi-k27-code
+---
+
 title: "Release @moonshot-ai/kimi-code@0.29.0"
 type: concept
 tags:
@@ -83,3 +103,9 @@ onshotAI/kimi-code/commit/74da87a457c2964694a844dd22a4925f5113b167) Thanks [@sai
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "model-moonshotaikimi-k27-code")
+```

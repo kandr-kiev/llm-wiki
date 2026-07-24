@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z
+---
+
 title: "travis kalanicks robotics company raises 1 7b led by a16z"
 type: concept
 tags:
@@ -82,3 +86,9 @@ See Key Findings for full content.
 - [[relaxation-and-its-role-in-vision-the-1977-phd-thesis-that-helped-shape-modern-ai-research]]]
 - [[vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling]]]
 - [[cascade-raises-3-5m-to-help-construction-firms-find-and-win-projects]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z")
+```

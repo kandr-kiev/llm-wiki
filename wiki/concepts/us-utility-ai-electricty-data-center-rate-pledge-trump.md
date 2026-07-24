@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - us-utility-ai-electricty-data-center-rate-pledge-trump
+---
+
 title: "us utility ai electricty data center rate pledge trump"
 type: concept
 tags:
@@ -105,3 +109,9 @@ See Key Findings for full content.
 - [[samsung-google-smart-glasses-gentle-monster-warby-parker]]]
 - [[amd-anthropic-ai-infrastructure-deal]]]
 - [[i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "us-utility-ai-electricty-data-center-rate-pledge-trump")
+```

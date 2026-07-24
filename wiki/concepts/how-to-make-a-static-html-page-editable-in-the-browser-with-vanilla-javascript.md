@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - how-to-make-a-static-html-page-editable-in-the-browser-with-vanilla-javascript
+---
+
 title: "how to make a static html page editable in the browser with vanilla javascript"
 type: concept
 tags:
@@ -159,3 +163,9 @@ Before writing any JavaScript, look at your markup for anythi
 - [[automating-ai-away-2026-07-07]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - [[automating-ai-away-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "how-to-make-a-static-html-page-editable-in-the-browser-with-vanilla-javascript")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - relaxation-and-its-role-in-vision-the-1977-phd-thesis-that-helped-shape-modern-ai-research
+---
+
 title: "relaxation and its role in vision the 1977 phd thesis that helped shape modern ai research"
 type: concept
 tags:
@@ -146,3 +150,9 @@ Here is an infographic gives a quick overview of Geoffrey Hinton's 1977 PhD thes
 - ]
 - [[the-illustrated-stable-diffusion-2026-07-07]]
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "relaxation-and-its-role-in-vision-the-1977-phd-thesis-that-helped-shape-modern-ai-research")
+```

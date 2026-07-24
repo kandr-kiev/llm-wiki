@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - httpsvaluepairapp
+---
+
 title: "https://valuepair.app"
 type: concept
 tags:
@@ -87,3 +91,9 @@ See Key Findings for full content.
 - [[ai-drawing-arena-colored-pencils-claude-gpt-grok]]]
 - [[automating-ai-away-2026-07-07]]]
 - [[automating-ai-away-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "httpsvaluepairapp")
+```

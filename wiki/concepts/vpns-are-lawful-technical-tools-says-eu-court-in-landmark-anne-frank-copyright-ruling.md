@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling
+---
+
 title: "vpns are lawful technical tools says eu court in landmark anne frank copyright ruling"
 type: concept
 tags:
@@ -87,3 +91,9 @@ th:calc(100% - 24px)}.separator-heading{border-top:1px solid #ccc;border-bottom:
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling")
+```

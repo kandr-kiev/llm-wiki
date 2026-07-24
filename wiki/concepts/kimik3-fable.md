@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - kimik3-fable
+---
+
 title: "kimik3 fable"
 type: concept
 tags:
@@ -97,3 +101,9 @@ See Key Findings for full content.
 - [[i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3]]
 - ]
 - [[ai-drawing-arena-colored-pencils-claude-gpt-grok]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "kimik3-fable")
+```

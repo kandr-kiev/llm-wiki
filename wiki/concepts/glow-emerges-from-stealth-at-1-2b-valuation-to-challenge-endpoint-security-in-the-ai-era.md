@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era
+---
+
 title: "glow emerges from stealth at 1 2b valuation to challenge endpoint security in the ai era"
 type: concept
 tags:
@@ -83,3 +87,9 @@ See Key Findings for full content.
 - [[finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07]]]
 - [[cisco-foundation-ai-releases-antares-350m-and-1b-open-weight-models-that-localize-known-vulnerabilities-inside-real-codebases]]]
 - [[building-a-governance-saas-for-trustees-why-trust-administration-needs-software-4e3a]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era")
+```

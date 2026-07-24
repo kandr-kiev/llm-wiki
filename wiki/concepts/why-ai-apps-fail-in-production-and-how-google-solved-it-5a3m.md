@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - why-ai-apps-fail-in-production-and-how-google-solved-it-5a3m
+---
+
 title: "why ai apps fail in production and how google solved it 5a3m"
 type: concept
 tags:
@@ -144,3 +148,9 @@ See Key Findings for full content.
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "why-ai-apps-fail-in-production-and-how-google-solved-it-5a3m")
+```

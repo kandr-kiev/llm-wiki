@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3
+---
+
 title: "i taught an open source seo tool to check whether your site is readable by ai agents 15i3"
 type: concept
 tags:
@@ -141,3 +145,9 @@ See Key Findings for full content.
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - ]
 - [[how-we-built-saga-rollbacks-for-cloudflare-workflows-2026-07-07]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3")
+```

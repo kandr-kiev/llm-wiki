@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face
+---
+
 title: "how an openais human mistake led to the ai powered hack on hugging face"
 type: concept
 tags:
@@ -82,3 +86,9 @@ See Key Findings for full content.
 - [[cascade-raises-3-5m-to-help-construction-firms-find-and-win-projects]]]
 - [[vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling]]]
 - [[arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face")
+```

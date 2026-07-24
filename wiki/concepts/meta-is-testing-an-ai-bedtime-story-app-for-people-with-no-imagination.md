@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination
+---
+
 title: "meta is testing an ai bedtime story app for people with no imagination"
 type: concept
 tags:
@@ -81,3 +85,9 @@ See Key Findings for full content.
 - ]
 - [[finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination")
+```

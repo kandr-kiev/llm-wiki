@@ -31,11 +31,11 @@ tags:
 > **Sources:**
 >   - gh-pytorchpytorch-issue-189936-2026-07-14.md
 > **Links:**
-- [[Issue #189934: c10 intrusive_ptr: add ] to raw::weak_intrusive_ptr helpers]]
-- [[Issue #189935: c10 Bitset: add ] to query methods]]
-- [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL]
-- [Issue #6385: AsyncGRPO fork-independent epoch counting]
-- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #189934: c10 intrusive_ptr: add [nodiscard] to raw::weak_intrusive_ptr helpers](https://github.com/pytorch/pytorch/issues/189934)
+- [Issue #189935: c10 Bitset: add [nodiscard] to query methods](https://github.com/pytorch/pytorch/issues/189935)
+- [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL](https://github.com/pytorch/pytorch/issues/189938)
+- [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)
+- [Issue #14167: FlashPack support for transformers pipeline components](https://github.com/pytorch/pytorch/issues/14167)
 
 ## Key Findings
 
@@ -59,8 +59,8 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Issue #189934: c10 intrusive_ptr: add ] to raw::weak_intrusive_ptr helpers]]
-- [[Issue #189935: c10 Bitset: add ] to query methods]]
-- [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL]
-- [Issue #6385: AsyncGRPO fork-independent epoch counting]
-- [Issue #14167: FlashPack support for transformers pipeline components]
+- [Issue #189934: c10 intrusive_ptr: add [nodiscard] to raw::weak_intrusive_ptr helpers](https://github.com/pytorch/pytorch/issues/189934)
+- [Issue #189935: c10 Bitset: add [nodiscard] to query methods](https://github.com/pytorch/pytorch/issues/189935)
+- [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL](https://github.com/pytorch/pytorch/issues/189938)
+- [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)
+- [Issue #14167: FlashPack support for transformers pipeline components](https://github.com/pytorch/pytorch/issues/14167)

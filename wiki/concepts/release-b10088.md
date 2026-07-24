@@ -9,6 +9,22 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - release-b10088
+---
+
+backlinks:
+  - release-b10068
+---
+
+backlinks:
+  - release-b10048
+---
+
+backlinks:
+  - release-b10038
+---
+
 title: "Release b10088"
 type: concept
 tags:
@@ -82,3 +98,9 @@ See Key Findings for full content.
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "release-b10038")
+```

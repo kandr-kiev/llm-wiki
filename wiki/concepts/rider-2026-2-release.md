@@ -9,6 +9,14 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - rider-2026-2-release-candidate-is-out
+---
+
+backlinks:
+  - 2026-2-release
+---
+
 title: "rider 2026 2 release"
 type: concept
 tags:
@@ -203,3 +211,9 @@ color: #888;
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]]
 - [[collection-in-production-this-is-your-vector-store]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "2026-2-release")
+```

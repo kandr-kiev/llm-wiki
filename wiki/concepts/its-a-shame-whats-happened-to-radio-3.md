@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - its-a-shame-whats-happened-to-radio-3
+---
+
 title: "its a shame whats happened to radio 3"
 type: concept
 tags:
@@ -81,3 +85,9 @@ em + ((1vw - 0.2rem) * 0.227), 1.125rem);--wp--preset--font-size--large: clamp(1
 - [[embedding-a-talking-ai-avatar-with-one-script-tag-tried-nemynai-heres-whats-under-the-hood-54k6]]
 - [[data-centers-expected-to-use-4x-more-electricity-by]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "its-a-shame-whats-happened-to-radio-3")
+```

@@ -9,6 +9,14 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - laravel-13-21-0
+---
+
+backlinks:
+  - laravel-13-20-0
+---
+
 title: "laravel 13 21 0"
 type: concept
 tags:
@@ -109,3 +117,9 @@ The `Illuminate\Concurrency` component now has its own read-only subsplit, joini
 - ]
 - [[laravel-sms-catcher-a-local-dashboard-for-sms-notifications]]]
 - [[applying-massive-language-models-in-the-real-world-with-cohere-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "laravel-13-20-0")
+```

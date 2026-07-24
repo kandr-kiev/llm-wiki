@@ -14,6 +14,14 @@ links: []
 sources: []
 updated: 2026-07-23
 ---
+backlinks:
+  - issue-1453-docs-add-community-health-files-changelogmd
+---
+
+backlinks:
+  - changelog
+---
+
 
 # Issue #1453: docs: add community health files (CHANGELOG.md)
 
@@ -62,3 +70,9 @@ See Key Findings for full content.
 - [Issue #4112: docs: add community health files and README updates]
 - [Issue #6362: Add security policy to the repo]
 - [Issue #2848: Implement multi-domain intake architecture and related specs]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "changelog")
+```

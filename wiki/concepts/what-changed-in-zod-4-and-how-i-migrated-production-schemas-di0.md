@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - what-changed-in-zod-4-and-how-i-migrated-production-schemas-di0
+---
+
 title: "what changed in zod 4 and how i migrated production schemas di0"
 type: concept
 tags:
@@ -138,3 +142,9 @@ See Key Findings for full content.
 - [[html-tables-3k0i]]
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]
 - [[court-deadlines-you-can-audit-4gph]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "what-changed-in-zod-4-and-how-i-migrated-production-schemas-di0")
+```

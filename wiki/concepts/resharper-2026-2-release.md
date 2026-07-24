@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - resharper-2026-2-release-candidate-released
+---
+
 title: "resharper 2026 2 release"
 type: concept
 tags:
@@ -202,3 +206,9 @@ color: #888;
 - [[building-ai-infrastructure-with-the-effingham-county-community]]]
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "resharper-2026-2-release-candidate-released")
+```

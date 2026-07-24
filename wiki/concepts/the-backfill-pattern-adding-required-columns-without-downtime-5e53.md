@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - the-backfill-pattern-adding-required-columns-without-downtime-5e53
+---
+
 title: "the backfill pattern adding required columns without downtime 5e53"
 type: concept
 tags:
@@ -139,3 +143,9 @@ See Key Findings for full content.
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "the-backfill-pattern-adding-required-columns-without-downtime-5e53")
+```

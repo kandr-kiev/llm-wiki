@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - citesure-0517-soft-check-orcid-ids-before-you-ship-mic
+---
+
 title: "citesure 0517 soft check orcid ids before you ship mic"
 type: concept
 tags:
@@ -149,3 +153,9 @@ See Key Findings for full content.
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "citesure-0517-soft-check-orcid-ids-before-you-ship-mic")
+```

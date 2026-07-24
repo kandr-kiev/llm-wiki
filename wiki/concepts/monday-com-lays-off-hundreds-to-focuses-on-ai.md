@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - monday-com-lays-off-hundreds-to-focuses-on-ai
+---
+
 title: "monday com lays off hundreds to focuses on ai"
 type: concept
 tags:
@@ -80,3 +84,9 @@ See Key Findings for full content.
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]]
 - [[building-a-governance-saas-for-trustees-why-trust-administration-needs-software-4e3a]]]
 - [[court-deadlines-you-can-audit-4gph]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "monday-com-lays-off-hundreds-to-focuses-on-ai")
+```

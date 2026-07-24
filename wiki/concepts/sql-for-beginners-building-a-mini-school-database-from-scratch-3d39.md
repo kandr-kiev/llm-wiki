@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - sql-for-beginners-building-a-mini-school-database-from-scratch-3d39
+---
+
 title: "sql for beginners building a mini school database from scratch 3d39"
 type: concept
 tags:
@@ -139,3 +143,9 @@ See Key Findings for full content.
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "sql-for-beginners-building-a-mini-school-database-from-scratch-3d39")
+```

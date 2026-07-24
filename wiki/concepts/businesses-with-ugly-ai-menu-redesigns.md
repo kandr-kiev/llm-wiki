@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - businesses-with-ugly-ai-menu-redesigns
+---
+
 title: "businesses with ugly ai menu redesigns"
 type: concept
 tags:
@@ -89,3 +93,9 @@ See Key Findings for full content.
 - [[automating-ai-away-2026-07-07]]]
 - [[automating-ai-away-2026-07-07]]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "businesses-with-ugly-ai-menu-redesigns")
+```

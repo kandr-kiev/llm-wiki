@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us
+---
+
 title: "passionfroot raises 15m to expand its b2b creator marketplace to the us"
 type: concept
 tags:
@@ -81,3 +85,9 @@ See Key Findings for full content.
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[building-a-governance-saas-for-trustees-why-trust-administration-needs-software-4e3a]]]
 - [[court-deadlines-you-can-audit-4gph]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "passionfroot-raises-15m-to-expand-its-b2b-creator-marketplace-to-the-us")
+```

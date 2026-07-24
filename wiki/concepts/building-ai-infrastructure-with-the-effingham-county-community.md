@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - building-ai-infrastructure-with-the-effingham-county-community
+---
+
 title: "building ai infrastructure with the effingham county community"
 type: concept
 tags:
@@ -72,3 +76,9 @@ See Key Findings for full content.
 - [[glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era]]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "building-ai-infrastructure-with-the-effingham-county-community")
+```

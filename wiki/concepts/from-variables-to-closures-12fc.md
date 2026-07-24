@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - from-variables-to-closures-12fc
+---
+
 title: "from variables to closures 12fc"
 type: concept
 tags:
@@ -144,3 +148,9 @@ See Key Findings for full content.
 - [[court-deadlines-you-can-audit-4gph]]
 - [[day-1230-streaming-agent-reasoning-2dfh]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "from-variables-to-closures-12fc")
+```

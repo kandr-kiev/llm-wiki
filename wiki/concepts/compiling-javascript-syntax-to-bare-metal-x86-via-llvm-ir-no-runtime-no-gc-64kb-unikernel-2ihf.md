@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - compiling-javascript-syntax-to-bare-metal-x86-via-llvm-ir-no-runtime-no-gc-64kb-unikernel-2ihf
+---
+
 title: "compiling javascript syntax to bare metal x86 via llvm ir no runtime no gc 64kb unikernel 2ihf"
 type: concept
 tags:
@@ -133,3 +137,9 @@ See Key Findings for full content.
 - ]
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]]
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "compiling-javascript-syntax-to-bare-metal-x86-via-llvm-ir-no-runtime-no-gc-64kb-unikernel-2ihf")
+```

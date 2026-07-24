@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - httpscruciblebenchai
+---
+
 title: "https://cruciblebench.ai/"
 type: concept
 tags:
@@ -259,3 +263,9 @@ Two or fewer rooms across twenty-plus turns, or five consecutive lo
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]]
 - [[ai-drawing-arena-colored-pencils-claude-gpt-grok]]]
 - [[llm-deployment-qa]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "httpscruciblebenchai")
+```

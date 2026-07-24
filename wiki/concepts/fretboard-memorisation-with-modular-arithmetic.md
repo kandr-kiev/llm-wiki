@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - fretboard-memorisation-with-modular-arithmetic
+---
+
 title: "fretboard memorisation with modular arithmetic"
 type: concept
 tags:
@@ -135,3 +139,9 @@ a fret is a certain value: simply because of the number of increments it is from
 - [[automating-ai-away-2026-07-07]]]
 - (https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "fretboard-memorisation-with-modular-arithmetic")
+```

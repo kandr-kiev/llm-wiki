@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - openais-ai-spending-spree-has-ballooned-to-750b
+---
+
 title: "openais ai spending spree has ballooned to 750b"
 type: concept
 tags:
@@ -82,3 +86,9 @@ See Key Findings for full content.
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[cascade-raises-3-5m-to-help-construction-firms-find-and-win-projects]]]
 - [[arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "openais-ai-spending-spree-has-ballooned-to-750b")
+```

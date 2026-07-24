@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - promptstxt
+---
+
 title: "prompts.txt"
 type: concept
 tags:
@@ -64,3 +68,9 @@ See Key Findings for full content.
 - [[run-locally]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "promptstxt")
+```

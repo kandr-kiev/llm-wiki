@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - data-centers-expected-to-use-4x-more-electricity-by
+---
+
 title: "data centers expected to use 4x more electricity by"
 type: concept
 tags:
@@ -83,3 +87,9 @@ See Key Findings for full content.
 - ]
 - [[relaxation-and-its-role-in-vision-the-1977-phd-thesis-that-helped-shape-modern-ai-research]]
 - [[vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "data-centers-expected-to-use-4x-more-electricity-by")
+```

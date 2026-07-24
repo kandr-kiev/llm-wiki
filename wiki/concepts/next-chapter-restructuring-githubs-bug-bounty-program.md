@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - next-chapter-restructuring-githubs-bug-bounty-program
+---
+
 title: "next chapter restructuring githubs bug bounty program"
 type: concept
 tags:
@@ -100,3 +104,9 @@ See Key Findings for full content.
 - [[arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous]]]
 - [[copilot-vs-raw-api-access-what-are-you-actually-paying-for]]]
 - [[finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "next-chapter-restructuring-githubs-bug-bounty-program")
+```

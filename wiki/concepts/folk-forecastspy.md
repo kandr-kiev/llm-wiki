@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - folk-forecastspy
+---
+
 title: "folk forecasts.py"
 type: concept
 tags:
@@ -67,3 +71,9 @@ See Key Findings for full content.
 - ]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "folk-forecastspy")
+```

@@ -9,6 +9,14 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - streaming-article-queue-progress-over-sse-2n84
+---
+
+backlinks:
+  - article
+---
+
 title: "streaming article queue progress over sse 2n84"
 type: concept
 tags:
@@ -142,3 +150,9 @@ See Key Findings for full content.
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]]
 - [[software-is-cheap-proof-is-not-5e3c]]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "article")
+```

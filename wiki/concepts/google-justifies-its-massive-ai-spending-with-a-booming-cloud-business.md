@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - google-justifies-its-massive-ai-spending-with-a-booming-cloud-business
+---
+
 title: "google justifies its massive ai spending with a booming cloud business"
 type: concept
 tags:
@@ -82,3 +86,9 @@ See Key Findings for full content.
 - [[arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous]]]
 - [[how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face]]]
 - [[finding-the-words-to-say-hidden-state-visualizations-for-language-models-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "google-justifies-its-massive-ai-spending-with-a-booming-cloud-business")
+```

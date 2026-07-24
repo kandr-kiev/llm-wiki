@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents
+---
+
 title: "jack dorsey is taking on slack with buzz a group chat platform for teams and their ai agents"
 type: concept
 tags:
@@ -83,3 +87,9 @@ See Key Findings for full content.
 - [[relaxation-and-its-role-in-vision-the-1977-phd-thesis-that-helped-shape-modern-ai-research]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents")
+```

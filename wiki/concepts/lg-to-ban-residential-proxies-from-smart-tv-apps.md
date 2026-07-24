@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - lg-to-ban-residential-proxies-from-smart-tv-apps
+---
+
 title: "lg to ban residential proxies from smart tv apps"
 type: concept
 tags:
@@ -93,3 +97,9 @@ This entry was posted on Tuesday 21st of July 2026 09:10 PM
 - [[automating-ai-away-2026-07-07]]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]
 - [[kimi-k3-agentic-knowledge-benchmark]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "lg-to-ban-residential-proxies-from-smart-tv-apps")
+```

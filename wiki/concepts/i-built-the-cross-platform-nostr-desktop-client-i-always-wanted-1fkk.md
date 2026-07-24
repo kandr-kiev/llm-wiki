@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - i-built-the-cross-platform-nostr-desktop-client-i-always-wanted-1fkk
+---
+
 title: "i built the cross platform nostr desktop client i always wanted 1fkk"
 type: concept
 tags:
@@ -165,3 +169,9 @@ I picked Tauri over Electron for the classic reasons, and they held up in practi
 - ]
 - [[building-a-13-agent-marketing-society-on-qwen-cloud-what-actually-broke-and-what-i-learned-23n3]]]
 - [[expiring-content-put-the-deadline-in-the-data-not-the-prose-27bh]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "i-built-the-cross-platform-nostr-desktop-client-i-always-wanted-1fkk")
+```

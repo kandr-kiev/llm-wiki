@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - medici-family-mystery-dna-malaria
+---
+
 title: "medici family mystery dna malaria"
 type: concept
 tags:
@@ -78,3 +82,9 @@ blog_source: Hacker News
 - ]
 - [[collection-in-production-this-is-your-vector-store]]]
 - [[building-ai-infrastructure-with-the-effingham-county-community]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "medici-family-mystery-dna-malaria")
+```

@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - ai-drawing-arena-colored-pencils-claude-gpt-grok
+---
+
 title: "ai drawing arena colored pencils claude gpt grok"
 type: concept
 tags:
@@ -89,3 +93,9 @@ Starry Night (target)GPT-5.6 SolClaude Fable 5Grok 4.5Gemini 3.6 Flash![Starry N
 - [[sites-that-block-ai-training-crawlers-mostly-ignore-the-answer-time-bots-2026-07-07]]
 - ]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "ai-drawing-arena-colored-pencils-claude-gpt-grok")
+```

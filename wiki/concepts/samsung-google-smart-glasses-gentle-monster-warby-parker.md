@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - samsung-google-smart-glasses-gentle-monster-warby-parker
+---
+
 title: "samsung google smart glasses gentle monster warby parker"
 type: concept
 tags:
@@ -71,3 +75,9 @@ See Key Findings for full content.
 - ]
 - [[collection-in-production-this-is-your-vector-store]]]
 - [[i-taught-an-open-source-seo-tool-to-check-whether-your-site-is-readable-by-ai-agents-15i3]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "samsung-google-smart-glasses-gentle-monster-warby-parker")
+```

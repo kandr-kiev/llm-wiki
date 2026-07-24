@@ -29,7 +29,7 @@ updated: 2026-07-23
 - [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]
 - [Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern]
 - [Issue #3427: FIX grouped Conv2d LoRA rank padding for hotswapping (#3416)]
-- [[Issue #123251: PR #44403: [XLA:CPU] onednn_threadpool: cap num_workers at n in parallel_for]]
+- [Issue #123251: PR #44403: [XLA:CPU] onednn_threadpool: cap num_workers at n in parallel_for](https://github.com/pytorch/pytorch/issues/123251)
 - [Issue #14187: Fix SEG `_gaussian_blur_2d`: finite `blur_sigma` is ignored (inverted infinite-blur branch)]
 
 ## Key Findings
@@ -54,6 +54,5 @@ See Key Findings for full content.
 
 - [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]
 - [Issue #3425: FIX Accept layers_to_transform=0 together with layers_pattern]
-- [Issue #3427: FIX grouped Conv2d LoRA rank padding for hotswapping (#3416)]
-- [[Issue #123251: PR #44403: [XLA:CPU] onednn_threadpool: cap num_workers at n in parallel_for]]
+- [Issue #3427: FIX grouped Conv[Issue #123251: PR #44403: [XLA:CPU] onednn_threadpool: cap num_workers at n in parallel_for](https://github.com/pytorch/pytorch/issues/123251)readpool: cap num_workers at n in parallel_for]]
 - [Issue #14187: Fix SEG `_gaussian_blur_2d`: finite `blur_sigma` is ignored (inverted infinite-blur branch)]

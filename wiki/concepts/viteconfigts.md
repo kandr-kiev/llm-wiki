@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - viteconfigts
+---
+
 title: "vite.config.ts"
 type: concept
 tags:
@@ -74,3 +78,9 @@ See Key Findings for full content.
 - ]
 - [[run-locally]]
 - ]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "viteconfigts")
+```

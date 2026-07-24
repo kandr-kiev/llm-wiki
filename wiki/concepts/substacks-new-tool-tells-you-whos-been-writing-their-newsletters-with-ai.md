@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai
+---
+
 title: "substacks new tool tells you whos been writing their newsletters with ai"
 type: concept
 tags:
@@ -82,3 +86,9 @@ See Key Findings for full content.
 - [[glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era]]]
 - [[jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents]]]
 - [[the-white-houses-post-quantum-executive-order-is-an-important-milestone-its-time-to-get-to-work-2026-07-07]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai")
+```

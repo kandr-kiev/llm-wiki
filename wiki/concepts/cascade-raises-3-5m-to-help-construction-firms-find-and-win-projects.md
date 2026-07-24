@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - cascade-raises-3-5m-to-help-construction-firms-find-and-win-projects
+---
+
 title: "cascade raises 3 5m to help construction firms find and win projects"
 type: concept
 tags:
@@ -80,3 +84,9 @@ See Key Findings for full content.
 - [[arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous]]]
 - [[vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling]]]
 - [[how-to-build-an-ai-feature-with-gemini-a-practical-guide-to-prompt-engineering-for-developers]]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "cascade-raises-3-5m-to-help-construction-firms-find-and-win-projects")
+```

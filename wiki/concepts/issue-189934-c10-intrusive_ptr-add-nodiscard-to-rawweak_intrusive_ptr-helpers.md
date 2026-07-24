@@ -30,7 +30,7 @@ tags:
 > **Sources:**
 >   - gh-pytorchpytorch-issue-189934-2026-07-14.md
 > **Links:**
-- [[Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s]]
+- [Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s](https://github.com/pytorch/pytorch/issues/189937)
 - [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL]
 - [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
 - [Issue #8138: Add governance process page to deepspeed.ai]
@@ -57,11 +57,7 @@ Differential Revision: D111955878
 
 ## Summary
 
-See Key Findings for full content.
-
-## Related Articles
-
-- [[Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s]]
+See Key Fin[Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s](https://github.com/pytorch/pytorch/issues/189937)Bump remaining shim-linter git timeouts to 60s]]
 - [Issue #189938: Gate nccl2 backend NCCL code behind USE_C10D_NCCL]
 - [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
 - [Issue #8138: Add governance process page to deepspeed.ai]

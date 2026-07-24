@@ -9,6 +9,10 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - solo-founder-or-startup-founder-whats-right-for-you-79l
+---
+
 title: "solo founder or startup founder whats right for you 79l"
 type: concept
 tags:
@@ -164,3 +168,9 @@ Multi-Founder (2-3)
 - [[dimension-capitals-800m-third-fund-shows-the-intersection-of-science-and-compute-is-booming]]
 - [[html-tables-3k0i]]
 - [[learnings-from-building-an-mcp-server-32oh]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "solo-founder-or-startup-founder-whats-right-for-you-79l")
+```
