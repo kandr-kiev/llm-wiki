@@ -874,25 +874,46 @@ def cure_missing_fields(report):
 # HELPER FUNCTIONS
 # ---------------------------------------------------------------------------
 
+def _levenshtein(a, b):
+    """Compute Levenshtein distance between two strings."""
+    la, lb = len(a), len(b)
+    if la == 0:
+        return lb
+    if lb == 0:
+        return la
+    prev = list(range(lb + 1))
+    for i in range(1, la + 1):
+        curr = [i] + [0] * lb
+        for j in range(1, lb + 1):
+            cost = 0 if a[i - 1] == b[j - 1] else 1
+            curr[j] = min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + cost)
+        prev = curr
+    return prev[lb]
+
+
 def _find_best_slug_match(link, slugs):
-    """Find best matching slug for a broken wikilink."""
+    """Find best matching slug for a broken wikilink using Levenshtein distance."""
     if link in slugs:
         return link
 
-    # Simple word overlap
-    link_words = set(re.split(r'[-\s]+', link.lower()))
-    best_score = 0
+    link_lower = link.lower()
+    best_dist = float('inf')
     best_slug = None
 
     for slug in slugs:
-        slug_words = set(re.split(r'[-\s]+', slug.lower()))
-        overlap = len(link_words & slug_words)
-        if overlap > best_score:
-            best_score = overlap
+        dist = _levenshtein(link_lower, slug.lower())
+        # Normalize by max length to handle length bias
+        max_len = max(len(link_lower), len(slug.lower()))
+        if max_len == 0:
+            continue
+        norm_dist = dist / max_len  # 0.0 = identical, 1.0 = completely different
+
+        if norm_dist < best_dist:
+            best_dist = norm_dist
             best_slug = slug
 
-    # Require at least 2 shared words
-    if best_score >= 2:
+    # Require ≤ 40% edit distance (lenient for typos)
+    if best_dist <= 0.4 and best_slug is not None:
         return best_slug
     return None
 

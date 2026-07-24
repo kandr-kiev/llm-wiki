@@ -9,6 +9,8 @@
 Використовує canonical utils (build_frontmatter, compute_sha256, slugify).
 Вивід: standard_report.py format_report_simple.
 """
+import fcntl
+import logging
 import os
 import sys
 import feedparser
@@ -16,6 +18,13 @@ import requests
 import subprocess
 from pathlib import Path
 from datetime import datetime, timezone
+
+logger = logging.getLogger("source_monitor")
+logger.setLevel(logging.DEBUG)
+if not logger.handlers:
+    _sh = logging.StreamHandler(sys.stdout)
+    _sh.setFormatter(logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S"))
+    logger.addHandler(_sh)
 
 from utils import (
     compute_sha256,
@@ -77,8 +86,6 @@ FEEDS = {
     "Oracle DBA Soyma": "https://dbasoumya.blogspot.com/feeds/posts/default?alt=rss",
     # === Algorithms / CS ===
     "Google Research Blog": "https://blog.research.google/atom.xml",
-    "Algorithm Design": "https://www3.cs.stonybrook.edu/~skiena/",
-    "CS Theory": "https://www.cs.cmu.edu/~odonnell/",
     "Algorithm Corner": "https://algorithmcorner.com/feed/",
     # === IDE / Dev Tools ===
     "JetBrains Blog": "https://blog.jetbrains.com/feed/",
@@ -97,6 +104,16 @@ FEEDS = {
 }
 
 
+def _db_append(db_path: Path, line: str):
+    """Append a line to a DB file with fcntl.flock for atomicity."""
+    db_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(db_path, 'a') as f:
+        fcntl.flock(f.fileno(), fcntl.LOCK_EX)
+        f.write(line + '\n')
+        f.flush()
+        fcntl.flock(f.fileno(), fcntl.LOCK_UN)
+
+
 def is_new_article(url: str) -> bool:
     if not RSS_DB.exists():
         return True
@@ -106,8 +123,7 @@ def is_new_article(url: str) -> bool:
 
 
 def mark_article_read(url: str):
-    with open(RSS_DB, 'a') as f:
-        f.write(url + '\n')
+    _db_append(RSS_DB, url)
 
 
 def fetch_article_content(url: str) -> str:
@@ -176,8 +192,7 @@ def is_new_release(repo: str, release_tag: str) -> bool:
 
 
 def mark_release_read(repo: str, release_tag: str):
-    with open(GITHUB_DB, 'a') as f:
-        f.write(f"{repo}#{release_tag}\n")
+    _db_append(GITHUB_DB, f"{repo}#{release_tag}")
 
 
 def fetch_release_content(repo: str, release_tag: str) -> str:
@@ -261,8 +276,7 @@ def is_new_model_update(model_id: str, last_modified: str) -> bool:
 
 
 def mark_model_processed(model_id: str, last_modified: str):
-    with open(HF_DB, 'a') as f:
-        f.write(f"{model_id}#{last_modified}\n")
+    _db_append(HF_DB, f"{model_id}#{last_modified}")
 
 
 def fetch_model_info(model_id: str) -> dict | None:
@@ -488,11 +502,11 @@ def save_raw_file(dirpath: Path, filepath: Path) -> str:
 # ---------------------------------------------------------------------------
 def main():
     """Combined source monitor: RSS + GitHub + Local."""
-    print("🔄 LLM Wiki Source Monitor — RSS + GitHub + Local")
-    print(f"📊 RSS feeds: {len(FEEDS)} | GitHub repos: {len(GITHUB_REPOS)} | Local dirs: {len(LOCAL_DIRS)}")
-    print(f"📁 Raw directory: {RAW_DIR}")
-    print(f"🗄️  Databases: {RSS_DB}, {GITHUB_DB}, {LOCAL_DB}")
-    print()
+    logger.info("🔄 LLM Wiki Source Monitor — RSS + GitHub + Local")
+    logger.info(f"📊 RSS feeds: {len(FEEDS)} | GitHub repos: {len(GITHUB_REPOS)} | Local dirs: {len(LOCAL_DIRS)}")
+    logger.info(f"📁 Raw directory: {RAW_DIR}")
+    logger.info(f"🗄️  Databases: {RSS_DB}, {GITHUB_DB}, {LOCAL_DB}")
+    logger.debug("")
 
     new_articles = []
     new_releases = []
@@ -512,14 +526,14 @@ def main():
     # =========================================
     # 1. RSS Feeds
     # =========================================
-    print("📡 RSS Feeds:")
+    logger.info("📡 RSS Feeds:")
     for blog_name, feed_url in FEEDS.items():
-        print(f"  📡 Scanning {blog_name}...")
+        logger.info(f"  📡 Scanning {blog_name}...")
         try:
             feed = feedparser.parse(feed_url)
 
             if feed.bozo:
-                print(f"    ⚠️  Feed error: {feed.bozo_exception}")
+                logger.warning(f"    ⚠️  Feed error: {feed.bozo_exception}")
                 continue
 
             total_rss_scanned += len(feed.entries)
@@ -529,7 +543,7 @@ def main():
                 if not url or not is_new_article(url):
                     continue
 
-                print(f"    📄 New: {entry.get('title', 'No title')}")
+                logger.info(f"    📄 New: {entry.get('title', 'No title')}")
                 content = fetch_article_content(url)
                 filepath = save_raw_article(
                     title=entry.get('title', 'Untitled'),
@@ -541,20 +555,20 @@ def main():
                 mark_article_read(url)
 
         except Exception as e:
-            print(f"    ❌ Error scanning {blog_name}: {e}")
+            logger.error(f"    ❌ Error scanning {blog_name}: {e}")
 
     # =========================================
     # 2. GitHub Releases
     # =========================================
-    print("\n📡 GitHub Releases:")
+    logger.info("\n📡 GitHub Releases:")
     for repo in GITHUB_REPOS:
-        print(f"  📡 Checking {repo}...")
+        logger.info(f"  📡 Checking {repo}...")
         try:
             url = f"https://api.github.com/repos/{repo}/releases/latest"
             response = retry_for_status(url, _auth_headers(), status=200)
 
             if response.status_code != 200:
-                print(f"    ⚠️  No access or not found")
+                logger.warning(f"    ⚠️  No access or not found")
                 continue
 
             total_github_scanned += 1
@@ -563,28 +577,28 @@ def main():
             title = data.get('name', tag)
 
             if not tag or not is_new_release(repo, tag):
-                print(f"    ✅ Already processed: {tag}")
+                logger.info(f"    ✅ Already processed: {tag}")
                 continue
 
-            print(f"    📄 New release: {title} ({tag})")
+            logger.info(f"    📄 New release: {title} ({tag})")
             content = fetch_release_content(repo, tag)
             filepath = save_raw_release(repo, tag, content)
             new_releases.append(filepath)
             mark_release_read(repo, tag)
 
         except Exception as e:
-            print(f"    ❌ Error checking {repo}: {e}")
+            logger.error(f"    ❌ Error checking {repo}: {e}")
 
     # =========================================
     # 3. HuggingFace Hub Models
     # =========================================
-    print("\n🤗 HuggingFace Hub Models:")
+    logger.info("\n🤗 HuggingFace Hub Models:")
     for model_id in HF_MODELS:
-        print(f"  📡 Checking {model_id}...")
+        logger.info(f"  📡 Checking {model_id}...")
         try:
             info = fetch_model_info(model_id)
             if info is None:
-                print(f"    ⚠️  Model not found or API error")
+                logger.warning(f"    ⚠️  Model not found or API error")
                 continue
 
             total_hf_scanned += 1
@@ -592,12 +606,12 @@ def main():
             model_name = info.get('modelId', model_id)
 
             if not last_modified or not is_new_model_update(model_id, last_modified):
-                print(f"    ✅ Up to date: {last_modified}")
+                logger.info(f"    ✅ Up to date: {last_modified}")
                 # Always include HF models in report (even if up to date)
                 new_hf_models.append(f"{model_id} (up to date)")
                 continue
 
-            print(f"    📄 New update: {last_modified}")
+            logger.info(f"    📄 New update: {last_modified}")
 
             content = build_model_report(model_id, info)
             filepath = save_raw_model(model_id, content)
@@ -605,19 +619,19 @@ def main():
             mark_model_processed(model_id, last_modified)
 
         except Exception as e:
-            print(f"    ❌ Error checking {model_id}: {e}")
+            logger.error(f"    ❌ Error checking {model_id}: {e}")
 
     # =========================================
     # 4. Local Files
     # =========================================
-    print("\n📡 Local Files:")
+    logger.info("\n📡 Local Files:")
     for dirpath_str in LOCAL_DIRS:
         dirpath = Path(dirpath_str)
         if not check_dir_exists(dirpath):
-            print(f"  ⚠️  Directory not found: {dirpath}")
+            logger.warning(f"  ⚠️  Directory not found: {dirpath}")
             continue
 
-        print(f"  📡 Scanning {dirpath}...")
+        logger.info(f"  📡 Scanning {dirpath}...")
 
         try:
             for root, dirs, files in os.walk(str(dirpath)):
@@ -636,14 +650,14 @@ def main():
                         continue
 
                     total_local_scanned += 1
-                    print(f"    📄 New: {rel_path}")
+                    logger.info(f"    📄 New: {rel_path}")
 
                     filepath_out = save_raw_file(dirpath, filepath)
                     new_local_files.append(filepath_out)
                     mark_file_read(dirpath, filepath, db_key)
 
         except Exception as e:
-            print(f"    ❌ Error scanning {dirpath}: {e}")
+            logger.error(f"    ❌ Error scanning {dirpath}: {e}")
 
     # =========================================
     # Summary report
@@ -677,8 +691,8 @@ def main():
     if breakdown_lines:
         report += "\n\nДеталі:\n" + "\n".join(breakdown_lines)
 
-    print()
-    print(report)
+    logger.debug("")
+    logger.info(report)
 
     # Log
     if total_new > 0:
@@ -686,11 +700,11 @@ def main():
         append_to_log(LOG_FILE, "source_monitor",
                       f"RSS: {total_rss_scanned}, GH: {total_github_scanned}, HF: {total_hf_scanned}, Local: {total_local_scanned} | "
                       f"new: {total_new} ({len(new_articles)} articles, {len(new_releases)} releases, {len(new_hf_models)} HF, {len(new_local_files)} local)")
-        print(f"  📝 Logged to {LOG_FILE}")
+        logger.info(f"  📝 Logged to {LOG_FILE}")
     else:
         append_to_log(LOG_FILE, "source_monitor",
                       f"RSS: {total_rss_scanned}, GH: {total_github_scanned}, HF: {total_hf_scanned}, Local: {total_local_scanned} | no new sources")
-        print(f"  ✅ No new sources to ingest")
+        logger.info(f"  ✅ No new sources to ingest")
 
     return 0  # Always return 0 for cron
 
