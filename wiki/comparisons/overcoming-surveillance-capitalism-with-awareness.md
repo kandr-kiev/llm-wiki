@@ -16,6 +16,10 @@ tags:
   - news
   - web
 ---
+backlinks:
+  - overcoming-surveillance-capitalism-with-awareness
+---
+
 
 # overcoming surveillance capitalism with awareness
 
@@ -170,3 +174,9 @@ The author of the letter was thrown out of the meeting for expressing hostility 
 - [[Automating away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [[open source monopoly]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "overcoming-surveillance-capitalism-with-awareness")
+```

@@ -20,6 +20,10 @@ tags:
   - use-case
   - workflow
 ---
+backlinks:
+  - linux-kernel-will-support-origin-sort-of
+---
+
 
 # linux kernel will support origin sort of
 
@@ -120,3 +124,9 @@ This leaks in a few painful ways but the simplest are :
 - [[update55]]
 - [[i started a dirt notebook]]
 - [[ai]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "linux-kernel-will-support-origin-sort-of")
+```

@@ -18,6 +18,10 @@ tags:
   - use-case
   - web
 ---
+backlinks:
+  - halliday-gen-2-smart-glasses-hands-on-ai-wearables
+---
+
 
 # halliday gen 2 smart glasses hands on ai wearables
 
@@ -86,3 +90,9 @@ See Key Findings for full content.
 - [[adobe indigo camera app ai playground update]]
 - [[tiktok ai likeness detection tool]]
 - [[1010benja semiramis dream suno ai music]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "halliday-gen-2-smart-glasses-hands-on-ai-wearables")
+```

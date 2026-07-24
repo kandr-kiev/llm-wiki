@@ -25,7 +25,7 @@ tags:
 >   - python-3145-release-candidate-2026-07-17.md
 > **Links:**
 - [[python 3145 is out]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 - [[Release 5.0.0]]
 - [[Release v0.25.1]]
 - [[improving accessibility in jetbrains ides what s new and what s next]]
@@ -86,10 +86,7 @@ For more details on the changes to Python 3.14, see [What’s new in Python 3.14
 ## Python install manager
 The installer we offer for Window
 
-## Related Articles
-
-- [[python 3145 is out]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+##[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]
 - [[Release 5.0.0]]
 - [[Release v0.25.1]]
 - [[improving accessibility in jetbrains ides what s new and what s next]]

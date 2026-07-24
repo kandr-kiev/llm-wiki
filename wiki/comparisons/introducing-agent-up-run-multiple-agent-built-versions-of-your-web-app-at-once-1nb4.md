@@ -17,6 +17,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - introducing-agent-up-run-multiple-agent-built-versions-of-your-web-app-at-once-1nb4
+---
+
 
 # introducing agent up run multiple agent built versions of your web app at once 1nb4
 
@@ -161,3 +165,9 @@ An agent finishes its work and starts the new version through the Agent-Up MC
 - [[class vs object who is the big boss 32nj]]
 - [[can you beat an llm building humans vs humanitys last exam]]
 - [[the gitbook migration trap 4gp2]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "introducing-agent-up-run-multiple-agent-built-versions-of-your-web-app-at-once-1nb4")
+```

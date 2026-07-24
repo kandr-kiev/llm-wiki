@@ -20,6 +20,10 @@ tags:
   - system-design
   - video-generation
 ---
+backlinks:
+  - meta-open-sources-astryx-an-agent-ready-react-design-system-with-150-accessible-components-seven-themes-and-a-cli
+---
+
 
 # meta open sources astryx an agent ready react design system with 150 accessible components seven themes and a cli
 
@@ -139,3 +143,9 @@ See Key Findings for full content.
 - [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
 - [[jquery.min.js]]
 - [[bootstrap.min.js]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "meta-open-sources-astryx-an-agent-ready-react-design-system-with-150-accessible-components-seven-themes-and-a-cli")
+```

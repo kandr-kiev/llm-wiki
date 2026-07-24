@@ -20,7 +20,7 @@ tags:
 > **Links:**
 - [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
 - [Issue #8333: Support batched=True in Dataset.to_dict]
-- [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
+- [Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)
 - [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
 - [Issue #8329: fix: replace list/List with Sequence in function parameter annotations]
 
@@ -60,7 +60,6 @@ See Key Findings for full content.
 ## Related Articles
 
 - [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
-- [Issue #8333: Support batched=True in Dataset.to_dict]
-- [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
+- [Issue #83[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)ntization] Fix ModelOpt pre-quantized loading]]
 - [Issue #6359: Truncate GOLD on-policy prompts before generation, keeping the prompt end]
 - [Issue #8329: fix: replace list/List with Sequence in function parameter annotations]

@@ -27,7 +27,7 @@ tags:
 >   - local-ai-education-provendorphpunitphp-code-coveragesecuritymd-2026-07-20.md
 > **Links:**
 - [[Version]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 - [[Changelog]]
 - [[phpunit/php-code-coverage]]
 - [[Manifest]]
@@ -61,12 +61,7 @@ Vulnerabilities specific to the use outside a development context will be fixed 
 
 ## Summary
 
-See Key Findings for full content.
-
-## Related Articles
-
-- [[Version]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+See Key Findings for full c[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]
 - [[Changelog]]
 - [[phpunit/php-code-coverage]]
 - [[Manifest]]

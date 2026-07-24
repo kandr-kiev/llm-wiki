@@ -27,7 +27,7 @@ tags:
 - [[changing oracle applications user]]
 - [[sequoia ascent]]
 - [[v0.27.0]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 
 ## Key Findings
 
@@ -147,7 +147,4 @@ Dependencies resolved.
 ## Related Articles
 
 - [[how to patch oracle database to 1931 on]]
-- [[changing oracle applications user]]
-- [[sequoia ascent]]
-- [[v0.27.0]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [[changing oracle application[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]

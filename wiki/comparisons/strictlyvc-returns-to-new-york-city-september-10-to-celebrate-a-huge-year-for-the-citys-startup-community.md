@@ -11,6 +11,10 @@ tags:
   - real-time
   - video-generation
 ---
+backlinks:
+  - strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community
+---
+
 
 # strictlyvc returns to new york city september 10 to celebrate a huge year for the citys startup community
 
@@ -70,3 +74,9 @@ See Key Findings for full content.
 - [[odyssey director christopher nolan calls ai an obvious trojan horse]]
 - [[mercor is in talks for a 20b valuation]]
 - [[the zoom hack that says dont record me]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "strictlyvc-returns-to-new-york-city-september-10-to-celebrate-a-huge-year-for-the-citys-startup-community")
+```

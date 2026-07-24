@@ -6,6 +6,10 @@ tags:
   - knowledge-base
     - image-generation
 ---
+backlinks:
+  - 2026-world-cup-internet-traffic
+---
+
 
 # 2026 world cup internet traffic
 
@@ -46,3 +50,9 @@ ons"],"href":[0,"/products/access/"]}],[0,{"title":[0,"Secure Web Gateway"],"des
 - [[meerkat introduction]]
 - [[rollbacks for workflows]]
 - [[agentic internet bot report]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "2026-world-cup-internet-traffic")
+```

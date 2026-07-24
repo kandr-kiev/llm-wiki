@@ -15,6 +15,10 @@ tags:
   - real-time
   - video-generation
 ---
+backlinks:
+  - gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else
+---
+
 
 # gritt exits stealth with 34 million for robots to build solar plants then everything else
 
@@ -75,3 +79,9 @@ See Key Findings for full content.
 - [[google releases three new gemini models but no 3 5 pro]]
 - [[the zoom hack that says dont record me]]
 - [[ai powered travel agency fora hits unicorn status raises 60m]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else")
+```

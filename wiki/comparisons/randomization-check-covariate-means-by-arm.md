@@ -28,7 +28,7 @@ tags:
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
 - [[Automating away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)
 - [[5 Agent Skills I Use Every Day]]
 
 ## Key Findings
@@ -131,6 +131,5 @@ If `prompt_variant` was assigned by coin flip, then `E[epsilon | prompt_variant]
 
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
 - [[Automating away]]
-- [[Mesh LLM: distributed AI computing on iroh]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
+- [[M[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch/pytorch/issues/6385)5: AsyncGRPO fork-independent epoch counting]]
 - [[5 Agent Skills I Use Every Day]]

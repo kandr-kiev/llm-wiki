@@ -13,6 +13,10 @@ tags:
   - software
   - video-generation
 ---
+backlinks:
+  - youtube-clarifies-policies-around-ai-slop-and-upsetting-videos
+---
+
 
 # youtube clarifies policies around ai slop and upsetting videos
 
@@ -74,3 +78,9 @@ See Key Findings for full content.
 - [[googles ai mode now lets you link and interact with select apps]]
 - [[natural raises 30m to reinvent payments for ai agents and take on stripe]]
 - [[nonprofit current ai is racing to build the world wide web of ai free for all]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "youtube-clarifies-policies-around-ai-slop-and-upsetting-videos")
+```

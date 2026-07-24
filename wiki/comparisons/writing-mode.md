@@ -12,6 +12,10 @@ tags:
   - use-case
   - video-generation
 ---
+backlinks:
+  - writing-mode
+---
+
 
 # writing mode
 
@@ -116,3 +120,9 @@ See Key Findings for full content.
 - [[translatey]]
 - [[css states and javascript events]]
 - [[whats important 14]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "writing-mode")
+```

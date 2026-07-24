@@ -14,6 +14,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated
+---
+
 
 # music streamer deezer says more than 50 of daily uploads are ai generated
 
@@ -75,3 +79,9 @@ See Key Findings for full content.
 - [[odyssey director christopher nolan calls ai an obvious trojan horse]]
 - [[apple intelligence approved for launch in china with alibabas qwen ai]]
 - [[apples lawsuit couldnt come at a worse time for openai]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated")
+```

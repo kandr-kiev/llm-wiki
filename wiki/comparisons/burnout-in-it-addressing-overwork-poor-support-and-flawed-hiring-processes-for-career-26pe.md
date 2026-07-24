@@ -16,6 +16,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - burnout-in-it-addressing-overwork-poor-support-and-flawed-hiring-processes-for-career-26pe
+---
+
 
 # burnout in it addressing overwork poor support and flawed hiring processes for career 26pe
 
@@ -134,3 +138,9 @@ From Passion to Burnout: A
 - [[adding an ai chatbot to echostats 290m]]
 - [[class vs object who is the big boss 32nj]]
 - [[how we beat hotspot performance by cheating but not like that]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "burnout-in-it-addressing-overwork-poor-support-and-flawed-hiring-processes-for-career-26pe")
+```

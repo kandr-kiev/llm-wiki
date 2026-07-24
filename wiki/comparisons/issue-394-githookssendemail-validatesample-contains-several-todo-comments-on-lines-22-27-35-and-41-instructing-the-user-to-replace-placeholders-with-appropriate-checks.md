@@ -21,7 +21,7 @@ tags:
 - [[issue-393-model_cardmd-discusses-issues-relating-to-potential-misuse-of-the-model-and-detection-issues-on-line-67-this-is-part-of-the-models-documentation-regarding-its-limitations-and-potential-societal-impact]]
 - [[issue-6361-critical-training-chat-template-issue-with-qwen35-models-in-chat_template_utils]]
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)
 - [[issue-1450-feat-integrate-aegis-prime-external-marketplace-agent-framework-with-nested-schema-support]]
 
 ## Key Findings
@@ -44,6 +44,5 @@ See Key Findings for full content.
 
 - [[issue-393-model_cardmd-discusses-issues-relating-to-potential-misuse-of-the-model-and-detection-issues-on-line-67-this-is-part-of-the-models-documentation-regarding-its-limitations-and-potential-societal-impact]]
 - [[issue-6361-critical-training-chat-template-issue-with-qwen35-models-in-chat_template_utils]]
-- [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [[issue-14166-fix-hub-d[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)/ DB_ERROR on POST /api/execute?action=claim]]
 - [[issue-1450-feat-integrate-aegis-prime-external-marketplace-agent-framework-with-nested-schema-support]]

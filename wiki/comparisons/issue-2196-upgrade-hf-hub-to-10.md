@@ -21,7 +21,7 @@ tags:
 > **Links:**
 - [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
 - [[Release v1.8.0]]
-- [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
+- [Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)
 - [Issue #2460: Bump the actions group across 1 directory with 4 updates]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]
 
@@ -43,8 +43,6 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [Issue #14166: Fix Hub download filtering for FlashPack pipelines]
-- [[Release v1.8.0]]
-- [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
+- [Issue #14166: Fix Hub download filtering f[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)ntization] Fix ModelOpt pre-quantized loading]]
 - [Issue #2460: Bump the actions group across 1 directory with 4 updates]
 - [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]

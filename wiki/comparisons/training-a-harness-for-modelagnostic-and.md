@@ -15,6 +15,10 @@ tags:
   - self-supervised
   - training
 ---
+backlinks:
+  - training-a-harness-for-modelagnostic-and
+---
+
 
 # training a harness for modelagnostic and
 
@@ -80,3 +84,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[exploring continual learning without replay]]
 - [[kimi k3]]
 - [[sequoia ascent]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "training-a-harness-for-modelagnostic-and")
+```

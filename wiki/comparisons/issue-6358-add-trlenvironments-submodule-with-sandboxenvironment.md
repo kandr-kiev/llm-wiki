@@ -29,7 +29,7 @@ tags:
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
 - [[issue-47254-checkpointerror-with-peft-deepspeed-zero-3-gradient-checkpointing]]
 - [[issue-14167-flashpack-support-for-transformers-pipeline-components]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256)
 
 ## Key Findings
 
@@ -63,5 +63,4 @@ See Key Findings for full content.
 - [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
 - [[issue-47254-checkpointerror-with-peft-deepspeed-zero-3-gradient-checkpointing]]
-- [[issue-14167-flashpack-support-for-transformers-pipeline-components]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [[issue-14167-flashpack-su[Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256) #47256: [serge] integration failure triage -]]

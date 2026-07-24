@@ -19,6 +19,10 @@ tags:
   - research
   - video-generation
 ---
+backlinks:
+  - nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-model-that-reasons-and-generates-robot-actions-on-device
+---
+
 
 # nvidia releases cosmos 3 edge a 4b parameter open world model that reasons and generates robot actions on device
 
@@ -34,7 +38,7 @@ tags:
 - [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
 - [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
 - [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[Issue #2197: perf: reduce BPE tokenizer load-time memory]]
+- [Issue #2197: perf: reduce BPE tokenizer load-time memory](https://github.com/pytorch/pytorch/issues/2197)
 - [[sequoia ascent]]
 
 ## Key Findings
@@ -128,6 +132,11 @@ See Key Findings for full content.
 
 - [[building a gin config controlled pytorch pipeline with configurable mlp variants cosine scheduling and runtime parameter overrides]]
 - [[build an agentic event venue operator with mongodb atlas voyage and langgraph]]
-- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
-- [[Issue #2197: perf: reduce BPE tokenizer load-time memory]]
+- [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guar[Issue #2197: perf: reduce BPE tokenizer load-time memory](https://github.com/pytorch/pytorch/issues/2197) perf: reduce BPE tokenizer load-time memory]]
 - [[sequoia ascent]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-model-that-reasons-and-generates-robot-actions-on-device")
+```

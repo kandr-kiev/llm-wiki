@@ -16,6 +16,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - less-art-more-engineering-it-wasnt-measurement
+---
+
 
 # less art more engineering it wasnt measurement
 
@@ -139,3 +143,9 @@ The clearest case is architecture. I built a [procedure](https://pragmatica.dev/
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
 - [[starting my developer journey bh8]]
 - [[adding an ai chatbot to echostats 290m]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "less-art-more-engineering-it-wasnt-measurement")
+```

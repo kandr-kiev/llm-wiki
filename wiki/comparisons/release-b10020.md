@@ -23,7 +23,7 @@ tags:
 - [[Release b10007]]
 - [[Release b10015]]
 - [[Release Notes: Llama.cpp vb9956]]
-- [[Issue #47321: AMD quark class not updated]]
+- [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
 - [[PyTorch 2.12.1 Release, bug fix release]]
 
 ## Key Findings
@@ -68,7 +68,5 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[Release b10007]]
-- [[Release b10015]]
-- [[Release Notes: Llama.cpp vb9956]]
-- [[Issue #47321: AMD quark class not updated]]
+- [[Release b1[Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)- [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
 - [[PyTorch 2.12.1 Release, bug fix release]]

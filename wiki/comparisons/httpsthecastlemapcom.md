@@ -12,6 +12,10 @@ tags:
   - open-source
   - system-design
 ---
+backlinks:
+  - httpsthecastlemapcom
+---
+
 
 # https://thecastlemap.com/
 
@@ -105,3 +109,9 @@ foundin
 - [[i started a dirt notebook]]
 - [[Automating away]]
 - [[open source monopoly]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "httpsthecastlemapcom")
+```

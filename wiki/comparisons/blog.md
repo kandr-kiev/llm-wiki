@@ -39,6 +39,14 @@ tags:
   - web
   - zero-shot
 ---
+backlinks:
+  - shippy-tech-blog
+---
+
+backlinks:
+  - blog
+---
+
 
 # blog
 
@@ -78,3 +86,9 @@ hat openai, qwen 2.5 app, chatgpt gratis, google bard ai, free chat gpt, generad
 - [[Qwen (Alibaba)]]
 - [[LLM Deployment Q&A — Common Questions]]
 - [[perplexity ai releases wandr an open benchmark evaluating research agents that must search wide and deep]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "blog")
+```

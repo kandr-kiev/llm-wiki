@@ -27,10 +27,8 @@ tags:
 > **Sources:**
 >   - build-a-laravel-scout-search-endpoint-with-the-http-query-method-2026-07-17.md
 > **Links:**
-- [[Issue #8330: Dataset Studio and Viewer down]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
-- [[REST API]]
-- [[Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)]]
+- [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
+- [[Sites That Block Ai Training Crawlers Mostly I[Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)](https://github.com/pytorch/pytorch/issues/8331)ry endpoint (whole host down, not one route)]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 
 ## Key Findings
@@ -208,14 +206,11 @@ Note that validation and `$request->input()` read from the JSON request body jus
 ```
 QUERY api/articles/search
 ```
-A request to this endpoint looks like a POST with GET semantics—the search criteria travel in the body:
-```
-QUERY /api/articles/search
+A request to this endpoint looks like a POST with GET semantics—the[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)/api/articles/search
 
 ## Related Articles
 
-- [[Issue #8330: Dataset Studio and Viewer down]]
-- [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
+- [[Issu[Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)](https://github.com/pytorch/pytorch/issues/8331)e Bots]]
 - [[REST API]]
-- [[Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)]]
+- [Issue #8331: datasets-server.huggingface.co returning 503 on every endpoint (whole host down, not one route)](https://github.com/pytorch/pytorch/issues/8331)
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]

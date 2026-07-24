@@ -14,6 +14,10 @@ tags:
   - security
   - video-generation
 ---
+backlinks:
+  - watch-flock-safety-ceo-garrett-langley-discuss-the-future-of-surveillance-at-techcrunch-disrupt
+---
+
 
 # watch flock safety ceo garrett langley discuss the future of surveillance at techcrunch disrupt
 
@@ -74,3 +78,9 @@ See Key Findings for full content.
 - [[nonprofit current ai is racing to build the world wide web of ai free for all]]
 - [[ais most important protocol is getting a little bit easier to use]]
 - [[inference startup infinity raises 15m from touring capital openai and athropic researchers]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "watch-flock-safety-ceo-garrett-langley-discuss-the-future-of-surveillance-at-techcrunch-disrupt")
+```

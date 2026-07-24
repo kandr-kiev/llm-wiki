@@ -10,6 +10,10 @@ tags:
   - open-source
   - search
 ---
+backlinks:
+  - trinet-v2-opensource-implementation-of-our
+---
+
 
 # trinet v2 opensource implementation of our
 
@@ -74,3 +78,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[training a harness for modelagnostic and]]
 - [[follow up gpt2s vocabulary as a hyperbolic tree]]
 - [[introducing asciitermdraw bench testing the]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "trinet-v2-opensource-implementation-of-our")
+```

@@ -21,6 +21,10 @@ tags:
   - vector-database
   - web
 ---
+backlinks:
+  - google-gemini-flash-cyber-ai-security-model
+---
+
 
 # google gemini flash cyber ai security model
 
@@ -100,3 +104,9 @@ See Key Findings for full content.
 - [[openai chatgpt ai smart speaker hardware device]]
 - [[tiktok ai likeness detection tool]]
 - [[1010benja semiramis dream suno ai music]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "google-gemini-flash-cyber-ai-security-model")
+```

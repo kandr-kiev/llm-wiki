@@ -28,7 +28,7 @@ tags:
 - [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
 - [[ai police cops]]
 - [[Release langchain-core==1.4.9]]
-- [[Issue #47321: AMD quark class not updated]]
+- [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
 - [[fortune david siegel open source ai.pdf]]
 
 ## Key Findings
@@ -91,7 +91,5 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[german ai consortium releases soofi s an open 30b model that tops benchmarks in both english and german]]
-- [[ai police cops]]
-- [[Release langchain-core==1.4.9]]
-- [[Issue #47321: AMD quark class not updated]]
+- [[ai polic[Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)- [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
 - [[fortune david siegel open source ai.pdf]]

@@ -42,7 +42,7 @@ tags:
 > **Links:**
 - [[release-notes-ollama-vv0312]]
 - [[issue-2848-implement-multi-domain-intake-architecture-and-related-specs]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256)
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
 - [[issue-14168-fix-batching-and-precomputed-embeddings-in-kandinsky-5-pipelines]]
 
@@ -101,7 +101,6 @@ Thanks to @Enderfga for the contribution.
 ## Related Articles
 
 - [[release-notes-ollama-vv0312]]
-- [[issue-2848-implement-multi-domain-intake-architecture-and-related-specs]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [[issue-2848-implement-multi-do[Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256) #47256: [serge] integration failure triage -]]
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
 - [[issue-14168-fix-batching-and-precomputed-embeddings-in-kandinsky-5-pipelines]]

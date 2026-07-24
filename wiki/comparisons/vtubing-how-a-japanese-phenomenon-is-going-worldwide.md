@@ -11,6 +11,10 @@ tags:
   - industry
   - news
 ---
+backlinks:
+  - vtubing-how-a-japanese-phenomenon-is-going-worldwide
+---
+
 
 # vtubing how a japanese phenomenon is going worldwide
 
@@ -163,3 +167,9 @@ I like the freedom of expression that yo
 - [[The Illustrated Stable Diffusion]]
 - [[Applying Massive Language Models In The Real World With Cohere]]
 - [[open source monopoly]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "vtubing-how-a-japanese-phenomenon-is-going-worldwide")
+```

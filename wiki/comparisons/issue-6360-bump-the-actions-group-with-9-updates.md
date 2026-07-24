@@ -28,7 +28,7 @@ tags:
 > **Links:**
 - [[issue-14167-flashpack-support-for-transformers-pipeline-components]]
 - [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256)
 - [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 - [[finding-the-best-sleep-tracker]]
 
@@ -100,7 +100,6 @@ No user facing changes.
 ## Related Articles
 
 - [[issue-14167-flashpack-support-for-transformers-pipeline-components]]
-- [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [[issue-47255-point-to-gemma-4-mo[Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256) #47256: [serge] integration failure triage -]]
 - [[how-gpt3-works---visualizations-and-animations-2026-07-07]]
 - [[finding-the-best-sleep-tracker]]

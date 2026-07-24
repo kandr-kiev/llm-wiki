@@ -13,6 +13,10 @@ tags:
   - news
   - video-generation
 ---
+backlinks:
+  - genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino
+---
+
 
 # genesis mission lawrence berkeley national laboratory segment anything dino
 
@@ -78,3 +82,9 @@ Together, the two models form a complementary pipeline: SAM delivers precise, pi
 - [[Automating away]]
 - [[kimi k3]]
 - [[doom]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "genesis-mission-lawrence-berkeley-national-laboratory-segment-anything-dino")
+```

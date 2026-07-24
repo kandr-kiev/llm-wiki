@@ -17,6 +17,10 @@ tags:
   - self-supervised
   - system-design
 ---
+backlinks:
+  - grabette
+---
+
 
 # grabette
 
@@ -99,3 +103,9 @@ See Key Findings for full content.
 - [[thinkingmachines inkling]]
 - [[model routing is simple until it isnt]]
 - [[one click to sagemaker studio]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "grabette")
+```

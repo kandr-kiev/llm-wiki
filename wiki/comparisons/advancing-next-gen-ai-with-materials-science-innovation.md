@@ -16,6 +16,10 @@ tags:
   - review
   - video-generation
 ---
+backlinks:
+  - advancing-next-gen-ai-with-materials-science-innovation
+---
+
 
 # advancing next gen ai with materials science innovation
 
@@ -57,3 +61,9 @@ g.woff) format("woff"),url(/cdn/_/fonts/NeueHaas/nhaasgroteskdsstd-55rg.ttf) for
 - [[achieving operational excellence with ai]]
 - [[your familys 300 stake in openai]]
 - [[chinas ai models have trumps ai world at war with itself]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "advancing-next-gen-ai-with-materials-science-innovation")
+```

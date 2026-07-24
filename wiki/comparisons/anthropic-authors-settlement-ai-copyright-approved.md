@@ -13,6 +13,10 @@ tags:
   - training
   - web
 ---
+backlinks:
+  - anthropic-authors-settlement-ai-copyright-approved
+---
+
 
 # anthropic authors settlement ai copyright approved
 
@@ -100,3 +104,9 @@ See Key Findings for full content.
 - [[1010benja semiramis dream suno ai music]]
 - [[adobe indigo camera app ai playground update]]
 - [[tiktok ai likeness detection tool]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "anthropic-authors-settlement-ai-copyright-approved")
+```

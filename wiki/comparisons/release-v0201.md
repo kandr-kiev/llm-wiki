@@ -18,6 +18,50 @@ tags:
   - tool
   - web
 ---
+backlinks:
+  - release-v220
+---
+
+backlinks:
+  - release-v2026772
+---
+
+backlinks:
+  - release-v2026720
+---
+
+backlinks:
+  - release-v0321
+---
+
+backlinks:
+  - release-v0320
+---
+
+backlinks:
+  - release-v0251
+---
+
+backlinks:
+  - release-v0231
+---
+
+backlinks:
+  - release-v0201
+---
+
+backlinks:
+  - release-v0200
+---
+
+backlinks:
+  - release-v005
+---
+
+backlinks:
+  - release-500
+---
+
 
 # Release v0.20.1
 
@@ -106,3 +150,9 @@ No known breaking changes.
 - [[Hermes Agent v0.18.0 → v0.22.1 Deep Dive & 2026 Trends]]
 - [[Release 5.0.0]]
 - [[Release v0.23.1]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "release-500")
+```

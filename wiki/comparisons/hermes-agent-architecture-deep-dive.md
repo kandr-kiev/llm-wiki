@@ -23,6 +23,10 @@ tags:
   - training
   - use-case
 ---
+backlinks:
+  - hermes-agent-architecture-deep-dive
+---
+
 
 # Hermes Agent Architecture Deep Dive
 
@@ -70,3 +74,9 @@ See Key Findings for full content.
 - [[LLM Deployment Q&A — Common Questions]]
 - [[Databricks]]
 - [[Atropos]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "hermes-agent-architecture-deep-dive")
+```

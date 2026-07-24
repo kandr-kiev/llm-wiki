@@ -15,6 +15,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - you-dont-understand-a-system-until-youve-rebuilt-it-2e94
+---
+
 
 # you dont understand a system until youve rebuilt it 2e94
 
@@ -138,3 +142,9 @@ I found this out concretely. I have written before about [rebuilding a TCP serve
 - [[i tried kimi k3 for a week heres what happened]]
 - [[5 things i learned doing ai evaluation for 2 years 3kgh]]
 - [[adding an ai chatbot to echostats 290m]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "you-dont-understand-a-system-until-youve-rebuilt-it-2e94")
+```

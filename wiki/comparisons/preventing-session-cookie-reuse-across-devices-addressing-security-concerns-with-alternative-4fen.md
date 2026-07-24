@@ -15,6 +15,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - preventing-session-cookie-reuse-across-devices-addressing-security-concerns-with-alternative-4fen
+---
+
 
 # preventing session cookie reuse across devices addressing security concerns with alternative 4fen
 
@@ -156,3 +160,9 @@ Organizations that prioritize restricting cookie reuse without addressing deeper
 - [[hollowtest find tests that pass but prove nothing 2iii]]
 - [[i tried kimi k3 for a week heres what happened]]
 - [[perl weekly 782 perl v544 186n]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "preventing-session-cookie-reuse-across-devices-addressing-security-concerns-with-alternative-4fen")
+```

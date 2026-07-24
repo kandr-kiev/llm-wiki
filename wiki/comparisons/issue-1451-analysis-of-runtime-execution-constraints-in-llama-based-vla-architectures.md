@@ -28,7 +28,7 @@ tags:
 > **Sources:**
 >   - gh-meta-llamallama-issue-1451-2026-07-11.md
 > **Links:**
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)
 - [[issue-3422-fix-tinylora-weight_tying-corruption-when-adding-overlapping-adapters]]
 - [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]
 - [[issue-1450-feat-integrate-aegis-prime-external-marketplace-agent-framework-with-nested-schema-support]]
@@ -50,11 +50,7 @@ See the alternative realization of invariant structural boundaries and non-linea
 
 ## Summary
 
-See Key Findings for full content.
-
-## Related Articles
-
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+See Key Findi[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)/ DB_ERROR on POST /api/execute?action=claim]]
 - [[issue-3422-fix-tinylora-weight_tying-corruption-when-adding-overlapping-adapters]]
 - [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]
 - [[issue-1450-feat-integrate-aegis-prime-external-marketplace-agent-framework-with-nested-schema-support]]

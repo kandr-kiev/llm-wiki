@@ -17,6 +17,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - three-juejin-roundups-three-scorecards-no-shared-bridge-3ak2
+---
+
 
 # three juejin roundups three scorecards no shared bridge 3ak2
 
@@ -127,3 +131,9 @@ The practical takeaway I want to write down is that I now read the three camps a
 - [[adding an ai chatbot to echostats 290m]]
 - [[class vs object who is the big boss 32nj]]
 - [[i tried kimi k3 for a week heres what happened]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "three-juejin-roundups-three-scorecards-no-shared-bridge-3ak2")
+```

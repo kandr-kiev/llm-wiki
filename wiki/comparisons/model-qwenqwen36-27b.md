@@ -25,7 +25,7 @@ tags:
 - [[Release v0.39.0]]
 - [[Release v0.8.0]]
 - [[Release v5.11.0]]
-- [[Issue #47321: AMD quark class not updated]]
+- [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
 - [[Release v1.21.0]]
 
 ## Key Findings
@@ -121,8 +121,5 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release v0.39.0]]
-- [[Release v0.8.0]]
-- [[Release v5.11.0]]
-- [[Issue #47321: AMD quark class not updated]]
+- [[Release v0.39.0][Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)- [Issue #47321: AMD quark class not updated](https://github.com/pytorch/pytorch/issues/47321)
 - [[Release v1.21.0]]

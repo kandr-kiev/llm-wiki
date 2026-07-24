@@ -9,6 +9,10 @@ tags:
   - image-generation
   - news
 ---
+backlinks:
+  - claude-is-not-a-compiler
+---
+
 
 # claude is not a compiler
 
@@ -79,3 +83,9 @@ We hashed out the highe
 - [[ai]]
 - [[Applying Massive Language Models In The Real World With Cohere]]
 - [[ai music video arena claude vs gpt 5.6]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "claude-is-not-a-compiler")
+```

@@ -18,6 +18,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - i-read-the-17-comment-reddit-fight-about-trying-kimi-k3-and-the-answer-is-way-less-exciting-than-bdp
+---
+
 
 # i read the 17 comment reddit fight about trying kimi k3 and the answer is way less exciting than bdp
 
@@ -125,3 +129,9 @@ See Key Findings for full content.
 - [[class vs object who is the big boss 32nj]]
 - [[i tried kimi k3 for a week heres what happened]]
 - [[can you beat an llm building humans vs humanitys last exam]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "i-read-the-17-comment-reddit-fight-about-trying-kimi-k3-and-the-answer-is-way-less-exciting-than-bdp")
+```

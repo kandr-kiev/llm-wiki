@@ -23,6 +23,10 @@ tags:
   - training
   - use-case
 ---
+backlinks:
+  - hermes-agent-what-nous-research-built
+---
+
 
 # Hermes Agent: what Nous Research built
 
@@ -75,3 +79,9 @@ See Key Findings for full content.
 - [[Hermes Agent vs OpenClaw — Comparison 2026]]
 - [[Nous Research]]
 - [[LLM Deployment Q&A — Common Questions]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "hermes-agent-what-nous-research-built")
+```

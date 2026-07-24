@@ -10,6 +10,10 @@ tags:
   - search
   - self-supervised
 ---
+backlinks:
+  - number-of-submissions-aaai-d
+---
+
 
 # number of submissions aaai d
 
@@ -78,3 +82,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[sequoia ascent]]
 - [[neurips 2026 reviews exact timingd]]
 - [[trinet v2 opensource implementation of our]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "number-of-submissions-aaai-d")
+```

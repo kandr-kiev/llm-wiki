@@ -16,6 +16,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - seo-is-dead-long-live-evolutionary-seo-how-ai-coding-and-content-value-models-change-the-web-2j3l
+---
+
 
 # seo is dead long live evolutionary seo how ai coding and content value models change the web 2j3l
 
@@ -146,3 +150,9 @@ Instead of writing text for old-school bots or building artificial link networks
 - [[hollowtest find tests that pass but prove nothing 2iii]]
 - [[i tried kimi k3 for a week heres what happened]]
 - [[can you beat an llm building humans vs humanitys last exam]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "seo-is-dead-long-live-evolutionary-seo-how-ai-coding-and-content-value-models-change-the-web-2j3l")
+```

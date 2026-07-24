@@ -22,7 +22,7 @@ tags:
 > **Links:**
 - [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]
 - [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256)
 - [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
 - [Issue #8329: fix: replace list/List with Sequence in function parameter annotations]
 
@@ -60,7 +60,6 @@ See Key Findings for full content.
 ## Related Articles
 
 - [Issue #3420: Fix hotswapping for LoRA adapters targeting grouped Conv2d]
-- [Issue #3422: FIX TinyLoRA weight_tying corruption when adding overlapping adapters]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [Issue #3422: FIX TinyLoRA weight_tying [Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256) #47256: [serge] integration failure triage -]]
 - [Issue #3423: FIX LN Tuning re-initializing new adapters from a previously merged adapter]
 - [Issue #8329: fix: replace list/List with Sequence in function parameter annotations]

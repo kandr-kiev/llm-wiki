@@ -10,6 +10,10 @@ tags:
   - news
   - system-design
 ---
+backlinks:
+  - decoreba
+---
+
 
 # decoreba
 
@@ -177,3 +181,9 @@ See Key Findings for full content.
 - [[moonshine]]
 - [[jacquard lang]]
 - [[lora speedrun]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "decoreba")
+```

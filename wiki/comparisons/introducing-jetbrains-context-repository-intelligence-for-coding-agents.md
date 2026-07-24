@@ -15,6 +15,10 @@ tags:
   - use-case
   - video-generation
 ---
+backlinks:
+  - introducing-jetbrains-context-repository-intelligence-for-coding-agents
+---
+
 
 # introducing jetbrains context repository intelligence for coding agents
 
@@ -193,3 +197,9 @@ color: #888;
 - [[your familys 300 stake in openai]]
 - [[agriculture is ready for ai but its data isnt]]
 - [[ai biases hiring humans]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "introducing-jetbrains-context-repository-intelligence-for-coding-agents")
+```

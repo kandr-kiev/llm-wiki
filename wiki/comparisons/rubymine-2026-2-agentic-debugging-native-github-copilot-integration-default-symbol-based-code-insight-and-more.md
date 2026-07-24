@@ -14,6 +14,10 @@ tags:
   - use-case
   - video-generation
 ---
+backlinks:
+  - rubymine-2026-2-agentic-debugging-native-github-copilot-integration-default-symbol-based-code-insight-and-more
+---
+
 
 # rubymine 2026 2 agentic debugging native github copilot integration default symbol based code insight and more
 
@@ -192,3 +196,9 @@ color: #888;
 - [[your familys 300 stake in openai]]
 - [[achieving operational excellence with ai]]
 - [[agriculture is ready for ai but its data isnt]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "rubymine-2026-2-agentic-debugging-native-github-copilot-integration-default-symbol-based-code-insight-and-more")
+```

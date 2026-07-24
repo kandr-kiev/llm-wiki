@@ -22,6 +22,10 @@ tags:
   - use-case
   - web
 ---
+backlinks:
+  - chinese-ai-models-another-sputnik-moment
+---
+
 
 # chinese ai models another sputnik moment
 
@@ -72,3 +76,9 @@ See Key Findings for full content.
 - [[adobe indigo camera app ai playground update]]
 - [[apple openai lawsuit vergecast]]
 - [[best apps gadgets reading installer]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "chinese-ai-models-another-sputnik-moment")
+```

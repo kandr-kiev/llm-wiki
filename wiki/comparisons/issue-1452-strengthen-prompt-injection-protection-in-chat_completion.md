@@ -28,7 +28,7 @@ tags:
 - [[issue-6362-add-security-policy-to-the-repo]]
 - [[issue-3419-fix-bug-in-forgetting-metric-in-metamathqa]]
 - [[issue-6358-add-trlenvironments-submodule-with-sandboxenvironment]]
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)
 - [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]
 
 ## Key Findings
@@ -83,6 +83,5 @@ See Key Findings for full content.
 
 - [[issue-6362-add-security-policy-to-the-repo]]
 - [[issue-3419-fix-bug-in-forgetting-metric-in-metamathqa]]
-- [[issue-6358-add-trlenvironments-submodule-with-sandboxenvironment]]
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [[issue-6358-add-trlenvir[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)/ DB_ERROR on POST /api/execute?action=claim]]
 - [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]

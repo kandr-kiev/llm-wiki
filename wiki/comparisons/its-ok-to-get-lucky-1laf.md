@@ -16,6 +16,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - its-ok-to-get-lucky-1laf
+---
+
 
 # its ok to get lucky 1laf
 
@@ -135,3 +139,9 @@ And that is exactly why the scene matters. The problem was never whether I was r
 - [[class vs object who is the big boss 32nj]]
 - [[hollowtest find tests that pass but prove nothing 2iii]]
 - [[what if github stopped tracking code and started tracking thought g6n]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "its-ok-to-get-lucky-1laf")
+```

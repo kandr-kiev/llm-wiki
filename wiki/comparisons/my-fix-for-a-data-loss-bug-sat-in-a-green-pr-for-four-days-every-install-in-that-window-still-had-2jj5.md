@@ -17,6 +17,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - my-fix-for-a-data-loss-bug-sat-in-a-green-pr-for-four-days-every-install-in-that-window-still-had-2jj5
+---
+
 
 # my fix for a data loss bug sat in a green pr for four days every install in that window still had 2jj5
 
@@ -106,3 +110,9 @@ See Key Findings for full content.
 - [[starting my developer journey bh8]]
 - [[perl weekly 782 perl v544 186n]]
 - [[repeating tasks without repeating code 4fak]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "my-fix-for-a-data-loss-bug-sat-in-a-green-pr-for-four-days-every-install-in-that-window-still-had-2jj5")
+```

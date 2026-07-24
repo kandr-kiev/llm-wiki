@@ -11,6 +11,10 @@ tags:
   - search
   - self-supervised
 ---
+backlinks:
+  - my-ocr-model-mislabels-section-titles-as-body
+---
+
 
 # my ocr model mislabels section titles as body
 
@@ -76,3 +80,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[i started a dirt notebook]]
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
 - [[i just read lecuns recent thoughts on world]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "my-ocr-model-mislabels-section-titles-as-body")
+```

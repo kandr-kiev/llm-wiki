@@ -50,9 +50,7 @@ tags:
 > **Links:**
 - [[Release v0.25.1]]
 - [[Release 5.0.0]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
-- [[Release v0.23.1]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
+- [Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning](https://github.com/pytorch/pytorch/issues/2455)s>=5.0.0 and fix torch.load security warning]]
 
 ## Key Findings
 
@@ -103,12 +101,6 @@ Sentence Transformers has historically treated any local model directory as impl
 ## Apple Silicon (MPS) support (#3812, #3818)
 Two fixes for training on Apple Silicon:
 - Cached losses on MPS: `CachedMultipleNegativesRankingLoss` and `CachedGISTEmbedLoss` crashed at construction on MPS because their `RandContext` used a CUDA-only RNG path. They now run on MPS with deterministic replay preserved.
-- Legacy fit path and `SparseEncoder` sparsity on MPS: the legacy `model.fit(..., use_amp=True)` path hard-coded CUDA's AMP `GradScaler` / `autocast`, and `SparseEncoder` sparsit
-
-## Related Articles
-
-- [[Release v0.25.1]]
-- [[Release 5.0.0]]
-- [[Issue #6385: AsyncGRPO fork-independent epoch counting]]
+- Legacy fit path and `SparseEncoder` sparsity on MPS: the legacy `model.fit(..., use_amp=True)` path hard-coded CUDA's AMP `GradScaler` / `autocast`, an[Issue #6385: AsyncGRPO fork-independent epoch counting](https://github.com/pytorch[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning](https://github.com/pytorch/pytorch/issues/2455)ndent epoch counting]]
 - [[Release v0.23.1]]
-- [[Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]]
+- [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning](https://github.com/pytorch/pytorch/issues/2455)

@@ -12,6 +12,10 @@ tags:
   - real-time
   - video-generation
 ---
+backlinks:
+  - this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry
+---
+
 
 # this uber alumn just raised a 10m pre seed to build portable nuclear enegry
 
@@ -72,3 +76,9 @@ See Key Findings for full content.
 - [[anthropics landmark 1 5b copyright settlement is approved]]
 - [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
 - [[colossal biosciences reportedly in talks to raise new capital at 20b 30b valuation]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry")
+```

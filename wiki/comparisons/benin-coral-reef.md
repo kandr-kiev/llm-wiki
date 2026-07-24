@@ -14,6 +14,10 @@ tags:
   - search
   - video-generation
 ---
+backlinks:
+  - benin-coral-reef
+---
+
 
 # benin coral reef
 
@@ -87,3 +91,9 @@ Bridging the gap between shallow reefs and deeper benthic habitats, MCEs are hom
 - [[Sites That Block Ai Training Crawlers Mostly Ignore The Answer Time Bots]]
 - [[ai]]
 - [[Automating Ai Away]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "benin-coral-reef")
+```

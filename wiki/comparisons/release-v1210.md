@@ -38,8 +38,7 @@ tags:
 - [[Release v0.39.0]]
 - [[Release 5.0.0]]
 - [[v0.22.1]]
-- [[Issue #47321: AMD quark class not updated]]
-- [[Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter]]
+- [Issue #47321: AMD quark class not updated](http[Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter](https://github.com/pytorch/pytorch/issues/8141)1: fix(muon): support ZeRO-1/2 reduce scatter]]
 
 ## Key Findings
 
@@ -100,12 +99,6 @@ blog_source: github:huggingface/optimum-habana
 
 ## Summary
 
-See Key Findings for full content.
-
-## Related Articles
-
-- [[Release v0.39.0]]
-- [[Release 5.0.0]]
+See Key Findings for f[Issue #47321: AMD quark class not updated](http[Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter](https://github.com/pytorch/pytorch/issues/8141)[Release 5.0.0]]
 - [[v0.22.1]]
-- [[Issue #47321: AMD quark class not updated]]
-- [[Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter]]
+- [Issue #47321: AMD quark class not updated](http[Issue #8141: fix(muon): support ZeRO-1/2 reduce scatter](https://github.com/pytorch/pytorch/issues/8141)1: fix(muon): support ZeRO-1/2 reduce scatter]]

@@ -19,7 +19,7 @@ tags:
 > **Sources:**
 >   - gh-microsoftdeepspeed-issue-8140-2026-07-14.md
 > **Links:**
-- [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
+- [Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)
 - [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
 - [Issue #8138: Add governance process page to deepspeed.ai]
 - [Issue #47322: adding amd quark config class changes]
@@ -57,11 +57,7 @@ Low risk change with high value for users running this in production environment
 
 ## Summary
 
-See Key Findings for full content.
-
-## Related Articles
-
-- [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
+See Key Find[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)ntization] Fix ModelOpt pre-quantized loading]]
 - [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
 - [Issue #8138: Add governance process page to deepspeed.ai]
 - [Issue #47322: adding amd quark config class changes]

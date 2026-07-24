@@ -18,6 +18,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - how-the-legendary-problem-of-encryption-secrets-gets-shared-diffie-hellman-5fbf
+---
+
 
 # how the legendary problem of encryption secrets gets shared diffie hellman 5fbf
 
@@ -129,3 +133,9 @@ See Key Findings for full content.
 - [[hollowtest find tests that pass but prove nothing 2iii]]
 - [[class vs object who is the big boss 32nj]]
 - [[build a basic ai agent from scratch security ii 2m2c]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "how-the-legendary-problem-of-encryption-secrets-gets-shared-diffie-hellman-5fbf")
+```

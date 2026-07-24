@@ -14,6 +14,10 @@ tags:
   - real-time
   - video-generation
 ---
+backlinks:
+  - us-threatens-sanctions-against-chinese-ai-models-over-ip-theft
+---
+
 
 # us threatens sanctions against chinese ai models over ip theft
 
@@ -75,3 +79,9 @@ See Key Findings for full content.
 - [[anthropics landmark 1 5b copyright settlement is approved]]
 - [[this uber alumn just raised a 10m pre seed to build portable nuclear enegry]]
 - [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "us-threatens-sanctions-against-chinese-ai-models-over-ip-theft")
+```

@@ -13,6 +13,10 @@ tags:
   - use-case
   - video-generation
 ---
+backlinks:
+  - what-s-new-in-pycharm-2026-2
+---
+
 
 # what s new in pycharm 2026 2
 
@@ -191,3 +195,9 @@ color: #888;
 - [[achieving operational excellence with ai]]
 - [[agriculture is ready for ai but its data isnt]]
 - [[ai biases hiring humans]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "what-s-new-in-pycharm-2026-2")
+```

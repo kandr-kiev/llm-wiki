@@ -24,7 +24,7 @@ tags:
 - [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
 - [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
 - [Issue #2846: Add recipe: parse any document with the Unstructured Transform MCP server]
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)
 - [Issue #2196: Upgrade hf-hub to 1.0]
 
 ## Key Findings
@@ -54,6 +54,5 @@ See Key Findings for full content.
 
 - [Issue #2450: Fix #2407: Fix get_wikitext2 tokenization bug causing sequence length warning]
 - [Issue #2455: fix #2432: support transformers>=5.0.0 and fix torch.load security warning]
-- [Issue #2846: Add recipe: parse any document with the Unstructured Transform MCP server]
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [Issue #2846: Add recipe: parse any document [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)/ DB_ERROR on POST /api/execute?action=claim]]
 - [Issue #2196: Upgrade hf-hub to 1.0]

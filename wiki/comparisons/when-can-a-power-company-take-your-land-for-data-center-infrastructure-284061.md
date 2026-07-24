@@ -18,6 +18,10 @@ tags:
   - search
   - video-generation
 ---
+backlinks:
+  - when-can-a-power-company-take-your-land-for-data-center-infrastructure-284061
+---
+
 
 # when can a power company take your land for data center infrastructure 284061
 
@@ -59,3 +63,9 @@ n-"].icon-globe:before,[class^=icon-].icon-globe:before{content:""}[class*=" 
 - [[your familys 300 stake in openai]]
 - [[achieving operational excellence with ai]]
 - [[agriculture is ready for ai but its data isnt]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "when-can-a-power-company-take-your-land-for-data-center-infrastructure-284061")
+```

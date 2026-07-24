@@ -18,6 +18,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - the-physics-of-ui-depth-css-box-shadow-vectors-and-gpu-compositing-pipelines-29l7
+---
+
 
 # the physics of ui depth css box shadow vectors and gpu compositing pipelines 29l7
 
@@ -130,3 +134,9 @@ See Key Findings for full content.
 - [[class vs object who is the big boss 32nj]]
 - [[starting my developer journey bh8]]
 - [[the gitbook migration trap 4gp2]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "the-physics-of-ui-depth-css-box-shadow-vectors-and-gpu-compositing-pipelines-29l7")
+```

@@ -16,6 +16,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - starting-my-developer-journey-bh8
+---
+
 
 # starting my developer journey bh8
 
@@ -136,3 +140,9 @@ See Key Findings for full content.
 - [[adding an ai chatbot to echostats 290m]]
 - [[stop hand translating between sql and your erd 4ohm]]
 - [[17 none of it was for me a year of building with ai 32kf]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "starting-my-developer-journey-bh8")
+```

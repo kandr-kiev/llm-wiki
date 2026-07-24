@@ -22,6 +22,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - kimi-k3-api-guide-reasoning-tool-calling-structured-output-and-vision-bn3
+---
+
 
 # kimi k3 api guide reasoning tool calling structured output and vision bn3
 
@@ -135,3 +139,9 @@ See Key Findings for full content.
 - [[class vs object who is the big boss 32nj]]
 - [[perl weekly 782 perl v544 186n]]
 - [[the part of this year i dont put in the commit messages l6m]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "kimi-k3-api-guide-reasoning-tool-calling-structured-output-and-vision-bn3")
+```

@@ -22,6 +22,10 @@ tags:
   - use-case
   - video-generation
 ---
+backlinks:
+  - xiaomi-robotics-1
+---
+
 
 # xiaomi robotics 1
 
@@ -74,3 +78,9 @@ Xiaomi-Robotics-1 can learn new tasks with high data efficiency. The model picks
 - [[ai music video arena claude vs gpt 5.6]]
 - [[karpathy]]
 - [[Automating away]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "xiaomi-robotics-1")
+```

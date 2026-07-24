@@ -22,6 +22,10 @@ tags:
   - use-case
   - zero-shot
 ---
+backlinks:
+  - bezmezhiya-v60-qa-analysis-report
+---
+
 
 # Bezmezhiya v6.0 QA Analysis Report
 
@@ -176,3 +180,9 @@ Initial analysis of "Bezmezhiya" v6.0 reveals significant mathematical balance i
 - [[Local LLM Wiki Algorithm]]
 - [[Hermes Agent vs OpenClaw — Comparison 2026]]
 - [[Honcho]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "bezmezhiya-v60-qa-analysis-report")
+```

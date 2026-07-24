@@ -14,6 +14,10 @@ tags:
   - use-case
   - video-generation
 ---
+backlinks:
+  - what-s-new-air-gets-more-agents-local-models-and-java-kotlin-code-intelligence
+---
+
 
 # what s new air gets more agents local models and java kotlin code intelligence
 
@@ -192,3 +196,9 @@ color: #888;
 - [[achieving operational excellence with ai]]
 - [[ai biases hiring humans]]
 - [[agriculture is ready for ai but its data isnt]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "what-s-new-air-gets-more-agents-local-models-and-java-kotlin-code-intelligence")
+```

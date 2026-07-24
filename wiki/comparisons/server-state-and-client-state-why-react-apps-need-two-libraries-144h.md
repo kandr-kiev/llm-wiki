@@ -15,6 +15,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - server-state-and-client-state-why-react-apps-need-two-libraries-144h
+---
+
 
 # server state and client state why react apps need two libraries 144h
 
@@ -138,3 +142,9 @@ Server state needs a library that already has the machinery. Build it by hand an
 - [[the gitbook migration trap 4gp2]]
 - [[hollowtest find tests that pass but prove nothing 2iii]]
 - [[its a post 4hi8]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "server-state-and-client-state-why-react-apps-need-two-libraries-144h")
+```

@@ -24,7 +24,7 @@ tags:
 >   - how-to-patch-oracle-database--to-1931-on-windows-step-by-step-guide-2026-07-17.md
 > **Links:**
 - [[changing oracle applications user]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 - [[5 Agent Skills I Use Every Day]]
 - [[REST API]]
 - [[Rust 1.96.0]]
@@ -259,10 +259,7 @@ Responded with: Y
 All checks
 passed
 
-## Related Articles
-
-- [[changing oracle applications user]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+## Related Articl[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]
 - [[5 Agent Skills I Use Every Day]]
 - [[REST API]]
 - [[Rust 1.96.0]]

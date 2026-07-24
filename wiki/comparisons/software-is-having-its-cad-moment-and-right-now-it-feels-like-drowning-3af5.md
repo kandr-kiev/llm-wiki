@@ -16,6 +16,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - software-is-having-its-cad-moment-and-right-now-it-feels-like-drowning-3af5
+---
+
 
 # software is having its cad moment and right now it feels like drowning 3af5
 
@@ -131,3 +135,9 @@ So the path up probably isn't "specify first." It might be the opposite. You do 
 - [[class vs object who is the big boss 32nj]]
 - [[i tried kimi k3 for a week heres what happened]]
 - [[hollowtest find tests that pass but prove nothing 2iii]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "software-is-having-its-cad-moment-and-right-now-it-feels-like-drowning-3af5")
+```

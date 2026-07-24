@@ -17,6 +17,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - i-built-100-browser-based-tools-that-never-upload-your-files-2fhi
+---
+
 
 # i built 100 browser based tools that never upload your files 2fhi
 
@@ -132,3 +136,9 @@ See Key Findings for full content.
 - [[i tried kimi k3 for a week heres what happened]]
 - [[build a basic ai agent from scratch security ii 2m2c]]
 - [[class vs object who is the big boss 32nj]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "i-built-100-browser-based-tools-that-never-upload-your-files-2fhi")
+```

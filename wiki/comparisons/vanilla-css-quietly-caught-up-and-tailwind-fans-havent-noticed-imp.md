@@ -16,6 +16,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - vanilla-css-quietly-caught-up-and-tailwind-fans-havent-noticed-imp
+---
+
 
 # vanilla css quietly caught up and tailwind fans havent noticed imp
 
@@ -162,3 +166,9 @@ If you believe this rule only applies to small project
 - [[adding an ai chatbot to echostats 290m]]
 - [[the gitbook migration trap 4gp2]]
 - [[can you beat an llm building humans vs humanitys last exam]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "vanilla-css-quietly-caught-up-and-tailwind-fans-havent-noticed-imp")
+```

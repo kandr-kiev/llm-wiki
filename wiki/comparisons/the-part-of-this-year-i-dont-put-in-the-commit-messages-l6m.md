@@ -15,6 +15,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m
+---
+
 
 # the part of this year i dont put in the commit messages l6m
 
@@ -144,3 +148,9 @@ Subscribe
 - [[17 none of it was for me a year of building with ai 32kf]]
 - [[hollowtest find tests that pass but prove nothing 2iii]]
 - [[what if github stopped tracking code and started tracking thought g6n]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "the-part-of-this-year-i-dont-put-in-the-commit-messages-l6m")
+```

@@ -25,7 +25,7 @@ tags:
 > **Sources:**
 >   - gh-pytorchpytorch-issue-189938-2026-07-14.md
 > **Links:**
-- [[Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s]]
+- [Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s](https://github.com/pytorch/pytorch/issues/189937)
 - [Issue #6385: AsyncGRPO fork-independent epoch counting]
 - [Issue #8330: Dataset Studio and Viewer down]
 - [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]
@@ -62,11 +62,7 @@ lintrunner on the changed files reports no issues.
 
 ## Summary
 
-See Key Findings for full content.
-
-## Related Articles
-
-- [[Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s]]
+See Key Fin[Issue #189937: [lint] Bump remaining shim-linter git timeouts to 60s](https://github.com/pytorch/pytorch/issues/189937)Bump remaining shim-linter git timeouts to 60s]]
 - [Issue #6385: AsyncGRPO fork-independent epoch counting]
 - [Issue #8330: Dataset Studio and Viewer down]
 - [Issue #47325: `return_assistant_tokens_mask` masks the rest of the sequence when a `{% generation %}` span ends at token index 0 or on whitespace stripped by the pre-tokenizer]

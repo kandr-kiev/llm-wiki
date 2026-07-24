@@ -21,7 +21,7 @@ tags:
 - [[issue-394-githookssendemail-validatesample-contains-several-todo-comments-on-lines-22-27-35-and-41-instructing-the-user-to-replace-placeholders-with-appropriate-checks]]
 - [[issue-393-model_cardmd-discusses-issues-relating-to-potential-misuse-of-the-model-and-detection-issues-on-line-67-this-is-part-of-the-models-documentation-regarding-its-limitations-and-potential-societal-impact]]
 - [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256)
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
 
 ## Key Findings
@@ -44,6 +44,5 @@ See Key Findings for full content.
 
 - [[issue-394-githookssendemail-validatesample-contains-several-todo-comments-on-lines-22-27-35-and-41-instructing-the-user-to-replace-placeholders-with-appropriate-checks]]
 - [[issue-393-model_cardmd-discusses-issues-relating-to-potential-misuse-of-the-model-and-detection-issues-on-line-67-this-is-part-of-the-models-documentation-regarding-its-limitations-and-potential-societal-impact]]
-- [[issue-47255-point-to-gemma-4-model-in-gemma4forcausallm-docstring-example]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [[issue-47255-point-to-gemma-4-mo[Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256) #47256: [serge] integration failure triage -]]
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]

@@ -12,6 +12,10 @@ tags:
   - news
   - search
 ---
+backlinks:
+  - that-s-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it
+---
+
 
 # that s embarrassing why frontier ai still makes things up and what to do about it
 
@@ -152,3 +156,9 @@ Plausible! Except it’s completely false. There's no such policy. “Support”
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[Automating away]]
 - [[Mesh LLM: distributed AI computing on iroh]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "that-s-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it")
+```

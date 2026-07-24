@@ -38,7 +38,7 @@ tags:
 - [[billai bass]]
 - [[auto grade hn]]
 - [[5 Agent Skills I Use Every Day]]
-- [[Issue #8140: Add logging support for better observability]]
+- [Issue #8140: Add logging support for better observability](https://github.com/pytorch/pytorch/issues/8140)
 - [[jacquard lang]]
 
 ## Key Findings
@@ -63,7 +63,5 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[billai bass]]
-- [[auto grade hn]]
-- [[5 Agent Skills I Use Every Day]]
-- [[Issue #8140: Add logging support for better observability]]
+- [[auto grad[Issue #8140: Add logging support for better observability](https://github.com/pytorch/pytorch/issues/8140)Add logging support for better observability]]
 - [[jacquard lang]]

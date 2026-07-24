@@ -14,6 +14,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - show-dev-i-built-a-free-macos-app-to-control-spotify-directly-from-the-notch-20ck
+---
+
 
 # show dev i built a free macos app to control spotify directly from the notch 20ck
 
@@ -125,3 +129,9 @@ See Key Findings for full content.
 - [[perl weekly 782 perl v544 186n]]
 - [[starting my developer journey bh8]]
 - [[adding an ai chatbot to echostats 290m]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "show-dev-i-built-a-free-macos-app-to-control-spotify-directly-from-the-notch-20ck")
+```

@@ -23,7 +23,7 @@ tags:
 > **Sources:**
 >   - gh-meta-llamallama-issue-1450-2026-07-11.md
 > **Links:**
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)
 - [[issue-6358-add-trlenvironments-submodule-with-sandboxenvironment]]
 - [[issue-14167-flashpack-support-for-transformers-pipeline-components]]
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
@@ -50,11 +50,7 @@ The framework was executed locally inside a sandboxed Linux runtime environment.
 
 ## Summary
 
-See Key Findings for full content.
-
-## Related Articles
-
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+See Key Findi[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)/ DB_ERROR on POST /api/execute?action=claim]]
 - [[issue-6358-add-trlenvironments-submodule-with-sandboxenvironment]]
 - [[issue-14167-flashpack-support-for-transformers-pipeline-components]]
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]

@@ -33,7 +33,7 @@ tags:
 - [[one click to sagemaker studio]]
 - [[real world voiceeq]]
 - [[ai in your feed]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)
 - [[Release v5.12.0]]
 
 ## Key Findings
@@ -96,7 +96,5 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[one click to sagemaker studio]]
-- [[real world voiceeq]]
-- [[ai in your feed]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
+- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)onments` submodule with `SandboxEnvironment`]]
 - [[Release v5.12.0]]

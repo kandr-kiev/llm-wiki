@@ -25,7 +25,7 @@ tags:
 - [[Release Notes: Ollama vv0.31.2]]
 - [[Release v1.6.0]]
 - [[v0.26.1]]
-- [[Issue #2460: Bump the actions group across 1 directory with 4 updates]]
+- [Issue #2460: Bump the actions group across 1 directory with 4 updates](https://github.com/pytorch/pytorch/issues/2460)
 - [[Release langchain-core==1.4.9]]
 
 ## Key Findings
@@ -69,8 +69,5 @@ See Key Findings for full content.
 
 ## Related Articles
 
-- [[Release Notes: Ollama vv0.31.2]]
-- [[Release v1.6.0]]
-- [[v0.26.1]]
-- [[Issue #2460: Bump the actions group across 1 directory with 4 updates]]
+- [[Release Notes: Ollama vv[Issue #2460: Bump the actions group across 1 directory with 4 updates](https://github.com/pytorch/pytorch/issues/2460)ions group across 1 directory with 4 updates]]
 - [[Release langchain-core==1.4.9]]

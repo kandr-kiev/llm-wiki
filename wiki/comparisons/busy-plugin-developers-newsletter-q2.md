@@ -13,6 +13,10 @@ tags:
   - use-case
   - video-generation
 ---
+backlinks:
+  - busy-plugin-developers-newsletter-q2
+---
+
 
 # busy plugin developers newsletter q2
 
@@ -191,3 +195,9 @@ color: #888;
 - [[achieving operational excellence with ai]]
 - [[agriculture is ready for ai but its data isnt]]
 - [[ai biases hiring humans]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "busy-plugin-developers-newsletter-q2")
+```

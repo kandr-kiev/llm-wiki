@@ -12,6 +12,34 @@ tags:
   - policy
   - use-case
 ---
+backlinks:
+  - release-v01501-beta
+---
+
+backlinks:
+  - release-v5141
+---
+
+backlinks:
+  - release-v0860
+---
+
+backlinks:
+  - release-v0811
+---
+
+backlinks:
+  - release-v08010
+---
+
+backlinks:
+  - release-v080
+---
+
+backlinks:
+  - release-v01481-beta
+---
+
 
 # Release v0.81.1
 
@@ -61,3 +89,9 @@ See Key Findings for full content.
 - [[Release v0.86.0]]
 - [[Release @moonshot-ai/kimi-code@0.27.0]]
 - [[Release @moonshot-ai/kimi-code@0.28.1]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "release-v01481-beta")
+```

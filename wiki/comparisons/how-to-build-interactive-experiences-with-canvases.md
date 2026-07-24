@@ -11,6 +11,10 @@ tags:
   - self-supervised
   - use-case
 ---
+backlinks:
+  - how-to-build-interactive-experiences-with-canvases
+---
+
 
 # how to build interactive experiences with canvases
 
@@ -63,3 +67,9 @@ ne-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-l
 - [[gemini omni personal avatars]]
 - [[6 security settings every github maintainer should enable this week]]
 - [[people dont want more ai]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "how-to-build-interactive-experiences-with-canvases")
+```

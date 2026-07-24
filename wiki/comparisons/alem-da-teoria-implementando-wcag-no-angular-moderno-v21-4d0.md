@@ -16,6 +16,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - alem-da-teoria-implementando-wcag-no-angular-moderno-v21-4d0
+---
+
 
 # alem da teoria implementando wcag no angular moderno v21 4d0
 
@@ -162,3 +166,9 @@ Em formulários de login, por exemplo, a ação de alternar a visibilidade da se
 - [[starting my developer journey bh8]]
 - [[repeating tasks without repeating code 4fak]]
 - [[adding an ai chatbot to echostats 290m]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "alem-da-teoria-implementando-wcag-no-angular-moderno-v21-4d0")
+```

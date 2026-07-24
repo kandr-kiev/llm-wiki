@@ -25,7 +25,7 @@ tags:
 > **Links:**
 - [[FableCut]]
 - [[migrating a production ai agent to gpt 5 6]]
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)
 - [[v3.13.0]]
 - [[3869]]
 
@@ -97,7 +97,6 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[FableCut]]
-- [[migrating a production ai agent to gpt 5 6]]
-- [[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim]]
+- [[m[Issue #1449: [BUG] 500 Internal Server Error / DB_ERROR on POST /api/execute?action=claim](https://github.com/pytorch/pytorch/issues/1449)/ DB_ERROR on POST /api/execute?action=claim]]
 - [[v3.13.0]]
 - [[3869]]

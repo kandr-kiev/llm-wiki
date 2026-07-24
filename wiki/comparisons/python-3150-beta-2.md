@@ -28,7 +28,7 @@ tags:
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
 - [[python 3145 is out]]
 - [[python 3146 31314]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)
 
 ## Key Findings
 
@@ -90,6 +90,4 @@ Thanks to all of the many volunteers who help make Python development and these 
 
 - [[python 3150 beta 1]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
-- [[python 3145 is out]]
-- [[python 3146 31314]]
-- [[Issue #8330: Dataset Studio and Viewer down]]
+- [[p[Issue #8330: Dataset Studio and Viewer down](https://github.com/pytorch/pytorch/issues/8330)[Issue #8330: Dataset Studio and Viewer down]]

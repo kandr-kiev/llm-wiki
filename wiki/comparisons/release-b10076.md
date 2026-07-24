@@ -13,6 +13,18 @@ tags:
   - real-time
   - use-case
 ---
+backlinks:
+  - release-b10076
+---
+
+backlinks:
+  - release-b10066
+---
+
+backlinks:
+  - release-b10064
+---
+
 
 # Release b10076
 
@@ -87,3 +99,9 @@ See Key Findings for full content.
 - [[Release b10020]]
 - [[Release b10034]]
 - [[Release b10038]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "release-b10064")
+```

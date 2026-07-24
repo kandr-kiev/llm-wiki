@@ -17,6 +17,10 @@ tags:
   - search
   - video-generation
 ---
+backlinks:
+  - gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber
+---
+
 
 # gemini 3 6 flash 3 5 flash lite 3 5 flash cyber
 
@@ -57,3 +61,9 @@ blog_source: Hacker News
 - [[weather data sabotage]]
 - [[achieving operational excellence with ai]]
 - [[ai biases hiring humans]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber")
+```

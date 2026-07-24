@@ -14,6 +14,10 @@ tags:
   - real-time
   - video-generation
 ---
+backlinks:
+  - google-releases-three-new-gemini-models-but-no-3-5-pro
+---
+
 
 # google releases three new gemini models but no 3 5 pro
 
@@ -75,3 +79,9 @@ See Key Findings for full content.
 - [[openai is scared of open weight models should the us be]]
 - [[adobe camera apps new feature will critique your photos using ai]]
 - [[ai science research flattens discovery]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "google-releases-three-new-gemini-models-but-no-3-5-pro")
+```

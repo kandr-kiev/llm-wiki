@@ -26,7 +26,7 @@ tags:
 - [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
 - [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
 - [Issue #8333: Support batched=True in Dataset.to_dict]
-- [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
+- [Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)
 
 ## Key Findings
 
@@ -53,5 +53,4 @@ See Key Findings for full content.
 - [Issue #4116: Fix get_non_persistent_buffers mutating module._non_persistent_buffers_set]
 - [Issue #14184: Fix AuraFlow VAE dtype mismatch on pipeline reuse]
 - [Issue #3419: FIX Bug in forgetting metric in MetaMathQA]
-- [Issue #8333: Support batched=True in Dataset.to_dict]
-- [[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading]]
+- [Issue #83[Issue #14188: [Quantization] Fix ModelOpt pre-quantized loading](https://github.com/pytorch/pytorch/issues/14188)ntization] Fix ModelOpt pre-quantized loading]]

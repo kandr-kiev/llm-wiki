@@ -21,6 +21,10 @@ tags:
   - software
   - video-generation
 ---
+backlinks:
+  - someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model
+---
+
 
 # someone fine tuned openbmbs minicpm5 1b on claude fable 5 traces to ship a 657mb local thinking model
 
@@ -148,3 +152,9 @@ See Key Findings for full content.
 - [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
 - [[jquery.min.js]]
 - [[Release v2026.7.20]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model")
+```

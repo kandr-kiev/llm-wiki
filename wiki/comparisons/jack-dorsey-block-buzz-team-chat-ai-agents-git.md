@@ -17,6 +17,10 @@ tags:
   - self-supervised
   - video-generation
 ---
+backlinks:
+  - jack-dorsey-block-buzz-team-chat-ai-agents-git
+---
+
 
 # jack dorsey block buzz team chat ai agents git
 
@@ -86,3 +90,9 @@ Dorsey's launch makes Block the first customer reference embedded in Buzz's docu
 - [[Mesh LLM: distributed AI computing on iroh]]
 - [[kimi k3]]
 - [[[karpathy](https://gist.github.com/karpathy)/**[llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)**]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "jack-dorsey-block-buzz-team-chat-ai-agents-git")
+```

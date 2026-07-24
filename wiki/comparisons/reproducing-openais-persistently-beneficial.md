@@ -10,6 +10,10 @@ tags:
   - search
   - self-supervised
 ---
+backlinks:
+  - reproducing-openais-persistently-beneficial
+---
+
 
 # reproducing openais persistently beneficial
 
@@ -75,3 +79,9 @@ For career related questions, visit [/r/cscareerquestions/](/r/cscareerquestions
 - [[The Illustrated Stable Diffusion]]
 - [[auto grade hn]]
 - [[my ocr model mislabels section titles as body]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "reproducing-openais-persistently-beneficial")
+```

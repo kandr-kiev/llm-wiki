@@ -17,6 +17,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - ruby-shipped-the-fix-for-sleepergem-45-days-before-it-happened-19dh
+---
+
 
 # ruby shipped the fix for sleepergem 45 days before it happened 19dh
 
@@ -167,3 +171,9 @@ Cooldown makes Bundler refuse to resolve to a release younger than N days. The f
 - [[the part of this year i dont put in the commit messages l6m]]
 - [[adding an ai chatbot to echostats 290m]]
 - [[hollowtest find tests that pass but prove nothing 2iii]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "ruby-shipped-the-fix-for-sleepergem-45-days-before-it-happened-19dh")
+```

@@ -18,6 +18,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - build-a-basic-ai-agent-from-scratch-security-ii-2m2c
+---
+
 
 # build a basic ai agent from scratch security ii 2m2c
 
@@ -166,3 +170,9 @@ Even with perfect prompt-injection defense and tool gating, you still want sandb
 - [[i tried kimi k3 for a week heres what happened]]
 - [[starting my developer journey bh8]]
 - [[class vs object who is the big boss 32nj]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "build-a-basic-ai-agent-from-scratch-security-ii-2m2c")
+```

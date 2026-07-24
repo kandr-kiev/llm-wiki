@@ -22,7 +22,7 @@ tags:
 > **Links:**
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
 - [[issue-14167-flashpack-support-for-transformers-pipeline-components]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256)
 - [[issue-2797-feat-add-progress_callback-parameter-to-transcribe]]
 - [[issue-3423-fix-ln-tuning-re-initializing-new-adapters-from-a-previously-merged-adapter]]
 
@@ -47,7 +47,6 @@ See Key Findings for full content.
 ## Related Articles
 
 - [[issue-14166-fix-hub-download-filtering-for-flashpack-pipelines]]
-- [[issue-14167-flashpack-support-for-transformers-pipeline-components]]
-- [[Issue #47256: [serge] integration failure triage -]]
+- [[issue-14167-flashpack-su[Issue #47256: [serge] integration failure triage -](https://github.com/pytorch/pytorch/issues/47256) #47256: [serge] integration failure triage -]]
 - [[issue-2797-feat-add-progress_callback-parameter-to-transcribe]]
 - [[issue-3423-fix-ln-tuning-re-initializing-new-adapters-from-a-previously-merged-adapter]]

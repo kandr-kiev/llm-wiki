@@ -12,6 +12,10 @@ tags:
   - real-time
   - video-generation
 ---
+backlinks:
+  - what-to-watch-for-after-jensen-huangs-japan-visit
+---
+
 
 # what to watch for after jensen huangs japan visit
 
@@ -72,3 +76,9 @@ See Key Findings for full content.
 - [[nonprofit current ai is racing to build the world wide web of ai free for all]]
 - [[adobe camera apps new feature will critique your photos using ai]]
 - [[ai driven memory crunch jolts indias smartphone market]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "what-to-watch-for-after-jensen-huangs-japan-visit")
+```

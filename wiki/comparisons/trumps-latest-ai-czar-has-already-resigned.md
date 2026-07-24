@@ -14,6 +14,10 @@ tags:
   - real-time
   - video-generation
 ---
+backlinks:
+  - trumps-latest-ai-czar-has-already-resigned
+---
+
 
 # trumps latest ai czar has already resigned
 
@@ -75,3 +79,9 @@ See Key Findings for full content.
 - [[why greylock capped its new fund at 1 5b when it says it could have raised more]]
 - [[colossal biosciences reportedly in talks to raise new capital at 20b 30b valuation]]
 - [[vertu wants executives to pay 6880 for an ai agent heres how it actually performs]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "trumps-latest-ai-czar-has-already-resigned")
+```

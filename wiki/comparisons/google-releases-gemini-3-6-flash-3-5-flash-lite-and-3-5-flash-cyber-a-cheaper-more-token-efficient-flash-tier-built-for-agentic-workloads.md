@@ -18,6 +18,10 @@ tags:
   - software
   - video-generation
 ---
+backlinks:
+  - google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads
+---
+
 
 # google releases gemini 3 6 flash 3 5 flash lite and 3 5 flash cyber a cheaper more token efficient flash tier built for agentic workloads
 
@@ -127,3 +131,9 @@ See Key Findings for full content.
 - [[patter sdk guide to building a restaurant booking phone agent with dynamic variables guardrails latency dashboards and eval checks]]
 - [[sequoia ascent]]
 - [[Release v2026.7.20]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads")
+```

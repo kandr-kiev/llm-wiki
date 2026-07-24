@@ -20,6 +20,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - what-really-happens-when-you-run-kubectl-apply-episode-3-22kp
+---
+
 
 # what really happens when you run kubectl apply episode 3 22kp
 
@@ -130,3 +134,9 @@ See Key Findings for full content.
 - [[perl weekly 782 perl v544 186n]]
 - [[the gitbook migration trap 4gp2]]
 - [[adding an ai chatbot to echostats 290m]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "what-really-happens-when-you-run-kubectl-apply-episode-3-22kp")
+```

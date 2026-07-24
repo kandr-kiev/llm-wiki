@@ -36,7 +36,7 @@ tags:
 - [[v0.22.1]]
 - [[Release Notes: Ollama vv0.31.2]]
 - [[Release v0.1.481-beta]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
+- [Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)
 
 ## Key Findings
 
@@ -148,6 +148,4 @@ print(x)
 
 - [[Release v1.8.0]]
 - [[v0.22.1]]
-- [[Release Notes: Ollama vv0.31.2]]
-- [[Release v0.1.481-beta]]
-- [[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`]]
+- [[Release Notes: Ol[Issue #6358: Add `trl.environments` submodule with `SandboxEnvironment`](https://github.com/pytorch/pytorch/issues/6358)onments` submodule with `SandboxEnvironment`]]

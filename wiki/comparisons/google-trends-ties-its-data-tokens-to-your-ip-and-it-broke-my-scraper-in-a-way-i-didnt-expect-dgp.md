@@ -17,6 +17,10 @@ tags:
   - video-generation
   - web
 ---
+backlinks:
+  - google-trends-ties-its-data-tokens-to-your-ip-and-it-broke-my-scraper-in-a-way-i-didnt-expect-dgp
+---
+
 
 # google trends ties its data tokens to your ip and it broke my scraper in a way i didnt expect dgp
 
@@ -108,3 +112,9 @@ See Key Findings for full content.
 - [[its a post 4hi8]]
 - [[repeating tasks without repeating code 4fak]]
 - [[17 none of it was for me a year of building with ai 32kf]]
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "google-trends-ties-its-data-tokens-to-your-ip-and-it-broke-my-scraper-in-a-way-i-didnt-expect-dgp")
+```
