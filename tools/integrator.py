@@ -250,63 +250,75 @@ def find_wikilinks(
     """Find relevant wiki pages for internal linking.
 
     Strategy:
-    1. Content-based: semantic similarity via title overlap
+    1. Content-based: semantic similarity via slug overlap
     2. Tag-based: shared tags from tag_map
-    3. Title-based: substring matches
+    3. Title-based: substring matches on slug
+
+    CRITICAL: Returns SLUGS, not titles. Wikilinks must match filenames.
+    E.g. [[page-title]] matches page-title.md, NOT [[Page Title]].
     """
     candidates = []
+    slug_to_title = _get_slug_title_pairs()
 
-    # 1. Content-based: check title overlap with existing pages
+    # 1. Content-based: check slug overlap with existing pages
     if content:
         words = set(re.findall(r"\b\w+\b", content.lower()))
-        for page_title, page_content in _get_title_content_pairs().items():
+        for slug, (page_title, page_content) in slug_to_title.items():
             page_words = set(re.findall(r"\b\w+\b", page_content.lower()))
             overlap = len(words & page_words)
             if overlap > 3:  # meaningful overlap
-                candidates.append((page_title, overlap, "content"))
+                candidates.append((slug, overlap, "content"))
 
-    # 2. Tag-based: shared tags
+    # 2. Tag-based: shared tags (tag_map keys are now slugs)
     for tag in tags:
         if tag in tag_map:
-            for page_title in tag_map[tag]:
-                if page_title != title:
-                    candidates.append((page_title, 2, "tag"))
+            for slug in tag_map[tag]:
+                if slug_to_title.get(slug, ("", ""))[0] != title:
+                    candidates.append((slug, 2, "tag"))
 
-    # 3. Title-based: substring matches
+    # 3. Slug-based: substring matches on slug
     title_words = set(title.lower().split())
-    for page_title in tag_map.get("llm-wiki", []):
-        if page_title != title:
-            page_words = set(page_title.lower().split())
-            overlap = len(title_words & page_words)
+    for slug in tag_map.get("llm-wiki", []):
+        if slug_to_title.get(slug, ("", ""))[0] != title:
+            slug_words = set(slug.lower().split("-"))
+            overlap = len(title_words & slug_words)
             if overlap > 1:
-                candidates.append((page_title, overlap * 3, "title"))
+                candidates.append((slug, overlap * 3, "title"))
 
-    # Sort by score and return top N
+    # Sort by score and return top N SLUGS
     candidates.sort(key=lambda x: x[1], reverse=True)
     seen = set()
     result = []
-    for page_title, score, source in candidates:
-        if page_title not in seen:
-            seen.add(page_title)
-            result.append(page_title)
+    for slug, score, source in candidates:
+        if slug not in seen:
+            seen.add(slug)
+            result.append(slug)
             if len(result) >= max_links:
                 break
 
     return result
 
 
-def _get_title_content_pairs() -> Dict[str, str]:
-    """Get title-content pairs from existing wiki pages for content matching."""
+def _get_slug_title_pairs() -> Dict[str, Tuple[str, str]]:
+    """Get slug->(title, content) pairs from existing wiki pages for content matching.
+
+    Returns: {slug: (title, content)} — slug is the filename stem (lowercase, hyphenated).
+    This ensures wikilinks match actual filenames, not H1 titles.
+    E.g. slug="page-title" -> title="Page Title", content="..."
+    """
     pairs = {}
     for subdir in WIKI_DIR.glob("*"):
         if subdir.is_dir():
             for f in subdir.glob("*.md"):
+                if f.name == "README.md":
+                    continue
                 try:
                     with open(f, "r", encoding="utf-8") as fh:
                         content = fh.read(2000)  # First 2000 chars for matching
                     title_match = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
-                    if title_match:
-                        pairs[title_match.group(1).strip()] = content
+                    title = title_match.group(1).strip() if title_match else f.stem
+                    slug = f.stem.lower()
+                    pairs[slug] = (title, content)
                 except Exception:
                     continue
     return pairs
@@ -1065,12 +1077,18 @@ def update_index(wiki_path: str, content_type: str, title: str):
 
 
 def build_tag_map() -> Dict[str, List[str]]:
-    """Build tag-to-page-title mapping from existing wiki pages."""
+    """Build tag-to-page-slug mapping from existing wiki pages.
+
+    CRITICAL: Returns SLUGS, not titles. tag_map["llm-wiki"] = ["page-title", ...]
+    This ensures wikilinks match actual filenames, not H1 titles.
+    """
     tag_map: Dict[str, List[str]] = {}
 
     for subdir in WIKI_DIR.glob("*"):
         if subdir.is_dir():
             for f in subdir.glob("*.md"):
+                if f.name == "README.md":
+                    continue
                 try:
                     with open(f, "r", encoding="utf-8") as fh:
                         content = fh.read(500)  # Just frontmatter
@@ -1093,16 +1111,15 @@ def build_tag_map() -> Dict[str, List[str]]:
                                     else:
                                         break
 
-                    # Extract title
-                    title_match = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
-                    title = title_match.group(1).strip() if title_match else f.name
+                    # Extract slug (filename stem) — NOT H1 title
+                    slug = f.stem.lower()
 
-                    # Add to tag map
+                    # Add to tag map (slug, not title)
                     for tag in tags:
                         if tag not in tag_map:
                             tag_map[tag] = []
-                        if title not in tag_map[tag]:
-                            tag_map[tag].append(title)
+                        if slug not in tag_map[tag]:
+                            tag_map[tag].append(slug)
                 except Exception:
                     continue
 
