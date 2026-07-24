@@ -58,6 +58,14 @@ backlinks:
   - hermes-agent-vs-openclaw-2026-07-21
 ---
 
+backlinks:
+  - hermes-agent-vs-openclaw-which-ai-agent-framework-wins-in-2026
+---
+
+backlinks:
+  - hermes-agent-vs-openclaw-2026-07-21
+---
+
 
 # Hermes Agent vs OpenClaw: Which AI Agent Framework Wins in 2026
 

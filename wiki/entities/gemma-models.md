@@ -7,6 +7,7 @@ confidence: high
 links: [llama-cpp, qwen-models, diffusion-models]
 created: 2026-07-24
 updated: 2026-07-24
+description: Auto-filled by Wiki Doctor
 ---
 
 # Gemma Models

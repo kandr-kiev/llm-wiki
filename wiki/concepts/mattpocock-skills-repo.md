@@ -7,6 +7,7 @@ confidence: high
 links: [lukesdevlab-youtube-repo, llm-wiki, agent-skills-standard]
 created: 2026-07-24
 updated: 2026-07-24
+description: Auto-filled by Wiki Doctor
 ---
 
 # Matt Pocock Skills Repo

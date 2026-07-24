@@ -7,6 +7,7 @@ confidence: high
 links: [mattpocock-skills-repo, llama-cpp, qwen-models]
 created: 2026-07-24
 updated: 2026-07-24
+description: Auto-filled by Wiki Doctor
 ---
 
 # Luke's Dev Lab YouTube Repo

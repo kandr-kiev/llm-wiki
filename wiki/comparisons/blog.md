@@ -44,6 +44,10 @@ backlinks:
 ---
 
 backlinks:
+  - shippy-tech-blog
+---
+
+backlinks:
   - blog
 ---
 

@@ -24,6 +24,10 @@ backlinks:
   - meta-open-sources-astryx-an-agent-ready-react-design-system-with-150-accessible-components-seven-themes-and-a-cli
 ---
 
+backlinks:
+  - meta-open-sources-astryx-an-agent-ready-react-design-system-with-150-accessible-components-seven-themes-and-a-cli
+---
+
 
 # meta open sources astryx an agent ready react design system with 150 accessible components seven themes and a cli
 

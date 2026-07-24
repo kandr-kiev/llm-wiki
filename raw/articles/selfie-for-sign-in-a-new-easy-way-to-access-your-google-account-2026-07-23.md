@@ -1,7 +1,7 @@
 ---
 source_url: https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in/
 ingested: 2026-07-23
-sha256: 9ba5d0bafcbd438a62eae3859a439d930835a84ae38d2581c46d0de22a140cf0
+sha256: fd55536f0d91916dfb08cdeff0623d30e84a043019096c84eb5f60fc1cc35c71
 blog_source: Hacker News
 ---
 

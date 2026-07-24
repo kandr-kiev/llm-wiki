@@ -22,6 +22,10 @@ backlinks:
   - google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads
 ---
 
+backlinks:
+  - google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads
+---
+
 
 # google releases gemini 3 6 flash 3 5 flash lite and 3 5 flash cyber a cheaper more token efficient flash tier built for agentic workloads
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements
 ingested: 2026-07-23
-sha256: 8f2aaa4a9e5f5ce2aefdfd27f875686c647806ce3913884a82261ed02897682f
+sha256: 8025ba9b974a1a4d0ef480f3dd287550b2160fe24e6c29695c0117ed2d94dd74
 blog_source: Hacker News
 ---
 

@@ -23,6 +23,10 @@ backlinks:
   - nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-model-that-reasons-and-generates-robot-actions-on-device
 ---
 
+backlinks:
+  - nvidia-releases-cosmos-3-edge-a-4b-parameter-open-world-model-that-reasons-and-generates-robot-actions-on-device
+---
+
 
 # nvidia releases cosmos 3 edge a 4b parameter open world model that reasons and generates robot actions on device
 

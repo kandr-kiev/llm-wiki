@@ -1,3 +1,9 @@
+---
+source_url: unknown
+ingested: 2026-07-24
+sha256: de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843
+blog_source: inbox:local
+---
 <p>
   <a href="https://www.aihero.dev/s/skills-newsletter">
     <picture>

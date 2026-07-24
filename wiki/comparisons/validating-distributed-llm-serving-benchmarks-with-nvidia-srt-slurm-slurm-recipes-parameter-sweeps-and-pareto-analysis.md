@@ -22,6 +22,10 @@ backlinks:
   - validating-distributed-llm-serving-benchmarks-with-nvidia-srt-slurm-slurm-recipes-parameter-sweeps-and-pareto-analysis
 ---
 
+backlinks:
+  - validating-distributed-llm-serving-benchmarks-with-nvidia-srt-slurm-slurm-recipes-parameter-sweeps-and-pareto-analysis
+---
+
 
 # validating distributed llm serving benchmarks with nvidia srt slurm slurm recipes parameter sweeps and pareto analysis
 

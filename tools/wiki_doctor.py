@@ -499,8 +499,62 @@ def cure_broken_wikilinks(report):
                 dry_changes += 1
             return ""
 
-        new_body = re.sub(r"\[\[([^\]|#]+)\]", replace_wikilink, body)
-        if new_body != body:
+        # Use clean_body (Astro tags stripped) — matches diagnose_wiki_pages input
+        # This ensures diagnose and cure operate on the same input surface
+        new_body = re.sub(r"\[\[([^\]|#]+)\]", replace_wikilink, clean_body)
+        if new_body != clean_body:
+            new_text = fm + "\n" + new_body
+            _write_if_not_dry(page, new_text)
+
+    # P1a: Fix triple/nested brackets — [[[[karpathy]] -> [[karpathy]]
+    for page in wiki_pages:
+        text = page.read_text(encoding="utf-8")
+        fm, body = split_frontmatter(text)
+        if fm is None:
+            continue
+        clean_body = re.sub(r'<astro-island\b.*', ' ', body, flags=re.DOTALL)
+        clean_body = re.sub(r'<[^>]+>', ' ', clean_body)
+
+        # Fix [[[text]] -> [[text]] (remove extra leading [)
+        new_body = re.sub(r'\[\[\[([^\]]+)\]\]', r'[[\1]]', clean_body)
+
+        # Fix ]]] -> ]] (triple closing)
+        while ']]]' in new_body:
+            new_body = new_body.replace(']]]', ']]', 1)
+
+        if new_body != clean_body:
+            new_text = fm + "\n" + new_body
+            _write_if_not_dry(page, new_text)
+            fixes += 1
+
+    # P1b: Fix [[Issue #NNNNN: text with ] inside]] — regex [^\]|#]+ fails on ]
+    # Strategy: find [[ then match until the LAST ]] on a reasonable boundary
+    for page in wiki_pages:
+        text = page.read_text(encoding="utf-8")
+        fm, body = split_frontmatter(text)
+        if fm is None:
+            continue
+        clean_body = re.sub(r'<astro-island\b.*', ' ', body, flags=re.DOTALL)
+        clean_body = re.sub(r'<[^>]+>', ' ', clean_body)
+        original = clean_body
+
+        # Pattern: [[Issue #DIGIT: ...]] where ... may contain ]
+        # Use greedy match to LAST ]] on the line
+        def fix_issue_greedy(m):
+            nonlocal fixes
+            full = m.group(0)
+            inner = m.group(1)
+            # Convert to markdown link format
+            fixes += 1
+            return f'[{inner}]'
+
+        # Match [[ then everything until the last ]] in context
+        # This handles [[Issue #123: text with ] inside]]
+        new_body = re.sub(r'\[\[(Issue #[\d]+: [^\]]+?)\]\]', fix_issue_greedy, clean_body)
+        # Also handle cases with ] inside: [[Issue #123: text] more]]
+        new_body = re.sub(r'\[\[(Issue #[\d]+:[^\]]*(?:\][^\]]+?)?)\]\]', fix_issue_greedy, new_body)
+
+        if new_body != original:
             new_text = fm + "\n" + new_body
             _write_if_not_dry(page, new_text)
 
@@ -582,13 +636,14 @@ def cure_sha256_drift(report):
             continue
         if _DRY_RUN:
             # Dry-run: check if hash would change without writing
+            # MUST use body.lstrip("\n") to match diagnose_raw_sources and fix_file_hash
             text = raw.read_text(encoding='utf-8')
             fm, body = split_frontmatter(text)
             if fm:
                 data = parse_simple_yaml(fm)
                 expected = data.get("sha256")
                 if expected:
-                    actual = hashlib.sha256(text.encode("utf-8")).hexdigest()
+                    actual = hashlib.sha256(body.lstrip("\n").encode("utf-8")).hexdigest()
                     if expected != actual:
                         fixes += 1
         else:

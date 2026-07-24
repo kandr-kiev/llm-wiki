@@ -9,6 +9,256 @@ links: []
 created: 2026-07-23
 updated: 2026-07-23
 ---
+backlinks:
+  - optimize-enterprise-app-performance-with-t-sql-query-tuning-and-indexing-strategies
+---
+
+backlinks:
+  - llm-wiki-index
+---
+
+backlinks:
+  - issue-47326-fix-assistant-tokens-mask-when-a-generation-span-ends-at-token-index-0-or-on-stripped-whitespace
+---
+
+backlinks:
+  - issue-47325-return_assistant_tokens_mask-masks-the-rest-of-the-sequence-when-a-generation-span-ends-at-token-index-0-or-on-whitespace-stripped-by-the-pre-tokenizer
+---
+
+
+### [your backstage pass to techcrunch disrupt 2026 is waiting](wiki/concepts/your-backstage-pass-to-techcrunch-disrupt-2026-is-waiting.md)
+
+
+### [you didnt get the ai model you paid for](wiki/concepts/you-didnt-get-the-ai-model-you-paid-for.md)
+
+
+### [wsff](wiki/concepts/wsff.md)
+
+
+### [why i built openagentflow decoupling multi agent workflows from framework boilerplate 450p](wiki/playbooks/why-i-built-openagentflow-decoupling-multi-agent-workflows-from-framework-boilerplate-450p.md)
+
+
+### [why dark mode should not be a second css file 1c5k](wiki/concepts/why-dark-mode-should-not-be-a-second-css-file-1c5k.md)
+
+
+### [why burning opus on every claude code turn is the 1 cost mistake in ai coding 30cb](wiki/concepts/why-burning-opus-on-every-claude-code-turn-is-the-1-cost-mistake-in-ai-coding-30cb.md)
+
+
+### [what i learned putting my own text editor into production 2al1](wiki/playbooks/what-i-learned-putting-my-own-text-editor-into-production-2al1.md)
+
+
+### [what i learned about token design on solana as a web2 developer 2he1](wiki/concepts/what-i-learned-about-token-design-on-solana-as-a-web2-developer-2he1.md)
+
+
+### [what happens if you lose your gmail account tomorrow f4l](wiki/comparisons/what-happens-if-you-lose-your-gmail-account-tomorrow-f4l.md)
+
+
+### [what just happened to thenumberscom should worry us all](wiki/concepts/what-just-happened-to-thenumberscom-should-worry-us-all.md)
+
+
+### [web accessibility in the age of agentic coding 2dd2](wiki/concepts/web-accessibility-in-the-age-of-agentic-coding-2dd2.md)
+
+
+### [we catalogued 14085 x402 endpoints 10508 came from one domain 1g19](wiki/concepts/we-catalogued-14085-x402-endpoints-10508-came-from-one-domain-1g19.md)
+
+
+### [index](wiki/playbooks/index.md)
+
+
+### [the rules were written down nobody followed them then ci went red on day one 18mi](wiki/concepts/the-rules-were-written-down-nobody-followed-them-then-ci-went-red-on-day-one-18mi.md)
+
+
+### [the case for a cooldown why dependabot now waits before issuing version updates](wiki/concepts/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates.md)
+
+
+### [arguments against open source ai are very bad](wiki/playbooks/arguments-against-open-source-ai-are-very-bad.md)
+
+
+### [the ai cant see what it drew 30ph](wiki/synthesis/the-ai-cant-see-what-it-drew-30ph.md)
+
+
+### [teaching codex to paint a stateful image editing skill built on geminis interactions api and mcp 26lc](wiki/concepts/teaching-codex-to-paint-a-stateful-image-editing-skill-built-on-geminis-interactions-api-and-mcp-26lc.md)
+
+
+### [palmier pro](wiki/concepts/palmier-pro.md)
+
+
+### [onecli](wiki/concepts/onecli.md)
+
+
+### [claude thermos](wiki/concepts/claude-thermos.md)
+
+
+### [selfie video sign in](wiki/concepts/selfie-video-sign-in.md)
+
+
+### [red team basics pass the hash kerberoasting so greifen echte angreifer an 9i4](wiki/concepts/red-team-basics-pass-the-hash-kerberoasting-so-greifen-echte-angreifer-an-9i4.md)
+
+
+### [prompt injection in neurips 2026 d](wiki/playbooks/prompt-injection-in-neurips-2026-d.md)
+
+
+### [Fit separate outcome models on each arm](wiki/playbooks/fit-separate-outcome-models-on-each-arm.md)
+
+
+### [patreon layoffs ai](wiki/concepts/patreon-layoffs-ai.md)
+
+
+### [openai makes chatgpt health available to all u s users](wiki/concepts/openai-makes-chatgpt-health-available-to-all-u-s-users.md)
+
+
+### [openai chatgpt health launch claims](wiki/concepts/openai-chatgpt-health-launch-claims.md)
+
+
+### [ohnine why i built a menu bar app for claude limits 3f25](wiki/comparisons/ohnine-why-i-built-a-menu-bar-app-for-claude-limits-3f25.md)
+
+
+### [next token prediction how an ai actually writes text not magic just probability 53dd](wiki/concepts/next-token-prediction-how-an-ai-actually-writes-text-not-magic-just-probability-53dd.md)
+
+
+### [neurips reviews are out what next d](wiki/playbooks/neurips-reviews-are-out-what-next-d.md)
+
+
+### [neurips e and d track submissions still showing 0](wiki/playbooks/neurips-e-and-d-track-submissions-still-showing-0.md)
+
+
+### [neurips e and d average rating 3 and average](wiki/playbooks/neurips-e-and-d-average-rating-3-and-average.md)
+
+
+### [multi agent coding deployment with trae ide](wiki/playbooks/multi-agent-coding-deployment-with-trae-ide.md)
+
+
+### [mit hackathon puzzle that turned into a data science project](wiki/concepts/mit-hackathon-puzzle-that-turned-into-a-data-science-project.md)
+
+
+### [meta launched a new ai optimism ad set to a song about human extinction](wiki/concepts/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction.md)
+
+
+### [meet the judges who will crown australias next breakout startup](wiki/concepts/meet-the-judges-who-will-crown-australias-next-breakout-startup.md)
+
+
+### [Skills For Real Engineers](wiki/playbooks/skills-for-real-engineers.md)
+
+
+### [Obsidian Vault](wiki/playbooks/obsidian-vault.md)
+
+
+### [lawmakers ai kill switch proposal](wiki/concepts/lawmakers-ai-kill-switch-proposal.md)
+
+
+### [laravel founders summit](wiki/concepts/laravel-founders-summit.md)
+
+
+### [knowledge and memory management v002 portable knowledge collection and memory management 3lcf](wiki/playbooks/knowledge-and-memory-management-v002-portable-knowledge-collection-and-memory-management-3lcf.md)
+
+
+### [540](wiki/playbooks/540.md)
+
+
+### [introducing cache response rules](wiki/playbooks/introducing-cache-response-rules.md)
+
+
+### [insurance startup corgi reportedly raised more money at 4b its third round in eight weeks](wiki/concepts/insurance-startup-corgi-reportedly-raised-more-money-at-4b-its-third-round-in-eight-weeks.md)
+
+
+### [i finally stopped designing and started building maxos 18e7](wiki/concepts/i-finally-stopped-designing-and-started-building-maxos-18e7.md)
+
+
+### [i built a python library to stop ai agents from leaking secrets modelfuzz 6o2](wiki/concepts/i-built-a-python-library-to-stop-ai-agents-from-leaking-secrets-modelfuzz-6o2.md)
+
+
+### [i built a cli that finds me clients on reddit using ai 55dc](wiki/playbooks/i-built-a-cli-that-finds-me-clients-on-reddit-using-ai-55dc.md)
+
+
+### [how to build efficient context for your ai client 4fnd](wiki/playbooks/how-to-build-efficient-context-for-your-ai-client-4fnd.md)
+
+
+### [how i built a neuroscience learning platform entirely on my android phone 3b88](wiki/concepts/how-i-built-a-neuroscience-learning-platform-entirely-on-my-android-phone-3b88.md)
+
+
+### [how an apple engineer pranked billion dollar lawyers and won](wiki/concepts/how-an-apple-engineer-pranked-billion-dollar-lawyers-and-won.md)
+
+
+### [how ai helps scientists design the next generation of medicines](wiki/concepts/how-ai-helps-scientists-design-the-next-generation-of-medicines.md)
+
+
+### [houhou resilience policies for typescript async functions 3f7p](wiki/concepts/houhou-resilience-policies-for-typescript-async-functions-3f7p.md)
+
+
+### [gpt55 scores 106 on activevision humans hit 961 r](wiki/playbooks/gpt55-scores-106-on-activevision-humans-hit-961-r.md)
+
+
+### [Release v5.6.1](wiki/concepts/release-v561.md)
+
+
+### [Release v0.32.3](wiki/concepts/release-v0323.md)
+
+
+### [Release langchain-core==1.5.1](wiki/concepts/release-langchain-core151.md)
+
+
+### [Release b10099](wiki/concepts/release-b10099.md)
+
+
+### [Release b10098](wiki/concepts/release-b10098.md)
+
+
+### [Release b10093](wiki/concepts/release-b10093.md)
+
+
+### [2026 packaging council nominations](wiki/playbooks/2026-packaging-council-nominations.md)
+
+
+### [gatecat a deterministic fail closed veto that stops ai coding agents before rm rf 577e](wiki/concepts/gatecat-a-deterministic-fail-closed-veto-that-stops-ai-coding-agents-before-rm-rf-577e.md)
+
+
+### [frontend only saas the rise of static utility sites i61](wiki/playbooks/frontend-only-saas-the-rise-of-static-utility-sites-i61.md)
+
+
+### [scrapemychats](wiki/concepts/scrapemychats.md)
+
+
+### [edtech platform raises 4 5m to help teach students how to vibe code](wiki/concepts/edtech-platform-raises-4-5m-to-help-teach-students-how-to-vibe-code.md)
+
+
+### [did neurips reviews come out openreview isnt](wiki/playbooks/did-neurips-reviews-come-out-openreview-isnt.md)
+
+
+### [debate driven development why ai agents that argue over your code catch 30 more bugs 491e](wiki/playbooks/debate-driven-development-why-ai-agents-that-argue-over-your-code-catch-30-more-bugs-491e.md)
+
+
+### [darpa us air force fly ai controlled f 16](wiki/synthesis/darpa-us-air-force-fly-ai-controlled-f-16.md)
+
+
+### [anthropic voice mode claude opus sonnet haiku ai](wiki/synthesis/anthropic-voice-mode-claude-opus-sonnet-haiku-ai.md)
+
+
+### [claude cowork on windows and linux how to run it in 2026 lon](wiki/playbooks/claude-cowork-on-windows-and-linux-how-to-run-it-in-2026-lon.md)
+
+
+### [claude certified architect foundations prep for anthropic s new certification exam](wiki/playbooks/claude-certified-architect-foundations-prep-for-anthropic-s-new-certification-exam.md)
+
+
+### [building on atproto](wiki/playbooks/building-on-atproto.md)
+
+
+### [building a lightweight dns exploration tool in python 1h9](wiki/concepts/building-a-lightweight-dns-exploration-tool-in-python-1h9.md)
+
+
+### [borgshield sistema de backup linux eficiente fiable y verificable 4iad](wiki/concepts/borgshield-sistema-de-backup-linux-eficiente-fiable-y-verificable-4iad.md)
+
+
+### [blocking the event loop the quiet way your app falls apart at 2pm on a tuesday 39hf](wiki/concepts/blocking-the-event-loop-the-quiet-way-your-app-falls-apart-at-2pm-on-a-tuesday-39hf.md)
+
+
+### [anthropic updates claude voice mode with more capable models](wiki/concepts/anthropic-updates-claude-voice-mode-with-more-capable-models.md)
+
+
+### [arXiv:2507.09369](wiki/concepts/arxiv250709369.md)
+
+
+### [98.css](wiki/playbooks/98css.md)
+
 
 ### [andrew ng just released openworker an open source local first desktop ai coworker that returns finished deliverables instead of chat](wiki/concepts/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat.md)
 
@@ -1251,3 +1501,11 @@ updated: 2026-07-21
 | detecting ansi escape sequence injection in mcp servers with dast | `wiki/synthesis/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast.md` |
 
 | protecting our floss commons from llms | `wiki/synthesis/protecting-our-floss-commons-from-llms.md` |
+## Backlinks
+
+```dataview
+LIST FROM ""
+WHERE contains(backlinks, "issue-47325-return_assistant_tokens_mask-masks-the-rest-of-the-sequence-when-a-generation-span-ends-at-token-index-0-or-on-whitespace-stripped-by-the-pre-tokenizer")
+```
+
+| Shared Canon — Dataview Queries | `wiki/queries/shared-canon.md` |

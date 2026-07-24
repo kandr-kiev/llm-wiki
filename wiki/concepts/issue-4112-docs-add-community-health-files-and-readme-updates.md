@@ -25,6 +25,18 @@ backlinks:
   - issue-2808-docs-add-community-health-files-contributingmd-code_of_conductmd
 ---
 
+backlinks:
+  - issue-4112-docs-add-community-health-files-and-readme-updates
+---
+
+backlinks:
+  - issue-724-docs-add-community-health-files-and-readme-updates
+---
+
+backlinks:
+  - issue-2808-docs-add-community-health-files-contributingmd-code_of_conductmd
+---
+
 
 # Issue #4112: docs: add community health files and README updates
 

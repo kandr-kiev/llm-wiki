@@ -25,6 +25,10 @@ backlinks:
   - someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model
 ---
 
+backlinks:
+  - someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model
+---
+
 
 # someone fine tuned openbmbs minicpm5 1b on claude fable 5 traces to ship a 657mb local thinking model
 
